@@ -3,7 +3,7 @@
 Instructions pour les agents IA travaillant sur le dépôt AlpineChain Association.
 
 Version : V0.1  
-Dernière mise à jour : 2026-05-12
+Dernière mise à jour : 2026-05-17
 
 ---
 
@@ -110,6 +110,24 @@ Pour les contenus publics, toujours vérifier :
 - le format ;
 - le niveau technique ;
 - la cohérence Bitcoin + souveraineté numérique.
+
+### Publications X
+
+Pour toute publication destinée à X, l’agent doit appliquer :
+
+```text
+docs/GUIDE_REDACTIONNEL_X.md
+```
+
+Avant de proposer un contenu comme publiable, l’agent doit vérifier :
+
+- la limite interne de 140 caractères ;
+- la nécessité éventuelle d’un thread ;
+- l’action attendue ;
+- la grille de validation ;
+- l’absence de jargon inutile, de répétition ou de signal négatif évident.
+
+Aucune publication X générée par IA n’est publiée sans validation humaine.
 
 ---
 
