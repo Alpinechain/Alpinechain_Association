@@ -40,6 +40,16 @@ Il définit :
 
 ---
 
+## Documents spécialisés
+
+| Fichier | Rôle |
+|---|---|
+| `docs/GUIDE_REDACTIONNEL_X.md` | Guide opérationnel pour produire et relire les publications destinées à X. |
+
+Le guide X s’applique à toute communication destinée à X produite depuis ce dépôt.
+
+---
+
 ## Structure prévue
 
 ```text
@@ -49,6 +59,7 @@ Il définit :
 ├── README.md
 ├── docs/
 │   ├── CALENDRIER_EDITORIAL.md
+│   ├── GUIDE_REDACTIONNEL_X.md
 │   └── journal-progression/
 │       └── README.md
 └── templates/
@@ -56,6 +67,15 @@ Il définit :
 ```
 
 La structure sera enrichie progressivement, uniquement si chaque fichier a un rôle clair.
+
+---
+
+## Usage recommandé
+
+1. Lire `ALPINECHAIN_ASSOCIATION_OS.md` pour comprendre le cadrage général.
+2. Utiliser `docs/GUIDE_REDACTIONNEL_X.md` avant de produire ou relire une publication destinée à X.
+3. Respecter `AGENTS.md` pour toute intervention assistée par IA.
+4. Valider humainement tout contenu avant publication publique.
 
 ---
 
