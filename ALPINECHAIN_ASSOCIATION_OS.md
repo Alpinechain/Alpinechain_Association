@@ -1,7 +1,7 @@
 # AlpineChain Association OS
 
 Version : V0.1  
-Dernière mise à jour : 2026-05-12
+Dernière mise à jour : 2026-05-17
 
 ---
 
@@ -125,6 +125,16 @@ Ton recherché :
 | Gamma | Supports visuels et présentations |
 | Nextcloud | Fichiers, visuels, photos, supports de travail |
 | GitHub | Méthode, règles, prompts, journal et documentation projet |
+
+### Règle spécifique pour X
+
+Les publications destinées à X doivent respecter :
+
+```text
+docs/GUIDE_REDACTIONNEL_X.md
+```
+
+Ce guide définit les règles de format, de rédaction, de scoring, de thread et de revue trimestrielle liées à la diffusion sur X.
 
 ---
 
