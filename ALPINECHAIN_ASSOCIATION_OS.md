@@ -1,7 +1,9 @@
 # AlpineChain Association OS
 
 Version : V0.1  
-Dernière mise à jour : 2026-05-17
+Dernière mise à jour : 2026-05-17  
+Statut : validée pour usage opérationnel initial  
+Validateur actuel : Cyrille
 
 ---
 
@@ -280,13 +282,44 @@ Indicateurs à suivre sans bureaucratie :
 
 ---
 
-## 12. Prochaines actions
+## 12. État V0.1 et prochaines actions
 
-1. Valider cette V0.1.
-2. Créer ensuite `AGENTS.md` pour cadrer les agents IA.
-3. Créer `README.md` pour présenter le dépôt.
-4. Créer `docs/CALENDRIER_EDITORIAL.md`.
-5. Créer `templates/prompt-cadrage-evenement.md`.
-6. Initialiser `docs/journal-progression/README.md`.
+### 12.1 Validation V0.1
+
+La V0.1 est validée comme base opérationnelle initiale pour piloter AlpineChain Association.
+
+Cette validation ne fige pas définitivement le système. Elle signifie que le dépôt peut maintenant servir de base de travail réelle pour :
+
+- cadrer les événements ;
+- produire les contenus ;
+- suivre les actions ;
+- capitaliser les retours ;
+- déléguer proprement certaines tâches à l’IA sous validation humaine.
+
+### 12.2 Actions réalisées
+
+- [x] Valider cette V0.1.
+- [x] Créer `AGENTS.md` pour cadrer les agents IA.
+- [x] Créer `README.md` pour présenter le dépôt.
+- [x] Créer `docs/CALENDRIER_EDITORIAL.md`.
+- [x] Créer `templates/prompt-cadrage-evenement.md`.
+- [x] Initialiser `docs/journal-progression/README.md`.
+- [x] Créer `docs/journal-progression/2026-W20.md` pour tracer l’initialisation.
+
+### 12.3 Prochaine action unique
+
+Utiliser le prompt de cadrage événement pour préparer le prochain rendez-vous AlpineChain prioritaire :
+
+```text
+templates/prompt-cadrage-evenement.md
+```
+
+La sortie attendue doit permettre de produire ensuite :
+
+- une page ou annonce événement ;
+- une description Meetup ;
+- une séquence de posts ;
+- une checklist de publication ;
+- une base de capitalisation post-événement.
 
 Règle de progression : un fichier créé doit avoir un rôle clair, sinon il n’est pas créé.
