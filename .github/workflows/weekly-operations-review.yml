@@ -1,0 +1,68 @@
+name: Weekly Operations Review
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "5 7 * * 1"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/weekly-operations-review.yml"
+      - "operations/weekly-review.md"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: weekly-operations-review
+  cancel-in-progress: false
+
+jobs:
+  create-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create weekly review issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          week="$(date -u +'%G-W%V')"
+          title="[REVUE HEBDO] Exploitation AlpineChain $week"
+
+          existing="$(gh issue list \
+            --state all \
+            --limit 200 \
+            --json number,title \
+            --jq ".[] | select(.title == \"$title\") | .number" \
+            | head -n1)"
+
+          if [ -n "$existing" ]; then
+            echo "Review issue already exists: #$existing"
+            exit 0
+          fi
+
+          body="$RUNNER_TEMP/weekly-review.md"
+          {
+            echo "## Revue $week"
+            echo
+            echo "Issue créée automatiquement. Les contrôles sont préparés par l’automatisation ; les décisions et validations restent humaines."
+            echo
+            cat operations/weekly-review.md
+            echo
+            echo "## Création"
+            echo
+            echo "$RUN_URL"
+          } > "$body"
+
+          gh issue create \
+            --title "$title" \
+            --body-file "$body" \
+            --assignee Copinmalin \
+            --label project:association \
+            --label type:task \
+            --label area:technical \
+            --label human-validation
