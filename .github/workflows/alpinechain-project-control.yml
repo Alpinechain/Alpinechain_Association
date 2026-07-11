@@ -25,7 +25,7 @@ name: AlpineChain Project Control
 
 permissions:
   contents: read
-  issues: read
+  issues: write
   pull-requests: read
 
 concurrency:
@@ -90,3 +90,21 @@ jobs:
           else
             .github/scripts/project-control.sh issue-event "$ISSUE_URL" "$EVENT_ACTION"
           fi
+
+      - name: Report result on triggering issue
+        if: ${{ always() && github.event_name == 'issues' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          JOB_STATUS: ${{ job.status }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ "$JOB_STATUS" = "success" ]; then
+            marker="✅"
+          else
+            marker="❌"
+          fi
+
+          gh issue comment "$ISSUE_URL" --body "$marker AlpineChain Project Control : **$JOB_STATUS**
+
+          Exécution : $RUN_URL"
