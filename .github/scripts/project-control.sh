@@ -293,9 +293,10 @@ existing_project_item_id() {
   local issue_node_id="$1"
   local project_node_id="$2"
 
-  gh api graphql \
+  local response
+  response="$(gh api graphql \
     -f query='
-      query($issue: ID!, $project: ID!) {
+      query($issue: ID!) {
         node(id: $issue) {
           ... on Issue {
             projectItems(first: 100, includeArchived: false) {
@@ -307,10 +308,14 @@ existing_project_item_id() {
           }
         }
       }' \
-    -f issue="$issue_node_id" \
-    -f project="$project_node_id" \
-    --jq '.data.node.projectItems.nodes[] | select(.project.id == $project) | .id' \
-    2>/dev/null \
+    -f issue="$issue_node_id")"
+
+  jq -r \
+    --arg project "$project_node_id" \
+    '.data.node.projectItems.nodes[]
+      | select(.project.id == $project)
+      | .id' \
+    <<<"$response" \
     | head -n1
 }
 
