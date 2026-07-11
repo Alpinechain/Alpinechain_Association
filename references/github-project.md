@@ -1,11 +1,14 @@
 # GitHub Project — AlpineChain Control Center
 
-## Project actif
+## État opérationnel
 
 - URL : https://github.com/users/Alpinechain/projects/1
 - Propriétaire : `Alpinechain`
 - Numéro : `1`
 - Dépôt piloté : `Alpinechain/Alpinechain_Association`
+- Mise en production validée : 2026-07-11
+- Issue de mise en place : [#14](https://github.com/Alpinechain/Alpinechain_Association/issues/14), terminée
+- Réconciliation complète validée : [run 29165354583](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/29165354583)
 
 Le Project est la vue portefeuille. Les Issues restent la source de vérité des actions, décisions, responsables et échanges.
 
@@ -18,72 +21,75 @@ Le dépôt contient :
 .github/scripts/project-control.sh
 ```
 
-Le contrôleur utilise GitHub Actions, GitHub CLI et l’API GraphQL Projects V2.
+Le contrôleur utilise GitHub Actions et l’API GraphQL Projects V2. GitHub CLI est utilisé comme client de l’API et pour lire les Issues, mais aucune commande `gh project` n’est utilisée.
 
-### Fonctions
+Ce choix évite les scopes annexes `read:org` et `read:discussion` réclamés par certaines sous-commandes GitHub CLI alors qu’ils ne sont pas nécessaires au fonctionnement de ce Project utilisateur.
+
+### Fonctions validées
 
 - relier le dépôt au Project ;
 - mettre à jour le nom, la description et le README du Project ;
 - créer les champs manquants sans dupliquer ceux qui existent ;
 - importer toutes les Issues ouvertes ;
 - ajouter automatiquement les Issues ouvertes, rouvertes, transférées ou modifiées ;
+- détecter les éléments déjà présents ;
 - classer les Issues selon leurs labels `project:*` ;
 - initialiser la priorité à `P2` ;
 - extraire une échéance au format `YYYY-MM-DD` depuis le corps de l’Issue ;
 - passer les Issues `blocked` ou `waiting` en `En attente` ;
 - passer les Issues fermées en `Terminé` ;
 - réconcilier le Project chaque lundi matin ;
-- permettre une exécution manuelle `bootstrap` ou `reconcile`.
+- permettre une exécution manuelle `bootstrap` ou `reconcile` ;
+- publier dans l’Issue déclenchante le résultat et les dernières lignes d’erreur.
 
 Le script est idempotent : une nouvelle exécution complète ou corrige le Project sans recréer les mêmes éléments.
 
-## Authentification obligatoire
+## Authentification
 
-Le jeton standard `GITHUB_TOKEN` d’un workflow est limité au dépôt et ne peut pas administrer GitHub Projects.
+Le jeton standard `GITHUB_TOKEN` d’un workflow est limité au dépôt et ne peut pas administrer ce Project utilisateur.
 
-Un secret Actions nommé exactement :
+Le dépôt utilise donc un secret Actions nommé :
 
 ```text
 PROJECTS_TOKEN
 ```
 
-doit être créé dans :
+Il est configuré dans :
 
 ```text
-Settings → Secrets and variables → Actions → New repository secret
+Settings → Secrets and variables → Actions
 ```
 
-### Option recommandée
+Le contrôleur vérifie que ce jeton appartient bien au compte `Alpinechain` avant toute mutation.
 
-Créer un personal access token à portée limitée, détenu par le compte `Alpinechain`, avec :
+### Permissions retenues
 
-- accès en lecture et écriture au Project utilisateur ;
-- accès au dépôt `Alpinechain/Alpinechain_Association` ;
-- lecture des Issues et métadonnées du dépôt.
-
-### Option de compatibilité
-
-Utiliser un PAT classic avec les portées :
+Pour un PAT classic :
 
 ```text
 project
 repo
 ```
 
+Aucun scope `read:org` ou `read:discussion` n’est requis par le contrôleur GraphQL actuel.
+
 Le jeton ne doit jamais être écrit dans une Issue, un fichier du dépôt ou une conversation.
 
-## Initialisation
+## Exploitation
 
-Après création du secret `PROJECTS_TOKEN` :
+### Automatique
 
-1. ouvrir l’onglet **Actions** du dépôt ;
-2. sélectionner **AlpineChain Project Control** ;
-3. choisir **Run workflow** ;
-4. conserver l’opération `bootstrap` ;
-5. lancer le workflow ;
-6. vérifier que les Issues ouvertes apparaissent dans le Project.
+- tout événement pertinent sur une Issue synchronise l’Issue concernée ;
+- toute Issue fermée passe à `Terminé` ;
+- une réconciliation complète s’exécute chaque lundi à 04:17 UTC ;
+- toute erreur est commentée sur l’Issue déclenchante avec le lien du run et un extrait du log.
 
-Les exécutions suivantes seront automatiques. L’opération manuelle `reconcile` permet de forcer une remise en cohérence complète.
+### Manuelle
+
+Dans l’onglet **Actions**, sélectionner **AlpineChain Project Control**, puis lancer :
+
+- `bootstrap` pour initialiser ou réinitialiser l’ensemble ;
+- `reconcile` pour remettre toutes les Issues ouvertes en cohérence.
 
 ## Champs gérés
 
@@ -98,9 +104,9 @@ Les exécutions suivantes seront automatiques. L’opération manuelle `reconcil
 
 Le champ GitHub natif `Status` peut être masqué dans les vues afin d’éviter un doublon avec `Statut opérationnel`.
 
-## Vues à créer dans l’interface
+## Vues recommandées
 
-L’API GitHub permet d’administrer les éléments et les champs, mais ne fournit pas une gestion fiable des vues enregistrées. Ces vues restent donc configurées dans l’interface du Project.
+GitHub ne fournit pas de mutation stable pour créer et configurer les vues enregistrées. La vue par défaut est opérationnelle ; les vues complémentaires restent des réglages d’interface non bloquants.
 
 ### Maintenant
 

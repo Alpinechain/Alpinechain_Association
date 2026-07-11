@@ -14,8 +14,12 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 2. Consolider les confirmations sponsors B-Only 2026 et les actions de facturation associées.
 3. Préparer l’atelier Bitcoin de septembre 2026 consacré au multisig et au Disaster Recovery.
 4. Définir le prochain rendez-vous Souveraineté 3.0 : sujet, intervenant, date et promesse publique.
-5. Finaliser le cockpit GitHub et convertir les actions ouvertes en Issues traçables.
+5. Utiliser le Control Center comme point de passage unique pour les nouvelles actions et les revues hebdomadaires.
 6. Renforcer la résilience de l’infrastructure : monitoring, sauvegardes et test de restauration.
+
+## Système de pilotage
+
+Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) est opérationnel. Les Issues ouvertes sont synchronisées automatiquement et une réconciliation complète s’exécute chaque semaine.
 
 ## Décisions attendues
 
