@@ -10,53 +10,68 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 
 ## Priorités actives
 
-1. Ouvrir et communiquer la billetterie B-Only 2026 prévue le 21 juillet 2026 à 21:21.
-2. Consolider les confirmations sponsors B-Only 2026 et les actions de facturation associées.
-3. Préparer l’atelier Bitcoin de septembre 2026 consacré au multisig et au Disaster Recovery.
-4. Définir le prochain rendez-vous Souveraineté 3.0 : sujet, intervenant, date et promesse publique.
-5. Utiliser le Control Center comme point de passage unique pour les nouvelles actions et les revues hebdomadaires.
+1. Ouvrir et communiquer la billetterie B-Only 2026 prévue le 21 juillet 2026 à 21:21 : [Issue #2](https://github.com/Alpinechain/Alpinechain_Association/issues/2).
+2. Consolider les confirmations sponsors B-Only 2026 et les actions de facturation associées : [Issue #3](https://github.com/Alpinechain/Alpinechain_Association/issues/3).
+3. Préparer l’atelier Bitcoin multisig et Disaster Recovery du 2 septembre 2026 selon la checklist datée J-21 à J+3 : [Issue #6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
+4. Franchir la porte de lancement du prochain rendez-vous Souveraineté 3.0 : thème, date, lieu, format, promesse et inscription : [Issue #7](https://github.com/Alpinechain/Alpinechain_Association/issues/7).
+5. Piloter les huit chantiers B-Only depuis le [tableau B-Only 2026](../projects/b-only/BOARD.md).
 6. Renforcer la résilience de l’infrastructure : monitoring, sauvegardes et test de restauration.
 
 ## Système de pilotage
 
 Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) est opérationnel. Les Issues ouvertes sont synchronisées automatiquement et une réconciliation complète s’exécute chaque semaine.
 
+Le standard événement commun est défini dans [`references/event-standard.md`](../references/event-standard.md). Toute nouvelle rencontre utilise le modèle `.github/ISSUE_TEMPLATE/evenement.md` et reste ouverte jusqu’à la capitalisation J+3.
+
+B-Only est piloté par huit chantiers et dix Issues actives portant le label `project:b-only`.
+
 ## Décisions attendues
 
 - Confirmer les modalités définitives de lancement de la billetterie B-Only 2026.
-- Valider le prochain thème et le prochain responsable du rendez-vous Souveraineté 3.0.
+- Confirmer l’intervenant, la salle exacte, la capacité et le budget de l’atelier Bitcoin du 2 septembre 2026.
+- Valider le prochain thème, la date, le lieu et la promesse du rendez-vous Souveraineté 3.0.
 - Définir les personnes disposant des droits opérationnels sur les comptes Meta AlpineChain.
 - Prioriser les sponsors B-Only à relancer en premier.
+- Fixer les premières échéances des chantiers communication, logistique, finances et risques de B-Only.
 
 ## En attente de tiers
 
 - Confirmation formelle de participation de Bitstack au pack soutien B-Only 2026.
 - Finalisation des éléments administratifs et commerciaux avec Paymium.
 - Réponses des partenaires, sponsors et intervenants encore en discussion.
+- Confirmation de l’intervenant de l’atelier multisig et Disaster Recovery.
 
 ## Risques à surveiller
 
 - Informations divergentes entre GitHub, Nextcloud, Pretix, les conversations ChatGPT et les publications publiques.
+- Événement publié avant franchissement de la porte de lancement J-21.
 - Actions importantes sans responsable ni échéance.
 - Dépendance excessive à une seule personne pour les comptes, validations et accès.
 - Sauvegardes non testées ou absence de procédure de restauration documentée.
 - Communication B-Only lancée avant validation complète des tarifs, liens et conditions.
+- Chantiers B-Only sans prochaine action datée malgré leur présence dans le tableau.
 
 ## Prochaines échéances connues
 
 | Date | Échéance | Projet |
 |---|---|---|
 | 2026-07-21 21:21 | Ouverture prévue de la billetterie B-Only 2026 | B-Only |
+| 2026-08-12 | J-21 de l’atelier multisig et Disaster Recovery | Meetup Bitcoin |
 | 2026-09-02 19:00 | Atelier Bitcoin : multisig et Disaster Recovery | Meetup Bitcoin |
+| 2026-09-05 | Capitalisation J+3 de l’atelier Bitcoin | Meetup Bitcoin |
 | 2026-11-07 au 2026-11-09 | B-Only 2026 | B-Only |
 
 ## Publications à valider
 
 Toute publication publique doit rester en validation humaine. Les campagnes actives doivent être rattachées à une Issue GitHub et comporter les liens publics définitifs.
 
+Aucune publication principale d’événement ne part tant que la porte de lancement définie dans `references/event-standard.md` n’est pas franchie.
+
 ## Règle d’usage
 
 - Une action concrète devient une Issue.
+- Un événement utilise le modèle d’Issue événement et reste ouvert jusqu’à J+3.
 - Une décision durable est ajoutée au document de référence concerné.
 - Un fichier lourd ou un visuel est stocké dans Nextcloud.
+- Les données personnelles et commerciales détaillées restent dans les outils métiers.
 - Ce tableau est actualisé au minimum une fois par semaine.
