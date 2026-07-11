@@ -54,6 +54,18 @@ jobs:
 
       - uses: actions/checkout@v4
 
+      - name: Verify Project token owner
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+        run: |
+          authenticated_login="$(gh api user --jq .login)"
+          if [ "${authenticated_login,,}" != "${PROJECT_OWNER,,}" ]; then
+            echo "::error::PROJECTS_TOKEN belongs to '$authenticated_login', but this user Project belongs to '$PROJECT_OWNER'."
+            echo "Create the token while authenticated as the Alpinechain account."
+            exit 1
+          fi
+          echo "Authenticated Project owner: $authenticated_login"
+
       - name: Run project controller
         env:
           GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
@@ -63,6 +75,13 @@ jobs:
           DISPATCH_OPERATION: ${{ inputs.operation || '' }}
         run: |
           chmod +x .github/scripts/project-control.sh
+
+          # `gh project` can fail to resolve an explicit login for user-owned
+          # Projects in Actions. GitHub CLI documents `@me` as the canonical
+          # selector for the current user's Project. The GraphQL owner lookup
+          # remains unchanged and continues to use PROJECT_OWNER.
+          sed -i 's/--owner "$PROJECT_OWNER"/--owner "@me"/g' \
+            .github/scripts/project-control.sh
 
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             .github/scripts/project-control.sh "$DISPATCH_OPERATION"
