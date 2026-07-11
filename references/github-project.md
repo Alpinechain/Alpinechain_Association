@@ -121,9 +121,22 @@ GitHub ne fournit pas de mutation stable pour créer et configurer les vues enre
 
 ### B-Only 2026
 
+Référence détaillée : [`projects/b-only/BOARD.md`](../projects/b-only/BOARD.md)
+
+- nom : `B-Only 2026` ;
 - filtre : `label:project:b-only` ;
+- disposition : tableau ou board ;
 - groupement : `Statut opérationnel` ;
-- tri : `Échéance` croissante.
+- tri : `Priorité`, puis `Échéance` croissante ;
+- champs visibles : Titre, Priorité, Échéance, Assignees et Labels ;
+- champ natif `Status` masqué s’il fait doublon.
+
+Vues secondaires recommandées :
+
+- `B-Only — En attente` : `label:project:b-only label:waiting,blocked` ;
+- `B-Only — Finances` : `label:project:b-only label:area:finance` ;
+- `B-Only — Production` : `label:project:b-only label:area:event,area:technical` ;
+- `B-Only — Validation Cyrille` : `label:project:b-only label:human-validation`.
 
 ### Meetups
 
