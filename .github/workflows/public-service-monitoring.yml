@@ -1,0 +1,116 @@
+name: Public Service Monitoring
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "23 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/public-service-monitoring.yml"
+      - "scripts/check-public-services.sh"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: public-service-monitoring
+  cancel-in-progress: true
+
+jobs:
+  check-services:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check public services
+        id: health
+        run: |
+          chmod +x scripts/check-public-services.sh
+          set +e
+          scripts/check-public-services.sh \
+            | tee "$RUNNER_TEMP/public-services-report.md"
+          health_exit="${PIPESTATUS[0]}"
+          set -e
+          echo "exit_code=$health_exit" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update incident
+        if: ${{ steps.health.outputs.exit_code != '0' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="[INCIDENT] Services publics AlpineChain indisponibles"
+          incident_number="$(gh issue list \
+            --state open \
+            --label type:incident \
+            --limit 100 \
+            --json number,title \
+            --jq ".[] | select(.title == \"$title\") | .number" \
+            | head -n1)"
+
+          body="$RUNNER_TEMP/incident-body.md"
+          {
+            echo "## Détection automatique"
+            echo
+            cat "$RUNNER_TEMP/public-services-report.md"
+            echo
+            echo "## Exécution"
+            echo
+            echo "$RUN_URL"
+            echo
+            echo "## Action attendue"
+            echo
+            echo "- [ ] Confirmer l’incident depuis un second accès."
+            echo "- [ ] Identifier le service, le conteneur ou la dépendance en cause."
+            echo "- [ ] Appliquer le runbook du dépôt privé Alpinechain/Serveur."
+            echo "- [ ] Documenter la cause, la correction et les suites."
+            echo
+            echo "Aucune remédiation de production n’est exécutée automatiquement."
+          } > "$body"
+
+          if [ -z "$incident_number" ]; then
+            gh issue create \
+              --title "$title" \
+              --body-file "$body" \
+              --assignee Copinmalin \
+              --label project:association \
+              --label type:incident \
+              --label area:technical \
+              --label human-validation
+          else
+            gh issue edit "$incident_number" --body-file "$body"
+          fi
+
+      - name: Close recovered incident
+        if: ${{ steps.health.outputs.exit_code == '0' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="[INCIDENT] Services publics AlpineChain indisponibles"
+          incident_number="$(gh issue list \
+            --state open \
+            --label type:incident \
+            --limit 100 \
+            --json number,title \
+            --jq ".[] | select(.title == \"$title\") | .number" \
+            | head -n1)"
+
+          if [ -n "$incident_number" ]; then
+            gh issue comment "$incident_number" \
+              --body "✅ Tous les services contrôlés répondent de nouveau.\n\nContrôle : $RUN_URL"
+            gh issue close "$incident_number" \
+              --reason completed \
+              --comment "Incident fermé automatiquement après contrôle de rétablissement. Une revue humaine de la cause reste recommandée."
+          fi
+
+      - name: Fail workflow on outage
+        if: ${{ steps.health.outputs.exit_code != '0' }}
+        env:
+          HEALTH_EXIT: ${{ steps.health.outputs.exit_code }}
+        run: |
+          echo "::error::At least one public service check failed."
+          exit "$HEALTH_EXIT"

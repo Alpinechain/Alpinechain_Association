@@ -6,7 +6,7 @@ Lieu : Novotel Annecy Centre
 
 ## Rôle
 
-Ce fichier décrit la structure du portefeuille B-Only. L’état vivant des actions reste dans le [GitHub Project AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) et dans les Issues.
+Ce fichier décrit la structure du portefeuille B-Only. L’état vivant des actions se trouve dans la [vue GitHub Project B-Only 2026](https://github.com/users/Alpinechain/projects/1/views/2) et dans les Issues.
 
 Toutes les Issues du tableau portent le label `project:b-only` et sont automatiquement synchronisées dans le Project.
 
@@ -35,19 +35,14 @@ L’« état initial » sert uniquement à l’orientation. Le champ `Statut op�
 
 Une modification de la chaîne critique doit être répercutée dans toutes les Issues dépendantes.
 
-## Configuration de la vue GitHub Project
+## Vue GitHub Project active
 
-GitHub ne fournit pas de mutation stable pour créer automatiquement les vues enregistrées. La vue doit être configurée dans l’interface avec les paramètres suivants :
-
-| Paramètre | Valeur |
-|---|---|
-| Nom | `B-Only 2026` |
-| Filtre | `label:project:b-only` |
-| Disposition | Tableau ou board |
-| Groupement principal | `Statut opérationnel` |
-| Tri | `Priorité`, puis `Échéance` croissante |
-| Champs visibles | Titre, Priorité, Échéance, Assignees, Labels |
-| Champ natif à masquer | `Status`, si doublon avec `Statut opérationnel` |
+- URL : https://github.com/users/Alpinechain/projects/1/views/2
+- Nom : `B-Only 2026`
+- Filtre de référence : `label:project:b-only`
+- Groupement recommandé : `Statut opérationnel`
+- Tri recommandé : `Priorité`, puis `Échéance` croissante
+- Champs utiles : Titre, Priorité, Échéance, Assignees et Labels
 
 ### Vues secondaires utiles
 
@@ -91,6 +86,6 @@ Le tableau est opérationnel lorsque :
 - [x] les Issues existantes sont reliées aux bons chantiers ;
 - [x] les dépendances principales sont documentées ;
 - [x] toutes les Issues portent `project:b-only` et remontent dans le Control Center ;
-- [ ] la vue enregistrée `B-Only 2026` est configurée dans l’interface ;
+- [x] la vue enregistrée `B-Only 2026` est configurée dans l’interface ;
 - [ ] chaque chantier possède une prochaine action datée et un responsable confirmé ;
 - [ ] la revue hebdomadaire est intégrée au fonctionnement de l’équipe.

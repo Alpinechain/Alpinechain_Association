@@ -14,8 +14,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 2. Consolider les confirmations sponsors B-Only 2026 et les actions de facturation associées : [Issue #3](https://github.com/Alpinechain/Alpinechain_Association/issues/3).
 3. Préparer l’atelier Bitcoin multisig et Disaster Recovery du 2 septembre 2026 selon la checklist datée J-21 à J+3 : [Issue #6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
 4. Franchir la porte de lancement du prochain rendez-vous Souveraineté 3.0 : thème, date, lieu, format, promesse et inscription : [Issue #7](https://github.com/Alpinechain/Alpinechain_Association/issues/7).
-5. Piloter les huit chantiers B-Only depuis le [tableau B-Only 2026](../projects/b-only/BOARD.md).
-6. Renforcer la résilience de l’infrastructure : monitoring, sauvegardes et test de restauration.
+5. Piloter les huit chantiers dans la [vue B-Only 2026](https://github.com/users/Alpinechain/projects/1/views/2).
+6. Déployer la Phase 3 d’exploitation connectée : monitoring, sauvegarde chiffrée et restauration testée, suivis dans [#30](https://github.com/Alpinechain/Alpinechain_Association/issues/30) et [#9](https://github.com/Alpinechain/Alpinechain_Association/issues/9).
 
 ## Système de pilotage
 
@@ -23,7 +23,16 @@ Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinech
 
 Le standard événement commun est défini dans [`references/event-standard.md`](../references/event-standard.md). Toute nouvelle rencontre utilise le modèle `.github/ISSUE_TEMPLATE/evenement.md` et reste ouverte jusqu’à la capitalisation J+3.
 
-B-Only est piloté par huit chantiers et dix Issues actives portant le label `project:b-only`.
+Les flux entre outils sont définis dans [`references/data-flows.md`](../references/data-flows.md) et les limites d’automatisation dans [`references/automation-policy.md`](../references/automation-policy.md).
+
+## Phase 3 — État
+
+- Cartographie des outils et flux : préparée dans GitHub.
+- Monitoring externe des services publics : workflow horaire préparé.
+- Revue hebdomadaire : création automatique d’une Issue chaque lundi.
+- Sauvegarde Restic, rétention et rapport local : code préparé dans `Alpinechain/Serveur`.
+- Test de restauration : runbook préparé, exécution réelle encore requise.
+- Publication, paiement et décision : validation humaine maintenue.
 
 ## Décisions attendues
 
@@ -32,7 +41,8 @@ B-Only est piloté par huit chantiers et dix Issues actives portant le label `pr
 - Valider le prochain thème, la date, le lieu et la promesse du rendez-vous Souveraineté 3.0.
 - Définir les personnes disposant des droits opérationnels sur les comptes Meta AlpineChain.
 - Prioriser les sponsors B-Only à relancer en premier.
-- Fixer les premières échéances des chantiers communication, logistique, finances et risques de B-Only.
+- Choisir et configurer la cible Restic chiffrée hors du serveur de production.
+- Valider les objectifs initiaux RPO 24 heures et RTO 8 heures.
 
 ## En attente de tiers
 
@@ -47,7 +57,7 @@ B-Only est piloté par huit chantiers et dix Issues actives portant le label `pr
 - Événement publié avant franchissement de la porte de lancement J-21.
 - Actions importantes sans responsable ni échéance.
 - Dépendance excessive à une seule personne pour les comptes, validations et accès.
-- Sauvegardes non testées ou absence de procédure de restauration documentée.
+- Sauvegarde versionnée mais non encore activée ni restaurée sur le serveur.
 - Communication B-Only lancée avant validation complète des tarifs, liens et conditions.
 - Chantiers B-Only sans prochaine action datée malgré leur présence dans le tableau.
 
@@ -74,4 +84,5 @@ Aucune publication principale d’événement ne part tant que la porte de lance
 - Une décision durable est ajoutée au document de référence concerné.
 - Un fichier lourd ou un visuel est stocké dans Nextcloud.
 - Les données personnelles et commerciales détaillées restent dans les outils métiers.
+- Les contrôles automatiques peuvent ouvrir des Issues, mais ne publient ni ne paient.
 - Ce tableau est actualisé au minimum une fois par semaine.
