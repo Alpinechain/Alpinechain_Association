@@ -73,6 +73,7 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_ACTION: ${{ github.event.action || '' }}
           ISSUE_URL: ${{ github.event.issue.html_url || '' }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || '' }}
           DISPATCH_OPERATION: ${{ inputs.operation || '' }}
         run: |
           chmod +x .github/scripts/project-control.sh
@@ -82,6 +83,11 @@ jobs:
             .github/scripts/project-control.sh "$DISPATCH_OPERATION" 2>&1 \
               | tee "$RUNNER_TEMP/project-control.log"
           elif [ "$EVENT_NAME" = "schedule" ]; then
+            .github/scripts/project-control.sh reconcile 2>&1 \
+              | tee "$RUNNER_TEMP/project-control.log"
+          elif [ "$EVENT_NAME" = "issues" ] \
+            && [ "$ISSUE_NUMBER" = "14" ] \
+            && [ "$EVENT_ACTION" = "edited" ]; then
             .github/scripts/project-control.sh reconcile 2>&1 \
               | tee "$RUNNER_TEMP/project-control.log"
           else
