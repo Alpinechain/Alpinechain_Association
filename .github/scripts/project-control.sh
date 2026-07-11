@@ -20,6 +20,17 @@ require_tools() {
   [ -n "${GH_TOKEN:-}" ] || die "GH_TOKEN is empty. Configure the PROJECTS_TOKEN repository secret."
 }
 
+graphql_json() {
+  local query="$1"
+  local variables_json="$2"
+
+  jq -n \
+    --arg query "$query" \
+    --argjson variables "$variables_json" \
+    '{query: $query, variables: $variables}' \
+    | gh api graphql --input -
+}
+
 project_id() {
   gh api graphql \
     -f query='
@@ -35,8 +46,9 @@ project_id() {
     --jq '.data.user.projectV2.id'
 }
 
-load_fields_json() {
+load_project_json() {
   local project_node_id="$1"
+
   gh api graphql \
     -f query='
       query($project: ID!) {
@@ -60,6 +72,12 @@ load_fields_json() {
                 }
               }
             }
+            repositories(first: 100) {
+              nodes {
+                id
+                nameWithOwner
+              }
+            }
           }
         }
       }' \
@@ -67,37 +85,158 @@ load_fields_json() {
 }
 
 field_exists() {
-  local name="$1"
-  gh project field-list "$PROJECT_NUMBER" \
-    --owner "$PROJECT_OWNER" \
-    --limit 100 \
-    --format json \
-    --jq '.fields[].name' | grep -Fxq "$name"
+  local project_json="$1"
+  local name="$2"
+
+  jq -e \
+    --arg name "$name" \
+    '.data.node.fields.nodes | map(.name) | index($name) != null' \
+    <<<"$project_json" >/dev/null
+}
+
+single_select_options_json() {
+  local field_name="$1"
+
+  case "$field_name" in
+    "Statut opérationnel")
+      jq -n '[
+        {name: "Inbox", description: "Nouvelle action à qualifier", color: "GRAY"},
+        {name: "À faire", description: "Action prête à démarrer", color: "BLUE"},
+        {name: "En cours", description: "Travail actif", color: "YELLOW"},
+        {name: "En attente", description: "Dépendance ou réponse attendue", color: "ORANGE"},
+        {name: "À valider", description: "Validation humaine requise", color: "PURPLE"},
+        {name: "Terminé", description: "Action achevée", color: "GREEN"}
+      ]'
+      ;;
+    "Priorité")
+      jq -n '[
+        {name: "P0", description: "Critique et immédiat", color: "RED"},
+        {name: "P1", description: "Priorité haute", color: "ORANGE"},
+        {name: "P2", description: "Priorité normale", color: "YELLOW"},
+        {name: "P3", description: "Faible priorité", color: "GRAY"}
+      ]'
+      ;;
+    "Projet")
+      jq -n '[
+        {name: "Association", description: "Pilotage général AlpineChain", color: "BLUE"},
+        {name: "Meetup Bitcoin", description: "Ateliers et rencontres Bitcoin", color: "ORANGE"},
+        {name: "Souveraineté", description: "Rencontres Souveraineté 3.0", color: "PURPLE"},
+        {name: "B-Only", description: "Conférence B-Only", color: "GRAY"}
+      ]'
+      ;;
+    *)
+      die "No single-select configuration defined for field: $field_name"
+      ;;
+  esac
 }
 
 ensure_field() {
-  local name="$1"
-  local data_type="$2"
-  local options="${3:-}"
+  local project_node_id="$1"
+  local project_json="$2"
+  local name="$3"
+  local data_type="$4"
 
-  if field_exists "$name"; then
+  if field_exists "$project_json" "$name"; then
     log "Field already exists: $name"
     return
   fi
 
   log "Creating field: $name"
+
+  local query
+  query='mutation($input: CreateProjectV2FieldInput!) {
+    createProjectV2Field(input: $input) {
+      projectV2Field {
+        __typename
+        ... on ProjectV2Field { id name }
+        ... on ProjectV2SingleSelectField { id name }
+        ... on ProjectV2IterationField { id name }
+      }
+    }
+  }'
+
+  local variables
   if [ "$data_type" = "SINGLE_SELECT" ]; then
-    gh project field-create "$PROJECT_NUMBER" \
-      --owner "$PROJECT_OWNER" \
-      --name "$name" \
-      --data-type "$data_type" \
-      --single-select-options "$options" >/dev/null
+    local options_json
+    options_json="$(single_select_options_json "$name")"
+    variables="$(jq -n \
+      --arg project "$project_node_id" \
+      --arg name "$name" \
+      --arg data_type "$data_type" \
+      --argjson options "$options_json" \
+      '{input: {
+        projectId: $project,
+        name: $name,
+        dataType: $data_type,
+        singleSelectOptions: $options
+      }}')"
   else
-    gh project field-create "$PROJECT_NUMBER" \
-      --owner "$PROJECT_OWNER" \
-      --name "$name" \
-      --data-type "$data_type" >/dev/null
+    variables="$(jq -n \
+      --arg project "$project_node_id" \
+      --arg name "$name" \
+      --arg data_type "$data_type" \
+      '{input: {
+        projectId: $project,
+        name: $name,
+        dataType: $data_type
+      }}')"
   fi
+
+  graphql_json "$query" "$variables" >/dev/null
+}
+
+repository_coordinates() {
+  local owner="${TARGET_REPOSITORY%%/*}"
+  local name="${TARGET_REPOSITORY#*/}"
+  printf '%s\t%s\n' "$owner" "$name"
+}
+
+ensure_repository_link() {
+  local project_node_id="$1"
+  local project_json="$2"
+
+  if jq -e \
+    --arg repository "$TARGET_REPOSITORY" \
+    '.data.node.repositories.nodes | map(.nameWithOwner) | index($repository) != null' \
+    <<<"$project_json" >/dev/null; then
+    log "Repository already linked: $TARGET_REPOSITORY"
+    return
+  fi
+
+  local repository_owner
+  local repository_name
+  IFS=$'\t' read -r repository_owner repository_name \
+    < <(repository_coordinates)
+
+  local repository_id
+  repository_id="$(gh api graphql \
+    -f query='
+      query($owner: String!, $name: String!) {
+        repository(owner: $owner, name: $name) {
+          id
+        }
+      }' \
+    -f owner="$repository_owner" \
+    -f name="$repository_name" \
+    --jq '.data.repository.id')"
+
+  [ -n "$repository_id" ] || die "Repository not found: $TARGET_REPOSITORY"
+
+  log "Linking repository to project: $TARGET_REPOSITORY"
+  local query
+  query='mutation($input: LinkProjectV2ToRepositoryInput!) {
+    linkProjectV2ToRepository(input: $input) {
+      repository { id nameWithOwner }
+    }
+  }'
+
+  local variables
+  variables="$(jq -n \
+    --arg project "$project_node_id" \
+    --arg repository "$repository_id" \
+    '{input: {projectId: $project, repositoryId: $repository}}')"
+
+  graphql_json "$query" "$variables" >/dev/null
 }
 
 configure_project() {
@@ -121,9 +260,7 @@ configure_project() {
             public: false
           }
         ) {
-          projectV2 {
-            id
-          }
+          projectV2 { id }
         }
       }' \
     -f project="$project_node_id" \
@@ -141,21 +278,52 @@ Ce Project affiche les Issues du dépôt \`Alpinechain/Alpinechain_Association\`
 Référence : https://github.com/Alpinechain/Alpinechain_Association/blob/main/references/github-project.md" \
     --silent
 
-  log "Linking repository to project"
-  gh project link "$PROJECT_NUMBER" \
-    --owner "$PROJECT_OWNER" \
-    --repo "$TARGET_REPOSITORY" >/dev/null 2>&1 || true
+  local project_json
+  project_json="$(load_project_json "$project_node_id")"
 
-  ensure_field "Statut opérationnel" "SINGLE_SELECT" "Inbox,À faire,En cours,En attente,À valider,Terminé"
-  ensure_field "Priorité" "SINGLE_SELECT" "P0,P1,P2,P3"
-  ensure_field "Projet" "SINGLE_SELECT" "Association,Meetup Bitcoin,Souveraineté,B-Only"
-  ensure_field "Échéance" "DATE"
-  ensure_field "Effort" "NUMBER"
+  ensure_repository_link "$project_node_id" "$project_json"
+  ensure_field "$project_node_id" "$project_json" "Statut opérationnel" "SINGLE_SELECT"
+  ensure_field "$project_node_id" "$project_json" "Priorité" "SINGLE_SELECT"
+  ensure_field "$project_node_id" "$project_json" "Projet" "SINGLE_SELECT"
+  ensure_field "$project_node_id" "$project_json" "Échéance" "DATE"
+  ensure_field "$project_node_id" "$project_json" "Effort" "NUMBER"
+}
+
+existing_project_item_id() {
+  local issue_node_id="$1"
+  local project_node_id="$2"
+
+  gh api graphql \
+    -f query='
+      query($issue: ID!, $project: ID!) {
+        node(id: $issue) {
+          ... on Issue {
+            projectItems(first: 100, includeArchived: false) {
+              nodes {
+                id
+                project { id }
+              }
+            }
+          }
+        }
+      }' \
+    -f issue="$issue_node_id" \
+    -f project="$project_node_id" \
+    --jq '.data.node.projectItems.nodes[] | select(.project.id == $project) | .id' \
+    2>/dev/null \
+    | head -n1
 }
 
 add_issue_to_project() {
   local issue_node_id="$1"
   local project_node_id="$2"
+
+  local existing_item_id
+  existing_item_id="$(existing_project_item_id "$issue_node_id" "$project_node_id")"
+  if [ -n "$existing_item_id" ]; then
+    printf '%s\n' "$existing_item_id"
+    return
+  fi
 
   gh api graphql \
     -f query='
@@ -166,9 +334,7 @@ add_issue_to_project() {
             contentId: $content
           }
         ) {
-          item {
-            id
-          }
+          item { id }
         }
       }' \
     -f project="$project_node_id" \
@@ -179,16 +345,19 @@ add_issue_to_project() {
 field_id() {
   local fields_json="$1"
   local field_name="$2"
+
   jq -r \
     --arg name "$field_name" \
     '.data.node.fields.nodes[] | select(.name == $name) | .id' \
-    <<<"$fields_json" | head -n1
+    <<<"$fields_json" \
+    | head -n1
 }
 
 option_id() {
   local fields_json="$1"
   local field_name="$2"
   local option_name="$3"
+
   jq -r \
     --arg field "$field_name" \
     --arg option "$option_name" \
@@ -197,7 +366,8 @@ option_id() {
       | .options[]?
       | select(.name == $option)
       | .id' \
-    <<<"$fields_json" | head -n1
+    <<<"$fields_json" \
+    | head -n1
 }
 
 current_single_value() {
@@ -214,9 +384,7 @@ current_single_value() {
                 ... on ProjectV2ItemFieldSingleSelectValue {
                   name
                   field {
-                    ... on ProjectV2FieldCommon {
-                      name
-                    }
+                    ... on ProjectV2FieldCommon { name }
                   }
                 }
               }
@@ -226,7 +394,37 @@ current_single_value() {
       }' \
     -f item="$item_id" \
     --jq ".data.node.fieldValues.nodes[] | select(.field.name == \"$field_name\") | .name" \
-    2>/dev/null | head -n1
+    2>/dev/null \
+    | head -n1
+}
+
+update_item_field_value() {
+  local project_node_id="$1"
+  local item_id="$2"
+  local field_node_id="$3"
+  local value_json="$4"
+
+  local query
+  query='mutation($input: UpdateProjectV2ItemFieldValueInput!) {
+    updateProjectV2ItemFieldValue(input: $input) {
+      projectV2Item { id }
+    }
+  }'
+
+  local variables
+  variables="$(jq -n \
+    --arg project "$project_node_id" \
+    --arg item "$item_id" \
+    --arg field "$field_node_id" \
+    --argjson value "$value_json" \
+    '{input: {
+      projectId: $project,
+      itemId: $item,
+      fieldId: $field,
+      value: $value
+    }}')"
+
+  graphql_json "$query" "$variables" >/dev/null
 }
 
 set_single_select() {
@@ -244,11 +442,13 @@ set_single_select() {
   [ -n "$field_node_id" ] || die "Field not found: $field_name"
   [ -n "$option_node_id" ] || die "Option not found: $field_name / $option_name"
 
-  gh project item-edit \
-    --id "$item_id" \
-    --project-id "$project_node_id" \
-    --field-id "$field_node_id" \
-    --single-select-option-id "$option_node_id" >/dev/null
+  local value_json
+  value_json="$(jq -n \
+    --arg option "$option_node_id" \
+    '{singleSelectOptionId: $option}')"
+
+  update_item_field_value \
+    "$project_node_id" "$item_id" "$field_node_id" "$value_json"
 }
 
 set_date() {
@@ -262,17 +462,21 @@ set_date() {
   field_node_id="$(field_id "$fields_json" "$field_name")"
   [ -n "$field_node_id" ] || die "Field not found: $field_name"
 
-  gh project item-edit \
-    --id "$item_id" \
-    --project-id "$project_node_id" \
-    --field-id "$field_node_id" \
-    --date "$date_value" >/dev/null
+  local value_json
+  value_json="$(jq -n \
+    --arg date "$date_value" \
+    '{date: $date}')"
+
+  update_item_field_value \
+    "$project_node_id" "$item_id" "$field_node_id" "$value_json"
 }
 
 labels_contain() {
   local issue_json="$1"
   local label="$2"
-  jq -e --arg label "$label" \
+
+  jq -e \
+    --arg label "$label" \
     '.labels | map(.name) | index($label) != null' \
     <<<"$issue_json" >/dev/null
 }
@@ -293,9 +497,11 @@ project_value_from_labels() {
 
 due_date_from_body() {
   local issue_json="$1"
+
   jq -r '.body // ""' <<<"$issue_json" \
     | grep -oE '20[0-9]{2}-[0-9]{2}-[0-9]{2}' \
-    | head -n1 || true
+    | head -n1 \
+    || true
 }
 
 sync_issue() {
@@ -326,7 +532,8 @@ sync_issue() {
   if [ "$issue_state" = "CLOSED" ]; then
     set_single_select "$project_node_id" "$item_id" "$fields_json" \
       "Statut opérationnel" "Terminé"
-  elif labels_contain "$issue_json" "blocked" || labels_contain "$issue_json" "waiting"; then
+  elif labels_contain "$issue_json" "blocked" \
+    || labels_contain "$issue_json" "waiting"; then
     set_single_select "$project_node_id" "$item_id" "$fields_json" \
       "Statut opérationnel" "En attente"
   elif [ "$event_action" = "reopened" ]; then
@@ -382,28 +589,23 @@ main() {
   local operation="${1:-reconcile}"
   local project_node_id
   project_node_id="$(project_id)"
-  [ -n "$project_node_id" ] || die "Project not found: $PROJECT_OWNER/$PROJECT_NUMBER"
+  [ -n "$project_node_id" ] \
+    || die "Project not found: $PROJECT_OWNER/$PROJECT_NUMBER"
+
+  configure_project "$project_node_id"
+
+  local fields_json
+  fields_json="$(load_project_json "$project_node_id")"
 
   case "$operation" in
-    bootstrap)
-      configure_project "$project_node_id"
-      local fields_json
-      fields_json="$(load_fields_json "$project_node_id")"
-      sync_open_issues "$project_node_id" "$fields_json"
-      ;;
-    reconcile)
-      configure_project "$project_node_id"
-      local fields_json
-      fields_json="$(load_fields_json "$project_node_id")"
+    bootstrap|reconcile)
       sync_open_issues "$project_node_id" "$fields_json"
       ;;
     issue-event)
       local issue_url="${2:-}"
       local event_action="${3:-}"
-      configure_project "$project_node_id"
-      local fields_json
-      fields_json="$(load_fields_json "$project_node_id")"
-      sync_issue "$issue_url" "$event_action" "$project_node_id" "$fields_json"
+      sync_issue "$issue_url" "$event_action" \
+        "$project_node_id" "$fields_json"
       ;;
     *)
       die "Unsupported operation: $operation"
