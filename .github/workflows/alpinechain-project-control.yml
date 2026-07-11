@@ -77,13 +77,6 @@ jobs:
         run: |
           chmod +x .github/scripts/project-control.sh
 
-          # `gh project` can fail to resolve an explicit login for user-owned
-          # Projects in Actions. GitHub CLI documents `@me` as the canonical
-          # selector for the current user's Project. The GraphQL owner lookup
-          # remains unchanged and continues to use PROJECT_OWNER.
-          sed -i 's/--owner "$PROJECT_OWNER"/--owner "@me"/g' \
-            .github/scripts/project-control.sh
-
           set +e
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             .github/scripts/project-control.sh "$DISPATCH_OPERATION" 2>&1 \
