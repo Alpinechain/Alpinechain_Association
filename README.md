@@ -1,23 +1,45 @@
 # AlpineChain Association
 
-Dépôt de pilotage des activités associatives AlpineChain.
+Dépôt central de pilotage des activités associatives AlpineChain.
 
-Ce dépôt sert à organiser la méthode de travail, la communication, les contenus, le calendrier éditorial et la capitalisation des rendez-vous AlpineChain.
+Il organise la méthode de travail, les projets, les actions, la communication, les décisions et la capitalisation. L’IA soutient le pilotage mais ne remplace ni la validation humaine ni les outils métiers.
 
----
+## Accès rapide
 
-## Objectif
+| Besoin | Emplacement |
+|---|---|
+| Voir les priorités actuelles | [`dashboard/NOW.md`](dashboard/NOW.md) |
+| Comprendre le cadre général | [`ALPINECHAIN_ASSOCIATION_OS.md`](ALPINECHAIN_ASSOCIATION_OS.md) |
+| Consulter les actions | [Issues GitHub](https://github.com/Alpinechain/Alpinechain_Association/issues) |
+| Configurer le tableau de portefeuille | [`references/github-project.md`](references/github-project.md) |
+| Comprendre les labels | [`references/github-labels.md`](references/github-labels.md) |
+| Identifier la fonction des outils | [`references/tools.md`](references/tools.md) |
+| Accéder à l’index Nextcloud | [`references/nextcloud-index.md`](references/nextcloud-index.md) |
 
-Structurer un système simple pour :
+## Projets
 
-- préparer les Ateliers Bitcoin ;
-- préparer les rencontres Souveraineté 3.0 ;
-- suivre les Beer2Beer et micro-projets locaux ;
-- produire des contenus cohérents ;
-- documenter les décisions et retours d’expérience ;
-- utiliser l’IA comme soutien de pilotage, pas comme pilote automatique.
+| Projet | Espace |
+|---|---|
+| Association | [`projects/association/`](projects/association/) |
+| Meetup Bitcoin Annecy | [`projects/meetup-bitcoin/`](projects/meetup-bitcoin/) |
+| Souveraineté 3.0 | [`projects/souverainete/`](projects/souverainete/) |
+| B-Only | [`projects/b-only/`](projects/b-only/) |
 
----
+## Principes de fonctionnement
+
+```text
+ChatGPT réfléchit et prépare
+GitHub suit, décide et mémorise
+Nextcloud conserve les fichiers
+Les applications métiers exécutent
+L’humain valide
+```
+
+- Une action concrète devient une Issue GitHub.
+- Une décision durable est documentée dans le fichier de référence concerné.
+- Les documents lourds, contrats, visuels et médias restent dans Nextcloud.
+- Pretix, Paheko, Dolibarr, PeerTube et be-BOP restent les sources de vérité de leurs données propres.
+- Aucun contenu préparé avec l’IA n’est publié automatiquement.
 
 ## Document principal
 
@@ -27,68 +49,61 @@ Le fichier de cadrage est :
 ALPINECHAIN_ASSOCIATION_OS.md
 ```
 
-Il définit :
-
-- le positionnement associatif ;
-- les formats récurrents ;
-- les publics cibles ;
-- la ligne éditoriale ;
-- les canaux de communication ;
-- les rôles IA ;
-- les règles de validation humaine ;
-- la structure projet cible.
-
----
+Il définit le positionnement associatif, les formats récurrents, les publics, la ligne éditoriale, les canaux, les rôles IA et les règles de validation humaine.
 
 ## Documents spécialisés
 
 | Fichier | Rôle |
 |---|---|
-| `docs/GUIDE_REDACTIONNEL_X.md` | Guide opérationnel pour produire et relire les publications destinées à X. |
+| `docs/CALENDRIER_EDITORIAL.md` | Séquence de production avant et après les rendez-vous |
+| `docs/GUIDE_REDACTIONNEL_X.md` | Guide opérationnel pour les publications X |
+| `references/github-labels.md` | Vocabulaire des Issues |
+| `references/github-project.md` | Configuration du tableau de portefeuille |
+| `references/tools.md` | Répartition des responsabilités entre outils |
+| `references/nextcloud-index.md` | Liaison avec la bibliothèque documentaire |
 
-Le guide X s’applique à toute communication destinée à X produite depuis ce dépôt.
-
----
-
-## Structure prévue
+## Structure
 
 ```text
 .
 ├── AGENTS.md
 ├── ALPINECHAIN_ASSOCIATION_OS.md
 ├── README.md
+├── dashboard/
+│   └── NOW.md
+├── projects/
+│   ├── association/
+│   ├── meetup-bitcoin/
+│   ├── souverainete/
+│   └── b-only/
+├── references/
+│   ├── github-labels.md
+│   ├── github-project.md
+│   ├── nextcloud-index.md
+│   └── tools.md
 ├── docs/
 │   ├── CALENDRIER_EDITORIAL.md
 │   ├── GUIDE_REDACTIONNEL_X.md
 │   └── journal-progression/
-│       └── README.md
-└── templates/
-    └── prompt-cadrage-evenement.md
+├── notes/
+├── templates/
+└── assets/
 ```
 
-La structure sera enrichie progressivement, uniquement si chaque fichier a un rôle clair.
-
----
+La structure est enrichie uniquement si chaque fichier possède un rôle opérationnel clair.
 
 ## Usage recommandé
 
-1. Lire `ALPINECHAIN_ASSOCIATION_OS.md` pour comprendre le cadrage général.
-2. Utiliser `docs/GUIDE_REDACTIONNEL_X.md` avant de produire ou relire une publication destinée à X.
-3. Respecter `AGENTS.md` pour toute intervention assistée par IA.
-4. Valider humainement tout contenu avant publication publique.
-
----
+1. Lire `dashboard/NOW.md` pour connaître les priorités.
+2. Utiliser les Issues pour créer, assigner et fermer les actions.
+3. Consulter le README du projet concerné.
+4. Respecter `AGENTS.md` pour toute intervention assistée par IA.
+5. Appliquer `docs/GUIDE_REDACTIONNEL_X.md` aux publications X.
+6. Valider humainement tout contenu avant publication publique.
+7. Mettre à jour le tableau de bord au minimum une fois par semaine.
 
 ## Règle de progression
 
 ```text
 Un fichier créé doit avoir un rôle clair, sinon il n’est pas créé.
 ```
-
----
-
-## Validation
-
-Aucun contenu préparé avec l’IA n’est publié automatiquement.
-
-La validation humaine reste obligatoire avant toute publication publique.

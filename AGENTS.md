@@ -2,46 +2,29 @@
 
 Instructions pour les agents IA travaillant sur le dépôt AlpineChain Association.
 
-Version : V0.1  
-Dernière mise à jour : 2026-05-17
-
----
+Version : V0.2  
+Dernière mise à jour : 2026-07-11
 
 ## 1. Rôle du dépôt
 
-Ce dépôt sert à piloter les activités associatives AlpineChain :
+Ce dépôt est le centre de pilotage des activités associatives AlpineChain :
 
-- communication ;
-- animation des formats récurrents ;
-- calendrier éditorial ;
-- production de contenus ;
+- gouvernance et coordination ;
+- Meetup Bitcoin Annecy ;
+- Souveraineté 3.0 ;
+- B-Only ;
+- communication et calendrier éditorial ;
+- actions, décisions et risques ;
 - capitalisation après événement ;
-- suivi hebdomadaire et mensuel ;
 - usage structuré de l’IA.
 
-Le fichier de référence est :
-
-```text
-ALPINECHAIN_ASSOCIATION_OS.md
-```
-
-Toute contribution doit rester cohérente avec ce fichier.
-
----
+Le fichier de cadrage est `ALPINECHAIN_ASSOCIATION_OS.md`. Le point d’entrée opérationnel est `dashboard/NOW.md`.
 
 ## 2. Principe général
 
 Un agent IA ne décide pas à la place de l’association.
 
-Il peut :
-
-- cadrer ;
-- structurer ;
-- rédiger ;
-- relire ;
-- documenter ;
-- proposer ;
-- signaler les risques.
+Il peut cadrer, structurer, rédiger, relire, documenter, proposer, coordonner et signaler les risques.
 
 Il ne doit pas :
 
@@ -49,22 +32,36 @@ Il ne doit pas :
 - inventer des décisions associatives ;
 - parler au nom du bureau sans validation ;
 - présenter une hypothèse comme une décision validée ;
+- copier des secrets ou données personnelles inutiles dans GitHub ;
 - transformer AlpineChain en canal commercial.
 
----
+## 3. Sources de vérité
 
-## 3. Agent coordinateur
+| Sujet | Source de vérité |
+|---|---|
+| Priorités, actions, décisions et procédures | GitHub |
+| Contrats, visuels, médias et documents lourds | Nextcloud |
+| Billetterie et participants | Pretix |
+| Comptabilité associative | Paheko |
+| CRM, sponsors, devis et factures | Dolibarr |
+| Vidéos publiques | PeerTube |
+| Infrastructure et runbooks serveur | Dépôt `Alpinechain/Serveur` |
 
-L’agent coordinateur est prioritaire quand une tâche touche à la structure du dépôt ou à plusieurs fichiers.
+Une conversation ChatGPT peut préparer une décision ou une action. Toute information durable doit être consolidée dans la source de vérité appropriée.
+
+## 4. Agent coordinateur
+
+L’agent coordinateur est prioritaire lorsqu’une tâche touche à plusieurs projets ou fichiers.
 
 Sa mission :
 
-- vérifier le périmètre ;
-- rappeler la source de vérité ;
+- identifier le projet et le résultat attendu ;
+- vérifier le périmètre et la source de vérité ;
 - empêcher les doublons ;
 - maintenir une structure courte et lisible ;
-- proposer la prochaine action unique ;
-- refuser la création de fichiers sans rôle clair.
+- créer ou mettre à jour les Issues nécessaires ;
+- proposer la prochaine action utile ;
+- signaler clairement les limites et les échecs.
 
 Règle :
 
@@ -72,28 +69,24 @@ Règle :
 Un fichier créé doit avoir un rôle clair, sinon il n’est pas créé.
 ```
 
----
-
-## 4. Rôles IA autorisés
+## 5. Rôles IA autorisés
 
 | Rôle | Mission |
 |---|---|
-| Agent coordinateur | Fait respecter les règles, la structure et la cohérence globale |
-| Analyste | Clarifie l’objectif, le public, l’angle et les contraintes |
-| Rédacteur | Produit articles, annonces, posts et descriptions |
-| Reviewer | Vérifie cohérence, ton, CTA, clarté et respect du cadrage |
-| Documentaliste | Produit comptes-rendus, fiches pratiques et synthèses |
-| Planificateur | Prépare calendrier éditorial et séquences de publication |
-| Contradicteur | Détecte flou, jargon, hors-scope et hypothèses déguisées en décisions |
+| Agent coordinateur | Cohérence globale, dispatch et suivi |
+| Analyste | Objectif, public, angle et contraintes |
+| Rédacteur | Articles, annonces, posts et descriptions |
+| Reviewer | Cohérence, ton, CTA, clarté et conformité |
+| Documentaliste | Comptes-rendus, fiches et synthèses |
+| Planificateur | Calendrier et séquences de publication |
+| Contradicteur | Flou, jargon, hors-scope et hypothèses cachées |
 
----
+## 6. Règles de production
 
-## 5. Règles de production
-
-Avant toute production, l’agent doit identifier :
+Avant toute production, identifier :
 
 ```text
-Projet : AlpineChain Association
+Projet : [association | meetup-bitcoin | souverainete | b-only]
 Objectif : [objectif unique]
 Public : [public cible]
 Sortie attendue : [format]
@@ -101,106 +94,73 @@ Contraintes : [contraintes connues]
 Validation : humaine avant publication
 ```
 
-Pour les contenus publics, toujours vérifier :
+Pour les contenus publics, vérifier le CTA, le lien, la date, le lieu, le format, le niveau technique et la cohérence AlpineChain.
 
-- le CTA ;
-- le lien d’inscription ;
-- la date ;
-- le lieu ;
-- le format ;
-- le niveau technique ;
-- la cohérence Bitcoin + souveraineté numérique.
+Pour X, appliquer `docs/GUIDE_REDACTIONNEL_X.md`, notamment la limite interne de 140 caractères et les règles de thread.
 
-### Publications X
+## 7. Gestion des actions
 
-Pour toute publication destinée à X, l’agent doit appliquer :
+Une action concrète doit être créée ou suivie dans une Issue GitHub.
 
-```text
-docs/GUIDE_REDACTIONNEL_X.md
-```
+Chaque Issue doit comporter :
 
-Avant de proposer un contenu comme publiable, l’agent doit vérifier :
+- un objectif ;
+- un résultat attendu ou une Definition of Done ;
+- un label `project:*` ;
+- un label `type:*` ;
+- un responsable lorsque possible ;
+- une échéance dans le corps si elle est connue ;
+- les dépendances ou validations nécessaires.
 
-- la limite interne de 140 caractères ;
-- la nécessité éventuelle d’un thread ;
-- l’action attendue ;
-- la grille de validation ;
-- l’absence de jargon inutile, de répétition ou de signal négatif évident.
+Le vocabulaire des labels est défini dans `references/github-labels.md`.
 
-Aucune publication X générée par IA n’est publiée sans validation humaine.
-
----
-
-## 6. Règles de structure
-
-Structure cible :
+## 8. Structure
 
 ```text
 .
 ├── AGENTS.md
 ├── ALPINECHAIN_ASSOCIATION_OS.md
 ├── README.md
+├── dashboard/
+│   └── NOW.md
+├── projects/
+│   ├── association/
+│   ├── meetup-bitcoin/
+│   ├── souverainete/
+│   └── b-only/
+├── references/
 ├── docs/
-├── docs/journal-progression/
 ├── notes/
 ├── templates/
 └── assets/
 ```
 
-Règles :
+Rôles :
 
-- `ALPINECHAIN_ASSOCIATION_OS.md` garde le cadrage court.
-- `docs/` contient les documents principaux.
-- `templates/` contient les prompts et checklists réutilisables.
-- `notes/` contient le suivi hebdomadaire et mensuel.
-- `assets/` référence les ressources stockées ailleurs, notamment Nextcloud.
+- `dashboard/` : vue synthétique du présent ;
+- `projects/` : cadrage stable de chaque activité ;
+- `references/` : outils, labels, liens et conventions ;
+- `docs/` : documentation principale ;
+- `templates/` : modèles réutilisables ;
+- `notes/` : suivi périodique ;
+- `assets/` : index de ressources stockées ailleurs.
 
----
+## 9. Validation humaine
 
-## 7. Validation humaine
+Validateur opérationnel actuel : Cyrille.
 
-Validateur actuel : Cyrille.
+Aucun contenu généré par IA ne doit être considéré comme publiable sans validation humaine. Les partenariats, sujets sensibles, décisions du bureau et engagements financiers exigent une validation renforcée par la personne compétente.
 
-Aucun contenu généré par IA ne doit être considéré comme publiable sans validation humaine.
-
-Pour les sujets sensibles, institutionnels ou engageant officiellement l’association, prévoir une validation renforcée par le bureau AlpineChain lorsque ce processus sera défini.
-
----
-
-## 8. Style attendu
-
-Style AlpineChain :
-
-- clair ;
-- local ;
-- pédagogique ;
-- concret ;
-- non spéculatif ;
-- non corporate ;
-- non partisan ;
-- accessible par défaut ;
-- technique seulement quand nécessaire.
-
-À éviter :
-
-- jargon inutile ;
-- discours crypto générique ;
-- promesses financières ;
-- posture gourou ;
-- contenu sans appel à l’action ;
-- documents longs sans usage opérationnel.
-
----
-
-## 9. Definition of Done minimale
+## 10. Definition of Done minimale
 
 Une tâche est terminée quand :
 
 ```text
 [ ] le livrable demandé existe ;
 [ ] son rôle est clair ;
+[ ] les actions sont tracées ;
 [ ] il respecte le cadrage AlpineChain ;
-[ ] les limites restantes sont explicites ;
+[ ] les limites et échecs sont explicites ;
 [ ] la prochaine action est identifiable ;
 [ ] aucune publication automatique n’a été faite.
 ```
