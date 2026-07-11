@@ -9,9 +9,10 @@ Il organise la méthode de travail, les projets, les actions, la communication, 
 | Besoin | Emplacement |
 |---|---|
 | Voir les priorités actuelles | [`dashboard/NOW.md`](dashboard/NOW.md) |
+| Ouvrir le cockpit opérationnel | [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) |
 | Comprendre le cadre général | [`ALPINECHAIN_ASSOCIATION_OS.md`](ALPINECHAIN_ASSOCIATION_OS.md) |
 | Consulter les actions | [Issues GitHub](https://github.com/Alpinechain/Alpinechain_Association/issues) |
-| Configurer le tableau de portefeuille | [`references/github-project.md`](references/github-project.md) |
+| Administrer l’automatisation du Project | [`references/github-project.md`](references/github-project.md) |
 | Comprendre les labels | [`references/github-labels.md`](references/github-labels.md) |
 | Identifier la fonction des outils | [`references/tools.md`](references/tools.md) |
 | Accéder à l’index Nextcloud | [`references/nextcloud-index.md`](references/nextcloud-index.md) |
@@ -58,7 +59,7 @@ Il définit le positionnement associatif, les formats récurrents, les publics, 
 | `docs/CALENDRIER_EDITORIAL.md` | Séquence de production avant et après les rendez-vous |
 | `docs/GUIDE_REDACTIONNEL_X.md` | Guide opérationnel pour les publications X |
 | `references/github-labels.md` | Vocabulaire des Issues |
-| `references/github-project.md` | Configuration du tableau de portefeuille |
+| `references/github-project.md` | Project actif, champs et automatisation |
 | `references/tools.md` | Répartition des responsabilités entre outils |
 | `references/nextcloud-index.md` | Liaison avec la bibliothèque documentaire |
 
@@ -66,6 +67,9 @@ Il définit le positionnement associatif, les formats récurrents, les publics, 
 
 ```text
 .
+├── .github/
+│   ├── scripts/project-control.sh
+│   └── workflows/alpinechain-project-control.yml
 ├── AGENTS.md
 ├── ALPINECHAIN_ASSOCIATION_OS.md
 ├── README.md
@@ -96,11 +100,12 @@ La structure est enrichie uniquement si chaque fichier possède un rôle opérat
 
 1. Lire `dashboard/NOW.md` pour connaître les priorités.
 2. Utiliser les Issues pour créer, assigner et fermer les actions.
-3. Consulter le README du projet concerné.
-4. Respecter `AGENTS.md` pour toute intervention assistée par IA.
-5. Appliquer `docs/GUIDE_REDACTIONNEL_X.md` aux publications X.
-6. Valider humainement tout contenu avant publication publique.
-7. Mettre à jour le tableau de bord au minimum une fois par semaine.
+3. Consulter le Project pour la vue portefeuille.
+4. Consulter le README du projet concerné.
+5. Respecter `AGENTS.md` pour toute intervention assistée par IA.
+6. Appliquer `docs/GUIDE_REDACTIONNEL_X.md` aux publications X.
+7. Valider humainement tout contenu avant publication publique.
+8. Mettre à jour le tableau de bord au minimum une fois par semaine.
 
 ## Règle de progression
 

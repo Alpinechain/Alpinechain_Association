@@ -1,0 +1,73 @@
+name: AlpineChain Project Control
+
+"on":
+  issues:
+    types:
+      - opened
+      - reopened
+      - transferred
+      - labeled
+      - unlabeled
+      - edited
+      - closed
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Operation to run
+        required: true
+        default: bootstrap
+        type: choice
+        options:
+          - bootstrap
+          - reconcile
+  schedule:
+    - cron: "17 4 * * 1"
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+
+concurrency:
+  group: alpinechain-project-control
+  cancel-in-progress: false
+
+env:
+  PROJECT_OWNER: Alpinechain
+  PROJECT_NUMBER: "1"
+  TARGET_REPOSITORY: Alpinechain/Alpinechain_Association
+
+jobs:
+  control-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check required secret
+        env:
+          PROJECTS_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+        run: |
+          if [ -z "$PROJECTS_TOKEN" ]; then
+            echo "::error::Missing repository secret PROJECTS_TOKEN."
+            echo "Create a GitHub personal access token with Projects write access"
+            echo "and store it as Actions secret PROJECTS_TOKEN."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - name: Run project controller
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_ACTION: ${{ github.event.action || '' }}
+          ISSUE_URL: ${{ github.event.issue.html_url || '' }}
+          DISPATCH_OPERATION: ${{ inputs.operation || '' }}
+        run: |
+          chmod +x .github/scripts/project-control.sh
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            .github/scripts/project-control.sh "$DISPATCH_OPERATION"
+          elif [ "$EVENT_NAME" = "schedule" ]; then
+            .github/scripts/project-control.sh reconcile
+          else
+            .github/scripts/project-control.sh issue-event "$ISSUE_URL" "$EVENT_ACTION"
+          fi
