@@ -10,7 +10,7 @@ B-Only 2026, du 7 au 9 novembre 2026 au Novotel Annecy Centre.
 
 ## Tableau de pilotage
 
-Le portefeuille opérationnel est décrit dans [`BOARD.md`](BOARD.md) et affiché dans le [GitHub Project AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) avec le filtre `label:project:b-only`.
+Le portefeuille opérationnel est décrit dans [`BOARD.md`](BOARD.md) et affiché dans la [vue GitHub Project B-Only 2026](https://github.com/users/Alpinechain/projects/1/views/2).
 
 ## Chantiers et Issues pilotes
 
@@ -39,6 +39,31 @@ Les dossiers sponsor spécifiques restent suivis dans [#4](https://github.com/Al
 | Comptabilité associative | Paheko |
 | Vidéos publiées | PeerTube |
 | Bar | be-BOP Bar |
+
+## Emplacement Nextcloud
+
+Le dossier réel est :
+
+```text
+Action - Initiatives/B-Only/
+```
+
+Il doit être structuré par édition. Pour 2026, l’organisation minimale recommandée est :
+
+```text
+Action - Initiatives/B-Only/
+└── 2026/
+    ├── 01_Programme-Intervenants/
+    ├── 02_Sponsors-Contrats/
+    ├── 03_Communication/
+    ├── 04_Production-Logistique/
+    ├── 05_Finances/
+    └── 06_Medias/
+```
+
+Cette structure documentaire complète les huit chantiers GitHub sans les dupliquer dossier par dossier.
+
+Les exports nominatifs de participants restent dans Pretix ou dans un espace Nextcloud privé strictement limité. Ils ne doivent jamais être inclus dans un partage public global.
 
 ## Échéances connues
 
