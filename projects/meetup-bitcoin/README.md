@@ -39,6 +39,19 @@ Issue opérationnelle : [#6](https://github.com/Alpinechain/Alpinechain_Associat
 | Visuels et supports | Nextcloud |
 | Publication publique | Site AlpineChain et Meetup |
 
+## Emplacements Nextcloud
+
+| Usage | Chemin réel |
+|---|---|
+| Racine du projet | `Action - Initiatives/Annecy Bitcoin/` |
+| Événements 2026 | `Action - Initiatives/Annecy Bitcoin/Meetup/2026/` |
+| Modèle de dossier événement | `Action - Initiatives/Annecy Bitcoin/Meetup/0_0_Template/` |
+| Présentations réutilisables | `Action - Initiatives/Annecy Bitcoin/Présentations Annecy Bitcoin/` |
+| Ressources pédagogiques | `Action - Initiatives/Annecy Bitcoin/Ressources/` |
+| Formation d’introduction | `Action - Initiatives/Annecy Bitcoin/Formation 101/` |
+
+Chaque événement 2026 utilise un dossier daté dans `Meetup/2026/`, idéalement sous la forme `AAAA-MM-JJ_Theme`.
+
 ## Espace ChatGPT spécialisé
 
 https://chatgpt.com/g/g-p-6831bec73ab48191b309ef97ddf70652-meetup-et-animation-annecy-bit/project
