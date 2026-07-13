@@ -1,0 +1,44 @@
+name: Nextcloud Inventory
+
+"on":
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/inventory-nextcloud-public-share.py"
+      - ".github/workflows/nextcloud-inventory.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nextcloud-inventory
+  cancel-in-progress: true
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Inventory public Nextcloud share
+        env:
+          NEXTCLOUD_BASE_URL: https://cloud.alpinechain.xyz
+          NEXTCLOUD_SHARE_TOKEN: 6aBTY243WDkbSGL
+          NEXTCLOUD_INVENTORY_OUTPUT: references/nextcloud-inventory.generated.md
+        run: |
+          python3 scripts/inventory-nextcloud-public-share.py
+
+      - name: Commit generated inventory
+        run: |
+          if git diff --quiet -- references/nextcloud-inventory.generated.md; then
+            echo "Inventory unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add references/nextcloud-inventory.generated.md
+          git commit -m "Update generated Nextcloud inventory"
+          git push
