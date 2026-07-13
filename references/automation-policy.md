@@ -1,11 +1,27 @@
 # Politique d’automatisation AlpineChain
 
-Version : V1.0  
-Dernière mise à jour : 2026-07-11
+Version : V1.1  
+Dernière mise à jour : 2026-07-13
 
 ## Objet
 
 Cette politique définit ce qui peut être automatisé, ce qui exige une validation humaine et ce qui ne doit jamais être exécuté automatiquement.
+
+## Règle absolue sur les fichiers et dossiers
+
+**Aucun fichier ni dossier ne doit jamais être supprimé, déplacé vers la corbeille ou rendu inaccessible sans validation humaine explicite préalable.**
+
+Cette règle s’applique à Nextcloud, GitHub, aux volumes serveur, aux médias, aux exports, aux sauvegardes et à tout autre espace documentaire AlpineChain.
+
+Une validation valable doit préciser au minimum :
+
+- l’élément concerné ;
+- l’action demandée ;
+- le validateur ;
+- la date ;
+- la possibilité de restauration ou l’absence de retour arrière.
+
+Une automatisation peut détecter, signaler ou proposer une suppression. Elle ne peut jamais l’exécuter seule.
 
 ## Niveaux d’automatisation
 
@@ -31,7 +47,8 @@ Autorisé avec règles documentées et possibilité de révocation :
 - ajouter une Issue au GitHub Project ;
 - appliquer des labels et statuts ;
 - fermer un incident technique après retour vérifié à la normale ;
-- envoyer un rappel interne non public.
+- envoyer un rappel interne non public ;
+- créer des dossiers préalablement validés lorsqu’aucun contenu existant n’est supprimé, déplacé ou remplacé.
 
 Chaque automatisation doit avoir un propriétaire et un runbook.
 
@@ -44,7 +61,8 @@ Interdite sans validation humaine explicite au cas par cas :
 - importer une écriture dans Paheko ;
 - modifier un produit ou une commande be-BOP ;
 - téléverser ou modifier une vidéo PeerTube ;
-- modifier un document partagé dans Nextcloud ;
+- modifier ou remplacer un document partagé dans Nextcloud ;
+- déplacer ou renommer un fichier ou dossier ;
 - modifier une configuration de production.
 
 Une automatisation peut préparer un brouillon ou une proposition, mais l’exécution doit être déclenchée ou approuvée par une personne autorisée.
@@ -57,7 +75,8 @@ Toujours humaine :
 - envoyer un courriel externe au nom de l’association ;
 - engager une dépense, payer ou rembourser ;
 - valider une facture ou une écriture comptable ;
-- supprimer des données, comptes, événements ou médias ;
+- supprimer un fichier, dossier, donnée, compte, événement ou média ;
+- vider une corbeille ou purger une sauvegarde hors politique validée ;
 - modifier les DNS, domaines, droits administrateurs ou secrets ;
 - parler au nom du bureau ou annoncer une décision associative.
 
@@ -100,9 +119,10 @@ Une automatisation doit :
 
 1. échouer explicitement plutôt que produire une donnée douteuse ;
 2. ne jamais réessayer indéfiniment une action destructive ;
-3. créer ou mettre à jour une Issue d’incident lorsque l’échec est durable ;
-4. conserver assez de contexte pour diagnostiquer sans exposer de secret ;
-5. permettre une reprise manuelle.
+3. ne jamais exécuter une suppression automatique ;
+4. créer ou mettre à jour une Issue d’incident lorsque l’échec est durable ;
+5. conserver assez de contexte pour diagnostiquer sans exposer de secret ;
+6. permettre une reprise manuelle.
 
 ## Revue
 
