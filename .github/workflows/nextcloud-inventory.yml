@@ -91,3 +91,5 @@ jobs:
           fi
 
           exit 1
+
+# Inventory refresh is intentionally triggered through a merged pull request.
