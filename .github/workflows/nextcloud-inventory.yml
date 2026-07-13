@@ -35,8 +35,47 @@ jobs:
           python3 scripts/inventory-nextcloud-public-share.py \
             2>&1 | tee "$RUNNER_TEMP/nextcloud-inventory.log"
 
+      - name: Publish inventory issue
+        if: ${{ steps.inventory.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="[NEXTCLOUD] Inventaire du partage public"
+          existing="$(gh issue list --state open --limit 100 --json number,title \
+            --jq ".[] | select(.title == \"$title\") | .number" | head -n1)"
+
+          python3 - <<'PY'
+          from pathlib import Path
+          source = Path('references/nextcloud-inventory.generated.md').read_text(encoding='utf-8')
+          limit = 58000
+          if len(source) > limit:
+              source = source[:limit] + '\n\n> Inventaire tronqué dans l’Issue. Le fichier généré complet reste dans le dépôt.\n'
+          Path('/tmp/nextcloud-inventory-issue.md').write_text(source, encoding='utf-8')
+          PY
+
+          {
+            echo
+            echo "## Exécution"
+            echo
+            echo "$RUN_URL"
+          } >> /tmp/nextcloud-inventory-issue.md
+
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file /tmp/nextcloud-inventory-issue.md
+          else
+            gh issue create \
+              --title "$title" \
+              --body-file /tmp/nextcloud-inventory-issue.md \
+              --assignee Copinmalin \
+              --label project:association \
+              --label type:task \
+              --label area:technical
+          fi
+
       - name: Commit generated inventory
         if: ${{ steps.inventory.outcome == 'success' }}
+        continue-on-error: true
         env:
           PROJECTS_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
         run: |
@@ -91,5 +130,3 @@ jobs:
           fi
 
           exit 1
-
-# Inventory refresh is intentionally triggered through a merged pull request.
