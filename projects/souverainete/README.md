@@ -41,6 +41,19 @@ La porte de lancement J-21 reste fermée tant que la date, le lieu, le responsab
 | Inscriptions | Pretix / join.alpinechain.xyz selon le format |
 | Publication publique | Site AlpineChain et Meetup |
 
+## Emplacements Nextcloud
+
+Le nom documentaire historique du projet est **Annecy 3.0**. Il est conservé afin de ne pas casser les habitudes ni les liens existants.
+
+| Usage | Chemin réel ou proposé |
+|---|---|
+| Racine historique | `Action - Initiatives/Annecy 3.0/` |
+| Logos | `Action - Initiatives/Annecy 3.0/Logo/` |
+| Présentations réutilisables | `Action - Initiatives/Annecy 3.0/Presentations Annecy 3.0/` |
+| Rencontres 2026 | `Action - Initiatives/Annecy 3.0/Meetup/2026/` à créer |
+
+Chaque rencontre utilise ensuite un dossier daté `AAAA-MM-JJ_Theme`. Il n’est pas nécessaire de renommer immédiatement `Annecy 3.0` en `Souveraineté 3.0`.
+
 ## Espace ChatGPT spécialisé
 
 https://chatgpt.com/g/g-p-6990580ad3588191810f552bc7cb1032-meetup-souverainet-30/project
