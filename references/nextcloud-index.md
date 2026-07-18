@@ -1,19 +1,20 @@
 # Index Nextcloud AlpineChain
 
-Dernière vérification : 2026-07-13  
-Inventaire : 66 dossiers, 133 fichiers, environ 228,5 Mio
+Dernière vérification documentaire complète : 2026-07-13  
+Dernière mise à jour de sécurité : 2026-07-18  
+Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
 
-## Point d’accès observé
+## Statut d’accès
 
-Le partage analysé pointe vers une racine documentaire contenant l’administration, les initiatives, les comptes rendus, les logos et plusieurs projets historiques.
-
-Le lien public communiqué était :
+Le partage public historique suivant a été supprimé et n’existe plus :
 
 ```text
 https://cloud.alpinechain.xyz/s/6aBTY243WDkbSGL
 ```
 
-Ce lien ne doit plus être considéré comme un point d’accès permanent tant que l’incident de confidentialité #37 n’est pas résolu.
+Il ne constitue plus un point d’accès à Nextcloud. Cette suppression coupe l’exposition publique observée lors de l’inventaire du 13 juillet 2026.
+
+La structure 2026 a ensuite été créée et vérifiée au moyen d’un accès WebDAV authentifié et de requêtes `PROPFIND`. En revanche, l’absence de partage public empêche désormais toute relecture anonyme du contenu réel des dossiers, ce qui correspond au niveau de sécurité attendu. Toute nouvelle vérification documentaire doit être réalisée avec un accès Nextcloud ou WebDAV authentifié.
 
 ## Rôle
 
@@ -24,11 +25,13 @@ GitHub conserve les actions, décisions, procédures, responsabilités et liens 
 ## Arborescence réelle de référence
 
 ```text
-Racine partagée/
+Association/
 ├── Action - Initiatives/
 │   ├── Annecy 3.0/
 │   │   ├── Logo/
-│   │   └── Presentations Annecy 3.0/
+│   │   ├── Presentations Annecy 3.0/
+│   │   └── Meetup/
+│   │       └── 2026/
 │   ├── Annecy Bitcoin/
 │   │   ├── Formation 101/
 │   │   ├── Meetup/
@@ -40,6 +43,13 @@ Racine partagée/
 │   │   ├── Présentations Annecy Bitcoin/
 │   │   └── Ressources/
 │   ├── B-Only/
+│   │   └── 2026/
+│   │       ├── 01_Programme-Intervenants/
+│   │       ├── 02_Sponsors-Contrats/
+│   │       ├── 03_Communication/
+│   │       ├── 04_Production-Logistique/
+│   │       ├── 05_Finances/
+│   │       └── 06_Medias/
 │   └── Grenoble 3.0/
 ├── Administration/
 │   ├── Acteurs/
@@ -48,6 +58,7 @@ Racine partagée/
 │   │   ├── .gestion/
 │   │   ├── 2026/
 │   │   └── Devis/
+│   ├── Contrats-Conventions/
 │   └── PV AG Statut Réglement/
 ├── Autres projets/
 │   ├── Affichage libre/
@@ -72,15 +83,13 @@ Racine partagée/
 | Association | `Administration/` et `Compte-rendus/` | Administration privée ; comptes rendus classés par année |
 | Meetup Bitcoin | `Action - Initiatives/Annecy Bitcoin/` | Un dossier par événement dans `Meetup/<année>/` |
 | Souveraineté 3.0 | `Action - Initiatives/Annecy 3.0/` | `Annecy 3.0` reste le nom documentaire historique |
-| B-Only | `Action - Initiatives/B-Only/` | Dossier actif à structurer par édition |
+| B-Only | `Action - Initiatives/B-Only/2026/` | Structure active par chantier pour l’édition 2026 |
 | Communication transversale | `LOGO Alpinechain/` | Logos maîtres, guidelines et déclinaisons |
 | Projets non actifs dans le Control Center | `Autres projets/` | Ne deviennent des projets GitHub que lorsqu’une action durable est engagée |
 
-## Dossiers réellement nécessaires à ajouter
+## Structure 2026 créée et vérifiée
 
-L’organisation existante est conservée. Trois ajouts seulement sont recommandés.
-
-### 1. B-Only 2026
+### B-Only 2026
 
 ```text
 Action - Initiatives/B-Only/
@@ -93,9 +102,7 @@ Action - Initiatives/B-Only/
     └── 06_Medias/
 ```
 
-Justification : le dossier B-Only existe mais aucune structure d’édition n’est visible. Les six sous-dossiers couvrent les huit chantiers GitHub sans créer un labyrinthe documentaire.
-
-### 2. Rencontres Souveraineté 3.0
+### Rencontres Souveraineté 3.0
 
 ```text
 Action - Initiatives/Annecy 3.0/
@@ -103,23 +110,14 @@ Action - Initiatives/Annecy 3.0/
     └── 2026/
 ```
 
-Justification : les logos et présentations existent, mais aucun emplacement événementiel annuel n’est visible. Chaque rencontre peut ensuite utiliser un dossier daté `AAAA-MM-JJ_Theme`.
-
-### 3. Contrats et conventions transversaux
+### Contrats et conventions transversaux
 
 ```text
 Administration/
 └── Contrats-Conventions/
 ```
 
-Justification : les contrats associatifs, conventions de lieu, assurances et partenariats transversaux ne doivent pas être mélangés aux devis comptables ni aux dossiers propres à B-Only.
-
-## Dossiers non recommandés
-
-- Pas de nouvelle racine numérotée `01_Association`, `02_Meetup`, etc. : elle dupliquerait l’organisation existante et casserait les habitudes.
-- Pas de dossier global `Communication` : les logos transversaux sont déjà dans `LOGO Alpinechain/` et les campagnes doivent rester dans leur projet.
-- Pas de dossier global `Archives` pour le moment : les années et projets historiques remplissent déjà ce rôle.
-- Pas de stockage de mots de passe, clés ou tokens dans Nextcloud : utiliser le gestionnaire de secrets prévu.
+Les créations ont été contrôlées par `PROPFIND`. Aucun fichier ou dossier existant n’a été supprimé, déplacé, renommé ou remplacé.
 
 ## Convention de liaison GitHub ↔ Nextcloud
 
@@ -149,9 +147,13 @@ Dernière revue : AAAA-MM-JJ
 
 ## Points restant à vérifier
 
-- couper ou restreindre le partage public actuel selon #37 ;
-- vérifier les journaux d’accès et les liens publics hérités ;
-- confirmer les propriétaires et droits des dossiers ;
-- vérifier la corbeille, la rétention et la restauration Nextcloud ;
-- créer les trois dossiers nécessaires après validation humaine ;
-- ajouter les fichiers `LISEZ-MOI.txt` sans déplacer massivement les documents existants.
+- vérifier les journaux d’accès et les autres liens publics hérités ;
+- confirmer les propriétaires, droits nominatifs et administrateurs de secours ;
+- vérifier la corbeille, les versions, la rétention et la restauration Nextcloud ;
+- ajouter les fichiers `LISEZ-MOI.txt` après validation de leur contenu ;
+- vérifier que les exports d’adhérents et participants ne sont conservés que pendant la durée nécessaire ;
+- réaliser une nouvelle revue documentaire authentifiée lorsque l’état réel des fichiers doit être contrôlé.
+
+## Règle absolue
+
+Aucun fichier ni dossier ne doit être supprimé, déplacé vers la corbeille ou rendu inaccessible sans validation humaine explicite préalable.
