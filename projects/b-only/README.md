@@ -20,6 +20,7 @@ Le portefeuille opérationnel est décrit dans [`BOARD.md`](BOARD.md) et affich�
 | Sponsors et partenaires | [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) |
 | Programme et intervenants | [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) |
 | Communication et contenus | [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) |
+| Site public B-Only | [#33](https://github.com/Alpinechain/Alpinechain_Association/issues/33) |
 | Production audiovisuelle et PeerTube | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) |
 | Accueil, stands, bar et logistique | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25) |
 | Budget, contrats et trésorerie | [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) |
@@ -35,10 +36,28 @@ Les dossiers sponsor spécifiques restent suivis dans [#4](https://github.com/Al
 | Vue portefeuille | GitHub Project et `BOARD.md` |
 | Documents, contrats, visuels et médias | Nextcloud |
 | Billetterie et participants | Pretix |
+| Site public et contenus web | Framer |
+| Domaine et DNS de `b-only.org` | OVH |
 | Sponsors, contacts, devis et factures | Dolibarr |
 | Comptabilité associative | Paheko |
 | Vidéos publiées | PeerTube |
 | Bar | be-BOP Bar |
+
+## Site public B-Only
+
+- URL publique : https://b-only.org/
+- Outil de création et de maintenance : **Framer**.
+- Responsable opérationnel des contenus et mises à jour : **Wil**, membre du bureau AlpineChain.
+- Domaine `b-only.org` : enregistré et administré chez **OVH** par **Copinmalin**.
+- Issue de suivi : [#33](https://github.com/Alpinechain/Alpinechain_Association/issues/33).
+
+### Règles de gouvernance
+
+- Wil pilote les mises à jour éditoriales et fonctionnelles dans Framer.
+- Copinmalin administre le domaine, le renouvellement et les paramètres DNS chez OVH.
+- Les contenus publics suivent la validation humaine prévue par l’Issue communication [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+- Les accès Framer et OVH restent nominatifs, protégés par authentification forte et ne sont jamais stockés dans GitHub.
+- Un administrateur de secours doit être documenté pour Framer et OVH afin de réduire la dépendance à une seule personne.
 
 ## Emplacement Nextcloud
 
