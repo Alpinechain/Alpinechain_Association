@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Dernière mise à jour : 2026-07-18  
+Dernière mise à jour : 2026-07-19
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -10,13 +10,14 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 
 ## Priorités actives
 
-1. **P0 : réussir l’ouverture effective de la billetterie B-Only 2026 le 21 juillet 2026 à 21:21** : contrôle final, diffusion coordonnée, test réel et traçage des publications dans [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
-2. Consolider les confirmations sponsors B-Only 2026, les factures, paiements et contreparties associées : [Issue #3](https://github.com/Alpinechain/Alpinechain_Association/issues/3).
-3. Poursuivre le calendrier éditorial B-Only 2026 après le lancement et ajouter les URLs publiques au fil de leur diffusion : [Issue #24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
-4. Consolider le programme, les intervenants, les sujets et les créneaux B-Only 2026 : [Issue #11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
-5. Préparer l’atelier Bitcoin multisig et Disaster Recovery du 2 septembre 2026 selon la checklist datée J-21 à J+3 : [Issue #6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
-6. Franchir la porte de lancement du prochain rendez-vous Souveraineté 3.0 : thème, date, lieu, format, promesse et inscription : [Issue #7](https://github.com/Alpinechain/Alpinechain_Association/issues/7).
-7. Activer la sauvegarde chiffrée hors serveur et exécuter une restauration testée : [Issue #9](https://github.com/Alpinechain/Alpinechain_Association/issues/9).
+1. **P0 sécurité : retirer et faire tourner le mot de passe d’administration découvert en clair dans le dépôt serveur** : ne jamais reproduire sa valeur et suivre la rotation dans [Serveur #35](https://github.com/Alpinechain/Serveur/issues/35).
+2. **P0 événement : réussir l’ouverture effective de la billetterie B-Only 2026 le 21 juillet 2026 à 21:21** : contrôle final, diffusion coordonnée, test réel et traçage des publications dans [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+3. Consolider les confirmations sponsors B-Only 2026, les factures, paiements et contreparties associées : [Issue #3](https://github.com/Alpinechain/Alpinechain_Association/issues/3).
+4. Poursuivre le calendrier éditorial B-Only 2026 après le lancement et ajouter les URLs publiques au fil de leur diffusion : [Issue #24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+5. Consolider le programme, les intervenants, les sujets et les créneaux B-Only 2026 : [Issue #11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
+6. Préparer l’atelier Bitcoin multisig et Disaster Recovery du 2 septembre 2026 selon la checklist datée J-21 à J+3 : [Issue #6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
+7. Franchir la porte de lancement du prochain rendez-vous Souveraineté 3.0 : thème, date, lieu, format, promesse et inscription : [Issue #7](https://github.com/Alpinechain/Alpinechain_Association/issues/7).
+8. Configurer la cible Swiss Backup S3 déjà validée, activer la sauvegarde chiffrée hors serveur et exécuter une restauration testée : [Issue #9](https://github.com/Alpinechain/Alpinechain_Association/issues/9).
 
 ## État opérationnel B-Only 2026
 
@@ -37,7 +38,18 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 ### Sponsors
 
 - Le traitement des confirmations, factures, paiements et contreparties reste en cours.
+- Paymium : pack de 2 500 € facturé, payé et rapproché ; contreparties réparties entre les Issues programme, communication et logistique.
 - Reprise opérationnelle prévue après la présente mise à jour.
+
+## Revue d’exploitation 2026-W29
+
+- Les neuf services publics contrôlés répondent en HTTP 200 et les cinq derniers runs de monitoring sont réussis ; aucun incident public n’est ouvert.
+- Les 20 conteneurs de production sont démarrés. Les disques sont utilisés à 9 % pour `/` et 43 % pour `/opt/podman`.
+- Les timers de sauvegarde, de vérification Restic et de rapport d’exploitation ne sont pas installés ni activés. Aucun snapshot, aucun contrôle Restic et aucun test de restauration ne sont attestés ; suivi dans [#9](https://github.com/Alpinechain/Alpinechain_Association/issues/9).
+- Trois timers de healthcheck Podman orphelins produisent des échecs systemd sans affecter les conteneurs actuels ; suivi dans [Serveur #37](https://github.com/Alpinechain/Serveur/issues/37).
+- Des mises à jour de sécurité AlmaLinux, notamment pour le noyau, OpenSSH, OpenSSL, systemd et Podman, nécessitent une fenêtre de maintenance contrôlée ; suivi dans [Serveur #36](https://github.com/Alpinechain/Serveur/issues/36).
+- Deux répertoires d’audit non suivis rendent le worktree de production non propre ; aucune suppression n’est autorisée sans validation, suivi dans [Serveur #38](https://github.com/Alpinechain/Serveur/issues/38).
+- Le contrôle de sécurité a identifié un mot de passe d’administration versionné en clair. Sa valeur ne doit jamais être reproduite ; retrait et rotation suivis en P0 dans [Serveur #35](https://github.com/Alpinechain/Serveur/issues/35).
 
 ## Système de pilotage
 
@@ -57,7 +69,7 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 - Le partage public historique Nextcloud `6aBTY243WDkbSGL` a été supprimé et n’existe plus.
 - L’exposition publique directe est considérée comme coupée ; la revue des droits, des liens hérités, de la rétention et des administrateurs de secours reste ouverte dans [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10).
 - L’absence de partage public empêche désormais le contrôle anonyme du contenu réel, conformément au niveau de sécurité attendu. Toute nouvelle vérification documentaire doit utiliser un accès Nextcloud ou WebDAV authentifié.
-- Sauvegarde Restic et restauration : code prêt, activation réelle encore requise.
+- Cible Restic hors serveur validée : Infomaniak Swiss Backup S3. Configuration des identifiants, première sauvegarde, contrôle Restic et restauration réelle encore requis.
 - Publication, paiement et décision : validation humaine maintenue.
 
 ## Décisions attendues
@@ -67,14 +79,13 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 - Confirmer l’intervenant, la salle exacte, la capacité et le budget de l’atelier Bitcoin du 2 septembre 2026.
 - Valider le prochain thème, la date, le lieu et la promesse du rendez-vous Souveraineté 3.0.
 - Définir les personnes disposant des droits opérationnels sur les comptes Meta AlpineChain.
-- Choisir et configurer la cible Restic chiffrée hors du serveur de production.
-- Valider les objectifs initiaux RPO 24 heures et RTO 8 heures.
+- Configurer les identifiants de la cible Swiss Backup S3, activer les timers et valider une restauration réelle.
+- Confirmer définitivement les objectifs initiaux RPO 24 heures et RTO 8 heures après le premier test de restauration.
 - Définir les propriétaires Nextcloud et administrateurs de secours, puis dater la prochaine revue des droits.
 
 ## En attente de tiers
 
 - Confirmation formelle de participation de Bitstack au pack soutien B-Only 2026.
-- Finalisation des éléments administratifs et commerciaux avec Paymium.
 - Réponses des partenaires, sponsors et intervenants encore en discussion.
 - Confirmation de l’intervenant de l’atelier multisig et Disaster Recovery.
 
@@ -85,6 +96,9 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 - Actions importantes sans responsable ni échéance.
 - Dépendance excessive à une seule personne pour les comptes, validations et accès.
 - Sauvegarde versionnée mais non encore activée ni restaurée sur le serveur.
+- Secret d’administration présent dans l’historique du dépôt serveur tant que la rotation et le retrait ne sont pas terminés.
+- Mises à jour de sécurité système en attente d’une fenêtre contrôlée.
+- Timers de healthcheck Podman orphelins générant des faux positifs systemd.
 - Programme B-Only publié avant confirmation formelle des intervenants, sujets et créneaux.
 - Liens publics Nextcloud hérités non encore identifiés.
 
