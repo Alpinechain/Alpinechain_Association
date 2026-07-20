@@ -571,6 +571,41 @@ sync_issue() {
   fi
 }
 
+tracked_issue_urls() {
+  local project_node_id="$1"
+
+  gh api graphql --paginate \
+    -f query='
+      query($project: ID!, $endCursor: String) {
+        node(id: $project) {
+          ... on ProjectV2 {
+            items(first: 100, after: $endCursor) {
+              nodes {
+                content {
+                  ... on Issue {
+                    url
+                    repository {
+                      nameWithOwner
+                    }
+                  }
+                }
+              }
+              pageInfo {
+                hasNextPage
+                endCursor
+              }
+            }
+          }
+        }
+      }' \
+    -f project="$project_node_id" \
+    | jq -r \
+      --arg repository "$TARGET_REPOSITORY" \
+      '.data.node.items.nodes[].content
+        | select(.repository.nameWithOwner == $repository)
+        | .url'
+}
+
 sync_relevant_issues() {
   local project_node_id="$1"
   local fields_json="$2"
@@ -587,15 +622,7 @@ sync_relevant_issues() {
         --json url \
         --jq '.[].url'
 
-      gh project item-list "$PROJECT_NUMBER" \
-        --owner "$PROJECT_OWNER" \
-        --limit 200 \
-        --format json \
-        | jq -r \
-          --arg repository "$TARGET_REPOSITORY" \
-          '.items[].content
-            | select(.type == "Issue" and .repository == $repository)
-            | .url'
+      tracked_issue_urls "$project_node_id"
     } | sort -u
   )
 }
