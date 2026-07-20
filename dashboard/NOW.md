@@ -14,7 +14,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 2. Consolider les confirmations sponsors B-Only 2026 et les prochaines actions : Paymium est soldé financièrement, Le Cercle du Coin reste à consolider et Bitstack attend une confirmation dans [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) et [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
 3. Poursuivre le calendrier éditorial B-Only 2026 après le lancement et compléter les URLs publiques : [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 4. Consolider le programme, les intervenants, les sujets et les créneaux B-Only 2026, notamment le titre de l’intervention de Pierre Noizat : [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
-5. Finaliser la gouvernance des accès Nextcloud et les administrateurs de secours : [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10) et [#30](https://github.com/Alpinechain/Alpinechain_Association/issues/30).
+5. Finaliser la gouvernance des accès et les administrateurs de secours : Nextcloud dans [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10), Meta dans [#8](https://github.com/Alpinechain/Alpinechain_Association/issues/8) et Framer/OVH dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
 6. Préparer l’atelier Bitcoin multisig et Disaster Recovery du 2 septembre 2026 selon la checklist J-21 à J+3 : [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
 7. Franchir la porte de lancement du prochain rendez-vous Souveraineté 3.0 : thème, date, lieu, format, promesse et inscription : [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7).
 8. Programmer la mise à niveau complète AlmaLinux 9.8 pendant la semaine du 27 juillet, après stabilisation de la billetterie : [Serveur #56](https://github.com/Alpinechain/Serveur/issues/56).
@@ -33,7 +33,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 
 - `https://b-only.org/` est à jour pour l’édition 2026.
 - Une FAQ a été ajoutée.
-- La maintenance continue du site est suivie dans [#33](https://github.com/Alpinechain/Alpinechain_Association/issues/33).
+- La mise à jour 2026 est terminée dans [#33](https://github.com/Alpinechain/Alpinechain_Association/issues/33). Les contenus futurs restent dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) et la gouvernance Framer/OVH dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
 
 ### Sponsors
 
@@ -60,6 +60,7 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 
 ## Phase 3 — État
 
+- La Phase 3 de connexion de l’exploitation est terminée et [#30](https://github.com/Alpinechain/Alpinechain_Association/issues/30) est clôturée. Les revues de droits restent suivies dans leurs Issues dédiées.
 - Cartographie des outils et flux : documentée.
 - Monitoring externe des services publics : actif.
 - Revue hebdomadaire : active.
