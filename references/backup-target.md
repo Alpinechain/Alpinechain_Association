@@ -1,7 +1,8 @@
 # Cible de sauvegarde hors serveur AlpineChain
 
-Version : V1.0  
+Version : V1.1
 Date de décision : 2026-07-18
+Date d’activation : 2026-07-20
 
 ## Décision
 
@@ -60,16 +61,17 @@ En cas de compromission :
 5. exécuter une sauvegarde et un contrôle Restic ;
 6. documenter l’incident et la rotation dans l’Issue GitHub, sans exposer les secrets.
 
-## État réel au 18 juillet 2026
+## État réel au 20 juillet 2026
 
 - [x] Technologie et fournisseur choisis.
 - [x] RPO, RTO, fréquence et rétention validés.
-- [ ] Produit Swiss Backup et appareil S3 confirmés dans le Manager Infomaniak.
-- [ ] Identifiants dédiés créés.
-- [ ] Configuration appliquée sur le serveur.
-- [ ] Dépôt Restic initialisé.
-- [ ] Première sauvegarde réussie.
-- [ ] Contrôle Restic réussi.
-- [ ] Restauration Pretix isolée réussie.
+- [x] Produit Swiss Backup et appareil S3 confirmés dans le Manager Infomaniak.
+- [x] Identifiants dédiés créés.
+- [x] Configuration appliquée sur le serveur, hors Git et en mode root-only.
+- [x] Dépôt Restic initialisé.
+- [x] Première sauvegarde réussie : snapshot `abee5432` du 20 juillet 2026.
+- [x] Contrôle Restic réussi : métadonnées et lecture de 5 % des données, sans erreur.
+- [x] Restauration Pretix isolée réussie dans PostgreSQL sans réseau.
+- [x] Timers de sauvegarde, vérification et rapport d’exploitation actifs.
 
-La cible est donc **décidée mais pas encore activée**.
+La cible est **active et contrôlée**. La rotation des clés S3 s’effectue en générant une nouvelle paire dans le Manager Infomaniak, en la validant avec `restic snapshots`, puis en révoquant l’ancienne. Le suivi détaillé de l’activation et de la restauration se trouve dans l’Issue #9.

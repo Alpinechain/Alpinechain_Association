@@ -1,6 +1,6 @@
 # Tableau de pilotage B-Only 2026
 
-Dernière mise à jour : 2026-07-11  
+Date de dernière mise à jour : 2026-07-20
 Événement : 7 au 9 novembre 2026  
 Lieu : Novotel Annecy Centre
 
@@ -14,13 +14,13 @@ Toutes les Issues du tableau portent le label `project:b-only` et sont automatiq
 
 | Chantier | Issue pilote | Issues liées | État initial | Prochaine borne connue |
 |---|---|---|---|---|
-| Billetterie et parcours participant | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25) | À faire | Ouverture le 2026-07-21 à 21:21 |
-| Sponsors et partenaires | [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) | [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4), [#5](https://github.com/Alpinechain/Alpinechain_Association/issues/5) | En attente / à consolider | Prochaines relances à dater |
+| Billetterie et parcours participant | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25) | Prête, lancement à contrôler | Ouverture le 2026-07-21 à 21:21 |
+| Sponsors et partenaires | [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) | [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4), [#5](https://github.com/Alpinechain/Alpinechain_Association/issues/5) | Paymium soldé ; autres dossiers à consolider | Bitstack et Cercle du Coin à dater |
 | Programme et intervenants | [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) | En attente de confirmations | Date de gel du programme à décider |
-| Communication et contenus | [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | À cadrer | Campagne billetterie du 2026-07-21 |
+| Communication et contenus | [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | Lancement programmé, URLs partiellement archivées | Contrôle du 2026-07-21 |
 | Production audiovisuelle et PeerTube | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) | [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) | À arbitrer | Test grandeur réduite à dater |
 | Accueil, stands, bar et logistique | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | À cadrer | Plan d’implantation à dater |
-| Budget, contrats et trésorerie | [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4), [#5](https://github.com/Alpinechain/Alpinechain_Association/issues/5), [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) | À consolider | Seuil de trésorerie à décider |
+| Budget, contrats et trésorerie | [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4), [#5](https://github.com/Alpinechain/Alpinechain_Association/issues/5), [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) | Paymium et acompte Novotel comptabilisés ; budget global à consolider | Seuil de trésorerie à décider |
 | Risques et plan de continuité | [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) | Tous les chantiers | À construire | Première revue des risques à dater |
 
 L’« état initial » sert uniquement à l’orientation. Le champ `Statut opérationnel` du GitHub Project fait foi.
