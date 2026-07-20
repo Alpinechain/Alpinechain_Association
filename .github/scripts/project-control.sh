@@ -571,7 +571,7 @@ sync_issue() {
   fi
 }
 
-sync_open_issues() {
+sync_relevant_issues() {
   local project_node_id="$1"
   local fields_json="$2"
 
@@ -579,12 +579,24 @@ sync_open_issues() {
     [ -n "$issue_url" ] || continue
     sync_issue "$issue_url" "reconcile" "$project_node_id" "$fields_json"
   done < <(
-    gh issue list \
-      --repo "$TARGET_REPOSITORY" \
-      --state open \
-      --limit 200 \
-      --json url \
-      --jq '.[].url'
+    {
+      gh issue list \
+        --repo "$TARGET_REPOSITORY" \
+        --state open \
+        --limit 200 \
+        --json url \
+        --jq '.[].url'
+
+      gh project item-list "$PROJECT_NUMBER" \
+        --owner "$PROJECT_OWNER" \
+        --limit 200 \
+        --format json \
+        | jq -r \
+          --arg repository "$TARGET_REPOSITORY" \
+          '.items[].content
+            | select(.type == "Issue" and .repository == $repository)
+            | .url'
+    } | sort -u
   )
 }
 
@@ -604,7 +616,7 @@ main() {
 
   case "$operation" in
     bootstrap|reconcile)
-      sync_open_issues "$project_node_id" "$fields_json"
+      sync_relevant_issues "$project_node_id" "$fields_json"
       ;;
     issue-event)
       local issue_url="${2:-}"

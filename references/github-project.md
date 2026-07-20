@@ -81,7 +81,7 @@ Le jeton ne doit jamais être écrit dans une Issue, un fichier du dépôt ou un
 
 - tout événement pertinent sur une Issue synchronise l’Issue concernée ;
 - toute Issue fermée passe à `Terminé` ;
-- une réconciliation complète s’exécute chaque lundi à 04:17 UTC ;
+- une réconciliation des Issues ouvertes et des Issues fermées déjà suivies s’exécute chaque lundi à 04:17 UTC ;
 - toute erreur est commentée sur l’Issue déclenchante avec le lien du run et un extrait du log.
 
 ### Manuelle
@@ -89,7 +89,7 @@ Le jeton ne doit jamais être écrit dans une Issue, un fichier du dépôt ou un
 Dans l’onglet **Actions**, sélectionner **AlpineChain Project Control**, puis lancer :
 
 - `bootstrap` pour initialiser ou réinitialiser l’ensemble ;
-- `reconcile` pour remettre toutes les Issues ouvertes en cohérence.
+- `reconcile` pour remettre les Issues ouvertes et les Issues fermées déjà suivies en cohérence.
 
 ## Champs gérés
 
