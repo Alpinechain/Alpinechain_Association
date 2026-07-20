@@ -48,7 +48,7 @@ Aucune clé, aucun mot de passe et aucun contenu de sauvegarde ne doit être ajo
 - Propriétaire fonctionnel : trésorier / validateur opérationnel AlpineChain.
 - Administrateur de la cible : compte Infomaniak AlpineChain.
 - Administrateur technique serveur : personne disposant d’un accès root nominatif au serveur.
-- Accès de secours : à attribuer nominativement et à tester avant clôture de la Phase 3.
+- Accès de secours : compte principal du Manager capable de régénérer les clés ; la gouvernance nominative globale des accès reste suivie dans les Issues dédiées.
 
 ## Révocation
 
