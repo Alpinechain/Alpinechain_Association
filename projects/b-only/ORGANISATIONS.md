@@ -23,11 +23,11 @@ Les chemins Nextcloud sont relatifs à
 | Bitstack | Partenaire potentiel | Courrier et facture envoyés ; confirmation et règlement attendus | Visibilité, stand, un pass et trois places pour giveaway prévus sous réserve d'accord | Demandé le 2026-07-22 | Alexandre Stachtchenko | Relance transmise le 2026-07-21 ; visuels demandés le 2026-07-22 | Attendre confirmation écrite et logo avant publication |
 | Cryptoast | Soutien média | Accord partiel à consolider | Un article envisagé début septembre et proposition de giveaway de deux ou trois pass | Plusieurs variantes disponibles dans `01_Programme-Intervenants/Logos Participants/` | Marius Farashi | Proposition précisée le 2026-07-22 | Confirmer l'article, sa date et le giveaway |
 | Bitcoin.fr | Soutien média | Mentionné comme soutien | Relais éditorial à préciser | Disponible dans `01_Programme-Intervenants/Logos Participants/` | À identifier | À dater | Identifier l'interlocuteur et la contrepartie attendue |
-| The Big Whale | Média potentiel | En attente | Relais ou participation à préciser | Manquant | Raphaël Bloch évoqué | À dater | Confirmer l'intérêt avant toute annonce |
+| The Big Whale | Média potentiel | En attente | Article, publication, texte promotionnel ou participation proposés | Manquant | Raphaël Bloch | Contact initial le 2026-06-08 ; relance vue le 2026-07-22 | Attendre une réponse positive ou négative avant toute annonce |
 | BFM Crypto | Média potentiel | En attente | Participation éditoriale possible | Manquant | Sandra Gandoin | À dater | Confirmer la disponibilité et le format |
 | Gallion | Organisation liée | Lien exact à confirmer | Organisation associée à la présentation d'Aurore Galves | Logo disponible dans `01_Programme-Intervenants/Logos Participants/` | Aurore Galves | Éléments demandés le 2026-07-22 | Confirmer le nom officiel et la fonction d'Aurore |
 | WeSatoshis | Organisation liée | À confirmer | Workshop possible | Manquant | Noé | À dater | Confirmer l'affiliation et obtenir le logo |
-| ProfEduStream | Organisation ou marque personnelle | Planifié | Plusieurs sessions pédagogiques | Manquant | Identité à préciser | À dater | Définir le nom public, le logo et le périmètre des sessions |
+| ProfEduStream | Organisation ou marque personnelle | Planifié | Plusieurs sessions pédagogiques ; intitulés en cours d'arbitrage | Manquant | Identité à préciser | Éléments demandés le 2026-07-22 | Obtenir le titre professionnel, le visuel et la sélection des sessions |
 | BMarket | Exposant | Indiqué comme confirmé dans la note de travail | Stand ou présentation de produits | Manquant | Kino | À dater | Obtenir logo, descriptif et besoins de stand |
 | Missatoshi | Artiste / exposante | Mentionnée dans la note de travail | Présentation ou vente de créations | Disponible dans `01_Programme-Intervenants/Logos Participants/` | À préciser | À dater | Confirmer présence, descriptif et besoins |
 | Kimatoshi | Exposant potentiel | À clarifier | Petit espace produits envisagé | Manquant | À préciser | À dater | Vérifier qu'il ne s'agit pas de Missatoshi |
@@ -52,4 +52,3 @@ Les chemins Nextcloud sont relatifs à
 5. Une vignette validée est déposée dans Nextcloud sous
    `03_Communication/Vignettes/Exports-valides/Organisations/`.
 6. La publication et son URL sont suivies dans l'Issue #24.
-
