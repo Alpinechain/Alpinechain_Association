@@ -1,7 +1,7 @@
 # AlpineChain Association OS
 
-Version : V0.1  
-Dernière mise à jour : 2026-05-17  
+Version : V0.2
+Dernière mise à jour : 2026-07-22
 Statut : validée pour usage opérationnel initial  
 Validateur actuel : Cyrille
 
@@ -63,7 +63,7 @@ Le mot `web3` peut rester un sujet d’analyse ou de discussion, mais il ne doit
 | Souveraineté 3.0 | Troisième jeudi du mois | Débattre, réfléchir, connecter |
 | Beer2Beer | Selon calendrier associatif | Discussion libre et réseau local |
 | Micro-projets | À définir au cas par cas | Expérimenter localement |
-| B-Only | Hors périmètre principal | Système dédié à prévoir |
+| B-Only | Annuel | Conférence dédiée, pilotée dans son portefeuille GitHub et ses outils métiers |
 
 Note : le nom `Souveraineté 3.0` est conservé pour le moment. Une étape future pourra évaluer un renommage selon le cadrage éditorial, les retours publics et les discussions avec le bureau AlpineChain.
 

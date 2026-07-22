@@ -85,6 +85,7 @@ Action - Initiatives/B-Only/
 └── 2026/
     ├── 01_Programme-Intervenants/
     ├── 02_Sponsors-Contrats/
+    │   └── Supports-partenariat/
     ├── 03_Communication/
     │   └── Vignettes/
     │       ├── Intervenants/
@@ -93,11 +94,22 @@ Action - Initiatives/B-Only/
     │           ├── Intervenants/
     │           └── Organisations/
     ├── 04_Production-Logistique/
+    │   ├── Restauration/
+    │   └── Notes-de-travail/
     ├── 05_Finances/
     └── 06_Medias/
+        └── Archives-2023-2025/
 ```
 
 Cette structure documentaire complète les huit chantiers GitHub sans les dupliquer dossier par dossier.
+
+Le classement authentifié du 22 juillet 2026 a renommé et déplacé 47 fichiers
+sans écrasement : portraits dans `Vignettes/Intervenants/`, logos dans
+`Vignettes/Organisations/`, documents partenaires et logistiques dans leurs
+sous-dossiers, et anciens visuels dans `06_Medias/Archives-2023-2025/`. Le
+fichier `LISEZ-MOI.txt` à la racine décrit la convention de nommage. L’ancienne
+note `B-Only'26.txt` reste provisoirement à la racine tant que son verrou Office
+empêche son déplacement.
 
 Les visuels historiques restent utilisables par défaut lorsqu'aucun remplaçant
 n'a été reçu, sous réserve de vérifier les droits avant publication. Un nouveau
@@ -108,7 +120,7 @@ Les exports nominatifs de participants restent dans Pretix ou dans un espace Nex
 
 ## Échéances connues
 
-- 21 juillet 2026 à 21:21 : ouverture prévue de la billetterie ;
+- 21 juillet 2026 à 21:21 : billetterie ouverte et contrôlée ;
 - 7 au 9 novembre 2026 : conférence ;
 - les autres échéances sont fixées dans les Issues pilotes dès validation.
 
