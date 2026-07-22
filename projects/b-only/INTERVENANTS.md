@@ -35,7 +35,7 @@ Les chemins Nextcloud sont relatifs à
 
 | Intervenant | Statut | Organisation liée | Intervention ou créneau provisoire | Portrait | Dernier contact | Éléments attendus | Prochaine action |
 |---|---|---|---|---|---|---|---|
-| Pierre Noizat | Confirmé | Paymium | Dimanche 10 h, salle principale ; format 20 minutes | Trois portraits disponibles par défaut dans `01_Programme-Intervenants/Photos Intervenants/` | À dater | Titre, thème exact et sélection du portrait | Obtenir les éléments puis faire valider la vignette |
+| Pierre Noizat | Confirmé | Paymium | Dimanche 10 h, salle principale ; format 20 minutes | Trois portraits disponibles par défaut dans `03_Communication/Vignettes/Intervenants/` | À dater | Titre, thème exact et sélection du portrait | Obtenir les éléments puis faire valider la vignette |
 | Aurore Galves | Planifié | Gallion à préciser | Dimanche 14 h — « Culture Bitcoin à travers les mèmes », à confirmer | Portrait historique disponible par défaut | Relancée le 2026-07-22 | Titre professionnel, photo souhaitée et validation du sujet | Attendre la réponse |
 | Alexandre Stachtchenko | Planifié | Bitstack | Lundi 11 h, salle principale ; sujet à définir | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, photo souhaitée et thème | Attendre la réponse ; le logo Bitstack est suivi dans `ORGANISATIONS.md` |
 | Marius Farashi | Planifié | Relation éditoriale avec Cryptoast à préciser | Dimanche 11 h, workshop ; Ark et L2 évoqués | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, thème définitif et photo souhaitée | Attendre la réponse |

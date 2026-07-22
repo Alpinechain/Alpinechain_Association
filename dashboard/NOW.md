@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-07-20
+Date de dernière mise à jour : 2026-07-22
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -10,9 +10,9 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 
 ## Priorités actives
 
-1. **P0 événement : réussir l’ouverture effective de la billetterie B-Only 2026 le 21 juillet 2026 à 21:21** : contrôle final, diffusion coordonnée, test réel et traçage des publications dans [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+1. **P0 événement : piloter l’après-lancement de la billetterie B-Only 2026** : suivre les ventes, rapprocher les conversions des publications et archiver les premières métriques dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) et [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26).
 2. Consolider les confirmations sponsors B-Only 2026 et les prochaines actions : Paymium est soldé financièrement, Le Cercle du Coin reste à consolider et Bitstack attend une confirmation dans [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) et [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
-3. Poursuivre le calendrier éditorial B-Only 2026 après le lancement et compléter les URLs publiques : [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+3. Produire puis faire valider les modèles de vignettes séparés pour les intervenants et les organisations à partir des sources maintenant classées : [#53](https://github.com/Alpinechain/Alpinechain_Association/issues/53).
 4. Consolider le programme, les intervenants, les sujets et les créneaux B-Only 2026, notamment le titre de l’intervention de Pierre Noizat : [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
 5. Finaliser la gouvernance des accès et les administrateurs de secours : Nextcloud dans [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10), Meta dans [#8](https://github.com/Alpinechain/Alpinechain_Association/issues/8) et Framer/OVH dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
 6. Préparer l’atelier Bitcoin multisig et Disaster Recovery du 2 septembre 2026 selon la checklist J-21 à J+3 : [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
@@ -23,11 +23,11 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 
 ### Billetterie
 
-- Partie publique vérifiée et déclarée opérationnelle : https://join.alpinechain.xyz/org/bonly26/
-- Ouverture programmée le 21 juillet 2026 à 21:21 Europe/Paris.
-- Publications de lancement préparées et programmées.
-- Les URLs publiques seront ajoutées dans GitHub au fil de leur diffusion.
-- L’Issue reste ouverte jusqu’au contrôle du lancement effectif, au test final et à l’archivage des liens.
+- Partie publique ouverte et opérationnelle : https://join.alpinechain.xyz/org/bonly26/
+- L’événement Pretix est actif, hors mode test, avec une prévente ouverte depuis le 21 juillet 2026 à 21:21 Europe/Paris.
+- Contrôle du 22 juillet : 22 commandes payées représentant 26 billets ; aucune commande impayée ou en attente dans le relevé contrôlé.
+- Le formulaire public propose bien le billet Early à 150 € et permet de poursuivre vers le paiement.
+- Le suivi du lancement est clôturé dans [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) ; les publications et métriques restent suivies dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 
 ### Site public
 
@@ -44,7 +44,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 ## Revue d’exploitation 2026-W30
 
 - Les cinq derniers runs du monitoring public sont réussis et aucun incident public n’est ouvert.
-- Les 20 conteneurs de production sont démarrés, le MCP et ses six connecteurs sont sains, et aucune unité systemd n’est en échec.
+- Les 21 conteneurs de production sont démarrés, y compris Collabora dédié ; le MCP et ses six connecteurs sont sains, et aucune unité systemd n’est en échec.
 - Les disques sont utilisés à 13 % pour `/` et 34 % pour le disque de données après suppression contrôlée d’une archive temporaire PeerTube de 23,76 Go.
 - Le snapshot Restic `abee5432`, le contrôle de 5 % des données et la restauration Pretix isolée sont validés ; les timers quotidiens et hebdomadaires sont actifs. [#9](https://github.com/Alpinechain/Alpinechain_Association/issues/9) est clôturée.
 - La rotation du secret, le nettoyage des healthchecks orphelins et des artefacts d’audit sont terminés dans [Serveur #35](https://github.com/Alpinechain/Serveur/issues/35), [#37](https://github.com/Alpinechain/Serveur/issues/37) et [#38](https://github.com/Alpinechain/Serveur/issues/38).
@@ -66,7 +66,8 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 - Revue hebdomadaire : active.
 - Inventaire Nextcloud réalisé le 13 juillet 2026 : 66 dossiers, 133 fichiers, environ 228,5 Mio.
 - Structure Nextcloud 2026 créée et vérifiée par accès authentifié : B-Only 2026, Meetup 2026 et Contrats-Conventions.
-- Compte MCP Nextcloud dédié, mot de passe d’application et racine `Alpinechain-MCP` validés en WebDAV.
+- Dossier B-Only 2026 classé le 22 juillet : 47 sources renommées et déplacées sans écrasement, portraits et logos séparés, anciens visuels rangés en archives et fichier `LISEZ-MOI.txt` ajouté ; une note verrouillée reste à déplacer.
+- Compte MCP Nextcloud dédié, mot de passe d’application et racine partagée `Association` validés en WebDAV.
 - Le partage public historique Nextcloud `6aBTY243WDkbSGL` a été supprimé et n’existe plus.
 - L’exposition publique directe est considérée comme coupée ; la revue des droits, des liens hérités, de la rétention et des administrateurs de secours reste ouverte dans [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10).
 - L’absence de partage public empêche désormais le contrôle anonyme du contenu réel, conformément au niveau de sécurité attendu. Toute nouvelle vérification documentaire doit utiliser un accès Nextcloud ou WebDAV authentifié.
@@ -76,7 +77,6 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 
 ## Décisions attendues
 
-- Confirmer les modalités de contrôle opérationnel au moment exact de l’ouverture de la billetterie B-Only 2026.
 - Confirmer les contreparties définitives et l’état administratif de chaque sponsor B-Only 2026.
 - Confirmer l’intervenant, la salle exacte, la capacité et le budget de l’atelier Bitcoin du 2 septembre 2026.
 - Valider le prochain thème, la date, le lieu et la promesse du rendez-vous Souveraineté 3.0.
@@ -86,7 +86,7 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 
 ## En attente de tiers
 
-- Confirmation formelle de participation de Bitstack au pack soutien B-Only 2026.
+- Confirmation formelle de participation de Bitstack au pack soutien B-Only 2026 et règlement de la facture à échéance.
 - Réponses des partenaires, sponsors et intervenants encore en discussion.
 - Confirmation de l’intervenant de l’atelier multisig et Disaster Recovery.
 
@@ -105,8 +105,8 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 
 | Date | Échéance | Projet |
 |---|---|---|
-| 2026-07-21 21:21 | Ouverture prévue de la billetterie B-Only 2026 | B-Only |
 | Après chaque diffusion | Ajouter les URLs publiques et premiers résultats | B-Only |
+| Revue hebdomadaire | Relever les ventes Pretix et rapprocher les campagnes | B-Only |
 | Semaine du 2026-07-27 | Mise à niveau complète AlmaLinux 9.8 | Infrastructure |
 | 2026-08-12 | J-21 de l’atelier multisig et Disaster Recovery | Meetup Bitcoin |
 | 2026-09-02 19:00 | Atelier Bitcoin : multisig et Disaster Recovery | Meetup Bitcoin |
@@ -117,7 +117,7 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 
 Toute publication publique doit rester en validation humaine. Les campagnes actives doivent être rattachées à une Issue GitHub et comporter les liens publics définitifs dès leur diffusion.
 
-Les publications d’ouverture de la billetterie sont programmées. Leur traçabilité reste à compléter dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) à mesure de leur publication.
+Les publications d’ouverture de la billetterie ont été diffusées sur les principaux canaux. Leur traçabilité et leurs métriques restent à compléter dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 
 ## Règle d’usage
 

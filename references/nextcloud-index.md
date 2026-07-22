@@ -102,6 +102,7 @@ Action - Initiatives/B-Only/
 └── 2026/
     ├── 01_Programme-Intervenants/
     ├── 02_Sponsors-Contrats/
+    │   └── Supports-partenariat/
     ├── 03_Communication/
     │   └── Vignettes/
     │       ├── Intervenants/
@@ -110,15 +111,22 @@ Action - Initiatives/B-Only/
     │           ├── Intervenants/
     │           └── Organisations/
     ├── 04_Production-Logistique/
+    │   ├── Restauration/
+    │   └── Notes-de-travail/
     ├── 05_Finances/
     └── 06_Medias/
+        └── Archives-2023-2025/
 ```
 
 Les registres GitHub `projects/b-only/INTERVENANTS.md` et
 `projects/b-only/ORGANISATIONS.md` portent les statuts de préparation. Nextcloud
-conserve les fichiers sources et les exports graphiques. Les visuels existants
-ne sont ni déplacés ni dupliqués lors de la création de cette arborescence ; les
-registres référencent leur emplacement réel.
+conserve les fichiers sources et les exports graphiques. Le 22 juillet 2026,
+47 fichiers ont été renommés et déplacés dans cette structure par WebDAV avec
+refus d'écrasement et vérification d'empreinte avant/après. Les portraits sont
+dans `Vignettes/Intervenants/`, les logos dans `Vignettes/Organisations/` et les
+anciens supports graphiques dans `06_Medias/Archives-2023-2025/`. Aucun fichier
+n'a été supprimé. La note historique `B-Only'26.txt` reste provisoirement à la
+racine car son verrou Office interdit encore son déplacement.
 
 ### Rencontres Souveraineté 3.0
 
@@ -135,7 +143,7 @@ Administration/
 └── Contrats-Conventions/
 ```
 
-Les créations ont été contrôlées par `PROPFIND`. Aucun fichier ou dossier existant n’a été supprimé, déplacé, renommé ou remplacé.
+Les créations et le classement ont été contrôlés par WebDAV. Aucun fichier ou dossier existant n’a été supprimé ou remplacé ; tous les déplacements autorisés ont refusé l’écrasement d’une destination existante.
 
 ## Convention de liaison GitHub ↔ Nextcloud
 
@@ -168,7 +176,7 @@ Dernière revue : AAAA-MM-JJ
 - vérifier les journaux d’accès et les autres liens publics hérités ;
 - confirmer les propriétaires, droits nominatifs et administrateurs de secours ;
 - vérifier la corbeille, les versions, la rétention et la restauration Nextcloud ;
-- ajouter les fichiers `LISEZ-MOI.txt` après validation de leur contenu ;
+- étendre progressivement les fichiers `LISEZ-MOI.txt` aux autres dossiers actifs ; celui de B-Only 2026 est en place ;
 - vérifier que les exports d’adhérents et participants ne sont conservés que pendant la durée nécessaire ;
 - réaliser une nouvelle revue documentaire authentifiée lorsque l’état réel des fichiers doit être contrôlé.
 

@@ -4,6 +4,11 @@ Dépôt central de pilotage des activités associatives AlpineChain.
 
 Il organise la méthode de travail, les projets, les actions, la communication, les décisions et la capitalisation. L’IA soutient le pilotage mais ne remplace ni la validation humaine ni les outils métiers.
 
+État au 22 juillet 2026 : la billetterie B-Only 2026 est ouverte, le dossier
+documentaire 2026 est classé dans Nextcloud et les sources de vignettes sont
+séparées entre intervenants et organisations. Les priorités et les données
+chiffrées du jour restent centralisées dans [`dashboard/NOW.md`](dashboard/NOW.md).
+
 ## Accès rapide
 
 | Besoin | Emplacement |
