@@ -12,6 +12,17 @@ B-Only 2026, du 7 au 9 novembre 2026 au Novotel Annecy Centre.
 
 Le portefeuille opérationnel est décrit dans [`BOARD.md`](BOARD.md) et affiché dans la [vue GitHub Project B-Only 2026](https://github.com/users/Alpinechain/projects/1/views/2).
 
+Les deux registres de préparation des vignettes sont :
+
+- [`INTERVENANTS.md`](INTERVENANTS.md) pour les personnes, leurs sujets et les
+  éléments attendus ;
+- [`ORGANISATIONS.md`](ORGANISATIONS.md) pour les entreprises, partenaires,
+  médias, associations et exposants.
+
+Ils ne contiennent que des statuts et métadonnées adaptés à un dépôt public.
+Les conversations complètes, coordonnées, portraits, logos et documents sources
+restent dans la messagerie ou dans Nextcloud selon leur nature.
+
 ## Chantiers et Issues pilotes
 
 | Chantier | Issue pilote |
@@ -75,12 +86,23 @@ Action - Initiatives/B-Only/
     ├── 01_Programme-Intervenants/
     ├── 02_Sponsors-Contrats/
     ├── 03_Communication/
+    │   └── Vignettes/
+    │       ├── Intervenants/
+    │       ├── Organisations/
+    │       └── Exports-valides/
+    │           ├── Intervenants/
+    │           └── Organisations/
     ├── 04_Production-Logistique/
     ├── 05_Finances/
     └── 06_Medias/
 ```
 
 Cette structure documentaire complète les huit chantiers GitHub sans les dupliquer dossier par dossier.
+
+Les visuels historiques restent utilisables par défaut lorsqu'aucun remplaçant
+n'a été reçu, sous réserve de vérifier les droits avant publication. Un nouveau
+fichier ne doit jamais écraser un visuel existant : il reçoit un nom versionné ou
+daté jusqu'à validation.
 
 Les exports nominatifs de participants restent dans Pretix ou dans un espace Nextcloud privé strictement limité. Ils ne doivent jamais être inclus dans un partage public global.
 

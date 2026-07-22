@@ -11,6 +11,8 @@ Il organise la méthode de travail, les projets, les actions, la communication, 
 | Voir les priorités actuelles | [`dashboard/NOW.md`](dashboard/NOW.md) |
 | Ouvrir le cockpit opérationnel | [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) |
 | Ouvrir la vue B-Only 2026 | [B-Only 2026](https://github.com/users/Alpinechain/projects/1/views/2) |
+| Suivre les intervenants B-Only | [`projects/b-only/INTERVENANTS.md`](projects/b-only/INTERVENANTS.md) |
+| Suivre les organisations B-Only | [`projects/b-only/ORGANISATIONS.md`](projects/b-only/ORGANISATIONS.md) |
 | Comprendre le cadre général | [`ALPINECHAIN_ASSOCIATION_OS.md`](ALPINECHAIN_ASSOCIATION_OS.md) |
 | Consulter les actions | [Issues GitHub](https://github.com/Alpinechain/Alpinechain_Association/issues) |
 | Comprendre les flux entre outils | [`references/data-flows.md`](references/data-flows.md) |

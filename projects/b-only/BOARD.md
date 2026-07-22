@@ -1,6 +1,6 @@
 # Tableau de pilotage B-Only 2026
 
-Date de dernière mise à jour : 2026-07-20
+Date de dernière mise à jour : 2026-07-22
 Événement : 7 au 9 novembre 2026  
 Lieu : Novotel Annecy Centre
 
@@ -9,6 +9,11 @@ Lieu : Novotel Annecy Centre
 Ce fichier décrit la structure du portefeuille B-Only. L’état vivant des actions se trouve dans la [vue GitHub Project B-Only 2026](https://github.com/users/Alpinechain/projects/1/views/2) et dans les Issues.
 
 Toutes les Issues du tableau portent le label `project:b-only` et sont automatiquement synchronisées dans le Project.
+
+Les états détaillés nécessaires aux vignettes sont tenus séparément dans les
+registres [`INTERVENANTS.md`](INTERVENANTS.md) et
+[`ORGANISATIONS.md`](ORGANISATIONS.md). Les actions restent dans les Issues et
+le champ `Statut opérationnel` du Project continue de faire foi.
 
 ## Chantiers
 

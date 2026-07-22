@@ -47,6 +47,12 @@ Association/
 │   │       ├── 01_Programme-Intervenants/
 │   │       ├── 02_Sponsors-Contrats/
 │   │       ├── 03_Communication/
+│   │       │   └── Vignettes/
+│   │       │       ├── Intervenants/
+│   │       │       ├── Organisations/
+│   │       │       └── Exports-valides/
+│   │       │           ├── Intervenants/
+│   │       │           └── Organisations/
 │   │       ├── 04_Production-Logistique/
 │   │       ├── 05_Finances/
 │   │       └── 06_Medias/
@@ -97,10 +103,22 @@ Action - Initiatives/B-Only/
     ├── 01_Programme-Intervenants/
     ├── 02_Sponsors-Contrats/
     ├── 03_Communication/
+    │   └── Vignettes/
+    │       ├── Intervenants/
+    │       ├── Organisations/
+    │       └── Exports-valides/
+    │           ├── Intervenants/
+    │           └── Organisations/
     ├── 04_Production-Logistique/
     ├── 05_Finances/
     └── 06_Medias/
 ```
+
+Les registres GitHub `projects/b-only/INTERVENANTS.md` et
+`projects/b-only/ORGANISATIONS.md` portent les statuts de préparation. Nextcloud
+conserve les fichiers sources et les exports graphiques. Les visuels existants
+ne sont ni déplacés ni dupliqués lors de la création de cette arborescence ; les
+registres référencent leur emplacement réel.
 
 ### Rencontres Souveraineté 3.0
 
