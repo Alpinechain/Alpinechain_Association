@@ -1,6 +1,7 @@
 # Registre des organisations B-Only 2026
 
-Dernière mise à jour : 2026-07-22  
+Dernière mise à jour : 2026-07-24
+
 Issue sponsors : [#3 — Pipeline sponsors](https://github.com/Alpinechain/Alpinechain_Association/issues/3)  
 Issue communication : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
 
@@ -20,7 +21,7 @@ Les chemins Nextcloud sont relatifs à
 |---|---|---|---|---|---|---|---|
 | Paymium | Partenaire conférence | Confirmé, facturé et payé | Intervention de 20 minutes, visibilité partenaire, deux pass et places concours ; aucun stand | `03_Communication/Vignettes/Organisations/organisation--paymium--logo--2026-07-19--source.svg` | Pierre Noizat | Dossier partenaire validé | Obtenir le titre de l'intervention avant communication dédiée |
 | Cercle du Coin | Partenaire soutien | Confirmé ; vérifications documentaires et financières restantes suivies dans #3 | Présentation de l'association et workshop trésorerie BTC | `03_Communication/Vignettes/Organisations/organisation--cercle-du-coin--logo--2026-07-22--source.jpg` | Hub — identité à compléter | À dater | Vérifier le dossier, identifier l'intervenant et préparer la vignette |
-| Bitstack | Partenaire potentiel | Courrier et facture envoyés ; confirmation et règlement attendus | Visibilité, stand, un pass et trois places pour giveaway prévus sous réserve d'accord | Demandé le 2026-07-22 | Alexandre Stachtchenko | Relance transmise le 2026-07-21 ; visuels demandés le 2026-07-22 | Attendre confirmation écrite et logo avant publication |
+| Bitstack | Partenaire soutien | Confirmé par courrier signé ; facture `FA2607-0003` en attente de règlement | Visibilité, stand, un pass et trois places pour giveaway | Demandé le 2026-07-22 | Alexandre Stachtchenko | Confirmation signée reçue le 2026-07-23 et archivée dans `02_Sponsors-Contrats/Bitstack/` | Suivre le règlement au 19 août, obtenir le logo et planifier les contreparties |
 | Cryptoast | Soutien média | Accord partiel à consolider | Un article envisagé début septembre et proposition de giveaway de deux ou trois pass | Plusieurs variantes disponibles dans `03_Communication/Vignettes/Organisations/` | Marius Farashi | Proposition précisée le 2026-07-22 | Confirmer l'article, sa date et le giveaway |
 | Bitcoin.fr | Soutien média | Mentionné comme soutien | Relais éditorial à préciser | `03_Communication/Vignettes/Organisations/organisation--bitcoin-fr--logo-blanc--2023-10-13--source.svg` | À identifier | À dater | Identifier l'interlocuteur et la contrepartie attendue |
 | The Big Whale | Média potentiel | En attente | Article, publication, texte promotionnel ou participation proposés | Manquant | Raphaël Bloch | Contact initial le 2026-06-08 ; relance vue le 2026-07-22 | Attendre une réponse positive ou négative avant toute annonce |
