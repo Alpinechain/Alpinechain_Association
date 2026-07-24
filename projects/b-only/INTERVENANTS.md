@@ -1,6 +1,6 @@
 # Registre des intervenants B-Only 2026
 
-Dernière mise à jour : 2026-07-22  
+Dernière mise à jour : 2026-07-24
 Issue pilote : [#11 — Programme et intervenants](https://github.com/Alpinechain/Alpinechain_Association/issues/11)  
 Publication et vignettes : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
 
@@ -27,6 +27,7 @@ publication.
 | Planifié | Présent dans le planning de travail, confirmation ou détails encore incomplets |
 | En attente | Invitation ou participation non finalisée |
 | Candidat | Participation possible, sans créneau validé |
+| Indisponible | Participation déclinée ou devenue impossible pour cette édition |
 
 ## Tableau de suivi
 
@@ -39,14 +40,15 @@ Les chemins Nextcloud sont relatifs à
 | Aurore Galves | Planifié | Gallion à préciser | Dimanche 14 h — « Culture Bitcoin à travers les mèmes », à confirmer | Portrait historique disponible par défaut | Relancée le 2026-07-22 | Titre professionnel, photo souhaitée et validation du sujet | Attendre la réponse |
 | Alexandre Stachtchenko | Planifié | Bitstack | Lundi 11 h, salle principale ; sujet à définir | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, photo souhaitée et thème | Attendre la réponse ; le logo Bitstack est suivi dans `ORGANISATIONS.md` |
 | Marius Farashi | Planifié | Relation éditoriale avec Cryptoast à préciser | Dimanche 11 h, workshop ; Ark et L2 évoqués | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, thème définitif et photo souhaitée | Attendre la réponse |
-| Renaud Lifchitz | Planifié | À préciser | Dimanche 15 h, workshop technique ; thème à confirmer | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, société, photo souhaitée et thème technique | Attendre la réponse |
+| Renaud Lifchitz | Planifié | Sharekey — CTO | Dimanche 15 h, workshop technique ; thème à confirmer | Portrait officiel reçu dans `03_Communication/Vignettes/Intervenants/intervenant--renaud-lifchitz--portrait-officiel--2026-07-24--source.jpg` | Photo officielle et titre reçus le 2026-07-24 | Thème et intitulé définitifs du workshop | Obtenir le thème puis préparer la vignette |
 | Élodie Sogan | Planifié | À préciser | Samedi 15 h avec Cédric Maire | Portrait historique disponible par défaut | À dater | Titre professionnel, rôle, sujet et validation du portrait | Préparer une relance bornée |
 | Nicolas Cantu | Candidat | À préciser | Workshop proposé ; thème autour de l'agriculture évoqué, sans créneau | Portrait historique vertical disponible par défaut | Proposition de workshop envoyée le 2026-07-22 | Acceptation, titre professionnel et intitulé adapté au format workshop | Attendre sa réponse avant de l'ajouter au programme |
 | Cédric Maire | Planifié | À préciser | Samedi 15 h avec Élodie Sogan | Manquant | À dater | Photo, titre professionnel, rôle et sujet | Préparer une relance bornée |
 | ProfEduStream | Planifié | ProfEduStream | Choix demandé entre cinq thèmes proposés et les quatre sessions déjà placées au planning | Manquant | Relancé le 2026-07-22 | Photo, titre professionnel et sélection des intitulés définitifs | Attendre son arbitrage puis mettre à jour le planning |
 | Florent Gabriel | Planifié | À préciser | Samedi vers 17 h 30–18 h 30 ; sujet à confirmer | Manquant | À dater | Photo, titre professionnel, sujet et durée | Confirmer le contenu et le créneau |
-| Romain Dominati | En attente | À préciser | Dimanche 9 h ; thème à confirmer | Manquant | Relancé le 2026-07-22 | Confirmation, photo, titre professionnel et thème | Attendre sa réponse |
-| Damien Theillier | Planifié | À préciser | Dimanche 11 h — Révolutions française et américaine, Locke contre Rousseau | Manquant | À dater | Photo, titre professionnel, affiliation et validation du titre | Préparer une relance bornée |
+| Romain Dominati | Indisponible | À préciser | Ne participera pas à l'édition 2026 en raison d'un changement professionnel | Manquant | Indisponibilité confirmée le 2026-07-24 | Aucun pour cette édition | Libérer le créneau et étudier les contacts pertinents du groupe Café Viennois d'Ulrich |
+| Damien Theillier | Indisponible | À préciser | Ne participera pas à l'édition 2026 en raison d'obligations familiales | Manquant | Indisponibilité confirmée le 2026-07-24 | Aucun pour cette édition | Libérer le créneau ; ne pas relancer Yorick ni Guido Hülsmann sur cette piste |
+| Lionel Jeannerat | Candidat | PVH Éditions ; Be-BOP | Proposition spontanée : « Bitcoin est pour les copaines », angle annoncé comme exclusif, provocant et décalé | Manquant | Proposition reçue le 2026-07-24 | Format, synopsis, durée, public visé, titre définitif, disponibilité et portrait | Demander une note d'intention courte puis décider du créneau et du format |
 | [Christine Jeanneaux](https://www.linkedin.com/in/christine-jeanneaux/) | Planifié | À préciser | Dimanche 15 h — « Comportements moutonniers », titre à confirmer | Manquant | Relancée le 2026-07-22 | Photo, titre professionnel et titre définitif | Attendre sa réponse |
 | Sandra Gandoin | En attente | BFM Crypto à confirmer | Dimanche 16 h 30, sous réserve de disponibilité | Manquant | À dater | Confirmation, photo, titre professionnel et sujet | Relancer à la date convenue |
 | [Élodie Lué](https://www.linkedin.com/in/elodielue/) | Confirmé | Fondatrice d'Effet 21 Conseil ; hôte du Podcast Effet 21 | Dimanche 10 h : workshop sur les paiements Lightning avec équipement en direct de commerçants volontaires ; 17 h 30 : « Quand Bitcoin rencontre le mobile money » | Portrait reçu dans `03_Communication/Vignettes/Intervenants/intervenant--elodie-lue--portrait--2026-07-22--source.png` | Réponse complète reçue le 2026-07-22 | Intitulé final du workshop, besoins techniques et modalités de participation des commerçants | Préparer la vignette intervenante puis cadrer le workshop dans #11 |
