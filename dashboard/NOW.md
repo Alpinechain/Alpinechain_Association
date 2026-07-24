@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-07-22
+Date de dernière mise à jour : 2026-07-24
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -11,7 +11,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 ## Priorités actives
 
 1. **P0 événement : piloter l’après-lancement de la billetterie B-Only 2026** : suivre les ventes, rapprocher les conversions des publications et archiver les premières métriques dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) et [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26).
-2. Consolider les confirmations sponsors B-Only 2026 et les prochaines actions : Paymium est soldé financièrement, Le Cercle du Coin reste à consolider et Bitstack attend une confirmation dans [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) et [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
+2. Consolider les sponsors B-Only 2026 et leurs prochaines actions : Paymium est soldé financièrement, Bitstack est confirmé avec règlement attendu, et Le Cercle du Coin reste à consolider dans [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) et [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
 3. Produire puis faire valider les modèles de vignettes séparés pour les intervenants et les organisations à partir des sources maintenant classées : [#53](https://github.com/Alpinechain/Alpinechain_Association/issues/53).
 4. Consolider le programme, les intervenants, les sujets et les créneaux B-Only 2026, notamment le titre de l’intervention de Pierre Noizat : [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
 5. Finaliser la gouvernance des accès et les administrateurs de secours : Nextcloud dans [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10), Meta dans [#8](https://github.com/Alpinechain/Alpinechain_Association/issues/8) et Framer/OVH dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
@@ -39,6 +39,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne rem
 
 - Le traitement des confirmations, factures, paiements et contreparties reste en cours.
 - Paymium : pack de 2 500 € facturé, payé et rapproché ; contreparties réparties entre les Issues programme, communication et logistique.
+- Bitstack : pack soutien de 2 000 € confirmé par courrier signé reçu le 23 juillet et archivé dans Nextcloud ; facture `FA2607-0003` en attente de règlement au 19 août.
 - Reprise opérationnelle prévue après la présente mise à jour.
 
 ## Revue d’exploitation 2026-W30
@@ -86,7 +87,7 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 
 ## En attente de tiers
 
-- Confirmation formelle de participation de Bitstack au pack soutien B-Only 2026 et règlement de la facture à échéance.
+- Règlement de la facture Bitstack `FA2607-0003` à échéance et coordination de ses contreparties.
 - Réponses des partenaires, sponsors et intervenants encore en discussion.
 - Confirmation de l’intervenant de l’atelier multisig et Disaster Recovery.
 
