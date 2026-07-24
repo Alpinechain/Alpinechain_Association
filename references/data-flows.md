@@ -192,7 +192,9 @@ Une sauvegarde n’est déclarée opérationnelle qu’après un test de restaur
 - lecture et dépôt sans écrasement dans Nextcloud ;
 - lecture des métadonnées publiques PeerTube ;
 - recherche et lecture IMAP séparées pour `contact@alpinechain.xyz` et
-  `cyrille@alpinechain.xyz`, à la demande et sans modification des messages ;
+  `cyrille@alpinechain.xyz`, sans modification des messages ; relève
+  incrémentale des métadonnées toutes les quatre heures et lecture détaillée à
+  la demande ;
 - sauvegarde Restic quotidienne, contrôle hebdomadaire et rapport local.
 
 Le MCP reste privé sur le serveur et est utilisé par Codex via tunnel SSH. Une exposition directe à GPT n’est pas nécessaire dans l’architecture retenue.
