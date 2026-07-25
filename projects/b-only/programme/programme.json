@@ -1,0 +1,505 @@
+{
+  "event": {
+    "name": "B-Only 2026",
+    "location": "Novotel Annecy Centre",
+    "timezone": "Europe/Paris",
+    "utcOffset": "+01:00",
+    "ticketUrl": "https://join.alpinechain.xyz/org/bonly26/",
+    "websiteUrl": "https://b-only.org/"
+  },
+  "publication": {
+    "state": "draft",
+    "updatedAt": "2026-07-25T23:00:00+02:00",
+    "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
+  },
+  "rooms": [
+    {
+      "id": "main",
+      "name": "Salle principale",
+      "capacity": 150
+    },
+    {
+      "id": "workshop",
+      "name": "Pleb Forum — Workshop",
+      "capacity": 50
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-11-07",
+      "label": "Samedi 7 novembre"
+    },
+    {
+      "date": "2026-11-08",
+      "label": "Dimanche 8 novembre"
+    },
+    {
+      "date": "2026-11-09",
+      "label": "Lundi 9 novembre"
+    }
+  ],
+  "entries": [
+    {
+      "id": "sat-opening",
+      "date": "2026-11-07",
+      "start": "14:00",
+      "end": "14:50",
+      "room": "main",
+      "status": "fixed",
+      "visibility": "public",
+      "title": "Ouverture de B-Only 2026",
+      "speakers": [],
+      "format": "Ouverture",
+      "notes": "Ouverture commune aux deux espaces."
+    },
+    {
+      "id": "sat-main-elodie-sogan-cedric",
+      "date": "2026-11-07",
+      "start": "15:00",
+      "end": "15:50",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Sujet à confirmer",
+      "speakers": [
+        "Élodie Sogan",
+        "Cédric Maire"
+      ],
+      "format": "Présentation et questions",
+      "notes": "Titre et rôles à confirmer."
+    },
+    {
+      "id": "sat-workshop-profedu-qa",
+      "date": "2026-11-07",
+      "start": "15:00",
+      "end": "15:50",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Q&A débutants : utiliser Bitcoin",
+      "speakers": [
+        "ProfEduStream"
+      ],
+      "format": "Questions-réponses",
+      "notes": "Première étape du parcours ProfEduStream."
+    },
+    {
+      "id": "sat-main-profedu-florent-debate",
+      "date": "2026-11-07",
+      "start": "16:30",
+      "end": "17:50",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Présentations croisées et débat",
+      "speakers": [
+        "ProfEduStream",
+        "Florent Gabriel"
+      ],
+      "moderators": [
+        "Élodie Lué",
+        "Cédric Maire",
+        "Marius Farashi"
+      ],
+      "format": "20 min ProfEduStream, présentation de Florent, puis débat",
+      "notes": "Répartir la modération et confirmer les titres avant publication."
+    },
+    {
+      "id": "sat-workshop-polto-darko",
+      "date": "2026-11-07",
+      "start": "16:30",
+      "end": "17:20",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Sujet à confirmer",
+      "speakers": [
+        "Polto",
+        "Darko"
+      ],
+      "format": "Workshop",
+      "notes": "Identifier le responsable et le sujet."
+    },
+    {
+      "id": "sat-workshop-schnuartz",
+      "date": "2026-11-07",
+      "start": "17:30",
+      "end": "18:20",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Specter Workshop",
+      "speakers": [
+        "Schnuartz"
+      ],
+      "format": "Workshop en anglais",
+      "notes": "Intitulé définitif et langue à confirmer."
+    },
+    {
+      "id": "sat-main-lionel",
+      "date": "2026-11-07",
+      "start": "18:30",
+      "end": "19:20",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Bitcoin est pour les copaines",
+      "speakers": [
+        "Lionel Jeannerat"
+      ],
+      "format": "Présentation et questions",
+      "notes": "Créneau provisoire ; synopsis, format et titre définitif à confirmer."
+    },
+    {
+      "id": "sat-workshop-free-1830",
+      "date": "2026-11-07",
+      "start": "18:30",
+      "end": "19:20",
+      "room": "workshop",
+      "status": "free",
+      "visibility": "internal",
+      "title": "Créneau libre",
+      "speakers": [],
+      "format": "",
+      "notes": ""
+    },
+    {
+      "id": "sun-main-free-0900",
+      "date": "2026-11-08",
+      "start": "09:00",
+      "end": "09:50",
+      "room": "main",
+      "status": "free",
+      "visibility": "internal",
+      "title": "Créneau libre",
+      "speakers": [],
+      "format": "",
+      "notes": "Créneau libéré après le désistement de Romain Dominati."
+    },
+    {
+      "id": "sun-workshop-profedu-send-receive",
+      "date": "2026-11-08",
+      "start": "09:00",
+      "end": "09:50",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Envoyer et recevoir du bitcoin",
+      "speakers": [
+        "ProfEduStream"
+      ],
+      "format": "Workshop",
+      "notes": "Étape du parcours ProfEduStream ; outils exacts à confirmer."
+    },
+    {
+      "id": "sun-main-pierre",
+      "date": "2026-11-08",
+      "start": "10:00",
+      "end": "10:50",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Titre à confirmer",
+      "speakers": [
+        "Pierre Noizat"
+      ],
+      "format": "Présentation de 20 minutes et questions",
+      "notes": "Intervenant confirmé ; titre, thème et portrait à valider."
+    },
+    {
+      "id": "sun-workshop-elodie-lightning",
+      "date": "2026-11-08",
+      "start": "10:00",
+      "end": "10:50",
+      "room": "workshop",
+      "status": "confirmed",
+      "visibility": "public",
+      "title": "Paiements via Lightning Network",
+      "speakers": [
+        "Élodie Lué"
+      ],
+      "format": "Workshop et équipement en direct",
+      "notes": "Modalités de participation des commerçants à préciser."
+    },
+    {
+      "id": "sun-main-free-1100",
+      "date": "2026-11-08",
+      "start": "11:00",
+      "end": "11:50",
+      "room": "main",
+      "status": "free",
+      "visibility": "internal",
+      "title": "Créneau libre",
+      "speakers": [],
+      "format": "",
+      "notes": "Créneau libéré après le désistement de Damien Theillier."
+    },
+    {
+      "id": "sun-workshop-marius",
+      "date": "2026-11-08",
+      "start": "11:00",
+      "end": "11:50",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Ark et solutions de seconde couche",
+      "speakers": [
+        "Marius Farashi"
+      ],
+      "format": "Workshop",
+      "notes": "Titre et contenu définitifs à confirmer."
+    },
+    {
+      "id": "sun-lunch",
+      "date": "2026-11-08",
+      "start": "12:00",
+      "end": "13:50",
+      "room": "main",
+      "status": "fixed",
+      "visibility": "public",
+      "title": "Pause déjeuner",
+      "speakers": [],
+      "format": "Pause",
+      "notes": "Pause commune."
+    },
+    {
+      "id": "sun-main-aurore",
+      "date": "2026-11-08",
+      "start": "14:00",
+      "end": "14:50",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Culture Bitcoin à travers les mèmes",
+      "speakers": [
+        "Aurore Galves"
+      ],
+      "format": "Présentation et questions",
+      "notes": "Titre professionnel, photo et sujet à confirmer."
+    },
+    {
+      "id": "sun-workshop-cercle",
+      "date": "2026-11-08",
+      "start": "14:00",
+      "end": "14:50",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Mettre en place une trésorerie associative en bitcoin",
+      "speakers": [
+        "Hub — identité à compléter"
+      ],
+      "format": "Workshop",
+      "notes": "Nom, titre, photo et intitulé définitif à obtenir."
+    },
+    {
+      "id": "sun-main-christine",
+      "date": "2026-11-08",
+      "start": "15:00",
+      "end": "15:50",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Comportements moutonniers",
+      "speakers": [
+        "Christine Jeanneaux"
+      ],
+      "format": "Présentation et questions",
+      "notes": "Titre et présentation professionnelle à confirmer."
+    },
+    {
+      "id": "sun-workshop-renaud",
+      "date": "2026-11-08",
+      "start": "15:00",
+      "end": "15:50",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Titre à confirmer",
+      "speakers": [
+        "Renaud Lifchitz"
+      ],
+      "format": "Workshop technique",
+      "notes": "CTO chez Sharekey ; thème définitif attendu."
+    },
+    {
+      "id": "sun-main-sandra",
+      "date": "2026-11-08",
+      "start": "16:30",
+      "end": "17:20",
+      "room": "main",
+      "status": "option",
+      "visibility": "internal",
+      "title": "Sujet à confirmer",
+      "speakers": [
+        "Sandra Gandoin"
+      ],
+      "format": "Présentation et questions",
+      "notes": "Participation et disponibilité à confirmer."
+    },
+    {
+      "id": "sun-workshop-profedu-offline",
+      "date": "2026-11-08",
+      "start": "16:30",
+      "end": "17:20",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Utiliser Bitcoin sans Internet",
+      "speakers": [
+        "ProfEduStream"
+      ],
+      "format": "Workshop",
+      "notes": "Étape du parcours ProfEduStream."
+    },
+    {
+      "id": "sun-main-elodie-mobile-money",
+      "date": "2026-11-08",
+      "start": "17:30",
+      "end": "18:20",
+      "room": "main",
+      "status": "confirmed",
+      "visibility": "public",
+      "title": "Quand Bitcoin rencontre le mobile money",
+      "speakers": [
+        "Élodie Lué"
+      ],
+      "format": "Présentation et questions",
+      "notes": ""
+    },
+    {
+      "id": "sun-workshop-nicolas",
+      "date": "2026-11-08",
+      "start": "17:30",
+      "end": "18:20",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Bitcoin et agriculture",
+      "speakers": [
+        "Nicolas Cantu"
+      ],
+      "format": "Workshop",
+      "notes": "Créneau et intitulé provisoires à faire confirmer."
+    },
+    {
+      "id": "sun-main-debate",
+      "date": "2026-11-08",
+      "start": "18:30",
+      "end": "19:20",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Débat de clôture de la journée",
+      "speakers": [],
+      "moderators": [
+        "Élodie Lué",
+        "Cédric Maire",
+        "Marius Farashi"
+      ],
+      "format": "Débat",
+      "notes": "Sujet et répartition de la modération à confirmer."
+    },
+    {
+      "id": "sun-workshop-quiz",
+      "date": "2026-11-08",
+      "start": "18:30",
+      "end": "19:20",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Quiz avec lot",
+      "speakers": [],
+      "format": "Animation",
+      "notes": "Responsable et mécanique à confirmer."
+    },
+    {
+      "id": "mon-main-cercle",
+      "date": "2026-11-09",
+      "start": "09:00",
+      "end": "09:50",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Présentation du Cercle du Coin",
+      "speakers": [
+        "Hub — identité à compléter"
+      ],
+      "format": "Présentation et questions",
+      "notes": "Deuxième intervention distincte du workshop."
+    },
+    {
+      "id": "mon-workshop-free-0900",
+      "date": "2026-11-09",
+      "start": "09:00",
+      "end": "09:50",
+      "room": "workshop",
+      "status": "free",
+      "visibility": "internal",
+      "title": "Créneau libre",
+      "speakers": [],
+      "format": "",
+      "notes": ""
+    },
+    {
+      "id": "mon-main-alexis",
+      "date": "2026-11-09",
+      "start": "10:00",
+      "end": "10:50",
+      "room": "main",
+      "status": "option",
+      "visibility": "internal",
+      "title": "Sujet à confirmer",
+      "speakers": [
+        "Alexis Roussel"
+      ],
+      "format": "Présentation et questions",
+      "notes": "Participation à confirmer."
+    },
+    {
+      "id": "mon-workshop-profedu-nodes",
+      "date": "2026-11-09",
+      "start": "10:00",
+      "end": "10:50",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Nœuds Bitcoin et Lightning",
+      "speakers": [
+        "ProfEduStream"
+      ],
+      "format": "Workshop",
+      "notes": "Dernière étape du parcours ProfEduStream."
+    },
+    {
+      "id": "mon-main-alexandre",
+      "date": "2026-11-09",
+      "start": "11:00",
+      "end": "11:50",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Titre à confirmer",
+      "speakers": [
+        "Alexandre Stachtchenko"
+      ],
+      "format": "Présentation et questions",
+      "notes": "Intervention liée à Bitstack ; titre, photo et contenu à obtenir."
+    },
+    {
+      "id": "mon-workshop-noe",
+      "date": "2026-11-09",
+      "start": "11:00",
+      "end": "11:50",
+      "room": "workshop",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Sujet à confirmer",
+      "speakers": [
+        "Noé"
+      ],
+      "format": "Workshop",
+      "notes": "Affiliation WeSatoshis et contenu à confirmer."
+    }
+  ]
+}
