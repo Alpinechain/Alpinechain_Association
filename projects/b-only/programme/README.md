@@ -55,9 +55,18 @@ La page recharge `programme.json` toutes les 60 secondes. En mode `draft`, elle
 affiche les créneaux internes, réservés et libres avec leur statut. En mode
 `published`, elle masque par défaut les éléments non publics.
 
-## Publication envisagée
+## Publication
 
-La cible recommandée est une GitHub Page reliée ensuite à
-`programme.b-only.org` ou intégrée par lien dans le site Framer. L'activation de
-GitHub Pages, le DNS et l'ajout au site restent des actions séparées soumises à
-validation.
+Le workflow `.github/workflows/deploy-b-only-programme.yml` valide et publie
+uniquement ce dossier sur GitHub Pages après une modification fusionnée dans
+`main`.
+
+URL publique :
+
+```text
+https://alpinechain.github.io/Alpinechain_Association/
+```
+
+Le rattachement ultérieur à `programme.b-only.org` ou l'ajout d'un lien dans le
+site Framer restent des actions séparées. La page demeure identifiée comme
+provisoire tant que `publication.state` vaut `draft`.
