@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Programme de B-Only 2026 à Annecy">
+    <title>Programme — B-Only 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Navigation principale">
+        <a class="brand" href="https://b-only.org/" aria-label="Retour au site B-Only">
+          <img
+            src="https://framerusercontent.com/images/o6I9egXwfyuXOERzxXRS406uM6c.png?width=320&amp;height=320"
+            alt="B-Only"
+            width="72"
+            height="72"
+          >
+        </a>
+        <a class="ticket-link" id="ticket-link" href="https://join.alpinechain.xyz/org/bonly26/">Billetterie</a>
+      </nav>
+      <div class="hero-content">
+        <p class="edition">4e édition</p>
+        <h1>Le programme</h1>
+        <p class="lead">Conférences, workshops, pleb talks et moments d’échanges.</p>
+        <p class="event-date">7–9 novembre 2026 // Annecy</p>
+        <p class="notice" id="publication-notice" role="status">Chargement du programme…</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="live-panel" id="live-panel" aria-labelledby="live-title" hidden>
+        <div>
+          <p class="eyebrow" id="live-label">À suivre</p>
+          <h2 id="live-title">Prochaine session</h2>
+          <p id="live-session"></p>
+        </div>
+        <time id="live-time"></time>
+      </section>
+
+      <section class="controls" aria-label="Filtres du programme">
+        <div class="day-tabs" id="day-tabs" role="tablist" aria-label="Choisir une journée"></div>
+        <label class="room-filter">
+          <span>Salle</span>
+          <select id="room-filter">
+            <option value="all">Toutes les salles</option>
+          </select>
+        </label>
+      </section>
+
+      <section aria-live="polite" aria-busy="true" id="schedule-region">
+        <div class="schedule-heading">
+          <div>
+            <p class="eyebrow" id="selected-date"></p>
+            <h2>Sessions</h2>
+          </div>
+          <p class="updated" id="updated-at"></p>
+        </div>
+        <div class="schedule" id="schedule"></div>
+        <p class="empty-state" id="empty-state" hidden>Aucune session publique pour ce filtre.</p>
+      </section>
+
+      <section class="legend" id="legend" aria-labelledby="legend-title">
+        <h2 id="legend-title">État du programme</h2>
+        <div class="legend-items">
+          <span><i class="status-dot status-confirmed"></i> Confirmé</span>
+          <span><i class="status-dot status-reserved"></i> Réservé</span>
+          <span><i class="status-dot status-option"></i> En option</span>
+          <span><i class="status-dot status-free"></i> Libre</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>B-Only 2026 · Novotel Annecy Centre</p>
+      <p>Les horaires peuvent évoluer. Actualisez cette page avant de vous déplacer.</p>
+    </footer>
+
+    <template id="session-template">
+      <article class="session-card">
+        <div class="session-time">
+          <time class="start"></time>
+          <span class="end"></span>
+        </div>
+        <div class="session-content">
+          <div class="session-meta">
+            <span class="room"></span>
+            <span class="status"></span>
+          </div>
+          <h3></h3>
+          <p class="speakers"></p>
+          <p class="format"></p>
+          <p class="moderators"></p>
+          <p class="notes"></p>
+        </div>
+      </article>
+    </template>
+  </body>
+</html>

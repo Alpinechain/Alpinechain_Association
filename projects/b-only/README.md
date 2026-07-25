@@ -18,6 +18,8 @@ Les deux registres de préparation des vignettes sont :
   éléments attendus ;
 - [`ORGANISATIONS.md`](ORGANISATIONS.md) pour les entreprises, partenaires,
   médias, associations et exposants.
+- [`programme/`](programme/) pour la grille horaire de travail et sa page HTML
+  statique, encore soumise à validation humaine avant publication.
 
 Ils ne contiennent que des statuts et métadonnées adaptés à un dépôt public.
 Les conversations complètes, coordonnées, portraits, logos et documents sources
