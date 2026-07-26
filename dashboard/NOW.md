@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-07-24
+Date de dernière mise à jour : 2026-07-26
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -68,6 +68,11 @@ Les flux entre outils sont définis dans [`references/data-flows.md`](../referen
 - Inventaire Nextcloud réalisé le 13 juillet 2026 : 66 dossiers, 133 fichiers, environ 228,5 Mio.
 - Structure Nextcloud 2026 créée et vérifiée par accès authentifié : B-Only 2026, Meetup 2026 et Contrats-Conventions.
 - Dossier B-Only 2026 classé le 22 juillet : 47 sources renommées et déplacées sans écrasement, portraits et logos séparés, anciens visuels rangés en archives et fichier `LISEZ-MOI.txt` ajouté ; une note verrouillée reste à déplacer.
+- Audit ciblé B-Only 2026 réalisé le 26 juillet : 92 dossiers et 361 fichiers,
+  dont 84 hors archives historiques. La règle « une seule version active » est
+  documentée ; quatre fichiers `.old` de la campagne Élodie Lué restent à
+  déplacer dans un sous-dossier `Archives/` avec un accès Nextcloud autorisant
+  `MKCOL` et `MOVE`.
 - Compte MCP Nextcloud dédié, mot de passe d’application et racine partagée `Association` validés en WebDAV.
 - Le partage public historique Nextcloud `6aBTY243WDkbSGL` a été supprimé et n’existe plus.
 - L’exposition publique directe est considérée comme coupée ; la revue des droits, des liens hérités, de la rétention et des administrateurs de secours reste ouverte dans [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10).

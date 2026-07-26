@@ -118,6 +118,13 @@ n'a été reçu, sous réserve de vérifier les droits avant publication. Un nou
 fichier ne doit jamais écraser un visuel existant : il reçoit un nom versionné ou
 daté jusqu'à validation.
 
+Lorsqu'une version en remplace une autre, une seule version reste active dans le
+dossier de travail. La version remplacée est déplacée sans écrasement dans un
+sous-dossier `Archives/`. Le suffixe `.old` peut la signaler temporairement,
+mais tout fichier déjà suffixé `.old` est réputé archivé et ne doit plus servir
+de référence active. Les variantes utiles, formats distincts, sources et pièces
+signées ne sont archivés qu'après identification explicite d'un successeur.
+
 Les exports nominatifs de participants restent dans Pretix ou dans un espace Nextcloud privé strictement limité. Ils ne doivent jamais être inclus dans un partage public global.
 
 ## Échéances connues
