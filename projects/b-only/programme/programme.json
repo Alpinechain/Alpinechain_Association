@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-26T18:09:37+02:00",
+    "updatedAt": "2026-07-26T19:28:01+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -71,8 +71,8 @@
     {
       "id": "sat-workshop-profedu-qa",
       "date": "2026-11-07",
-      "start": "15:00",
-      "end": "15:50",
+      "start": "14:30",
+      "end": "15:20",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
@@ -164,19 +164,6 @@
       "notes": ""
     },
     {
-      "id": "sun-main-free-0900",
-      "date": "2026-11-08",
-      "start": "09:00",
-      "end": "09:50",
-      "room": "main",
-      "status": "free",
-      "visibility": "internal",
-      "title": "Créneau libre",
-      "speakers": [],
-      "format": "",
-      "notes": "Créneau libéré après le désistement de Romain Dominati."
-    },
-    {
       "id": "sun-workshop-profedu-send-receive",
       "date": "2026-11-08",
       "start": "09:00",
@@ -194,8 +181,8 @@
     {
       "id": "sun-main-pierre",
       "date": "2026-11-08",
-      "start": "10:00",
-      "end": "10:50",
+      "start": "09:30",
+      "end": "10:20",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
@@ -429,19 +416,6 @@
       "notes": "Deuxième intervention distincte du workshop."
     },
     {
-      "id": "mon-workshop-free-0900",
-      "date": "2026-11-09",
-      "start": "09:00",
-      "end": "09:50",
-      "room": "workshop",
-      "status": "free",
-      "visibility": "internal",
-      "title": "Créneau libre",
-      "speakers": [],
-      "format": "",
-      "notes": ""
-    },
-    {
       "id": "mon-main-alexis",
       "date": "2026-11-09",
       "start": "10:00",
@@ -459,8 +433,8 @@
     {
       "id": "mon-workshop-profedu-nodes",
       "date": "2026-11-09",
-      "start": "10:00",
-      "end": "10:50",
+      "start": "09:30",
+      "end": "10:20",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
