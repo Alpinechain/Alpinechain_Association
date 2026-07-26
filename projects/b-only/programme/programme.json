@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-25T23:00:00+02:00",
+    "updatedAt": "2026-07-26T18:01:44+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -222,17 +222,19 @@
       "notes": "Modalités de participation des commerçants à préciser."
     },
     {
-      "id": "sun-main-free-1100",
+      "id": "sun-main-elodie-mobile-money",
       "date": "2026-11-08",
       "start": "11:00",
       "end": "11:50",
       "room": "main",
-      "status": "free",
-      "visibility": "internal",
-      "title": "Créneau libre",
-      "speakers": [],
-      "format": "",
-      "notes": "Créneau libéré après le désistement de Damien Theillier."
+      "status": "confirmed",
+      "visibility": "public",
+      "title": "Quand Bitcoin rencontre le mobile money",
+      "speakers": [
+        "Élodie Lué"
+      ],
+      "format": "Présentation et questions",
+      "notes": ""
     },
     {
       "id": "sun-workshop-marius",
@@ -353,19 +355,22 @@
       "notes": "Étape du parcours ProfEduStream."
     },
     {
-      "id": "sun-main-elodie-mobile-money",
+      "id": "sun-main-debate",
       "date": "2026-11-08",
       "start": "17:30",
       "end": "18:20",
       "room": "main",
-      "status": "confirmed",
-      "visibility": "public",
-      "title": "Quand Bitcoin rencontre le mobile money",
-      "speakers": [
-        "Élodie Lué"
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Débat de clôture de la journée",
+      "speakers": [],
+      "moderators": [
+        "Élodie Lué",
+        "Cédric Maire",
+        "Marius Farashi"
       ],
-      "format": "Présentation et questions",
-      "notes": ""
+      "format": "Débat",
+      "notes": "Sujet et répartition de la modération à confirmer."
     },
     {
       "id": "sun-workshop-nicolas",
@@ -383,22 +388,17 @@
       "notes": "Créneau et intitulé provisoires à faire confirmer."
     },
     {
-      "id": "sun-main-debate",
+      "id": "sun-main-free-1830",
       "date": "2026-11-08",
       "start": "18:30",
       "end": "19:20",
       "room": "main",
-      "status": "reserved",
+      "status": "free",
       "visibility": "internal",
-      "title": "Débat de clôture de la journée",
+      "title": "Créneau libre",
       "speakers": [],
-      "moderators": [
-        "Élodie Lué",
-        "Cédric Maire",
-        "Marius Farashi"
-      ],
-      "format": "Débat",
-      "notes": "Sujet et répartition de la modération à confirmer."
+      "format": "",
+      "notes": ""
     },
     {
       "id": "sun-workshop-quiz",
