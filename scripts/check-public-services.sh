@@ -12,6 +12,7 @@ SERVICES=(
   "Paheko|https://compta.alpinechain.xyz"
   "Dolibarr|https://gestion.alpinechain.xyz"
   "PeerTube|https://video.alpinechain.xyz"
+  "Shlink|https://go.alpinechain.xyz/rest/health"
   "be-BOP|https://bebop.alpinechain.xyz"
   "be-BOP Bar|https://bar.b-only.org"
 )
