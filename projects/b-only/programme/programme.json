@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-26T19:28:01+02:00",
+    "updatedAt": "2026-07-26T19:38:30+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -84,10 +84,23 @@
       "notes": "Première étape du parcours ProfEduStream."
     },
     {
+      "id": "sat-workshop-free-1530",
+      "date": "2026-11-07",
+      "start": "15:30",
+      "end": "16:20",
+      "room": "workshop",
+      "status": "free",
+      "visibility": "internal",
+      "title": "Créneau libre",
+      "speakers": [],
+      "format": "",
+      "notes": ""
+    },
+    {
       "id": "sat-main-profedu-florent-debate",
       "date": "2026-11-07",
-      "start": "16:30",
-      "end": "17:50",
+      "start": "16:00",
+      "end": "17:20",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
@@ -138,8 +151,8 @@
     {
       "id": "sat-main-lionel",
       "date": "2026-11-07",
-      "start": "18:30",
-      "end": "19:20",
+      "start": "18:00",
+      "end": "18:50",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
@@ -211,8 +224,8 @@
     {
       "id": "sun-main-elodie-mobile-money",
       "date": "2026-11-08",
-      "start": "11:00",
-      "end": "11:50",
+      "start": "10:30",
+      "end": "11:20",
       "room": "main",
       "status": "confirmed",
       "visibility": "public",
@@ -269,8 +282,8 @@
     {
       "id": "sun-workshop-elodie-lightning",
       "date": "2026-11-08",
-      "start": "14:00",
-      "end": "14:50",
+      "start": "14:30",
+      "end": "15:20",
       "room": "workshop",
       "status": "confirmed",
       "visibility": "public",
@@ -299,8 +312,8 @@
     {
       "id": "sun-workshop-renaud",
       "date": "2026-11-08",
-      "start": "15:00",
-      "end": "15:50",
+      "start": "15:30",
+      "end": "16:20",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
@@ -329,8 +342,8 @@
     {
       "id": "sun-workshop-profedu-offline",
       "date": "2026-11-08",
-      "start": "16:30",
-      "end": "17:20",
+      "start": "17:00",
+      "end": "17:50",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
@@ -362,8 +375,8 @@
     {
       "id": "sun-workshop-nicolas",
       "date": "2026-11-08",
-      "start": "17:30",
-      "end": "18:20",
+      "start": "18:00",
+      "end": "18:50",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
@@ -390,8 +403,8 @@
     {
       "id": "sun-workshop-quiz",
       "date": "2026-11-08",
-      "start": "18:30",
-      "end": "19:20",
+      "start": "19:00",
+      "end": "19:50",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
@@ -463,8 +476,8 @@
     {
       "id": "mon-workshop-noe",
       "date": "2026-11-09",
-      "start": "11:00",
-      "end": "11:50",
+      "start": "10:30",
+      "end": "11:20",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
