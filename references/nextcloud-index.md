@@ -3,6 +3,8 @@
 Dernière vérification documentaire complète : 2026-07-13  
 Dernière mise à jour de sécurité : 2026-07-18  
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
+Audit ciblé B-Only 2026 : 2026-07-26 — 92 dossiers et 361 fichiers, dont 84
+fichiers hors archives historiques
 
 ## Statut d’accès
 
@@ -159,6 +161,49 @@ Partage public autorisé : oui/non
 Dernière revue : AAAA-MM-JJ
 ```
 
+## Versions actives et archivage
+
+Un dossier de travail ne doit exposer qu'une seule version active et valable
+par famille de document. Lorsqu'un fichier est remplacé mais doit être
+conservé :
+
+1. vérifier explicitement quel fichier devient la version active ;
+2. déplacer l'ancienne version dans un sous-dossier `Archives/`, sans
+   écrasement ;
+3. si le déplacement n'est pas immédiatement possible, suffixer temporairement
+   son nom complet par `.old` ;
+4. traiter tout fichier déjà suffixé `.old` comme une version archivée, même
+   s'il se trouve encore dans le dossier actif, puis le déplacer dans
+   `Archives/` dès que possible ;
+5. conserver le nom, la date ou le numéro de version permettant de relier
+   l'archive à sa version active ;
+6. vérifier l'empreinte ou, à défaut, la taille avant et après déplacement, puis
+   tracer l'opération.
+
+Le sous-dossier `Archives/` est la solution préférée : le suffixe `.old` est un
+marquage transitoire ou complémentaire. Les formats distincts d'un même
+livrable, les pièces signées, les sources graphiques, les variantes
+explicitement utiles et les documents sans successeur confirmé ne sont pas
+considérés comme obsolètes sur leur seul nom.
+
+La même consigne est déposée dans le dossier B-Only 2026 sous
+`REGLE-ARCHIVAGE.txt`.
+
+L'audit ciblé du 26 juillet 2026 a identifié quatre fichiers `.old` dans
+`03_Communication/Campagnes/2026/bonly26_speakers/elodie-lue/` :
+
+- `README.md.old` ;
+- `campaign-links.csv.old` ;
+- `contenus-multicanaux-v1.md.old` ;
+- `contenus-x-v2.md.old`.
+
+Ils sont considérés comme non actifs ; leur déplacement dans un sous-dossier
+`Archives/` reste à exécuter par un accès Nextcloud autorisant les opérations
+WebDAV `MKCOL` et `MOVE`. Les fichiers actifs
+`contenus-multicanaux-v2.md` et `brief-vignette-v1.md` contiennent encore des
+horaires antérieurs du programme d'Élodie Lué : ils doivent être corrigés dans
+de nouvelles versions avant archivage de leurs versions actuelles.
+
 ## Classification et droits
 
 | Zone | Classification recommandée | Accès |
@@ -177,6 +222,11 @@ Dernière revue : AAAA-MM-JJ
 - confirmer les propriétaires, droits nominatifs et administrateurs de secours ;
 - vérifier la corbeille, les versions, la rétention et la restauration Nextcloud ;
 - étendre progressivement les fichiers `LISEZ-MOI.txt` aux autres dossiers actifs ; celui de B-Only 2026 est en place ;
+- déplacer les quatre fichiers `.old` de la campagne Élodie Lué dans son
+  sous-dossier `Archives/` dès qu'un accès autorisant `MKCOL` et `MOVE` est
+  disponible ;
+- produire les versions corrigées des contenus et du brief Élodie Lué avec les
+  horaires actuels avant d'archiver les versions existantes ;
 - vérifier que les exports d’adhérents et participants ne sont conservés que pendant la durée nécessaire ;
 - réaliser une nouvelle revue documentaire authentifiée lorsque l’état réel des fichiers doit être contrôlé.
 
