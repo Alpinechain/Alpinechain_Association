@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-26T19:38:30+02:00",
+    "updatedAt": "2026-07-26T21:45:38+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -388,24 +388,11 @@
       "notes": "Créneau et intitulé provisoires à faire confirmer."
     },
     {
-      "id": "sun-main-free-1830",
+      "id": "sun-workshop-quiz",
       "date": "2026-11-08",
       "start": "18:30",
       "end": "19:20",
       "room": "main",
-      "status": "free",
-      "visibility": "internal",
-      "title": "Créneau libre",
-      "speakers": [],
-      "format": "",
-      "notes": ""
-    },
-    {
-      "id": "sun-workshop-quiz",
-      "date": "2026-11-08",
-      "start": "19:00",
-      "end": "19:50",
-      "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
       "title": "Quiz avec lot",
