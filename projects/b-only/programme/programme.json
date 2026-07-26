@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-26T18:01:44+02:00",
+    "updatedAt": "2026-07-26T18:09:37+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -207,19 +207,19 @@
       "notes": "Intervenant confirmé ; titre, thème et portrait à valider."
     },
     {
-      "id": "sun-workshop-elodie-lightning",
+      "id": "sun-workshop-cercle",
       "date": "2026-11-08",
       "start": "10:00",
       "end": "10:50",
       "room": "workshop",
-      "status": "confirmed",
-      "visibility": "public",
-      "title": "Paiements via Lightning Network",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Mettre en place une trésorerie associative en bitcoin",
       "speakers": [
-        "Élodie Lué"
+        "Hub — identité à compléter"
       ],
-      "format": "Workshop et équipement en direct",
-      "notes": "Modalités de participation des commerçants à préciser."
+      "format": "Workshop",
+      "notes": "Nom, titre, photo et intitulé définitif à obtenir."
     },
     {
       "id": "sun-main-elodie-mobile-money",
@@ -280,19 +280,19 @@
       "notes": "Titre professionnel, photo et sujet à confirmer."
     },
     {
-      "id": "sun-workshop-cercle",
+      "id": "sun-workshop-elodie-lightning",
       "date": "2026-11-08",
       "start": "14:00",
       "end": "14:50",
       "room": "workshop",
-      "status": "reserved",
-      "visibility": "internal",
-      "title": "Mettre en place une trésorerie associative en bitcoin",
+      "status": "confirmed",
+      "visibility": "public",
+      "title": "Paiements via Lightning Network",
       "speakers": [
-        "Hub — identité à compléter"
+        "Élodie Lué"
       ],
-      "format": "Workshop",
-      "notes": "Nom, titre, photo et intitulé définitif à obtenir."
+      "format": "Workshop et équipement en direct",
+      "notes": "Modalités de participation des commerçants à préciser."
     },
     {
       "id": "sun-main-christine",
