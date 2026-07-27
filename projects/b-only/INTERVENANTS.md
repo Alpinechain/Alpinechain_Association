@@ -1,6 +1,6 @@
 # Registre des intervenants B-Only 2026
 
-Dernière mise à jour : 2026-07-24
+Dernière mise à jour : 2026-07-27
 Issue pilote : [#11 — Programme et intervenants](https://github.com/Alpinechain/Alpinechain_Association/issues/11)  
 Publication et vignettes : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
 
@@ -51,7 +51,7 @@ Les chemins Nextcloud sont relatifs à
 | Lionel Jeannerat | Planifié | PVH Éditions ; Be-BOP | Samedi 18 h, scène principale — proposition « Bitcoin est pour les copaines » | Manquant | Créneau provisoire attribué le 2026-07-25 | Confirmation définitive, synopsis, durée, public visé, titre définitif et portrait | Faire confirmer les éléments avant publication |
 | [Christine Jeanneaux](https://www.linkedin.com/in/christine-jeanneaux/) | Planifié | À préciser | Dimanche 15 h — « Comportements moutonniers », titre à confirmer | Manquant | Relancée le 2026-07-22 | Photo, titre professionnel et titre définitif | Attendre sa réponse |
 | Sandra Gandoin | En attente | BFM Crypto à confirmer | Dimanche 16 h 30, sous réserve de disponibilité | Manquant | À dater | Confirmation, photo, titre professionnel et sujet | Relancer à la date convenue |
-| [Élodie Lué](https://www.linkedin.com/in/elodielue/) | Confirmé | Fondatrice d'Effet 21 Conseil ; hôte du Podcast Effet 21 | Dimanche 10 h 30 : « Quand Bitcoin rencontre le mobile money » ; 14 h 30 : workshop sur les paiements Lightning avec équipement en direct de commerçants volontaires | Portrait reçu dans `03_Communication/Vignettes/Intervenants/intervenant--elodie-lue--portrait--2026-07-22--source.png` | Réponse complète reçue le 2026-07-22 | Intitulé final du workshop, besoins techniques et modalités de participation des commerçants | Préparer la vignette intervenante puis cadrer le workshop dans #11 |
+| [Élodie Lué](https://www.linkedin.com/in/elodielue/) | Confirmé | Fondatrice d'Effet 21 Conseil ; hôte du Podcast Effet 21 | Dimanche 10 h 30 : « Quand Bitcoin rencontre le mobile money » ; 14 h 30 : workshop sur les paiements Lightning avec équipement en direct de commerçants volontaires | Portrait source reçu dans `03_Communication/Vignettes/Intervenants/intervenant--elodie-lue--portrait--2026-07-22--source.png` ; vignette validée dans `03_Communication/Vignettes/Exports-valides/Intervenants/vignette--elodie-lue--quand-bitcoin-rencontre-le-mobile-money--2026-07-27--validee.png` | Vignette validée reçue le 2026-07-27 | Intitulé final du workshop, besoins techniques et modalités de participation des commerçants | Planifier la publication après validation humaine et cadrer le workshop dans #11 |
 | Hub — identité à compléter | Planifié | Cercle du Coin | Dimanche 10 h : workshop sur une trésorerie associative en BTC ; lundi 9 h : présentation de l'association | Manquant | À dater | Nom complet, titre, photo et intitulés définitifs | Demander les éléments au Cercle du Coin |
 | Alexis Roussel | En attente | À préciser | Lundi 10 h ; sujet à définir | Manquant | À dater | Confirmation, photo, titre professionnel et sujet | Relancer avant gel du programme |
 | Polto | Planifié | À préciser | Workshop avec Darko, samedi 16 h 30 | Manquant | À dater | Photo, titre professionnel, organisation et sujet | Identifier le responsable de la session |
