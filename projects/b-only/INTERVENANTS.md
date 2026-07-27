@@ -1,6 +1,6 @@
 # Registre des intervenants B-Only 2026
 
-Dernière mise à jour : 2026-07-24
+Dernière mise à jour : 2026-07-27
 Issue pilote : [#11 — Programme et intervenants](https://github.com/Alpinechain/Alpinechain_Association/issues/11)  
 Publication et vignettes : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
 
@@ -14,6 +14,13 @@ détaillé Nextcloud ni les Issues GitHub.
 - Nextcloud conserve les portraits et les documents reçus.
 - La messagerie conserve les conversations complètes.
 - Toute publication nécessite une validation humaine.
+
+Le programme et les créneaux restent provisoires jusqu'à l'approche de
+l'événement. L'absence de confirmation définitive d'un horaire ne bloque pas
+une campagne intervenant lorsque l'identité, le sujet, le portrait et les
+éléments éditoriaux sont validés. La communication ne présente pas le créneau
+provisoire comme définitif et conserve comme objectif principal un CTA
+billetterie clair et orienté conversion.
 
 Les portraits historiques peuvent être utilisés par défaut en l'absence d'un
 nouveau visuel, sous réserve de la vérification des droits d'image avant
@@ -42,7 +49,7 @@ Les chemins Nextcloud sont relatifs à
 | Marius Farashi | Planifié | Relation éditoriale avec Cryptoast à préciser | Dimanche 11 h, workshop ; Ark et L2 évoqués | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, thème définitif et photo souhaitée | Attendre la réponse |
 | Renaud Lifchitz | Planifié | Sharekey — CTO | Dimanche 15 h 30, workshop technique ; thème à confirmer | Portrait officiel reçu dans `03_Communication/Vignettes/Intervenants/intervenant--renaud-lifchitz--portrait-officiel--2026-07-24--source.jpg` | Photo officielle et titre reçus le 2026-07-24 | Thème et intitulé définitifs du workshop | Obtenir le thème puis préparer la vignette |
 | Élodie Sogan | Planifié | À préciser | Samedi 15 h avec Cédric Maire | Portrait historique disponible par défaut | À dater | Titre professionnel, rôle, sujet et validation du portrait | Préparer une relance bornée |
-| Nicolas Cantu | Planifié | À préciser | Dimanche 18 h, workshop provisoire autour de l'agriculture | Portrait historique vertical disponible par défaut | Proposition de workshop envoyée le 2026-07-22 | Confirmation définitive, titre professionnel et intitulé adapté au format workshop | Faire confirmer le créneau et le sujet avant publication |
+| Nicolas Cantu | Planifié | Fondateur de 4NK.Organic | Dimanche 18 h — « Lire les dégâts de l'impression monétaire dans les sols. » | Portrait source reçu dans `03_Communication/Vignettes/Intervenants/intervenant--nicolas-cantu--portrait--2026-07-27--source.png` ; vignette validée dans `03_Communication/Vignettes/Exports-valides/Intervenants/vignette--nicolas-cantu--lire-les-degats-de-l-impression-monetaire-dans-les-sols--2026-07-27--validee.png` | Vignette, portrait, titre et pitch validés le 2026-07-27 | Actualisation du créneau proche de l'événement, non bloquante pour la communication | Préparer la campagne immédiatement après Élodie Lué avec un CTA billetterie fort ; omettre l'horaire tant qu'il reste provisoire |
 | Cédric Maire | Planifié | À préciser | Samedi 15 h avec Élodie Sogan | Manquant | À dater | Photo, titre professionnel, rôle et sujet | Préparer une relance bornée |
 | ProfEduStream | Planifié | ProfEduStream | Parcours pédagogique multi-créneaux confirmé dans son principe ; samedi 14 h 30, Q&A débutants ; samedi 16 h, présentation de 20 minutes avant Florent Gabriel et débat commun ; dimanche 17 h, workshop hors ligne ; lundi 9 h 30, workshop nœuds Bitcoin et Lightning | Manquant | Parcours multi-créneaux confirmé le 2026-07-25 | Photo, titre professionnel et intitulés définitifs des étapes | Finaliser les intitulés sans réduire le parcours à une seule session |
 | Florent Gabriel | Planifié | À préciser | Samedi à partir de 16 h 20, après ProfEduStream, puis débat commun | Manquant | Enchaînement validé le 2026-07-25 | Photo, titre professionnel et sujet définitif | Confirmer le contenu et préparer le débat commun |
@@ -58,6 +65,19 @@ Les chemins Nextcloud sont relatifs à
 | Darko | Planifié | À préciser | Workshop avec Polto, samedi 16 h 30 | Manquant | À dater | Photo, titre professionnel, organisation et sujet | Identifier le responsable de la session |
 | Schnuartz | Planifié | À préciser | Samedi 17 h 30 — workshop Specter en anglais | Manquant | À dater | Photo, biographie et intitulé définitif | Confirmer le format et la langue |
 | Noé | Planifié | WeSatoshis à confirmer | Lundi 10 h 30, workshop | Manquant | À dater | Photo, titre professionnel et sujet exact | Confirmer l'affiliation et le contenu |
+
+## Contenus éditoriaux reçus
+
+### Nicolas Cantu — pitch
+
+Pour comprendre Bitcoin, il faut comprendre quel problème il résout et pourquoi
+cette question est vitale.
+
+J'y décris les mécanismes de dégradation des sols agricoles, leur origine
+monétaire, la réponse apportée par Bitcoin, ainsi que la manière de mettre en
+œuvre un réseau économique agricole fort, souverain et résilient, doté de moyens
+numériques d'institutionnalisation offrant un niveau de sécurité supérieur à
+celui des États.
 
 ## Règles de mise à jour
 
