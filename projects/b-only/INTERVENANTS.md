@@ -1,6 +1,6 @@
 # Registre des intervenants B-Only 2026
 
-Dernière mise à jour : 2026-07-24
+Dernière mise à jour : 2026-07-27
 Issue pilote : [#11 — Programme et intervenants](https://github.com/Alpinechain/Alpinechain_Association/issues/11)  
 Publication et vignettes : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
 
@@ -42,7 +42,7 @@ Les chemins Nextcloud sont relatifs à
 | Marius Farashi | Planifié | Relation éditoriale avec Cryptoast à préciser | Dimanche 11 h, workshop ; Ark et L2 évoqués | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, thème définitif et photo souhaitée | Attendre la réponse |
 | Renaud Lifchitz | Planifié | Sharekey — CTO | Dimanche 15 h 30, workshop technique ; thème à confirmer | Portrait officiel reçu dans `03_Communication/Vignettes/Intervenants/intervenant--renaud-lifchitz--portrait-officiel--2026-07-24--source.jpg` | Photo officielle et titre reçus le 2026-07-24 | Thème et intitulé définitifs du workshop | Obtenir le thème puis préparer la vignette |
 | Élodie Sogan | Planifié | À préciser | Samedi 15 h avec Cédric Maire | Portrait historique disponible par défaut | À dater | Titre professionnel, rôle, sujet et validation du portrait | Préparer une relance bornée |
-| Nicolas Cantu | Planifié | Fondateur de 4NK.Organic | Dimanche 18 h — « Lire les dégâts de l'impression monétaire dans les sols. » | Portrait reçu dans `03_Communication/Vignettes/Intervenants/intervenant--nicolas-cantu--portrait--2026-07-27--source.png` | Portrait, titre et pitch reçus le 2026-07-27 | Confirmation définitive du créneau | Créer la vignette ; faire confirmer le créneau avant publication |
+| Nicolas Cantu | Planifié | Fondateur de 4NK.Organic | Dimanche 18 h — « Lire les dégâts de l'impression monétaire dans les sols. » | Portrait source reçu dans `03_Communication/Vignettes/Intervenants/intervenant--nicolas-cantu--portrait--2026-07-27--source.png` ; vignette validée dans `03_Communication/Vignettes/Exports-valides/Intervenants/vignette--nicolas-cantu--lire-les-degats-de-l-impression-monetaire-dans-les-sols--2026-07-27--validee.png` | Vignette, portrait, titre et pitch validés le 2026-07-27 | Confirmation définitive du créneau | Préparer la campagne immédiatement après Élodie Lué ; confirmer le créneau avant programmation |
 | Cédric Maire | Planifié | À préciser | Samedi 15 h avec Élodie Sogan | Manquant | À dater | Photo, titre professionnel, rôle et sujet | Préparer une relance bornée |
 | ProfEduStream | Planifié | ProfEduStream | Parcours pédagogique multi-créneaux confirmé dans son principe ; samedi 14 h 30, Q&A débutants ; samedi 16 h, présentation de 20 minutes avant Florent Gabriel et débat commun ; dimanche 17 h, workshop hors ligne ; lundi 9 h 30, workshop nœuds Bitcoin et Lightning | Manquant | Parcours multi-créneaux confirmé le 2026-07-25 | Photo, titre professionnel et intitulés définitifs des étapes | Finaliser les intitulés sans réduire le parcours à une seule session |
 | Florent Gabriel | Planifié | À préciser | Samedi à partir de 16 h 20, après ProfEduStream, puis débat commun | Manquant | Enchaînement validé le 2026-07-25 | Photo, titre professionnel et sujet définitif | Confirmer le contenu et préparer le débat commun |
