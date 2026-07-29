@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-26T21:45:38+02:00",
+    "updatedAt": "2026-07-29T21:30:00+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -84,17 +84,19 @@
       "notes": "Première étape du parcours ProfEduStream."
     },
     {
-      "id": "sat-workshop-free-1530",
+      "id": "sat-workshop-jean-private-buy",
       "date": "2026-11-07",
       "start": "15:30",
       "end": "16:20",
       "room": "workshop",
-      "status": "free",
+      "status": "reserved",
       "visibility": "internal",
-      "title": "Créneau libre",
-      "speakers": [],
-      "format": "",
-      "notes": ""
+      "title": "Acheter du bitcoin de manière privée : méthodes, précautions et mise en pratique",
+      "speakers": [
+        "Jean — identité à compléter"
+      ],
+      "format": "Workshop pratique",
+      "notes": "Créneau validé le 29 juillet ; les participants seront invités à réaliser l'achat en direct. Nom complet, outils, prérequis et cadre de sécurité à confirmer."
     },
     {
       "id": "sat-main-profedu-florent-debate",
@@ -302,12 +304,12 @@
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Comportements moutonniers",
+      "title": "Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin",
       "speakers": [
         "Christine Jeanneaux"
       ],
       "format": "Présentation et questions",
-      "notes": "Titre et présentation professionnelle à confirmer."
+      "notes": "Titre et portrait reçus ; créneau, biographie courte et portrait final à confirmer."
     },
     {
       "id": "sun-workshop-renaud",
@@ -317,12 +319,12 @@
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Titre à confirmer",
+      "title": "Reticulum, le réseau cypherpunk dont vous avez besoin !",
       "speakers": [
         "Renaud Lifchitz"
       ],
       "format": "Workshop technique",
-      "notes": "CTO chez Sharekey ; thème définitif attendu."
+      "notes": "Titre validé ; CTO chez Sharekey. Synopsis, besoins techniques et confirmation définitive du créneau à obtenir."
     },
     {
       "id": "sun-main-sandra",
@@ -380,12 +382,12 @@
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Bitcoin et agriculture",
+      "title": "Lire les dégâts de l’impression monétaire dans les sols.",
       "speakers": [
         "Nicolas Cantu"
       ],
       "format": "Workshop",
-      "notes": "Créneau et intitulé provisoires à faire confirmer."
+      "notes": "Titre, pitch, portrait et vignette validés ; horaire encore provisoire."
     },
     {
       "id": "sun-workshop-quiz",
@@ -416,19 +418,19 @@
       "notes": "Deuxième intervention distincte du workshop."
     },
     {
-      "id": "mon-main-alexis",
+      "id": "mon-main-michel-khazzaka",
       "date": "2026-11-09",
       "start": "10:00",
       "end": "10:50",
       "room": "main",
-      "status": "option",
+      "status": "reserved",
       "visibility": "internal",
       "title": "Sujet à confirmer",
       "speakers": [
-        "Alexis Roussel"
+        "Michel Khazzaka"
       ],
       "format": "Présentation et questions",
-      "notes": "Participation à confirmer."
+      "notes": "Prend le créneau précédemment attribué à Alexis Roussel ; titre, présentation professionnelle et contenu à obtenir."
     },
     {
       "id": "mon-workshop-profedu-nodes",
