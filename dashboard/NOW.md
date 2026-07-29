@@ -1,136 +1,83 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-07-26
+Date de dernière mise à jour : 2026-07-29  
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
 ## Rôle
 
-Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il ne remplace ni les Issues GitHub ni les outils métiers. Il résume les priorités, décisions, blocages et échéances.
+Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résume les priorités, décisions, blocages et échéances ; les Issues GitHub et les outils métiers conservent le détail.
 
 ## Priorités actives
 
-1. **P0 événement : piloter l’après-lancement de la billetterie B-Only 2026** : suivre les ventes, rapprocher les conversions des publications et archiver les premières métriques dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) et [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26).
-2. Consolider les sponsors B-Only 2026 et leurs prochaines actions : Paymium est soldé financièrement, Bitstack est confirmé avec règlement attendu, et Le Cercle du Coin reste à consolider dans [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) et [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
-3. Produire puis faire valider les modèles de vignettes séparés pour les intervenants et les organisations à partir des sources maintenant classées : [#53](https://github.com/Alpinechain/Alpinechain_Association/issues/53).
-4. Consolider le programme, les intervenants, les sujets et les créneaux B-Only 2026, notamment le titre de l’intervention de Pierre Noizat : [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
-5. Finaliser la gouvernance des accès et les administrateurs de secours : Nextcloud dans [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10), Meta dans [#8](https://github.com/Alpinechain/Alpinechain_Association/issues/8) et Framer/OVH dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
-6. Préparer l’atelier Bitcoin multisig et Disaster Recovery du 2 septembre 2026 selon la checklist J-21 à J+3 : [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
-7. Franchir la porte de lancement du prochain rendez-vous Souveraineté 3.0 : thème, date, lieu, format, promesse et inscription : [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7).
-8. Programmer la mise à niveau complète AlmaLinux 9.8 pendant la semaine du 27 juillet, après stabilisation de la billetterie : [Serveur #56](https://github.com/Alpinechain/Serveur/issues/56).
+1. **Diffuser les campagnes B-Only validées** : Cyrille programme les publications sur chaque réseau ; tracer ensuite les URLs et les métriques dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+2. **Consolider le programme provisoire** : obtenir les titres, synopsis, portraits, besoins techniques et confirmations manquants dans [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
+3. **Suivre les sponsors sans mélanger communication et comptabilité** : relance Paymium le 10 août ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
+4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : démarrage opérationnel J-21 le 12 août dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
+5. **Finaliser la gouvernance des accès** : Nextcloud [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10), Meta [#8](https://github.com/Alpinechain/Alpinechain_Association/issues/8), Framer/OVH [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
+6. **Tenir la revue d’exploitation W31** : contrôles et décisions dans [#75](https://github.com/Alpinechain/Alpinechain_Association/issues/75).
+
+## Décisions du 29 juillet 2026
+
+### Programme B-Only
+
+- Jean est intégré samedi 7 novembre de 15 h 30 à 16 h 20 au Pleb Forum avec le workshop « Acheter du bitcoin de manière privée : méthodes, précautions et mise en pratique ».
+- Michel Khazzaka prend le créneau de lundi 9 novembre de 10 h à 10 h 50 en salle principale.
+- Alexis Roussel sort du planning et reste candidat, en attente d’un nouveau créneau.
+- Sandra Gandoin reste dimanche à 16 h 30.
+- Titres intégrés :
+  - Renaud Lifchitz : « Reticulum, le réseau cypherpunk dont vous avez besoin ! » ;
+  - Christine Jeanneaux : « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » ;
+  - Nicolas Cantu : « Lire les dégâts de l’impression monétaire dans les sols. ».
+- Le programme reste en état `draft` : la source est publiée, mais les créneaux non confirmés restent provisoires.
+
+### Communication
+
+- La campagne multicanale V2 jointe pour Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
+- La vignette V02 du Cercle du Coin et la séquence validée avec Hub sont prêtes pour programmation.
+- La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
+- Pour les vignettes intervenants :
+  - Nicolas : titre, pitch, portrait et vignette validés ;
+  - Renaud : portrait et titre reçus, vignette à finaliser ;
+  - Christine : portrait et titre reçus, vignette à finaliser.
 
 ## État opérationnel B-Only 2026
 
 ### Billetterie
 
-- Partie publique ouverte et opérationnelle : https://join.alpinechain.xyz/org/bonly26/
-- L’événement Pretix est actif, hors mode test, avec une prévente ouverte depuis le 21 juillet 2026 à 21:21 Europe/Paris.
-- Contrôle du 22 juillet : 22 commandes payées représentant 26 billets ; aucune commande impayée ou en attente dans le relevé contrôlé.
-- Le formulaire public propose bien le billet Early à 150 € et permet de poursuivre vers le paiement.
-- Le suivi du lancement est clôturé dans [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) ; les publications et métriques restent suivies dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
-
-### Site public
-
-- `https://b-only.org/` est à jour pour l’édition 2026.
-- Une FAQ a été ajoutée.
-- La mise à jour 2026 est terminée dans [#33](https://github.com/Alpinechain/Alpinechain_Association/issues/33). Les contenus futurs restent dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) et la gouvernance Framer/OVH dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
+- Billetterie publique ouverte : https://join.alpinechain.xyz/org/bonly26/
+- Dernier contrôle chiffré archivé, au 22 juillet : 22 commandes payées et 26 billets.
+- Les liens UTM et courts sont prêts pour les campagnes ; les URLs publiées et métriques doivent être reportées dans #24 et #64.
 
 ### Sponsors
 
-- Le traitement des confirmations, factures, paiements et contreparties reste en cours.
-- Paymium : pack de 2 500 € facturé, payé et rapproché ; contreparties réparties entre les Issues programme, communication et logistique.
-- Bitstack : pack soutien de 2 000 € confirmé par courrier signé reçu le 23 juillet et archivé dans Nextcloud ; facture `FA2607-0003` en attente de règlement au 19 août.
-- Reprise opérationnelle prévue après la présente mise à jour.
+- Paymium : pack partenaire de 2 500 € payé et rapproché ; relance communication le 10 août.
+- Le Cercle du Coin : soutien de 2 000 € payé ; campagne prête à programmer.
+- Bitstack : pack soutien de 2 000 € confirmé ; campagne approuvée ; facture `FA2607-0003` à contrôler le 19 août.
 
-## Revue d’exploitation 2026-W30
+### Programme et visuels
 
-- Les cinq derniers runs du monitoring public sont réussis et aucun incident public n’est ouvert.
-- Les 21 conteneurs de production sont démarrés, y compris Collabora dédié ; le MCP et ses six connecteurs sont sains, et aucune unité systemd n’est en échec.
-- Les disques sont utilisés à 13 % pour `/` et 34 % pour le disque de données après suppression contrôlée d’une archive temporaire PeerTube de 23,76 Go.
-- Le snapshot Restic `abee5432`, le contrôle de 5 % des données et la restauration Pretix isolée sont validés ; les timers quotidiens et hebdomadaires sont actifs. [#9](https://github.com/Alpinechain/Alpinechain_Association/issues/9) est clôturée.
-- La rotation du secret, le nettoyage des healthchecks orphelins et des artefacts d’audit sont terminés dans [Serveur #35](https://github.com/Alpinechain/Serveur/issues/35), [#37](https://github.com/Alpinechain/Serveur/issues/37) et [#38](https://github.com/Alpinechain/Serveur/issues/38).
-- Les correctifs de sécurité AlmaLinux sont appliqués et le noyau `5.14.0-687.26.1.el9_8` est actif. La montée complète 9.8 est planifiée dans [Serveur #56](https://github.com/Alpinechain/Serveur/issues/56).
+- Les modèles de vignettes intervenants et organisations sont validés.
+- Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
+- Les titres de Renaud, Christine et Nicolas sont intégrés dans le programme et le registre des intervenants.
+- Restent notamment à obtenir : titre de Pierre Noizat, sujet de Michel Khazzaka, identité complète de Jean, informations complètes de Hub et confirmations des créneaux encore provisoires.
 
-## Système de pilotage
+## Exploitation et infrastructure
 
-Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) est opérationnel. Les Issues ouvertes sont synchronisées automatiquement et une réconciliation complète s’exécute chaque semaine.
+- La mise à niveau AlmaLinux 9.8 est terminée ; [Serveur #56](https://github.com/Alpinechain/Serveur/issues/56) est clôturée.
+- Dernier état d’exploitation validé (W30) : services publics sains, 21 conteneurs démarrés, aucune unité systemd en échec, sauvegarde Restic et restauration Pretix contrôlées.
+- La revue W31 reste à effectuer dans #75 ; ne pas présenter l’état W30 comme un contrôle temps réel.
+- Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) reste le cockpit des Issues ouvertes.
 
-Le standard événement commun est défini dans [`references/event-standard.md`](../references/event-standard.md). Toute nouvelle rencontre utilise le modèle `.github/ISSUE_TEMPLATE/evenement.md` et reste ouverte jusqu’à la capitalisation J+3.
+## Prochaines échéances
 
-Les flux entre outils sont définis dans [`references/data-flows.md`](../references/data-flows.md), les limites d’automatisation dans [`references/automation-policy.md`](../references/automation-policy.md) et l’organisation Nextcloud réelle dans [`references/nextcloud-index.md`](../references/nextcloud-index.md).
-
-## Phase 3 — État
-
-- La Phase 3 de connexion de l’exploitation est terminée et [#30](https://github.com/Alpinechain/Alpinechain_Association/issues/30) est clôturée. Les revues de droits restent suivies dans leurs Issues dédiées.
-- Cartographie des outils et flux : documentée.
-- Monitoring externe des services publics : actif.
-- Revue hebdomadaire : active.
-- Inventaire Nextcloud réalisé le 13 juillet 2026 : 66 dossiers, 133 fichiers, environ 228,5 Mio.
-- Structure Nextcloud 2026 créée et vérifiée par accès authentifié : B-Only 2026, Meetup 2026 et Contrats-Conventions.
-- Dossier B-Only 2026 classé le 22 juillet : 47 sources renommées et déplacées sans écrasement, portraits et logos séparés, anciens visuels rangés en archives et fichier `LISEZ-MOI.txt` ajouté ; une note verrouillée reste à déplacer.
-- Audit ciblé B-Only 2026 réalisé le 26 juillet : 92 dossiers et 361 fichiers,
-  dont 84 hors archives historiques. La règle « une seule version active » est
-  documentée ; quatre fichiers `.old` de la campagne Élodie Lué restent à
-  déplacer dans un sous-dossier `Archives/` avec un accès Nextcloud autorisant
-  `MKCOL` et `MOVE`.
-- Compte MCP Nextcloud dédié, mot de passe d’application et racine partagée `Association` validés en WebDAV.
-- Le partage public historique Nextcloud `6aBTY243WDkbSGL` a été supprimé et n’existe plus.
-- L’exposition publique directe est considérée comme coupée ; la revue des droits, des liens hérités, de la rétention et des administrateurs de secours reste ouverte dans [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10).
-- L’absence de partage public empêche désormais le contrôle anonyme du contenu réel, conformément au niveau de sécurité attendu. Toute nouvelle vérification documentaire doit utiliser un accès Nextcloud ou WebDAV authentifié.
-- Cible Infomaniak Swiss Backup S3 active : première sauvegarde, contrôle Restic et restauration Pretix isolée terminés.
-- MCP privé opérationnel pour Dolibarr, Paheko, Nextcloud, Pretix, PeerTube et IMAP. Les boîtes professionnelles `contact@alpinechain.xyz` et `cyrille@alpinechain.xyz` sont accessibles séparément en lecture seule sur `INBOX`. Les métadonnées des nouveaux messages sont relevées toutes les quatre heures dans un journal local protégé ; les consultations détaillées restent déclenchées à la demande. Aucune alerte ni tâche n’est encore créée automatiquement. Décision validée : GPT reste l’interface de conversation, GitHub le cockpit et Codex accède au MCP par tunnel SSH ; aucune exposition publique n’est requise.
-- Publication, paiement et décision : validation humaine maintenue.
-
-## Décisions attendues
-
-- Confirmer les contreparties définitives et l’état administratif de chaque sponsor B-Only 2026.
-- Confirmer l’intervenant, la salle exacte, la capacité et le budget de l’atelier Bitcoin du 2 septembre 2026.
-- Valider le prochain thème, la date, le lieu et la promesse du rendez-vous Souveraineté 3.0.
-- Définir les personnes disposant des droits opérationnels sur les comptes Meta AlpineChain.
-- Définir les propriétaires Nextcloud et administrateurs de secours, puis dater la prochaine revue des droits.
-- Confirmer la fenêtre de maintenance AlmaLinux 9.8 pendant la semaine du 27 juillet.
-
-## En attente de tiers
-
-- Règlement de la facture Bitstack `FA2607-0003` à échéance et coordination de ses contreparties.
-- Réponses des partenaires, sponsors et intervenants encore en discussion.
-- Confirmation de l’intervenant de l’atelier multisig et Disaster Recovery.
-
-## Risques à surveiller
-
-- Informations divergentes entre GitHub, Nextcloud, Pretix, les conversations ChatGPT et les publications publiques.
-- Liens de publications non archivés après diffusion.
-- Actions importantes sans responsable ni échéance.
-- Dépendance excessive à une seule personne pour les comptes, validations et accès.
-- Échec d’une sauvegarde future ou vieillissement du dernier snapshot au-delà de 36 heures.
-- Mise à niveau complète AlmaLinux 9.8 encore à exécuter dans une fenêtre contrôlée.
-- Programme B-Only publié avant confirmation formelle des intervenants, sujets et créneaux.
-- Liens publics Nextcloud hérités non encore identifiés.
-
-## Prochaines échéances connues
-
-| Date | Échéance | Projet |
-|---|---|---|
-| Après chaque diffusion | Ajouter les URLs publiques et premiers résultats | B-Only |
-| Revue hebdomadaire | Relever les ventes Pretix et rapprocher les campagnes | B-Only |
-| Semaine du 2026-07-27 | Mise à niveau complète AlmaLinux 9.8 | Infrastructure |
-| 2026-08-12 | J-21 de l’atelier multisig et Disaster Recovery | Meetup Bitcoin |
-| 2026-09-02 19:00 | Atelier Bitcoin : multisig et Disaster Recovery | Meetup Bitcoin |
-| 2026-09-05 | Capitalisation J+3 de l’atelier Bitcoin | Meetup Bitcoin |
-| 2026-11-07 au 2026-11-09 | B-Only 2026 | B-Only |
-
-## Publications à valider
-
-Toute publication publique doit rester en validation humaine. Les campagnes actives doivent être rattachées à une Issue GitHub et comporter les liens publics définitifs dès leur diffusion.
-
-Les publications d’ouverture de la billetterie ont été diffusées sur les principaux canaux. Leur traçabilité et leurs métriques restent à compléter dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
-
-## Règle d’usage
-
-- Une action concrète devient une Issue.
-- Un événement utilise le modèle d’Issue événement et reste ouvert jusqu’à J+3.
-- Une décision durable est ajoutée au document de référence concerné.
-- Un fichier lourd ou un visuel est stocké dans Nextcloud avec des droits adaptés.
-- Les données personnelles et commerciales détaillées restent dans les outils métiers ou espaces privés.
-- Les contrôles automatiques peuvent ouvrir des Issues, mais ne publient ni ne paient.
-- Ce tableau est actualisé au minimum une fois par semaine.
+| Date | Action |
+|---|---|
+| Dès maintenant | Programmer les campagnes validées et archiver chaque URL publiée |
+| 10 août | Relancer Ludovic / Paymium sur la publication commune et le giveaway |
+| 12 août | Lancer la préparation J-21 de l’atelier multisig |
+| 17 août | Relancer Cryptoast si le giveaway et la fenêtre de septembre ne sont pas confirmés |
+| 19 août | Contrôler le règlement Bitstack |
+| 1er septembre | Relancer Sandra / BFM Crypto |
+| 2 septembre | Atelier multisig et Disaster Recovery |
+| 7–9 novembre | B-Only 2026 |
