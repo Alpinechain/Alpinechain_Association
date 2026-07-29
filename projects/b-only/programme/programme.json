@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-29T22:15:00+02:00",
+    "updatedAt": "2026-07-29T19:45:00+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -53,19 +53,19 @@
       "notes": "Ouverture commune aux deux espaces."
     },
     {
-      "id": "sat-main-alexis",
+      "id": "sat-main-alexandre",
       "date": "2026-11-07",
       "start": "15:00",
       "end": "15:50",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Sujet à confirmer",
+      "title": "Titre à confirmer",
       "speakers": [
-        "Alexis Roussel"
+        "Alexandre Stachtchenko"
       ],
       "format": "Présentation et questions",
-      "notes": "Alexis Roussel reprend seul le créneau libéré par les désistements d’Élodie Sogan et de Cédric Maire ; titre et contenu à confirmer."
+      "notes": "Intervention liée à Bitstack ; titre, photo et contenu à obtenir."
     },
     {
       "id": "sat-workshop-profedu-qa",
@@ -445,19 +445,19 @@
       "notes": "Dernière étape du parcours ProfEduStream."
     },
     {
-      "id": "mon-main-alexandre",
+      "id": "mon-main-alexis",
       "date": "2026-11-09",
       "start": "11:00",
       "end": "11:50",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Titre à confirmer",
+      "title": "Sujet à confirmer",
       "speakers": [
-        "Alexandre Stachtchenko"
+        "Alexis Roussel"
       ],
       "format": "Présentation et questions",
-      "notes": "Intervention liée à Bitstack ; titre, photo et contenu à obtenir."
+      "notes": "Sujet, titre professionnel, portrait et format à confirmer."
     },
     {
       "id": "mon-workshop-noe",
