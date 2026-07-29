@@ -53,7 +53,7 @@
       "notes": "Ouverture commune aux deux espaces."
     },
     {
-      "id": "sat-main-elodie-sogan-cedric",
+      "id": "sat-main-alexis-cedric",
       "date": "2026-11-07",
       "start": "15:00",
       "end": "15:50",
@@ -62,11 +62,11 @@
       "visibility": "internal",
       "title": "Sujet à confirmer",
       "speakers": [
-        "Élodie Sogan",
+        "Alexis Roussel",
         "Cédric Maire"
       ],
       "format": "Présentation et questions",
-      "notes": "Titre et rôles à confirmer."
+      "notes": "Alexis Roussel reprend le créneau libéré par le désistement d’Élodie Sogan ; titre, rôles et contenu à confirmer."
     },
     {
       "id": "sat-workshop-profedu-qa",
