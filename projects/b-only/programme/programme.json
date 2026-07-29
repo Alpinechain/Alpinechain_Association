@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-29T21:30:00+02:00",
+    "updatedAt": "2026-07-29T22:15:00+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -53,7 +53,7 @@
       "notes": "Ouverture commune aux deux espaces."
     },
     {
-      "id": "sat-main-alexis-cedric",
+      "id": "sat-main-alexis",
       "date": "2026-11-07",
       "start": "15:00",
       "end": "15:50",
@@ -62,11 +62,10 @@
       "visibility": "internal",
       "title": "Sujet à confirmer",
       "speakers": [
-        "Alexis Roussel",
-        "Cédric Maire"
+        "Alexis Roussel"
       ],
       "format": "Présentation et questions",
-      "notes": "Alexis Roussel reprend le créneau libéré par le désistement d’Élodie Sogan ; titre, rôles et contenu à confirmer."
+      "notes": "Alexis Roussel reprend seul le créneau libéré par les désistements d’Élodie Sogan et de Cédric Maire ; titre et contenu à confirmer."
     },
     {
       "id": "sat-workshop-profedu-qa",
@@ -113,7 +112,6 @@
       ],
       "moderators": [
         "Élodie Lué",
-        "Cédric Maire",
         "Marius Farashi"
       ],
       "format": "20 min ProfEduStream, présentation de Florent, puis débat",
@@ -368,7 +366,6 @@
       "speakers": [],
       "moderators": [
         "Élodie Lué",
-        "Cédric Maire",
         "Marius Farashi"
       ],
       "format": "Débat",
