@@ -98,24 +98,34 @@
       "notes": "Créneau validé le 29 juillet ; les participants seront invités à réaliser l'achat en direct. Nom complet, outils, prérequis et cadre de sécurité à confirmer."
     },
     {
-      "id": "sat-main-profedu-florent-debate",
+      "id": "sat-main-profedu-quantum",
       "date": "2026-11-07",
       "start": "16:00",
-      "end": "17:20",
+      "end": "16:50",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
       "title": "Face à la menace quantique, faut-il geler les bitcoins de Satoshi ?",
       "speakers": [
-        "ProfEduStream",
+        "ProfEduStream"
+      ],
+      "format": "Présentation",
+      "notes": "Titre validé le 29 juillet."
+    },
+    {
+      "id": "sat-main-florent",
+      "date": "2026-11-07",
+      "start": "17:00",
+      "end": "17:50",
+      "room": "main",
+      "status": "reserved",
+      "visibility": "internal",
+      "title": "Titre à confirmer",
+      "speakers": [
         "Florent Gabriel"
       ],
-      "moderators": [
-        "Élodie Lué",
-        "Marius Farashi"
-      ],
-      "format": "20 min ProfEduStream, présentation de Florent, puis débat",
-      "notes": "Titre de la présentation de ProfEduStream validé le 29 juillet. Titre de Florent Gabriel, articulation du débat et répartition de la modération à confirmer."
+      "format": "Présentation",
+      "notes": "Titre et contenu à confirmer."
     },
     {
       "id": "sat-workshop-polto-darko",
