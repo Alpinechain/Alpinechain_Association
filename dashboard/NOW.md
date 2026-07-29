@@ -33,7 +33,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ### Communication
 
-- La campagne multicanale V2 jointe pour Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
+- La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
+- ProfEduStream : titre de la présentation principale, réseaux officiels et portrait validés ; les autres étapes de son parcours restent à préciser.
 - La vignette V02 du Cercle du Coin et la séquence validée avec Hub sont prêtes pour programmation.
 - La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
 - Pour les vignettes intervenants :
@@ -59,7 +60,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 - Les modèles de vignettes intervenants et organisations sont validés.
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
-- Les titres de Renaud, Christine et Nicolas sont intégrés dans le programme et le registre des intervenants.
+- Les titres de Renaud, Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
+- Le portrait ProfEduStream est validé et normalisé ; sa vignette reste à produire.
 - Restent notamment à obtenir : titre de Pierre Noizat, sujet de Michel Khazzaka, identité complète de Jean, informations complètes de Hub et confirmations des créneaux encore provisoires.
 
 ## Exploitation et infrastructure
