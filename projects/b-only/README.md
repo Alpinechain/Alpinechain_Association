@@ -86,32 +86,34 @@ Il doit être structuré par édition. Pour 2026, l’organisation minimale reco
 Action - Initiatives/B-Only/
 └── 2026/
     ├── 01_Programme-Intervenants/
+    │   ├── Photos Intervenants/
+    │   └── Logos Participants/
     ├── 02_Sponsors-Contrats/
     │   └── Supports-partenariat/
     ├── 03_Communication/
     │   └── Vignettes/
     │       ├── Intervenants/
-    │       ├── Organisations/
-    │       └── Exports-valides/
-    │           ├── Intervenants/
-    │           └── Organisations/
+    │       └── Organisations/
     ├── 04_Production-Logistique/
     │   ├── Restauration/
     │   └── Notes-de-travail/
     ├── 05_Finances/
-    └── 06_Medias/
-        └── Archives-2023-2025/
+    ├── 06_Medias/
+    └── Archives/
+        ├── Programme-Intervenants/
+        ├── Versions-anterieures/
+        └── Medias-2023-2025/
 ```
 
 Cette structure documentaire complète les huit chantiers GitHub sans les dupliquer dossier par dossier.
 
-Le classement authentifié du 22 juillet 2026 a renommé et déplacé 47 fichiers
-sans écrasement : portraits dans `Vignettes/Intervenants/`, logos dans
-`Vignettes/Organisations/`, documents partenaires et logistiques dans leurs
-sous-dossiers, et anciens visuels dans `06_Medias/Archives-2023-2025/`. Le
-fichier `LISEZ-MOI.txt` à la racine décrit la convention de nommage. L’ancienne
-note `B-Only'26.txt` reste provisoirement à la racine tant que son verrou Office
-empêche son déplacement.
+Le classement authentifié a été revérifié le 30 juillet 2026 : Nextcloud
+contient 107 dossiers et 395 fichiers sous l'édition 2026. Les portraits sont
+dans `01_Programme-Intervenants/Photos Intervenants/`, les logos dans
+`01_Programme-Intervenants/Logos Participants/`, et seules les vignettes
+actives restent dans `03_Communication/Vignettes/Intervenants/` ou
+`Organisations/`. Les versions remplacées sont conservées dans
+`Archives/Versions-anterieures/` en reprenant leur chemin de travail.
 
 Les visuels historiques restent utilisables par défaut lorsqu'aucun remplaçant
 n'a été reçu, sous réserve de vérifier les droits avant publication. Un nouveau
@@ -119,11 +121,13 @@ fichier ne doit jamais écraser un visuel existant : il reçoit un nom versionn�
 daté jusqu'à validation.
 
 Lorsqu'une version en remplace une autre, une seule version reste active dans le
-dossier de travail. La version remplacée est déplacée sans écrasement dans un
-sous-dossier `Archives/`. Le suffixe `.old` peut la signaler temporairement,
-mais tout fichier déjà suffixé `.old` est réputé archivé et ne doit plus servir
-de référence active. Les variantes utiles, formats distincts, sources et pièces
-signées ne sont archivés qu'après identification explicite d'un successeur.
+dossier de travail. La version remplacée est déplacée sans écrasement dans
+`Archives/Versions-anterieures/`, en conservant le chemin relatif de son dossier
+d'origine. Le suffixe `.old` peut la signaler temporairement, mais tout fichier
+déjà suffixé `.old` est réputé archivé et ne doit plus servir de référence
+active. Les variantes utiles, formats distincts, sources et pièces signées ne
+sont archivés qu'après identification explicite d'un successeur. Pour Pierre
+Noizat, les trois portraits restent actifs jusqu'à sa confirmation explicite.
 
 Les exports nominatifs de participants restent dans Pretix ou dans un espace Nextcloud privé strictement limité. Ils ne doivent jamais être inclus dans un partage public global.
 
