@@ -98,19 +98,19 @@
       "notes": "Créneau validé le 29 juillet ; les participants seront invités à réaliser l'achat en direct. Nom complet, outils, prérequis et cadre de sécurité à confirmer."
     },
     {
-      "id": "sat-main-profedu-quantum",
+      "id": "sat-main-nicolas",
       "date": "2026-11-07",
       "start": "16:00",
       "end": "16:50",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Face à la menace quantique, faut-il geler les bitcoins de Satoshi ?",
+      "title": "Lire les dégâts de l’impression monétaire dans les sols.",
       "speakers": [
-        "ProfEduStream"
+        "Nicolas Cantu"
       ],
-      "format": "Présentation",
-      "notes": "Titre validé le 29 juillet."
+      "format": "Présentation et questions",
+      "notes": "Titre, pitch, portrait et vignette validés."
     },
     {
       "id": "sat-main-florent",
@@ -144,19 +144,19 @@
       "notes": "Identifier le responsable et le sujet."
     },
     {
-      "id": "sat-workshop-schnuartz",
+      "id": "sat-workshop-profedu-quantum",
       "date": "2026-11-07",
       "start": "17:30",
-      "end": "18:20",
+      "end": "19:00",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Specter Workshop",
+      "title": "Face à la menace quantique, faut-il geler les bitcoins de Satoshi ?",
       "speakers": [
-        "Schnuartz"
+        "ProfEduStream"
       ],
-      "format": "Workshop en anglais",
-      "notes": "Intitulé définitif et langue à confirmer."
+      "format": "Présentation, échanges, questions, sondage et recherche de consensus",
+      "notes": "20 min de présentation ; 40 min d’échanges, questions, sondage et recherche de consensus ; 15 min de conclusion sur les solutions déjà existantes ; 15 min de marge à répartir dans le créneau de 1 h 30."
     },
     {
       "id": "sat-main-lionel",
@@ -172,19 +172,6 @@
       ],
       "format": "Présentation et questions",
       "notes": "Créneau provisoire ; synopsis, format et titre définitif à confirmer."
-    },
-    {
-      "id": "sat-workshop-free-1830",
-      "date": "2026-11-07",
-      "start": "18:30",
-      "end": "19:20",
-      "room": "workshop",
-      "status": "free",
-      "visibility": "internal",
-      "title": "Créneau libre",
-      "speakers": [],
-      "format": "",
-      "notes": ""
     },
     {
       "id": "sun-workshop-profedu-send-receive",
@@ -382,19 +369,19 @@
       "notes": "Sujet et répartition de la modération à confirmer."
     },
     {
-      "id": "sun-workshop-nicolas",
+      "id": "sun-workshop-schnuartz",
       "date": "2026-11-08",
       "start": "18:00",
       "end": "18:50",
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Lire les dégâts de l’impression monétaire dans les sols.",
+      "title": "Specter Workshop",
       "speakers": [
-        "Nicolas Cantu"
+        "Schnuartz"
       ],
-      "format": "Workshop",
-      "notes": "Titre, pitch, portrait et vignette validés ; horaire encore provisoire."
+      "format": "Workshop en anglais",
+      "notes": "Intitulé définitif et langue à confirmer."
     },
     {
       "id": "sun-workshop-quiz",
