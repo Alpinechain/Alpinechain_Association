@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-29T19:45:00+02:00",
+    "updatedAt": "2026-07-29T22:20:00+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -105,7 +105,7 @@
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Présentations croisées et débat",
+      "title": "Face à la menace quantique, faut-il geler les bitcoins de Satoshi ?",
       "speakers": [
         "ProfEduStream",
         "Florent Gabriel"
@@ -115,7 +115,7 @@
         "Marius Farashi"
       ],
       "format": "20 min ProfEduStream, présentation de Florent, puis débat",
-      "notes": "Répartir la modération et confirmer les titres avant publication."
+      "notes": "Titre de la présentation de ProfEduStream validé le 29 juillet. Titre de Florent Gabriel, articulation du débat et répartition de la modération à confirmer."
     },
     {
       "id": "sat-workshop-polto-darko",
