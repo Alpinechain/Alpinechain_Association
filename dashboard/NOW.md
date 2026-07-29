@@ -23,7 +23,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 - Jean est intégré samedi 7 novembre de 15 h 30 à 16 h 20 au Pleb Forum avec le workshop « Acheter du bitcoin de manière privée : méthodes, précautions et mise en pratique ».
 - Michel Khazzaka prend le créneau de lundi 9 novembre de 10 h à 10 h 50 en salle principale.
-- Alexis Roussel sort du planning et reste candidat, en attente d’un nouveau créneau.
+- Alexandre Stachtchenko et Alexis Roussel échangent leurs créneaux : Alexandre est programmé samedi 7 novembre de 15 h à 15 h 50 ; Alexis lundi 9 novembre de 11 h à 11 h 50.
 - Sandra Gandoin reste dimanche à 16 h 30.
 - Titres intégrés :
   - Renaud Lifchitz : « Reticulum, le réseau cypherpunk dont vous avez besoin ! » ;
