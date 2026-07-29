@@ -1,10 +1,9 @@
 # Index Nextcloud AlpineChain
 
-Dernière vérification documentaire complète : 2026-07-13  
+Dernière vérification documentaire complète : 2026-07-30
 Dernière mise à jour de sécurité : 2026-07-18  
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
-Audit ciblé B-Only 2026 : 2026-07-26 — 92 dossiers et 361 fichiers, dont 84
-fichiers hors archives historiques
+Audit ciblé B-Only 2026 : 2026-07-30 — 107 dossiers et 395 fichiers
 
 ## Statut d’accès
 
@@ -47,17 +46,20 @@ Association/
 │   ├── B-Only/
 │   │   └── 2026/
 │   │       ├── 01_Programme-Intervenants/
+│   │       │   ├── Photos Intervenants/
+│   │       │   └── Logos Participants/
 │   │       ├── 02_Sponsors-Contrats/
 │   │       ├── 03_Communication/
 │   │       │   └── Vignettes/
 │   │       │       ├── Intervenants/
-│   │       │       ├── Organisations/
-│   │       │       └── Exports-valides/
-│   │       │           ├── Intervenants/
-│   │       │           └── Organisations/
+│   │       │       └── Organisations/
 │   │       ├── 04_Production-Logistique/
 │   │       ├── 05_Finances/
-│   │       └── 06_Medias/
+│   │       ├── 06_Medias/
+│   │       └── Archives/
+│   │           ├── Programme-Intervenants/
+│   │           ├── Versions-anterieures/
+│   │           └── Medias-2023-2025/
 │   └── Grenoble 3.0/
 ├── Administration/
 │   ├── Acteurs/
@@ -103,32 +105,33 @@ Association/
 Action - Initiatives/B-Only/
 └── 2026/
     ├── 01_Programme-Intervenants/
+    │   ├── Photos Intervenants/
+    │   └── Logos Participants/
     ├── 02_Sponsors-Contrats/
     │   └── Supports-partenariat/
     ├── 03_Communication/
     │   └── Vignettes/
     │       ├── Intervenants/
-    │       ├── Organisations/
-    │       └── Exports-valides/
-    │           ├── Intervenants/
-    │           └── Organisations/
+    │       └── Organisations/
     ├── 04_Production-Logistique/
     │   ├── Restauration/
     │   └── Notes-de-travail/
     ├── 05_Finances/
-    └── 06_Medias/
-        └── Archives-2023-2025/
+    ├── 06_Medias/
+    └── Archives/
+        ├── Programme-Intervenants/
+        ├── Versions-anterieures/
+        └── Medias-2023-2025/
 ```
 
 Les registres GitHub `projects/b-only/INTERVENANTS.md` et
 `projects/b-only/ORGANISATIONS.md` portent les statuts de préparation. Nextcloud
-conserve les fichiers sources et les exports graphiques. Le 22 juillet 2026,
-47 fichiers ont été renommés et déplacés dans cette structure par WebDAV avec
-refus d'écrasement et vérification d'empreinte avant/après. Les portraits sont
-dans `Vignettes/Intervenants/`, les logos dans `Vignettes/Organisations/` et les
-anciens supports graphiques dans `06_Medias/Archives-2023-2025/`. Aucun fichier
-n'a été supprimé. La note historique `B-Only'26.txt` reste provisoirement à la
-racine car son verrou Office interdit encore son déplacement.
+conserve les fichiers sources et les exports graphiques. Le contrôle du
+30 juillet 2026 recense 107 dossiers et 395 fichiers. Les portraits sont dans
+`01_Programme-Intervenants/Photos Intervenants/`, les logos dans
+`01_Programme-Intervenants/Logos Participants/`, les vignettes actives dans
+`03_Communication/Vignettes/Intervenants/` ou `Organisations/`, et les versions
+remplacées dans `Archives/Versions-anterieures/`. Aucun fichier n'a été supprimé.
 
 ### Rencontres Souveraineté 3.0
 
@@ -168,8 +171,8 @@ par famille de document. Lorsqu'un fichier est remplacé mais doit être
 conservé :
 
 1. vérifier explicitement quel fichier devient la version active ;
-2. déplacer l'ancienne version dans un sous-dossier `Archives/`, sans
-   écrasement ;
+2. déplacer l'ancienne version dans `Archives/Versions-anterieures/`, sans
+   écrasement et en conservant le chemin relatif de son dossier d'origine ;
 3. si le déplacement n'est pas immédiatement possible, suffixer temporairement
    son nom complet par `.old` ;
 4. traiter tout fichier déjà suffixé `.old` comme une version archivée, même
@@ -180,29 +183,38 @@ conservé :
 6. vérifier l'empreinte ou, à défaut, la taille avant et après déplacement, puis
    tracer l'opération.
 
-Le sous-dossier `Archives/` est la solution préférée : le suffixe `.old` est un
-marquage transitoire ou complémentaire. Les formats distincts d'un même
-livrable, les pièces signées, les sources graphiques, les variantes
-explicitement utiles et les documents sans successeur confirmé ne sont pas
-considérés comme obsolètes sur leur seul nom.
+Le dossier `Archives/Versions-anterieures/` est la solution préférée : le
+suffixe `.old` est un marquage transitoire ou complémentaire. Les formats
+distincts d'un même livrable, les pièces signées, les sources graphiques, les
+variantes explicitement utiles et les documents sans successeur confirmé ne
+sont pas considérés comme obsolètes sur leur seul nom.
 
 La même consigne est déposée dans le dossier B-Only 2026 sous
 `REGLE-ARCHIVAGE.txt`.
 
-L'audit ciblé du 26 juillet 2026 a identifié quatre fichiers `.old` dans
-`03_Communication/Campagnes/2026/bonly26_speakers/elodie-lue/` :
+Les quatre anciennes versions de la campagne Élodie Lué sont archivées sous
+`Archives/Versions-anterieures/03_Communication/Campagnes/2026/bonly26_speakers/elodie-lue/` :
 
 - `README.md.old` ;
 - `campaign-links.csv.old` ;
 - `contenus-multicanaux-v1.md.old` ;
 - `contenus-x-v2.md.old`.
 
-Ils sont considérés comme non actifs ; leur déplacement dans un sous-dossier
-`Archives/` reste à exécuter par un accès Nextcloud autorisant les opérations
-WebDAV `MKCOL` et `MOVE`. Les fichiers actifs
+Ils sont considérés comme non actifs. Les fichiers actifs
 `contenus-multicanaux-v2.md` et `brief-vignette-v1.md` contiennent encore des
 horaires antérieurs du programme d'Élodie Lué : ils doivent être corrigés dans
 de nouvelles versions avant archivage de leurs versions actuelles.
+
+La campagne Christine Jeanneaux conserve uniquement `README-v4.md`,
+`contenus-multicanaux-v4.md` et `campaign-links-v1.csv` dans son dossier actif.
+Ses versions V1 à V3 sont archivées sous le même chemin relatif dans
+`Archives/Versions-anterieures/`. Sa vignette validée, comme celles d'Élodie
+Lué et Nicolas Cantu, reste directement dans
+`03_Communication/Vignettes/Intervenants/` avec le suffixe `--valide`.
+
+Pierre Noizat possède trois portraits actifs dans
+`01_Programme-Intervenants/Photos Intervenants/`. Aucun n'est désigné comme
+version de référence : ils restent tous en place jusqu'à sa confirmation.
 
 ## Classification et droits
 
@@ -222,11 +234,10 @@ de nouvelles versions avant archivage de leurs versions actuelles.
 - confirmer les propriétaires, droits nominatifs et administrateurs de secours ;
 - vérifier la corbeille, les versions, la rétention et la restauration Nextcloud ;
 - étendre progressivement les fichiers `LISEZ-MOI.txt` aux autres dossiers actifs ; celui de B-Only 2026 est en place ;
-- déplacer les quatre fichiers `.old` de la campagne Élodie Lué dans son
-  sous-dossier `Archives/` dès qu'un accès autorisant `MKCOL` et `MOVE` est
-  disponible ;
 - produire les versions corrigées des contenus et du brief Élodie Lué avec les
   horaires actuels avant d'archiver les versions existantes ;
+- obtenir de Pierre Noizat le portrait de référence avant d'archiver les deux
+  variantes non retenues ;
 - vérifier que les exports d’adhérents et participants ne sont conservés que pendant la durée nécessaire ;
 - réaliser une nouvelle revue documentaire authentifiée lorsque l’état réel des fichiers doit être contrôlé.
 
