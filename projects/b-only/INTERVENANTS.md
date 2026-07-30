@@ -63,8 +63,8 @@ Les chemins Nextcloud sont relatifs à
 | Jean — identité à compléter | Planifié | À préciser | Samedi 15 h 30, Pleb Forum — « Acheter du bitcoin de manière privée : méthodes, précautions et mise en pratique » | Manquant | Créneau validé le 2026-07-29 | Nom complet, titre, outils, prérequis, cadre de sécurité et portrait | Cadrer le déroulé de l’achat sans KYC réalisé en direct |
 | Michel Khazzaka | Planifié | À préciser | Lundi 10 h, salle principale ; sujet à définir | Manquant | Créneau validé le 2026-07-29 | Titre professionnel, sujet, synopsis, format et portrait | Obtenir les éléments éditoriaux et confirmer le format |
 | Alexis Roussel | Planifié | À préciser | Lundi 11 h, salle principale ; sujet à définir | Manquant | Présentation en solo confirmée le 2026-07-29 | Confirmation, photo, titre professionnel, sujet et format | Confirmer les éléments éditoriaux et le format de la séquence |
-| Polto | Planifié | À préciser | Workshop avec Darko, samedi 16 h 30 | Manquant | À dater | Photo, titre professionnel, organisation et sujet | Identifier le responsable de la session |
-| Darko | Planifié | À préciser | Workshop avec Polto, samedi 16 h 30 | Manquant | À dater | Photo, titre professionnel, organisation et sujet | Identifier le responsable de la session |
+| Polto | Confirmé | Hodling SA | Samedi 16 h 30, Pleb Forum — « Justifier l'origine de ses bitcoins » | Portrait validé dans `01_Programme-Intervenants/Photos Intervenants/intervenant--polto--portrait--2026-07-30--source.png` ; vignette carrée V1 à relire dans `03_Communication/Vignettes/Intervenants/vignette--polto-darko--justifier-origine-bitcoins--2026-07-30--en-attente-validation-v1.png` | Éléments éditoriaux, portrait, vignette et campagne multicanale V1 préparés le 2026-07-30 | Validation humaine de la vignette, des textes et du calendrier avant programmation | Relire le kit dans `03_Communication/Campagnes/2026/bonly26_speakers/polto-darko/` |
+| Darko | Confirmé | Hodling SA | Samedi 16 h 30, Pleb Forum — « Justifier l'origine de ses bitcoins » | Portrait validé dans `01_Programme-Intervenants/Photos Intervenants/intervenant--darko--portrait--2026-07-30--source.png` ; vignette carrée V1 à relire dans `03_Communication/Vignettes/Intervenants/vignette--polto-darko--justifier-origine-bitcoins--2026-07-30--en-attente-validation-v1.png` | Éléments éditoriaux, portrait, vignette et campagne multicanale V1 préparés le 2026-07-30 | Validation humaine de la vignette, des textes et du calendrier avant programmation | Relire le kit dans `03_Communication/Campagnes/2026/bonly26_speakers/polto-darko/` |
 | Schnuartz | Planifié | À préciser | Dimanche 18 h–18 h 50 — workshop Specter en anglais | Manquant | Créneau actualisé le 29 juillet | Photo, biographie et intitulé définitif | Confirmer le format et la langue |
 | Noé | Planifié | WeSatoshis à confirmer | Lundi 10 h 30, workshop | Manquant | À dater | Photo, titre professionnel et sujet exact | Confirmer l'affiliation et le contenu |
 
@@ -80,6 +80,30 @@ monétaire, la réponse apportée par Bitcoin, ainsi que la manière de mettre e
 œuvre un réseau économique agricole fort, souverain et résilient, doté de moyens
 numériques d'institutionnalisation offrant un niveau de sécurité supérieur à
 celui des États.
+
+### Polto et Darko — résumé
+
+La conformité n'est pas une formalité, c'est un dossier à construire. Que ce
+soit pour justifier l'origine de ses bitcoins auprès d'une banque, acheter un
+bien immobilier, répondre à une demande de Source of Funds ou satisfaire
+d'autres exigences de conformité, la qualité des preuves et de leur
+présentation fait toute la différence. Cette conférence présente une boîte à
+outils fondée sur les logiciels libres, les nœuds Bitcoin, les sources de
+données ouvertes et les LLM, en local ou dans le cloud selon les besoins, pour
+collecter les informations pertinentes, organiser les preuves et construire des
+dossiers solides et auditables. L'objectif est de montrer comment chacun peut
+gagner en autonomie grâce à ces outils, tout en partageant les méthodes et les
+retours d'expérience issus de dossiers réels traités par Hodling pour des
+clients crypto-natifs, des entreprises et des institutions financières. Vous
+repartirez avec des techniques directement applicables, que vous choisissiez de
+réaliser ces démarches vous-même ou de les confier à un spécialiste.
+
+### Polto et Darko — texte alternatif de la vignette V1
+
+Vignette B-Only'26 sur fond ivoire et montagnes alpines, présentant les
+portraits en noir et blanc de Polto et Darko de Hodling SA. Le titre en orange
+annonce : « Justifier l'origine de ses bitcoins ». Un bandeau orange les
+identifie comme intervenants.
 
 ## Règles de mise à jour
 
