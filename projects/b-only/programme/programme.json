@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-30T23:32:34+02:00",
+    "updatedAt": "2026-07-30T23:39:17+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -103,7 +103,7 @@
       "start": "16:00",
       "end": "16:50",
       "room": "main",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
       "title": "Lire les dégâts de l’impression monétaire dans les sols.",
       "speakers": [
@@ -149,7 +149,7 @@
       "start": "17:30",
       "end": "19:00",
       "room": "workshop",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
       "title": "Face à la menace quantique, faut-il geler les bitcoins de Satoshi ?",
       "speakers": [
@@ -297,14 +297,14 @@
       "start": "15:00",
       "end": "15:50",
       "room": "main",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
       "title": "Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin",
       "speakers": [
         "Christine Jeanneaux"
       ],
       "format": "Présentation et questions",
-      "notes": "Titre, biographie courte, portrait et vignette validés ; campagne multicanale V4 préparée. Créneau définitif et contenus publics à confirmer avant publication."
+      "notes": "Titre, biographie courte, portrait, vignette et créneau validés ; campagne multicanale V4 préparée. Contenus publics à relire avant publication."
     },
     {
       "id": "sun-workshop-renaud",
