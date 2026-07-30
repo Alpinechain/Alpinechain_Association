@@ -58,7 +58,7 @@
       "start": "15:00",
       "end": "15:50",
       "room": "main",
-      "status": "confirmed",
+      "status": "reserved",
       "visibility": "internal",
       "title": "Titre à confirmer",
       "speakers": [
@@ -133,7 +133,7 @@
       "start": "16:30",
       "end": "17:20",
       "room": "workshop",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
       "title": "Justifier l'origine de ses bitcoins",
       "speakers": [
