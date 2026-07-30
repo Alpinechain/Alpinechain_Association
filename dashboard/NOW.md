@@ -34,6 +34,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ### Communication
 
 - La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
+- Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
 - ProfEduStream : titre de la présentation principale, réseaux officiels et portrait validés ; les autres étapes de son parcours restent à préciser.
 - La vignette V02 du Cercle du Coin et la séquence validée avec Hub sont prêtes pour programmation.
 - La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.

@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-29T22:20:00+02:00",
+    "updatedAt": "2026-07-30T23:26:14+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -58,7 +58,7 @@
       "start": "15:00",
       "end": "15:50",
       "room": "main",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
       "title": "Titre à confirmer",
       "speakers": [
@@ -135,13 +135,13 @@
       "room": "workshop",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Sujet à confirmer",
+      "title": "Justifier l'origine de ses bitcoins",
       "speakers": [
         "Polto",
         "Darko"
       ],
       "format": "Workshop",
-      "notes": "Identifier le responsable et le sujet."
+      "notes": "Polto et Darko, Hodling SA. La conformité n'est pas une formalité, c'est un dossier à construire. Que ce soit pour justifier l'origine de ses bitcoins auprès d'une banque, acheter un bien immobilier, répondre à une demande de Source of Funds ou satisfaire d'autres exigences de conformité, la qualité des preuves et de leur présentation fait toute la différence. Cette conférence présente une boîte à outils fondée sur les logiciels libres, les nœuds Bitcoin, les sources de données ouvertes et les LLM, en local ou dans le cloud selon les besoins, pour collecter les informations pertinentes, organiser les preuves et construire des dossiers solides et auditables. L'objectif est de montrer comment chacun peut gagner en autonomie grâce à ces outils, tout en partageant les méthodes et les retours d'expérience issus de dossiers réels traités par Hodling pour des clients crypto-natifs, des entreprises et des institutions financières. Vous repartirez avec des techniques directement applicables, que vous choisissiez de réaliser ces démarches vous-même ou de les confier à un spécialiste. Titre, résumé, portraits et affiliation validés ; vignette carrée V1 et campagne multicanale V1 préparées. Calendrier de diffusion du 31 août au 4 septembre à relire avant programmation."
     },
     {
       "id": "sat-workshop-profedu-quantum",
