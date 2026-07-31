@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-30T23:39:17+02:00",
+    "updatedAt": "2026-07-31T00:15:00+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -73,14 +73,14 @@
       "start": "14:30",
       "end": "15:20",
       "room": "workshop",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
       "title": "Q&A débutants : utiliser Bitcoin",
       "speakers": [
         "ProfEduStream"
       ],
       "format": "Questions-réponses",
-      "notes": "Première étape du parcours ProfEduStream."
+      "notes": "Entrez dans le terrier du lapin. Outils : Sparrow, mempool.space, plaque en acier et Jade. Présentation : https://canva.link/qod0x69lk6kvbky."
     },
     {
       "id": "sat-workshop-jean-private-buy",
@@ -156,7 +156,7 @@
         "ProfEduStream"
       ],
       "format": "Présentation, échanges, questions, sondage et recherche de consensus",
-      "notes": "20 min de présentation ; 40 min d’échanges, questions, sondage et recherche de consensus ; 15 min de conclusion sur les solutions déjà existantes ; 15 min de marge à répartir dans le créneau de 1 h 30."
+      "notes": "Participez au Community Improvement Proposal #4, complétant ceux de Lille, de Paris et du BEF. 20 min de présentation ; 40 min d’échanges, questions, sondage et recherche de consensus ; 15 min de conclusion sur les solutions déjà existantes ; 15 min de marge à répartir dans le créneau de 1 h 30. Présentation : https://canva.link/klp6st0l6bm3nxq."
     },
     {
       "id": "sat-main-lionel",
@@ -179,14 +179,14 @@
       "start": "09:00",
       "end": "09:50",
       "room": "workshop",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
       "title": "Envoyer et recevoir du bitcoin",
       "speakers": [
         "ProfEduStream"
       ],
       "format": "Workshop",
-      "notes": "Étape du parcours ProfEduStream ; outils exacts à confirmer."
+      "notes": "Apprenez à correctement utiliser Bitcoin. Outils : Sparrow, Jade et mempool.space. Présentation : https://canva.link/3ogwve1dmtebhvi."
     },
     {
       "id": "sun-main-pierre",
@@ -342,14 +342,14 @@
       "start": "17:00",
       "end": "17:50",
       "room": "workshop",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
-      "title": "Utiliser Bitcoin sans Internet",
+      "title": "Utiliser Bitcoin, sans Internet",
       "speakers": [
         "ProfEduStream"
       ],
       "format": "Workshop",
-      "notes": "Étape du parcours ProfEduStream."
+      "notes": "Gagnez en résilience et en souveraineté. Outils : Sparrow, Bitchat, réseaux mesh, Minibits et Cashu. Présentation : https://canva.link/39n9ckolxzog5sx."
     },
     {
       "id": "sun-main-debate",
@@ -427,19 +427,19 @@
       "notes": "Prend le créneau précédemment attribué à Alexis Roussel ; titre, présentation professionnelle et contenu à obtenir."
     },
     {
-      "id": "mon-workshop-profedu-nodes",
+      "id": "mon-workshop-profedu-ai-bitcoin",
       "date": "2026-11-09",
       "start": "09:30",
       "end": "10:20",
       "room": "workshop",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
-      "title": "Nœuds Bitcoin et Lightning",
+      "title": "Quand l'IA paie en bitcoin",
       "speakers": [
         "ProfEduStream"
       ],
       "format": "Workshop",
-      "notes": "Dernière étape du parcours ProfEduStream."
+      "notes": "Faites un pas dans le futur le temps de quatre démonstrations. Outils : Claude, LNbits, Lightning Network et L402. Lien de présentation attendu courant août ou septembre."
     },
     {
       "id": "mon-main-alexis",
