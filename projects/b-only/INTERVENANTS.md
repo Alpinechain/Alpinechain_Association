@@ -105,6 +105,23 @@ portraits en noir et blanc de Polto et Darko de Hodling SA. Le titre en orange
 annonce : « Justifier l'origine de ses bitcoins ». Un bandeau orange les
 identifie comme intervenants.
 
+## Campagnes ProfEduStream
+
+Deux lots indépendants sont préparés au statut **À relire**, sans publication
+ni programmation :
+
+- `projects/b-only/campaigns/profedustream-quantique/README-v1.md` :
+  présentation quantique, Community Improvement Proposal numéro 4 et lien
+  Canva associé ;
+- `projects/b-only/campaigns/profedustream-workshops/README-v1.md` : série de
+  workshops, outils et statut explicite du lien IA encore attendu.
+
+Les copies archivées dans Nextcloud sont placées sous
+`03_Communication/Campagnes/2026/bonly26_speakers/` avec les préfixes
+`dossier--profedustream--quantique` et
+`dossier--profedustream--workshops`. Les créneaux internes, les vignettes non
+validées et les liens de suivi par canal restent hors publication.
+
 ## Règles de mise à jour
 
 1. Une réponse reçue met à jour le statut et les éléments attendus.
