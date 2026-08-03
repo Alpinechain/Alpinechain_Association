@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-07-29  
+Date de dernière mise à jour : 2026-08-03
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -35,13 +35,13 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 - La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
 - Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
-- ProfEduStream : titre de la présentation principale, réseaux officiels et portrait validés ; les autres étapes de son parcours restent à préciser.
+- ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
 - La vignette V02 du Cercle du Coin et la séquence validée avec Hub sont prêtes pour programmation.
 - La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
 - Pour les vignettes intervenants :
   - Nicolas : titre, pitch, portrait et vignette validés ;
-  - Renaud : portrait et titre reçus, vignette à finaliser ;
-  - Christine : portrait et titre reçus, vignette à finaliser.
+  - Renaud : dossier Nextcloud V1 créé sur le modèle des autres intervenants ; sept vouchers Pretix et sept liens Shlink vérifiés ; publications et vignette restent à valider ;
+  - Christine : portrait, titre, vignette et campagne multicanale V4 validés ; prête à programmer.
 
 ## État opérationnel B-Only 2026
 
@@ -62,7 +62,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Les modèles de vignettes intervenants et organisations sont validés.
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
 - Les titres de Renaud, Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
-- Le portrait ProfEduStream est validé et normalisé ; sa vignette reste à produire.
+- Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
 - Restent notamment à obtenir : titre de Pierre Noizat, sujet de Michel Khazzaka, identité complète de Jean, informations complètes de Hub et confirmations des créneaux encore provisoires.
 
 ## Exploitation et infrastructure
