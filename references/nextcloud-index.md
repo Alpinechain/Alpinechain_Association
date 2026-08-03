@@ -212,6 +212,14 @@ Ses versions V1 à V3 sont archivées sous le même chemin relatif dans
 Lué et Nicolas Cantu, reste directement dans
 `03_Communication/Vignettes/Intervenants/` avec le suffixe `--valide`.
 
+Pour Renaud Lifchitz, `README-v4.md` désigne la version active de la campagne.
+Elle référence `contenus-multicanaux-v2.md`, `article-blog-v2.md`,
+`campaign-links-v1.csv` et `calendrier-diffusion-v2.csv`. La vignette validée
+est `vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--valide.png`.
+Les versions V1 ainsi que les `README-v2.md` et `README-v3.md` restent
+conservés comme versions antérieures ; ils ne doivent pas être utilisés pour la
+programmation.
+
 Pierre Noizat possède trois portraits actifs dans
 `01_Programme-Intervenants/Photos Intervenants/`. Aucun n'est désigné comme
 version de référence : ils restent tous en place jusqu'à sa confirmation.
