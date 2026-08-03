@@ -40,7 +40,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
 - Pour les vignettes intervenants :
   - Nicolas : titre, pitch, portrait et vignette validés ;
-  - Renaud : dossier Nextcloud V1 créé sur le modèle des autres intervenants ; sept vouchers Pretix et sept liens Shlink vérifiés ; publications et vignette restent à valider ;
+  - Renaud : créneau, vignette et campagne multicanale V2 validés le 3 août ; programme en statut confirmé et dossier prêt à programmer ; sept vouchers Pretix et sept liens Shlink vérifiés ;
   - Christine : portrait, titre, vignette et campagne multicanale V4 validés ; prête à programmer.
 
 ## État opérationnel B-Only 2026
@@ -61,7 +61,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 - Les modèles de vignettes intervenants et organisations sont validés.
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
-- Les titres de Renaud, Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
+- Le workshop de Renaud est confirmé et public dans le programme ; sa vignette et sa campagne V2 sont prêtes à programmer.
+- Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
 - Restent notamment à obtenir : titre de Pierre Noizat, sujet de Michel Khazzaka, identité complète de Jean, informations complètes de Hub et confirmations des créneaux encore provisoires.
 

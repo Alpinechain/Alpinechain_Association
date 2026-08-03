@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-07-31T00:15:00+02:00",
+    "updatedAt": "2026-08-03T12:32:44+02:00",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -312,14 +312,14 @@
       "start": "15:30",
       "end": "16:20",
       "room": "workshop",
-      "status": "reserved",
-      "visibility": "internal",
+      "status": "confirmed",
+      "visibility": "public",
       "title": "Reticulum, le réseau cypherpunk dont vous avez besoin !",
       "speakers": [
         "Renaud Lifchitz"
       ],
       "format": "Workshop technique",
-      "notes": "Titre validé ; CTO chez Sharekey. Synopsis, besoins techniques et confirmation définitive du créneau à obtenir."
+      "notes": "Intervenant, fonction, titre, créneau, vignette et campagne multicanale V2 validés le 3 août 2026. Besoins techniques suivis séparément avec la production."
     },
     {
       "id": "sun-main-sandra",

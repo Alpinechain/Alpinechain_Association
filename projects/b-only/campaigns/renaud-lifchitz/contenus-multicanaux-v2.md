@@ -1,12 +1,9 @@
-# Renaud Lifchitz — publications réseaux à valider — V1
+# Renaud Lifchitz — publications réseaux validées — V2
 
-**État : à valider par Renaud Lifchitz avant publication.**
+**État : prêt à programmer — validé par Renaud Lifchitz et Cyrille le 3 août 2026.**
 
-Bonjour Renaud,
-
-Voici la vignette et les propositions de publications préparées pour annoncer
-ton workshop à B-Only'26. Merci de nous indiquer les corrections souhaitées ou
-de confirmer que l'ensemble peut être utilisé.
+Ces textes constituent la version active validée pour annoncer le workshop de
+Renaud Lifchitz à B-Only'26. Aucune publication n'a encore été effectuée.
 
 ## Éléments communs
 
@@ -16,7 +13,7 @@ de confirmer que l'ensemble peut être utilisé.
 - Événement : B-Only'26, à Annecy, du 7 au 9 novembre 2026
 - Billetterie : https://join.alpinechain.xyz/org/bonly26/
 - Vignette jointe :
-  `vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--en-attente-validation-v1.png`
+  `vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--valide.png`
 
 L'horaire ne figure pas dans ces propositions tant que le programme reste
 provisoire.
@@ -110,13 +107,9 @@ usages possibles.
 
 #nostrfr #bitcoin #reticulum #bonly26
 
-## Validation demandée
+## Validation enregistrée
 
-Merci de confirmer ou corriger :
-
-- le nom, la fonction et le titre du workshop ;
-- la présentation générale de Reticulum ;
-- la vignette jointe ;
-- les textes proposés pour chaque réseau.
-
-Aucune publication ne sera effectuée avant validation.
+- créneau, fonction et titre du workshop validés ;
+- présentation de Reticulum et textes multicanaux validés ;
+- portrait et vignette validés ;
+- programmation manuelle autorisée, sans publication automatique.
