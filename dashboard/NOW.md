@@ -41,7 +41,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Pour les vignettes intervenants :
   - Nicolas : titre, pitch, portrait et vignette validés ;
   - Renaud : dossier Nextcloud V1 créé sur le modèle des autres intervenants ; sept vouchers Pretix et sept liens Shlink vérifiés ; publications et vignette restent à valider ;
-  - Christine : portrait et titre reçus, vignette à finaliser.
+  - Christine : portrait, titre, vignette et campagne multicanale V4 validés ; prête à programmer.
 
 ## État opérationnel B-Only 2026
 
