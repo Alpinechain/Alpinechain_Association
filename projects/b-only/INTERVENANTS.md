@@ -1,6 +1,6 @@
 # Registre des intervenants B-Only 2026
 
-Dernière mise à jour : 2026-07-30
+Dernière mise à jour : 2026-08-03
 Issue pilote : [#11 — Programme et intervenants](https://github.com/Alpinechain/Alpinechain_Association/issues/11)  
 Publication et vignettes : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
 
@@ -47,11 +47,11 @@ Les chemins Nextcloud sont relatifs à
 | Aurore Galves | Planifié | Gallion à préciser | Dimanche 14 h — « Culture Bitcoin à travers les mèmes », à confirmer | Portrait historique disponible par défaut | Relancée le 2026-07-22 | Titre professionnel, photo souhaitée et validation du sujet | Attendre la réponse |
 | Alexandre Stachtchenko | Planifié | Bitstack | Samedi 15 h, salle principale ; sujet à définir | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, photo souhaitée et thème | Attendre la réponse ; le logo Bitstack est suivi dans `ORGANISATIONS.md` |
 | Marius Farashi | Planifié | Relation éditoriale avec Cryptoast à préciser | Dimanche 11 h, workshop ; Ark et L2 évoqués | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, thème définitif et photo souhaitée | Attendre la réponse |
-| Renaud Lifchitz | Planifié | Sharekey — CTO | Dimanche 15 h 30, workshop technique — « Reticulum, le réseau cypherpunk dont vous avez besoin ! » | Portrait officiel reçu dans `01_Programme-Intervenants/Photos Intervenants/intervenant--renaud-lifchitz--portrait-officiel--2026-07-24--source.jpg` | Portrait, titre professionnel et titre du workshop reçus | Synopsis, besoins techniques et confirmation définitive du créneau | Préparer la vignette et obtenir les besoins techniques |
+| Renaud Lifchitz | Planifié | Sharekey — CTO | Dimanche 15 h 30, workshop technique — « Reticulum, le réseau cypherpunk dont vous avez besoin ! » | Portrait officiel reçu dans `01_Programme-Intervenants/Photos Intervenants/intervenant--renaud-lifchitz--portrait-officiel--2026-07-24--source.jpg` ; vignette V1 classée dans `03_Communication/Vignettes/Intervenants/`, au statut `en-attente-validation` | Dossier V1 créé le 2026-08-03 dans `03_Communication/Campagnes/2026/bonly26_speakers/renaud-lifchitz/` ; sept vouchers Pretix et sept alias Shlink actifs et vérifiés | Synopsis, besoins techniques, confirmation définitive du créneau et validation des textes et du visuel | Partager le dossier Nextcloud à Renaud pour validation, puis recueillir séparément les éléments techniques manquants |
 | Élodie Sogan | Indisponible | À préciser | Ne participera pas à l’édition 2026 | Portrait historique disponible par défaut | Désistement confirmé le 2026-07-29 en raison d’un séjour au Japon | Aucun pour cette édition | Ne pas relancer pour 2026 |
 | Nicolas Cantu | Confirmé | Fondateur de 4NK.Organic | Samedi 16 h–16 h 50, scène principale — « Lire les dégâts de l’impression monétaire dans les sols. » | Portrait source dans `01_Programme-Intervenants/Photos Intervenants/intervenant--nicolas-cantu--portrait--2026-07-27--source.png` ; vignette validée dans `03_Communication/Vignettes/Intervenants/vignette--nicolas-cantu--lire-les-degats-de-l-impression-monetaire-dans-les-sols--2026-07-27--valide.png` | Vignette, portrait, titre et pitch validés le 2026-07-27 ; créneau confirmé le 2026-07-30 | Relecture finale de la campagne avant programmation | Relire la campagne préparée avec le créneau confirmé |
 | Cédric Maire | Indisponible | À préciser | Ne participera pas à l’édition 2026 | Manquant | Désistement confirmé le 2026-07-29 ; accompagne Élodie Sogan au Japon | Aucun pour cette édition | Ne pas le compter dans le programme ni dans la modération |
-| [ProfEduStream](https://x.com/ProfEduStream) | Confirmé | ProfEduStream — [YouTube](https://www.youtube.com/@ProfEduStream) | Parcours pédagogique multi-créneaux confirmé : samedi 14 h 30, « Q&A débutants : utiliser Bitcoin » — entrer dans le terrier du lapin (Sparrow, mempool.space, plaque en acier, Jade ; [présentation](https://canva.link/qod0x69lk6kvbky)) ; samedi 17 h 30–19 h, Pleb Forum — « Face à la menace quantique, faut-il geler les bitcoins de Satoshi ? » — Community Improvement Proposal numéro 4, complétant ceux de Lille, Paris et du BEF ([présentation](https://canva.link/klp6st0l6bm3nxq)) ; dimanche 9 h, « Envoyer et recevoir du bitcoin » — apprendre à correctement utiliser Bitcoin (Sparrow, Jade, mempool.space ; [présentation](https://canva.link/3ogwve1dmtebhvi)) ; dimanche 17 h, « Utiliser Bitcoin, sans Internet » — résilience et souveraineté (Sparrow, Bitchat, réseaux mesh, Minibits, Cashu ; [présentation](https://canva.link/39n9ckolxzog5sx)) ; lundi 9 h 30, « Quand l'IA paie en bitcoin » — quatre démonstrations (Claude, LNbits, Lightning Network, L402 ; lien de présentation attendu courant août ou septembre) | Portrait validé reçu et classé le 2026-07-29 dans `01_Programme-Intervenants/Photos Intervenants/intervenant--profedustream--portrait--2026-07-29--source.jpg` | Workshops et quatre présentations confirmés le 2026-07-31 ; liste générale : [Canva](https://canva.link/zwt716n4wzkmkyw) | Titre professionnel, besoins techniques et lien de présentation du workshop IA | Préparer les vignettes et déposer les éléments reçus dans Nextcloud sans réduire le parcours à une seule session |
+| [ProfEduStream](https://x.com/ProfEduStream) | Confirmé | ProfEduStream — [YouTube](https://www.youtube.com/@ProfEduStream) | Parcours pédagogique multi-créneaux confirmé : samedi 14 h 30, « Q&A débutants : utiliser Bitcoin » — entrer dans le terrier du lapin (Sparrow, mempool.space, plaque en acier, Jade ; [présentation](https://canva.link/qod0x69lk6kvbky)) ; samedi 17 h 30–19 h, Pleb Forum — « Face à la menace quantique, faut-il geler les bitcoins de Satoshi ? » — Community Improvement Proposal numéro 4, complétant ceux de Lille, Paris et du BEF ([présentation](https://canva.link/klp6st0l6bm3nxq)) ; dimanche 9 h, « Envoyer et recevoir du bitcoin » — apprendre à correctement utiliser Bitcoin (Sparrow, Jade, mempool.space ; [présentation](https://canva.link/3ogwve1dmtebhvi)) ; dimanche 17 h, « Utiliser Bitcoin, sans Internet » — résilience et souveraineté (Sparrow, Bitchat, réseaux mesh, Minibits, Cashu ; [présentation](https://canva.link/39n9ckolxzog5sx)) ; lundi 9 h 30, « Quand l'IA paie en bitcoin » — quatre démonstrations (Claude, LNbits, Lightning Network, L402 ; lien de présentation attendu courant août ou septembre) | Portrait validé dans `01_Programme-Intervenants/Photos Intervenants/intervenant--profedustream--portrait--2026-07-29--source.jpg` ; vignettes quantique et parcours pratique validées le 2026-08-03 dans `03_Communication/Vignettes/Intervenants/` | Deux kits multicanaux V2, deux calendriers prêts à programmer et quatorze liens suivis disponibles dans `03_Communication/Campagnes/2026/bonly26_speakers/profedustream/` | Titre professionnel, besoins techniques et lien de présentation du workshop IA ; ne pas ajouter ce dernier avant validation | Programmer les deux lots validés selon les calendriers, puis archiver les URL publiques dans #24 |
 | Florent Gabriel | Planifié | À préciser | Samedi 17 h–17 h 50, scène principale — titre à confirmer | Manquant | Créneau distinct fixé le 2026-07-29 | Photo, titre professionnel et sujet définitif | Confirmer le contenu puis préparer la présentation |
 | Romain Dominati | Indisponible | À préciser | Ne participera pas à l'édition 2026 en raison d'un changement professionnel | Manquant | Indisponibilité confirmée le 2026-07-24 | Aucun pour cette édition | Libérer le créneau et étudier les contacts pertinents du groupe Café Viennois d'Ulrich |
 | Damien Theillier | Indisponible | À préciser | Ne participera pas à l'édition 2026 en raison d'obligations familiales | Manquant | Indisponibilité confirmée le 2026-07-24 | Aucun pour cette édition | Libérer le créneau ; ne pas relancer Yorick ni Guido Hülsmann sur cette piste |
@@ -107,20 +107,22 @@ identifie comme intervenants.
 
 ## Campagnes ProfEduStream
 
-Deux lots indépendants sont préparés au statut **À relire**, sans publication
-ni programmation :
+Deux lots indépendants sont au statut **Prêt à publier**, sans publication
+encore effectuée :
 
-- `projects/b-only/campaigns/profedustream-quantique/README-v1.md` :
+- `projects/b-only/campaigns/profedustream/contenus-multicanaux-quantique-v2.md` :
   présentation quantique, Community Improvement Proposal numéro 4 et lien
   Canva associé ;
-- `projects/b-only/campaigns/profedustream-workshops/README-v1.md` : série de
+- `projects/b-only/campaigns/profedustream/contenus-multicanaux-workshops-v2.md` : série de
   workshops, outils et statut explicite du lien IA encore attendu.
 
-Les copies archivées dans Nextcloud sont placées sous
-`03_Communication/Campagnes/2026/bonly26_speakers/` avec les préfixes
-`dossier--profedustream--quantique` et
-`dossier--profedustream--workshops`. Les créneaux internes, les vignettes non
-validées et les liens de suivi par canal restent hors publication.
+Les campagnes actives dans Nextcloud sont placées sous
+`03_Communication/Campagnes/2026/bonly26_speakers/profedustream/`. Ce dossier
+contient les deux contenus V2, les deux calendriers prêts à programmer, un
+index V2 et les quatorze liens suivis. Deux vignettes finales distinctes sont
+classées dans `03_Communication/Vignettes/Intervenants/` avec le suffixe
+`--valide.png`. Les fichiers V1 remplacés sont conservés dans `Archives/` ;
+les liens de suivi restent actifs et ne doivent pas être réaffectés.
 
 ## Règles de mise à jour
 
