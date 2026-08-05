@@ -223,9 +223,9 @@ programmation.
 Pour Aurore Galves, le portrait reçu le 5 août 2026 est
 `intervenant--aurore-galves--portrait--2026-08-05--source.jpg`. Le dossier
 `03_Communication/Campagnes/2026/bonly26_speakers/aurore-galves/` contient la
-campagne V1 prête pour validation. La vignette carrée V1 est conservée dans
-`03_Communication/Vignettes/Intervenants/` avec le suffixe
-`--en-attente-validation-v1` ; elle ne doit pas être présentée comme validée.
+campagne V1 validée, ses six liens de suivi et son calendrier du 14 au 18
+septembre. La vignette carrée validée est
+`vignette--aurore-galves--have-fun-staying-fun--2026-08-05--valide.png`.
 
 Pierre Noizat possède trois portraits actifs dans
 `01_Programme-Intervenants/Photos Intervenants/`. Aucun n'est désigné comme

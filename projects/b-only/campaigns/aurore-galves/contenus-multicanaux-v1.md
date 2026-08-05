@@ -1,6 +1,6 @@
-# Aurore Galves — propositions multicanales — V1
+# Aurore Galves — publications multicanales validées — V1
 
-**État : prêt pour validation par Aurore Galves et Cyrille.**
+**État : prêt à programmer — validé par Aurore Galves et Cyrille le 5 août 2026.**
 
 Aucune publication n'a été effectuée.
 
@@ -14,7 +14,7 @@ Aucune publication n'a été effectuée.
 - Événement : B-Only'26, à Annecy, du 7 au 9 novembre 2026
 - Billetterie : https://join.alpinechain.xyz/org/bonly26/
 - Vignette proposée :
-  `vignette--aurore-galves--have-fun-staying-fun--2026-08-05--en-attente-validation-v1.png`
+  `vignette--aurore-galves--have-fun-staying-fun--2026-08-05--valide.png`
 - Texte alternatif : « Vignette B-Only'26 annonçant Aurore Galves, éducatrice
   Bitcoin chez Gallion, et sa présentation Have Fun Staying Fun — Les mèmes,
   le langage de la révolution monétaire, avec son portrait sur fond ivoire et
@@ -26,7 +26,7 @@ n'est pas diffusé.
 ## X
 
 ```text
-Les mèmes, langage de la révolution monétaire ? Aurore Galves en parle à B-Only'26. 🎟️ https://join.alpinechain.xyz/org/bonly26/
+Les mèmes, langage de la révolution monétaire ? Aurore Galves en parle à B-Only'26. 🎟️ https://go.alpinechain.xyz/b26-ag-x
 ```
 
 Objectif : clic vers la billetterie. Le texte reste sous la limite interne de
@@ -45,7 +45,7 @@ Une invitation à explorer comment l'humour et les images partagées contribuent
 
 📍 Annecy, du 7 au 9 novembre 2026
 
-🎟️ https://join.alpinechain.xyz/org/bonly26/
+🎟️ https://go.alpinechain.xyz/b26-ag-li-abm
 
 #Bitcoin #BOnly2026 #Memes #CultureBitcoin
 
@@ -62,7 +62,7 @@ sein de la culture Bitcoin.
 « Have Fun Staying Fun » : une invitation à prendre ces objets au sérieux sans
 perdre leur force ludique.
 
-🎟️ https://join.alpinechain.xyz/org/bonly26/
+🎟️ https://go.alpinechain.xyz/b26-ag-li-ac
 
 #Bitcoin #BOnly2026 #CultureNumérique
 
@@ -78,7 +78,7 @@ par l'image dans la culture Bitcoin.
 
 📍 Annecy — 7 au 9 novembre 2026
 
-🎟️ https://join.alpinechain.xyz/org/bonly26/
+🎟️ https://go.alpinechain.xyz/b26-ag-fb
 
 ## Instagram
 
@@ -93,7 +93,7 @@ présentation pour regarder ce que les mèmes racontent de la culture Bitcoin.
 
 📍 Annecy · 7–9 novembre 2026
 
-🎟️ Billetterie : https://join.alpinechain.xyz/org/bonly26/
+🎟️ Billetterie : https://go.alpinechain.xyz/b26-ag-ig
 
 #Bitcoin #BOnly2026 #Memes #CultureBitcoin #Annecy
 
@@ -108,13 +108,13 @@ Fun Staying Fun — Les mèmes, le langage de la révolution monétaire ».
 Une invitation à explorer comment les images et l'humour participent à la
 culture d'une révolution monétaire.
 
-🎟️ https://join.alpinechain.xyz/org/bonly26/
+🎟️ https://go.alpinechain.xyz/b26-ag-nostr
 
 #nostrfr #bitcoin #bonly26
 
-## Validation requise
+## Validation enregistrée
 
-- faire relire l'angle et les formulations par Aurore ;
-- valider le rendu final de la vignette ;
-- remplacer le lien générique par les liens de suivi propres à chaque canal ;
-- faire valider la programmation par Cyrille.
+- titre, fonction, organisation, portrait et vignette validés ;
+- textes multicanaux validés par Aurore et Cyrille ;
+- six liens de suivi vérifiés ;
+- programmation manuelle autorisée, sans publication automatique.

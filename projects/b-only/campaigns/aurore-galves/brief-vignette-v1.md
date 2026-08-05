@@ -1,6 +1,6 @@
 # Brief vignette — Aurore Galves — V1
 
-**État : export carré produit, en attente de validation humaine.**
+**État : export carré validé par Aurore Galves et Cyrille le 5 août 2026.**
 
 ## Texte affiché
 
@@ -27,7 +27,7 @@
 - source :
   `intervenant--aurore-galves--portrait--2026-08-05--source.jpg` ;
 - export carré :
-  `vignette--aurore-galves--have-fun-staying-fun--2026-08-05--en-attente-validation-v1.png`.
+  `vignette--aurore-galves--have-fun-staying-fun--2026-08-05--valide.png`.
 
 ## Texte alternatif
 
@@ -36,12 +36,12 @@
 > révolution monétaire, avec son portrait sur fond ivoire et orange et une
 > silhouette de montagnes.
 
-## Contrôles avant validation
+## Validation enregistrée
 
-- [ ] le visage, le nom et les accents sont vérifiés ;
-- [ ] la fonction et Gallion sont vérifiés ;
-- [ ] Aurore valide la vignette et le texte alternatif ;
-- [ ] Cyrille valide la vignette ;
+- [x] le visage, le nom et les accents sont vérifiés ;
+- [x] la fonction et Gallion sont vérifiés ;
+- [x] Aurore valide la vignette et le texte alternatif ;
+- [x] Cyrille valide la vignette ;
 - [ ] les formats vertical et horizontal sont produits depuis la version
       retenue ;
-- [ ] le suffixe `--valide` n'est utilisé qu'après validation humaine.
+- [x] le suffixe `--valide` est appliqué après validation humaine.

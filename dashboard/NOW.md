@@ -42,7 +42,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
   - Nicolas : titre, pitch, portrait et vignette validés ;
   - Renaud : créneau, vignette et campagne multicanale V2 validés le 3 août ; programme en statut confirmé et dossier prêt à programmer ; sept vouchers Pretix et sept liens Shlink vérifiés ;
   - Christine : portrait, titre, vignette et campagne multicanale V4 validés ; prête à programmer.
-  - Aurore : titre, portrait, fonction d'éducatrice Bitcoin et organisation Gallion confirmés le 5 août ; dossier de campagne V1 et vignette carrée préparés, à faire valider avant programmation.
+  - Aurore : vignette et campagne multicanale V1 validées le 5 août ; six vouchers Pretix et six liens Shlink vérifiés ; fenêtre du 14 au 18 septembre prête à programmer.
 
 ## État opérationnel B-Only 2026
 

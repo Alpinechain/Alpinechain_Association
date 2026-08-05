@@ -2,9 +2,9 @@
 
 ## État
 
-**Prêt pour validation.** Le titre, le portrait, la fonction et l'organisation
-ont été confirmés le 5 août 2026. La vignette et les textes restent à faire
-valider par Aurore Galves puis Cyrille avant programmation.
+**Prêt à programmer.** Le titre, le portrait, la fonction, l'organisation, la
+vignette et les textes ont été validés par Aurore Galves et Cyrille le 5 août
+2026.
 
 Aucune publication et aucune programmation sociale n'ont été effectuées.
 
@@ -23,19 +23,26 @@ Aucune publication et aucune programmation sociale n'ont été effectuées.
   Meetup, LinkedIn AlpineChain, Facebook, Instagram et Nostr ;
 - `brief-vignette-v1.md` : textes affichés, composition, texte alternatif et
   contrôles ;
+- `campaign-links-v1.csv` : six vouchers Pretix sans remise, six liens courts
+  Shlink et leurs destinations UTM ;
+- `calendrier-diffusion-v1.csv` : fenêtre de programmation du 14 au 18
+  septembre 2026 en `Europe/Paris` ;
 - portrait source reçu le 5 août 2026, classé dans Nextcloud sous
   `01_Programme-Intervenants/Photos Intervenants/` ;
-- vignette carrée V1 classée dans Nextcloud sous
-  `03_Communication/Vignettes/Intervenants/` avec le statut
-  `en-attente-validation`.
+- vignette carrée validée classée dans Nextcloud sous
+  `03_Communication/Vignettes/Intervenants/`.
 
-## Étapes avant programmation
+## Contrôles réalisés
 
-1. faire valider la vignette et les textes par Aurore puis Cyrille ;
-2. appliquer les éventuelles corrections dans une nouvelle version ;
-3. produire les formats vertical 1080 × 1350 et horizontal 1200 × 675 depuis
-   la version graphique retenue ;
-4. créer les liens de campagne et le calendrier de diffusion ;
-5. vérifier chaque prévisualisation avant programmation manuelle.
+- six vouchers Pretix actifs avec le tag `tracking:bonly26_speakers`, sans
+  remise, 1 000 usages maximum et zéro utilisation au contrôle ;
+- six alias Shlink actifs et vérifiés en HTTP 302 vers leurs destinations UTM ;
+- publication X sous la limite interne de 140 caractères ;
+- aucune publication sociale effectuée.
 
-Ce dossier prépare la validation humaine et n'autorise aucune publication.
+## Contrôles finaux opérateur
+
+1. sélectionner le compte exact indiqué dans le calendrier ;
+2. joindre la vignette validée et renseigner son texte alternatif ;
+3. vérifier la prévisualisation et le lien court avant programmation ;
+4. archiver chaque URL publique et les métriques dans l'Issue #24.
