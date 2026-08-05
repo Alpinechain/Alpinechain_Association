@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-05T15:54:23.402Z",
+    "updatedAt": "2026-08-05T16:08:28Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -209,14 +209,27 @@
       "start": "10:00",
       "end": "10:50",
       "room": "workshop",
-      "status": "reserved",
+      "status": "cancelled",
       "visibility": "internal",
       "title": "Mettre en place une trésorerie associative en bitcoin",
       "speakers": [
         "Hub — identité à compléter"
       ],
       "format": "Workshop",
-      "notes": "Nom, titre, photo et intitulé définitif à obtenir."
+      "notes": "Workshop annulé après échange avec Hub le 5 août 2026 ; créneau libéré."
+    },
+    {
+      "id": "sun-workshop-free-1000",
+      "date": "2026-11-08",
+      "start": "10:00",
+      "end": "10:50",
+      "room": "workshop",
+      "status": "free",
+      "visibility": "internal",
+      "title": "Créneau disponible",
+      "speakers": [],
+      "format": "Workshop proposé par un volontaire",
+      "notes": "Créneau libéré par le Cercle du Coin le 5 août 2026."
     },
     {
       "id": "sun-main-elodie-mobile-money",
@@ -409,7 +422,7 @@
         "Hub — identité à compléter"
       ],
       "format": "Présentation et questions",
-      "notes": "Deuxième intervention distincte du workshop."
+      "notes": "Présentation maintenue ; nom, titre, photo et intitulé définitif à obtenir."
     },
     {
       "id": "mon-main-michel-khazzaka",
