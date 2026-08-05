@@ -220,6 +220,13 @@ Les versions V1 ainsi que les `README-v2.md` et `README-v3.md` restent
 conservés comme versions antérieures ; ils ne doivent pas être utilisés pour la
 programmation.
 
+Pour Aurore Galves, le portrait reçu le 5 août 2026 est
+`intervenant--aurore-galves--portrait--2026-08-05--source.jpg`. Le dossier
+`03_Communication/Campagnes/2026/bonly26_speakers/aurore-galves/` contient la
+campagne V1 prête pour validation. La vignette carrée V1 est conservée dans
+`03_Communication/Vignettes/Intervenants/` avec le suffixe
+`--en-attente-validation-v1` ; elle ne doit pas être présentée comme validée.
+
 Pierre Noizat possède trois portraits actifs dans
 `01_Programme-Intervenants/Photos Intervenants/`. Aucun n'est désigné comme
 version de référence : ils restent tous en place jusqu'à sa confirmation.
