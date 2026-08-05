@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-08-03
+Date de dernière mise à jour : 2026-08-05
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -10,7 +10,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ## Priorités actives
 
-1. **Diffuser les campagnes B-Only validées** : Cyrille programme les publications sur chaque réseau ; tracer ensuite les URLs et les métriques dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+1. **Poursuivre la diffusion des campagnes B-Only validées** : la campagne Le Cercle du Coin est publiée ; programmer les suivantes, puis tracer leurs URLs et métriques dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 2. **Consolider le programme provisoire** : obtenir les titres, synopsis, portraits, besoins techniques et confirmations manquants dans [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
 3. **Suivre les sponsors sans mélanger communication et comptabilité** : relance Paymium le 10 août ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
 4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : démarrage opérationnel J-21 le 12 août dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
@@ -36,7 +36,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
 - Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
 - ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
-- La vignette V02 du Cercle du Coin et la séquence validée avec Hub sont prêtes pour programmation.
+- Le Cercle du Coin a été annoncé le 5 août sur X, Nostr, LinkedIn, Instagram et Facebook ; les cinq URLs publiques sont archivées dans #24 et #73, les métriques restent à relever.
 - La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
 - Pour les vignettes intervenants :
   - Nicolas : titre, pitch, portrait et vignette validés ;
@@ -54,7 +54,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ### Sponsors
 
 - Paymium : pack partenaire de 2 500 € payé et rapproché ; relance communication le 10 août.
-- Le Cercle du Coin : soutien de 2 000 € payé ; campagne prête à programmer.
+- Le Cercle du Coin : soutien de 2 000 € payé ; campagne publiée le 5 août sur cinq réseaux, métriques à relever.
 - Bitstack : pack soutien de 2 000 € confirmé ; campagne approuvée ; facture `FA2607-0003` à contrôler le 19 août.
 
 ### Programme et visuels
@@ -77,7 +77,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 | Date | Action |
 |---|---|
-| Dès maintenant | Programmer les campagnes validées et archiver chaque URL publiée |
+| Dès maintenant | Programmer les prochaines campagnes validées, archiver chaque URL publiée et relever les métriques du Cercle du Coin |
 | 10 août | Relancer Ludovic / Paymium sur la publication commune et le giveaway |
 | 12 août | Lancer la préparation J-21 de l’atelier multisig |
 | 17 août | Relancer Cryptoast si le giveaway et la fenêtre de septembre ne sont pas confirmés |
