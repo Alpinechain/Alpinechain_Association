@@ -1,6 +1,6 @@
 # Registre des intervenants B-Only 2026
 
-Dernière mise à jour : 2026-08-03
+Dernière mise à jour : 2026-08-05
 Issue pilote : [#11 — Programme et intervenants](https://github.com/Alpinechain/Alpinechain_Association/issues/11)  
 Publication et vignettes : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
 
@@ -44,7 +44,7 @@ Les chemins Nextcloud sont relatifs à
 | Intervenant | Statut | Organisation liée | Intervention ou créneau provisoire | Portrait | Dernier contact | Éléments attendus | Prochaine action |
 |---|---|---|---|---|---|---|---|
 | Pierre Noizat | Confirmé | Paymium | Dimanche 9 h 30, salle principale ; format 20 minutes | Trois portraits disponibles dans `01_Programme-Intervenants/Photos Intervenants/` ; aucun n'est sélectionné | Confirmation du portrait encore attendue le 2026-07-30 | Titre, thème exact et sélection du portrait par Pierre | Attendre sa confirmation ; ne déplacer ni archiver aucun des trois portraits avant son choix |
-| Aurore Galves | Planifié | Gallion à préciser | Dimanche 14 h — « Culture Bitcoin à travers les mèmes », à confirmer | Portrait historique disponible par défaut | Relancée le 2026-07-22 | Titre professionnel, photo souhaitée et validation du sujet | Attendre la réponse |
+| Aurore Galves | Confirmé | Gallion à préciser | Dimanche 14 h, salle principale — « Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire » | Portrait validé reçu ; classement cible : `01_Programme-Intervenants/Photos Intervenants/intervenant--aurore-galves--portrait--2026-08-05--source.jpg` | Titre et portrait validés le 2026-08-05 | Titre professionnel et organisation exacte | Classer le portrait dans Nextcloud, puis préparer la vignette et la campagne |
 | Alexandre Stachtchenko | Planifié | Bitstack | Samedi 15 h, salle principale ; sujet à définir | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, photo souhaitée et thème | Attendre la réponse ; le logo Bitstack est suivi dans `ORGANISATIONS.md` |
 | Marius Farashi | Planifié | Relation éditoriale avec Cryptoast à préciser | Dimanche 11 h, workshop ; Ark et L2 évoqués | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, thème définitif et photo souhaitée | Attendre la réponse |
 | Renaud Lifchitz | Confirmé | Sharekey — CTO | Dimanche 15 h 30–16 h 20, workshop technique — « Reticulum, le réseau cypherpunk dont vous avez besoin ! » | Portrait officiel reçu dans `01_Programme-Intervenants/Photos Intervenants/intervenant--renaud-lifchitz--portrait-officiel--2026-07-24--source.jpg` ; vignette validée dans `03_Communication/Vignettes/Intervenants/vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--valide.png` | Créneau, vignette et campagne multicanale V2 validés le 2026-08-03 ; sept vouchers Pretix et sept alias Shlink actifs et vérifiés | Programmation et besoins techniques de production | Programmer la campagne validée, recueillir séparément la fiche technique, puis consigner les URLs et métriques dans #24 |
