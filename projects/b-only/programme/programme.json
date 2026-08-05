@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-03T12:32:44+02:00",
+    "updatedAt": "2026-08-05T15:54:23.402Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -267,14 +267,14 @@
       "start": "14:00",
       "end": "14:50",
       "room": "main",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
-      "title": "Culture Bitcoin à travers les mèmes",
+      "title": "Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire",
       "speakers": [
         "Aurore Galves"
       ],
       "format": "Présentation et questions",
-      "notes": "Titre professionnel, photo et sujet à confirmer."
+      "notes": "Titre et portrait validés le 2026-08-05. Titre professionnel et organisation exacte à préciser."
     },
     {
       "id": "sun-workshop-elodie-lightning",
