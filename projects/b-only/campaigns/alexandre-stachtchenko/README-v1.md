@@ -3,9 +3,9 @@
 ## État
 
 **Publié manuellement sur cinq canaux le 8 août 2026.** Les URL publiques sont
-archivées dans `publications-v1.csv`. Le second relais LinkedIn prévu sur Annecy
-Bitcoin Meetup n'est pas déclaré publié, car aucune URL correspondante n'a été
-transmise.
+archivées dans `publications-v1.csv`. Le second relais LinkedIn sur Annecy
+Bitcoin Meetup est prévu manuellement le 9 août 2026 à 8 h 30 ; son URL sera
+ajoutée après publication.
 
 Le replay direct a été identifié et contrôlé comme public sur le PeerTube
 AlpineChain. Les textes, le calendrier et les destinations UTM sont finalisés.
@@ -91,6 +91,6 @@ validée pour cette campagne le 8 août 2026.
 ## Suivi après diffusion
 
 1. collecter les métriques par canal dans l'Issue #24 ;
-2. ajouter séparément l'URL Annecy Bitcoin Meetup si ce second relais LinkedIn
-   est publié ultérieurement ;
+2. publier manuellement le relais Annecy Bitcoin Meetup le 9 août 2026 à
+   8 h 30, puis ajouter son URL publique ;
 3. conserver les deux aliases Blog réservés tant qu'aucun article n'est livré.

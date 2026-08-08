@@ -37,8 +37,8 @@ Les liens courts ci-dessous ont été créés et contrôlés selon
 `campaign-links-v1.csv`.
 
 Les URL publiques effectivement diffusées sont archivées dans
-`publications-v1.csv`. Le relais LinkedIn Annecy Bitcoin Meetup n'est pas
-déclaré publié faute d'URL correspondante transmise.
+`publications-v1.csv`. Le relais LinkedIn Annecy Bitcoin Meetup est prévu
+manuellement le 9 août 2026 à 8 h 30 ; son URL sera ajoutée après publication.
 
 ## X — thread court
 
