@@ -12,12 +12,14 @@ B-Only 2026, du 7 au 9 novembre 2026 au Novotel Annecy Centre.
 
 Le portefeuille opérationnel est décrit dans [`BOARD.md`](BOARD.md) et affiché dans la [vue GitHub Project B-Only 2026](https://github.com/users/Alpinechain/projects/1/views/2).
 
-Les deux registres de préparation des vignettes sont :
+Les registres de préparation et de communication sont :
 
 - [`INTERVENANTS.md`](INTERVENANTS.md) pour les personnes, leurs sujets et les
   éléments attendus ;
 - [`ORGANISATIONS.md`](ORGANISATIONS.md) pour les entreprises, partenaires,
-  médias, associations et exposants.
+  médias, associations et exposants ;
+- [`INTERVENANTS_RESEAUX.md`](INTERVENANTS_RESEAUX.md) pour les profils publics,
+  handles et règles de mention des intervenants ;
 - [`programme/`](programme/) pour la grille horaire de travail et sa page HTML
   statique, encore soumise à validation humaine avant publication.
 
