@@ -1,6 +1,6 @@
 # Alexandre Stachtchenko — campagne replay multicanale — V1
 
-**État : prêt à programmer le 10 août 2026 — validé le 8 août 2026.**
+**État : publié manuellement sur cinq canaux le 8 août 2026.**
 
 Ces textes reprennent la thèse exposée par Alexandre Stachtchenko dans sa
 conférence « Monnaie, Climat même combat ». Aucune publication n'a été
@@ -35,6 +35,10 @@ La source centralisée des profils et de leur niveau de vérification est
 
 Les liens courts ci-dessous ont été créés et contrôlés selon
 `campaign-links-v1.csv`.
+
+Les URL publiques effectivement diffusées sont archivées dans
+`publications-v1.csv`. Le relais LinkedIn Annecy Bitcoin Meetup n'est pas
+déclaré publié faute d'URL correspondante transmise.
 
 ## X — thread court
 

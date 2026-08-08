@@ -2,16 +2,19 @@
 
 ## État
 
-**Prêt à programmer — validé le 8 août 2026.** La fenêtre de diffusion est
-fixée au 10 août 2026 selon les horaires du calendrier.
+**Publié manuellement sur cinq canaux le 8 août 2026.** Les URL publiques sont
+archivées dans `publications-v1.csv`. Le second relais LinkedIn prévu sur Annecy
+Bitcoin Meetup n'est pas déclaré publié, car aucune URL correspondante n'a été
+transmise.
 
 Le replay direct a été identifié et contrôlé comme public sur le PeerTube
 AlpineChain. Les textes, le calendrier et les destinations UTM sont finalisés.
 Les quatorze redirections courtes ont été créées et vérifiées en HTTP 302 vers
 leurs destinations exactes le 8 août 2026.
 
-Aucune publication sociale automatique ni modification PeerTube n'a été
-effectuée. La programmation reste manuelle depuis les comptes concernés.
+Les cinq publications ont été effectuées manuellement depuis les comptes
+AlpineChain. Aucune publication sociale automatique ni modification PeerTube
+n'a été effectuée.
 
 - Campagne : `bonly25_replays`
 - Contenu : `alexandre_monnaie_climat`
@@ -39,7 +42,8 @@ d'AlpineChain ni comme un consensus scientifique établi.
   les signaux-prix et les politiques publiques.
 - Action attendue : regarder la conférence ; secondairement, consulter la
   billetterie B-Only'26.
-- Validation : confirmée le 8 août 2026 ; programmation sociale manuelle.
+- Validation : confirmée le 8 août 2026 ; diffusion sociale manuelle effectuée
+  sur cinq canaux le même jour.
 
 ## Livrables
 
@@ -47,8 +51,9 @@ d'AlpineChain ni comme un consensus scientifique établi.
   Annecy Bitcoin Meetup, Nostr, Facebook et Instagram ;
 - `campaign-links-v1.csv` : aliases actifs et destinations UTM vérifiées pour
   le replay et la billetterie ;
-- `calendrier-diffusion-v1.csv` : créneaux prêts à programmer le 10 août 2026 en
-  `Europe/Paris` ;
+- `calendrier-diffusion-v1.csv` : calendrier initial enrichi des statuts réels
+  et des URL publiques en `Europe/Paris` ;
+- `publications-v1.csv` : URL publiques effectivement transmises et contrôlées ;
 - `vignette--alexandre-stachtchenko--monnaie-climat--2026-08-08--valide.png` :
   vignette validée.
 
@@ -79,14 +84,13 @@ validée pour cette campagne le 8 août 2026.
 - sources UTM distinguées par canal ;
 - quatorze aliases Shlink créés, puis contrôlés en HTTP 302 vers leurs
   destinations UTM exactes le 8 août 2026 ;
+- cinq URL de publication contrôlées en HTTP 200 et archivées le 8 août 2026 ;
 - dix services publics AlpineChain contrôlés en HTTP 200 après création ;
 - aucune donnée personnelle ni aucun secret ajouté.
 
-## Consignes de programmation
+## Suivi après diffusion
 
-1. respecter les comptes et horaires de `calendrier-diffusion-v1.csv` ;
-2. sélectionner les mentions exactes décrites dans
-   `contenus-multicanaux-v1.md` ;
-3. joindre la vignette validée avec le texte alternatif fourni ;
-4. archiver chaque URL publique et les métriques dans l'Issue #24 après
-   diffusion.
+1. collecter les métriques par canal dans l'Issue #24 ;
+2. ajouter séparément l'URL Annecy Bitcoin Meetup si ce second relais LinkedIn
+   est publié ultérieurement ;
+3. conserver les deux aliases Blog réservés tant qu'aucun article n'est livré.
