@@ -64,7 +64,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Le workshop de Renaud est confirmé et public dans le programme ; sa vignette et sa campagne V2 sont prêtes à programmer.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
-- Restent notamment à obtenir : titre de Pierre Noizat, sujet de Michel Khazzaka, identité complète de Jean, informations complètes de Hub et confirmations des créneaux encore provisoires.
+- Restent notamment à obtenir : titre de Pierre Noizat, sujet de Michel Khazzaka, identité complète de Jean et confirmations des créneaux encore provisoires.
 
 ## Exploitation et infrastructure
 
