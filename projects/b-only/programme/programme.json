@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-08T09:49:56Z",
+    "updatedAt": "2026-08-08T10:32:10Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -412,8 +412,8 @@
     {
       "id": "mon-main-cercle",
       "date": "2026-11-09",
-      "start": "09:00",
-      "end": "09:20",
+      "start": "09:30",
+      "end": "10:00",
       "room": "main",
       "status": "confirmed",
       "visibility": "public",
@@ -421,7 +421,7 @@
       "speakers": [
         "Le Cercle du Coin"
       ],
-      "format": "Présentation — environ 20 minutes",
+      "format": "Présentation d’environ 20 minutes, puis échanges",
       "notes": "Présentation du Cercle du Coin : qui nous sommes, nos missions — les Repas du Coin partout en France, le réseau d’enthousiastes francophones, la défense des intérêts de la communauté et la vulgarisation — ainsi qu’un aperçu de ce que nous préparons. Visuel : logo du Cercle du Coin."
     },
     {
