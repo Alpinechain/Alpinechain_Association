@@ -70,3 +70,10 @@ https://alpinechain.github.io/Alpinechain_Association/
 Le rattachement ultérieur à `programme.b-only.org` ou l'ajout d'un lien dans le
 site Framer restent des actions séparées. La page demeure identifiée comme
 provisoire tant que `publication.state` vaut `draft`.
+
+## Mesure d'audience
+
+`matomo.js` mesure uniquement cette page GitHub Pages publique avec le Site ID
+Matomo `7`. Le traceur désactive les cookies, respecte `Do Not Track` et envoie
+une URL canonique sans paramètres de requête ni fragment. Aucune interface
+privée ou donnée de billetterie n'est présente dans ce déploiement.
