@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-08-05
+Date de dernière mise à jour : 2026-08-10
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -10,12 +10,12 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ## Priorités actives
 
-1. **Poursuivre la diffusion des campagnes B-Only validées** : la campagne Le Cercle du Coin est publiée ; programmer les suivantes, puis tracer leurs URLs et métriques dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+1. **Traiter les échéances de communication B-Only** : relancer Paymium le 10 août, confirmer ou replanifier sa séquence proposée du 12 au 14 août, puis tracer chaque publication et métrique dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) et [#72](https://github.com/Alpinechain/Alpinechain_Association/issues/72).
 2. **Consolider le programme provisoire** : obtenir les titres, synopsis, portraits, besoins techniques et confirmations manquants dans [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
 3. **Suivre les sponsors sans mélanger communication et comptabilité** : relance Paymium le 10 août ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
 4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : démarrage opérationnel J-21 le 12 août dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
-5. **Finaliser la gouvernance des accès** : Nextcloud [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10), Meta [#8](https://github.com/Alpinechain/Alpinechain_Association/issues/8), Framer/OVH [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
-6. **Tenir la revue d’exploitation W31** : contrôles et décisions dans [#75](https://github.com/Alpinechain/Alpinechain_Association/issues/75).
+5. **Finaliser la gouvernance des accès Framer/OVH** : attribuer un responsable, confirmer la fenêtre de transfert de `b-only.org` et dater la prochaine revue des accès dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45). Les actions Nextcloud #10 et Meta #8 sont clôturées.
+6. **Faire valider la revue d’exploitation W33** : preuves, écarts et décisions dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105) ; les mises à jour de sécurité système restent à planifier dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96).
 
 ## Décisions du 29 juillet 2026
 
@@ -37,6 +37,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
 - ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
 - Le Cercle du Coin a été annoncé le 5 août sur X, Nostr, LinkedIn, Instagram et Facebook ; les cinq URLs publiques sont archivées dans #24 et #73, les métriques restent à relever.
+- Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
 - La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
 - Pour les vignettes intervenants :
   - Nicolas : titre, pitch, portrait et vignette validés ;
@@ -69,16 +70,18 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ## Exploitation et infrastructure
 
 - La mise à niveau AlmaLinux 9.8 est terminée ; [Serveur #56](https://github.com/Alpinechain/Serveur/issues/56) est clôturée.
-- Dernier état d’exploitation validé (W30) : services publics sains, 21 conteneurs démarrés, aucune unité systemd en échec, sauvegarde Restic et restauration Pretix contrôlées.
-- La revue W31 reste à effectuer dans #75 ; ne pas présenter l’état W30 comme un contrôle temps réel.
-- Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) reste le cockpit des Issues ouvertes.
+- État contrôlé le 10 août : les dix services publics répondent en HTTP 200, les 23 conteneurs attendus sont démarrés, aucun healthcheck n’est dégradé et aucune unité systemd n’est en échec.
+- Disques : `/` à 15 % et `/opt/podman` à 38 % ; les timers de sauvegarde, vérification Restic, rapport d’exploitation, relève des courriels et contrôle mensuel sont actifs.
+- Dernière sauvegarde réussie : 10 août à 02:43:42 UTC, snapshot `d58565e6`. Dernier contrôle Restic réussi : 9 août à 05:56:39 UTC, 5 % des données contrôlées sans erreur. Dernier test de restauration isolée Pretix prouvé : 27 juillet, 150 tables vérifiées.
+- Des mises à jour de sécurité AlmaLinux sont disponibles, notamment pour le noyau, `libarchive`, `libgcrypt`, `p11-kit` et `sg3_utils`. Elles doivent être évaluées et appliquées dans une fenêtre sauvegardée et réversible suivie par [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96). Pretix, `pretix_db` et `pretix_redis` restent explicitement gelés.
+- Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) ne contient aucun P0/P1 ouvert au contrôle W33. Six Issues sont en `En attente`, aucune en `À valider` ; les actions prioritaires restent suivies dans leurs Issues.
 
 ## Prochaines échéances
 
 | Date | Action |
 |---|---|
-| Dès maintenant | Programmer les prochaines campagnes validées, archiver chaque URL publiée et relever les métriques du Cercle du Coin |
-| 10 août | Relancer Ludovic / Paymium sur la publication commune et le giveaway |
+| Dès maintenant | Relancer Ludovic / Paymium, confirmer ou replanifier la séquence du 12 au 14 août, vérifier le relais LinkedIn ABM d’Alexandre et archiver toute URL publique |
+| À planifier | Valider une nouvelle fenêtre de maintenance pour les correctifs de sécurité AlmaLinux dans Serveur #96, avec sauvegarde récente et rollback |
 | 12 août | Lancer la préparation J-21 de l’atelier multisig |
 | 17 août | Relancer Cryptoast si le giveaway et la fenêtre de septembre ne sont pas confirmés |
 | 19 août | Contrôler le règlement Bitstack |
