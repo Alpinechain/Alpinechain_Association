@@ -1,6 +1,10 @@
 name: Deploy B-Only Programme
 
 on:
+  pull_request:
+    paths:
+      - ".github/workflows/deploy-b-only-programme.yml"
+      - "projects/b-only/programme/**"
   push:
     branches:
       - main
@@ -11,8 +15,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: github-pages
@@ -34,16 +36,22 @@ jobs:
         run: node projects/b-only/programme/validate.mjs
 
       - name: Configure GitHub Pages
+        if: github.event_name == 'push'
         uses: actions/configure-pages@v6
 
       - name: Upload programme
+        if: github.event_name == 'push'
         uses: actions/upload-pages-artifact@v5
         with:
           path: projects/b-only/programme
 
   deploy:
+    if: github.event_name == 'push'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

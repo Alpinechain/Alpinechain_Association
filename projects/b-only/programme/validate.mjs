@@ -1,7 +1,14 @@
 import { readFile } from "node:fs/promises";
 
 const programmeUrl = new URL("./programme.json", import.meta.url);
-const data = JSON.parse(await readFile(programmeUrl, "utf8"));
+const indexUrl = new URL("./index.html", import.meta.url);
+const matomoUrl = new URL("./matomo.js", import.meta.url);
+const [programmeSource, indexSource, matomoSource] = await Promise.all([
+  readFile(programmeUrl, "utf8"),
+  readFile(indexUrl, "utf8"),
+  readFile(matomoUrl, "utf8")
+]);
+const data = JSON.parse(programmeSource);
 
 const statuses = new Set(["free", "option", "reserved", "confirmed", "fixed", "cancelled"]);
 const visibilities = new Set(["internal", "public"]);
@@ -9,6 +16,20 @@ const rooms = new Set(data.rooms.map((room) => room.id));
 const days = new Set(data.days.map((day) => day.date));
 const ids = new Set();
 const errors = [];
+
+if (!indexSource.includes('<script src="matomo.js"></script>')) {
+  errors.push("Le traceur Matomo public n'est pas chargé par index.html");
+}
+for (const expected of [
+  'window.location.origin + window.location.pathname',
+  '["disableCookies"]',
+  '["setDoNotTrack", true]',
+  '["setSiteId", "7"]'
+]) {
+  if (!matomoSource.includes(expected)) {
+    errors.push(`Garde-fou Matomo manquant : ${expected}`);
+  }
+}
 
 if (!["draft", "published"].includes(data.publication.state)) {
   errors.push(`État de publication inconnu : ${data.publication.state}`);
