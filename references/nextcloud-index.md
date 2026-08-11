@@ -1,6 +1,7 @@
 # Index Nextcloud AlpineChain
 
 Dernière vérification documentaire complète : 2026-07-30
+Dernière mise à jour ciblée B-Only : 2026-08-11 — campagne Bitstack V2
 Dernière mise à jour de sécurité : 2026-07-18  
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
 Audit ciblé B-Only 2026 : 2026-07-30 — 107 dossiers et 395 fichiers
@@ -219,6 +220,14 @@ est `vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--valide.
 Les versions V1 ainsi que les `README-v2.md` et `README-v3.md` restent
 conservés comme versions antérieures ; ils ne doivent pas être utilisés pour la
 programmation.
+
+La campagne partenaire Bitstack conserve `campaign-links-v1.csv` et
+`contenus-multicanaux-v2.md` comme livrables actifs sous
+`03_Communication/Campagnes/2026/bonly26_sponsors/bitstack/`. La version
+`contenus-multicanaux-v1.md` est archivée sous le même chemin relatif dans
+`Archives/Versions-anterieures/`. La V2 reste soumise à validation humaine
+avant programmation ; aucune publication sociale n'a été effectuée lors du
+classement du 11 août 2026.
 
 Pour Aurore Galves, le portrait reçu le 5 août 2026 est
 `intervenant--aurore-galves--portrait--2026-08-05--source.jpg`. Le dossier
