@@ -2,7 +2,7 @@
 
 Instructions pour les agents IA travaillant sur le dépôt AlpineChain Association.
 
-Version : V0.3  
+Version : V0.4  
 Dernière mise à jour : 2026-08-11
 
 ## 1. Rôle du dépôt
@@ -125,7 +125,9 @@ Le vocabulaire des labels est défini dans `references/github-labels.md`.
 │   ├── NOW.md
 │   └── .daily-review-state.json
 ├── skills/
-│   └── alpinechain-daily-review/
+│   ├── alpinechain-daily-review/
+│   │   └── SKILL.md
+│   └── b-only-source-of-truth/
 │       └── SKILL.md
 ├── projects/
 │   ├── association/
@@ -150,13 +152,30 @@ Rôles :
 - `notes/` : suivi périodique ;
 - `assets/` : index de ressources stockées ailleurs.
 
-## 9. Validation humaine
+## 9. Skills locales
+
+Lorsqu’une demande correspond à une Skill existante, l’agent doit lire son `SKILL.md` avant d’exécuter la tâche.
+
+Commandes canoniques :
+
+- `Fais le point AlpineChain.` → `skills/alpinechain-daily-review/SKILL.md`
+- `Contrôle B-Only.` → `skills/b-only-source-of-truth/SKILL.md`
+
+Les commandes canoniques sont des raccourcis mémorisables. Elles ne sont pas obligatoires : une formulation en langage naturel déclenche la Skill dès lors que l’intention correspond clairement à son périmètre.
+
+Exemples :
+
+- `Qu’est-ce que j’ai à faire aujourd’hui pour AlpineChain ?` → revue quotidienne AlpineChain ;
+- `Vérifie si le programme B-Only est cohérent.` → contrôle source de vérité B-Only ;
+- `Est-ce que Bitstack est réellement payé ?` → contrôle ciblé B-Only sur le statut financier de Bitstack.
+
+## 10. Validation humaine
 
 Validateur opérationnel actuel : Cyrille.
 
 Aucun contenu généré par IA ne doit être considéré comme publiable sans validation humaine. Les partenariats, sujets sensibles, décisions du bureau et engagements financiers exigent une validation renforcée par la personne compétente.
 
-## 10. Definition of Done minimale
+## 11. Definition of Done minimale
 
 Une tâche est terminée quand :
 
@@ -169,18 +188,3 @@ Une tâche est terminée quand :
 [ ] la prochaine action est identifiable ;
 [ ] aucune publication automatique n’a été faite.
 ```
-
-## 11. Skills locales
-
-Les procédures IA réutilisables sont stockées dans `skills/`.
-
-Lorsqu’une demande correspond clairement à une Skill existante, l’agent doit lire son `SKILL.md` avant d’exécuter la tâche et respecter son périmètre, ses sources, ses règles de validation et son format de sortie.
-
-Commande canonique actuellement définie :
-
-```text
-Fais le point AlpineChain.
-→ skills/alpinechain-daily-review/SKILL.md
-```
-
-Le fichier `dashboard/.daily-review-state.json` est un curseur technique de revue. Il ne remplace ni `dashboard/NOW.md`, ni les Issues, ni les sources métier.
