@@ -1,6 +1,6 @@
 # Registre des organisations B-Only 2026
 
-Dernière mise à jour : 2026-07-30
+Dernière mise à jour : 2026-08-11
 
 Issue sponsors : [#3 — Pipeline sponsors](https://github.com/Alpinechain/Alpinechain_Association/issues/3)  
 Issue communication : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
@@ -20,7 +20,7 @@ Les chemins Nextcloud sont relatifs à
 | Organisation | Catégorie | Statut | Présence ou contribution | Logo | Personne liée | Dernier contact | Prochaine action |
 |---|---|---|---|---|---|---|---|
 | Paymium | Partenaire conférence | Confirmé, facturé et payé | Intervention « Energie, monnaie et civilisation » de 20 minutes, visibilité partenaire, deux pass et places concours ; aucun stand | `01_Programme-Intervenants/Logos Participants/organisation--paymium--logo--2026-07-19--source.svg` | Pierre Noizat | Titre et synopsis confirmés le 2026-08-11 | Obtenir le choix du portrait de Pierre avant communication dédiée |
-| Cercle du Coin | Partenaire soutien | Confirmé ; vérifications documentaires et financières restantes suivies dans #3 | Présentation « Une communauté autour de Bitcoin & Souveraineté » le lundi de 9 h 30 à 10 h ; aucun workshop | `01_Programme-Intervenants/Logos Participants/organisation--cercle-du-coin--logo--2026-07-22--source.jpg` ; logo choisi comme visuel de la présentation | Hub | Titre, synopsis, visuel, durée et créneau confirmés le 2026-08-08 | Consigner les éventuels besoins techniques dans #11 |
+| Cercle du Coin | Partenaire soutien | **Confirmé, facturé et payé** ; facture `FA2605-0001` rapprochée dans Paheko et archivée | Présentation « Une communauté autour de Bitcoin & Souveraineté » le lundi de 9 h 30 à 10 h ; aucun workshop | `01_Programme-Intervenants/Logos Participants/organisation--cercle-du-coin--logo--2026-07-22--source.jpg` ; logo choisi comme visuel de la présentation | Hub | Titre, synopsis, visuel, durée et créneau confirmés le 2026-08-08 ; campagne publiée sur cinq réseaux | Relever et archiver les métriques de campagne ; consigner les éventuels besoins techniques dans #11 |
 | Bitstack | Partenaire soutien | Confirmé par courrier signé ; facture `FA2607-0003` en attente de règlement | Visibilité, stand, un pass et trois places pour giveaway | Logo validé ; vignette organisation disponible | Alexandre Stachtchenko | Confirmation signée reçue le 2026-07-23 ; campagne approuvée le 2026-07-29 | Suivre le règlement au 19 août et planifier les contreparties |
 | Cryptoast | Soutien média | Accord partiel à consolider | Un article envisagé début septembre et proposition de giveaway de deux ou trois pass | Plusieurs variantes disponibles dans `01_Programme-Intervenants/Logos Participants/` | Marius Farashi | Proposition précisée le 2026-07-22 | Confirmer l'article, sa date et le giveaway |
 | Bitcoin.fr | Soutien média | Mentionné comme soutien | Relais éditorial à préciser | `01_Programme-Intervenants/Logos Participants/organisation--bitcoin-fr--logo-blanc--2023-10-13--source.svg` | À identifier | À dater | Identifier l'interlocuteur et la contrepartie attendue |
