@@ -2,8 +2,8 @@
 
 Instructions pour les agents IA travaillant sur le dépôt AlpineChain Association.
 
-Version : V0.2  
-Dernière mise à jour : 2026-07-11
+Version : V0.3  
+Dernière mise à jour : 2026-08-11
 
 ## 1. Rôle du dépôt
 
@@ -122,7 +122,11 @@ Le vocabulaire des labels est défini dans `references/github-labels.md`.
 ├── ALPINECHAIN_ASSOCIATION_OS.md
 ├── README.md
 ├── dashboard/
-│   └── NOW.md
+│   ├── NOW.md
+│   └── .daily-review-state.json
+├── skills/
+│   └── alpinechain-daily-review/
+│       └── SKILL.md
 ├── projects/
 │   ├── association/
 │   ├── meetup-bitcoin/
@@ -138,6 +142,7 @@ Le vocabulaire des labels est défini dans `references/github-labels.md`.
 Rôles :
 
 - `dashboard/` : vue synthétique du présent ;
+- `skills/` : procédures IA réutilisables et versionnées ;
 - `projects/` : cadrage stable de chaque activité ;
 - `references/` : outils, labels, liens et conventions ;
 - `docs/` : documentation principale ;
@@ -164,3 +169,18 @@ Une tâche est terminée quand :
 [ ] la prochaine action est identifiable ;
 [ ] aucune publication automatique n’a été faite.
 ```
+
+## 11. Skills locales
+
+Les procédures IA réutilisables sont stockées dans `skills/`.
+
+Lorsqu’une demande correspond clairement à une Skill existante, l’agent doit lire son `SKILL.md` avant d’exécuter la tâche et respecter son périmètre, ses sources, ses règles de validation et son format de sortie.
+
+Commande canonique actuellement définie :
+
+```text
+Fais le point AlpineChain.
+→ skills/alpinechain-daily-review/SKILL.md
+```
+
+Le fichier `dashboard/.daily-review-state.json` est un curseur technique de revue. Il ne remplace ni `dashboard/NOW.md`, ni les Issues, ni les sources métier.
