@@ -1,6 +1,6 @@
 # Campagne partenaire — Bitstack — V2
 
-Statut : version réécrite à valider humainement
+Statut : publiée manuellement sur sept canaux le 11 août 2026
 Fuseau : Europe/Paris
 Objectif : annoncer et remercier Bitstack, montrer la complémentarité entre simplicité d’usage et éducation à Bitcoin, puis convertir vers la billetterie.
 CTA commun : « Réservez votre place pour B‑Only 2026 »

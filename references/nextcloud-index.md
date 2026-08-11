@@ -225,9 +225,9 @@ La campagne partenaire Bitstack conserve `campaign-links-v1.csv` et
 `contenus-multicanaux-v2.md` comme livrables actifs sous
 `03_Communication/Campagnes/2026/bonly26_sponsors/bitstack/`. La version
 `contenus-multicanaux-v1.md` est archivée sous le même chemin relatif dans
-`Archives/Versions-anterieures/`. La V2 reste soumise à validation humaine
-avant programmation ; aucune publication sociale n'a été effectuée lors du
-classement du 11 août 2026.
+`Archives/Versions-anterieures/`. La V2 a été publiée manuellement sur sept
+canaux le 11 août 2026 ; ses URL publiques sont suivies dans GitHub et non
+dupliquées dans l'index Nextcloud.
 
 Pierre Noizat possède trois portraits actifs dans
 `01_Programme-Intervenants/Photos Intervenants/`. Aucun n'est désigné comme
