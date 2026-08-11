@@ -1,7 +1,7 @@
 {
-  "last_review": "2026-08-11T18:28:00+02:00",
-  "last_commit": "29802de04862fc50143ca25d11771aace65f8246",
-  "open_issues_seen": [],
+  "last_review": "2026-08-11T18:44:00+02:00",
+  "last_commit": "ed57218932cab5e9cb2c1895ee2448da084d5ad5",
+  "open_issues_seen": [2, 3, 4, 6, 7, 11, 12, 24, 25, 26, 27, 45, 53, 61, 72, 73, 74, 105],
   "open_prs_seen": [],
-  "note": "État technique initial de la Skill alpinechain-daily-review. Les listes d'Issues et PR seront alimentées lors de la première revue complète."
+  "note": "Première revue quotidienne complète effectuée. État consolidé après synchronisation Pierre Noizat, Paymium, publications Le Cercle du Coin et billetterie B-Only."
 }
