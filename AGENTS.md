@@ -2,7 +2,7 @@
 
 Instructions pour les agents IA travaillant sur le dépôt AlpineChain Association.
 
-Version : V0.4  
+Version : V0.5  
 Dernière mise à jour : 2026-08-11
 
 ## 1. Rôle du dépôt
@@ -127,8 +127,15 @@ Le vocabulaire des labels est défini dans `references/github-labels.md`.
 ├── skills/
 │   ├── alpinechain-daily-review/
 │   │   └── SKILL.md
-│   └── b-only-source-of-truth/
-│       └── SKILL.md
+│   ├── b-only-source-of-truth/
+│   │   └── SKILL.md
+│   └── publication-multicanale/
+│       ├── SKILL.md
+│       └── profiles/
+│           ├── alpinechain.md
+│           ├── b-only.md
+│           ├── meetup-bitcoin.md
+│           └── souverainete-3-0.md
 ├── projects/
 │   ├── association/
 │   ├── meetup-bitcoin/
@@ -160,6 +167,7 @@ Commandes canoniques :
 
 - `Fais le point AlpineChain.` → `skills/alpinechain-daily-review/SKILL.md`
 - `Contrôle B-Only.` → `skills/b-only-source-of-truth/SKILL.md`
+- `Prépare la publication multicanale.` → `skills/publication-multicanale/SKILL.md`
 
 Les commandes canoniques sont des raccourcis mémorisables. Elles ne sont pas obligatoires : une formulation en langage naturel déclenche la Skill dès lors que l’intention correspond clairement à son périmètre.
 
@@ -167,7 +175,12 @@ Exemples :
 
 - `Qu’est-ce que j’ai à faire aujourd’hui pour AlpineChain ?` → revue quotidienne AlpineChain ;
 - `Vérifie si le programme B-Only est cohérent.` → contrôle source de vérité B-Only ;
-- `Est-ce que Bitstack est réellement payé ?` → contrôle ciblé B-Only sur le statut financier de Bitstack.
+- `Est-ce que Bitstack est réellement payé ?` → contrôle ciblé B-Only sur le statut financier de Bitstack ;
+- `Prépare les communications pour cette annonce B-Only.` → publication multicanale avec le profil B-Only ;
+- `Fais les posts pour le prochain Meetup.` → publication multicanale avec le profil Meetup Bitcoin Annecy ;
+- `Prépare une campagne pour Souveraineté 3.0.` → publication multicanale avec le profil Souveraineté 3.0.
+
+La Skill `publication-multicanale` est strictement associative. Elle route les demandes vers un profil local correspondant à la branche concernée : AlpineChain institutionnel, B-Only, Meetup Bitcoin Annecy ou Souveraineté 3.0. Elle ne doit jamais importer de données, comptes, CTA, ton ou contexte issus d’activités professionnelles ou personnelles.
 
 ## 10. Validation humaine
 
