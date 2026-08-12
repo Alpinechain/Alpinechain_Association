@@ -1,6 +1,6 @@
 # Registre des intervenants B-Only 2026
 
-Dernière mise à jour : 2026-08-11
+Dernière mise à jour : 2026-08-12
 Issue pilote : [#11 — Programme et intervenants](https://github.com/Alpinechain/Alpinechain_Association/issues/11)  
 Publication et vignettes : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
 
@@ -43,7 +43,7 @@ Les chemins Nextcloud sont relatifs à
 
 | Intervenant | Statut | Organisation liée | Intervention ou créneau provisoire | Portrait | Dernier contact | Éléments attendus | Prochaine action |
 |---|---|---|---|---|---|---|---|
-| Pierre Noizat | Confirmé | Paymium | Dimanche 9 h 30, salle principale — « Energie, monnaie et civilisation » ; format 20 minutes | Trois portraits disponibles dans `01_Programme-Intervenants/Photos Intervenants/` ; aucun n'est sélectionné | Titre et synopsis confirmés le 2026-08-11 ; portrait encore à sélectionner | Sélection du portrait par Pierre | Attendre son choix ; ne déplacer ni archiver aucun des trois portraits avant sa confirmation |
+| Pierre Noizat | Confirmé | Paymium | Dimanche 9 h 30, salle principale — « Energie, monnaie et civilisation » ; format 20 minutes | Portrait choisi par Pierre le 2026-08-12 ; source à normaliser dans `01_Programme-Intervenants/Photos Intervenants/intervenant--pierre-noizat--portrait--2026-08-12--source.jpg` ; vignette définitive validée sous le nom cible `03_Communication/Vignettes/Intervenants/vignette--pierre-noizat--energie-monnaie-et-civilisation--2026-08-12--valide.png` | Titre et synopsis confirmés le 2026-08-11 ; portrait sélectionné et vignette validée par Pierre le 2026-08-12 | Classement documentaire uniquement | Classer la source et l’export final dans Nextcloud, puis préparer la publication |
 | Aurore Galves | Confirmé | Gallion à préciser | Dimanche 14 h, salle principale — « Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire » | Portrait validé reçu ; classement cible : `01_Programme-Intervenants/Photos Intervenants/intervenant--aurore-galves--portrait--2026-08-05--source.jpg` | Titre et portrait validés le 2026-08-05 | Titre professionnel et organisation exacte | Classer le portrait dans Nextcloud, puis préparer la vignette et la campagne |
 | Alexandre Stachtchenko | Planifié | Bitstack | Samedi 15 h, salle principale ; sujet à définir | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, photo souhaitée et thème | Attendre la réponse ; le logo Bitstack est suivi dans `ORGANISATIONS.md` |
 | Marius Farashi | Planifié | Relation éditoriale avec Cryptoast à préciser | Dimanche 11 h, workshop ; Ark et L2 évoqués | Portrait historique disponible par défaut | Relancé le 2026-07-22 | Titre professionnel, thème définitif et photo souhaitée | Attendre la réponse |

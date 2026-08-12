@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-08-11
+Date de dernière mise à jour : 2026-08-12
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -17,11 +17,11 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 5. **Finaliser la gouvernance des accès** : Nextcloud [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10), Meta [#8](https://github.com/Alpinechain/Alpinechain_Association/issues/8), Framer/OVH [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
 6. **Tenir la revue d’exploitation W33** : contrôles et décisions dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105).
 
-## Décisions et mises à jour du 11 août 2026
+## Décisions et mises à jour du 12 août 2026
 
 ### Programme B-Only
 
-- Pierre Noizat : titre et synopsis confirmés ; créneau passé en `confirmed/public` sous le titre « Energie, monnaie et civilisation » ; seul le choix du portrait reste en attente.
+- Pierre Noizat : titre, synopsis et créneau `confirmed/public` confirmés ; portrait choisi et vignette définitive validée par Pierre le 12 août ; la communication peut être préparée.
 - Jean est intégré samedi 7 novembre de 15 h 30 à 16 h 20 au Pleb Forum avec le workshop « Acheter du bitcoin de manière privée : méthodes, précautions et mise en pratique ».
 - Michel Khazzaka prend le créneau de lundi 9 novembre de 10 h à 10 h 50 en salle principale.
 - Alexandre Stachtchenko et Alexis Roussel échangent leurs créneaux : Alexandre est programmé samedi 7 novembre de 15 h à 15 h 50 ; Alexis lundi 9 novembre de 11 h à 11 h 50.
@@ -56,7 +56,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 - Les modèles de vignettes intervenants et organisations sont validés.
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
-- Pierre Noizat : titre et synopsis confirmés ; seul le portrait autorisé reste à sélectionner.
+- Pierre Noizat : portrait choisi et vignette définitive validée par Pierre ; prêt pour la préparation de la publication. Classer la source et l’export final dans Nextcloud.
 - Le workshop de Renaud est confirmé et public dans le programme ; sa vignette et sa campagne V2 sont prêtes à programmer.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
