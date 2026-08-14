@@ -37,6 +37,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
 - ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
+- Aurore : vignette et campagne multicanale V1 validées le 5 août ; six vouchers Pretix et six liens Shlink vérifiés ; fenêtre du 14 au 18 septembre prête à programmer.
 
 ## État opérationnel B-Only 2026
 
