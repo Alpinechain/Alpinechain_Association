@@ -2,10 +2,11 @@
 
 ## État
 
-**Diffusion lancée le 14 août 2026 ; version publiée à confirmer.** Cyrille a
-confirmé le lancement de la séquence après l’accord de Ludovic sur les
-publications et le visuel. Les permaliens publics restent à archiver : aucun
-canal ni aucune version ne sont encore qualifiés comme `PUBLIÉS` dans ce suivi.
+**Campagne V2 publiée sur sept canaux.** Les publications Blog, Nostr, X et
+LinkedIn AlpineChain du 13 août 2026, puis LinkedIn Annecy Bitcoin Meetup,
+Facebook et Instagram du 14 août, sont vérifiées et archivées dans
+`publications-v1.csv`. Leur texte correspond aux variantes V2 conservées dans
+ce dossier.
 
 - Campagne : `bonly26_sponsors`
 - Organisation : Paymium
@@ -19,18 +20,18 @@ canal ni aucune version ne sont encore qualifiés comme `PUBLIÉS` dans ce suivi
 
 - `contenus-multicanaux-v2.md` : proposition reformulée pour X, Nostr, LinkedIn
   AlpineChain, LinkedIn Annecy Bitcoin Meetup, Facebook, Instagram et Blog ;
-- `campaign-links-v1.csv` : liens courts et destinations UTM du lot source.
+- `campaign-links-v1.csv` : liens courts et destinations UTM du lot source ;
+- `publications-v1.csv` : preuves publiques vérifiées par canal.
 
 Le visuel validé reste dans Nextcloud. Aucun visuel n'est dupliqué dans ce
 dossier.
 
 ## Actions restantes
 
-1. archiver chaque permalien public dans #24 et #72 ;
-2. confirmer séparément les canaux réellement publiés ;
-3. relever les métriques sur une fenêtre commune ;
-4. ne pas mentionner le giveaway tant que ses modalités ne sont pas validées.
+1. relever les métriques sur une fenêtre commune ;
+2. les archiver dans les Issues #72 et #24 ;
+3. ne pas mentionner le giveaway tant que ses modalités ne sont pas validées.
 
-Le lancement confirmé ne vaut pas preuve de publication pour les sept canaux
-et ne permet pas encore d’identifier si la diffusion reprend la V1 mentionnée
-dans #72, la proposition V2 conservée dans Nextcloud ou une autre révision.
+Les sept publications archivées constituent des preuves de niveau A. Le
+giveaway et la campagne intervenant de Pierre Noizat restent des séquences
+distinctes.
