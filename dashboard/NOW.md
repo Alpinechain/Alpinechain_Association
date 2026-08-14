@@ -13,7 +13,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 1. **Poursuivre la diffusion des campagnes B-Only validées** : le lancement de la campagne Paymium est confirmé depuis le 14 août, mais ses permaliens publics restent à archiver dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) avant de confirmer la version et les canaux publiés.
 2. **Consolider le programme provisoire** : Pierre Noizat est désormais confirmé et public avec « Energie, monnaie et civilisation » ; poursuivre la collecte des portraits, besoins techniques et confirmations manquantes dans [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
 3. **Suivre les sponsors sans mélanger communication et comptabilité** : diffusion Paymium lancée le 14 août, URLs et métriques encore attendues ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
-4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : le chantier J-21 est à traiter lors d’une séance de travail dédiée dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
+4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : cadrage, conducteur, outils BlueWallet + BitBox + Sparrow et présentation Gamma sont prêts ; relire le support puis préparer les communications dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
 5. **Finaliser la gouvernance des accès Framer/OVH** : attribuer un responsable, confirmer la fenêtre de transfert de `b-only.org` et dater la prochaine revue des accès dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45). Les actions Nextcloud #10 et Meta #8 sont clôturées.
 6. **Faire valider la revue d’exploitation W33** : preuves, écarts et décisions dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105) ; les mises à jour de sécurité système restent à planifier dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96).
 
@@ -38,6 +38,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
 - Aurore : vignette et campagne multicanale V1 validées le 5 août ; six vouchers Pretix et six liens Shlink vérifiés ; fenêtre du 14 au 18 septembre prête à programmer.
+- Atelier multisig du 2 septembre : présentation Gamma de douze diapositives générée et brief versionné ; relecture humaine requise avant export, puis préparation des communications réseaux.
 
 ## État opérationnel B-Only 2026
 
@@ -79,7 +80,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 |---|---|
 | À planifier | Valider une nouvelle fenêtre de maintenance pour les correctifs de sécurité AlmaLinux dans Serveur #96, avec sauvegarde récente et rollback |
 | Dès disponibilité | Archiver les permaliens publics Paymium dans #24 et confirmer les canaux réellement publiés |
-| À planifier en séance dédiée | Préparer le chantier J-21 de l’atelier multisig |
+| Dès que possible | Relire et valider la présentation Gamma de l’atelier multisig, puis préparer les communications réseaux |
 | 17 août | Relancer Cryptoast si le giveaway et la fenêtre de septembre ne sont pas confirmés |
 | 19 août | Contrôler le règlement Bitstack |
 | 1er septembre | Relancer Sandra / BFM Crypto |
