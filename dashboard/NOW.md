@@ -14,8 +14,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 2. **Consolider le programme provisoire** : Pierre Noizat est désormais confirmé et public avec « Energie, monnaie et civilisation » ; poursuivre la collecte des portraits, besoins techniques et confirmations manquantes dans [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
 3. **Suivre les sponsors sans mélanger communication et comptabilité** : Ludovic / Paymium a confirmé le 11 août l’accord sur les publications et le visuel ; diffusion prévue en fin de semaine. Contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
 4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : le chantier J-21 est à traiter lors d’une séance de travail dédiée dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
-5. **Finaliser la gouvernance des accès** : Nextcloud [#10](https://github.com/Alpinechain/Alpinechain_Association/issues/10), Meta [#8](https://github.com/Alpinechain/Alpinechain_Association/issues/8), Framer/OVH [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
-6. **Tenir la revue d’exploitation W33** : contrôles et décisions dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105).
+5. **Finaliser la gouvernance des accès Framer/OVH** : attribuer un responsable, confirmer la fenêtre de transfert de `b-only.org` et dater la prochaine revue des accès dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45). Les actions Nextcloud #10 et Meta #8 sont clôturées.
+6. **Faire valider la revue d’exploitation W33** : preuves, écarts et décisions dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105) ; les mises à jour de sécurité système restent à planifier dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96).
 
 ## Décisions et mises à jour du 12 août 2026
 
@@ -36,6 +36,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
 - Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
 - ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
+- Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
 - Aurore : vignette et campagne multicanale V1 validées le 5 août ; six vouchers Pretix et six liens Shlink vérifiés ; fenêtre du 14 au 18 septembre prête à programmer.
 
 ## État opérationnel B-Only 2026
@@ -66,14 +67,17 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ## Exploitation et infrastructure
 
 - La mise à niveau AlmaLinux 9.8 est terminée ; [Serveur #56](https://github.com/Alpinechain/Serveur/issues/56) est clôturée.
-- Dernier état d’exploitation validé (W30) : services publics sains, 21 conteneurs démarrés, aucune unité systemd en échec, sauvegarde Restic et restauration Pretix contrôlées.
-- La revue W33 est ouverte dans #105 ; ne pas présenter l’état W30 comme un contrôle temps réel.
-- Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) reste le cockpit des Issues ouvertes.
+- État contrôlé le 10 août : les dix services publics répondent en HTTP 200, les 23 conteneurs attendus sont démarrés, aucun healthcheck n’est dégradé et aucune unité systemd n’est en échec.
+- Disques : `/` à 15 % et `/opt/podman` à 38 % ; les timers de sauvegarde, vérification Restic, rapport d’exploitation, relève des courriels et contrôle mensuel sont actifs.
+- Dernière sauvegarde réussie : 10 août à 02:43:42 UTC, snapshot `d58565e6`. Dernier contrôle Restic réussi : 9 août à 05:56:39 UTC, 5 % des données contrôlées sans erreur. Dernier test de restauration isolée Pretix prouvé : 27 juillet, 150 tables vérifiées.
+- Des mises à jour de sécurité AlmaLinux sont disponibles, notamment pour le noyau, `libarchive`, `libgcrypt`, `p11-kit` et `sg3_utils`. Elles doivent être évaluées et appliquées dans une fenêtre sauvegardée et réversible suivie par [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96). Pretix, `pretix_db` et `pretix_redis` restent explicitement gelés.
+- Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) ne contient aucun P0/P1 ouvert au contrôle W33. Six Issues sont en `En attente`, aucune en `À valider` ; les actions prioritaires restent suivies dans leurs Issues.
 
 ## Prochaines échéances
 
 | Date | Action |
 |---|---|
+| À planifier | Valider une nouvelle fenêtre de maintenance pour les correctifs de sécurité AlmaLinux dans Serveur #96, avec sauvegarde récente et rollback |
 | 12–14 août | Diffuser la campagne Paymium selon le calendrier validé et archiver les URLs publiques dans #24 |
 | À planifier en séance dédiée | Préparer le chantier J-21 de l’atelier multisig |
 | 17 août | Relancer Cryptoast si le giveaway et la fenêtre de septembre ne sont pas confirmés |
