@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-08-12
+Date de dernière mise à jour : 2026-08-14
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -10,18 +10,18 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ## Priorités actives
 
-1. **Poursuivre la diffusion des campagnes B-Only validées** : la campagne Le Cercle du Coin est publiée et ses cinq URLs sont déjà archivées ; préparer et diffuser les campagnes suivantes, puis tracer leurs URLs et métriques dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+1. **Poursuivre la diffusion des campagnes B-Only validées** : le lancement de la campagne Paymium est confirmé depuis le 14 août, mais ses permaliens publics restent à archiver dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) avant de confirmer la version et les canaux publiés.
 2. **Consolider le programme provisoire** : Pierre Noizat est désormais confirmé et public avec « Energie, monnaie et civilisation » ; poursuivre la collecte des portraits, besoins techniques et confirmations manquantes dans [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
-3. **Suivre les sponsors sans mélanger communication et comptabilité** : Ludovic / Paymium a confirmé le 11 août l’accord sur les publications et le visuel ; diffusion prévue en fin de semaine. Contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
+3. **Suivre les sponsors sans mélanger communication et comptabilité** : diffusion Paymium lancée le 14 août, URLs et métriques encore attendues ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
 4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : le chantier J-21 est à traiter lors d’une séance de travail dédiée dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
 5. **Finaliser la gouvernance des accès Framer/OVH** : attribuer un responsable, confirmer la fenêtre de transfert de `b-only.org` et dater la prochaine revue des accès dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45). Les actions Nextcloud #10 et Meta #8 sont clôturées.
 6. **Faire valider la revue d’exploitation W33** : preuves, écarts et décisions dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105) ; les mises à jour de sécurité système restent à planifier dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96).
 
-## Décisions et mises à jour du 12 août 2026
+## Décisions et mises à jour du 14 août 2026
 
 ### Programme B-Only
 
-- Pierre Noizat : titre, synopsis et créneau `confirmed/public` confirmés ; portrait choisi et vignette définitive validée par Pierre le 12 août ; la communication peut être préparée.
+- Pierre Noizat : titre, synopsis et créneau `confirmed/public` confirmés ; portrait choisi normalisé et deux variantes non retenues archivées le 14 août ; vignette définitive validée active.
 - Jean est intégré samedi 7 novembre de 15 h 30 à 16 h 20 au Pleb Forum avec le workshop « Acheter du bitcoin de manière privée : méthodes, précautions et mise en pratique ».
 - Michel Khazzaka prend le créneau de lundi 9 novembre de 10 h à 10 h 50 en salle principale.
 - Alexandre Stachtchenko et Alexis Roussel échangent leurs créneaux : Alexandre est programmé samedi 7 novembre de 15 h à 15 h 50 ; Alexis lundi 9 novembre de 11 h à 11 h 50.
@@ -31,7 +31,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ### Communication
 
 - Le Cercle du Coin a été annoncé le 5 août sur X, Nostr, LinkedIn, Instagram et Facebook ; les cinq URLs publiques sont archivées dans #24 et #73, les métriques restent à relever.
-- Paymium : Ludovic a confirmé le 11 août son accord sur les publications et le visuel. La campagne V1 est prête à être diffusée manuellement en fin de semaine, selon le calendrier documenté dans #72 ; les URLs publiques seront archivées dans #24 après diffusion.
+- Paymium : diffusion de la campagne partenaire lancée le 14 août sur confirmation de Cyrille. Les permaliens publics n’étant pas encore archivés, la version employée et les canaux restent à confirmer dans #24 et #72.
 - La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
 - La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
 - Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
@@ -50,7 +50,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ### Sponsors
 
-- Paymium : pack partenaire de 2 500 € payé et rapproché ; accord de communication confirmé le 11 août ; diffusion prévue en fin de semaine.
+- Paymium : pack partenaire de 2 500 € payé et rapproché ; diffusion lancée le 14 août ; version publiée, URLs publiques et métriques encore à confirmer.
 - Le Cercle du Coin : soutien de 2 000 € payé ; campagne publiée le 5 août sur cinq réseaux, métriques à relever.
 - Bitstack : pack soutien de 2 000 € confirmé ; campagne approuvée ; facture `FA2607-0003` à contrôler le 19 août.
 
@@ -58,7 +58,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 - Les modèles de vignettes intervenants et organisations sont validés.
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
-- Pierre Noizat : portrait choisi et vignette définitive validée par Pierre ; prêt pour la préparation de la publication. Classer la source et l’export final dans Nextcloud.
+- Pierre Noizat : portrait source de référence et vignette définitive classés dans Nextcloud ; les deux portraits non retenus sont archivés sans suppression.
 - Le workshop de Renaud est confirmé et public dans le programme ; sa vignette et sa campagne V2 sont prêtes à programmer.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
@@ -78,7 +78,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 | Date | Action |
 |---|---|
 | À planifier | Valider une nouvelle fenêtre de maintenance pour les correctifs de sécurité AlmaLinux dans Serveur #96, avec sauvegarde récente et rollback |
-| 12–14 août | Diffuser la campagne Paymium selon le calendrier validé et archiver les URLs publiques dans #24 |
+| Dès disponibilité | Archiver les permaliens publics Paymium dans #24 et confirmer les canaux réellement publiés |
 | À planifier en séance dédiée | Préparer le chantier J-21 de l’atelier multisig |
 | 17 août | Relancer Cryptoast si le giveaway et la fenêtre de septembre ne sont pas confirmés |
 | 19 août | Contrôler le règlement Bitstack |
