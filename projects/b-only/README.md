@@ -128,8 +128,8 @@ déjà suffixé `.old` est réputé archivé et ne doit plus servir de référen
 active. Les variantes utiles, formats distincts, sources et pièces signées ne
 sont archivés qu'après identification explicite d'un successeur. Pour Pierre
 Noizat, le portrait choisi et la vignette définitive validée par Pierre le
-12 août 2026 deviennent les références actives après normalisation ; les deux
-autres portraits sont à archiver sans écrasement une fois ce classement vérifié.
+12 août 2026 sont les références actives. Le portrait source a été normalisé et
+les deux variantes non retenues archivées sans écrasement le 14 août 2026.
 
 Les exports nominatifs de participants restent dans Pretix ou dans un espace Nextcloud privé strictement limité. Ils ne doivent jamais être inclus dans un partage public global.
 

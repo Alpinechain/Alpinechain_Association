@@ -227,9 +227,12 @@ campagne V1 validée, ses six liens de suivi et son calendrier du 14 au 18
 septembre. La vignette carrée validée est
 `vignette--aurore-galves--have-fun-staying-fun--2026-08-05--valide.png`.
 
-Pierre Noizat possède trois portraits actifs dans
-`01_Programme-Intervenants/Photos Intervenants/`. Aucun n'est désigné comme
-version de référence : ils restent tous en place jusqu'à sa confirmation.
+Pour Pierre Noizat, la source retenue est
+`01_Programme-Intervenants/Photos Intervenants/intervenant--pierre-noizat--portrait--2026-08-12--source.jpg`.
+La vignette active est
+`03_Communication/Vignettes/Intervenants/vignette--pierre-noizat--energie-monnaie-et-civilisation--2026-08-12--valide.png`.
+Les portraits `portrait-noir-et-blanc` et `portrait-profil` du 19 juillet sont
+conservés sous `Archives/Versions-anterieures/01_Programme-Intervenants/Photos Intervenants/`.
 
 ## Classification et droits
 
@@ -251,8 +254,6 @@ version de référence : ils restent tous en place jusqu'à sa confirmation.
 - étendre progressivement les fichiers `LISEZ-MOI.txt` aux autres dossiers actifs ; celui de B-Only 2026 est en place ;
 - produire les versions corrigées des contenus et du brief Élodie Lué avec les
   horaires actuels avant d'archiver les versions existantes ;
-- obtenir de Pierre Noizat le portrait de référence avant d'archiver les deux
-  variantes non retenues ;
 - vérifier que les exports d’adhérents et participants ne sont conservés que pendant la durée nécessaire ;
 - réaliser une nouvelle revue documentaire authentifiée lorsque l’état réel des fichiers doit être contrôlé.
 
