@@ -32,7 +32,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 - Le Cercle du Coin a été annoncé le 5 août sur X, Nostr, LinkedIn, Instagram et Facebook ; les cinq URLs publiques sont archivées dans #24 et #73, les métriques restent à relever.
 - Paymium : diffusion de la campagne partenaire lancée le 14 août sur confirmation de Cyrille. Les permaliens publics n’étant pas encore archivés, la version employée et les canaux restent à confirmer dans #24 et #72.
-- La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
+- La campagne Bitstack V2 a été publiée manuellement le 11 août sur sept canaux ; les URLs publiques sont archivées et vérifiées, les métriques restent à relever. Le contrôle du règlement prévu le 19 août reste séparé.
 - La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
 - Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
 - ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
@@ -52,7 +52,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 - Paymium : pack partenaire de 2 500 € payé et rapproché ; diffusion lancée le 14 août ; version publiée, URLs publiques et métriques encore à confirmer.
 - Le Cercle du Coin : soutien de 2 000 € payé ; campagne publiée le 5 août sur cinq réseaux, métriques à relever.
-- Bitstack : pack soutien de 2 000 € confirmé ; campagne approuvée ; facture `FA2607-0003` à contrôler le 19 août.
+- Bitstack : pack soutien de 2 000 € confirmé ; campagne V2 publiée sur sept canaux ; facture `FA2607-0003` à contrôler le 19 août.
 
 ### Programme et visuels
 
