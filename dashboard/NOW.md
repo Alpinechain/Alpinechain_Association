@@ -15,7 +15,6 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 3. **Suivre les sponsors sans mélanger communication et comptabilité** : campagnes V2 Paymium et Bitstack publiées sur sept canaux prouvés chacune, métriques encore à suivre ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
 4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : cadrage, conducteur, outils BlueWallet + BitBox + Sparrow et présentation Gamma sont prêts ; relire le support puis préparer les communications dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
 5. **Finaliser la gouvernance des accès Framer/OVH** : attribuer un responsable, confirmer la fenêtre de transfert de `b-only.org` et dater la prochaine revue des accès dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45). Les actions Nextcloud #10 et Meta #8 sont clôturées.
-6. **Faire valider la revue d’exploitation W33** : preuves, écarts et décisions dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105) ; les mises à jour de sécurité système restent à planifier dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96).
 
 ## Décisions et mises à jour du 15 août 2026
 
@@ -72,7 +71,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Disques : `/` à 15 % et `/opt/podman` à 38 % ; les timers de sauvegarde, vérification Restic, rapport d’exploitation, relève des courriels et contrôle mensuel sont actifs.
 - Dernière sauvegarde réussie : 10 août à 02:43:42 UTC, snapshot `d58565e6`. Dernier contrôle Restic réussi : 9 août à 05:56:39 UTC, 5 % des données contrôlées sans erreur. Dernier test de restauration isolée Pretix prouvé : 27 juillet, 150 tables vérifiées.
 - Des mises à jour de sécurité AlmaLinux sont disponibles, notamment pour le noyau, `libarchive`, `libgcrypt`, `p11-kit` et `sg3_utils`. Elles doivent être évaluées et appliquées dans une fenêtre sauvegardée et réversible suivie par [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96). Pretix, `pretix_db` et `pretix_redis` restent explicitement gelés.
-- Le GitHub Project [AlpineChain Control Center](https://github.com/users/Alpinechain/projects/1) ne contient aucun P0/P1 ouvert au contrôle W33. Six Issues sont en `En attente`, aucune en `À valider` ; les actions prioritaires restent suivies dans leurs Issues.
+- La revue d’exploitation W33 est validée et clôturée le 15 août dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105). Le Control Center ne contient alors aucun P0/P1, aucun élément `En attente` et aucun élément `À valider` ; les actions restantes sont distribuées dans leurs Issues dédiées.
 
 ## Prochaines échéances
 
