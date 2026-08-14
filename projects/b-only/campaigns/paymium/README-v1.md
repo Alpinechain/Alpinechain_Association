@@ -2,14 +2,11 @@
 
 ## État
 
-**Campagne V2 partiellement publiée.** Quatre publications publiques ont été
-vérifiées et archivées le 14 août 2026 : Nostr et X le 13 août, LinkedIn
-AlpineChain le 13 août et LinkedIn Annecy Bitcoin Meetup le 14 août. Leur texte
-correspond aux variantes V2 conservées dans ce dossier.
-
-Meta est annoncé pour le 14 août à 18 h 30. Ce créneau reste `PROGRAMMÉ` sans
-déduire s’il concerne Facebook, Instagram ou les deux tant que les permaliens
-publics ne sont pas disponibles. Aucune URL publique du Blog n’est archivée.
+**Campagne V2 publiée sur sept canaux.** Les publications Blog, Nostr, X et
+LinkedIn AlpineChain du 13 août 2026, puis LinkedIn Annecy Bitcoin Meetup,
+Facebook et Instagram du 14 août, sont vérifiées et archivées dans
+`publications-v1.csv`. Leur texte correspond aux variantes V2 conservées dans
+ce dossier.
 
 - Campagne : `bonly26_sponsors`
 - Organisation : Paymium
@@ -31,10 +28,10 @@ dossier.
 
 ## Actions restantes
 
-1. archiver les permaliens Meta après publication et identifier les canaux ;
-2. confirmer si une publication Blog a eu lieu ;
-3. relever les métriques sur une fenêtre commune ;
-4. ne pas mentionner le giveaway tant que ses modalités ne sont pas validées.
+1. relever les métriques sur une fenêtre commune ;
+2. les archiver dans les Issues #72 et #24 ;
+3. ne pas mentionner le giveaway tant que ses modalités ne sont pas validées.
 
-Les quatre publications archivées constituent des preuves de niveau A. Le
-créneau Meta reste une information de programmation jusqu’à obtention des URLs.
+Les sept publications archivées constituent des preuves de niveau A. Le
+giveaway et la campagne intervenant de Pierre Noizat restent des séquences
+distinctes.
