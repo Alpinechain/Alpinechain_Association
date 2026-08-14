@@ -10,9 +10,9 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ## Priorités actives
 
-1. **Poursuivre la diffusion des campagnes B-Only validées** : le lancement de la campagne Paymium est confirmé depuis le 14 août, mais ses permaliens publics restent à archiver dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) avant de confirmer la version et les canaux publiés.
+1. **Poursuivre la diffusion des campagnes B-Only validées** : quatre publications V2 Paymium sont vérifiées et archivées — Nostr, X et deux publications LinkedIn. Meta est annoncé le 14 août à 18 h 30 ; ses canaux et permaliens restent à confirmer dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 2. **Consolider le programme provisoire** : Pierre Noizat est désormais confirmé et public avec « Energie, monnaie et civilisation » ; poursuivre la collecte des portraits, besoins techniques et confirmations manquantes dans [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
-3. **Suivre les sponsors sans mélanger communication et comptabilité** : diffusion Paymium lancée le 14 août, URLs et métriques encore attendues ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
+3. **Suivre les sponsors sans mélanger communication et comptabilité** : campagne V2 Paymium publiée sur quatre canaux prouvés, Meta et métriques encore à suivre ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
 4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : le chantier J-21 est à traiter lors d’une séance de travail dédiée dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
 5. **Finaliser la gouvernance des accès Framer/OVH** : attribuer un responsable, confirmer la fenêtre de transfert de `b-only.org` et dater la prochaine revue des accès dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45). Les actions Nextcloud #10 et Meta #8 sont clôturées.
 6. **Faire valider la revue d’exploitation W33** : preuves, écarts et décisions dans [#105](https://github.com/Alpinechain/Alpinechain_Association/issues/105) ; les mises à jour de sécurité système restent à planifier dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96).
@@ -31,7 +31,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ### Communication
 
 - Le Cercle du Coin a été annoncé le 5 août sur X, Nostr, LinkedIn, Instagram et Facebook ; les cinq URLs publiques sont archivées dans #24 et #73, les métriques restent à relever.
-- Paymium : diffusion de la campagne partenaire lancée le 14 août sur confirmation de Cyrille. Les permaliens publics n’étant pas encore archivés, la version employée et les canaux restent à confirmer dans #24 et #72.
+- Paymium : campagne V2 publiée sur Nostr, X, LinkedIn AlpineChain et LinkedIn Annecy Bitcoin Meetup ; les quatre URLs publiques sont vérifiées et archivées. Meta est annoncé le 14 août à 18 h 30, sans preuve publique ni distinction Facebook/Instagram à ce stade ; aucune URL Blog n’est archivée.
 - La campagne Bitstack est approuvée. Sa diffusion est pilotée séparément du contrôle de règlement prévu le 19 août.
 - La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
 - Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
@@ -50,7 +50,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ### Sponsors
 
-- Paymium : pack partenaire de 2 500 € payé et rapproché ; diffusion lancée le 14 août ; version publiée, URLs publiques et métriques encore à confirmer.
+- Paymium : pack partenaire de 2 500 € payé et rapproché ; quatre publications V2 publiques vérifiées ; Meta et métriques encore à suivre.
 - Le Cercle du Coin : soutien de 2 000 € payé ; campagne publiée le 5 août sur cinq réseaux, métriques à relever.
 - Bitstack : pack soutien de 2 000 € confirmé ; campagne approuvée ; facture `FA2607-0003` à contrôler le 19 août.
 
@@ -78,7 +78,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 | Date | Action |
 |---|---|
 | À planifier | Valider une nouvelle fenêtre de maintenance pour les correctifs de sécurité AlmaLinux dans Serveur #96, avec sauvegarde récente et rollback |
-| Dès disponibilité | Archiver les permaliens publics Paymium dans #24 et confirmer les canaux réellement publiés |
+| 14 août à 18 h 30 | Vérifier la diffusion Meta Paymium, identifier les canaux et archiver les permaliens dans #24 et #72 |
 | À planifier en séance dédiée | Préparer le chantier J-21 de l’atelier multisig |
 | 17 août | Relancer Cryptoast si le giveaway et la fenêtre de septembre ne sont pas confirmés |
 | 19 août | Contrôler le règlement Bitstack |

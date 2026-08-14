@@ -2,10 +2,14 @@
 
 ## État
 
-**Diffusion lancée le 14 août 2026 ; version publiée à confirmer.** Cyrille a
-confirmé le lancement de la séquence après l’accord de Ludovic sur les
-publications et le visuel. Les permaliens publics restent à archiver : aucun
-canal ni aucune version ne sont encore qualifiés comme `PUBLIÉS` dans ce suivi.
+**Campagne V2 partiellement publiée.** Quatre publications publiques ont été
+vérifiées et archivées le 14 août 2026 : Nostr et X le 13 août, LinkedIn
+AlpineChain le 13 août et LinkedIn Annecy Bitcoin Meetup le 14 août. Leur texte
+correspond aux variantes V2 conservées dans ce dossier.
+
+Meta est annoncé pour le 14 août à 18 h 30. Ce créneau reste `PROGRAMMÉ` sans
+déduire s’il concerne Facebook, Instagram ou les deux tant que les permaliens
+publics ne sont pas disponibles. Aucune URL publique du Blog n’est archivée.
 
 - Campagne : `bonly26_sponsors`
 - Organisation : Paymium
@@ -19,18 +23,18 @@ canal ni aucune version ne sont encore qualifiés comme `PUBLIÉS` dans ce suivi
 
 - `contenus-multicanaux-v2.md` : proposition reformulée pour X, Nostr, LinkedIn
   AlpineChain, LinkedIn Annecy Bitcoin Meetup, Facebook, Instagram et Blog ;
-- `campaign-links-v1.csv` : liens courts et destinations UTM du lot source.
+- `campaign-links-v1.csv` : liens courts et destinations UTM du lot source ;
+- `publications-v1.csv` : preuves publiques vérifiées par canal.
 
 Le visuel validé reste dans Nextcloud. Aucun visuel n'est dupliqué dans ce
 dossier.
 
 ## Actions restantes
 
-1. archiver chaque permalien public dans #24 et #72 ;
-2. confirmer séparément les canaux réellement publiés ;
+1. archiver les permaliens Meta après publication et identifier les canaux ;
+2. confirmer si une publication Blog a eu lieu ;
 3. relever les métriques sur une fenêtre commune ;
 4. ne pas mentionner le giveaway tant que ses modalités ne sont pas validées.
 
-Le lancement confirmé ne vaut pas preuve de publication pour les sept canaux
-et ne permet pas encore d’identifier si la diffusion reprend la V1 mentionnée
-dans #72, la proposition V2 conservée dans Nextcloud ou une autre révision.
+Les quatre publications archivées constituent des preuves de niveau A. Le
+créneau Meta reste une information de programmation jusqu’à obtention des URLs.
