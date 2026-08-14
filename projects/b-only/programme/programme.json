@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-05T16:08:28Z",
+    "updatedAt": "2026-08-11T12:37:44Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -194,14 +194,14 @@
       "start": "09:30",
       "end": "10:20",
       "room": "main",
-      "status": "reserved",
-      "visibility": "internal",
-      "title": "Titre à confirmer",
+      "status": "confirmed",
+      "visibility": "public",
+      "title": "Energie, monnaie et civilisation",
       "speakers": [
         "Pierre Noizat"
       ],
       "format": "Présentation de 20 minutes et questions",
-      "notes": "Intervenant confirmé ; titre, thème et portrait à valider."
+      "notes": "De Lavoisier à Satoshi, une exploration des liens entre énergie, monnaie et civilisation, face aux détournements de l’écologie politique et aux bouleversements introduits par Bitcoin."
     },
     {
       "id": "sun-workshop-cercle",
@@ -412,17 +412,17 @@
     {
       "id": "mon-main-cercle",
       "date": "2026-11-09",
-      "start": "09:00",
-      "end": "09:50",
+      "start": "09:30",
+      "end": "10:00",
       "room": "main",
-      "status": "reserved",
-      "visibility": "internal",
-      "title": "Présentation du Cercle du Coin",
+      "status": "confirmed",
+      "visibility": "public",
+      "title": "Une communauté autour de Bitcoin & Souveraineté",
       "speakers": [
-        "Hub — identité à compléter"
+        "Le Cercle du Coin"
       ],
-      "format": "Présentation et questions",
-      "notes": "Présentation maintenue ; nom, titre, photo et intitulé définitif à obtenir."
+      "format": "Présentation d’environ 20 minutes, puis échanges",
+      "notes": "Présentation du Cercle du Coin : qui nous sommes, nos missions — les Repas du Coin partout en France, le réseau d’enthousiastes francophones, la défense des intérêts de la communauté et la vulgarisation — ainsi qu’un aperçu de ce que nous préparons. Visuel : logo du Cercle du Coin."
     },
     {
       "id": "mon-main-michel-khazzaka",

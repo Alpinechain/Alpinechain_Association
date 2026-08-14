@@ -2,8 +2,8 @@
 
 Instructions pour les agents IA travaillant sur le dépôt AlpineChain Association.
 
-Version : V0.2  
-Dernière mise à jour : 2026-07-11
+Version : V0.5  
+Dernière mise à jour : 2026-08-11
 
 ## 1. Rôle du dépôt
 
@@ -122,7 +122,20 @@ Le vocabulaire des labels est défini dans `references/github-labels.md`.
 ├── ALPINECHAIN_ASSOCIATION_OS.md
 ├── README.md
 ├── dashboard/
-│   └── NOW.md
+│   ├── NOW.md
+│   └── .daily-review-state.json
+├── skills/
+│   ├── alpinechain-daily-review/
+│   │   └── SKILL.md
+│   ├── b-only-source-of-truth/
+│   │   └── SKILL.md
+│   └── publication-multicanale/
+│       ├── SKILL.md
+│       └── profiles/
+│           ├── alpinechain.md
+│           ├── b-only.md
+│           ├── meetup-bitcoin.md
+│           └── souverainete-3-0.md
 ├── projects/
 │   ├── association/
 │   ├── meetup-bitcoin/
@@ -138,6 +151,7 @@ Le vocabulaire des labels est défini dans `references/github-labels.md`.
 Rôles :
 
 - `dashboard/` : vue synthétique du présent ;
+- `skills/` : procédures IA réutilisables et versionnées ;
 - `projects/` : cadrage stable de chaque activité ;
 - `references/` : outils, labels, liens et conventions ;
 - `docs/` : documentation principale ;
@@ -145,13 +159,36 @@ Rôles :
 - `notes/` : suivi périodique ;
 - `assets/` : index de ressources stockées ailleurs.
 
-## 9. Validation humaine
+## 9. Skills locales
+
+Lorsqu’une demande correspond à une Skill existante, l’agent doit lire son `SKILL.md` avant d’exécuter la tâche.
+
+Commandes canoniques :
+
+- `Fais le point AlpineChain.` → `skills/alpinechain-daily-review/SKILL.md`
+- `Contrôle B-Only.` → `skills/b-only-source-of-truth/SKILL.md`
+- `Prépare la publication multicanale.` → `skills/publication-multicanale/SKILL.md`
+
+Les commandes canoniques sont des raccourcis mémorisables. Elles ne sont pas obligatoires : une formulation en langage naturel déclenche la Skill dès lors que l’intention correspond clairement à son périmètre.
+
+Exemples :
+
+- `Qu’est-ce que j’ai à faire aujourd’hui pour AlpineChain ?` → revue quotidienne AlpineChain ;
+- `Vérifie si le programme B-Only est cohérent.` → contrôle source de vérité B-Only ;
+- `Est-ce que Bitstack est réellement payé ?` → contrôle ciblé B-Only sur le statut financier de Bitstack ;
+- `Prépare les communications pour cette annonce B-Only.` → publication multicanale avec le profil B-Only ;
+- `Fais les posts pour le prochain Meetup.` → publication multicanale avec le profil Meetup Bitcoin Annecy ;
+- `Prépare une campagne pour Souveraineté 3.0.` → publication multicanale avec le profil Souveraineté 3.0.
+
+La Skill `publication-multicanale` est strictement associative. Elle route les demandes vers un profil local correspondant à la branche concernée : AlpineChain institutionnel, B-Only, Meetup Bitcoin Annecy ou Souveraineté 3.0. Elle ne doit jamais importer de données, comptes, CTA, ton ou contexte issus d’activités professionnelles ou personnelles.
+
+## 10. Validation humaine
 
 Validateur opérationnel actuel : Cyrille.
 
 Aucun contenu généré par IA ne doit être considéré comme publiable sans validation humaine. Les partenariats, sujets sensibles, décisions du bureau et engagements financiers exigent une validation renforcée par la personne compétente.
 
-## 10. Definition of Done minimale
+## 11. Definition of Done minimale
 
 Une tâche est terminée quand :
 
