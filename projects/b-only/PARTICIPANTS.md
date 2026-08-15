@@ -10,43 +10,44 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 
 - `✓` : identifié dans les sources B-Only / dépôt.
 - `historique` : asset existant mais à contrôler pour 2026.
-- `—` : non trouvé lors de la première passe.
+- `—` : non trouvé ou non vérifié.
 - `?` : identité, rattachement ou compte à confirmer.
+- Les handles ne sont enregistrés que lorsqu'une source publique permet une attribution suffisamment fiable.
 
-## Participants — première passe assets et réseaux
+## Participants — assets et réseaux vérifiés
 
 | Personne | Rôle | Structure / projet | Photo | Logo | X | Nostr | LinkedIn | Instagram | YouTube / autre | État / note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Pierre Noizat | Speaker | Paymium | ✓ | ✓ | — | — | — | — | — | Portrait et vignette 2026 validés ; profils publics à compléter |
-| Aurore Galves Orjol | Speaker | GALLION | ✓ | ✓ | — | — | `aurore-galvesorjol` | — | — | Identité LinkedIn vérifiée ; portrait/vignette 2026 validés |
-| Alexandre Stachtchenko | Speaker | Bitstack | historique | ✓ | `@StachAlex` | — | `alexandre-stachtchenko-27655655` | `@alexandre_stachtchenko` | — | Profils X/LinkedIn/Instagram connus ; portrait 2026 souhaité |
-| Marius Farashi Tasooji | Workshop | Cryptoast | historique | ✓/variantes | — | — | — | — | Profil équipe Cryptoast | Nom complet et rôle de rédacteur vérifiés ; handles personnels à trouver |
-| Renaud Lifchitz | Workshop technique | Sharekey | ✓ | — | — | — | — | — | — | Portrait officiel + vignette 2026 validés |
-| Nicolas Cantu | Speaker | 4NK.Organic | ✓ | ✓ | — | — | — | — | — | Portrait, vignette et logo 2026 validés |
-| ProfEduStream | Speaker + sessions pédagogiques | ProfEduStream | ✓ | ? | `@ProfEduStream` | — | — | — | YouTube `@ProfEduStream` | Portrait et vignettes validés |
+| Pierre Noizat | Speaker | Paymium | ✓ | ✓ | — | — | — | — | — | Portrait et vignette 2026 validés ; profils personnels non attribués sans source suffisante |
+| Aurore Galves Orjol | Speaker | GALLION | ✓ | ✓ | — | — | `aurore-galvesorjol` | — | — | LinkedIn et affiliation GALLION vérifiés |
+| Alexandre Stachtchenko | Speaker | Bitstack | historique | ✓ | `@StachAlex` | — | `alexandre-stachtchenko-27655655` | `@alexandre_stachtchenko` | TikTok `@alexandrestachtchenko` ; site `alexstach.fr` | Profils recoupés par plusieurs sources publiques |
+| Marius Farashi Tasooji | Workshop | Cryptoast | historique | ✓/variantes | — | — | — | — | Profil équipe Cryptoast | Nom complet et rôle de rédacteur vérifiés ; aucun compte personnel attribué avec certitude |
+| Renaud Lifchitz | Workshop technique | Sharekey | ✓ | — | — | — | `renaudlifchitz` | — | — | LinkedIn vérifié ; portrait officiel + vignette 2026 validés |
+| Nicolas Cantu | Speaker | 4NK.Organic / BTC Villages | ✓ | ✓ | — | — | `nicolascantuinnovationresilience` | — | — | LinkedIn vérifié ; profil public actuel mentionne BTC Villages ; rattachement B-Only à 4NK conservé depuis le dossier événement |
+| ProfEduStream | Speaker + sessions pédagogiques | ProfEduStream | ✓ | ? | `@ProfEduStream` | — | — | — | YouTube `@ProfEduStream` | X et YouTube déjà fournis/validés dans le dossier B-Only |
 | Florent Gabriel | Speaker | ? | — | ? | — | — | — | — | — | Identité publique à désambiguïser |
-| Lionel Jeannerat | Speaker | PVH Éditions ; Be-BOP | — | — | — | — | — | — | — | Assets et comptes à rechercher/valider |
-| Christine Jeanneaux | Speaker | ESDES Business School | ✓ | ? | — | — | `christine-jeanneaux` | — | — | LinkedIn vérifié ; portrait/vignette validés |
-| Sandra Gandoin | Speaker / journaliste | BFM Business | — | — | — | — | `sandra-gandoin-932914127` | — | — | Rattachement BFM Business vérifié ; photo B-Only à récupérer |
-| Élodie Lué | Speaker + workshop | Effet 21 Conseil ; Podcast Effet 21 | ✓ | — | présent via Linktree, handle à relever | — | présent via Linktree, handle à relever | présent via Linktree, handle à relever | YouTube + TikTok via Linktree | Portrait/vignette validés ; Linktree officiel identifié |
+| Lionel Jeannerat | Speaker | PVH Éditions ; Be-BOP | — | — | — | — | — | — | — | Recherche publique non suffisamment concluante pour attribuer des comptes personnels |
+| Christine Jeanneaux | Speaker | ESDES Business School | ✓ | ? | — | — | `christine-jeanneaux` | — | — | LinkedIn et affiliation ESDES vérifiés |
+| Sandra Gandoin | Speaker / journaliste | BFM Business | — | — | — | — | `sandra-gandoin-932914127` | — | — | LinkedIn et fonction de journaliste BFM Business vérifiés |
+| Élodie Lué | Speaker + workshop | Effet 21 Conseil ; Podcast Effet 21 | ✓ | — | lien officiel via Linktree | — | lien officiel via Linktree | lien officiel via Linktree | YouTube + TikTok via Linktree `elodielue` | Linktree officiel vérifié ; conserver les liens directs à relever avant mentions automatisées |
 | Hubert « Hub » Pineau | Présentation partenaire | Le Cercle du Coin | — | ✓ | — | — | `hubert-pineau` | — | — | LinkedIn vérifié ; coordinateur opérationnel du Cercle du Coin |
 | Jean — identité à compléter | Workshop / Pleb Forum | ? | — | ? | — | — | — | — | — | Nom complet indispensable avant recherche fiable |
-| Michel Khazzaka | Speaker | ? | — | ? | — | — | — | — | — | Première recherche non concluante ; ne pas attribuer de compte sans validation |
-| Alexis Roussel | Speaker | Bity / Nym ; conseiller Hodling SA | — | ? | — | — | — | — | — | Identité/rattachement confirmés par Hodling SA ; comptes à compléter |
-| Alexandre Poltorak « Polto » | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | — | — | — | — | — | Nom complet confirmé par Hodling SA ; portrait B-Only validé |
-| Darko Gasic | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | — | — | — | — | — | Nom complet confirmé par Hodling SA ; portrait B-Only validé |
-| Schnuartz | Workshop | Specter ? | — | ? | — | — | — | — | — | Identité à désambiguïser avant collecte |
+| Michel Khazzaka | Speaker | Valuechain Consulting | — | ? | — | — | `khazzaka` | — | — | LinkedIn et rôle de fondateur de Valuechain Consulting vérifiés |
+| Alexis Roussel | Speaker | Nym ; Bity ; conseiller Hodling SA | — | ? | `@alexis_roussel` | `npub158d7zqnl36ze3gmyv4kedezvla3z3rvgsfpap83drqrywswwvc8skw9kx0` | `alexis-roussel-01993143` | — | Mastodon `@alexis_roussel@piratenpartei.social` ; site `nym.com` | X, Nostr et Mastodon publiés dans sa bio publique ; LinkedIn Nym vérifié |
+| Alexandre Poltorak « Polto » | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | `@_polto_` | — | `polto` | — | — | X et LinkedIn attribués avec forte confiance ; identité confirmée par Hodling SA |
+| Darko Gasic | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | — | — | — | — | — | Identité et fonction confirmées par Hodling SA ; comptes personnels non attribués sans source suffisante |
+| Schnuartz | Workshop | Specter DIY ; ClavaStack | — | ? | `@Schnuartz` | — | — | — | Linktree `schnuartz` ; `clavastack.com` | Identité publique derrière ClavaStack et présidence Specter Association vérifiées ; nom civil non nécessaire tant que non publié |
 | Noé | Workshop | WeSatoshis ? | — | — | — | — | — | — | — | Nom complet et affiliation à confirmer |
 
 ## Artistes, marchands et exposants
 
 | Personne / nom public | Catégorie | Structure / projet | Photo | Logo | X | Nostr | LinkedIn | Instagram | Autre | Statut |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Missatoshi | Artiste / exposante | Missatoshi | — | ✓ | — | — | — | — | — | Présence exacte à confirmer |
-| Kino | Marchand / exposant | BMarket | — | — | — | — | — | — | — | BMarket indiqué confirmé dans la note de travail |
+| Missatoshi | Artiste / exposante | Missatoshi | — | ✓ | — | — | — | — | — | Présence exacte et comptes à confirmer |
+| Kino | Marchand / exposant | BMarket | — | — | — | — | — | — | — | BMarket indiqué confirmé dans la note de travail ; identité à compléter |
 | Kimatoshi | Exposant potentiel | ? | — | — | — | — | — | — | — | Vérifier qu'il ne s'agit pas de Missatoshi |
-| Yena | Artiste potentielle | ? | — | — | — | — | — | — | — | Présence à confirmer |
-| Theorygon / Theorigon | Artiste potentiel | ? | — | — | — | — | — | — | — | Orthographe/identité à résoudre |
+| Yena | Artiste potentielle | ? | — | — | — | — | — | — | — | Présence et identité à confirmer |
+| Theorygon / Theorigon | Artiste potentiel | ? | — | — | — | — | — | — | — | Orthographe/identité à résoudre avant attribution de comptes |
 | Édouard | Exposant potentiel | Konsensus | — | ✓ | — | — | — | — | — | Nom complet et présence à confirmer |
 | Jonathan | Exposant potentiel | PlebStyle | — | ✓ | — | — | — | — | — | Nom complet et présence à confirmer |
 | Vaga | Exposant / partenaire potentiel | Lab312 | — | — | — | — | — | — | — | Identité et présence à confirmer |
@@ -74,6 +75,9 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | WeSatoshis | Organisation liée | — | Noé ? |
 | BFM Business | Média | — dans dossier B-Only | Sandra Gandoin |
 | Sharekey | Organisation liée | — | Renaud Lifchitz |
+| Valuechain Consulting | Organisation liée | — | Michel Khazzaka |
+| Nym | Organisation liée | — | Alexis Roussel |
+| Specter DIY / ClavaStack | Organisation liée | — | Schnuartz |
 | AlpineChain | Organisateur | ✓ logos maîtres | équipe organisatrice |
 | Novotel Annecy Centre | Lieu / prestataire | disponible hors registre participants | contact géré hors GitHub |
 
@@ -100,11 +104,10 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Romain Dominati | Indisponible |
 | Damien Theillier | Indisponible |
 
-## Prochaine passe
+## Recherche réseaux — reste à résoudre
 
-1. Relever les handles exacts depuis les profils officiels déjà identifiés, sans extrapolation.
-2. Rechercher prioritairement les comptes de Pierre Noizat, Renaud Lifchitz, Nicolas Cantu, Lionel Jeannerat, Marius Farashi Tasooji, Michel Khazzaka, Alexis Roussel, Polto et Darko.
-3. Résoudre les identités partielles : Jean, Schnuartz, Noé, Édouard, Jonathan, Vaga, Kino.
-4. Résoudre `Theorygon / Theorigon`.
-5. Vérifier physiquement dans Nextcloud les assets non explicitement référencés par GitHub dès qu'un accès de parcours est disponible.
-6. Ajouter Nostr lorsque l'identité est publiquement vérifiable ; ne jamais déduire un npub à partir d'un simple pseudo.
+Priorité haute : Pierre Noizat, Marius Farashi Tasooji, Lionel Jeannerat, Darko Gasic, Florent Gabriel.
+
+Identité incomplète avant recherche fiable : Jean, Noé, Kino, Kimatoshi, Yena, Édouard/Konsensus, Jonathan/PlebStyle, Vaga/Lab312, Theorygon/Theorigon.
+
+Règle : ne jamais déduire un handle ou un npub à partir d'un simple pseudo. Les comptes Nostr ne sont enregistrés que lorsqu'un npub est publié par la personne ou par une source directement liée.
