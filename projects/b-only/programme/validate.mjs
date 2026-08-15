@@ -90,11 +90,13 @@ for (const day of data.days) {
       if (
         publicEntry.revealed ||
         publicEntry.title !== "À découvrir bientôt" ||
-        publicEntry.speakers.length ||
-        publicEntry.format
+        publicEntry.speakers.length
       ) {
         errors.push(`${publicEntry.id}: une entrée non publique révèle du contenu`);
       }
+    }
+    if ("format" in publicEntry) {
+      errors.push(`${publicEntry.id}: le format ne doit pas apparaître dans la vue publique`);
     }
   }
 }

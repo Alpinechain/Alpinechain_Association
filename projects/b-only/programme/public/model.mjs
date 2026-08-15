@@ -20,8 +20,7 @@ export function publicEntries(data, selectedDate, selectedRoom = "all") {
           room: entry.room,
           revealed: true,
           title: entry.title,
-          speakers: [...entry.speakers],
-          format: entry.format
+          speakers: [...entry.speakers]
         };
       }
 
@@ -33,8 +32,7 @@ export function publicEntries(data, selectedDate, selectedRoom = "all") {
         room: entry.room,
         revealed: false,
         title: "À découvrir bientôt",
-        speakers: [],
-        format: ""
+        speakers: []
       };
     });
 }
