@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Le programme public de B-Only 2026 se dévoile progressivement">
+    <title>Programme public — B-Only 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="../matomo.js"></script>
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <main>
+      <header class="programme-header">
+        <div>
+          <p class="eyebrow">B-Only 2026</p>
+          <h1>Le programme se dévoile</h1>
+          <p class="lead" id="programme-notice">
+            Découvrez progressivement les conférences, workshops et rencontres de cette quatrième édition.
+          </p>
+          <p class="event-date">7–9 novembre 2026 // Annecy</p>
+        </div>
+        <div class="header-actions">
+          <p id="reveal-count" aria-live="polite"></p>
+          <a
+            class="ticket-link"
+            id="ticket-link"
+            href="https://join.alpinechain.xyz/org/bonly26/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Billetterie</a>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="Filtres du programme">
+        <div class="day-tabs" id="day-tabs" role="tablist" aria-label="Choisir une journée"></div>
+        <label class="room-filter">
+          <span>Salle</span>
+          <select id="room-filter">
+            <option value="all">Toutes les salles</option>
+          </select>
+        </label>
+      </section>
+
+      <section aria-live="polite" aria-busy="true" id="schedule-region">
+        <div class="schedule-heading">
+          <div>
+            <p class="eyebrow" id="selected-date"></p>
+            <h2>Les rendez-vous</h2>
+          </div>
+          <p class="updated" id="updated-at"></p>
+        </div>
+        <div class="schedule" id="schedule"></div>
+        <p class="empty-state" id="empty-state" hidden>Aucun créneau pour ce filtre.</p>
+      </section>
+    </main>
+
+    <template id="session-template">
+      <article class="session-card">
+        <div class="session-time">
+          <time class="start"></time>
+          <span class="end"></span>
+        </div>
+        <div class="session-content">
+          <div class="session-meta">
+            <span class="room"></span>
+            <span class="reveal-state"></span>
+          </div>
+          <h3></h3>
+          <p class="speakers"></p>
+          <p class="format"></p>
+        </div>
+      </article>
+    </template>
+  </body>
+</html>

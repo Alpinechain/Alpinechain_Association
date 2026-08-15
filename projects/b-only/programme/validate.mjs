@@ -1,12 +1,15 @@
 import { readFile } from "node:fs/promises";
+import { isRevealed, publicEntries } from "./public/model.mjs";
 
 const programmeUrl = new URL("./programme.json", import.meta.url);
 const indexUrl = new URL("./index.html", import.meta.url);
 const matomoUrl = new URL("./matomo.js", import.meta.url);
-const [programmeSource, indexSource, matomoSource] = await Promise.all([
+const publicIndexUrl = new URL("./public/index.html", import.meta.url);
+const [programmeSource, indexSource, matomoSource, publicIndexSource] = await Promise.all([
   readFile(programmeUrl, "utf8"),
   readFile(indexUrl, "utf8"),
-  readFile(matomoUrl, "utf8")
+  readFile(matomoUrl, "utf8"),
+  readFile(publicIndexUrl, "utf8")
 ]);
 const data = JSON.parse(programmeSource);
 
@@ -19,6 +22,9 @@ const errors = [];
 
 if (!indexSource.includes('<script src="matomo.js"></script>')) {
   errors.push("Le traceur Matomo public n'est pas chargé par index.html");
+}
+if (!publicIndexSource.includes('<script src="../matomo.js"></script>')) {
+  errors.push("Le traceur Matomo public n'est pas chargé par public/index.html");
 }
 for (const expected of [
   'window.location.origin + window.location.pathname',
@@ -65,6 +71,31 @@ for (const entry of data.entries) {
 
   if (entry.visibility === "public" && !["confirmed", "fixed"].includes(entry.status)) {
     errors.push(`${entry.id}: une entrée publique doit être confirmée ou fixe`);
+  }
+}
+
+for (const day of data.days) {
+  const publicDayEntries = publicEntries(data, day.date);
+  const activeDayEntries = data.entries.filter(
+    (entry) => entry.date === day.date && entry.status !== "cancelled"
+  );
+
+  if (publicDayEntries.length !== activeDayEntries.length) {
+    errors.push(`${day.date}: la vue publique doit conserver tous les créneaux actifs`);
+  }
+
+  for (const publicEntry of publicDayEntries) {
+    const sourceEntry = data.entries.find((entry) => entry.id === publicEntry.id);
+    if (!isRevealed(sourceEntry)) {
+      if (
+        publicEntry.revealed ||
+        publicEntry.title !== "À découvrir bientôt" ||
+        publicEntry.speakers.length ||
+        publicEntry.format
+      ) {
+        errors.push(`${publicEntry.id}: une entrée non publique révèle du contenu`);
+      }
+    }
   }
 }
 
