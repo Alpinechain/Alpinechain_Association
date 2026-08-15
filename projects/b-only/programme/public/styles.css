@@ -49,15 +49,8 @@ p {
 }
 
 .programme-header {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-
-.programme-header > div:first-child {
   max-width: 48rem;
+  margin-bottom: 2rem;
 }
 
 .eyebrow {
@@ -97,45 +90,19 @@ h1 {
   color: #cc9636;
 }
 
-.header-actions {
-  display: grid;
-  flex: 0 0 auto;
-  justify-items: end;
-  gap: 0.75rem;
-}
-
-#reveal-count {
-  margin-bottom: 0;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-
-.ticket-link {
-  display: inline-flex;
-  padding: 0.75rem 1.15rem;
-  background: var(--accent);
-  color: white;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.ticket-link:hover,
-.ticket-link:focus-visible {
-  filter: brightness(1.08);
-}
-
 .controls {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(13rem, max-content);
   align-items: end;
-  justify-content: space-between;
   gap: 1rem;
   margin-bottom: 2rem;
 }
 
 .day-tabs {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.5rem;
+  min-width: 0;
 }
 
 .day-tabs button,
@@ -149,8 +116,17 @@ select {
 }
 
 .day-tabs button {
-  padding: 0.65rem 1rem;
+  min-width: 0;
+  padding: 0.65rem clamp(0.45rem, 1.5vw, 1rem);
+  overflow: hidden;
   cursor: pointer;
+  font-size: clamp(0.72rem, 1.35vw, 1rem);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.day-label-short {
+  display: none;
 }
 
 .day-tabs button[aria-selected="true"] {
@@ -163,6 +139,7 @@ select {
 .room-filter {
   display: grid;
   gap: 0.35rem;
+  min-width: 0;
   color: var(--muted);
   font-size: 0.82rem;
 }
@@ -237,22 +214,13 @@ select {
 
 .session-meta {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
   margin-bottom: 0.5rem;
   color: var(--muted);
   font-size: 0.74rem;
   text-transform: uppercase;
 }
 
-.reveal-state {
-  color: var(--green);
-  font-weight: 700;
-}
-
-.session-card[data-revealed="false"] .reveal-state,
 .session-card[data-revealed="false"] h3 {
   color: var(--accent-deep);
 }
@@ -268,12 +236,6 @@ select {
   font-weight: 700;
 }
 
-.format {
-  margin-bottom: 0;
-  color: var(--muted);
-  font-size: 0.88rem;
-}
-
 .empty-state {
   padding: 2rem;
   border: 1px dashed var(--line);
@@ -282,15 +244,13 @@ select {
 }
 
 @media (max-width: 720px) {
-  .programme-header,
-  .controls,
   .schedule-heading {
     align-items: stretch;
     flex-direction: column;
   }
 
-  .header-actions {
-    justify-items: start;
+  .controls {
+    grid-template-columns: 1fr;
   }
 
   .room-filter,
@@ -300,6 +260,16 @@ select {
 
   .session-card {
     grid-template-columns: 5.4rem minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .day-label-long {
+    display: none;
+  }
+
+  .day-label-short {
+    display: inline;
   }
 }
 

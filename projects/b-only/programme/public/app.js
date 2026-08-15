@@ -1,4 +1,4 @@
-import { isRevealed, publicEntries } from "./model.mjs";
+import { publicEntries } from "./model.mjs";
 
 const state = {
   data: null,
@@ -15,8 +15,6 @@ const elements = {
   updatedAt: document.querySelector("#updated-at"),
   emptyState: document.querySelector("#empty-state"),
   notice: document.querySelector("#programme-notice"),
-  revealCount: document.querySelector("#reveal-count"),
-  ticketLink: document.querySelector("#ticket-link"),
   template: document.querySelector("#session-template")
 };
 
@@ -37,7 +35,19 @@ function renderDays() {
     button.type = "button";
     button.role = "tab";
     button.dataset.date = day.date;
-    button.textContent = day.label;
+    button.setAttribute("aria-label", day.label);
+    const longLabel = document.createElement("span");
+    longLabel.className = "day-label-long";
+    longLabel.textContent = day.label;
+    const shortLabel = document.createElement("span");
+    shortLabel.className = "day-label-short";
+    shortLabel.setAttribute("aria-hidden", "true");
+    shortLabel.textContent = new Intl.DateTimeFormat("fr-FR", {
+      weekday: "short",
+      day: "numeric",
+      timeZone: "UTC"
+    }).format(new Date(`${day.date}T12:00:00Z`));
+    button.append(longLabel, shortLabel);
     button.setAttribute("aria-selected", String(day.date === state.selectedDate));
     button.addEventListener("click", () => {
       state.selectedDate = day.date;
@@ -64,21 +74,17 @@ function renderEntry(entry) {
   const start = fragment.querySelector(".start");
   const end = fragment.querySelector(".end");
   const room = fragment.querySelector(".room");
-  const revealState = fragment.querySelector(".reveal-state");
   const title = fragment.querySelector("h3");
   const speakers = fragment.querySelector(".speakers");
-  const format = fragment.querySelector(".format");
 
   card.dataset.revealed = String(entry.revealed);
   start.textContent = entry.start;
   start.dateTime = `${entry.date}T${entry.start}`;
   end.textContent = `– ${entry.end}`;
   room.textContent = roomName(entry.room);
-  revealState.textContent = entry.revealed ? "Révélé" : "Prochainement";
   title.textContent = entry.title;
 
   setText(speakers, entry.speakers.join(" · "));
-  setText(format, entry.format);
 
   return fragment;
 }
@@ -94,11 +100,6 @@ function renderSchedule() {
 }
 
 function renderPublicationDetails() {
-  const revealed = state.data.entries.filter(
-    (entry) => entry.status !== "cancelled" && isRevealed(entry)
-  ).length;
-
-  elements.revealCount.textContent = `${revealed} créneaux déjà dévoilés`;
   elements.updatedAt.textContent = `Mis à jour le ${new Intl.DateTimeFormat("fr-FR", {
     dateStyle: "long"
   }).format(new Date(state.data.publication.updatedAt))}`;
@@ -133,7 +134,6 @@ async function loadProgramme() {
       ? previousDate
       : data.days[0]?.date;
 
-    elements.ticketLink.href = data.event.ticketUrl;
     renderRooms();
     render();
   } catch (error) {
