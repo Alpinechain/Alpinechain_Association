@@ -9,6 +9,9 @@ capable de l'afficher sans base de données ni dépendance externe.
 
 - `programme.json` est la source unique des créneaux.
 - `index.html`, `styles.css` et `app.js` produisent l'affichage.
+- `public/` produit la vue publique progressive destinée à être intégrée dans
+  le site Framer. Elle remplace toute entrée non publique par
+  `À découvrir bientôt` sans afficher son titre, ses intervenants ou son format.
 - `validate.mjs` contrôle la structure, les horaires et les chevauchements.
 
 Le contenu est une base de travail tant que `publication.state` vaut `draft`.
@@ -66,6 +69,18 @@ URL publique :
 ```text
 https://alpinechain.github.io/Alpinechain_Association/
 ```
+
+Vue publique progressive à intégrer dans Framer :
+
+```text
+https://alpinechain.github.io/Alpinechain_Association/public/
+```
+
+La page de suivi à la racine reste inchangée. La vue `public/` utilise la même
+source structurée, mais ne révèle une carte que si son statut est `confirmed`
+ou `fixed` et si sa visibilité vaut `public`. Une mise à jour fusionnée dans
+`main` est donc répercutée dans les deux vues sans nouvelle manipulation dans
+Framer.
 
 Le rattachement ultérieur à `programme.b-only.org` ou l'ajout d'un lien dans le
 site Framer restent des actions séparées. La page demeure identifiée comme
