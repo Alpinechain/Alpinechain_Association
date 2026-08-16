@@ -4,8 +4,8 @@ Dernière vérification documentaire complète : 2026-07-30
 Dernière mise à jour ciblée B-Only : 2026-08-16 — réconciliation GitHub ↔ Nextcloud
 Dernière mise à jour de sécurité : 2026-08-16
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
-Audit ciblé B-Only 2026 : nouveau comptage à réaliser après le nettoyage manuel
-Nextcloud commencé le 16 août 2026
+Audit ciblé B-Only 2026 après nettoyage : 45 dossiers et 111 fichiers
+Nextcloud au 16 août 2026 : 24 fichiers textuels de campagne encore actifs
 
 ## Statut d’accès
 
@@ -72,10 +72,7 @@ Association/
 │   │       ├── 04_Production-Logistique/
 │   │       ├── 05_Finances/
 │   │       ├── 06_Medias/
-│   │       └── Archives/
-│   │           ├── Programme-Intervenants/
-│   │           ├── Versions-anterieures/
-│   │           └── Medias-2023-2025/
+│   │       └── Archives/ (vide après nettoyage manuel du 16 août 2026)
 │   └── Grenoble 3.0/
 ├── Administration/
 │   ├── Acteurs/
@@ -134,21 +131,20 @@ Action - Initiatives/B-Only/
     │   └── Notes-de-travail/
     ├── 05_Finances/
     ├── 06_Medias/
-    └── Archives/
-        ├── Programme-Intervenants/
-        ├── Versions-anterieures/
-        └── Medias-2023-2025/
+    └── Archives/ (vide après nettoyage manuel du 16 août 2026)
 ```
 
 Les registres GitHub `projects/b-only/INTERVENANTS.md` et
 `projects/b-only/ORGANISATIONS.md` portent les statuts de préparation. Nextcloud
-conserve les fichiers sources et les exports graphiques. Le dernier comptage
-stable du 30 juillet 2026 recensait 107 dossiers et 395 fichiers ; il devra être
-actualisé après le nettoyage manuel commencé le 16 août. Les portraits sont dans
+conserve les fichiers sources et les exports graphiques. Le contrôle du
+16 août 2026, après nettoyage manuel des archives et retrait approuvé de
+22 doublons textuels, recense 45 dossiers et 111 fichiers dans B-Only 2026.
+La corbeille n'a pas été vidée : elle contient alors 87 dossiers et 355 fichiers,
+ce qui permet encore une restauration. Les portraits sont dans
 `01_Programme-Intervenants/Photos Intervenants/`, les logos dans
 `01_Programme-Intervenants/Logos Participants/`, les vignettes actives dans
-`03_Communication/Vignettes/Intervenants/` ou `Organisations/`, et les versions
-remplacées dans `Archives/Versions-anterieures/`. Aucun fichier n'a été supprimé.
+`03_Communication/Vignettes/Intervenants/` ou `Organisations/`. Le dossier
+`Archives/` est vide à la suite du nettoyage manuel confirmé par Cyrille.
 
 ### Rencontres Souveraineté 3.0
 
@@ -209,8 +205,18 @@ de liens sont conservées temporairement tant que leur équivalent maître n'est
 pas identifié dans GitHub et que leur retrait exact n'est pas validé. Elles ne
 doivent plus être modifiées ni servir de source de préparation.
 
+Le 16 août 2026, 22 doublons actifs dont l'empreinte SHA-256 était identique à
+`origin/main` ont été retirés par WebDAV après validation explicite. Ils sont
+restés dans la corbeille Nextcloud. Le dossier des campagnes conserve alors
+24 fichiers textuels : les deux textes dont le partage public doit rester actif
+et 22 autres fichiers à qualifier. Dans cette branche GitHub, dix fichiers
+utiles absents du dépôt sont consolidés ; deux anciennes versions ProfEduStream
+étaient déjà présentes à l'identique sous un autre chemin ; trois README ne sont
+pas repris, conformément à la règle centralisée ; les huit fichiers Élodie Lüe
+restent en attente de comparaison avec la V3 locale.
+
 Le 16 août 2026, les six versions remplacées de la campagne Renaud Lifchitz ont
-été déplacées sans écrasement sous
+d'abord été déplacées sans écrasement sous
 `Archives/Versions-anterieures/03_Communication/Campagnes/2026/bonly26_speakers/renaud-lifchitz/` :
 
 - `README-v1.md` ;
@@ -220,8 +226,10 @@ Le 16 août 2026, les six versions remplacées de la campagne Renaud Lifchitz on
 - `calendrier-diffusion-v1.csv` ;
 - `contenus-multicanaux-v1.md`.
 
-Les empreintes SHA-256 ont été contrôlées avant et après déplacement. Les
-versions textuelles de référence restent dans GitHub. La vignette validée est
+Les empreintes SHA-256 ont été contrôlées avant et après déplacement. Ces
+archives ont ensuite été retirées lors du nettoyage manuel du dossier
+`Archives/`, tandis que les versions textuelles de référence restent dans
+GitHub. La vignette validée est
 `vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--valide.png`.
 
 Pour Aurore Galves, le portrait reçu le 5 août 2026 est
@@ -253,8 +261,11 @@ conservés sous `Archives/Versions-anterieures/01_Programme-Intervenants/Photos 
 - vérifier les journaux d’accès et les autres liens publics hérités ;
 - confirmer les propriétaires, droits nominatifs et administrateurs de secours ;
 - vérifier la corbeille, les versions, la rétention et la restauration Nextcloud ;
-- identifier dans GitHub la version maîtresse de chaque ancienne copie
-  textuelle Nextcloud, puis soumettre leur liste exacte avant tout retrait ;
+- consolider les huit fichiers Élodie Lüe avec la V3 locale avant toute nouvelle
+  suppression ;
+- après fusion GitHub, soumettre une liste exacte distincte pour les textes
+  désormais couverts, les deux anciennes copies ProfEduStream déjà identiques
+  dans GitHub et les trois README devenus inutiles ;
 - vérifier que les exports d’adhérents et participants ne sont conservés que pendant la durée nécessaire ;
 - réaliser une nouvelle revue documentaire authentifiée lorsque l’état réel des fichiers doit être contrôlé.
 
