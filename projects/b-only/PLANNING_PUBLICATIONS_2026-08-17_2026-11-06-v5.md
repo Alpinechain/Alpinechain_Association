@@ -3,8 +3,11 @@
 Version : V5
 Date de préparation : 2026-08-16
 Fuseau : Europe/Paris
-Statut global : **PRÊT À RELIRE**
+Statut global : **REMPLACÉ PAR LA V6**
 Validation : humaine avant toute programmation ou publication
+
+Cette version est conservée pour l'historique. La V6 remplace l'alternance
+entremêlée par deux vagues éditoriales distinctes chaque semaine.
 
 ## Cadrage
 
