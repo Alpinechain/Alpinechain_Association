@@ -1,6 +1,6 @@
 # Campagne intervenante — Élodie Lué — V4
 
-**État : PRÊT À RELIRE.**
+**État : PROGRAMMÉ — confirmation de Cyrille le 16 août 2026.**
 
 Version active dans GitHub :
 
@@ -12,6 +12,6 @@ Le calendrier V4 applique la vague éditoriale du 17 au 19 août 2026. Les V2
 et V3 restent historiques et ne doivent pas être programmées en parallèle.
 
 La campagne annonce uniquement « Quand Bitcoin rencontre le mobile money »,
-sans horaire ni mention du workshop Lightning. Après validation humaine,
-contrôler chaque lien et aperçu avant programmation manuelle, puis archiver les
-URLs publiques dans l'Issue #24.
+sans horaire ni mention du workshop Lightning. La programmation ne constitue
+pas une preuve de publication : archiver les URLs publiques dans l'Issue #24
+après la mise en ligne effective.

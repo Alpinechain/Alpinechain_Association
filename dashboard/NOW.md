@@ -32,11 +32,11 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Le Cercle du Coin a été annoncé le 5 août sur X, Nostr, LinkedIn, Instagram et Facebook ; les cinq URLs publiques sont archivées dans #24 et #73, les métriques restent à relever.
 - Paymium : campagne V2 publiée sur Blog, Nostr, X, LinkedIn AlpineChain, LinkedIn Annecy Bitcoin Meetup, Facebook et Instagram ; les sept URLs publiques sont vérifiées et archivées, les métriques restent à relever.
 - La campagne Bitstack V2 a été publiée manuellement le 11 août sur sept canaux ; les URLs publiques sont archivées et vérifiées, les métriques restent à relever. Le contrôle du règlement prévu le 19 août reste séparé.
-- La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
+- La campagne multicanale V4 d’Élodie Lué a été programmée par Cyrille le 16 août ; les publications et leurs URLs publiques restent à vérifier après mise en ligne.
 - Polto et Darko : vignette V1 validée le 16 août ; campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés, avec textes et calendrier encore à relire avant programmation.
 - ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
-- Aurore : vignette et campagne multicanale V1 validées le 5 août ; six vouchers Pretix et six liens Shlink vérifiés ; fenêtre du 14 au 18 septembre prête à programmer.
+- Aurore : vignette et campagne multicanale V1 validées le 5 août ; six liens Shlink revérifiés le 16 août ; calendrier V3 du 20 au 22 août prêt à programmer.
 - Atelier multisig du 2 septembre : présentation Gamma de douze diapositives générée et brief versionné ; relecture humaine requise avant export, puis préparation des communications réseaux.
 
 ## État opérationnel B-Only 2026

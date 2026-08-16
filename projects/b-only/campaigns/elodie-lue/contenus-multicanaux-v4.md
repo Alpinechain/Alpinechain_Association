@@ -1,6 +1,6 @@
 # Élodie Lué — publications multicanales — V4
 
-**État : PRÊT À RELIRE — validation humaine obligatoire avant programmation.**
+**État : PROGRAMMÉ — confirmation de Cyrille le 16 août 2026.**
 
 ## Cadrage
 
@@ -13,7 +13,7 @@
 - Public : personnes intéressées par Bitcoin, les paiements et l'accessibilité des infrastructures monétaires
 - Objectif : donner envie de venir à B-Only'26 pour comprendre ce qui fait passer une technologie monétaire de la promesse à l'usage réel
 - CTA : réserver pour B-Only'26
-- Statut : `PRÊT À RELIRE`
+- Statut : `PROGRAMMÉ` — publication et URLs publiques encore à vérifier
 
 Cette campagne ne mentionne aucun horaire et n'annonce pas le workshop
 Lightning, traité dans une campagne distincte.
