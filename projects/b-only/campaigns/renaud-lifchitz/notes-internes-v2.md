@@ -12,13 +12,9 @@
 - Campagne : `bonly26_speakers`
 - Suivi : https://github.com/Alpinechain/Alpinechain_Association/issues/24
 
-## Livrables actifs dans Nextcloud
+## Livrables actifs dans GitHub
 
-Dossier de campagne :
-
-```text
-03_Communication/Campagnes/2026/bonly26_speakers/renaud-lifchitz/
-```
+Dossier de campagne : `projects/b-only/campaigns/renaud-lifchitz/`.
 
 - `README-v4.md` ;
 - `contenus-multicanaux-v2.md` ;

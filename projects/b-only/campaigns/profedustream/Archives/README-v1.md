@@ -13,11 +13,9 @@ Aucune publication et aucune programmation sociale n'ont été effectuées.
 - Événement : B-Only'26, Annecy, du 7 au 9 novembre 2026
 - Suivi : https://github.com/Alpinechain/Alpinechain_Association/issues/24
 
-## Livrables Nextcloud
+## Livrables archivés dans GitHub
 
-Le dossier actif est :
-
-`03_Communication/Campagnes/2026/bonly26_speakers/profedustream/`
+Ce dossier GitHub conserve les versions V1 remplacées :
 
 - `contenus-multicanaux-quantique-v1.md` : textes X, LinkedIn ABM,
   LinkedIn AlpineChain, Facebook, Instagram, Nostr et Blog ;

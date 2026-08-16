@@ -1,7 +1,7 @@
 # Flux opérationnels AlpineChain
 
-Version : V1.0  
-Dernière mise à jour : 2026-07-11
+Version : V1.1
+Dernière mise à jour : 2026-08-16
 
 ## Objet
 
@@ -10,9 +10,9 @@ Ce document décrit comment les informations circulent entre le Control Center e
 ## Principe
 
 ```text
-GitHub orchestre
+GitHub orchestre et conserve les contenus textuels de référence
 Les outils métiers exécutent et conservent leurs données
-Nextcloud conserve les documents
+Nextcloud conserve les portraits, visuels, contrats, médias sources et exports lourds
 Les canaux publics diffusent
 L’humain valide les décisions et publications
 ```
@@ -23,10 +23,10 @@ Aucun secret, billet nominatif, donnée bancaire, facture complète ou coordonn�
 
 | Outil | URL / emplacement | Données principales | Sensibilité | Source de vérité |
 |---|---|---|---|---|
-| GitHub Association | `Alpinechain/Alpinechain_Association` | Actions, décisions, risques, procédures | Interne / public selon fichier | Oui pour le pilotage |
+| GitHub Association | `Alpinechain/Alpinechain_Association` | Actions, décisions, risques, procédures, textes, calendriers, liens et preuves publiques | Interne / public selon fichier | Oui pour le pilotage et les contenus textuels |
 | GitHub Project | `https://github.com/users/Alpinechain/projects/1` | Statuts, priorités, échéances | Interne | Oui pour le portefeuille |
 | GitHub Serveur | `Alpinechain/Serveur` | Configuration, scripts, runbooks | Sensible, dépôt privé | Oui pour l’infrastructure |
-| Nextcloud | `https://cloud.alpinechain.xyz` | Contrats, visuels, photos, supports | Variable, parfois personnel | Oui pour les fichiers |
+| Nextcloud | `https://cloud.alpinechain.xyz` | Portraits, visuels, contrats, médias sources et exports lourds | Variable, parfois personnel | Oui pour ces fichiers |
 | Pretix | `https://ticket.alpinechain.xyz` | Événements, commandes, billets, participants | Personnel et financier | Oui pour la billetterie |
 | Paheko | `https://compta.alpinechain.xyz` | Comptabilité, adhésions, pièces | Personnel et financier | Oui pour la comptabilité |
 | Dolibarr | `https://gestion.alpinechain.xyz` | Sponsors, contacts, devis, factures | Personnel et commercial | Oui pour CRM / facturation |

@@ -2,8 +2,8 @@
 
 Instructions pour les agents IA travaillant sur le dépôt AlpineChain Association.
 
-Version : V0.5  
-Dernière mise à jour : 2026-08-11
+Version : V0.6
+Dernière mise à jour : 2026-08-16
 
 ## 1. Rôle du dépôt
 
@@ -39,8 +39,8 @@ Il ne doit pas :
 
 | Sujet | Source de vérité |
 |---|---|
-| Priorités, actions, décisions et procédures | GitHub |
-| Contrats, visuels, médias et documents lourds | Nextcloud |
+| Priorités, actions, décisions, procédures, textes, calendriers, liens et preuves publiques | GitHub |
+| Portraits, visuels, contrats, médias sources et exports lourds | Nextcloud |
 | Billetterie et participants | Pretix |
 | Comptabilité associative | Paheko |
 | CRM, sponsors, devis et factures | Dolibarr |
@@ -48,6 +48,9 @@ Il ne doit pas :
 | Infrastructure et runbooks serveur | Dépôt `Alpinechain/Serveur` |
 
 Une conversation ChatGPT peut préparer une décision ou une action. Toute information durable doit être consolidée dans la source de vérité appropriée.
+
+Les textes, calendriers, fichiers de liens et preuves publiques ne sont pas
+dupliqués dans Nextcloud. GitHub en conserve l'unique version de référence.
 
 ## 4. Agent coordinateur
 

@@ -14,7 +14,7 @@ ce dossier.
 - Objectif : remercier le partenaire, présenter son ancrage historique français
   et orienter vers la billetterie
 - Suivi : Issues #72 et #24
-- Document source Nextcloud : https://cloud.alpinechain.xyz/f/3235
+- Visuel validé Nextcloud : https://cloud.alpinechain.xyz/f/3111
 
 ## Livrables
 

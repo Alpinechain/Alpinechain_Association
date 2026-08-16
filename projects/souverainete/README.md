@@ -50,7 +50,7 @@ Le nom documentaire historique du projet est **Annecy 3.0**. Il est conservé af
 | Racine historique | `Action - Initiatives/Annecy 3.0/` |
 | Logos | `Action - Initiatives/Annecy 3.0/Logo/` |
 | Présentations réutilisables | `Action - Initiatives/Annecy 3.0/Presentations Annecy 3.0/` |
-| Rencontres 2026 | `Action - Initiatives/Annecy 3.0/Meetup/2026/` à créer |
+| Rencontres 2026 | `Action - Initiatives/Annecy 3.0/Meetup/2026/` — dossier existant |
 
 Chaque rencontre utilise ensuite un dossier daté `AAAA-MM-JJ_Theme`. Il n’est pas nécessaire de renommer immédiatement `Annecy 3.0` en `Souveraineté 3.0`.
 

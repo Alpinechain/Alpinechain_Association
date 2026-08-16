@@ -19,8 +19,8 @@ transmises ont été contrôlées en HTTP 200 et sont archivées dans
   AlpineChain, LinkedIn Annecy Bitcoin Meetup, Facebook et Instagram ;
 - `publications-v1.csv` : URL publiques effectivement transmises et contrôlées.
 
-Copie documentaire Nextcloud :
-`Action - Initiatives/B-Only/2026/03_Communication/Campagnes/2026/bonly26_sponsors/bitstack/`.
+GitHub conserve l'unique version maîtresse de ces livrables textuels. Nextcloud
+conserve uniquement le visuel validé et les autres fichiers lourds associés.
 
 ## Mentions vérifiées
 

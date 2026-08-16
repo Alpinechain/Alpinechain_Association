@@ -82,7 +82,8 @@ Ne jamais transformer :
 | Organisations, sponsors et partenaires | `projects/b-only/ORGANISATIONS.md` |
 | État synthétique | `dashboard/NOW.md` |
 | Communications publiées | Issue #24 et URLs publiques archivées |
-| Visuels, portraits, documents | Nextcloud |
+| Portraits, visuels, contrats, médias sources et exports lourds | Nextcloud |
+| Textes, calendriers, liens et preuves publiques | GitHub |
 | Tiers, devis, factures | Dolibarr |
 | Comptabilité et paiements | Paheko |
 | Billetterie réelle | Pretix |

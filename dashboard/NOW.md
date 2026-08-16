@@ -33,7 +33,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Paymium : campagne V2 publiée sur Blog, Nostr, X, LinkedIn AlpineChain, LinkedIn Annecy Bitcoin Meetup, Facebook et Instagram ; les sept URLs publiques sont vérifiées et archivées, les métriques restent à relever.
 - La campagne Bitstack V2 a été publiée manuellement le 11 août sur sept canaux ; les URLs publiques sont archivées et vérifiées, les métriques restent à relever. Le contrôle du règlement prévu le 19 août reste séparé.
 - La campagne multicanale V2 d’Élodie Lué est validée ; Cyrille assure sa programmation par réseau.
-- Polto et Darko : campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés ; vignette et contenus restent à relire avant programmation.
+- Polto et Darko : vignette V1 validée le 16 août ; campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés, avec textes et calendrier encore à relire avant programmation.
 - ProfEduStream : deux campagnes V2, deux calendriers et quatorze liens suivis sont prêts à publier ; les deux vignettes ont été validées par ProfEduStream le 3 août.
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
 - Aurore : vignette et campagne multicanale V1 validées le 5 août ; six vouchers Pretix et six liens Shlink vérifiés ; fenêtre du 14 au 18 septembre prête à programmer.
