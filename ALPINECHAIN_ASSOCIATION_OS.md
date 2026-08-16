@@ -1,7 +1,7 @@
 # AlpineChain Association OS
 
-Version : V0.2
-Dernière mise à jour : 2026-07-22
+Version : V0.3
+Dernière mise à jour : 2026-08-16
 Statut : validée pour usage opérationnel initial  
 Validateur actuel : Cyrille
 
@@ -125,8 +125,8 @@ Ton recherché :
 | Instagram | Visuels, rappels, ambiance, stories |
 | Nostr | Cohérence souveraineté numérique et communauté Bitcoin |
 | Gamma | Supports visuels et présentations |
-| Nextcloud | Fichiers, visuels, photos, supports de travail |
-| GitHub | Méthode, règles, prompts, journal et documentation projet |
+| Nextcloud | Portraits, visuels, contrats, médias sources et exports lourds |
+| GitHub | Méthode, règles, textes, calendriers, liens, preuves publiques, journal et documentation projet |
 
 ### Règle spécifique pour X
 

@@ -45,9 +45,9 @@ Les dossiers sponsor spécifiques restent suivis dans [#4](https://github.com/Al
 
 | Sujet | Outil |
 |---|---|
-| Actions, décisions et risques | GitHub Issues |
+| Actions, décisions, risques, textes, calendriers, liens et preuves publiques | GitHub |
 | Vue portefeuille | GitHub Project et `BOARD.md` |
-| Documents, contrats, visuels et médias | Nextcloud |
+| Portraits, visuels, contrats, médias sources et exports lourds | Nextcloud |
 | Billetterie et participants | Pretix |
 | Site public et contenus web | Framer |
 | Domaine et DNS de `b-only.org` | OVH |
@@ -107,13 +107,19 @@ Action - Initiatives/B-Only/
 
 Cette structure documentaire complète les huit chantiers GitHub sans les dupliquer dossier par dossier.
 
-Le classement authentifié a été revérifié le 30 juillet 2026 : Nextcloud
-contient 107 dossiers et 395 fichiers sous l'édition 2026. Les portraits sont
+Le dernier comptage stable du 30 juillet 2026 recensait 107 dossiers et
+395 fichiers sous l'édition 2026. Un nouveau comptage authentifié devra être
+réalisé après le nettoyage manuel commencé le 16 août. Les portraits sont
 dans `01_Programme-Intervenants/Photos Intervenants/`, les logos dans
 `01_Programme-Intervenants/Logos Participants/`, et seules les vignettes
 actives restent dans `03_Communication/Vignettes/Intervenants/` ou
 `Organisations/`. Les versions remplacées sont conservées dans
 `Archives/Versions-anterieures/` en reprenant leur chemin de travail.
+
+Les textes de campagne, calendriers, fichiers de liens et preuves publiques ont
+GitHub pour source de référence et ne doivent plus être copiés dans Nextcloud.
+Les copies historiques encore présentes dans Nextcloud restent en place tant
+que leur retrait exact n'a pas été validé séparément.
 
 Les visuels historiques restent utilisables par défaut lorsqu'aucun remplaçant
 n'a été reçu, sous réserve de vérifier les droits avant publication. Un nouveau
