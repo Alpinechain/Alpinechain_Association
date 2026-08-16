@@ -29,7 +29,7 @@ Validation : humaine avant toute programmation ou publication
 
 | Semaine | Début de semaine | État | Fin de semaine | État |
 |---|---|---|---|---|
-| 17–21 août | **Élodie Lué** — « Quand Bitcoin rencontre le mobile money » | `PRÊT À RELIRE` — V3 corrigée sans horaires ni workshop | **Aurore Galves** — « Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire » | `PRÊT À PROGRAMMER` — calendrier V2 préparé |
+| 17–21 août | **Élodie Lué** — « Quand Bitcoin rencontre le mobile money » | `PRÊT À RELIRE` — V4 corrigée sans horaires ni workshop | **Aurore Galves** — « Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire » | `PRÊT À PROGRAMMER` — calendrier V2 préparé |
 | 24–28 août | **Mardi 25 août — ProfEduStream : parcours de quatre workshops pratiques** | `VALIDÉ — DATE À CONFIRMER` | **Vendredi 28 août — ProfEduStream : « Face à la menace quantique, faut-il geler les bitcoins de Satoshi ? »** | `VALIDÉ — DATE À CONFIRMER` |
 
 ## Phase 2 — cadence workshop puis speaker
