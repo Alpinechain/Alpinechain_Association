@@ -1,6 +1,6 @@
 # Registre des participants et assets — B-Only 2026
 
-Dernière mise à jour : 2026-08-15
+Dernière mise à jour : 2026-08-17
 
 ## Rôle
 
@@ -18,7 +18,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 
 | Personne | Rôle | Structure / projet | Photo | Logo | X | Nostr | LinkedIn | Instagram | YouTube / autre | État / note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Pierre Noizat | Speaker | Paymium | ✓ | ✓ | — | — | — | — | — | Portrait et vignette 2026 validés ; profils personnels non attribués sans source suffisante |
+| Pierre Noizat | Speaker | Paymium | ✓ | ✓ | `@PierreNoizat` | — | `pierrenoizat` | N/A | Facebook N/A | Portrait et vignette 2026 validés ; X et LinkedIn fournis directement ; pas de compte Instagram ni Facebook actif |
 | Aurore Galves Orjol | Speaker | GALLION | ✓ | ✓ | — | — | `aurore-galvesorjol` | — | — | LinkedIn et affiliation GALLION vérifiés |
 | Alexandre Stachtchenko | Speaker | Bitstack | historique | ✓ | `@StachAlex` | — | `alexandre-stachtchenko-27655655` | `@alexandre_stachtchenko` | TikTok `@alexandrestachtchenko` ; site `alexstach.fr` | Profils recoupés par plusieurs sources publiques |
 | Marius Farashi Tasooji | Workshop | Cryptoast | historique | ✓/variantes | — | — | — | — | Profil équipe Cryptoast | Nom complet et rôle de rédacteur vérifiés ; aucun compte personnel attribué avec certitude |
@@ -106,7 +106,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 
 ## Recherche réseaux — reste à résoudre
 
-Priorité haute : Pierre Noizat, Marius Farashi Tasooji, Lionel Jeannerat, Darko Gasic, Florent Gabriel.
+Priorité haute : Marius Farashi Tasooji, Lionel Jeannerat, Darko Gasic, Florent Gabriel.
 
 Identité incomplète avant recherche fiable : Jean, Noé, Kino, Kimatoshi, Yena, Édouard/Konsensus, Jonathan/PlebStyle, Vaga/Lab312, Theorygon/Theorigon.
 
