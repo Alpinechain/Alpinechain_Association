@@ -30,7 +30,7 @@ la modération, aux réponses et à l'observation des premiers résultats.
 | Semaine | Vague A — début de semaine | État | Vague B — fin de semaine | État |
 |---|---|---|---|---|
 | 17–22 août | **17–19 août — Élodie Lué** : « Quand Bitcoin rencontre le mobile money » | `PROGRAMMÉ` — confirmation de Cyrille le 16 août ; publication à vérifier | **20–22 août — Aurore Galves** : « Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire » | `PRÊT À PROGRAMMER` — textes validés, calendrier V3 actif |
-| 24–29 août | **24–26 août — ProfEduStream** : parcours des quatre workshops pratiques | `PRÊT À PROGRAMMER` — contenu validé, calendrier V3 actif | **27–29 août — ProfEduStream** : « Face à la menace quantique, faut-il geler les bitcoins de Satoshi ? » | `PRÊT À PROGRAMMER` — contenu validé, calendrier V3 actif |
+| 24–29 août | **24–26 août — ProfEduStream** : parcours des quatre workshops pratiques | `PRÊT À RELIRE` — contenu V3 proposé, calendrier V3 conservé | **27–29 août — ProfEduStream** : « Face à la menace quantique, faut-il geler les bitcoins de Satoshi ? » | `PRÊT À RELIRE` — contenu V3 proposé, calendrier V3 conservé |
 | 31 août–5 septembre | **31 août–2 septembre — Renaud Lifchitz** : « Reticulum, le réseau cypherpunk dont vous avez besoin ! » | `PRÊT À RELIRE` — contenu validé, calendrier V3 à relire | **3–5 septembre — Christine Jeanneaux** : « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | `PRÊT À RELIRE` — campagne V4 préparée |
 | 7–12 septembre | **7–9 septembre — Polto et Darko** : « Justifier l'origine de ses bitcoins » | `PRÊT À RELIRE` | **10–12 septembre — Pierre Noizat** : « Energie, monnaie et civilisation » | `À PRODUIRE` — informations et visuel validés |
 | 14–19 septembre | **14–16 septembre — Élodie Lué** : « Paiements via Lightning Network » | `À PRODUIRE` — modalités des commerçants à préciser | **17–19 septembre — Alexandre Stachtchenko** | `À COMPLÉTER` — sujet, titre, portrait et contenu manquants |
@@ -67,8 +67,8 @@ réellement présent.
 |---|---|---|
 | Élodie Lué — présentation | `campaigns/elodie-lue/calendrier-diffusion-v4.csv` | V3 |
 | Aurore Galves | `campaigns/aurore-galves/calendrier-diffusion-v3.csv` | V2 |
-| ProfEduStream — workshops | `campaigns/profedustream/calendrier-diffusion-workshops-v3.csv` | V2 |
-| ProfEduStream — présentation quantique | `campaigns/profedustream/calendrier-diffusion-quantique-v3.csv` | V2 |
+| ProfEduStream — workshops | `campaigns/profedustream/calendrier-diffusion-workshops-v3.csv` | Contenu V3 |
+| ProfEduStream — présentation quantique | `campaigns/profedustream/calendrier-diffusion-quantique-v3.csv` | Contenu V3 |
 | Renaud Lifchitz | `campaigns/renaud-lifchitz/calendrier-diffusion-v3.csv` | V2 |
 
 Les versions précédentes restent dans GitHub pour l'historique et ne doivent
