@@ -1,6 +1,6 @@
 # Campagnes intervenant — ProfEduStream — V3
 
-**État : PRÊT À RELIRE.**
+**État : PRÊT À PROGRAMMER.**
 
 Les contenus, vignettes et liens suivis validés restent inchangés. Cette V3
 remplace uniquement les calendriers afin de former deux vagues distinctes :
@@ -19,5 +19,17 @@ Fichiers actifs après validation :
 - `calendrier-diffusion-quantique-v3.csv`.
 
 Les calendriers V2 restent historiques et ne doivent pas être programmés en
-parallèle. Le lien du support IA demeure exclu tant qu'il n'est pas reçu et
-validé.
+parallèle. Les anciennes dates encore présentes dans les tableaux intégrés aux
+contenus V2 sont remplacées par les deux CSV V3 et ne doivent pas être reprises.
+
+Ordre de programmation :
+
+- workshops : Blog et LinkedIn AlpineChain le 24 août ; LinkedIn Annecy Bitcoin
+  Meetup et X le 25 août ; Nostr, Facebook et Instagram le 26 août ;
+- présentation quantique : Blog et LinkedIn AlpineChain le 27 août ; LinkedIn
+  Annecy Bitcoin Meetup et X le 28 août ; Nostr, Facebook et Instagram le
+  29 août.
+
+Les quatorze redirections ont été revérifiées le 17 août 2026 en HTTP 302 vers
+leurs destinations UTM exactes. Le lien du support IA demeure exclu tant qu'il
+n'est pas reçu et validé.
