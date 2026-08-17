@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-08-15
+Date de dernière mise à jour : 2026-08-17
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -13,7 +13,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 1. **Poursuivre la diffusion des campagnes B-Only validées** : les sept publications V2 Paymium sont vérifiées et archivées — Blog, Nostr, X, deux publications LinkedIn, Facebook et Instagram. Les métriques restent à relever dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 2. **Consolider le programme provisoire** : Pierre Noizat est désormais confirmé et public avec « Energie, monnaie et civilisation » ; poursuivre la collecte des portraits, besoins techniques et confirmations manquantes dans [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11).
 3. **Suivre les sponsors sans mélanger communication et comptabilité** : campagnes V2 Paymium et Bitstack publiées sur sept canaux prouvés chacune, métriques encore à suivre ; contrôle du règlement Bitstack le 19 août dans [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4).
-4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : cadrage, conducteur, outils BlueWallet + BitBox + Sparrow et présentation Gamma sont prêts ; relire le support puis préparer les communications dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
+4. **Préparer l’atelier multisig et Disaster Recovery du 2 septembre** : campagne J-10 → Jour J préparée et programmée en majorité ; il reste à relire/exporter Gamma, tester BlueWallet + BitBox + Sparrow de bout en bout et archiver les URL après diffusion dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
 5. **Finaliser la gouvernance des accès Framer/OVH** : attribuer un responsable, confirmer la fenêtre de transfert de `b-only.org` et dater la prochaine revue des accès dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45). Les actions Nextcloud #10 et Meta #8 sont clôturées.
 
 ## Décisions et mises à jour du 15 août 2026
@@ -36,8 +36,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Polto et Darko : vignette V1 validée le 16 août ; campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés, avec textes et calendrier encore à relire avant programmation.
 - ProfEduStream : deux campagnes V2 et deux calendriers V3 sont prêts à programmer du 24 au 29 août ; les deux vignettes ont été validées le 3 août et les quatorze liens suivis ont été revérifiés le 17 août.
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
-- Aurore : vignette et campagne multicanale V1 validées le 5 août ; six liens Shlink revérifiés le 16 août ; calendrier V3 du 20 au 22 août prêt à programmer.
-- Atelier multisig du 2 septembre : présentation Gamma de douze diapositives générée et brief versionné ; relecture humaine requise avant export, puis préparation des communications réseaux.
+- Aurore : vignette et campagne multicanale V1 validées le 5 août ; six vouchers Pretix et six liens Shlink revérifiés le 16 août ; calendrier V3 du 20 au 22 août prêt à programmer.
+- Atelier multisig du 2 septembre : campagne J-10 → Jour J versionnée et programmée en majorité sur LinkedIn, Nostr, Facebook, Instagram et X ; statut public encore non vérifié. La présentation Gamma doit toujours être relue avant export et les URL devront être archivées après diffusion.
 
 ## État opérationnel B-Only 2026
 
@@ -79,7 +79,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 |---|---|
 | À planifier | Valider une nouvelle fenêtre de maintenance pour les correctifs de sécurité AlmaLinux dans Serveur #96, avec sauvegarde récente et rollback |
 | Dès disponibilité | Relever les métriques Paymium sur une fenêtre commune et les archiver dans #24 et #72 |
-| Dès que possible | Relire et valider la présentation Gamma de l’atelier multisig, puis préparer les communications réseaux |
+| Dès que possible | Relire et exporter Gamma, tester le scénario multisig de bout en bout et confirmer les publications encore non programmées |
 | 17 août | Relancer Cryptoast si le giveaway et la fenêtre de septembre ne sont pas confirmés |
 | 19 août | Contrôler le règlement Bitstack |
 | 1er septembre | Relancer Sandra / BFM Crypto |
