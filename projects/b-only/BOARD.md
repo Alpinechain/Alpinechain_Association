@@ -1,6 +1,6 @@
 # Tableau de pilotage B-Only 2026
 
-Date de dernière mise à jour : 2026-07-24
+Date de dernière mise à jour : 2026-08-17
 Événement : 7 au 9 novembre 2026  
 Lieu : Novotel Annecy Centre
 
@@ -21,7 +21,7 @@ le champ `Statut opérationnel` du Project continue de faire foi.
 |---|---|---|---|---|
 | Billetterie et parcours participant | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25) | Ouverte et contrôlée ; suivi courant transféré aux finances et à la communication | Revue hebdomadaire des ventes |
 | Sponsors et partenaires | [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) | [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4), [#5](https://github.com/Alpinechain/Alpinechain_Association/issues/5) | Paymium soldé ; Bitstack confirmé, règlement attendu ; Cercle du Coin à consolider | Suivre Bitstack au 19 août et dater le Cercle du Coin |
-| Programme et intervenants | [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) | En attente de confirmations | Date de gel du programme à décider |
+| Programme et intervenants | [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) | Programme provisoire en cours ; Pierre Noizat et Alexandre Stachtchenko sont publics, plusieurs titres et confirmations restent attendus | Révéler le titre de la présentation d’Alexandre lorsqu’il sera validé et décider de la date de gel du programme |
 | Communication et contenus | [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), [#53](https://github.com/Alpinechain/Alpinechain_Association/issues/53) | Sept publications Bitstack et sept publications Paymium archivées | Relever les métriques et poursuivre les campagnes validées |
 | Production audiovisuelle et PeerTube | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) | [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) | À arbitrer | Test grandeur réduite à dater |
 | Accueil, stands, bar et logistique | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | À cadrer | Plan d’implantation à dater |
