@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-16T07:46:00Z",
+    "updatedAt": "2026-08-17T10:51:06Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -58,14 +58,14 @@
       "start": "15:00",
       "end": "15:50",
       "room": "main",
-      "status": "reserved",
-      "visibility": "internal",
-      "title": "Titre à confirmer",
+      "status": "confirmed",
+      "visibility": "public",
+      "title": "Responsable Stratégie - Bitstack",
       "speakers": [
         "Alexandre Stachtchenko"
       ],
       "format": "Présentation et questions",
-      "notes": "Intervention liée à Bitstack ; titre, photo et contenu à obtenir."
+      "notes": "Participation, créneau et rattachement à Bitstack rendus publics le 17 août 2026. Le libellé public provisoire ne constitue pas le titre de la présentation, qui reste à révéler ; photo et contenu à obtenir."
     },
     {
       "id": "sat-workshop-profedu-qa",
