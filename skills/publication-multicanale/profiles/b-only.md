@@ -45,6 +45,33 @@ Lorsque pertinent : réservation B-Only via la billetterie officielle.
 - conserver la distinction sponsor / partenaire selon les décisions du projet ;
 - archiver les URLs publiques dans l’Issue de communication prévue par le projet lorsque la publication est effectivement réalisée.
 
+## Règle de vagues éditoriales
+
+Pour B-Only, ne pas entremêler deux campagnes multicanales différentes au fil
+des jours. Organiser les publications en vagues cohérentes :
+
+- vague A du lundi au mercredi, généralement consacrée à un workshop ou à un
+  sujet pratique ;
+- vague B du jeudi au samedi, généralement consacrée à un speaker ou à une
+  présentation ;
+- un seul sujet, un seul angle directeur, un seul visuel principal et un seul
+  CTA par vague ;
+- aucun changement de sujet le même jour sur un même canal et un même compte ;
+- viser 48 heures entre deux sujets différents sur un même canal et un même
+  compte, avec un minimum de 24 heures lorsqu'une contrainte opérationnelle le
+  justifie ;
+- réserver si possible le jeudi matin à la modération, aux réponses et à
+  l'observation de la première vague ;
+- ne pas imposer tous les canaux à chaque sujet : sélectionner ceux qui servent
+  réellement l'angle et le public ;
+- ne produire un article Blog que si le sujet justifie un contenu long ;
+- adapter les textes à chaque canal tout en conservant une identité visuelle et
+  une promesse reconnaissables pendant toute la vague.
+
+Une urgence réelle, une information pratique datée ou une coordination avec un
+tiers peut justifier une exception. L'exception doit être explicitée dans le
+calendrier et ne doit pas créer deux messages concurrents sur le même compte.
+
 ## Visuels
 
 Utiliser uniquement les portraits, logos et vignettes validés ou explicitement identifiés comme sources. Un visuel produit mais non validé reste non publiable.
