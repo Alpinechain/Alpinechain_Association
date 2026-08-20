@@ -1,6 +1,6 @@
 # Campagnes intervenant — ProfEduStream — V4
 
-**État : PRÊT À RELIRE — contenus V3 à valider avant programmation.**
+**État : VERSION V3 RETENUE PAR CYRILLE — PROGRAMMATION MANUELLE DÉCIDÉE.**
 
 Cette version remplace les textes multicanaux V2 par deux campagnes V3 plus
 engageantes, sans modifier les vignettes, les liens suivis ni les dates :
@@ -39,10 +39,10 @@ Les quatorze redirections ont été revérifiées le 17 août 2026 en HTTP 302 v
 leurs destinations UTM exactes. Le lien du support IA demeure exclu tant qu'il
 n'est pas reçu et validé.
 
-## Gate
+## Validation et gate
 
-- [ ] textes V3 relus et validés par Cyrille ;
+- [x] version V3 retenue par Cyrille le 20 août 2026 ;
 - [ ] formulations sensibles sur la menace quantique relues par ProfEduStream ;
 - [ ] comptes, liens courts et aperçus contrôlés avant programmation ;
-- [ ] programmation manuelle autorisée ;
+- [x] programmation manuelle décidée par Cyrille selon les calendriers V3 ;
 - [ ] URLs publiques archivées dans l'Issue #24 après mise en ligne.
