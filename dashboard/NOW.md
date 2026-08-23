@@ -35,6 +35,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - La campagne multicanale V4 d’Élodie Lué est publiée sur Blog, Nostr, X, deux comptes LinkedIn, Facebook et Instagram ; les sept URLs publiques ont été vérifiées et archivées le 20 août, les métriques restent à relever.
 - Polto et Darko : vignette V1 validée le 16 août ; campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés, avec textes et calendrier encore à relire avant programmation.
 - ProfEduStream : Cyrille retient les deux campagnes V3 de la PR #128 pour une programmation manuelle du 24 au 29 août ; les deux vignettes sont validées et les quatorze liens suivis ont été revérifiés le 17 août. La relecture des formulations quantiques sensibles par ProfEduStream reste à tracer.
+- Renaud Lifchitz : contenus V3 et calendrier V4 retenus le 23 août ; Blog, LinkedIn, X, Facebook et Instagram sont préparés du 3 au 5 septembre. Nostr reste manuel avec un rappel programmé le 5 septembre à 12 h 15. La campagne Christine Jeanneaux doit être recalée.
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
 - Aurore : article Blog publié et vérifié le 20 août ; les six publications sociales sont planifiées du 20 au 22 août selon le calendrier V3 et leurs URLs devront être archivées après diffusion.
 - Atelier multisig du 2 septembre : page Meetup publique à jour ; campagne J-10 → Jour J programmée en majorité sur LinkedIn, Nostr, Facebook, Instagram et X ; réservation de la salle Refuge demandée au Novotel et en attente de confirmation. La présentation Gamma doit toujours être relue avant export et les URL devront être archivées après diffusion.
@@ -59,7 +60,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Les modèles de vignettes intervenants et organisations sont validés.
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
 - Pierre Noizat : portrait source de référence et vignette définitive classés dans Nextcloud ; les deux portraits non retenus sont archivés sans suppression.
-- Le workshop de Renaud est confirmé et public dans le programme ; sa vignette et sa campagne V2 sont prêtes à programmer.
+- Le workshop de Renaud est confirmé et public dans le programme ; sa vignette est validée et la campagne V3 est préparée pour le 3 au 5 septembre, sauf Nostr à publier manuellement.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
 - Restent notamment à obtenir : sujet de Michel Khazzaka, identité complète de Jean et confirmations des créneaux encore provisoires.
