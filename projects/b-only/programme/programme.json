@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-23T14:44:26Z",
+    "updatedAt": "2026-08-23T14:49:16Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -211,12 +211,12 @@
       "room": "workshop",
       "status": "confirmed",
       "visibility": "internal",
-      "title": "Communautés francophones — point de situation des organisateurs de Meetup",
+      "title": "Communautés francophones",
       "speakers": [
         "ProfEduStream",
         "Copinmalin"
       ],
-      "format": "Réunion trimestrielle",
+      "format": "Point de situation des organisateurs de Meetup",
       "notes": "Réunion trimestrielle pour partager les expériences des organisateurs de Meetup. Créneau attribué le 2026-08-23."
     },
     {
