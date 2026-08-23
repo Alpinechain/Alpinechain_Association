@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-23T14:35:41Z",
+    "updatedAt": "2026-08-23T14:44:26Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -204,17 +204,20 @@
       "notes": "De Lavoisier à Satoshi, une exploration des liens entre énergie, monnaie et civilisation, face aux détournements de l’écologie politique et aux bouleversements introduits par Bitcoin."
     },
     {
-      "id": "sun-workshop-free-1000",
+      "id": "sun-workshop-meetup-organizers",
       "date": "2026-11-08",
       "start": "10:00",
       "end": "10:50",
       "room": "workshop",
-      "status": "free",
+      "status": "confirmed",
       "visibility": "internal",
-      "title": "Créneau disponible",
-      "speakers": [],
-      "format": "Workshop proposé par un volontaire",
-      "notes": "Créneau disponible. Le Cercle du Coin assure uniquement sa présentation du lundi ; aucun workshop n'est prévu."
+      "title": "Communautés francophones — point de situation des organisateurs de Meetup",
+      "speakers": [
+        "ProfEduStream",
+        "Copinmalin"
+      ],
+      "format": "Réunion trimestrielle",
+      "notes": "Réunion trimestrielle pour partager les expériences des organisateurs de Meetup. Créneau attribué le 2026-08-23."
     },
     {
       "id": "sun-main-elodie-mobile-money",
