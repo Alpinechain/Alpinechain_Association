@@ -31,7 +31,7 @@ la modération, aux réponses et à l'observation des premiers résultats.
 |---|---|---|---|---|
 | 17–22 août | **17–19 août — Élodie Lué** : « Quand Bitcoin rencontre le mobile money » | `PUBLIÉ` — sept URLs archivées le 20 août | **20–22 août — Aurore Galves** : « Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire » | `BLOG PUBLIÉ / RÉSEAUX PLANIFIÉS` — calendrier V3 actif |
 | 24–29 août | **24–26 août — ProfEduStream** : parcours des quatre workshops pratiques | `VERSION V3 RETENUE` — programmation manuelle décidée par Cyrille | **27–29 août — ProfEduStream** : « Face à la menace quantique, faut-il geler les bitcoins de Satoshi ? » | `VERSION V3 RETENUE` — relecture des formulations sensibles par ProfEduStream à tracer |
-| 31 août–5 septembre | **31 août–2 septembre — Renaud Lifchitz** : « Reticulum, le réseau cypherpunk dont vous avez besoin ! » | `PRÊT À RELIRE` — contenu validé, calendrier V3 à relire | **3–5 septembre — Christine Jeanneaux** : « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | `PRÊT À RELIRE` — campagne V4 préparée |
+| 31 août–5 septembre | **31 août–2 septembre — Atelier AlpineChain** : « Multisig et Disaster Recovery » | `PROGRAMMÉ EN MAJORITÉ` — réserver le 2 septembre à l'atelier | **3–5 septembre — Renaud Lifchitz** : « Reticulum, le réseau cypherpunk dont vous avez besoin ! » | `PUBLICATIONS PRÉPARÉES` — Nostr manuel avec rappel le 5 septembre à 12 h 15 |
 | 7–12 septembre | **7–9 septembre — Polto et Darko** : « Justifier l'origine de ses bitcoins » | `PRÊT À RELIRE` | **10–12 septembre — Pierre Noizat** : « Energie, monnaie et civilisation » | `À PRODUIRE` — informations et visuel validés |
 | 14–19 septembre | **14–16 septembre — Élodie Lué** : « Paiements via Lightning Network » | `À PRODUIRE` — modalités des commerçants à préciser | **17–19 septembre — Alexandre Stachtchenko** | `À COMPLÉTER` — sujet, titre, portrait et contenu manquants |
 | 21–26 septembre | **21–23 septembre — Jean** : achat de bitcoin de manière privée | `À COMPLÉTER` | **24–26 septembre — Florent Gabriel** | `À COMPLÉTER` — titre et contenu manquants |
@@ -69,10 +69,13 @@ réellement présent.
 | Aurore Galves | `campaigns/aurore-galves/calendrier-diffusion-v3.csv` | V2 |
 | ProfEduStream — workshops | `campaigns/profedustream/calendrier-diffusion-workshops-v3.csv` | Contenu V3 |
 | ProfEduStream — présentation quantique | `campaigns/profedustream/calendrier-diffusion-quantique-v3.csv` | Contenu V3 |
-| Renaud Lifchitz | `campaigns/renaud-lifchitz/calendrier-diffusion-v3.csv` | V2 |
+| Renaud Lifchitz | `campaigns/renaud-lifchitz/calendrier-diffusion-v4.csv` | Contenus V3 |
 
 Les versions précédentes restent dans GitHub pour l'historique et ne doivent
 pas être programmées en parallèle.
+
+La campagne Christine Jeanneaux, remplacée dans la vague du 3 au 5 septembre
+par Renaud Lifchitz, reste à recaler sans nouvelle date validée.
 
 ## Gate avant programmation
 
