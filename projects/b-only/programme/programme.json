@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-17T10:51:06Z",
+    "updatedAt": "2026-08-23T14:35:41Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -266,7 +266,7 @@
       "end": "14:50",
       "room": "main",
       "status": "confirmed",
-      "visibility": "internal",
+      "visibility": "public",
       "title": "Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire",
       "speakers": [
         "Aurore Galves"
