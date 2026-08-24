@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-23T14:49:16Z",
+    "updatedAt": "2026-08-24T17:09:36Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -74,7 +74,7 @@
       "end": "15:20",
       "room": "workshop",
       "status": "confirmed",
-      "visibility": "internal",
+      "visibility": "public",
       "title": "Q&A débutants : utiliser Bitcoin",
       "speakers": [
         "ProfEduStream"
@@ -150,7 +150,7 @@
       "end": "19:00",
       "room": "workshop",
       "status": "confirmed",
-      "visibility": "internal",
+      "visibility": "public",
       "title": "Face à la menace quantique, faut-il geler les bitcoins de Satoshi ?",
       "speakers": [
         "ProfEduStream"
@@ -180,7 +180,7 @@
       "end": "09:50",
       "room": "workshop",
       "status": "confirmed",
-      "visibility": "internal",
+      "visibility": "public",
       "title": "Envoyer et recevoir du bitcoin",
       "speakers": [
         "ProfEduStream"
@@ -210,7 +210,7 @@
       "end": "10:50",
       "room": "workshop",
       "status": "confirmed",
-      "visibility": "internal",
+      "visibility": "public",
       "title": "Communautés francophones",
       "speakers": [
         "ProfEduStream",
@@ -344,7 +344,7 @@
       "end": "17:50",
       "room": "workshop",
       "status": "confirmed",
-      "visibility": "internal",
+      "visibility": "public",
       "title": "Utiliser Bitcoin, sans Internet",
       "speakers": [
         "ProfEduStream"
@@ -434,7 +434,7 @@
       "end": "10:20",
       "room": "workshop",
       "status": "confirmed",
-      "visibility": "internal",
+      "visibility": "public",
       "title": "Quand l'IA paie en bitcoin",
       "speakers": [
         "ProfEduStream"
