@@ -35,8 +35,8 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Jean — identité à compléter | Workshop / Pleb Forum | ? | — | ? | — | — | — | — | — | — | Nom complet nécessaire |
 | Michel Khazzaka | Speaker | Valuechain Consulting | — | ? | `@kneisseh` | — | `khazzaka` | — | — | — | Fondateur de Valuechain Consulting confirmé publiquement |
 | Alexis Roussel | Speaker | Nym ; Bity ; conseiller Hodling SA | — | ? | `@alexis_roussel` | `npub158d7zqnl36ze3gmyv4kedezvla3z3rvgsfpap83drqrywswwvc8skw9kx0` | `alexis-roussel-01993143` | — | — | Mastodon `@alexis_roussel@piratenpartei.social` ; `nym.com` | — |
-| Alexandre Poltorak « Polto » | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | `@_polto_` | — | `polto` | — | — | — | Identité confirmée Hodling SA |
-| Darko Gasic | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | — | — | — | — | — | — | Comptes à compléter |
+| Alexandre Poltorak « Polto » | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | `@_polto_` | — | `polto` | — | — | GitHub `@polto` | X et LinkedIn confirmés ; Instagram `@_polto_` attesté historiquement mais à confirmer avant identification ; aucun npub trouvé lors de la recherche du 2026-08-29 |
+| Darko Gasic | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | — | — | — | — | — | — | Recherche du 2026-08-29 : aucun compte personnel confirmé ; le profil Instagram `@darko.gasic` n'est pas attribuable avec certitude et ne doit pas être identifié ; aucun npub trouvé |
 | Schnuartz | Workshop | Specter DIY ; ClavaStack | — | ? | `@Schnuartz` | — | — | — | — | Linktree `schnuartz` ; `clavastack.com` | — |
 | Noé | Workshop | WeSatoshis ? | — | — | — | — | — | — | — | — | Identité/affiliation à confirmer |
 
@@ -66,7 +66,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Blobb.io | Organisation liée | ? | Florent Gabriel | X `@blobb_io` ; Instagram `@blobb_io` ; `blobb.io` |
 | BTC Villages | Organisation liée | ? | Nicolas Cantu | `btcvillages.com` ; LinkedIn entreprise confirmé |
 | 4NK.Organic | Organisation liée | ✓ | Nicolas Cantu | — |
-| Hodling SA | Organisation liée | ✓ | Alexandre Poltorak, Darko Gasic | — |
+| Hodling SA | Organisation liée | ✓ | Alexandre Poltorak, Darko Gasic | LinkedIn `hodling-sa` ; `hodling.ch` |
 | ProfEduStream | Marque personnelle | ? | ProfEduStream | X/YouTube `@ProfEduStream` |
 | Effet 21 Conseil / Podcast Effet 21 | Organisation/média lié | — | Élodie Lué | via Linktree |
 | BMarket | Exposant | — | Kino | X `@B_Market_21` |
