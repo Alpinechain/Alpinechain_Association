@@ -11,8 +11,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ## Priorités actives
 
 1. **Sécuriser l’atelier multisig et Disaster Recovery du 2 septembre** : à J-3, relire/exporter Gamma, tester BlueWallet + BitBox + Sparrow de bout en bout, confirmer le matériel et le plan de repli, puis archiver les URLs réellement publiées dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
-2. **Vérifier les diffusions B-Only arrivées à échéance** : les campagnes ProfEduStream étaient prévues du 24 au 29 août et les publications sociales Aurore du 20 au 22 août, mais leurs URLs publiques ne sont pas encore archivées dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Polto et Darko restent à relire avant leur séquence du 31 août au 4 septembre.
-3. **Relire la campagne Renaud Lifchitz** : la [PR #133](https://github.com/Alpinechain/Alpinechain_Association/pull/133) est fusionnable mais encore en brouillon, sans validation ni contrôles CI ; sa séquence du 3 au 5 septembre n’est donc ni validée, ni programmée, ni publiée.
+2. **Finaliser les preuves B-Only du 29 août** : Aurore et les workshops ProfEduStream disposent chacun de six URLs archivées ; la campagne quantique en possède quatre et attend encore Facebook et Instagram. Aucune nouvelle URL Nostr ne sera déclarée pour ces vagues : ce canal reste `NON VÉRIFIABLE`. Polto et Darko restent à relire avant leur prochaine séquence.
+3. **Relire la campagne Renaud Lifchitz** : la [PR #133](https://github.com/Alpinechain/Alpinechain_Association/pull/133) est encore en brouillon et en conflit, sans validation ni contrôles CI ; sa séquence n’est donc ni validée, ni programmée, ni publiée.
 4. **Suivre les relais sans présumer leur validation** : la prospection partenaires et médias du 28 août est réalisée, mais le mécanisme de 5 € par billet reste une proposition en attente de qualification comptable, juridique et humaine dans [#61](https://github.com/Alpinechain/Alpinechain_Association/issues/61).
 5. **Planifier la maintenance et la gouvernance des accès** : des correctifs de sécurité sont disponibles et restent suivis dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96), sans application pendant la revue ; la MFA, la récupération Framer et le transfert de `b-only.org` restent ouverts dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
 
@@ -31,14 +31,15 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ### Communication
 
-- Le Cercle du Coin a été annoncé le 5 août sur X, Nostr, LinkedIn, Instagram et Facebook ; les cinq URLs publiques sont archivées dans #24 et #73, les métriques restent à relever.
-- Paymium : campagne V2 publiée sur Blog, Nostr, X, LinkedIn AlpineChain, LinkedIn Annecy Bitcoin Meetup, Facebook et Instagram ; les sept URLs publiques sont vérifiées et archivées, les métriques restent à relever.
-- La campagne Bitstack V2 a été publiée manuellement le 11 août sur sept canaux ; les URLs publiques sont archivées et vérifiées, les métriques restent à relever. Le contrôle du règlement prévu le 19 août reste séparé.
-- La campagne multicanale V4 d’Élodie Lué est publiée sur Blog, Nostr, X, deux comptes LinkedIn, Facebook et Instagram ; les sept URLs publiques ont été vérifiées et archivées le 20 août, les métriques restent à relever.
+- Le Cercle du Coin a été annoncé le 5 août ; les URLs et métriques disponibles sont archivées dans #24 et #73, campagne clôturée le 24 août.
+- Paymium : campagne V2 publiée sur sept canaux ; URLs et métriques disponibles archivées le 24 août, rappel d’octobre suivi séparément.
+- La campagne Bitstack V2 a été publiée manuellement le 11 août sur sept canaux ; URLs et métriques disponibles archivées, campagne clôturée le 24 août.
+- La campagne multicanale V4 d’Élodie Lué est publiée sur sept canaux ; les URLs LinkedIn et les dates X/Meta ont été corrigées le 29 août, et les métriques X, LinkedIn et Meta disponibles sont relevées dans #24.
 - Polto et Darko : vignette V1 validée le 16 août ; campagne multicanale V1 et calendrier du 31 août au 4 septembre préparés, avec textes et calendrier encore à relire avant programmation.
-- ProfEduStream : les deux campagnes V3 étaient retenues pour programmation manuelle du 24 au 29 août ; aucune URL publique n’est encore archivée dans #24, donc leur publication reste à vérifier.
-- Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup prévu le 9 août n’est pas encore prouvé par une URL publique dans #24.
-- Aurore : article Blog publié et vérifié le 20 août ; les six publications sociales étaient planifiées du 20 au 22 août, mais leurs URLs restent à archiver avant de les qualifier de publiées.
+- ProfEduStream workshops : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
+- ProfEduStream quantique : quatre URLs archivées — Blog, deux LinkedIn et X — ; Facebook et Instagram restent à confirmer après diffusion, Nostr reste `NON VÉRIFIABLE` et la relecture sensible demeure à tracer.
+- Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup n’a pas été publié et ne le sera pas.
+- Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
 - Renaud Lifchitz : contenus V3 et calendrier V4 préparés pour le 3 au 5 septembre dans la PR brouillon #133 ; aucune programmation ni publication n’est revendiquée avant validation et fusion.
 - Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
 - Atelier multisig du 2 septembre : salle Refuge et page publique confirmées ; campagne J-10 → Jour J programmée en majorité, publication non vérifiée. La présentation Gamma, le test de bout en bout, le matériel et le plan de repli restent à finaliser dans #6.
@@ -84,7 +85,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 |---|---|
 | À planifier | Valider une nouvelle fenêtre de maintenance pour les correctifs de sécurité AlmaLinux dans Serveur #96, avec sauvegarde récente et rollback |
 | 30 août | Finaliser le contrôle J-3 de l’atelier : test technique, matériel, supports hors ligne, participants attendus et plan de repli dans #6 |
-| 30–31 août | Vérifier et archiver les URLs Aurore et ProfEduStream ; relire Polto et Darko avant leur séquence du 31 août au 4 septembre |
+| 30–31 août | Archiver les URLs Facebook et Instagram de la campagne quantique après diffusion ; relire Polto et Darko avant leur prochaine séquence |
 | Avant le 3 septembre | Faire relire la PR #133 et décider de la campagne Renaud ; aucune programmation avant validation/fusion |
 | En attente | Relance Cryptoast effectuée auprès de Marius le 20 août ; attendre sa réponse sur le giveaway et la fenêtre de septembre |
 | 1er septembre | Relancer Sandra / BFM Crypto |

@@ -1,6 +1,6 @@
 # Campagnes intervenant — ProfEduStream — V4
 
-**État : VERSION V3 RETENUE PAR CYRILLE — PROGRAMMATION MANUELLE DÉCIDÉE.**
+**État : WORKSHOPS PUBLIÉS — QUANTIQUE PARTIELLEMENT PUBLIÉ — NOSTR NON VÉRIFIABLE.**
 
 Cette version remplace les textes multicanaux V2 par deux campagnes V3 plus
 engageantes, sans modifier les vignettes, les liens suivis ni les dates :
@@ -39,10 +39,26 @@ Les quatorze redirections ont été revérifiées le 17 août 2026 en HTTP 302 v
 leurs destinations UTM exactes. Le lien du support IA demeure exclu tant qu'il
 n'est pas reçu et validé.
 
+## Preuves publiques au 29 août 2026
+
+- parcours des quatre workshops : six URLs archivées dans
+  `publications-workshops-v1.csv` — Blog, deux LinkedIn, X, Facebook et
+  Instagram ;
+- présentation quantique : quatre URLs archivées dans
+  `publications-quantique-v1.csv` — Blog, deux LinkedIn et X ;
+- Meta quantique est annoncé pour le soir du 29 août, mais reste non publié
+  tant que les URLs Facebook et Instagram ne sont pas reçues et vérifiées ;
+- aucune URL Nostr ne sera déclarée pour ces campagnes : ce canal reste
+  `NON VÉRIFIABLE` et n'est pas compté parmi les publications prouvées ;
+- les métriques Meta disponibles pour les workshops ont été consignées dans
+  l'Issue #24.
+
 ## Validation et gate
 
 - [x] version V3 retenue par Cyrille le 20 août 2026 ;
 - [ ] formulations sensibles sur la menace quantique relues par ProfEduStream ;
 - [ ] comptes, liens courts et aperçus contrôlés avant programmation ;
 - [x] programmation manuelle décidée par Cyrille selon les calendriers V3 ;
-- [ ] URLs publiques archivées dans l'Issue #24 après mise en ligne.
+- [x] six URLs publiques workshops archivées dans l'Issue #24 ;
+- [ ] URLs Meta quantique à archiver après leur mise en ligne ;
+- [x] quatre URLs publiques quantique archivées dans l'Issue #24.
