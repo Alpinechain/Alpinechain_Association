@@ -41,7 +41,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup n’a pas été publié et ne le sera pas.
 - Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
 - Renaud Lifchitz : contenus V3 et calendrier V4 préparés pour le 3 au 5 septembre dans la PR brouillon #133 ; aucune programmation ni publication n’est revendiquée avant validation et fusion.
-- Pierre Noizat : campagne intervenant V1 préparée pour le 10 au 12 septembre, avec contenu long commun Blog/Nostr, publications sociales, calendrier, liens proposés à créer et script Reel HeyGen ; relecture humaine obligatoire.
+- Pierre Noizat : campagne intervenant V1 préparée dans la PR brouillon #140 pour le 10 au 12 septembre, avec contenu long commun Blog/Nostr, publications sociales, calendrier, liens proposés à créer et script Reel HeyGen ; relecture humaine obligatoire.
 - Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
 - Atelier multisig du 2 septembre : salle Refuge et page publique confirmées ; campagne J-10 → Jour J programmée en majorité, publication non vérifiée. La présentation Gamma, le test de bout en bout, le matériel et le plan de repli restent à finaliser dans #6.
 
