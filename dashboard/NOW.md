@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-08-29
+Date de dernière mise à jour : 2026-08-31
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -11,8 +11,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ## Priorités actives
 
 1. **Sécuriser l’atelier multisig et Disaster Recovery du 2 septembre** : à J-3, relire/exporter Gamma, tester BlueWallet + BitBox + Sparrow de bout en bout, confirmer le matériel et le plan de repli, puis archiver les URLs réellement publiées dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
-2. **Finaliser les preuves B-Only du 29 août** : Aurore et les workshops ProfEduStream disposent chacun de six URLs archivées ; la campagne quantique en possède quatre et attend encore Facebook et Instagram. Aucune nouvelle URL Nostr ne sera déclarée pour ces vagues : ce canal reste `NON VÉRIFIABLE`. la campagne V2 de Polto et Darko reste à relire avant sa séquence du 7 au 9 septembre.
-3. **Relire la campagne Renaud Lifchitz** : la [PR #133](https://github.com/Alpinechain/Alpinechain_Association/pull/133) est encore en brouillon et en conflit, sans validation ni contrôles CI ; sa séquence n’est donc ni validée, ni programmée, ni publiée.
+2. **Finaliser les preuves B-Only du 29 août** : Aurore et les workshops ProfEduStream disposent chacun de six URLs archivées ; la campagne quantique en possède quatre et attend encore Facebook et Instagram. Aucune nouvelle URL Nostr ne sera déclarée pour ces vagues : ce canal reste `NON VÉRIFIABLE`. La campagne V2 de Polto et Darko reste à relire dans la [PR #138](https://github.com/Alpinechain/Alpinechain_Association/pull/138) avant sa fenêtre proposée du 7 au 9 septembre.
+3. **Finaliser la campagne Renaud Lifchitz** : la [PR #133](https://github.com/Alpinechain/Alpinechain_Association/pull/133) reste en brouillon ; ses contenus et son calendrier V4 sont préparés, mais la séquence n’est ni programmée ni publiée.
 4. **Suivre les relais sans présumer leur validation** : la prospection partenaires et médias du 28 août est réalisée, mais le mécanisme de 5 € par billet reste une proposition en attente de qualification comptable, juridique et humaine dans [#61](https://github.com/Alpinechain/Alpinechain_Association/issues/61).
 5. **Planifier la maintenance et la gouvernance des accès** : des correctifs de sécurité sont disponibles et restent suivis dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96), sans application pendant la revue ; la MFA, la récupération Framer et le transfert de `b-only.org` restent ouverts dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
 
@@ -26,6 +26,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Alexandre Stachtchenko et Alexis Roussel échangent leurs créneaux : Alexandre est confirmé et rendu public samedi 7 novembre de 15 h à 15 h 50 sous le libellé provisoire « Responsable Stratégie - Bitstack », sans révéler le titre de sa présentation ; Alexis reste lundi 9 novembre de 11 h à 11 h 50.
 - Sandra Gandoin reste dimanche à 16 h 30.
 - Aurore Galves et les six interventions ProfEduStream confirmées ont été rendues publiques dans le programme par les PR #129 et #135.
+- La PR #141 a placé le quiz samedi 7 novembre de 18 h à 18 h 50 et Lionel Jeannerat dimanche 8 novembre de 18 h 30 à 19 h 20 ; les deux entrées restent `reserved/internal`.
 - La source contient 29 entrées : 16 `confirmed`, dont 13 publiques ; 2 entrées fixes publiques, 1 option interne et 10 réservations internes.
 - Le programme reste en état `draft` : la source est publiée, mais les créneaux non confirmés restent provisoires.
 
@@ -41,6 +42,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup n’a pas été publié et ne le sera pas.
 - Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
 - Renaud Lifchitz : contenus V3 et calendrier V4 préparés pour le 3 au 5 septembre dans la PR brouillon #133 ; aucune programmation ni publication n’est revendiquée avant validation et fusion.
+- Pierre Noizat : campagne V1 préparée dans la PR brouillon #140 pour le 10 au 12 septembre ; relecture et création/vérification des liens requises avant programmation.
 - Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
 - Atelier multisig du 2 septembre : salle Refuge et page publique confirmées ; campagne J-10 → Jour J programmée en majorité, publication non vérifiée. La présentation Gamma, le test de bout en bout, le matériel et le plan de repli restent à finaliser dans #6.
 
