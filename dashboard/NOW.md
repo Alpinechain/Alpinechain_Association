@@ -11,8 +11,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ## Priorités actives
 
 1. **Sécuriser l’atelier multisig et Disaster Recovery du 2 septembre** : à J-3, relire/exporter Gamma, tester BlueWallet + BitBox + Sparrow de bout en bout, confirmer le matériel et le plan de repli, puis archiver les URLs réellement publiées dans [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6).
-2. **Finaliser les preuves B-Only du 29 août** : Aurore et les workshops ProfEduStream disposent chacun de six URLs archivées ; la campagne quantique en possède quatre et attend encore Facebook et Instagram. Aucune nouvelle URL Nostr ne sera déclarée pour ces vagues : ce canal reste `NON VÉRIFIABLE`. La campagne V2 de Polto et Darko reste à relire dans la [PR #138](https://github.com/Alpinechain/Alpinechain_Association/pull/138) avant sa fenêtre proposée du 7 au 9 septembre.
-3. **Relire la campagne Renaud Lifchitz** : la [PR #133](https://github.com/Alpinechain/Alpinechain_Association/pull/133) est resynchronisée et fusionnable, mais reste en brouillon sans validation finale ; sa séquence n’est donc ni programmée ni publiée.
+2. **Suivre les campagnes B-Only programmées** : Renaud Lifchitz est relu et programmé du 3 au 5 septembre ; Polto et Darko sont relus et programmés du 7 au 9 septembre. Archiver les URLs publiques après chaque diffusion sans les déclarer publiées à l’avance.
+3. **Programmer Pierre Noizat** : la campagne de la [PR #140](https://github.com/Alpinechain/Alpinechain_Association/pull/140) est relue et `PRÊTE À PROGRAMMER` pour le 10 au 12 septembre ; créer et vérifier les sept vouchers Pretix et alias courts avant programmation.
 4. **Suivre les relais sans présumer leur validation** : la prospection partenaires et médias du 28 août est réalisée, mais le mécanisme de 5 € par billet reste une proposition en attente de qualification comptable, juridique et humaine dans [#61](https://github.com/Alpinechain/Alpinechain_Association/issues/61).
 5. **Planifier la maintenance et la gouvernance des accès** : des correctifs de sécurité sont disponibles et restent suivis dans [Serveur #96](https://github.com/Alpinechain/Serveur/issues/96), sans application pendant la revue ; la MFA, la récupération Framer et le transfert de `b-only.org` restent ouverts dans [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45).
 
@@ -36,13 +36,14 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Paymium : campagne V2 publiée sur sept canaux ; URLs et métriques disponibles archivées le 24 août, rappel d’octobre suivi séparément.
 - La campagne Bitstack V2 a été publiée manuellement le 11 août sur sept canaux ; URLs et métriques disponibles archivées, campagne clôturée le 24 août.
 - La campagne multicanale V4 d’Élodie Lué est publiée sur sept canaux ; les URLs LinkedIn et les dates X/Meta ont été corrigées le 29 août, et les métriques X, LinkedIn et Meta disponibles sont relevées dans #24.
-- Polto et Darko : vignette V1 validée le 16 août ; campagne multicanale V2, article Blog et calendrier du 7 au 9 septembre préparés dans la PR brouillon #138, avec relecture humaine requise avant programmation.
+- Polto et Darko : campagne V2 relue et programmée du 7 au 9 septembre ; les URLs resteront à archiver après diffusion.
 - ProfEduStream workshops : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
-- ProfEduStream quantique : quatre URLs archivées — Blog, deux LinkedIn et X — ; Facebook et Instagram restent à confirmer après diffusion, Nostr reste `NON VÉRIFIABLE` et la relecture sensible demeure à tracer.
+- ProfEduStream quantique : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram —, toutes vérifiées en HTTP 200 ; Nostr reste `NON VÉRIFIABLE` et la relecture sensible demeure à tracer.
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup n’a pas été publié et ne le sera pas.
 - Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
-- Renaud Lifchitz : contenus V3 et calendrier V4 préparés pour le 3 au 5 septembre dans la PR brouillon #133 ; aucune programmation ni publication n’est revendiquée avant validation et fusion.
-- Pierre Noizat : campagne intervenant V1 préparée dans la PR brouillon #140 pour le 10 au 12 septembre ; contenus et calendrier sont `PRÊTS À RELIRE`, mais les sept vouchers Pretix et alias courts restent à créer et vérifier avant programmation.
+- Renaud Lifchitz : contenus V3 relus et programmés du 3 au 5 septembre ; Nostr reste manuel avec un rappel le 5 septembre à 12 h 15. Aucune publication n’est revendiquée avant archivage de son URL publique.
+- Pierre Noizat : campagne intervenant V1 relue et `PRÊTE À PROGRAMMER` pour le 10 au 12 septembre ; les sept vouchers Pretix et alias courts restent à créer et vérifier avant programmation.
+- Planning suivant validé : Christine Jeanneaux du 14 au 16 septembre ; workshop Élodie Lué du 21 au 23 septembre ; Jean du 26 au 28 octobre. La vague « guide des workshops et prérequis » est supprimée.
 - L’inversion Lionel/quiz n’exige aucune correction de publication déjà diffusée : aucune preuve publique archivée ne contient ces deux créneaux. Toute future campagne Lionel devra reprendre le dimanche 8 novembre, 18 h 30–19 h 20 ; aucune vague dédiée au quiz n’est actuellement planifiée.
 - Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
 - Atelier multisig du 2 septembre : salle Refuge et page publique confirmées ; campagne J-10 → Jour J programmée en majorité, publication non vérifiée. La présentation Gamma, le test de bout en bout, le matériel et le plan de repli restent à finaliser dans #6.
@@ -89,10 +90,10 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 |---|---|
 | À planifier | Valider une nouvelle fenêtre de maintenance pour les correctifs de sécurité AlmaLinux dans Serveur #96, avec sauvegarde récente et rollback |
 | 30 août | Finaliser le contrôle J-3 de l’atelier : test technique, matériel, supports hors ligne, participants attendus et plan de repli dans #6 |
-| 31 août | Archiver les URLs Facebook et Instagram de la campagne quantique si elles sont disponibles ; réconcilier les PR #133, #138 et #140 avec le planning courant |
-| Avant le 3 septembre | Faire relire la PR #133 et décider de la campagne Renaud ; aucune programmation avant validation/fusion |
-| Avant le 7 septembre | Relire la campagne V2 de Polto et Darko dans la PR #138 ; aucune programmation avant validation |
-| Avant le 10 septembre | Relire la campagne Pierre Noizat dans la PR #140 et créer puis tester ses sept vouchers Pretix et alias courts |
+| 31 août | Preuves Meta quantiques archivées ; synchroniser les PR #133, #138 et #140 avec les validations de programmation |
+| 3–5 septembre | Diffusion programmée de Renaud ; archiver les URLs après publication réelle |
+| 7–9 septembre | Diffusion programmée de Polto et Darko ; archiver les URLs après publication réelle |
+| Avant le 10 septembre | Programmer Pierre Noizat après création et test de ses sept vouchers Pretix et alias courts |
 | En attente | Relance Cryptoast effectuée auprès de Marius le 20 août ; attendre sa réponse sur le giveaway et la fenêtre de septembre |
 | 1er septembre | Relancer Sandra / BFM Crypto |
 | 2 septembre | Atelier multisig et Disaster Recovery |
