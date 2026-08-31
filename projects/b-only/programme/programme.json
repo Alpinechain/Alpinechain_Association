@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-24T17:09:36Z",
+    "updatedAt": "2026-08-31T09:54:11Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -160,9 +160,9 @@
     },
     {
       "id": "sat-main-lionel",
-      "date": "2026-11-07",
-      "start": "18:00",
-      "end": "18:50",
+      "date": "2026-11-08",
+      "start": "18:30",
+      "end": "19:20",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
@@ -386,9 +386,9 @@
     },
     {
       "id": "sun-workshop-quiz",
-      "date": "2026-11-08",
-      "start": "18:30",
-      "end": "19:20",
+      "date": "2026-11-07",
+      "start": "18:00",
+      "end": "18:50",
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
