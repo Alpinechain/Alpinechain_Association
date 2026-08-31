@@ -1,6 +1,6 @@
 # Registre des participants et assets — B-Only 2026
 
-Dernière mise à jour : 2026-08-17
+Dernière mise à jour : 2026-08-31
 
 ## Rôle
 
@@ -32,12 +32,13 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Sandra Gandoin | Speaker / journaliste | BFM Business | — | — | — | — | `sandra-gandoin-932914127` | — | — | — | Journaliste BFM Business |
 | Élodie Lué | Speaker + workshop | Effet 21 Conseil ; Podcast Effet 21 | ✓ | — | via Linktree | — | via Linktree | via Linktree | — | YouTube + TikTok via Linktree `elodielue` | Liens directs à relever |
 | Hubert « Hub » Pineau | Présentation partenaire | Le Cercle du Coin | — | ✓ | — | — | `hubert-pineau` | — | — | — | Coordinateur opérationnel du Cercle du Coin |
+| Laure Merlin | Workshop + keynote partenaire | Le Cercle du Coin | — | ✓ | — | — | — | — | — | — | Atelier Bitcoin Lego le dimanche ; présentation du Cercle et keynote le lundi |
 | Jean — identité à compléter | Workshop / Pleb Forum | ? | — | ? | — | — | — | — | — | — | Nom complet nécessaire |
 | Michel Khazzaka | Speaker | Valuechain Consulting | — | ? | `@kneisseh` | — | `khazzaka` | — | — | — | Fondateur de Valuechain Consulting confirmé publiquement |
 | Alexis Roussel | Speaker | Nym ; Bity ; conseiller Hodling SA | — | ? | `@alexis_roussel` | `npub158d7zqnl36ze3gmyv4kedezvla3z3rvgsfpap83drqrywswwvc8skw9kx0` | `alexis-roussel-01993143` | — | — | Mastodon `@alexis_roussel@piratenpartei.social` ; `nym.com` | — |
 | Alexandre Poltorak « Polto » | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | `@_polto_` | — | `polto` | — | — | — | Identité confirmée Hodling SA |
 | Darko Gasic | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | — | — | — | — | — | — | Comptes à compléter |
-| Schnuartz | Workshop | Specter DIY ; ClavaStack | — | ? | `@Schnuartz` | — | — | — | — | Linktree `schnuartz` ; `clavastack.com` | — |
+| Schnuartz | Workshop remplacé | Specter DIY ; ClavaStack | — | ? | `@Schnuartz` | — | — | — | — | Linktree `schnuartz` ; `clavastack.com` | Le workshop Specter est remplacé dans le programme le 2026-08-31 |
 | Noé | Workshop | WeSatoshis ? | — | — | — | — | — | — | — | — | Identité/affiliation à confirmer |
 
 ## Artistes, marchands et exposants
@@ -58,7 +59,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Organisation | Catégorie | Logo | Personne liée | Réseaux / site connus |
 |---|---|---|---|---|
 | Paymium | Partenaire | ✓ | Pierre Noizat | — |
-| Cercle du Coin | Partenaire | ✓ | Hubert Pineau | — |
+| Cercle du Coin | Partenaire | ✓ | Laure Merlin ; Hubert Pineau | — |
 | Bitstack | Partenaire | ✓ | Alexandre Stachtchenko | — |
 | Cryptoast | Soutien média | ✓ plusieurs variantes | Marius Farashi Tasooji | — |
 | Bitcoin.fr | Soutien média | ✓ | à identifier | — |

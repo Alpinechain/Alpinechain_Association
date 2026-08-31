@@ -37,11 +37,11 @@ la modération, aux réponses et à l'observation des premiers résultats.
 | 14–19 septembre | **14–16 septembre — Christine Jeanneaux** : « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | `PRÊT À PROGRAMMER` — campagne V4 validée ; remplace la vague workshop Élodie | **17–19 septembre — Alexandre Stachtchenko** | `À COMPLÉTER` — sujet, titre, portrait et contenu manquants |
 | 21–26 septembre | **21–23 septembre — Élodie Lué** : « Paiements via Lightning Network » | `À PRODUIRE` — remplace Jean ; modalités des commerçants à préciser | **24–26 septembre — Florent Gabriel** | `À COMPLÉTER` — titre et contenu manquants |
 | 28 septembre–3 octobre | **28–30 septembre — Marius Farashi** : Ark et solutions de seconde couche | `À COMPLÉTER` | **1er–3 octobre — Lionel Jeannerat** : « Bitcoin est pour les copaines » | `À COMPLÉTER` |
-| 5–10 octobre | **5–7 octobre — Schnuartz** : Specter Workshop | `À COMPLÉTER` | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
+| 5–10 octobre | **5–7 octobre — Laure Merlin** : « Atelier Bitcoin Lego » | `À COMPLÉTER` — remplace le workshop Specter de Schnuartz ; portrait et détails pratiques à obtenir | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
 | 12–17 octobre | **12–14 octobre — Noé / WeSatoshis** | `À COMPLÉTER` | **15–17 octobre — Michel Khazzaka** | `À COMPLÉTER` |
 | 19–24 octobre | **19–21 octobre — rappel des workshops pratiques** | `À CADRER` | **22–24 octobre — Alexis Roussel** | `À COMPLÉTER` |
 | 26–31 octobre | **26–28 octobre — Jean** : achat de bitcoin de manière privée | `À COMPLÉTER` — remplace la vague « guide des workshops », supprimée | **29–31 octobre — Sandra Gandoin** | `EN ATTENTE` — participation et sujet à confirmer |
-| 2–6 novembre | **2–4 novembre — dernier rappel des workshops** | `À CADRER` | **5–6 novembre — Le Cercle du Coin** : « Une communauté autour de Bitcoin & Souveraineté » | `À PRODUIRE` — présentation uniquement |
+| 2–6 novembre | **2–4 novembre — dernier rappel des workshops** | `À CADRER` | **5–6 novembre — Le Cercle du Coin avec Laure Merlin** : présentation du Cercle, puis keynote « Comment faire communauté » | `À PRODUIRE` — session du lundi 9 novembre, 9 h–10 h |
 
 ## Déroulé type d'une vague complète
 
