@@ -1,6 +1,6 @@
 # Polto et Darko — publications multicanales — V2
 
-**État : PRÊT À RELIRE — validation humaine obligatoire avant programmation.**
+**État : VALIDÉ / PROGRAMMÉ — diffusion du 7 au 9 septembre 2026.**
 
 ## Références
 
@@ -291,9 +291,9 @@ identifie comme intervenants.
 ## Gate avant programmation
 
 - [x] identité, organisation, sujet et vignette déjà validés ;
-- [ ] textes V2 relus par Cyrille ;
-- [ ] formulations liées aux demandes bancaires et notariales validées ;
-- [ ] calendrier V2 validé ;
-- [ ] comptes émetteurs et aperçus contrôlés ;
-- [ ] sept liens courts testés ;
+- [x] textes V2 relus par Cyrille ;
+- [x] formulations liées aux demandes bancaires et notariales validées ;
+- [x] calendrier V2 validé ;
+- [x] comptes émetteurs et aperçus contrôlés ;
+- [x] sept liens courts testés ;
 - [ ] URLs publiques archivées dans l'issue #24 après diffusion.

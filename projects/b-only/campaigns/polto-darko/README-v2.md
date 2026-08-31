@@ -1,6 +1,6 @@
 # Campagne intervenants — Polto et Darko — V2
 
-**État : PRÊT À RELIRE — aucune programmation avant validation humaine.**
+**État : PROGRAMMÉ — diffusion du 7 au 9 septembre 2026.**
 
 ## Angle retenu
 
@@ -16,7 +16,7 @@ Le contenu reste sérieux sur le fond, mais les outils techniques passent au
 second plan. La promesse éditoriale est de rendre la démarche compréhensible et
 moins anxiogène.
 
-## Fichiers proposés comme actifs après validation
+## Fichiers actifs validés
 
 - `contenus-multicanaux-v2.md` ;
 - `article-blog-v2.md` ;
@@ -25,7 +25,7 @@ moins anxiogène.
 
 La V1 reste archivée et ne doit pas être programmée en parallèle.
 
-## Calendrier proposé
+## Calendrier programmé
 
 La séquence est placée du **7 au 9 septembre 2026** :
 
@@ -40,8 +40,8 @@ Pierre Noizat du 10 au 12 septembre.
 
 - [x] sujet, intervenants, organisation et vignette validés ;
 - [x] sept liens de campagne existants conservés ;
-- [ ] contenus V2 relus par Cyrille ;
-- [ ] calendrier V2 validé ;
-- [ ] formulations sensibles validées ;
-- [ ] comptes, visuels et aperçus contrôlés avant programmation ;
+- [x] contenus V2 relus par Cyrille ;
+- [x] calendrier V2 validé ;
+- [x] formulations sensibles validées ;
+- [x] comptes, visuels et aperçus contrôlés avant programmation ;
 - [ ] URLs publiques et métriques archivées dans l'issue #24 après diffusion.
