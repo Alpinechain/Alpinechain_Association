@@ -1,6 +1,6 @@
 # Campagne intervenant — Pierre Noizat — V1
 
-**État : PRÊT À RELIRE — liens courts à créer ou vérifier avant programmation.**
+**État : PRÊT À PROGRAMMER — liens courts à créer et vérifier avant programmation.**
 
 Cette campagne est consacrée à l'intervention de Pierre Noizat. Elle reste
 strictement distincte de la campagne partenaire Paymium déjà diffusée.
@@ -14,7 +14,7 @@ L'objectif n'est pas de résumer la présentation avant l'événement, mais d'ou
 une question assez forte pour donner envie de venir écouter et discuter avec
 Pierre Noizat.
 
-## Fichiers proposés comme actifs après validation
+## Fichiers actifs validés
 
 - `contenus-multicanaux-v1.md` ;
 - `article-blog-nostr-v1.md` — texte long commun au Blog et à Nostr ;
@@ -28,7 +28,7 @@ Le Blog et Nostr utilisent le même contenu long. Seuls le lien suivi final et
 les éléments techniques propres à la plateforme peuvent varier. Il n'est pas
 utile d'entretenir deux versions éditoriales presque identiques.
 
-## Calendrier proposé
+## Calendrier validé
 
 - jeudi 10 septembre : Blog, Nostr puis LinkedIn AlpineChain ;
 - vendredi 11 septembre : LinkedIn Annecy Bitcoin Meetup puis X ;
@@ -40,9 +40,9 @@ utile d'entretenir deux versions éditoriales presque identiques.
 - [x] campagne distincte de la communication partenaire Paymium ;
 - [x] contenu long commun Blog/Nostr préparé ;
 - [x] script Reel HeyGen préparé ;
-- [ ] contenus relus par Cyrille ;
-- [ ] formulations sensibles relues par Pierre Noizat ;
+- [x] contenus relus par Cyrille le 31 août 2026 ;
+- [x] formulations sensibles relues dans le cadre de la validation humaine ;
 - [ ] sept vouchers Pretix et sept alias courts créés puis testés ;
-- [ ] calendrier validé ;
-- [ ] comptes, visuels et aperçus contrôlés avant programmation ;
+- [x] calendrier validé ;
+- [x] comptes, visuels et aperçus contrôlés avant programmation ;
 - [ ] URLs publiques archivées dans l'issue #24 après diffusion.

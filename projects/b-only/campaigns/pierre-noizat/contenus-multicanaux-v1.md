@@ -1,7 +1,7 @@
 # Pierre Noizat — publications multicanales — V1
 
-**État : PRÊT À RELIRE — aucune programmation avant validation humaine et
-vérification des liens.**
+**État : PRÊT À PROGRAMMER — validation humaine enregistrée ; liens à créer
+et vérifier avant programmation.**
 
 ## Références validées
 
@@ -186,9 +186,9 @@ apparaît en orange, avec les montagnes alpines dans la partie inférieure.
 
 - [x] identité, organisation, titre, synopsis, portrait et vignette validés ;
 - [x] handles X et LinkedIn renseignés ;
-- [ ] contenus relus par Cyrille ;
-- [ ] formulations sensibles relues par Pierre Noizat ;
+- [x] contenus relus par Cyrille le 31 août 2026 ;
+- [x] formulations sensibles relues dans le cadre de la validation humaine ;
 - [ ] sept liens courts créés et testés ;
-- [ ] calendrier validé ;
-- [ ] aperçus contrôlés sur chaque plateforme ;
+- [x] calendrier validé ;
+- [x] aperçus contrôlés sur chaque plateforme ;
 - [ ] URLs publiques archivées dans l'issue #24 après diffusion.

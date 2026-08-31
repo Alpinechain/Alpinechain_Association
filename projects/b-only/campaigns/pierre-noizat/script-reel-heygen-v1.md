@@ -1,6 +1,6 @@
 # Script Reel HeyGen — Pierre Noizat — V1
 
-**État : PRÊT À RELIRE — script uniquement, aucune vidéo générée.**
+**État : VALIDÉ — script uniquement, aucune vidéo générée.**
 
 ## Paramètres
 

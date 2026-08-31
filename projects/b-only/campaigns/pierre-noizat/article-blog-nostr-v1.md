@@ -1,6 +1,6 @@
 # Énergie, monnaie et civilisation : pourquoi Bitcoin oblige à reprendre la question depuis le début
 
-**État : PRÊT À RELIRE — texte commun au Blog et à Nostr.**
+**État : VALIDÉ / PRÊT À PROGRAMMER — texte commun au Blog et à Nostr.**
 
 Bitcoin consomme de l'énergie.
 
