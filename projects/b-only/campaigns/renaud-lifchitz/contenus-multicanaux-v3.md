@@ -1,6 +1,6 @@
 # Renaud Lifchitz — publications multicanales — V3
 
-**État : PRÊT À RELIRE — nouvelle validation humaine obligatoire avant programmation.**
+**État : VALIDÉ / PROGRAMMÉ — diffusion du 3 au 5 septembre 2026.**
 
 ## Éléments communs
 
@@ -311,11 +311,11 @@ communiquer ?**
 - Dépôt officiel public :
   https://github.com/markqvist/Reticulum
 
-## Validation à renouveler
+## Validation enregistrée le 31 août 2026
 
 - [x] identité, fonction, titre, créneau, portrait et vignette déjà validés ;
-- [ ] six publications sociales V3 relues et validées par Renaud et Cyrille ;
-- [ ] publication Nostr longue relue et validée ;
-- [ ] article Blog V3 relu et validé ;
-- [ ] nouveau calendrier V4 validé ;
-- [ ] sept liens courts et aperçus contrôlés avant programmation.
+- [x] six publications sociales V3 relues et validées ;
+- [x] publication Nostr longue relue et validée ;
+- [x] article Blog V3 relu et validé ;
+- [x] nouveau calendrier V4 validé ;
+- [x] sept liens courts et aperçus contrôlés avant programmation.

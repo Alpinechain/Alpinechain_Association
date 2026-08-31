@@ -1,6 +1,6 @@
 # Reticulum : et si Internet n'était qu'un chemin parmi d'autres ?
 
-**État : PRÊT À RELIRE — nouvelle validation humaine obligatoire avant publication.**
+**État : VALIDÉ / PROGRAMMÉ — publication prévue le 3 septembre 2026.**
 
 **Nos communications semblent immatérielles. Elles reposent pourtant sur des
 câbles, des antennes, des opérateurs et des points de contrôle que nous ne

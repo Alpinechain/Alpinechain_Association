@@ -1,6 +1,6 @@
 # Campagne intervenant — Renaud Lifchitz — V6
 
-**État : PUBLICATIONS PRÉPARÉES — Nostr reste à publier manuellement.**
+**État : PROGRAMMÉ — Nostr reste à publier manuellement.**
 
 Cette version remplace le positionnement descriptif des contenus V2 par une
 campagne centrée sur la reprise en main des infrastructures de communication :
@@ -27,16 +27,16 @@ AlpineChain « Multisig et Disaster Recovery ».
 - vendredi 4 septembre : LinkedIn Annecy Bitcoin Meetup puis X ;
 - samedi 5 septembre : Nostr, Facebook puis Instagram.
 
-La campagne Christine Jeanneaux initialement prévue du 3 au 5 septembre doit
-être décalée avant programmation.
+La campagne Christine Jeanneaux initialement prévue du 3 au 5 septembre est
+recalée du 14 au 16 septembre.
 
-## État de préparation enregistré le 23 août 2026
+## État de programmation validé le 31 août 2026
 
-- [x] textes sociaux V3 retenus par Cyrille ;
-- [x] Nostr long et article Blog V3 retenus ;
-- [x] calendrier V4 retenu ;
+- [x] textes sociaux V3 relus et validés ;
+- [x] Nostr long et article Blog V3 relus et validés ;
+- [x] calendrier V4 validé ;
 - [x] Blog, LinkedIn AlpineChain, LinkedIn Annecy Bitcoin Meetup, X, Facebook
-  et Instagram préparés pour leurs créneaux ;
+  et Instagram programmés pour leurs créneaux ;
 - [x] rappel personnel programmé le 5 septembre 2026 à 12 h 15,
   `Europe/Paris`, pour la publication Nostr ;
 - [ ] publication Nostr à effectuer manuellement ;
@@ -44,8 +44,8 @@ La campagne Christine Jeanneaux initialement prévue du 3 au 5 septembre doit
 
 ## Gate
 
-- [x] contenus V3 et calendrier V4 retenus par Cyrille ;
-- [x] sept liens courts conservés ;
-- [x] préparation manuelle autorisée ;
-- [ ] contrôler chaque aperçu au moment de sa mise en ligne ;
+- [x] contenus V3 et calendrier V4 validés ;
+- [x] sept liens courts conservés et contrôlés ;
+- [x] programmation validée ;
+- [x] aperçus contrôlés avant programmation ;
 - [ ] URLs publiques archivées dans l'Issue #24 après diffusion.
