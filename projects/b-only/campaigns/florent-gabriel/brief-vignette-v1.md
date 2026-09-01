@@ -24,6 +24,8 @@ n’est autorisée.**
 - `Blobb.io` écrit en texte simple, sans symbole, icône ni traitement de logo ;
 - mention `CEO & CO-FOUNDER —` légèrement plus petite et `Blobb.io`
   légèrement plus grand sur la même ligne ;
+- portrait réintégré depuis la photo originale pour éviter la pixellisation
+  observée sur la V4 ;
 - silhouette alpine sombre dans la partie basse.
 
 ## Fichiers Nextcloud
@@ -34,8 +36,8 @@ n’est autorisée.**
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-noir-jaune--2026-09-01--source.png` et
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-contour--2026-09-01--source.png` ;
 - export carré brouillon :
-  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--brouillon-v4.png` ;
-- versions V1 à V3 conservées pour traçabilité dans le même dossier.
+  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--brouillon-v5.png` ;
+- versions V1 à V4 conservées pour traçabilité dans le même dossier.
 
 ## Texte alternatif proposé
 
