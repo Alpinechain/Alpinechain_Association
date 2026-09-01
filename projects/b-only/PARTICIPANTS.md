@@ -1,6 +1,6 @@
 # Registre des participants et assets — B-Only 2026
 
-Dernière mise à jour : 2026-08-17
+Dernière mise à jour : 2026-09-01
 
 ## Rôle
 
@@ -26,7 +26,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Renaud Lifchitz | Workshop technique | Sharekey / Enforcis historique | ✓ | — | `@nono2357` | `npub1renaud65zug8r570ndztde2xhk206z3v50a5mwa3kp2xshy3zmjqkqaw97` | `renaudlifchitz` | — | `renaudl` (privé) | — | Portrait/vignette 2026 validés |
 | Nicolas Cantu | Speaker | 4NK.Organic / BTC Villages | ✓ | ✓ | `@NicolasCantuBk` | `npub18s03s39fa80ce2n3cmm0zme3jqehc82h6ld9sxq03uejqm3d05gsae0fuu` | `nicolascantuinnovationresilience` | N/A | N/A | `btcvillages.com` | BTC Villages confirmé publiquement |
 | ProfEduStream | Speaker + sessions pédagogiques | ProfEduStream | ✓ | ? | `@ProfEduStream` | — | — | — | — | YouTube `@ProfEduStream` | X et YouTube validés |
-| Florent Gabriel | Speaker | Blobb.io | — | ? | `@Florentgabriel` ; société `@blobb_io` | — | `florentgabriel` | `@florentgabriel21` ; société `@blobb_io` | `florent.gabrielgarcia` ; page Blobb `61565344988989` | `blobb.io` | Cofondateur/CEO Blobb.io confirmé publiquement |
+| Florent Gabriel | Speaker | Blobb.io | ✓ | ✓ | `@Florentgabriel` ; société `@blobb_io` | — | `florentgabriel` | `@florentgabriel21` ; société `@blobb_io` | `florent.gabrielgarcia` ; page Blobb `61565344988989` | `blobb.io` | CEO et cofondateur de Blobb.io ; portrait et deux logos sources reçus le 2026-09-01 |
 | Lionel Jeannerat | Speaker | PVH Éditions ; Be-BOP | — | — | — | — | — | — | — | — | À compléter |
 | Christine Jeanneaux | Speaker | ESDES Business School | ✓ | ? | — | — | `christine-jeanneaux` | — | — | — | LinkedIn/ESDES vérifiés |
 | Sandra Gandoin | Speaker / journaliste | BFM Business | — | — | — | — | `sandra-gandoin-932914127` | — | — | — | Journaliste BFM Business |
@@ -63,7 +63,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Cryptoast | Soutien média | ✓ plusieurs variantes | Marius Farashi Tasooji | — |
 | Bitcoin.fr | Soutien média | ✓ | à identifier | — |
 | GALLION | Organisation liée | ✓ | Aurore Galves Orjol | LinkedIn entreprise confirmé |
-| Blobb.io | Organisation liée | ? | Florent Gabriel | X `@blobb_io` ; Instagram `@blobb_io` ; `blobb.io` |
+| Blobb.io | Organisation liée | ✓ | Florent Gabriel | X `@blobb_io` ; Instagram `@blobb_io` ; `blobb.io` |
 | BTC Villages | Organisation liée | ? | Nicolas Cantu | `btcvillages.com` ; LinkedIn entreprise confirmé |
 | 4NK.Organic | Organisation liée | ✓ | Nicolas Cantu | — |
 | Hodling SA | Organisation liée | ✓ | Alexandre Poltorak, Darko Gasic | — |
