@@ -1,12 +1,15 @@
-# Campagne Florent Gabriel — contenus multicanaux V2
+# Campagne Florent Gabriel — contenus multicanaux V3
 
 **État : PRÊT À RELIRE — validation humaine obligatoire avant programmation.**
 
-Cette version conserve la question validée et adopte un ton plus engageant,
-direct et légèrement décalé. Elle n'attribue à Florent Gabriel aucune thèse ni
-aucun contenu détaillé tant que le synopsis n'a pas été reçu. Le créneau et la
-salle restent absents des textes publics puisque la session est encore
-`confirmed/internal`.
+Cette version applique les règles éditoriales les plus récentes :
+- Blog et Nostr utilisent le **même texte long**, supérieur à 1 500 caractères ;
+- X peut aller jusqu'à **240 caractères**, lien compris ;
+- les autres réseaux conservent une adaptation propre à leur usage ;
+- aucun contenu détaillé n'est attribué à Florent Gabriel tant que son synopsis
+  n'a pas été reçu ;
+- le créneau et la salle restent absents des textes publics puisque la session
+  est encore `confirmed/internal`.
 
 ## Cadrage
 
@@ -16,45 +19,101 @@ salle restent absents des textes publics puisque la session est encore
 - Fonction affichée : CEO & co founder Blobb.io
 - Présentation : « L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »
 - Événement : B-Only'26, à Annecy, du 7 au 9 novembre 2026
-- Public : communautés Bitcoin francophones et personnes qui interrogent les
-  effets de l'IA sur les outils, les pratiques et la souveraineté
-- Objectif : faire connaître l'intervenant et donner envie de participer à la
-  discussion
+- Objectif : présenter Florent et donner envie de venir écouter puis discuter
+  cette question
 - CTA : réserver une place pour B-Only'26
 - Billetterie officielle : https://join.alpinechain.xyz/org/bonly26/
 - Visuel : vignette V5 validée le 1er septembre 2026
 
-Les liens courts ci-dessous sont des alias proposés. Ils doivent être créés et
-vérifiés avant toute programmation ; à défaut, utiliser la billetterie
-officielle sans prétendre disposer d'un suivi par canal.
+Les liens courts sociaux restent des alias proposés à créer et vérifier avant
+programmation. Le texte commun Blog / Nostr utilise volontairement la
+billetterie officielle afin de rester strictement identique sur les deux
+supports.
 
 ## Angle éditorial
 
-Bitcoin dit : « Ne faites pas confiance, vérifiez. » L'IA répond parfois avec
-beaucoup d'assurance, y compris lorsqu'il faudrait peut-être vérifier deux
-fois.
+Bitcoin préfère les règles simples, vérifiables et prévisibles.
+L'IA, elle, peut produire en quelques secondes une réponse très convaincante —
+y compris quand elle aurait mérité d'être vérifiée deux fois.
 
-La campagne joue sur ce contraste sans annoncer la réponse de Florent Gabriel :
-outil formidable, nouvelle dépendance ou mélange des deux ? L'humour sert à
-ouvrir la discussion, pas à inventer sa conclusion.
+La campagne part de ce contraste pour poser la question validée de Florent sans
+inventer sa réponse.
 
-## LinkedIn — AlpineChain
+## Blog + Nostr — texte long identique
 
-Bitcoin dit : « Ne faites pas confiance, vérifiez. »
+### L’IA est-elle en train de sauver ou de tuer de Bitcoin ?
 
-L'IA répond parfois : « Faites-moi confiance, j'ai mis la réponse en gras. »
+Bitcoin a une petite manie : demander des preuves.
 
-Entre les deux, il y a une question assez sérieuse pour mériter mieux qu'une
-réponse générée en trois secondes.
+L'intelligence artificielle en a une autre : répondre vite, beaucoup, et parfois
+avec une assurance remarquable.
 
-Florent Gabriel, CEO & co founder Blobb.io, rejoint B-Only'26 pour la poser :
+Forcément, quand les deux mondes se rencontrent, quelques questions apparaissent.
+
+Depuis quelques années, l'IA s'invite partout. Elle écrit, analyse, automatise,
+classe, résume, assiste les développeurs et promet de rendre nos outils toujours
+plus efficaces. Dans l'écosystème Bitcoin aussi, les possibilités semblent
+nombreuses.
+
+Mais Bitcoin n'est pas seulement une technologie à optimiser. Il repose aussi
+sur une idée forte : réduire les intermédiaires, vérifier plutôt que faire
+confiance et permettre à chacun de garder le contrôle.
+
+Alors que se passe-t-il lorsque l'on ajoute à cet univers des outils de plus en
+plus puissants, mais parfois opaques, centralisés ou difficiles à vérifier ?
+
+Est-ce que l'IA peut nous aider à mieux utiliser Bitcoin, mieux comprendre ses
+outils et automatiser certaines tâches ? Probablement que la question mérite
+d'être posée.
+
+Mais peut-elle aussi créer de nouvelles dépendances exactement là où Bitcoin
+cherche à en supprimer ?
+
+Et surtout : jusqu'où sommes-nous prêts à déléguer ?
+
+À B-Only'26, **Florent Gabriel, CEO & co founder de Blobb.io**, viendra ouvrir
+ce débat avec un titre qui ne prend pas beaucoup de précautions :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-Promesse d'outils plus puissants ? Nouvelle dépendance en costume futuriste ?
-Peut-être les deux.
+Pas question ici de donner sa réponse avant lui — nous n'allons tout de même
+pas demander à une IA de spoiler une conférence sur l'IA.
 
-Venez avec vos certitudes. On verra si elles survivent au débat.
+L'intérêt est justement ailleurs : confronter deux dynamiques puissantes,
+interroger ce qu'elles peuvent réellement s'apporter et réfléchir aux limites
+que nous voulons conserver.
+
+Outil formidable, nouvelle couche de dépendance, ou un peu des deux ?
+
+À chacun de venir avec ses arguments.
+
+**B-Only'26** se tiendra à Annecy du **7 au 9 novembre 2026**.
+
+🎟️ Réserver : https://join.alpinechain.xyz/org/bonly26/
+
+#Bitcoin #IA #BOnly2026 #Annecy
+
+## LinkedIn — AlpineChain
+
+Bitcoin a une petite manie : demander des preuves.
+
+L'IA en a une autre : répondre très vite et avec beaucoup d'assurance.
+
+Alors forcément, quand les deux se rencontrent, la discussion devient
+intéressante.
+
+À B-Only'26, **Florent Gabriel, CEO & co founder de Blobb.io**, viendra poser
+une question volontairement provocatrice :
+
+**« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
+
+L'IA peut-elle rendre les outils Bitcoin plus accessibles et plus efficaces ?
+Ou risque-t-elle d'introduire de nouvelles dépendances dans un système pensé
+pour justement en réduire ?
+
+Pas de réponse prémâchée ici — et surtout pas générée automatiquement.
+
+Venez avec vos arguments.
 
 📍 B-Only'26 — Annecy, du 7 au 9 novembre 2026
 
@@ -64,20 +123,23 @@ Venez avec vos certitudes. On verra si elles survivent au débat.
 
 ## LinkedIn — Annecy Bitcoin Meetup
 
-On avait déjà les débats sur les wallets, les layers, les forks et ce qu'il
-fallait mettre — ou surtout ne pas mettre — dans Bitcoin.
+On avait déjà les débats sur les wallets, les layers, les forks et les règles
+de consensus.
 
-Il ne manquait qu'une IA pour résumer tout ça avec beaucoup d'assurance.
+Il ne manquait plus que l'IA.
 
-À B-Only'26, Florent Gabriel, CEO & co founder Blobb.io, vient poser une
-question assez simple à formuler et beaucoup moins simple à trancher :
+À B-Only'26, **Florent Gabriel, CEO & co founder de Blobb.io**, viendra poser
+une question simple à écrire et nettement moins simple à trancher :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-Outil au service de notre souveraineté ? Nouvelle couche de dépendance ?
-Les deux à la fois ?
+Outil au service de notre autonomie ?
+Nouvelle dépendance en costume futuriste ?
+Un peu des deux ?
 
-Venez avec vos arguments. L'IA a probablement déjà préparé les siens.
+On pourrait demander à ChatGPT.
+
+Mais pour une fois, autant venir écouter Florent.
 
 📍 Annecy · 7–9 novembre 2026
 
@@ -87,65 +149,31 @@ Venez avec vos arguments. L'IA a probablement déjà préparé les siens.
 
 ## X
 
-**139 caractères, lien compris :**
+**Limite : 240 caractères, lien compris.**
 
 ```text
-À B-Only’26, Bitcoin dit « vérifiez ». L’IA : « faites-moi confiance ». Florent Gabriel lance le débat. https://go.alpinechain.xyz/b26-fg-x
+Bitcoin demande des preuves. L’IA répond parfois avec beaucoup d’assurance. Alors, alliée ou nouvelle dépendance ? Florent Gabriel pose la question à B-Only’26 : l’IA sauve-t-elle ou tue-t-elle Bitcoin ? https://go.alpinechain.xyz/b26-fg-x
 ```
 
 Objectif : clic vers la billetterie.
 
-## Nostr
-
-Une IA et un bitcoiner entrent dans un bar.
-
-Le bitcoiner demande une preuve.
-L'IA répond avec un paragraphe très convaincant.
-
-La discussion peut commencer.
-
-**« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
-
-Florent Gabriel, CEO & co founder Blobb.io, rejoint B-Only'26 pour ouvrir le
-débat.
-
-Parce qu'entre les promesses d'automatisation, les modèles en boîte noire et
-l'idée de souveraineté portée par Bitcoin, il y a peut-être quelques petits
-détails à discuter.
-
-L'IA peut-elle réellement renforcer nos outils sans fabriquer de nouvelles
-dépendances ?
-
-Et surtout : qu'est-ce qu'on gagne, qu'est-ce qu'on perd, et qu'est-ce qu'on
-refuse de déléguer ?
-
-Quel choix refuseriez-vous de déléguer à une IA ?
-
-Si la réponse tient en un post, tant mieux. Sinon, rendez-vous à Annecy.
-
-📍 7–9 novembre 2026
-
-🎟️ https://go.alpinechain.xyz/b26-fg-nostr
-
-#nostrfr #bitcoin #ia #bonly26
-
 ## Facebook
 
-🤖 L'IA peut écrire un poème, générer une image et vous expliquer Bitcoin avec
-beaucoup d'assurance — parfois même quand elle devrait vérifier ses sources.
+🤖 Bitcoin demande des preuves. L'IA répond parfois avec beaucoup d'assurance.
 
-Mais peut-elle réellement aider Bitcoin ?
+Alors que se passe-t-il quand les deux mondes se rencontrent ?
 
-Ou risque-t-elle au contraire d'ajouter de nouvelles dépendances là où l'on
-cherche justement à en supprimer ?
-
-Florent Gabriel, CEO & co founder Blobb.io, participera à B-Only'26 avec une
-présentation au titre qui annonce clairement le débat :
+À B-Only'26, **Florent Gabriel, CEO & co founder de Blobb.io**, viendra poser
+une question qui devrait faire discuter :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-Pas de réponse prémâchée. Les réponses toutes faites peuvent rester à la maison ;
-venez écouter, discuter et vous faire votre propre avis.
+L'IA peut-elle renforcer nos outils et notre autonomie ?
+Ou va-t-elle ajouter de nouvelles dépendances à un système conçu pour les
+réduire ?
+
+Pas de réponse prémâchée. Venez écouter, discuter et vous faire votre propre
+avis.
 
 📍 B-Only'26 — Annecy
 📅 Du 7 au 9 novembre 2026
@@ -158,24 +186,24 @@ venez écouter, discuter et vous faire votre propre avis.
 
 Source : l'IA.
 
-Ou le tuer.
+Bon… peut-être qu'on devrait vérifier.
 
-Source : probablement l'IA aussi.
-
-Florent Gabriel
-CEO & co founder Blobb.io
-
-À B-Only'26, il vient poser la question :
+À B-Only'26, **Florent Gabriel — CEO & co founder de Blobb.io** — vient poser
+la vraie question :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-IA + Bitcoin + souveraineté + quelques désaccords probables.
+Outil formidable ?
+Nouvelle dépendance ?
+Les deux ?
 
-Bref, une bonne raison de venir à Annecy.
+On pourrait demander à une IA.
+
+On préfère en débattre à Annecy.
 
 📍 7–9 novembre 2026
 
-🎟️ Lien à placer dans la bio ou le sticker :
+🎟️ Lien en bio / sticker :
 https://go.alpinechain.xyz/b26-fg-ig
 
 #Bitcoin #IA #BOnly2026 #Annecy
@@ -195,9 +223,10 @@ https://go.alpinechain.xyz/b26-fg-ig
 - [x] identité, fonction, titre affiché et visuel validés ;
 - [x] dates générales et lieu de l'événement vérifiés ;
 - [x] créneau interne volontairement absent des textes publics ;
-- [x] texte X conforme à la limite interne de 140 caractères ;
+- [x] Blog / Nostr : même texte long, supérieur à 1 500 caractères ;
+- [x] X : inférieur à 240 caractères, lien compris ;
 - [ ] synopsis reçu et cohérence des formulations confirmée ;
-- [ ] textes multicanaux relus et validés par Cyrille ;
+- [ ] textes multicanaux relus et validés ;
 - [ ] validation de Florent Gabriel recueillie si requise ;
 - [ ] droits et crédit du portrait confirmés ;
 - [ ] vouchers Pretix et liens courts créés puis vérifiés ;
