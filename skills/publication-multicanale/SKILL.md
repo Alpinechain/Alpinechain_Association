@@ -119,7 +119,7 @@ Ton communautaire ; contexte Bitcoin ou souveraineté lorsqu’il est pertinent 
 
 ### X
 
-Appliquer `docs/GUIDE_REDACTIONNEL_X.md`. Par défaut : une idée principale, formulation directe, CTA clair, limite interne de 140 caractères pour un post simple.
+Appliquer `docs/GUIDE_REDACTIONNEL_X.md`. Par défaut : une idée principale, formulation directe, CTA clair, limite interne de 240 caractères, lien compris, pour un post simple. Cette limite est un plafond et non une longueur cible.
 
 ### Instagram
 
