@@ -1,7 +1,8 @@
 # Brief vignette — Florent Gabriel — V1
 
-**État : brouillon à valider. La session reste interne et aucune publication
-n’est autorisée.**
+**État : vignette V5 validée par Cyrille le 1er septembre 2026 et utilisable
+pour les futures publications. La session reste interne ; la campagne n’est ni
+préparée, ni programmée, ni publiée.**
 
 ## Texte affiché
 
@@ -35,9 +36,10 @@ n’est autorisée.**
 - logos sources :
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-noir-jaune--2026-09-01--source.png` et
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-contour--2026-09-01--source.png` ;
-- export carré brouillon :
-  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--brouillon-v5.png` ;
-- versions V1 à V4 conservées pour traçabilité dans le même dossier.
+- export carré validé :
+  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--valide.png` ;
+- brouillons V1 à V5 archivés pour traçabilité dans
+  `2026/Archives/Versions-anterieures/03_Communication/Vignettes/Intervenants/`.
 
 ## Texte alternatif proposé
 
@@ -47,10 +49,10 @@ n’est autorisée.**
 
 ## Validation attendue
 
-- [ ] le visage et le nom sont vérifiés ;
-- [ ] la fonction et l’organisation sont validées ;
-- [ ] le titre exact est relu ;
+- [x] le visage et le nom sont vérifiés par Cyrille avec la validation de la V5 ;
+- [x] la fonction et l’organisation sont validées ;
+- [x] le titre affiché est validé avec la V5 ;
 - [ ] les droits et le crédit du portrait sont confirmés ;
 - [ ] Florent Gabriel valide la vignette et le texte alternatif ;
-- [ ] Cyrille valide la vignette ;
-- [ ] le suffixe `--valide` n’est appliqué qu’après ces validations.
+- [x] Cyrille valide la vignette le 1er septembre 2026 ;
+- [x] le suffixe `--valide` est appliqué à la version active.
