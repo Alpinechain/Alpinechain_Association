@@ -1,7 +1,7 @@
 # Guide rédactionnel X
 
-Version : V0.1  
-Dernière mise à jour : 2026-05-17
+Version : V0.2  
+Dernière mise à jour : 2026-09-01
 
 ---
 
@@ -82,13 +82,13 @@ Une publication ne doit pas seulement informer. Elle doit donner une raison clai
 
 ### Publication standard
 
-Une publication X standard doit viser 140 caractères maximum.
+Une publication X standard doit viser 240 caractères maximum.
 
 Cette limite interne force la clarté, réduit le bruit et facilite l’automatisation future.
 
 ### Publication longue
 
-Si l’idée ne tient pas correctement en 140 caractères, elle doit être découpée en thread.
+Si l’idée ne tient pas correctement en 240 caractères, elle doit être découpée en thread.
 
 Ne pas forcer une idée complexe dans une publication illisible.
 
@@ -198,7 +198,7 @@ Score minimum recommandé :
 | Critère | Point |
 |---|---:|
 | Idée claire | 1 |
-| Format 140 caractères ou thread propre | 1 |
+| Format 240 caractères ou thread propre | 1 |
 | Compréhensible hors bulle Bitcoin | 1 |
 | Aligné AlpineChain | 1 |
 | Action attendue identifiable | 1 |
@@ -227,7 +227,7 @@ Un agent IA qui produit ou relit une publication X doit :
 1. identifier l’objectif de la publication ;
 2. identifier le public cible ;
 3. identifier l’action attendue ;
-4. vérifier la limite des 140 caractères ;
+4. vérifier la limite des 240 caractères ;
 5. proposer un thread si nécessaire ;
 6. appliquer la grille de validation ;
 7. signaler les limites restantes ;
