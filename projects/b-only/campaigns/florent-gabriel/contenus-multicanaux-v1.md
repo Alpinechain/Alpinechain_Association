@@ -1,11 +1,12 @@
-# Campagne Florent Gabriel — contenus multicanaux V1
+# Campagne Florent Gabriel — contenus multicanaux V2
 
 **État : PRÊT À RELIRE — validation humaine obligatoire avant programmation.**
 
-Cette première version reste volontairement centrée sur la question validée.
-Elle n'attribue à Florent Gabriel aucune thèse ni aucun contenu détaillé tant
-que le synopsis n'a pas été reçu. Le créneau et la salle restent absents des
-textes publics puisque la session est encore `confirmed/internal`.
+Cette version conserve la question validée et adopte un ton plus engageant,
+direct et légèrement décalé. Elle n'attribue à Florent Gabriel aucune thèse ni
+aucun contenu détaillé tant que le synopsis n'a pas été reçu. Le créneau et la
+salle restent absents des textes publics puisque la session est encore
+`confirmed/internal`.
 
 ## Cadrage
 
@@ -29,24 +30,32 @@ officielle sans prétendre disposer d'un suivi par canal.
 
 ## Angle éditorial
 
-L'IA appliquée à l'univers Bitcoin peut être présentée comme une promesse, une
-menace ou les deux à la fois. La campagne ouvre la question sans annoncer la
-réponse de Florent Gabriel : quels bénéfices, quelles dépendances et quels
-arbitrages voulons-nous réellement examiner ?
+Bitcoin aime les règles simples, vérifiables et prévisibles. L'IA, elle, arrive
+avec des promesses immenses, des boîtes noires et une fâcheuse tendance à
+s'inviter partout.
+
+La campagne joue sur ce contraste sans annoncer la réponse de Florent Gabriel :
+outil formidable, nouvelle dépendance ou mélange des deux ? L'objectif est de
+donner envie de venir écouter, débattre et éventuellement contredire.
 
 ## LinkedIn — AlpineChain
 
-L'IA est souvent présentée comme une réponse à tout. Mais lorsqu'elle rencontre
-Bitcoin, renforce-t-elle réellement notre autonomie ou crée-t-elle de nouvelles
-dépendances ?
+L'IA sait déjà écrire vos mails, générer des images et résumer les réunions
+auxquelles vous auriez préféré ne pas assister.
 
-Florent Gabriel, CEO & co founder Blobb.io, rejoint B-Only'26 pour une
-présentation construite autour d'une question directe :
+Mais face à Bitcoin, elle fait quoi exactement ?
+
+Elle renforce nos outils et notre autonomie ?
+Ou elle réussit l'exploit de rajouter de nouvelles dépendances à un système
+conçu précisément pour en retirer ?
+
+Florent Gabriel, CEO & co founder de Blobb.io, rejoint B-Only'26 avec une
+question qui mérite mieux qu'une réponse générée en trois secondes :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-Une invitation à dépasser les slogans et à examiner collectivement ce que ce
-rapprochement change — et ce que nous voulons en faire.
+On parlera IA. On parlera Bitcoin. Et on essaiera surtout d'éviter les réponses
+toutes faites.
 
 📍 B-Only'26 — Annecy, du 7 au 9 novembre 2026
 
@@ -56,18 +65,22 @@ rapprochement change — et ce que nous voulons en faire.
 
 ## LinkedIn — Annecy Bitcoin Meetup
 
-L'IA va-t-elle renforcer les usages de Bitcoin ou nous éloigner de ses
-principes ?
+On avait déjà les débats sur les wallets, les layers, les forks et ce qu'il
+fallait mettre — ou surtout ne pas mettre — dans Bitcoin.
 
-À B-Only'26, Florent Gabriel, CEO & co founder Blobb.io, ouvrira la discussion
-avec cette présentation :
+Il manquait l'IA.
+
+À B-Only'26, Florent Gabriel, CEO & co founder de Blobb.io, vient poser une
+question assez simple à formuler et beaucoup moins simple à trancher :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-Pas de réponse imposée dans cette annonce : la question mérite d'être posée,
-discutée et confrontée aux expériences de la communauté.
+Outil au service de notre souveraineté ? Nouvelle couche de dépendance ?
+Les deux à la fois ?
 
-📍 Annecy, du 7 au 9 novembre 2026
+Venez avec vos arguments. L'IA, elle, en aura sûrement déjà généré quelques-uns.
+
+📍 Annecy · 7–9 novembre 2026
 
 🎟️ https://go.alpinechain.xyz/b26-fg-li-abm
 
@@ -75,32 +88,39 @@ discutée et confrontée aux expériences de la communauté.
 
 ## X
 
-**125 caractères, lien compris :**
+**Moins de 240 caractères, lien compris :**
 
 ```text
-Florent Gabriel de Blobb.io : l’IA est-elle en train de sauver ou de tuer de Bitcoin ? 🎟️ https://go.alpinechain.xyz/b26-fg-x
+L’IA va-t-elle sauver Bitcoin… ou réussir à lui ajouter une nouvelle couche de dépendance ? Florent Gabriel de Blobb.io vient poser la question à B-Only’26. 🤖₿ 🎟️ https://go.alpinechain.xyz/b26-fg-x
 ```
 
 Objectif : clic vers la billetterie.
-Score interne proposé : 9/10.
 
 ## Nostr
 
-L'IA peut-elle renforcer les outils construits autour de Bitcoin sans créer de
-nouvelles dépendances ?
+Une IA, un bitcoiner et une question qui fâche entrent dans un bar.
 
-Florent Gabriel, CEO & co founder Blobb.io, rejoint B-Only'26 avec une question
-volontairement provocatrice :
+La question :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-Cette annonce n'impose pas de réponse. Elle ouvre une discussion sur les
-bénéfices, les fragilités et les arbitrages que cette rencontre peut faire
-émerger.
+Florent Gabriel, CEO & co founder de Blobb.io, rejoint B-Only'26 pour ouvrir le
+débat.
 
-Quel aspect de cette question voulez-vous voir abordé ?
+Parce qu'entre les promesses d'automatisation, les modèles en boîte noire et
+l'idée de souveraineté portée par Bitcoin, il y a peut-être quelques petits
+détails à discuter.
 
-📍 Annecy · 7–9 novembre 2026
+L'IA peut-elle réellement renforcer nos outils sans fabriquer de nouvelles
+dépendances ?
+
+Et surtout : qu'est-ce qu'on gagne, qu'est-ce qu'on perd, et qu'est-ce qu'on
+refuse de déléguer ?
+
+Votre réponse tient en moins de 280 caractères ? Tant mieux.
+Sinon, rendez-vous à Annecy.
+
+📍 7–9 novembre 2026
 
 🎟️ https://go.alpinechain.xyz/b26-fg-nostr
 
@@ -108,15 +128,21 @@ Quel aspect de cette question voulez-vous voir abordé ?
 
 ## Facebook
 
-🤖 L'IA est-elle une alliée ou une menace pour Bitcoin ?
+🤖 L'IA peut écrire un poème, générer une image et vous expliquer Bitcoin avec
+beaucoup d'assurance — y compris quand elle se trompe.
 
-Florent Gabriel, CEO & co founder Blobb.io, participera à B-Only'26 avec une
-présentation intitulée :
+Mais peut-elle réellement aider Bitcoin ?
+
+Ou risque-t-elle au contraire d'ajouter de nouvelles dépendances là où l'on
+cherche justement à en supprimer ?
+
+Florent Gabriel, CEO & co founder de Blobb.io, participera à B-Only'26 avec une
+présentation au titre qui annonce clairement le débat :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-Une question ouverte pour prendre du recul, confronter les points de vue et
-discuter des choix que cette rencontre entre IA et Bitcoin soulève.
+Pas de réponse prémâchée : venez écouter, discuter, challenger et vous faire
+votre propre avis.
 
 📍 B-Only'26 — Annecy
 📅 Du 7 au 9 novembre 2026
@@ -125,19 +151,23 @@ discuter des choix que cette rencontre entre IA et Bitcoin soulève.
 
 ## Instagram
 
-🤖 **IA ET BITCOIN : SAUVER OU TUER ?**
+🤖 **L'IA VA SAUVER BITCOIN.**
+Ou le tuer.
+Ou aucun des deux.
+Ça commence bien.
 
 Florent Gabriel
-CEO & co founder Blobb.io
+CEO & co founder de Blobb.io
 
-À B-Only'26, une question pour ouvrir le débat :
+À B-Only'26, il vient poser la question :
 
 **« L’IA est-elle en train de sauver ou de tuer de Bitcoin ? »**
 
-Promesse, menace ou nouveau terrain d'arbitrage ? Venez confronter les points
-de vue à Annecy.
+IA + Bitcoin + souveraineté + quelques désaccords probables.
 
-📍 Annecy · 7–9 novembre 2026
+Bref, une bonne raison de venir à Annecy.
+
+📍 7–9 novembre 2026
 
 🎟️ Lien à placer dans la bio ou le sticker :
 https://go.alpinechain.xyz/b26-fg-ig
@@ -159,7 +189,7 @@ https://go.alpinechain.xyz/b26-fg-ig
 - [x] identité, fonction, titre affiché et visuel validés ;
 - [x] dates générales et lieu de l'événement vérifiés ;
 - [x] créneau interne volontairement absent des textes publics ;
-- [x] texte X inférieur à la limite interne de 140 caractères ;
+- [x] texte X inférieur à la limite interne de 240 caractères ;
 - [ ] synopsis reçu et cohérence des formulations confirmée ;
 - [ ] textes multicanaux relus et validés par Cyrille ;
 - [ ] validation de Florent Gabriel recueillie si requise ;
