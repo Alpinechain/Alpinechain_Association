@@ -20,6 +20,7 @@ n’est autorisée.**
 - badge diagonal orange en haut à droite ;
 - portrait officiel reçu le 1er septembre 2026 sur la moitié droite ;
 - nom, fonction, organisation et titre sur la moitié gauche ;
+- fonction et organisation dans le même orange que le titre ;
 - logo Blobb.io intégré discrètement sans déformer sa géométrie ;
 - silhouette alpine sombre dans la partie basse.
 
@@ -31,6 +32,8 @@ n’est autorisée.**
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-noir-jaune--2026-09-01--source.png` et
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-contour--2026-09-01--source.png` ;
 - export carré brouillon :
+  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--brouillon-v2.png` ;
+- version précédente conservée pour traçabilité :
   `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--brouillon-v1.png`.
 
 ## Texte alternatif proposé
