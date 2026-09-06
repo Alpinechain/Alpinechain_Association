@@ -1,6 +1,6 @@
 # Registre des participants et assets — B-Only 2026
 
-Dernière mise à jour : 2026-08-17
+Dernière mise à jour : 2026-09-05
 
 ## Rôle
 
@@ -32,33 +32,35 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Sandra Gandoin | Speaker / journaliste | BFM Business | — | — | — | — | `sandra-gandoin-932914127` | — | — | — | Journaliste BFM Business |
 | Élodie Lué | Speaker + workshop | Effet 21 Conseil ; Podcast Effet 21 | ✓ | — | via Linktree | — | via Linktree | via Linktree | — | YouTube + TikTok via Linktree `elodielue` | Liens directs à relever |
 | Hubert « Hub » Pineau | Présentation partenaire | Le Cercle du Coin | — | ✓ | — | — | `hubert-pineau` | — | — | — | Coordinateur opérationnel du Cercle du Coin |
+| Laure Merlin | Workshop + keynote partenaire | Le Cercle du Coin | — | ✓ | — | — | — | — | — | — | Atelier Bitcoin Lego le dimanche ; présentation du Cercle et keynote le lundi |
 | Jean — identité à compléter | Workshop / Pleb Forum | ? | — | ? | — | — | — | — | — | — | Nom complet nécessaire |
 | Michel Khazzaka | Speaker | Valuechain Consulting | — | ? | `@kneisseh` | — | `khazzaka` | — | — | — | Fondateur de Valuechain Consulting confirmé publiquement |
 | Alexis Roussel | Speaker | Nym ; Bity ; conseiller Hodling SA | — | ? | `@alexis_roussel` | `npub158d7zqnl36ze3gmyv4kedezvla3z3rvgsfpap83drqrywswwvc8skw9kx0` | `alexis-roussel-01993143` | — | — | Mastodon `@alexis_roussel@piratenpartei.social` ; `nym.com` | — |
 | Alexandre Poltorak « Polto » | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | `@_polto_` | — | `polto` | — | — | — | Identité confirmée Hodling SA |
 | Darko Gasic | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | — | — | — | — | — | — | Comptes à compléter |
-| Schnuartz | Workshop | Specter DIY ; ClavaStack | — | ? | `@Schnuartz` | — | — | — | — | Linktree `schnuartz` ; `clavastack.com` | — |
+| Schnuartz | Workshop remplacé | Specter DIY ; ClavaStack | — | ? | `@Schnuartz` | — | — | — | — | Linktree `schnuartz` ; `clavastack.com` | Le workshop Specter est remplacé dans le programme le 2026-08-31 |
 | Noé | Workshop | WeSatoshis ? | — | — | — | — | — | — | — | — | Identité/affiliation à confirmer |
 
 ## Artistes, marchands et exposants
 
 | Personne / nom public | Catégorie | Structure / projet | Photo | Logo | X | Nostr | LinkedIn | Instagram | Facebook | Autre | Statut |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Missatoshi | Artiste / exposante | Missatoshi | — | ✓ | `@Missatoshi_girl` | — | — | `@missatoshi_girl` | — | — | Comptes fournis directement |
-| Kino | Marchand / exposant | BMarket | — | — | `@Kin0_06` ; BMarket `@B_Market_21` | `npub1wxe3j6smxeps87ew8c50djazp8yhy52acdmhc46wx3d8hqkxu7pq8dakfs` | — | — | — | — | BMarket confirmé dans le dossier |
-| Kimatoshi | Exposant potentiel | ? | — | — | `@Kima_Toshi_AR` | `npub1vr2qtyh7a33hjkl5rlxawlx44rnwfplcy9ymjpmgupacms7kleushqg3k3` | — | — | — | — | Présence 2026 à confirmer |
+| Missatoshi | Artiste | Missatoshi | — | ✓ | `@Missatoshi_girl` | — | — | `@missatoshi_girl` | — | — | Présence 2026 à confirmer |
+| Kino | Revendeur de produits en Bitcoin | BMarket | — | — | `@Kin0_06` ; BMarket `@B_Market_21` | `npub1wxe3j6smxeps87ew8c50djazp8yhy52acdmhc46wx3d8hqkxu7pq8dakfs` | — | — | — | — | BMarket confirmé dans le dossier ; présence et stand à reconfirmer |
+| Kimatoshi | Revendeur de produits en Bitcoin | Kimatoshi | — | — | `@Kima_Toshi_AR` | `npub1vr2qtyh7a33hjkl5rlxawlx44rnwfplcy9ymjpmgupacms7kleushqg3k3` | — | — | — | — | Présence 2026 à confirmer |
 | Lady Block Jane | Artiste | Lady Block Jane | — | — | `@Lady_Block_Jane` | `npub1htrxgxng00uc8aryq4w6q462drvl4rzk4u9elfar9vxlu7clw40s7re8m0` | — | `@lady_block_jane` | — | — | Corrige l'ancienne entrée « Yena » |
 | Theorygon / Theorigon | Artiste | Theorygon | — | — | `@Cryptogon1` | `npub1a09m4m7d6l7cjj6jjsslmxla3f99a9mqrsgqq877tjhqjvqw0r9qgp6jqv` | — | — | — | — | Nom public/orthographe finale à harmoniser |
-| Édouard — Konsensus | Exposant potentiel | Konsensus | — | ✓ | `@edouard_knw` ; `@KonsensusN` ; `@KonsensusFR` | `npub1udjlzurkhc6c7zeju6u5a8lrhdeajt2x7vy9j4kz3ptdq2nspvtq5ftve2` | — | — | — | — | Nom complet à compléter |
-| Jonathan | Exposant potentiel | PlebStyle | — | ✓ | — | — | — | — | — | — | Nom complet et présence à confirmer |
-| Vaga | Exposant / partenaire potentiel | Lab312 | — | — | — | — | — | — | — | — | Identité et présence à confirmer |
+| Édouard — Konsensus | Éditeur de livres / exposant | Konsensus | — | ✓ | `@edouard_knw` ; `@KonsensusN` ; `@KonsensusFR` | `npub1udjlzurkhc6c7zeju6u5a8lrhdeajt2x7vy9j4kz3ptdq2nspvtq5ftve2` | — | — | — | — | Stand indépendant ou espace communautaire AlpineChain à déterminer |
+| Jonathan | Exposant désisté | PlebStyle | — | ✓ | — | — | — | — | — | — | Désistement confirmé le 2026-09-04 |
+| Vaga | Revendeur de produits en Bitcoin | Lab312 | — | — | — | — | — | — | — | — | Identité, présence et format de stand à confirmer |
+| BOB — contact à identifier | Revendeur de bières | Brewery Only Bitcoin | — | — | — | — | — | — | — | — | Présence 2026, contact et besoins de stand à confirmer |
 
 ## Organisations et comptes associés
 
 | Organisation | Catégorie | Logo | Personne liée | Réseaux / site connus |
 |---|---|---|---|---|
 | Paymium | Partenaire | ✓ | Pierre Noizat | — |
-| Cercle du Coin | Partenaire | ✓ | Hubert Pineau | — |
+| Cercle du Coin | Partenaire | ✓ | Laure Merlin ; Hubert Pineau | — |
 | Bitstack | Partenaire | ✓ | Alexandre Stachtchenko | — |
 | Cryptoast | Soutien média | ✓ plusieurs variantes | Marius Farashi Tasooji | — |
 | Bitcoin.fr | Soutien média | ✓ | à identifier | — |
@@ -69,11 +71,15 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Hodling SA | Organisation liée | ✓ | Alexandre Poltorak, Darko Gasic | — |
 | ProfEduStream | Marque personnelle | ? | ProfEduStream | X/YouTube `@ProfEduStream` |
 | Effet 21 Conseil / Podcast Effet 21 | Organisation/média lié | — | Élodie Lué | via Linktree |
-| BMarket | Exposant | — | Kino | X `@B_Market_21` |
-| Missatoshi | Artiste / exposante | ✓ | Missatoshi | X/Instagram `@Missatoshi_girl` |
-| Konsensus | Exposant potentiel | ✓ | Édouard | X `@KonsensusN`, `@KonsensusFR` |
-| PlebStyle | Exposant potentiel | ✓ | Jonathan | — |
-| Lab312 | Exposant potentiel | — | Vaga | — |
+| BMarket | Revendeur de produits en Bitcoin | — | Kino | X `@B_Market_21` |
+| Missatoshi | Artiste | ✓ | Missatoshi | X/Instagram `@Missatoshi_girl` |
+| Lady Block Jane | Artiste | historique | Lady Block Jane | X `@Lady_Block_Jane` ; Instagram `@lady_block_jane` |
+| Theorygon / Theorigon | Artiste | — | à préciser | X `@Cryptogon1` |
+| Kimatoshi | Revendeur de produits en Bitcoin | — | Kimatoshi | X `@Kima_Toshi_AR` |
+| Konsensus | Éditeur de livres / exposant | ✓ | Édouard | X `@KonsensusN`, `@KonsensusFR` |
+| PlebStyle | Exposant — désistement 2026 | ✓ | Jonathan | — |
+| Lab312 | Revendeur de produits en Bitcoin | — | Vaga | — |
+| BOB (Brewery Only Bitcoin) | Revendeur de bières | — | à identifier | — |
 | WeSatoshis | Organisation liée | — | Noé ? | — |
 | BFM Business | Média | — | Sandra Gandoin | — |
 | Sharekey | Organisation liée | — | Renaud Lifchitz | — |
@@ -81,6 +87,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Nym | Organisation liée | — | Alexis Roussel | `nym.com` |
 | Specter DIY / ClavaStack | Organisation liée | — | Schnuartz | `clavastack.com` |
 | AlpineChain | Organisateur | ✓ | équipe organisatrice | — |
+| Neowalt | Partenaire de lots à distance — sans présence physique | Deux PNG archivés dans Nextcloud : [symbole](https://cloud.alpinechain.xyz/f/4742), [logo horizontal blanc](https://cloud.alpinechain.xyz/f/4743) | Paul Renaud (contact uniquement) | Site indiqué sur la carte : `www.neowalt.com`, destination à vérifier ; suivi #147 |
 
 ## Portraits B-Only déjà identifiés dans Nextcloud via le dépôt
 
@@ -107,7 +114,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 
 ## Recherche réseaux — reste à résoudre
 
-Priorité : Lionel Jeannerat, Darko Gasic, Jean, Noé, Jonathan/PlebStyle et Vaga/Lab312.
+Priorité : Lionel Jeannerat, Darko Gasic, Jean, Noé, Vaga/Lab312 et le contact de BOB.
 
 À consolider : comptes éventuels supplémentaires de Christine Jeanneaux, Sandra Gandoin, Hubert Pineau et ProfEduStream ; identité complète d'Édouard ; orthographe publique Theorygon/Theorigon.
 
