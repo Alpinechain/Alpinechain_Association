@@ -27,9 +27,9 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Sandra Gandoin reste dimanche à 16 h 30.
 - Aurore Galves et les six interventions ProfEduStream confirmées ont été rendues publiques dans le programme par les PR #129 et #135.
 - La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et Lionel Jeannerat dimanche 8 novembre de 18 h 30 à 19 h 20, en salle principale. Les deux entrées restent `reserved/internal`.
-- Le workshop Specter de Schnuartz est remplacé par « Atelier Bitcoin Lego » avec Laure Merlin, dimanche 8 novembre de 18 h à 18 h 50 au Pleb Forum. Le nouveau créneau reste `reserved/internal` tant que ses détails pratiques ne sont pas finalisés.
+- Le workshop Specter de Schnuartz est remplacé par « Atelier Bitcoin Lego » avec Laure Merlin, dimanche 8 novembre de 18 h à 18 h 50 au Pleb Forum. Le créneau est `confirmed/public` depuis le 2026-09-06 ; ses détails pratiques et besoins techniques restent à finaliser.
 - Le Cercle du Coin intervient désormais lundi 9 novembre de 9 h à 10 h avec Laure Merlin : présentation du Cercle pendant 10 à 15 minutes, puis keynote « Comment faire communauté » pendant 30 à 35 minutes. Le créneau reste `confirmed/public`.
-- La source contient 30 entrées, dont 1 annulée conservée pour audit. Les 29 entrées actives comprennent 16 `confirmed`, dont 13 publiques ; 2 entrées fixes publiques, 1 option interne et 10 réservations internes.
+- La source contient 30 entrées, dont 1 annulée conservée pour audit. Les 29 entrées actives comprennent 17 `confirmed`, dont 14 publiques ; 2 entrées fixes publiques, 1 option interne et 9 réservations internes.
 - Le programme reste en état `draft` : la source est publiée, mais les créneaux non confirmés restent provisoires.
 
 ### Communication
