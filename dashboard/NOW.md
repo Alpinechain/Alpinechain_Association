@@ -27,7 +27,9 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Sandra Gandoin reste dimanche à 16 h 30.
 - Aurore Galves et les six interventions ProfEduStream confirmées ont été rendues publiques dans le programme par les PR #129 et #135.
 - La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et Lionel Jeannerat dimanche 8 novembre de 18 h 30 à 19 h 20, en salle principale. Les deux entrées restent `reserved/internal`.
-- La source contient 29 entrées : 16 `confirmed`, dont 13 publiques ; 2 entrées fixes publiques, 1 option interne et 10 réservations internes.
+- Le workshop Specter de Schnuartz est remplacé par « Atelier Bitcoin Lego » avec Laure Merlin, dimanche 8 novembre de 18 h à 18 h 50 au Pleb Forum. Le nouveau créneau reste `reserved/internal` tant que ses détails pratiques ne sont pas finalisés.
+- Le Cercle du Coin intervient désormais lundi 9 novembre de 9 h à 10 h avec Laure Merlin : présentation du Cercle pendant 10 à 15 minutes, puis keynote « Comment faire communauté » pendant 30 à 35 minutes. Le créneau reste `confirmed/public`.
+- La source contient 30 entrées, dont 1 annulée conservée pour audit. Les 29 entrées actives comprennent 16 `confirmed`, dont 13 publiques ; 2 entrées fixes publiques, 1 option interne et 10 réservations internes.
 - Le programme reste en état `draft` : la source est publiée, mais les créneaux non confirmés restent provisoires.
 
 ### Communication
@@ -62,6 +64,11 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Paymium : pack partenaire de 2 500 € payé et rapproché ; campagne V2 publiée sur sept canaux vérifiés ; métriques encore à suivre.
 - Le Cercle du Coin : soutien de 2 000 € payé ; campagne publiée le 5 août sur cinq réseaux, métriques à relever.
 - Bitstack : pack soutien de 2 000 € confirmé, payé et rapproché dans Dolibarr et Paheko ; campagne V2 publiée sur sept canaux. Stand, pass et giveaway restent à finaliser dans #4 et #25.
+
+### Partenaire de lots — Neowalt
+
+- Mise à jour ciblée du 5 septembre : accord confirmé pour l'envoi de 3 × 2 clés matérielles (6 unités) à offrir au quiz du samedi 7 novembre au soir ; aucune présence physique prévue.
+- Expédition, réception des lots et vidéo de présentation attendues. Deux logos sources et carte de contact archivés dans Nextcloud le 5 septembre, tailles et SHA-256 vérifiés ; déclinaison vidéo pour boucle écrans à valider. Suivi opérationnel : [#147](https://github.com/Alpinechain/Alpinechain_Association/issues/147).
 
 ### Programme et visuels
 
