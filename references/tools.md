@@ -18,7 +18,7 @@ Ce document indique la fonction, la source de vérité, la criticité et le mode
 | Vue B-Only 2026 | Portefeuille de la conférence | Chantiers B-Only filtrés | Haute | `https://github.com/users/Alpinechain/projects/1/views/2` |
 | Nextcloud | Fichiers et collaboration | Contrats, visuels, photos et supports | Critique | `https://cloud.alpinechain.xyz` |
 | Pretix | Billetterie | Événements, commandes, billets et participants | Critique | `https://ticket.alpinechain.xyz` |
-| Paheko | Comptabilité associative | Écritures, pièces et suivi comptable | Critique | `https://compta.alpinechain.xyz` |
+| Paheko | Comptabilité associative | Écritures, références des pièces Nextcloud et suivi comptable | Critique | `https://compta.alpinechain.xyz` |
 | Dolibarr | CRM / ERP | Contacts entreprises, sponsors, devis et factures | Critique | `https://gestion.alpinechain.xyz` |
 | PeerTube | Publication vidéo | Vidéos publiques et playlists | Haute | `https://video.alpinechain.xyz` |
 | be-BOP | Site, boutique ou caisse selon usage | Données opérationnelles de la plateforme | Haute | `https://bebop.alpinechain.xyz` |
