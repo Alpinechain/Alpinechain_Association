@@ -1,7 +1,7 @@
 # Flux opérationnels AlpineChain
 
-Version : V1.1
-Dernière mise à jour : 2026-08-16
+Version : V1.2
+Dernière mise à jour : 2026-09-06
 
 ## Objet
 
@@ -12,7 +12,8 @@ Ce document décrit comment les informations circulent entre le Control Center e
 ```text
 GitHub orchestre et conserve les contenus textuels de référence
 Les outils métiers exécutent et conservent leurs données
-Nextcloud conserve les portraits, visuels, contrats, médias sources et exports lourds
+Nextcloud conserve les portraits, visuels, contrats, pièces justificatives, médias sources et exports lourds
+Paheko conserve les écritures comptables et la référence précise de chaque justificatif Nextcloud
 Les canaux publics diffusent
 L’humain valide les décisions et publications
 ```
@@ -26,9 +27,9 @@ Aucun secret, billet nominatif, donnée bancaire, facture complète ou coordonn�
 | GitHub Association | `Alpinechain/Alpinechain_Association` | Actions, décisions, risques, procédures, textes, calendriers, liens et preuves publiques | Interne / public selon fichier | Oui pour le pilotage et les contenus textuels |
 | GitHub Project | `https://github.com/users/Alpinechain/projects/1` | Statuts, priorités, échéances | Interne | Oui pour le portefeuille |
 | GitHub Serveur | `Alpinechain/Serveur` | Configuration, scripts, runbooks | Sensible, dépôt privé | Oui pour l’infrastructure |
-| Nextcloud | `https://cloud.alpinechain.xyz` | Portraits, visuels, contrats, médias sources et exports lourds | Variable, parfois personnel | Oui pour ces fichiers |
+| Nextcloud | `https://cloud.alpinechain.xyz` | Portraits, visuels, contrats, pièces justificatives, médias sources et exports lourds | Variable, parfois personnel | Oui pour ces fichiers |
 | Pretix | `https://ticket.alpinechain.xyz` | Événements, commandes, billets, participants | Personnel et financier | Oui pour la billetterie |
-| Paheko | `https://compta.alpinechain.xyz` | Comptabilité, adhésions, pièces | Personnel et financier | Oui pour la comptabilité |
+| Paheko | `https://compta.alpinechain.xyz` | Comptabilité, adhésions et références des pièces stockées dans Nextcloud | Personnel et financier | Oui pour la comptabilité |
 | Dolibarr | `https://gestion.alpinechain.xyz` | Sponsors, contacts, devis, factures | Personnel et commercial | Oui pour CRM / facturation |
 | PeerTube | `https://video.alpinechain.xyz` | Vidéos, descriptions, playlists | Public / médias sources | Oui pour les vidéos publiées |
 | be-BOP | `https://bebop.alpinechain.xyz` | Site, boutique ou caisse selon usage | Opérationnel | Oui pour ses transactions |
@@ -66,7 +67,8 @@ Page publique
   → commande / paiement / billet
   → accueil le jour J
   → agrégats non nominatifs dans l’Issue
-  → pièces comptables dans Paheko
+  → pièce justificative dans Nextcloud
+  → écriture et référence précise de la pièce dans Paheko
 ```
 
 ### Données pouvant remonter dans GitHub
@@ -93,7 +95,8 @@ Prospect / contact
   → proposition, contrat ou courrier dans Nextcloud
   → validation humaine
   → devis / facture Dolibarr
-  → écriture et pièce Paheko
+  → pièce justificative dans Nextcloud
+  → écriture et référence précise de la pièce dans Paheko
   → contreparties dans l’Issue communication
 ```
 
@@ -178,7 +181,8 @@ Une sauvegarde n’est déclarée opérationnelle qu’après un test de restaur
 |---|---|---|---|---|
 | GitHub | Pretix | Paramètres publics d’événement | Saisie contrôlée ou API future | Humaine avant écriture |
 | Pretix | GitHub | Agrégats d’inscription | Rapport manuel ou lecture API | Contrôle humain |
-| Dolibarr | Paheko | Pièces et synthèses comptables | Export / procédure documentée | Trésorier |
+| Dolibarr | Nextcloud | Pièces justificatives | Export / archivage contrôlé | Trésorier |
+| Nextcloud | Paheko | Référence précise de la pièce justificative | Saisie dans l’écriture | Trésorier |
 | Nextcloud | Site / réseaux | Médias approuvés | Publication manuelle | Humaine |
 | PeerTube | Réseaux | URL vidéo publique | Publication préparée | Humaine |
 | Monitoring | GitHub | Disponibilité des URLs | GitHub Actions | Automatique |
