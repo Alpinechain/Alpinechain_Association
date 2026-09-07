@@ -36,11 +36,11 @@ la modération, aux réponses et à l'observation des premiers résultats.
 | 7–12 septembre | **7–9 septembre — Polto et Darko** : « Justifier l'origine de ses bitcoins » | `PROGRAMMÉ` — contenus V2, Blog et calendrier V2 relus | **10–12 septembre — Pierre Noizat** : « Energie, monnaie et civilisation » | `PRÊT À PROGRAMMER` — campagne V1 relue ; liens à créer et vérifier avant programmation |
 | 14–19 septembre | **14–16 septembre — Christine Jeanneaux** : « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | `PRÊT À PROGRAMMER` — campagne V4 validée ; remplace la vague workshop Élodie | **17–19 septembre — Alexandre Stachtchenko** | `À COMPLÉTER` — sujet, titre, portrait et contenu manquants |
 | 21–26 septembre | **21–23 septembre — Élodie Lué** : « Paiements via Lightning Network » | `À PRODUIRE` — remplace Jean ; modalités des commerçants à préciser | **24–26 septembre — Florent Gabriel** | `À COMPLÉTER` — titre et contenu manquants |
-| 28 septembre–3 octobre | **28–30 septembre — Marius Farashi** : Ark et solutions de seconde couche | `À COMPLÉTER` | **1er–3 octobre — Lionel Jeannerat** : « Bitcoin est pour les copaines » | `À COMPLÉTER` |
-| 5–10 octobre | **5–7 octobre — Laure Merlin** : « Atelier Bitcoin Lego » | `À COMPLÉTER` — remplace le workshop Specter de Schnuartz ; portrait et détails pratiques à obtenir | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
+| 28 septembre–3 octobre | **28–30 septembre — Marius Farashi** : Ark et solutions de seconde couche | `À COMPLÉTER` | **1er–3 octobre — Lionel Jeannerat** : « Bitcoin pour les Copain.e.s » | `À COMPLÉTER` — titre et angle confirmés, visuel/campagne à finaliser |
+| 5–10 octobre | **5–7 octobre — Laure Merlin** : « Atelier Bitcoin Lego » | `À PRODUIRE` — titre confirmé ; aucun besoin technique particulier ; jauge 12–15 personnes | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
 | 12–17 octobre | **12–14 octobre — Noé / WeSatoshis** | `À COMPLÉTER` | **15–17 octobre — Michel Khazzaka** | `À COMPLÉTER` |
 | 19–24 octobre | **19–21 octobre — rappel des workshops pratiques** | `À CADRER` | **22–24 octobre — Alexis Roussel** | `À COMPLÉTER` |
-| 26–31 octobre | **26–28 octobre — Jean** : achat de bitcoin de manière privée | `À COMPLÉTER` — remplace la vague « guide des workshops », supprimée | **29–31 octobre — nouvelle tête d’affiche** | `À RECRUTER` — Sandra Gandoin indisponible ; priorité à une intervenante, annonce uniquement après confirmation explicite |
+| 26–31 octobre | **26–28 octobre — Bitvault (.sv) / Loic Ruchat-Leuthardt** | `À COMPLÉTER` — remplace le workshop de Jean du samedi 7 novembre à 15 h 30 ; partenaire potentiel, sujet et modalités à préciser | **29–31 octobre — Delphine Vincent** | `EN ATTENTE` — créneau du dimanche 8 novembre à 16 h 30 proposé via LinkedIn ; participation, sujet et éléments éditoriaux à confirmer |
 | 2–6 novembre | **2–4 novembre — dernier rappel des workshops** | `À CADRER` | **5–6 novembre — Le Cercle du Coin avec Laure Merlin** : présentation du Cercle, puis keynote « Comment faire communauté » | `À PRODUIRE` — session du lundi 9 novembre, 9 h–10 h |
 
 ## Déroulé type d'une vague complète
@@ -79,8 +79,10 @@ pas être programmées en parallèle.
 
 La campagne Christine Jeanneaux prend la fenêtre du 14 au 16 septembre à la
 place du workshop Élodie. Le workshop Élodie prend la fenêtre du 21 au
-23 septembre à la place de Jean. Jean prend la fenêtre du 26 au 28 octobre ;
-la vague « guide des workshops et prérequis » est supprimée.
+23 septembre. Le workshop initialement prévu avec Jean est abandonné car il ne
+pourra pas être prêt ; le créneau du samedi 7 novembre à 15 h 30 est désormais
+réservé à Bitvault (.sv) avec Loic Ruchat-Leuthardt, sous réserve de confirmation
+des détails du workshop et du partenariat potentiel.
 
 L’inversion du programme entre Lionel Jeannerat et le quiz ne modifie pas la
 fenêtre éditoriale proposée de Lionel du 1er au 3 octobre. Toute future copie
@@ -89,9 +91,10 @@ dimanche 8 novembre, 18 h 30–19 h 20. Aucune vague dédiée au quiz n’est
 actuellement planifiée.
 
 Sandra Gandoin a confirmé le 7 septembre 2026 qu’elle ne pourra pas participer
-à B-Only 2026. Sa vague du 29 au 31 octobre est donc libérée et réservée à une
-nouvelle tête d’affiche à recruter, avec préférence pour une intervenante. Aucun
-nom ne doit être communiqué avant confirmation explicite de participation.
+à B-Only 2026. Le créneau du dimanche 8 novembre, 16 h 30–17 h 20, a été proposé
+à Delphine Vincent par message LinkedIn. Tant qu’elle n’a pas confirmé, ce
+créneau et la vague du 29 au 31 octobre restent au statut `EN ATTENTE` et ne
+doivent faire l’objet d’aucune annonce publique.
 
 ## Gate avant programmation
 
