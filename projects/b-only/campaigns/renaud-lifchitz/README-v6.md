@@ -1,6 +1,6 @@
 # Campagne intervenant — Renaud Lifchitz — V6
 
-**État : PROGRAMMÉ — Nostr reste à publier manuellement.**
+**État : PUBLIÉ — SEPT URLS ARCHIVÉES — MÉTRIQUES À RELEVER.**
 
 Cette version remplace le positionnement descriptif des contenus V2 par une
 campagne centrée sur la reprise en main des infrastructures de communication :
@@ -30,7 +30,7 @@ AlpineChain « Multisig et Disaster Recovery ».
 La campagne Christine Jeanneaux initialement prévue du 3 au 5 septembre est
 recalée du 14 au 16 septembre.
 
-## État de programmation validé le 31 août 2026
+## État de diffusion vérifié le 7 septembre 2026
 
 - [x] textes sociaux V3 relus et validés ;
 - [x] Nostr long et article Blog V3 relus et validés ;
@@ -39,8 +39,10 @@ recalée du 14 au 16 septembre.
   et Instagram programmés pour leurs créneaux ;
 - [x] rappel personnel programmé le 5 septembre 2026 à 12 h 15,
   `Europe/Paris`, pour la publication Nostr ;
-- [ ] publication Nostr à effectuer manuellement ;
-- [ ] URLs publiques à archiver dans l'Issue #24 après chaque mise en ligne.
+- [x] publication Nostr effectuée manuellement ;
+- [x] sept URLs publiques archivées dans `publications-v1.csv` et dans
+  l'Issue #24 ;
+- [ ] métriques à relever sur une fenêtre commune.
 
 ## Gate
 
@@ -48,4 +50,5 @@ recalée du 14 au 16 septembre.
 - [x] sept liens courts conservés et contrôlés ;
 - [x] programmation validée ;
 - [x] aperçus contrôlés avant programmation ;
-- [ ] URLs publiques archivées dans l'Issue #24 après diffusion.
+- [x] URLs publiques archivées dans l'Issue #24 après diffusion ;
+- [ ] métriques relevées et consignées dans l'Issue #24.
