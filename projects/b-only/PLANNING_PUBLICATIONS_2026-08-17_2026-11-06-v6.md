@@ -2,7 +2,7 @@
 
 Version : V6
 Date de préparation : 2026-08-16
-Dernière actualisation : 2026-08-31
+Dernière actualisation : 2026-09-07
 Fuseau : Europe/Paris
 Statut global : **PRÊT À RELIRE**
 Validation : humaine avant programmation ou publication
@@ -40,7 +40,7 @@ la modération, aux réponses et à l'observation des premiers résultats.
 | 5–10 octobre | **5–7 octobre — Laure Merlin** : « Atelier Bitcoin Lego » | `À COMPLÉTER` — remplace le workshop Specter de Schnuartz ; portrait et détails pratiques à obtenir | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
 | 12–17 octobre | **12–14 octobre — Noé / WeSatoshis** | `À COMPLÉTER` | **15–17 octobre — Michel Khazzaka** | `À COMPLÉTER` |
 | 19–24 octobre | **19–21 octobre — rappel des workshops pratiques** | `À CADRER` | **22–24 octobre — Alexis Roussel** | `À COMPLÉTER` |
-| 26–31 octobre | **26–28 octobre — Jean** : achat de bitcoin de manière privée | `À COMPLÉTER` — remplace la vague « guide des workshops », supprimée | **29–31 octobre — Sandra Gandoin** | `EN ATTENTE` — participation et sujet à confirmer |
+| 26–31 octobre | **26–28 octobre — Jean** : achat de bitcoin de manière privée | `À COMPLÉTER` — remplace la vague « guide des workshops », supprimée | **29–31 octobre — nouvelle tête d’affiche** | `À RECRUTER` — Sandra Gandoin indisponible ; priorité à une intervenante, annonce uniquement après confirmation explicite |
 | 2–6 novembre | **2–4 novembre — dernier rappel des workshops** | `À CADRER` | **5–6 novembre — Le Cercle du Coin avec Laure Merlin** : présentation du Cercle, puis keynote « Comment faire communauté » | `À PRODUIRE` — session du lundi 9 novembre, 9 h–10 h |
 
 ## Déroulé type d'une vague complète
@@ -87,6 +87,11 @@ fenêtre éditoriale proposée de Lionel du 1er au 3 octobre. Toute future copie
 mentionnant son horaire doit toutefois reprendre le créneau provisoire du
 dimanche 8 novembre, 18 h 30–19 h 20. Aucune vague dédiée au quiz n’est
 actuellement planifiée.
+
+Sandra Gandoin a confirmé le 7 septembre 2026 qu’elle ne pourra pas participer
+à B-Only 2026. Sa vague du 29 au 31 octobre est donc libérée et réservée à une
+nouvelle tête d’affiche à recruter, avec préférence pour une intervenante. Aucun
+nom ne doit être communiqué avant confirmation explicite de participation.
 
 ## Gate avant programmation
 
