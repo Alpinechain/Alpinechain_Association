@@ -1,6 +1,6 @@
 # Campagne intervenant — Pierre Noizat — V1
 
-**État : PRÊT À PROGRAMMER — liens courts à créer et vérifier avant programmation.**
+**État : PRÊT À PROGRAMMER — vouchers Pretix et liens courts actifs et vérifiés le 7 septembre 2026.**
 
 Cette campagne est consacrée à l'intervention de Pierre Noizat. Elle reste
 strictement distincte de la campagne partenaire Paymium déjà diffusée.
@@ -42,7 +42,7 @@ utile d'entretenir deux versions éditoriales presque identiques.
 - [x] script Reel HeyGen préparé ;
 - [x] contenus relus par Cyrille le 31 août 2026 ;
 - [x] formulations sensibles relues dans le cadre de la validation humaine ;
-- [ ] sept vouchers Pretix et sept alias courts créés puis testés ;
+- [x] sept vouchers Pretix et sept alias courts créés puis testés le 7 septembre 2026 ;
 - [x] calendrier validé ;
 - [x] comptes, visuels et aperçus contrôlés avant programmation ;
 - [ ] URLs publiques archivées dans l'issue #24 après diffusion.
