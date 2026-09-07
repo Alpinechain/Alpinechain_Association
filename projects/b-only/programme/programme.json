@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-08-31T13:00:22Z",
+    "updatedAt": "2026-09-07T15:35:00Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -83,19 +83,19 @@
       "notes": "Entrez dans le terrier du lapin. Outils : Sparrow, mempool.space, plaque en acier et Jade. Présentation : https://canva.link/qod0x69lk6kvbky."
     },
     {
-      "id": "sat-workshop-jean-private-buy",
+      "id": "sat-workshop-bitvault",
       "date": "2026-11-07",
       "start": "15:30",
       "end": "16:20",
       "room": "workshop",
-      "status": "reserved",
+      "status": "option",
       "visibility": "internal",
-      "title": "Acheter du bitcoin de manière privée : méthodes, précautions et mise en pratique",
+      "title": "Workshop Bitvault (.sv) — sujet à confirmer",
       "speakers": [
-        "Jean — identité à compléter"
+        "Loic Ruchat-Leuthardt"
       ],
-      "format": "Workshop pratique",
-      "notes": "Créneau validé le 29 juillet ; les participants seront invités à réaliser l'achat en direct. Nom complet, outils, prérequis et cadre de sécurité à confirmer."
+      "format": "Workshop",
+      "notes": "Remplace le workshop de Jean, qui ne pourra pas être prêt pour B-Only 2026. Bitvault (.sv) est un partenaire potentiel ; sujet, contenu, format détaillé, besoins techniques et modalités de partenariat à confirmer."
     },
     {
       "id": "sat-main-nicolas",
@@ -166,12 +166,12 @@
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Bitcoin est pour les copaines",
+      "title": "Bitcoin pour les Copain.e.s",
       "speakers": [
         "Lionel Jeannerat"
       ],
       "format": "Présentation et questions",
-      "notes": "Créneau provisoire ; synopsis, format et titre définitif à confirmer."
+      "notes": "Titre confirmé. État des lieux des communautés et de l’environnement autour de Bitcoin avec des points de repère historiques. Fonction affichée : éditeur et vieille branche."
     },
     {
       "id": "sun-workshop-profedu-send-receive",
@@ -323,7 +323,7 @@
       "notes": "Intervenant, fonction, titre, créneau, vignette et campagne multicanale V2 validés le 3 août 2026. Besoins techniques suivis séparément avec la production."
     },
     {
-      "id": "sun-main-sandra",
+      "id": "sun-main-delphine-vincent",
       "date": "2026-11-08",
       "start": "16:30",
       "end": "17:20",
@@ -332,10 +332,10 @@
       "visibility": "internal",
       "title": "Sujet à confirmer",
       "speakers": [
-        "Sandra Gandoin"
+        "Delphine Vincent"
       ],
       "format": "Présentation et questions",
-      "notes": "Participation et disponibilité à confirmer."
+      "notes": "Créneau proposé à Delphine Vincent le 2026-09-07 par message LinkedIn après l’indisponibilité confirmée de Sandra Gandoin. Participation, titre, sujet et détails à confirmer."
     },
     {
       "id": "sun-workshop-profedu-offline",
@@ -397,7 +397,7 @@
         "Laure Merlin"
       ],
       "format": "Atelier",
-      "notes": "Remplace le workshop Specter de Schnuartz. Créneau rendu public le 2026-09-06 ; détails pratiques et besoins techniques à confirmer."
+      "notes": "Remplace le workshop Specter de Schnuartz. Créneau rendu public le 2026-09-06. Aucun besoin technique particulier ; capacité souhaitée limitée à 12–15 participants."
     },
     {
       "id": "sun-workshop-quiz",
