@@ -40,7 +40,7 @@ la modération, aux réponses et à l'observation des premiers résultats.
 | 5–10 octobre | **5–7 octobre — Laure Merlin** : « Atelier Bitcoin Lego » | `À PRODUIRE` — titre confirmé ; aucun besoin technique particulier ; jauge 12–15 personnes | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
 | 12–17 octobre | **12–14 octobre — Noé / WeSatoshis** | `À COMPLÉTER` | **15–17 octobre — Michel Khazzaka** | `À COMPLÉTER` |
 | 19–24 octobre | **19–21 octobre — rappel des workshops pratiques** | `À CADRER` | **22–24 octobre — Alexis Roussel** | `À COMPLÉTER` |
-| 26–31 octobre | **26–28 octobre — Bitvault (.sv) / Loic Ruchat-Leuthardt** | `À COMPLÉTER` — remplace le workshop de Jean du samedi 7 novembre à 15 h 30 ; partenaire potentiel, sujet et modalités à préciser | **29–31 octobre — Delphine Vincent** | `EN ATTENTE` — créneau du dimanche 8 novembre à 16 h 30 proposé via LinkedIn ; participation, sujet et éléments éditoriaux à confirmer |
+| 26–31 octobre | **26–28 octobre — BitVault / Loïc Ruchat-Leuthardt** : « Posséder ses bitcoins en toute sécurité » | `À PRODUIRE` — participation et créneau du samedi 7 novembre à 15 h 30 confirmés ; logos reçus ; synopsis, portrait et besoins techniques à obtenir ; statut du partenariat à préciser | **29–31 octobre — Delphine Vincent** | `EN ATTENTE` — créneau du dimanche 8 novembre à 16 h 30 proposé via LinkedIn ; participation, sujet et éléments éditoriaux à confirmer |
 | 2–6 novembre | **2–4 novembre — dernier rappel des workshops** | `À CADRER` | **5–6 novembre — Le Cercle du Coin avec Laure Merlin** : présentation du Cercle, puis keynote « Comment faire communauté » | `À PRODUIRE` — session du lundi 9 novembre, 9 h–10 h |
 
 ## Déroulé type d'une vague complète
@@ -81,8 +81,9 @@ La campagne Christine Jeanneaux prend la fenêtre du 14 au 16 septembre à la
 place du workshop Élodie. Le workshop Élodie prend la fenêtre du 21 au
 23 septembre. Le workshop initialement prévu avec Jean est abandonné car il ne
 pourra pas être prêt ; le créneau du samedi 7 novembre à 15 h 30 est désormais
-réservé à Bitvault (.sv) avec Loic Ruchat-Leuthardt, sous réserve de confirmation
-des détails du workshop et du partenariat potentiel.
+confirmé pour BitVault avec Loïc Ruchat-Leuthardt sous le titre « Posséder ses
+bitcoins en toute sécurité ». Le synopsis, le portrait, les besoins techniques
+et le statut du partenariat restent à préciser.
 
 L’inversion du programme entre Lionel Jeannerat et le quiz ne modifie pas la
 fenêtre éditoriale proposée de Lionel du 1er au 3 octobre. Toute future copie

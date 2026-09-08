@@ -1,7 +1,7 @@
 # Index Nextcloud AlpineChain
 
 Dernière vérification documentaire complète : 2026-07-30
-Dernière mise à jour ciblée B-Only : 2026-08-16 — réconciliation GitHub ↔ Nextcloud
+Dernière mise à jour ciblée B-Only : 2026-09-08 — six logos sources BitVault classés et vérifiés
 Dernière mise à jour de sécurité : 2026-08-16
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
 Audit ciblé B-Only 2026 après nettoyage : 45 dossiers et 111 fichiers
@@ -243,6 +243,20 @@ La vignette active est
 `03_Communication/Vignettes/Intervenants/vignette--pierre-noizat--energie-monnaie-et-civilisation--2026-08-12--valide.png`.
 Les portraits `portrait-noir-et-blanc` et `portrait-profil` du 19 juillet sont
 conservés sous `Archives/Versions-anterieures/01_Programme-Intervenants/Photos Intervenants/`.
+
+Pour BitVault, les six variantes PNG reçues le 8 septembre 2026 sont classées
+sans écrasement dans `01_Programme-Intervenants/Logos Participants/` :
+
+- `organisation--bitvault--logo-blanc-transparent--2026-09-08--source.png` ;
+- `organisation--bitvault--logo-blanc-transparent-moyenne-resolution--2026-09-08--source.png` ;
+- `organisation--bitvault--logo-blanc-transparent-petite-resolution--2026-09-08--source.png` ;
+- `organisation--bitvault--logo-fond-blanc-carre--2026-09-08--source.png` ;
+- `organisation--bitvault--logo-fond-noir-carre--2026-09-08--source.png` ;
+- `organisation--bitvault--logo-noir-transparent--2026-09-08--source.png`.
+
+Le scan authentifié du groupfolder Association s'est terminé sans erreur et
+les six empreintes SHA-256 distantes correspondent aux sources locales. Aucune
+vignette n'est marquée comme validée à ce stade.
 
 ## Classification et droits
 

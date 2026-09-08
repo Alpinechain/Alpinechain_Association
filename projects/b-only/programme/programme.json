@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-09-07T15:35:00Z",
+    "updatedAt": "2026-09-08T21:20:26Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -88,14 +88,14 @@
       "start": "15:30",
       "end": "16:20",
       "room": "workshop",
-      "status": "option",
+      "status": "confirmed",
       "visibility": "internal",
-      "title": "Workshop Bitvault (.sv) — sujet à confirmer",
+      "title": "Posséder ses bitcoins en toute sécurité",
       "speakers": [
-        "Loic Ruchat-Leuthardt"
+        "Loïc Ruchat-Leuthardt"
       ],
       "format": "Workshop",
-      "notes": "Remplace le workshop de Jean, qui ne pourra pas être prêt pour B-Only 2026. Bitvault (.sv) est un partenaire potentiel ; sujet, contenu, format détaillé, besoins techniques et modalités de partenariat à confirmer."
+      "notes": "Participation de BitVault confirmée le 2026-09-08. Ce créneau remplace le workshop de Jean, qui ne pourra pas être prêt pour B-Only 2026. La phrase fournie pour le visuel est utilisée comme titre ; synopsis, format détaillé, prérequis, besoins techniques et statut du partenariat restent à préciser."
     },
     {
       "id": "sat-main-nicolas",
