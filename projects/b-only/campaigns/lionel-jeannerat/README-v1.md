@@ -45,7 +45,8 @@ Calendrier machine : `calendrier-diffusion-v1.csv`.
   session ;
 - confirmer les droits et le crédit du portrait ;
 - relire et valider les textes multicanaux ;
-- créer puis vérifier les sept vouchers Pretix et alias courts `b26-lj-*` ;
+- sept vouchers Pretix et sept alias courts `b26-lj-*` actifs et vérifiés le
+  11 septembre 2026 ;
 - vérifier que la vignette validée est utilisée sur chaque canal ;
 - contrôler les comptes et aperçus avant programmation ;
 - conserver Nostr en publication manuelle ;
@@ -54,7 +55,7 @@ Calendrier machine : `calendrier-diffusion-v1.csv`.
 
 ## Statut
 
-**PRÊT À RELIRE — non programmable tant que les gates ci-dessus ne sont pas
-levés.**
+**PRÊT À RELIRE — liens actifs, mais non programmable tant que les autres
+gates ci-dessus ne sont pas levés.**
 
 Aucune programmation ni publication n'a été effectuée.

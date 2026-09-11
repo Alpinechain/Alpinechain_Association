@@ -204,7 +204,8 @@ https://go.alpinechain.xyz/b26-lj-ig
 - [ ] participation et statut publiable de la session confirmés ;
 - [ ] droits et crédit du portrait confirmés ;
 - [ ] textes multicanaux relus et validés ;
-- [ ] vouchers Pretix et liens courts créés puis vérifiés ;
+- [x] vouchers Pretix et liens courts créés puis vérifiés le 11 septembre
+  2026 ;
 - [ ] comptes et aperçus contrôlés dans les outils de programmation.
 
 Aucune programmation ni publication n'est effectuée par ce document.
