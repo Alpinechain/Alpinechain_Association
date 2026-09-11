@@ -104,7 +104,7 @@ Validation : humaine avant publication
 
 Pour les contenus publics, vérifier le CTA, le lien, la date, le lieu, le format, le niveau technique et la cohérence AlpineChain.
 
-Pour X, appliquer `docs/GUIDE_REDACTIONNEL_X.md`, notamment la limite interne de 140 caractères et les règles de thread.
+Pour X, appliquer `docs/GUIDE_REDACTIONNEL_X.md`, notamment la limite interne de 240 caractères, lien compris, et les règles de thread. Cette limite est un plafond et non une longueur cible.
 
 ## 7. Gestion des actions
 
