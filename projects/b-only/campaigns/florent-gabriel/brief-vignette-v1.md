@@ -1,9 +1,9 @@
 # Brief vignette — Florent Gabriel — V1
 
-**État : VISUEL À VALIDER — la V5 validée contient l’ancien titre. Une V6
-corrigée a été produite le 11 septembre 2026 et classée comme brouillon dans
-Nextcloud. La session reste interne ; aucune programmation ni publication
-n’est déclarée.**
+**État : VISUEL VALIDÉ / ACTIF — la V6 corrigée a été validée par Cyrille et
+activée dans Nextcloud le 11 septembre 2026. La V5 au titre obsolète est
+archivée. La session reste interne ; aucune programmation ni publication n’est
+déclarée.**
 
 ## Texte affiché
 
@@ -37,12 +37,12 @@ n’est déclarée.**
 - logos sources :
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-noir-jaune--2026-09-01--source.png` et
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-contour--2026-09-01--source.png` ;
-- export carré validé :
-  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--valide.png` ;
-- brouillon V6 corrigé à valider :
-  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-11--brouillon-v6.png` ;
+- export carré V6 validé et actif :
+  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-11--valide.png` ;
+- ancienne V5 au titre obsolète archivée :
+  `Archives/Versions-anterieures/03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--valide-titre-obsolete.png` ;
 - brouillons V1 à V5 archivés pour traçabilité dans
-  `2026/Archives/Versions-anterieures/03_Communication/Vignettes/Intervenants/`.
+  `Archives/Versions-anterieures/03_Communication/Vignettes/Intervenants/`.
 
 ## Texte alternatif proposé
 
@@ -55,8 +55,8 @@ n’est déclarée.**
 - [x] le visage et le nom sont vérifiés par Cyrille avec la validation de la V5 ;
 - [x] la fonction et l’organisation sont validées ;
 - [x] le titre exact sans « de » devant Bitcoin est validé ;
-- [ ] la composition corrigée de la V6 est validée ;
+- [x] la composition corrigée de la V6 est validée par Cyrille le 11 septembre 2026 ;
 - [ ] les droits et le crédit du portrait sont confirmés ;
 - [ ] Florent Gabriel valide la vignette et le texte alternatif ;
-- [x] Cyrille valide la vignette le 1er septembre 2026 ;
-- [ ] après validation humaine, archiver la V5 et activer la V6 avec le suffixe `--valide`.
+- [x] Cyrille valide la V5 le 1er septembre 2026 puis la V6 le 11 septembre 2026 ;
+- [x] la V5 est archivée et la V6 activée avec le suffixe `--valide`.

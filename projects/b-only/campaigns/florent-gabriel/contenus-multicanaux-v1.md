@@ -1,6 +1,6 @@
 # Campagne Florent Gabriel — contenus multicanaux V1
 
-**État : VALIDÉ / LIENS ACTIFS / VISUEL À VALIDER — droits/crédit du portrait, visibilité publique et contrôle des aperçus requis avant programmation.**
+**État : VALIDÉ / LIENS ACTIFS / VISUEL VALIDÉ — programmation bloquée tant que la session reste interne ; droits/crédit du portrait et contrôle des aperçus également requis.**
 
 Cette version applique les règles éditoriales les plus récentes :
 - Blog et Nostr utilisent le **même texte long**, supérieur à 1 500 caractères ;
@@ -22,7 +22,7 @@ Cette version applique les règles éditoriales les plus récentes :
   cette question
 - CTA : réserver une place pour B-Only'26
 - Billetterie officielle : https://join.alpinechain.xyz/org/bonly26/
-- Visuel : vignette V6 corrigée produite le 11 septembre 2026, à valider
+- Visuel : vignette V6 corrigée, validée et activée le 11 septembre 2026
 
 Les sept vouchers Pretix et alias courts sont actifs et vérifiés depuis le
 11 septembre 2026. Le texte Blog / Nostr conserve un corps éditorial unique ;
@@ -215,11 +215,10 @@ https://go.alpinechain.xyz/b26-fg-ig
 
 ## Visuel et texte alternatif
 
-- État : `VISUEL À VALIDER`
-- Fichier Nextcloud V6 :
-  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-11--brouillon-v6.png`
-- La V5 validée reste active mais contient l’ancien titre ; elle ne doit pas être
-  utilisée avec la campagne corrigée.
+- État : `VISUEL VALIDÉ / ACTIF`
+- Fichier Nextcloud V6 actif :
+  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-11--valide.png`
+- La V5 au titre obsolète est archivée dans `Archives/Versions-anterieures/`.
 - Texte alternatif : vignette B-Only'26 annonçant Florent Gabriel, CEO & co
   founder Blobb.io, pour la présentation « L’IA est-elle en train de sauver ou
   de tuer Bitcoin ? », avec son portrait sur un fond ivoire, orange et
@@ -228,7 +227,7 @@ https://go.alpinechain.xyz/b26-fg-ig
 ## Contrôles avant programmation
 
 - [x] identité, fonction et titre exact validés ;
-- [ ] vignette V6 corrigée validée puis activée ;
+- [x] vignette V6 corrigée validée puis activée le 11 septembre 2026 ;
 - [x] dates générales et lieu de l'événement vérifiés ;
 - [x] créneau interne volontairement absent des textes publics ;
 - [x] Blog / Nostr : même texte long, supérieur à 1 500 caractères ;
