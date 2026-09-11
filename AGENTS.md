@@ -2,8 +2,8 @@
 
 Instructions pour les agents IA travaillant sur le dépôt AlpineChain Association.
 
-Version : V0.6
-Dernière mise à jour : 2026-08-16
+Version : V0.8
+Dernière mise à jour : 2026-09-06
 
 ## 1. Rôle du dépôt
 
@@ -40,14 +40,19 @@ Il ne doit pas :
 | Sujet | Source de vérité |
 |---|---|
 | Priorités, actions, décisions, procédures, textes, calendriers, liens et preuves publiques | GitHub |
-| Portraits, visuels, contrats, médias sources et exports lourds | Nextcloud |
+| Portraits, visuels, contrats, pièces justificatives, médias sources et exports lourds | Nextcloud |
 | Billetterie et participants | Pretix |
-| Comptabilité associative | Paheko |
+| Écritures de comptabilité associative et références documentaires | Paheko |
 | CRM, sponsors, devis et factures | Dolibarr |
 | Vidéos publiques | PeerTube |
 | Infrastructure et runbooks serveur | Dépôt `Alpinechain/Serveur` |
 
 Une conversation ChatGPT peut préparer une décision ou une action. Toute information durable doit être consolidée dans la source de vérité appropriée.
+
+Pour chaque écriture comptable, la pièce justificative est stockée dans
+Nextcloud. Paheko conserve dans l’écriture la référence précise du document ou
+de son dossier Nextcloud. Il n’est pas nécessaire de joindre une seconde copie
+du fichier dans Paheko.
 
 Les textes, calendriers, fichiers de liens et preuves publiques ne sont pas
 dupliqués dans Nextcloud. GitHub en conserve l'unique version de référence.
@@ -204,3 +209,13 @@ Une tâche est terminée quand :
 [ ] la prochaine action est identifiable ;
 [ ] aucune publication automatique n’a été faite.
 ```
+
+## 12. Utilisation de Codex
+
+- Ouvrir ce dépôt dans une fenêtre et une discussion dédiées à AlpineChain ; vérifier le remote avant toute écriture. Le workspace personnel `~/.codex/alpinechain-association.code-workspace` ouvre ce dépôt seul.
+- Le modèle, le raisonnement et le style héritent de `~/.codex/config.toml` : GPT-6 Astra, `medium`, `pragmatic`. Un effort `high` ponctuel convient aux rapprochements complexes ; le sélectionner dans l’interface si nécessaire.
+- Avancer de façon autonome sur les lectures et préparations autorisées, puis présenter un livrable concret pour les validations humaines prévues ci-dessus. Une préparation autorisée ne vaut pas accord de publication, de fusion dans `main` ou d’engagement financier.
+- Préserver les formulations validées. Distinguer explicitement `PRÊT À RELIRE`, `PRÊT À PROGRAMMER`, `PROGRAMMÉ`, `PUBLIÉ`, `URLS ARCHIVÉES` et `MÉTRIQUES RELEVÉES` ; ne déclarer un état que sur preuve actuelle. Un déploiement du programme ne prouve pas une publication sociale.
+- Vérifier les informations changeantes dans les sources de vérité de la section 3. Utiliser l’historique pour retrouver le contexte, sans transformer une ancienne observation en état actuel.
+- Pour la comptabilité, archiver chaque justificatif dans Nextcloud et inscrire sa référence précise dans l’écriture Paheko. Ne pas dupliquer la pièce dans Paheko et ne pas créer d’Issue uniquement pour suivre cette absence de copie.
+- Exécuter les validations adaptées aux fichiers modifiés et examiner le diff. Pour une modification du programme, lancer `node projects/b-only/programme/validate.mjs` ; vérifier également `git diff --check`. Préserver les changements préexistants hors périmètre.
