@@ -2,7 +2,7 @@
 
 ## Position dans la séquence B-Only
 
-La campagne Lionel Jeannerat est désormais positionnée du **21 au 23 septembre 2026**, après Florent Gabriel.
+La campagne Lionel Jeannerat est positionnée du **21 au 23 septembre 2026**, après Florent Gabriel.
 
 Cette fenêtre éditoriale est distincte du créneau de Lionel dans le programme de la conférence.
 
@@ -49,18 +49,18 @@ La V2 renforce :
 - un ton plus vivant, sans transformer Lionel en porte-parole d'idées non fournies ;
 - un article Blog/Nostr long et commun, comme pour la campagne Florent Gabriel.
 
-## Gate avant programmation
+## Validation
 
 - [x] identité, fonction, titre, angle et visuel validés ;
 - [x] liens courts actifs et vérifiés ;
 - [x] fenêtre éditoriale attribuée au 21–23 septembre ;
 - [x] contenus V2 préparés ;
-- [ ] confirmer le statut publiable de la session ;
-- [ ] confirmer les droits et le crédit du portrait ;
+- [x] contenus V2 validés par Cyrille le 11 septembre 2026 ;
+- [x] version V2 désignée comme version active à programmer ;
 - [ ] contrôler les comptes et aperçus avant programmation ;
 - [ ] conserver Nostr en publication manuelle ;
 - [ ] après diffusion réelle, archiver les URL publiques et les métriques dans l'Issue #24.
 
 ## Statut
 
-**PRÊT À RELIRE / PROGRAMMER APRÈS LEVÉE DES DERNIERS GATES.**
+**PRÊT À PROGRAMMER — contrôle final des aperçus à effectuer au moment de la programmation.**
