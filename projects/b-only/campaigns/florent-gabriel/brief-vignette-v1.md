@@ -1,8 +1,9 @@
 # Brief vignette — Florent Gabriel — V1
 
-**État : vignette V5 validée par Cyrille le 1er septembre 2026 et utilisable
-pour les futures publications. La session reste interne ; la campagne n’est ni
-préparée, ni programmée, ni publiée.**
+**État : VISUEL À VALIDER — la V5 validée contient l’ancien titre. Une V6
+corrigée a été produite le 11 septembre 2026 et classée comme brouillon dans
+Nextcloud. La session reste interne ; aucune programmation ni publication
+n’est déclarée.**
 
 ## Texte affiché
 
@@ -10,7 +11,7 @@ préparée, ni programmée, ni publiée.**
 - badge : `INTERVENANT` ;
 - nom : `FLORENT GABRIEL` ;
 - fonction et organisation : `CEO & CO-FOUNDER — BLOBB.IO` ;
-- titre : `L’IA EST-ELLE EN TRAIN DE SAUVER OU DE TUER DE BITCOIN ?`.
+- titre : `L’IA EST-ELLE EN TRAIN DE SAUVER OU DE TUER BITCOIN ?`.
 
 ## Composition
 
@@ -38,21 +39,24 @@ préparée, ni programmée, ni publiée.**
   `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-contour--2026-09-01--source.png` ;
 - export carré validé :
   `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-01--valide.png` ;
+- brouillon V6 corrigé à valider :
+  `03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-11--brouillon-v6.png` ;
 - brouillons V1 à V5 archivés pour traçabilité dans
   `2026/Archives/Versions-anterieures/03_Communication/Vignettes/Intervenants/`.
 
 ## Texte alternatif proposé
 
 > Vignette B-Only'26 annonçant Florent Gabriel, CEO et cofondateur de Blobb.io,
-> pour la présentation « L’IA est-elle en train de sauver ou de tuer de
+> pour la présentation « L’IA est-elle en train de sauver ou de tuer
 > Bitcoin ? », avec son portrait sur fond ivoire, orange et anthracite.
 
 ## Validation attendue
 
 - [x] le visage et le nom sont vérifiés par Cyrille avec la validation de la V5 ;
 - [x] la fonction et l’organisation sont validées ;
-- [x] le titre affiché est validé avec la V5 ;
+- [x] le titre exact sans « de » devant Bitcoin est validé ;
+- [ ] la composition corrigée de la V6 est validée ;
 - [ ] les droits et le crédit du portrait sont confirmés ;
 - [ ] Florent Gabriel valide la vignette et le texte alternatif ;
 - [x] Cyrille valide la vignette le 1er septembre 2026 ;
-- [x] le suffixe `--valide` est appliqué à la version active.
+- [ ] après validation humaine, archiver la V5 et activer la V6 avec le suffixe `--valide`.

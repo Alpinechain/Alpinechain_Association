@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Proposition d’intégration du bloc sponsors B-Only 2026">
+    <title>Proposition sponsors — B-Only 2026</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Pixelify+Sans:wght@500;700&display=swap");
+
+      :root {
+        --ink: #0f1728;
+        --muted: #475466;
+        --page: #fbf7f3;
+        --card: #f5f5f5;
+        --orange: #f6751a;
+        font-family: "JetBrains Mono", ui-monospace, monospace;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--ink);
+      }
+
+      .context {
+        display: grid;
+        min-height: 13rem;
+        place-items: center;
+        padding: 3rem 2rem;
+        background: #f5f5f5;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      .context p {
+        max-width: 48rem;
+        margin: 0;
+      }
+
+      .context strong {
+        display: block;
+        margin-bottom: 0.75rem;
+        color: var(--ink);
+        font-size: clamp(1.4rem, 3vw, 2.25rem);
+      }
+
+      .partners {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 31px;
+        width: 100%;
+        padding: 180px 0;
+        background: var(--page);
+      }
+
+      .section-heading {
+        width: 100%;
+        padding: 0 100px;
+      }
+
+      .section-label {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        width: 100%;
+        margin: 0;
+        color: var(--ink);
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        line-height: 44px;
+        white-space: nowrap;
+      }
+
+      .slashes {
+        color: var(--orange);
+        font-weight: 700;
+        letter-spacing: -0.22em;
+      }
+
+      h1 {
+        margin: 0;
+        color: var(--ink);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 44px;
+      }
+
+      .intro {
+        max-width: 826px;
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+
+      .logo-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        width: min(1251px, calc(100% - 200px));
+      }
+
+      .partner {
+        display: grid;
+        min-height: 14rem;
+        place-items: center;
+        padding: 1.25rem;
+        border-radius: 24px;
+        background: var(--card);
+        color: var(--ink);
+        text-decoration: none;
+      }
+
+      .partner:focus-visible {
+        outline: 3px solid var(--orange);
+        outline-offset: 3px;
+      }
+
+      .partner img {
+        display: block;
+        width: min(100%, 21rem);
+        height: 8.75rem;
+        object-fit: contain;
+      }
+
+      .partner--cercle img {
+        width: min(100%, 22rem);
+        height: 9.5rem;
+      }
+
+      .videos-context {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0;
+        min-height: 25rem;
+        padding: 180px 100px 7rem;
+        background: var(--page);
+      }
+
+      .videos-context .section-label {
+        margin: 0;
+      }
+
+      .videos-context strong {
+        display: block;
+        margin: 0;
+        color: var(--ink);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 34px;
+        line-height: 44px;
+      }
+
+      @media (max-width: 1439px) {
+        .section-heading {
+          padding-inline: 60px;
+        }
+
+        .logo-grid {
+          width: calc(100% - 120px);
+        }
+
+        .videos-context {
+          padding-inline: 60px;
+        }
+      }
+
+      @media (max-width: 1052px) {
+        .section-heading {
+          padding-inline: 32px;
+        }
+
+        .logo-grid {
+          grid-template-columns: 1fr;
+          width: calc(100% - 64px);
+        }
+
+        .partner {
+          min-height: 12rem;
+        }
+
+        .partner img,
+        .partner--cercle img {
+          width: min(100%, 22rem);
+          height: 8.5rem;
+        }
+
+        .videos-context {
+          padding-inline: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="context" aria-label="Contexte de la maquette">
+      <p>
+        <strong>Fin du programme 2026</strong>
+        Le bloc ci-dessous prend place immédiatement après l’intégration actuelle du programme.
+      </p>
+    </section>
+
+    <section class="partners" id="partenaires" aria-labelledby="partners-title">
+      <div class="section-heading">
+        <p class="section-label"><span class="slashes">//</span><span>Nos Sponsors 2026</span></p>
+        <h1 id="partners-title">Ils rendent B-only possible</h1>
+        <p class="intro">
+          B-Only est organisé par AlpineChain avec le soutien de partenaires engagés
+          aux côtés de l’événement. Merci à Paymium, Bitstack et au Cercle du Coin.
+        </p>
+      </div>
+
+      <div class="logo-grid">
+        <a class="partner" href="https://www.paymium.com/" target="_blank" rel="noopener noreferrer" aria-label="Découvrir Paymium (nouvel onglet)">
+          <img src="https://www.paymium.com/_next/static/media/logo.c992fa26.svg" alt="Paymium">
+        </a>
+        <a class="partner" href="https://www.bitstack-app.com/" target="_blank" rel="noopener noreferrer" aria-label="Découvrir Bitstack (nouvel onglet)">
+          <img src="https://cdn.prod.website-files.com/63ea3e6d2856ff83c7d77160/6672afae1e036e5508ca5e3b_Logo_Bitstack.svg" alt="Bitstack">
+        </a>
+        <a class="partner partner--cercle" href="https://lecercleducoin.fr/" target="_blank" rel="noopener noreferrer" aria-label="Découvrir le Cercle du Coin (nouvel onglet)">
+          <img src="https://lecercleducoin.fr/wp-content/uploads/2015/11/cercleducoin-logo-sombre.png" alt="Le Cercle du Coin">
+        </a>
+      </div>
+    </section>
+
+    <section class="videos-context" aria-label="Section suivante de la page">
+      <p class="section-label"><span class="slashes">//</span><span>Vidéos</span></p>
+      <strong>Vidéos des précédentes éditions</strong>
+    </section>
+  </body>
+</html>

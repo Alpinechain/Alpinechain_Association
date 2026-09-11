@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-09-01T15:50:00Z",
+    "updatedAt": "2026-09-11T13:45:43Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -83,19 +83,19 @@
       "notes": "Entrez dans le terrier du lapin. Outils : Sparrow, mempool.space, plaque en acier et Jade. Présentation : https://canva.link/qod0x69lk6kvbky."
     },
     {
-      "id": "sat-workshop-jean-private-buy",
+      "id": "sat-workshop-bitvault",
       "date": "2026-11-07",
       "start": "15:30",
       "end": "16:20",
       "room": "workshop",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
-      "title": "Acheter du bitcoin de manière privée : méthodes, précautions et mise en pratique",
+      "title": "Posséder ses bitcoins en toute sécurité",
       "speakers": [
-        "Jean — identité à compléter"
+        "Loïc Ruchat-Leuthardt"
       ],
-      "format": "Workshop pratique",
-      "notes": "Créneau validé le 29 juillet ; les participants seront invités à réaliser l'achat en direct. Nom complet, outils, prérequis et cadre de sécurité à confirmer."
+      "format": "Workshop",
+      "notes": "Participation de BitVault confirmée le 2026-09-08. Ce créneau remplace le workshop de Jean, qui ne pourra pas être prêt pour B-Only 2026. La phrase fournie pour le visuel est utilisée comme titre ; synopsis, format détaillé, prérequis, besoins techniques et statut du partenariat restent à préciser."
     },
     {
       "id": "sat-main-nicolas",
@@ -120,12 +120,12 @@
       "room": "main",
       "status": "confirmed",
       "visibility": "internal",
-      "title": "L’IA est-elle en train de sauver ou de tuer de Bitcoin ?",
+      "title": "L’IA est-elle en train de sauver ou de tuer Bitcoin ?",
       "speakers": [
         "Florent Gabriel"
       ],
       "format": "Présentation",
-      "notes": "Florent Gabriel, CEO et cofondateur de Blobb.io. Titre, fonction, portrait et logos reçus le 2026-09-01. Synopsis et besoins techniques à confirmer."
+      "notes": "Florent Gabriel, CEO et cofondateur de Blobb.io. Titre exact et angle validés le 2026-09-11 : effets possibles de l’IA sur l’adoption, les financements du développement technique, le prix et l’intérêt pour Bitcoin, puis antifragilité de Bitcoin. Besoins techniques à confirmer."
     },
     {
       "id": "sat-workshop-polto-darko",
@@ -166,12 +166,12 @@
       "room": "main",
       "status": "reserved",
       "visibility": "internal",
-      "title": "Bitcoin est pour les copaines",
+      "title": "Bitcoin pour les Copain.e.s",
       "speakers": [
         "Lionel Jeannerat"
       ],
       "format": "Présentation et questions",
-      "notes": "Créneau provisoire ; synopsis, format et titre définitif à confirmer."
+      "notes": "Titre confirmé. État des lieux des communautés et de l’environnement autour de Bitcoin avec des points de repère historiques. Fonction affichée : éditeur et vieille branche."
     },
     {
       "id": "sun-workshop-profedu-send-receive",
@@ -323,7 +323,7 @@
       "notes": "Intervenant, fonction, titre, créneau, vignette et campagne multicanale V2 validés le 3 août 2026. Besoins techniques suivis séparément avec la production."
     },
     {
-      "id": "sun-main-sandra",
+      "id": "sun-main-delphine-vincent",
       "date": "2026-11-08",
       "start": "16:30",
       "end": "17:20",
@@ -332,10 +332,10 @@
       "visibility": "internal",
       "title": "Sujet à confirmer",
       "speakers": [
-        "Sandra Gandoin"
+        "Delphine Vincent"
       ],
       "format": "Présentation et questions",
-      "notes": "Participation et disponibilité à confirmer."
+      "notes": "Créneau proposé à Delphine Vincent le 2026-09-07 par message LinkedIn après l’indisponibilité confirmée de Sandra Gandoin. Participation, titre, sujet et détails à confirmer."
     },
     {
       "id": "sun-workshop-profedu-offline",
@@ -375,14 +375,29 @@
       "start": "18:00",
       "end": "18:50",
       "room": "workshop",
-      "status": "reserved",
+      "status": "cancelled",
       "visibility": "internal",
       "title": "Specter Workshop",
       "speakers": [
         "Schnuartz"
       ],
       "format": "Workshop en anglais",
-      "notes": "Intitulé définitif et langue à confirmer."
+      "notes": "Créneau remplacé le 2026-08-31 par l’atelier Bitcoin Lego de Laure Merlin."
+    },
+    {
+      "id": "sun-workshop-laure-merlin-bitcoin-lego",
+      "date": "2026-11-08",
+      "start": "18:00",
+      "end": "18:50",
+      "room": "workshop",
+      "status": "confirmed",
+      "visibility": "public",
+      "title": "Atelier Bitcoin Lego",
+      "speakers": [
+        "Laure Merlin"
+      ],
+      "format": "Atelier",
+      "notes": "Remplace le workshop Specter de Schnuartz. Créneau rendu public le 2026-09-06. Aucun besoin technique particulier ; capacité souhaitée limitée à 12–15 participants."
     },
     {
       "id": "sun-workshop-quiz",
@@ -400,17 +415,17 @@
     {
       "id": "mon-main-cercle",
       "date": "2026-11-09",
-      "start": "09:30",
+      "start": "09:00",
       "end": "10:00",
       "room": "main",
       "status": "confirmed",
       "visibility": "public",
-      "title": "Une communauté autour de Bitcoin & Souveraineté",
+      "title": "Le Cercle du Coin — Comment faire communauté",
       "speakers": [
-        "Le Cercle du Coin"
+        "Laure Merlin"
       ],
-      "format": "Présentation d’environ 20 minutes, puis échanges",
-      "notes": "Présentation du Cercle du Coin : qui nous sommes, nos missions — les Repas du Coin partout en France, le réseau d’enthousiastes francophones, la défense des intérêts de la communauté et la vulgarisation — ainsi qu’un aperçu de ce que nous préparons. Visuel : logo du Cercle du Coin."
+      "format": "Présentation du Cercle du Coin, puis keynote",
+      "notes": "Laure Merlin présente le Cercle du Coin pendant 10 à 15 minutes, puis enchaîne avec le keynote « Comment faire communauté » pendant 30 à 35 minutes. Visuel : logo du Cercle du Coin."
     },
     {
       "id": "mon-main-michel-khazzaka",
