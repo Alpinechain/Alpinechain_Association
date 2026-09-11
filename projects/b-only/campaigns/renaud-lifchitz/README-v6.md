@@ -1,0 +1,54 @@
+# Campagne intervenant — Renaud Lifchitz — V6
+
+**État : PUBLIÉ — SEPT URLS ARCHIVÉES — MÉTRIQUES À RELEVER.**
+
+Cette version remplace le positionnement descriptif des contenus V2 par une
+campagne centrée sur la reprise en main des infrastructures de communication :
+
+> Internet n'est pas le réseau. Ce n'est qu'un chemin parmi d'autres.
+
+## Fichiers actifs
+
+- `contenus-multicanaux-v3.md` ;
+- `article-blog-v3.md` ;
+- `campaign-links-v1.csv` ;
+- `calendrier-diffusion-v4.csv`.
+
+Les contenus et calendriers précédents restent historiques et ne doivent pas
+être programmés en parallèle.
+
+## Calendrier appliqué
+
+La vague est déplacée du **3 au 5 septembre 2026** afin de réserver le 31 août,
+le 1er septembre et surtout le 2 septembre à la communication de l'atelier
+AlpineChain « Multisig et Disaster Recovery ».
+
+- jeudi 3 septembre : Blog puis LinkedIn AlpineChain ;
+- vendredi 4 septembre : LinkedIn Annecy Bitcoin Meetup puis X ;
+- samedi 5 septembre : Nostr, Facebook puis Instagram.
+
+La campagne Christine Jeanneaux initialement prévue du 3 au 5 septembre est
+recalée du 14 au 16 septembre.
+
+## État de diffusion vérifié le 11 septembre 2026
+
+- [x] textes sociaux V3 relus et validés ;
+- [x] Nostr long et article Blog V3 relus et validés ;
+- [x] calendrier V4 validé ;
+- [x] Blog, LinkedIn AlpineChain, LinkedIn Annecy Bitcoin Meetup, X, Facebook
+  et Instagram programmés puis publiés à leurs créneaux ;
+- [x] rappel personnel programmé le 5 septembre 2026 à 12 h 15,
+  `Europe/Paris`, pour la publication Nostr ;
+- [x] publication Nostr effectuée manuellement ;
+- [x] sept URLs publiques archivées dans `publications-v1.csv` et dans
+  l'Issue #24 ;
+- [ ] métriques à relever sur une fenêtre commune.
+
+## Gate
+
+- [x] contenus V3 et calendrier V4 validés ;
+- [x] sept liens courts conservés et contrôlés ;
+- [x] programmation validée ;
+- [x] aperçus contrôlés avant programmation ;
+- [x] URLs publiques archivées dans l'Issue #24 après diffusion ;
+- [ ] métriques relevées et consignées dans l'Issue #24.
