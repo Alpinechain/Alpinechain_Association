@@ -2,7 +2,7 @@
 
 Version : V6
 Date de préparation : 2026-08-16
-Dernière actualisation : 2026-09-07
+Dernière actualisation : 2026-09-11
 Fuseau : Europe/Paris
 Statut global : **PRÊT À RELIRE**
 Validation : humaine avant programmation ou publication
@@ -36,7 +36,7 @@ la modération, aux réponses et à l'observation des premiers résultats.
 | 7–12 septembre | **7–9 septembre — Polto et Darko** : « Justifier l'origine de ses bitcoins » | `PROGRAMMÉ` — contenus V2, Blog et calendrier V2 relus | **10–12 septembre — Pierre Noizat** : « Energie, monnaie et civilisation » | `PRÊT À PROGRAMMER` — campagne V1 relue ; liens à créer et vérifier avant programmation |
 | 14–19 septembre | **14–16 septembre — Christine Jeanneaux** : « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | `PRÊT À PROGRAMMER` — campagne V4 validée ; remplace la vague workshop Élodie | **17–19 septembre — Alexandre Stachtchenko** | `À COMPLÉTER` — sujet, titre, portrait et contenu manquants |
 | 21–26 septembre | **21–23 septembre — Élodie Lué** : « Paiements via Lightning Network » | `À PRODUIRE` — remplace Jean ; modalités des commerçants à préciser | **24–26 septembre — Florent Gabriel** | `À COMPLÉTER` — titre et contenu manquants |
-| 28 septembre–3 octobre | **28–30 septembre — Marius Farashi** : Ark et solutions de seconde couche | `À COMPLÉTER` | **1er–3 octobre — Lionel Jeannerat** : « Bitcoin pour les Copain.e.s » | `À COMPLÉTER` — titre et angle confirmés, visuel/campagne à finaliser |
+| 28 septembre–3 octobre | **28–30 septembre — Marius Farashi** : Ark et solutions de seconde couche | `À COMPLÉTER` | **1er–3 octobre — Lionel Jeannerat** : « Bitcoin pour les Copain.e.s » | `PRÊT À RELIRE` — titre, angle, portrait et vignette validés ; participation/créneau, droits du portrait et liens à confirmer avant programmation |
 | 5–10 octobre | **5–7 octobre — Laure Merlin** : « Atelier Bitcoin Lego » | `À PRODUIRE` — titre confirmé ; aucun besoin technique particulier ; jauge 12–15 personnes | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
 | 12–17 octobre | **12–14 octobre — Noé / WeSatoshis** | `À COMPLÉTER` | **15–17 octobre — Michel Khazzaka** | `À COMPLÉTER` |
 | 19–24 octobre | **19–21 octobre — rappel des workshops pratiques** | `À CADRER` | **22–24 octobre — Alexis Roussel** | `À COMPLÉTER` |
@@ -73,6 +73,7 @@ réellement présent.
 | Renaud Lifchitz | `campaigns/renaud-lifchitz/calendrier-diffusion-v4.csv` | V3 — PR #133, programmé |
 | Polto et Darko | `campaigns/polto-darko/calendrier-diffusion-v2.csv` | V1 — PR #138, programmé |
 | Pierre Noizat | `campaigns/pierre-noizat/calendrier-diffusion-v1.csv` | Première version — PR #140, prête à programmer |
+| Lionel Jeannerat | `campaigns/lionel-jeannerat/calendrier-diffusion-v1.csv` | Première version — prête à relire |
 
 Les versions précédentes restent dans GitHub pour l'historique et ne doivent
 pas être programmées en parallèle.

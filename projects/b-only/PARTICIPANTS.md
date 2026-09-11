@@ -1,6 +1,6 @@
 # Registre des participants et assets — B-Only 2026
 
-Dernière mise à jour : 2026-09-05
+Dernière mise à jour : 2026-09-11
 
 ## Rôle
 
@@ -27,7 +27,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Nicolas Cantu | Speaker | 4NK.Organic / BTC Villages | ✓ | ✓ | `@NicolasCantuBk` | `npub18s03s39fa80ce2n3cmm0zme3jqehc82h6ld9sxq03uejqm3d05gsae0fuu` | `nicolascantuinnovationresilience` | N/A | N/A | `btcvillages.com` | BTC Villages confirmé publiquement |
 | ProfEduStream | Speaker + sessions pédagogiques | ProfEduStream | ✓ | ? | `@ProfEduStream` | — | — | — | — | YouTube `@ProfEduStream` | X et YouTube validés |
 | Florent Gabriel | Speaker | Blobb.io | — | ? | `@Florentgabriel` ; société `@blobb_io` | — | `florentgabriel` | `@florentgabriel21` ; société `@blobb_io` | `florent.gabrielgarcia` ; page Blobb `61565344988989` | `blobb.io` | Cofondateur/CEO Blobb.io confirmé publiquement |
-| Lionel Jeannerat | Speaker | PVH Éditions ; Be-BOP | — | — | — | — | — | — | — | — | À compléter |
+| Lionel Jeannerat | Speaker | PVH Éditions ; Be-BOP | ✓ | — | — | — | — | — | — | — | Portrait et vignette 2026 validés ; réseaux à compléter |
 | Christine Jeanneaux | Speaker | ESDES Business School | ✓ | ? | — | — | `christine-jeanneaux` | — | — | — | LinkedIn/ESDES vérifiés |
 | Sandra Gandoin | Speaker / journaliste | BFM Business | — | — | — | — | `sandra-gandoin-932914127` | — | — | — | Journaliste BFM Business |
 | Élodie Lué | Speaker + workshop | Effet 21 Conseil ; Podcast Effet 21 | ✓ | — | via Linktree | — | via Linktree | via Linktree | — | YouTube + TikTok via Linktree `elodielue` | Liens directs à relever |
