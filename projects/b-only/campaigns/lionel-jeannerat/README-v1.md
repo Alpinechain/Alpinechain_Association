@@ -16,7 +16,7 @@ participation ni le créneau de Lionel dans le programme, qui reste
 Angle confirmé : état des lieux des communautés et de l'environnement autour
 de Bitcoin, avec des points de repère historiques.
 
-Contenus de référence : `contenus-multicanaux-v1.md`.
+Contenus de référence : `contenus-multicanaux-v2.md`.
 
 ## Ressources validées
 
@@ -54,7 +54,7 @@ Calendrier machine : `calendrier-diffusion-v1.csv`.
 
 ## Statut
 
-**PRÊT À RELIRE — non programmable tant que les gates ci-dessus ne sont pas
-levés.**
+**PRÊT À RELIRE — contenus V2 développés ; non programmable tant que les gates
+ci-dessus ne sont pas levés.**
 
 Aucune programmation ni publication n'a été effectuée.
