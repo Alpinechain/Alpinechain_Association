@@ -2,7 +2,7 @@
 
 Version : V6
 Date de préparation : 2026-08-16
-Dernière actualisation : 2026-08-31
+Dernière actualisation : 2026-09-11
 Fuseau : Europe/Paris
 Statut global : **PRÊT À RELIRE**
 Validation : humaine avant programmation ou publication
@@ -35,12 +35,12 @@ la modération, aux réponses et à l'observation des premiers résultats.
 | 31 août–5 septembre | **31 août–2 septembre — Atelier AlpineChain** : « Multisig et Disaster Recovery » | `PROGRAMMÉ EN MAJORITÉ / PUBLICATION NON VÉRIFIÉE` — réserver le 2 septembre à l’atelier | **3–5 septembre — Renaud Lifchitz** : « Reticulum, le réseau cypherpunk dont vous avez besoin ! » | `PUBLIÉ / SEPT URLS ARCHIVÉES` — Blog, deux LinkedIn, X, Nostr, Facebook et Instagram vérifiés le 7 septembre ; métriques à relever |
 | 7–12 septembre | **7–9 septembre — Polto et Darko** : « Justifier l'origine de ses bitcoins » | `PROGRAMMÉ` — contenus V2, Blog et calendrier V2 relus | **10–12 septembre — Pierre Noizat** : « Energie, monnaie et civilisation » | `PRÊT À PROGRAMMER` — campagne V1 relue ; liens à créer et vérifier avant programmation |
 | 14–19 septembre | **14–16 septembre — Christine Jeanneaux** : « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | `PRÊT À PROGRAMMER` — campagne V4 validée ; remplace la vague workshop Élodie | **17–19 septembre — Alexandre Stachtchenko** | `À COMPLÉTER` — sujet, titre, portrait et contenu manquants |
-| 21–26 septembre | **21–23 septembre — Élodie Lué** : « Paiements via Lightning Network » | `À PRODUIRE` — remplace Jean ; modalités des commerçants à préciser | **24–26 septembre — Florent Gabriel** | `À COMPLÉTER` — titre et contenu manquants |
-| 28 septembre–3 octobre | **28–30 septembre — Marius Farashi** : Ark et solutions de seconde couche | `À COMPLÉTER` | **1er–3 octobre — Lionel Jeannerat** : « Bitcoin est pour les copaines » | `À COMPLÉTER` |
-| 5–10 octobre | **5–7 octobre — Laure Merlin** : « Atelier Bitcoin Lego » | `À COMPLÉTER` — remplace le workshop Specter de Schnuartz ; portrait et détails pratiques à obtenir | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
+| 21–26 septembre | **21–23 septembre — Lionel Jeannerat** : « Bitcoin pour les Copain.e.s » | `PRÊT À RELIRE` — campagne avancée depuis le 1er–3 octobre ; titre, angle, portrait et vignette validés ; sept vouchers et alias actifs ; participation/créneau et droits du portrait à confirmer avant programmation | **24–26 septembre — Florent Gabriel** | `À COMPLÉTER` — titre et contenu manquants |
+| 28 septembre–3 octobre | **28–30 septembre — Marius Farashi** : Ark et solutions de seconde couche | `À COMPLÉTER` | **1er–3 octobre — créneau libéré** | `À RÉATTRIBUER` — ancien créneau Lionel, avancé au 21–23 septembre |
+| 5–10 octobre | **5–7 octobre — Laure Merlin** : « Atelier Bitcoin Lego » | `À PRODUIRE` — titre confirmé ; aucun besoin technique particulier ; jauge 12–15 personnes | **8–10 octobre — Nicolas Cantu** : « Lire les dégâts de l’impression monétaire dans les sols. » | `À PRODUIRE` |
 | 12–17 octobre | **12–14 octobre — Noé / WeSatoshis** | `À COMPLÉTER` | **15–17 octobre — Michel Khazzaka** | `À COMPLÉTER` |
 | 19–24 octobre | **19–21 octobre — rappel des workshops pratiques** | `À CADRER` | **22–24 octobre — Alexis Roussel** | `À COMPLÉTER` |
-| 26–31 octobre | **26–28 octobre — Jean** : achat de bitcoin de manière privée | `À COMPLÉTER` — remplace la vague « guide des workshops », supprimée | **29–31 octobre — Sandra Gandoin** | `EN ATTENTE` — participation et sujet à confirmer |
+| 26–31 octobre | **26–28 octobre — BitVault / Loïc Ruchat-Leuthardt** : « Posséder ses bitcoins en toute sécurité » | `À PRODUIRE` — participation et créneau du samedi 7 novembre à 15 h 30 confirmés ; logos reçus ; synopsis, portrait et besoins techniques à obtenir ; statut du partenariat à préciser | **29–31 octobre — Delphine Vincent** | `EN ATTENTE` — créneau du dimanche 8 novembre à 16 h 30 proposé via LinkedIn ; participation, sujet et éléments éditoriaux à confirmer |
 | 2–6 novembre | **2–4 novembre — dernier rappel des workshops** | `À CADRER` | **5–6 novembre — Le Cercle du Coin avec Laure Merlin** : présentation du Cercle, puis keynote « Comment faire communauté » | `À PRODUIRE` — session du lundi 9 novembre, 9 h–10 h |
 
 ## Déroulé type d'une vague complète
@@ -73,20 +73,33 @@ réellement présent.
 | Renaud Lifchitz | `campaigns/renaud-lifchitz/calendrier-diffusion-v4.csv` | V3 — PR #133, publié ; sept URLs archivées dans `publications-v1.csv` |
 | Polto et Darko | `campaigns/polto-darko/calendrier-diffusion-v2.csv` | V1 — PR #138, programmé |
 | Pierre Noizat | `campaigns/pierre-noizat/calendrier-diffusion-v1.csv` | Première version — PR #140, prête à programmer |
+| Lionel Jeannerat | `campaigns/lionel-jeannerat/calendrier-diffusion-v2.csv` | V1 — campagne avancée au 21–23 septembre |
 
 Les versions précédentes restent dans GitHub pour l'historique et ne doivent
 pas être programmées en parallèle.
 
 La campagne Christine Jeanneaux prend la fenêtre du 14 au 16 septembre à la
-place du workshop Élodie. Le workshop Élodie prend la fenêtre du 21 au
-23 septembre à la place de Jean. Jean prend la fenêtre du 26 au 28 octobre ;
-la vague « guide des workshops et prérequis » est supprimée.
+place du workshop Élodie. La seconde vague workshop d’Élodie (« Paiements via
+Lightning Network ») est supprimée du planning éditorial. Lionel Jeannerat,
+dont la campagne est déjà presque prête, est avancé au 21–23 septembre et
+reprend ce créneau. Son ancien créneau du 1er au 3 octobre redevient disponible.
 
-L’inversion du programme entre Lionel Jeannerat et le quiz ne modifie pas la
-fenêtre éditoriale proposée de Lionel du 1er au 3 octobre. Toute future copie
-mentionnant son horaire doit toutefois reprendre le créneau provisoire du
-dimanche 8 novembre, 18 h 30–19 h 20. Aucune vague dédiée au quiz n’est
-actuellement planifiée.
+Le workshop initialement prévu avec Jean est abandonné car il ne pourra pas
+être prêt ; le créneau du samedi 7 novembre à 15 h 30 est désormais confirmé
+pour BitVault avec Loïc Ruchat-Leuthardt sous le titre « Posséder ses bitcoins
+en toute sécurité ». Le synopsis, le portrait, les besoins techniques et le
+statut du partenariat restent à préciser.
+
+L’inversion du programme entre Lionel Jeannerat et le quiz ne modifie pas son
+créneau provisoire dans le programme de la conférence : toute future copie
+mentionnant son horaire doit reprendre le dimanche 8 novembre, 18 h 30–19 h 20.
+Aucune vague dédiée au quiz n’est actuellement planifiée.
+
+Sandra Gandoin a confirmé le 7 septembre 2026 qu’elle ne pourra pas participer
+à B-Only 2026. Le créneau du dimanche 8 novembre, 16 h 30–17 h 20, a été proposé
+à Delphine Vincent par message LinkedIn. Tant qu’elle n’a pas confirmé, ce
+créneau et la vague du 29 au 31 octobre restent au statut `EN ATTENTE` et ne
+doivent faire l’objet d’aucune annonce publique.
 
 ## Gate avant programmation
 
