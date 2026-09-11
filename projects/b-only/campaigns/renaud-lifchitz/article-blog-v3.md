@@ -1,6 +1,6 @@
 # Reticulum : et si Internet n'était qu'un chemin parmi d'autres ?
 
-**État : VALIDÉ / PROGRAMMÉ — publication prévue le 3 septembre 2026.**
+**État : PUBLIÉ le 3 septembre 2026 — URL archivée et revérifiée le 11 septembre 2026.**
 
 **Nos communications semblent immatérielles. Elles reposent pourtant sur des
 câbles, des antennes, des opérateurs et des points de contrôle que nous ne

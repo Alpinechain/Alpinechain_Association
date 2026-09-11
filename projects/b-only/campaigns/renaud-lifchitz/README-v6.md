@@ -7,7 +7,7 @@ campagne centrée sur la reprise en main des infrastructures de communication :
 
 > Internet n'est pas le réseau. Ce n'est qu'un chemin parmi d'autres.
 
-## Fichiers proposés comme actifs après validation
+## Fichiers actifs
 
 - `contenus-multicanaux-v3.md` ;
 - `article-blog-v3.md` ;
@@ -17,7 +17,7 @@ campagne centrée sur la reprise en main des infrastructures de communication :
 Les contenus et calendriers précédents restent historiques et ne doivent pas
 être programmés en parallèle.
 
-## Nouveau calendrier
+## Calendrier appliqué
 
 La vague est déplacée du **3 au 5 septembre 2026** afin de réserver le 31 août,
 le 1er septembre et surtout le 2 septembre à la communication de l'atelier
@@ -30,13 +30,13 @@ AlpineChain « Multisig et Disaster Recovery ».
 La campagne Christine Jeanneaux initialement prévue du 3 au 5 septembre est
 recalée du 14 au 16 septembre.
 
-## État de diffusion vérifié le 7 septembre 2026
+## État de diffusion vérifié le 11 septembre 2026
 
 - [x] textes sociaux V3 relus et validés ;
 - [x] Nostr long et article Blog V3 relus et validés ;
 - [x] calendrier V4 validé ;
 - [x] Blog, LinkedIn AlpineChain, LinkedIn Annecy Bitcoin Meetup, X, Facebook
-  et Instagram programmés pour leurs créneaux ;
+  et Instagram programmés puis publiés à leurs créneaux ;
 - [x] rappel personnel programmé le 5 septembre 2026 à 12 h 15,
   `Europe/Paris`, pour la publication Nostr ;
 - [x] publication Nostr effectuée manuellement ;

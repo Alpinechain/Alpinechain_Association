@@ -1,6 +1,6 @@
 # Renaud Lifchitz — publications multicanales — V3
 
-**État : VALIDÉ / PROGRAMMÉ — diffusion du 3 au 5 septembre 2026.**
+**État : PUBLIÉ du 3 au 5 septembre 2026 — SEPT URLS ARCHIVÉES ET REVÉRIFIÉES LE 11 SEPTEMBRE 2026.**
 
 ## Éléments communs
 
@@ -13,7 +13,7 @@
 - Billetterie : https://join.alpinechain.xyz/org/bonly26/
 - Vignette validée :
   `vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--valide.png`
-- Calendrier proposé : `calendrier-diffusion-v4.csv`
+- Calendrier appliqué : `calendrier-diffusion-v4.csv`
 
 L'horaire du workshop reste volontairement absent des publications sociales.
 
