@@ -1,6 +1,6 @@
 # Polto et Darko — publications multicanales — V2
 
-**État : VALIDÉ / PROGRAMMÉ — diffusion du 7 au 9 septembre 2026.**
+**État : PUBLIÉ — SEPT URLS ARCHIVÉES ET REVÉRIFIÉES LE 11 SEPTEMBRE 2026.**
 
 ## Références
 
@@ -10,7 +10,7 @@
 - Événement : **B-Only'26, Annecy, du 7 au 9 novembre 2026**
 - Vignette validée :
   `vignette--polto-darko--justifier-origine-bitcoins--2026-07-30--valide.png`
-- Calendrier proposé : `calendrier-diffusion-v2.csv`
+- Calendrier appliqué : `calendrier-diffusion-v2.csv`
 
 Le créneau précis du workshop reste volontairement absent des publications tant
 qu'il n'est pas rendu public.
@@ -296,4 +296,6 @@ identifie comme intervenants.
 - [x] calendrier V2 validé ;
 - [x] comptes émetteurs et aperçus contrôlés ;
 - [x] sept liens courts testés ;
-- [ ] URLs publiques archivées dans l'issue #24 après diffusion.
+- [x] sept URLs publiques archivées dans `publications-v1.csv` et dans l'issue
+  #24 ;
+- [ ] métriques relevées par plateforme dans l'issue #24.

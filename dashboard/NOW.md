@@ -38,7 +38,9 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Paymium : campagne V2 publiée sur sept canaux ; URLs et métriques disponibles archivées le 24 août, rappel d’octobre suivi séparément.
 - La campagne Bitstack V2 a été publiée manuellement le 11 août sur sept canaux ; URLs et métriques disponibles archivées, campagne clôturée le 24 août.
 - La campagne multicanale V4 d’Élodie Lué est publiée sur sept canaux ; les URLs LinkedIn et les dates X/Meta ont été corrigées le 29 août, et les métriques X, LinkedIn et Meta disponibles sont relevées dans #24.
-- Polto et Darko : campagne V2 relue et programmée du 7 au 9 septembre ; les URLs resteront à archiver après diffusion.
+- Polto et Darko : campagne V2 publiée ; les sept URLs publiques, dont Nostr
+  publié manuellement, sont archivées et revérifiées en HTTP 200 le 11
+  septembre. Les métriques restent à relever dans #24.
 - ProfEduStream workshops : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
 - ProfEduStream quantique : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram —, toutes vérifiées en HTTP 200 ; Nostr reste `NON VÉRIFIABLE` et la relecture sensible demeure à tracer.
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup n’a pas été publié et ne le sera pas.
@@ -99,7 +101,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 | 30 août | Finaliser le contrôle J-3 de l’atelier : test technique, matériel, supports hors ligne, participants attendus et plan de repli dans #6 |
 | 31 août | Preuves Meta quantiques archivées ; synchroniser les PR #133, #138 et #140 avec les validations de programmation |
 | 3–5 septembre | Campagne Renaud publiée ; sept URLs archivées et revérifiées le 11 septembre ; métriques à relever dans #24 |
-| 7–9 septembre | Diffusion programmée de Polto et Darko ; archiver les URLs après publication réelle |
+| 7–9 septembre | Campagne Polto et Darko publiée ; sept URLs archivées et revérifiées le 11 septembre ; métriques à relever dans #24 |
 | Avant le 10 septembre | Programmer Pierre Noizat après création et test de ses sept vouchers Pretix et alias courts |
 | En attente | Relance Cryptoast effectuée auprès de Marius le 20 août ; attendre sa réponse sur le giveaway et la fenêtre de septembre |
 | 1er septembre | Relancer Sandra / BFM Crypto |

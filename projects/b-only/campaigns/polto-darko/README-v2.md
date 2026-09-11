@@ -1,6 +1,6 @@
 # Campagne intervenants — Polto et Darko — V2
 
-**État : PROGRAMMÉ — diffusion du 7 au 9 septembre 2026.**
+**État : PUBLIÉ — SEPT URLS ARCHIVÉES — MÉTRIQUES À RELEVER.**
 
 ## Angle retenu
 
@@ -21,11 +21,12 @@ moins anxiogène.
 - `contenus-multicanaux-v2.md` ;
 - `article-blog-v2.md` ;
 - `calendrier-diffusion-v2.csv` ;
+- `publications-v1.csv` ;
 - `campaign-links-v1.csv`, conservé sans modification.
 
 La V1 reste archivée et ne doit pas être programmée en parallèle.
 
-## Calendrier programmé
+## Calendrier prévu et dates constatées
 
 La séquence est placée du **7 au 9 septembre 2026** :
 
@@ -36,6 +37,11 @@ La séquence est placée du **7 au 9 septembre 2026** :
 Cette fenêtre suit la campagne Renaud du 3 au 5 septembre et précède la campagne
 Pierre Noizat du 10 au 12 septembre.
 
+Les preuves publiques montrent deux écarts avec la programmation initiale : le
+relais LinkedIn Annecy Bitcoin Meetup a été publié le 29 août et la publication
+Nostr le 7 septembre. Le calendrier V2 conserve les dates de diffusion
+effectivement vérifiables ; les contenus publiés ne sont pas réécrits.
+
 ## Gate
 
 - [x] sujet, intervenants, organisation et vignette validés ;
@@ -44,4 +50,14 @@ Pierre Noizat du 10 au 12 septembre.
 - [x] calendrier V2 validé ;
 - [x] formulations sensibles validées ;
 - [x] comptes, visuels et aperçus contrôlés avant programmation ;
-- [ ] URLs publiques et métriques archivées dans l'issue #24 après diffusion.
+- [x] sept URLs publiques archivées dans `publications-v1.csv` et dans l'issue
+  #24 ;
+- [x] sept URLs publiques revérifiées en HTTP 200 le 11 septembre 2026 ;
+- [ ] métriques relevées par plateforme et consignées dans l'issue #24.
+
+## Écart rédactionnel historique
+
+Le post X publié compte 225 caractères, lien compris, contre la cible interne
+de 140 caractères. Il est conservé sans réécriture afin que le dépôt reste
+fidèle au contenu réellement diffusé. Cet écart ne vaut pas dérogation pour les
+prochaines campagnes.

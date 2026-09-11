@@ -1,6 +1,6 @@
 # « D'où viennent vos bitcoins ? » — mieux vaut préparer la réponse avant qu'on vous la demande
 
-**État : VALIDÉ / PROGRAMMÉ — publication prévue le 7 septembre 2026.**
+**État : PUBLIÉ le 7 septembre 2026 — URL archivée et revérifiée le 11 septembre 2026.**
 
 Vous connaissez l'origine de vos bitcoins.
 
