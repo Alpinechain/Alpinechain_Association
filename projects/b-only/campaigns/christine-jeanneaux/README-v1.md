@@ -32,7 +32,7 @@ Calendrier machine : `calendrier-diffusion-v1.csv`.
 
 ## Gate avant programmation
 
-- vérifier/créer les sept liens courts `b26-cj-*` ;
+- [x] sept vouchers Pretix et sept liens courts `b26-cj-*` contrôlés le 11 septembre 2026 ;
 - vérifier que la vignette validée est bien la version utilisée sur chaque canal ;
 - vérifier les aperçus et comptes avant programmation ;
 - Nostr reste une publication manuelle ;
@@ -41,4 +41,11 @@ Calendrier machine : `calendrier-diffusion-v1.csv`.
 
 ## Statut
 
-**PRÊT À PROGRAMMER sous réserve de vérification des liens courts.**
+**PRÊT À PROGRAMMER — vouchers Pretix et liens courts actifs et vérifiés le 11 septembre 2026.**
+
+Les sept vouchers Pretix sont uniques, sans remise (`price_mode=none`), limités
+à 1 000 usages, inutilisés et associés au tag
+`tracking:bonly26_speakers`. Les sept alias Shlink répondent en HTTP 302 vers
+les destinations Pretix/UTM exactes de `campaign-links-v1.csv`, puis les pages
+Pretix répondent en HTTP 200. Aucune création supplémentaire n'a été
+nécessaire.
