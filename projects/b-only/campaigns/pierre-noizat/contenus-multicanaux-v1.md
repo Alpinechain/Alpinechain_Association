@@ -1,7 +1,6 @@
 # Pierre Noizat — publications multicanales — V1
 
-**État : PRÊT À PROGRAMMER — validation humaine enregistrée ; liens à créer
-et vérifier avant programmation.**
+**État : DIFFUSION EN COURS / TROIS URLS ARCHIVÉES — validation humaine enregistrée ; liens actifs et vérifiés depuis le 7 septembre 2026.**
 
 ## Références validées
 
@@ -191,4 +190,5 @@ apparaît en orange, avec les montagnes alpines dans la partie inférieure.
 - [ ] sept liens courts créés et testés ;
 - [x] calendrier validé ;
 - [x] aperçus contrôlés sur chaque plateforme ;
-- [ ] URLs publiques archivées dans l'issue #24 après diffusion.
+- [x] URLs publiques du Blog et des deux publications LinkedIn archivées et revérifiées le 11 septembre 2026 ;
+- [ ] quatre autres URLs publiques à vérifier et archiver après diffusion réelle.

@@ -1,6 +1,6 @@
 # Campagne intervenant — Pierre Noizat — V1
 
-**État : PRÊT À PROGRAMMER — vouchers Pretix et liens courts actifs et vérifiés le 7 septembre 2026.**
+**État : DIFFUSION EN COURS / TROIS URLS ARCHIVÉES — deux publications LinkedIn diffusées le 7 septembre et article Blog publié le 10 septembre 2026 ; autres publications à vérifier sans anticiper leur état.**
 
 Cette campagne est consacrée à l'intervention de Pierre Noizat. Elle reste
 strictement distincte de la campagne partenaire Paymium déjà diffusée.
@@ -20,7 +20,8 @@ Pierre Noizat.
 - `article-blog-nostr-v1.md` — texte long commun au Blog et à Nostr ;
 - `script-reel-heygen-v1.md` ;
 - `calendrier-diffusion-v1.csv` ;
-- `campaign-links-v1.csv`.
+- `campaign-links-v1.csv` ;
+- `publications-v1.csv` — preuves publiques confirmées, complétées au fil de la diffusion.
 
 ## Principe Blog / Nostr
 
@@ -45,4 +46,6 @@ utile d'entretenir deux versions éditoriales presque identiques.
 - [x] sept vouchers Pretix et sept alias courts créés puis testés le 7 septembre 2026 ;
 - [x] calendrier validé ;
 - [x] comptes, visuels et aperçus contrôlés avant programmation ;
-- [ ] URLs publiques archivées dans l'issue #24 après diffusion.
+- [x] URLs publiques du Blog et des deux publications LinkedIn archivées et revérifiées le 11 septembre 2026 ;
+- [ ] quatre autres URLs publiques à vérifier et archiver après diffusion réelle ;
+- [ ] métriques à relever séparément par plateforme après la fin de la campagne.
