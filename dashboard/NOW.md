@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-08-31
+Date de dernière mise à jour : 2026-09-11
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -76,7 +76,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
 - Pierre Noizat : portrait source de référence et vignette définitive classés dans Nextcloud ; les deux portraits non retenus sont archivés sans suppression.
 - Le workshop de Renaud est confirmé et public dans le programme ; sa vignette est validée et sa campagne V3 est relue et programmée du 3 au 5 septembre dans la PR #133, désormais prête à relire.
-- Lionel Jeannerat reste provisoire et interne au programme, désormais dimanche 8 novembre de 18 h 30 à 19 h 20 ; son éventuelle campagne du 1er au 3 octobre reste `À COMPLÉTER` et ne doit pas présenter ce créneau comme confirmé.
+- Lionel Jeannerat reste provisoire et interne au programme, désormais dimanche 8 novembre de 18 h 30 à 19 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; sa campagne V1 du 1er au 3 octobre est `PRÊTE À RELIRE`, sans horaire public. La confirmation définitive, les droits/crédit du portrait et les liens restent requis avant programmation.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
 - Restent notamment à obtenir : sujet de Michel Khazzaka, identité complète de Jean et confirmations des créneaux encore provisoires.
