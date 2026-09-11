@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-09-08T21:20:26Z",
+    "updatedAt": "2026-09-11T13:45:43Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -118,14 +118,14 @@
       "start": "17:00",
       "end": "17:50",
       "room": "main",
-      "status": "reserved",
+      "status": "confirmed",
       "visibility": "internal",
-      "title": "Titre à confirmer",
+      "title": "L’IA est-elle en train de sauver ou de tuer Bitcoin ?",
       "speakers": [
         "Florent Gabriel"
       ],
       "format": "Présentation",
-      "notes": "Titre et contenu à confirmer."
+      "notes": "Florent Gabriel, CEO et cofondateur de Blobb.io. Titre exact et angle validés le 2026-09-11 : effets possibles de l’IA sur l’adoption, les financements du développement technique, le prix et l’intérêt pour Bitcoin, puis antifragilité de Bitcoin. Besoins techniques à confirmer."
     },
     {
       "id": "sat-workshop-polto-darko",

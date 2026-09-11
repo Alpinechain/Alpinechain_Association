@@ -107,7 +107,7 @@ Ne pas dupliquer littéralement le même texte sur tous les canaux. Adapter l’
 
 ### Blog
 
-Structure recommandée : titre, accroche, contexte, développement, informations pratiques, CTA.
+Structure recommandée : titre, accroche, contexte, développement, informations pratiques, CTA. Pour un article long, viser plus de 1 500 caractères. Lorsque la campagne prévoit un long-form Nostr, le texte Blog peut servir de version maîtresse et être publié à l'identique sur Nostr.
 
 ### LinkedIn
 
@@ -115,11 +115,11 @@ Accroche claire, contexte compréhensible, intérêt concret, information princi
 
 ### Nostr
 
-Ton communautaire ; contexte Bitcoin ou souveraineté lorsqu’il est pertinent ; moins institutionnel que LinkedIn ; pas de jargon inutile.
+Ton communautaire ; contexte Bitcoin ou souveraineté lorsqu’il est pertinent ; pas de jargon inutile. Pour les campagnes B-Only en long-form, utiliser le même texte que l'article Blog lorsque ce format a été retenu, plutôt que créer artificiellement deux versions longues.
 
 ### X
 
-Appliquer `docs/GUIDE_REDACTIONNEL_X.md`. Par défaut : une idée principale, formulation directe, CTA clair, limite interne de 140 caractères pour un post simple.
+Appliquer `docs/GUIDE_REDACTIONNEL_X.md`. Par défaut : une idée principale, formulation directe, CTA clair, limite interne de 240 caractères pour un post simple.
 
 ### Instagram
 
