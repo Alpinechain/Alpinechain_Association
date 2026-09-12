@@ -10,11 +10,10 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ## Priorités actives
 
-1. **Qualifier puis clôturer l’incident public du 12 septembre** : deux contrôles automatiques ont échoué, dont celui de 09:25 UTC suivi dans [#163](https://github.com/Alpinechain/Alpinechain_Association/issues/163). Un contrôle manuel ultérieur retrouve les onze points d’entrée, dont la nouvelle page `bio.alpinechain.xyz`, en HTTP 200 ; la cause et la clôture restent à documenter.
-2. **Terminer la diffusion Pierre Noizat** : trois URLs publiques sont archivées et revérifiées ; vérifier Nostr, X, Facebook et Instagram après publication réelle, puis relever les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
-3. **Préparer la séquence Christine Jeanneaux des 14–16 septembre** : la campagne et ses sept couples voucher/alias sont `PRÊTS À PROGRAMMER`, mais la programmation et la publication restent soumises au contrôle humain des comptes et aperçus.
-4. **Sécuriser les séquences Florent et Lionel** : Florent Gabriel est `PROGRAMMÉ` du 17 au 19 septembre ; Lionel Jeannerat est `PRÊT À PROGRAMMER` du 21 au 23 septembre. Contrôler les comptes et aperçus, conserver Nostr manuel, puis archiver uniquement les URLs réellement publiées dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
-5. **Consolider les chantiers B-Only et replanifier la maintenance** : programme [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), audiovisuel [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), logistique [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), budget [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) et risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) restent à consolider avant le 30 septembre. La nouvelle fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119), avec Pretix gelé.
+1. **Terminer la diffusion Pierre Noizat** : trois URLs publiques sont archivées et revérifiées ; vérifier Nostr, X, Facebook et Instagram après publication réelle, puis relever les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+2. **Préparer la séquence Christine Jeanneaux des 14–16 septembre** : la campagne et ses sept couples voucher/alias sont `PRÊTS À PROGRAMMER`, mais la programmation et la publication restent soumises au contrôle humain des comptes et aperçus.
+3. **Sécuriser les séquences Florent et Lionel** : Florent Gabriel est `PROGRAMMÉ` du 17 au 19 septembre ; Lionel Jeannerat est `PRÊT À PROGRAMMER` du 21 au 23 septembre. Contrôler les comptes et aperçus, conserver Nostr manuel, puis archiver uniquement les URLs réellement publiées dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+4. **Consolider les chantiers B-Only et replanifier la maintenance** : programme [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), audiovisuel [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), logistique [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), budget [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) et risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) restent à consolider avant le 30 septembre. La nouvelle fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119), avec Pretix gelé.
 
 ## Décisions et mises à jour au 12 septembre 2026
 
@@ -84,24 +83,24 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
 - Restent notamment à obtenir : sujet de Michel Khazzaka, identité complète de Jean et confirmations des créneaux encore provisoires.
 
-## Exploitation et infrastructure
+## Continuité des services
 
-- La mise à niveau AlmaLinux 9.8 est terminée ; [Serveur #56](https://github.com/Alpinechain/Serveur/issues/56) est clôturée.
-- L’incident OOM du 11 septembre est corrigé et [Serveur #122](https://github.com/Alpinechain/Serveur/issues/122) est clôturée. Les limites mémoire et caches MongoDB sont effectifs, une swap chiffrée de 2 Gio est active, le processus orphelin et l’unité systemd en échec sont traités, et aucun nouvel OOM n’était observé depuis 18:38:32 UTC au contrôle de clôture.
-- Les contrôles d’intégrité ont réussi sur MariaDB et 71 collections MongoDB. La sauvegarde post-incident s’est terminée à 20:11 UTC avec le snapshot `96fc79da` ; le contrôle Restic de 71 snapshots et 275 paquets sur 5 % des données n’a remonté aucune erreur.
-- Le monitoring public a de nouveau échoué le 12 septembre à 04:44 puis 09:25 UTC ; [#163](https://github.com/Alpinechain/Alpinechain_Association/issues/163) reste ouverte. Un contrôle manuel ultérieur retrouve les onze points d’entrée en HTTP 200, mais ne suffit pas à établir la cause ni à clôturer l’incident sans compte-rendu.
-- La page de liens officielle `https://bio.alpinechain.xyz` est publiée depuis le 12 septembre : DNS, HTTPS, certificat, conteneur sain, sept destinations et en-têtes de sécurité ont été vérifiés dans [#164](https://github.com/Alpinechain/Alpinechain_Association/issues/164), désormais clôturée.
-- Disques contrôlés à 19:08 UTC : `/` à 14 % et `/opt/podman` à 58 % ; aucun seuil d’alerte de 80 % n’est atteint.
-- Dernière sauvegarde réussie : 11 septembre à 20:11 UTC, snapshot post-incident `96fc79da`. Le contrôle Restic associé a réussi sur 71 snapshots et 275 paquets, avec un sous-ensemble de données de 5 %. Dernier test de restauration isolée Pretix prouvé : 27 juillet, 150 tables vérifiées.
-- Le contrôle mensuel `alpinechain-monthly-update.service` du 6 septembre est terminé en succès. La fenêtre proposée du 9 septembre n’a pas de décision enregistrée et reste à replanifier dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119), en tenant compte des protections mémoire désormais déployées. Pretix, `pretix_db` et `pretix_redis` restent explicitement gelés.
-- Les dix certificats TLS publics contrôlés le 11 septembre sont valides au moins jusqu’au 8 octobre 2026 ; le certificat de `bio.alpinechain.xyz` a été validé séparément le 12 septembre. Aucun avertissement Dependabot ouvert n’est remonté ; l’API GitHub de secret scanning reste inaccessible. Le contrôle local ciblé des fichiers suivis ne détecte pas de clé privée ni de jeton manifeste.
+- Les incidents serveur des 11 et 12 septembre sont résolus et le rétablissement
+  des services publics est confirmé dans [#163](https://github.com/Alpinechain/Alpinechain_Association/issues/163).
+  Les diagnostics, corrections et preuves techniques restent dans
+  [Serveur #122](https://github.com/Alpinechain/Serveur/issues/122) et
+  [Serveur #126](https://github.com/Alpinechain/Serveur/issues/126).
+- La page de liens officielle `https://bio.alpinechain.xyz` est publiée depuis le 12 septembre ; son accès public et ses sept destinations ont été vérifiés dans [#164](https://github.com/Alpinechain/Alpinechain_Association/issues/164), désormais clôturée.
+- Le dispositif de sauvegarde et de restauration est opérationnel. Les contrôles
+  et résultats détaillés sont conservés dans le dépôt privé Serveur ; seule une
+  anomalie ayant un impact associatif doit être reprise ici.
+- La prochaine fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119).
 - Control Center au 11 septembre : aucun P0/P1 actif, trois éléments `En attente` (#4, #11 et #132), aucun élément `À valider`. L’ancienne revue W36 #145 est clôturée ; les actions actives restent distribuées dans leurs Issues dédiées.
 
 ## Prochaines échéances
 
 | Date | Action |
 |---|---|
-| Immédiat | Qualifier les deux échecs de monitoring du 12 septembre, consigner la cause et clôturer #163 seulement sur preuve |
 | 12 septembre | Vérifier et archiver les quatre publications Pierre Noizat encore manquantes ; relever ensuite les métriques séparément dans #24 |
 | 14–16 septembre | Programmer puis publier Christine Jeanneaux uniquement après validation humaine ; archiver chaque URL réellement diffusée |
 | 17–19 septembre | Surveiller la campagne Florent Gabriel programmée ; publier Nostr manuellement puis archiver uniquement les URLs réellement diffusées |

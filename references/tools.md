@@ -1,7 +1,7 @@
 # Référentiel des outils AlpineChain
 
-Version : V1.1
-Dernière mise à jour : 2026-07-24
+Version : V1.2
+Dernière mise à jour : 2026-09-12
 
 ## Rôle
 
@@ -39,8 +39,7 @@ Ce document indique la fonction, la source de vérité, la criticité et le mode
 | Revue d’exploitation | Hebdomadaire | Issue de revue dans le Control Center |
 | Synchronisation des Issues | À chaque événement GitHub + hebdomadaire | Mise à jour du Project |
 | Mise à jour serveur compatible | Mensuelle | Journal dans le dépôt serveur / serveur |
-| Sauvegarde chiffrée | Quotidienne après déploiement | Snapshot Restic et journal local |
-| Vérification de sauvegarde | Hebdomadaire après déploiement | `restic check` et journal local |
+| Continuité et sauvegardes | Selon les objectifs validés | État synthétique ; détails dans `Alpinechain/Serveur` |
 | Relève des boîtes professionnelles | Toutes les 4 heures | Curseurs IMAP et métadonnées des nouveaux messages dans un journal local protégé ; aucune action automatique |
 
 ## Responsabilités minimales
