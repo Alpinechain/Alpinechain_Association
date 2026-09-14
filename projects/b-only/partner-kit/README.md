@@ -3,8 +3,9 @@
 Quelques visuels et textes prêts à utiliser pour parler de B-Only à votre
 communauté.
 
-**État :** phase 3 — contenus génériques `PRÊTS À RELIRE` et cinq visuels
-`À VALIDER`. Aucun élément ne devient `VALIDÉ` sans validation humaine.
+**État :** phase 4 — première vague pilote et quatre kits ciblés `PRÊTS À
+RELIRE` ; cinq visuels restent `À VALIDER`. Aucun élément ne devient `VALIDÉ`
+sans validation humaine.
 
 ## Cadrage
 
@@ -105,3 +106,11 @@ Nextcloud. Le détail des formats, empreintes et statuts figure dans
 Après réception d’une URL publique, ajouter une ligne dans
 `diffusion-tracking.csv`. Le relais éventuel par AlpineChain ou B-Only reste une
 action distincte soumise à validation humaine.
+
+## Activation pilote
+
+La première vague préparée est décrite dans `activation/WAVE-01.md`. Elle teste
+quatre cas distincts sans inclure les relais déjà assurés : partenaire 2026 à
+distance, relais historique, intervenant confirmé et visiteurs 2025 traités
+comme segment agrégé. Les kits restent non envoyés et sont regroupés dans
+`activation/kits/`.
