@@ -48,8 +48,10 @@ render_generic() {
   local date_size=$((short * 54 / 1000))
   local url_size=$((short * 39 / 1000))
 
-  local mountain_top=$((height * 76 / 100))
-  local back_top=$((height * 70 / 100))
+  # Géométrie normalisée du modèle co-brandé : la couche violette reprend la
+  # même succession de sommets que l'orange, avec un décalage vertical régulier.
+  local orange_mountains="polygon 0,$height $((width * 160 / 1080)),$((height * 855 / 1080)) $((width * 285 / 1080)),$((height * 970 / 1080)) $((width * 445 / 1080)),$((height * 790 / 1080)) $((width * 585 / 1080)),$((height * 965 / 1080)) $((width * 735 / 1080)),$((height * 830 / 1080)) $((width * 875 / 1080)),$((height * 970 / 1080)) $((width * 1010 / 1080)),$((height * 810 / 1080)) $width,$((height * 900 / 1080)) $width,$height"
+  local dark_mountains="polygon 0,$height $((width * 160 / 1080)),$((height * 900 / 1080)) $((width * 285 / 1080)),$((height * 995 / 1080)) $((width * 445 / 1080)),$((height * 835 / 1080)) $((width * 585 / 1080)),$((height * 995 / 1080)) $((width * 735 / 1080)),$((height * 875 / 1080)) $((width * 875 / 1080)),$((height * 1000 / 1080)) $((width * 1010 / 1080)),$((height * 855 / 1080)) $width,$((height * 925 / 1080)) $width,$height"
 
   local logo_x=$((width * 9 / 100))
   local logo_y=$((height * 7 / 100))
@@ -77,14 +79,9 @@ render_generic() {
     -extent "${width}x${height}" \
     -gravity northwest \
     -fill '#f6751a' \
-    -draw "polygon 0,$height $((width * 14 / 100)),$back_top $((width * 24 / 100)),$((height * 82 / 100)) $((width * 39 / 100)),$((back_top - height * 8 / 100)) $((width * 52 / 100)),$((height * 81 / 100)) $((width * 66 / 100)),$((back_top - height * 3 / 100)) $((width * 79 / 100)),$((height * 83 / 100)) $((width * 91 / 100)),$((back_top - height * 6 / 100)) $width,$((height * 78 / 100)) $width,$height" \
+    -draw "$orange_mountains" \
     -fill '#302d3d' \
-    -draw "polygon 0,$height $((width * 13 / 100)),$mountain_top $((width * 25 / 100)),$((height * 88 / 100)) $((width * 40 / 100)),$((mountain_top - height * 10 / 100)) $((width * 53 / 100)),$((height * 88 / 100)) $((width * 67 / 100)),$((mountain_top - height * 4 / 100)) $((width * 79 / 100)),$((height * 90 / 100)) $((width * 91 / 100)),$((mountain_top - height * 8 / 100)) $width,$((height * 84 / 100)) $width,$height" \
-    -fill '#fbf7f3' \
-    -draw "polygon $((width * 8 / 100)),$((mountain_top + height * 5 / 100)) $((width * 13 / 100)),$mountain_top $((width * 17 / 100)),$((mountain_top + height * 7 / 100)) $((width * 14 / 100)),$((mountain_top + height * 5 / 100)) $((width * 12 / 100)),$((mountain_top + height * 8 / 100))" \
-    -draw "polygon $((width * 31 / 100)),$((mountain_top - height * 1 / 100)) $((width * 40 / 100)),$((mountain_top - height * 10 / 100)) $((width * 47 / 100)),$((mountain_top + height * 1 / 100)) $((width * 42 / 100)),$((mountain_top - height * 2 / 100)) $((width * 39 / 100)),$((mountain_top + height * 3 / 100)) $((width * 36 / 100)),$((mountain_top - height * 1 / 100))" \
-    -draw "polygon $((width * 59 / 100)),$((mountain_top + height * 3 / 100)) $((width * 67 / 100)),$((mountain_top - height * 4 / 100)) $((width * 73 / 100)),$((mountain_top + height * 5 / 100)) $((width * 69 / 100)),$((mountain_top + height * 1 / 100)) $((width * 66 / 100)),$((mountain_top + height * 5 / 100))" \
-    -draw "polygon $((width * 83 / 100)),$((mountain_top + height * 1 / 100)) $((width * 91 / 100)),$((mountain_top - height * 8 / 100)) $((width * 97 / 100)),$((mountain_top + height * 1 / 100)) $((width * 93 / 100)),$((mountain_top - height * 2 / 100)) $((width * 90 / 100)),$((mountain_top + height * 3 / 100))" \
+    -draw "$dark_mountains" \
     \( "$logo" -resize "${logo_size}x${logo_size}" \) \
     -geometry "+${logo_x}+${logo_y}" \
     -composite \
@@ -190,10 +187,10 @@ render_cobrand_template() {
     "$output"
 }
 
-render_generic 1080 1080 'bonly26--partner-kit--generic--square--v01.png' portrait
-render_generic 1080 1350 'bonly26--partner-kit--generic--vertical--v01.png' portrait
-render_generic 1080 1920 'bonly26--partner-kit--generic--story--v01.png' portrait
-render_generic 1200 628 'bonly26--partner-kit--generic--landscape--v01.png' landscape
+render_generic 1080 1080 'bonly26--partner-kit--generic--square--v02.png' portrait
+render_generic 1080 1350 'bonly26--partner-kit--generic--vertical--v02.png' portrait
+render_generic 1080 1920 'bonly26--partner-kit--generic--story--v02.png' portrait
+render_generic 1200 628 'bonly26--partner-kit--generic--landscape--v02.png' landscape
 render_cobrand_template
 
 echo "Cinq visuels générés dans $output_dir"
