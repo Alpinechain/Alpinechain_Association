@@ -1,7 +1,7 @@
 # Index Nextcloud AlpineChain
 
 Dernière vérification documentaire complète : 2026-07-30
-Dernière mise à jour ciblée B-Only : 2026-09-14 — arborescence du kit partenaires créée et indexée
+Dernière mise à jour ciblée B-Only : 2026-09-14 — cinq visuels du kit partenaires déposés et indexés
 Dernière mise à jour de sécurité : 2026-09-12 — détails techniques déplacés dans `Alpinechain/Serveur`
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
 Audit ciblé B-Only 2026 après nettoyage : 45 dossiers et 111 fichiers
@@ -155,7 +155,11 @@ ce qui permet encore une restauration. Les portraits sont dans
 `03_Communication/Vignettes/Intervenants/` ou `Organisations/`. Le dossier
 `Archives/` est vide à la suite du nettoyage manuel confirmé par Cyrille.
 Le dossier `03_Communication/Partner-Kit/` et ses cinq sous-dossiers ont été
-créés et indexés le 14 septembre 2026 ; ils ne contiennent encore aucun visuel.
+créés et indexés le 14 septembre 2026. Quatre visuels génériques ont été
+déposés dans `Generiques/` et un modèle co-brandé carré dans `Co-brandes/` ;
+leurs tailles et empreintes sont consignées dans
+`projects/b-only/partner-kit/assets/README.md`. Ces cinq fichiers restent
+`À VALIDER` et aucun partage public n’a été créé.
 
 ### Rencontres Souveraineté 3.0
 

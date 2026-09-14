@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>B-Only’26 — Kit partenaire</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Pixelify+Sans:wght@600;700&display=swap");
+
+      @font-face {
+        font-family: "Zig Regular";
+        src: url("https://framerusercontent.com/assets/qDxP3FEecHHIWfCj0aKpUrqArw.woff2") format("woff2");
+        font-display: swap;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      :root {
+        --ivory: #fbf7f3;
+        --orange: #f6751a;
+        --orange-deep: #d95900;
+        --ink: #171725;
+        --mountain: #302d3d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      body {
+        background: var(--ivory);
+        color: var(--ink);
+        font-family: "JetBrains Mono", monospace;
+      }
+
+      .canvas {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        isolation: isolate;
+        overflow: hidden;
+        background-color: var(--ivory);
+        background-image: url("https://framerusercontent.com/images/777ii0zbwtQzwXHVRESRF9JrBw.png?width=2920&height=1476");
+        background-position: center;
+        background-size: cover;
+      }
+
+      .canvas::before,
+      .canvas::after {
+        position: absolute;
+        z-index: 20;
+        content: "";
+        pointer-events: none;
+      }
+
+      .canvas::before {
+        inset: 0;
+        border: clamp(14px, 1.7vmin, 24px) solid var(--ink);
+      }
+
+      .canvas::after {
+        inset: clamp(14px, 1.7vmin, 24px);
+        border: clamp(3px, .4vmin, 6px) solid var(--orange);
+      }
+
+      .content {
+        position: relative;
+        z-index: 5;
+        display: flex;
+        width: 100%;
+        height: 76%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: clamp(52px, 7vmin, 110px);
+        text-align: center;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: clamp(16px, 2.2vmin, 34px);
+      }
+
+      .brand img {
+        width: clamp(96px, 14vmin, 210px);
+        height: clamp(96px, 14vmin, 210px);
+        object-fit: contain;
+      }
+
+      .event-name {
+        font-family: "Zig Regular", "JetBrains Mono", monospace;
+        font-size: clamp(70px, 12vmin, 190px);
+        font-weight: 400;
+        letter-spacing: -.035em;
+        line-height: .85;
+        text-transform: uppercase;
+      }
+
+      .event-name strong {
+        color: var(--orange-deep);
+        font-weight: inherit;
+      }
+
+      .rule {
+        width: min(38vw, 420px);
+        height: clamp(5px, .7vmin, 10px);
+        margin: clamp(26px, 4vmin, 54px) auto;
+        background: var(--orange);
+      }
+
+      .place {
+        font-family: "Zig Regular", "JetBrains Mono", monospace;
+        font-size: clamp(88px, 18vmin, 280px);
+        letter-spacing: .025em;
+        line-height: .82;
+        text-transform: uppercase;
+      }
+
+      .date {
+        margin-top: clamp(26px, 4vmin, 58px);
+        padding: clamp(14px, 1.8vmin, 26px) clamp(24px, 3vmin, 48px);
+        background: var(--orange);
+        color: white;
+        font-family: "Pixelify Sans", "JetBrains Mono", monospace;
+        font-size: clamp(30px, 5.2vmin, 78px);
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .url {
+        margin-top: clamp(22px, 3vmin, 42px);
+        font-size: clamp(24px, 3.8vmin, 52px);
+        font-weight: 700;
+      }
+
+      .mountains {
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        height: 29%;
+      }
+
+      .cobrand {
+        display: none;
+        width: min(86%, 940px);
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .cobrand-lockup {
+        display: grid;
+        width: 100%;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        align-items: center;
+        gap: clamp(20px, 4vmin, 58px);
+        padding: clamp(28px, 5vmin, 70px);
+        border: clamp(4px, .6vmin, 8px) solid var(--orange);
+        background: rgb(251 247 243 / 92%);
+      }
+
+      .partner-logo {
+        display: flex;
+        min-width: 0;
+        min-height: clamp(120px, 18vmin, 260px);
+        align-items: center;
+        justify-content: center;
+        border: 3px dashed rgb(23 23 37 / 38%);
+        color: var(--ink);
+        font-family: "Pixelify Sans", "JetBrains Mono", monospace;
+        font-size: clamp(18px, 2.8vmin, 38px);
+      }
+
+      .partner-logo img {
+        display: none;
+        width: 100%;
+        max-height: clamp(120px, 18vmin, 260px);
+        object-fit: contain;
+      }
+
+      .times {
+        color: var(--orange-deep);
+        font-size: clamp(48px, 7vmin, 100px);
+        font-weight: 700;
+      }
+
+      .bonly-lockup {
+        display: flex;
+        min-width: 0;
+        align-items: center;
+        justify-content: center;
+        gap: clamp(10px, 1.5vmin, 24px);
+      }
+
+      .bonly-lockup img {
+        width: clamp(86px, 12vmin, 170px);
+        height: clamp(86px, 12vmin, 170px);
+      }
+
+      .bonly-lockup span {
+        font-family: "Zig Regular", "JetBrains Mono", monospace;
+        font-size: clamp(38px, 6.5vmin, 90px);
+        line-height: .86;
+        text-align: left;
+        text-transform: uppercase;
+      }
+
+      .cobrand-title {
+        margin-top: clamp(32px, 5vmin, 70px);
+        font-family: "Zig Regular", "JetBrains Mono", monospace;
+        font-size: clamp(48px, 8.5vmin, 130px);
+        line-height: .95;
+        text-transform: uppercase;
+      }
+
+      body[data-mode="cobrand"] .generic {
+        display: none;
+      }
+
+      body[data-mode="cobrand"] .cobrand {
+        display: flex;
+      }
+
+      body[data-partner-logo="true"] .partner-logo {
+        border: 0;
+      }
+
+      body[data-partner-logo="true"] .partner-logo span {
+        display: none;
+      }
+
+      body[data-partner-logo="true"] .partner-logo img {
+        display: block;
+      }
+
+      @media (min-aspect-ratio: 1.35/1) {
+        .content {
+          height: 100%;
+          align-items: flex-start;
+          padding-right: 42%;
+          text-align: left;
+        }
+
+        .brand,
+        .rule {
+          margin-right: 0;
+          margin-left: 0;
+        }
+
+        .place {
+          font-size: clamp(80px, 14vmin, 150px);
+        }
+
+        .date {
+          font-size: clamp(30px, 5vmin, 54px);
+        }
+
+        .mountains {
+          right: -4%;
+          left: auto;
+          width: 54%;
+          height: 100%;
+        }
+
+        .cobrand {
+          width: 100%;
+        }
+
+        .cobrand-title {
+          font-size: clamp(46px, 7.5vmin, 82px);
+        }
+      }
+    </style>
+  </head>
+  <body data-mode="generic">
+    <main class="canvas">
+      <section class="content">
+        <div class="generic">
+          <div class="brand">
+            <img src="https://framerusercontent.com/images/o6I9egXwfyuXOERzxXRS406uM6c.png?width=640&amp;height=640" alt="">
+            <div class="event-name">B-Only’<strong>26</strong></div>
+          </div>
+          <div class="rule"></div>
+          <div class="place">Annecy</div>
+          <div class="date">7–9 novembre 2026</div>
+          <div class="url">b-only.org</div>
+        </div>
+
+        <div class="cobrand">
+          <div class="cobrand-lockup">
+            <div class="partner-logo">
+              <span>{{LOGO_PARTENAIRE}}</span>
+              <img id="partner-logo" alt="">
+            </div>
+            <div class="times">×</div>
+            <div class="bonly-lockup">
+              <img src="https://framerusercontent.com/images/o6I9egXwfyuXOERzxXRS406uM6c.png?width=640&amp;height=640" alt="">
+              <span>B-Only’<strong>26</strong></span>
+            </div>
+          </div>
+          <div class="cobrand-title">On se retrouve à Annecy</div>
+          <div class="date">7–9 novembre 2026</div>
+          <div class="url">b-only.org</div>
+        </div>
+      </section>
+
+      <svg class="mountains" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="#f6751a" opacity=".18" d="M0 365 145 225l88 92 160-190 110 142 91-102 122 155 128-105 92 92 114-170 150 226v135H0Z"/>
+        <path fill="#302d3d" d="M0 402 145 263l72 75 176-178 107 147 94-110 122 166 128-112 92 96 114-171 150 230v94H0Z"/>
+        <path fill="#fbf7f3" d="m105 302 40-39 25 26 17-17 30 66-37-27-13 20-22-31-18 20Zm214-68 74-74 43 59 25-26 39 114-61-64-20 31-26-55-34 47Zm229 17 46-54 40 55 26-25 56 136-70-76-28 33-24-67-22 39Zm235 56 61-56 37 38 55-52 42 71-52-34-24 33-58-37-30 25Zm205-52 62-89 43 66 22-21 85 195-88-112-35 44-27-76-31 44Z"/>
+      </svg>
+    </main>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const mode = params.get("mode") === "cobrand" ? "cobrand" : "generic";
+      document.body.dataset.mode = mode;
+
+      const partnerLogo = params.get("logo");
+      if (mode === "cobrand" && partnerLogo) {
+        const image = document.querySelector("#partner-logo");
+        image.src = partnerLogo;
+        document.body.dataset.partnerLogo = "true";
+      }
+    </script>
+  </body>
+</html>

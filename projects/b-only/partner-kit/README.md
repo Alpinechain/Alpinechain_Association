@@ -3,8 +3,8 @@
 Quelques visuels et textes prêts à utiliser pour parler de B-Only à votre
 communauté.
 
-**État :** phase 2 — contenus génériques `PRÊTS À RELIRE`. Ils ne deviennent
-`VALIDÉS` qu’après validation humaine.
+**État :** phase 3 — contenus génériques `PRÊTS À RELIRE` et cinq visuels
+`À VALIDER`. Aucun élément ne devient `VALIDÉ` sans validation humaine.
 
 ## Cadrage
 
@@ -81,6 +81,11 @@ Action - Initiatives/B-Only/2026/03_Communication/Partner-Kit/
 Les fichiers lourds restent dans Nextcloud. GitHub conserve les textes, les
 consignes, les noms de fichiers, les métadonnées, les statuts et les URL
 publiques.
+
+Quatre déclinaisons génériques et un modèle co-brandé carré ont été déposés
+dans `Generiques/` et `Co-brandes/` le 14 septembre 2026. Le détail des formats,
+empreintes et statuts figure dans `assets/README.md`. Aucun partage public n’a
+été créé.
 
 ## Règles de personnalisation
 
