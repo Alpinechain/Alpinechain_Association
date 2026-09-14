@@ -187,10 +187,10 @@ render_cobrand_template() {
     "$output"
 }
 
-render_generic 1080 1080 'bonly26--partner-kit--generic--square--v02.png' portrait
-render_generic 1080 1350 'bonly26--partner-kit--generic--vertical--v02.png' portrait
-render_generic 1080 1920 'bonly26--partner-kit--generic--story--v02.png' portrait
-render_generic 1200 628 'bonly26--partner-kit--generic--landscape--v02.png' landscape
+render_generic 1080 1080 'bonly26--partner-kit--generic--square--1080x1080--v02.png' portrait
+render_generic 1080 1350 'bonly26--partner-kit--generic--vertical--1080x1350--v02.png' portrait
+render_generic 1080 1920 'bonly26--partner-kit--generic--story--1080x1920--v02.png' portrait
+render_generic 1200 628 'bonly26--partner-kit--generic--landscape--1200x628--v02.png' landscape
 render_cobrand_template
 
 echo "Cinq visuels générés dans $output_dir"

@@ -83,10 +83,10 @@ consignes, les noms de fichiers, les métadonnées, les statuts et les URL
 publiques.
 
 Quatre déclinaisons génériques `v02` et un modèle co-brandé carré ont été
-déposés dans `Generiques/` et `Co-brandes/` le 14 septembre 2026. Les `v01`
-génériques remplacées sont conservées dans `Archives/Versions-anterieures/`.
-Le détail des formats, empreintes et statuts figure dans `assets/README.md`.
-Aucun partage public n’a été créé.
+déposés dans `Generiques/` et `Co-brandes/` le 14 septembre 2026. Les quatre
+génériques `v01` remplacés ont été retirés du kit et placés dans la corbeille
+Nextcloud. Le détail des formats, empreintes et statuts figure dans
+`assets/README.md`. Aucun partage public n’a été créé.
 
 ## Règles de personnalisation
 
