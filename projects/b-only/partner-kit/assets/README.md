@@ -12,10 +12,15 @@ Racine Nextcloud documentée :
 Action - Initiatives/B-Only/2026/03_Communication/
 ```
 
-Dossier cible proposé, `À CRÉER / À CONFIRMER` :
+Dossier créé et indexé dans Nextcloud le 14 septembre 2026 :
 
 ```text
 Action - Initiatives/B-Only/2026/03_Communication/Partner-Kit/
+├── Generiques/
+├── Co-brandes/
+├── Videos/
+└── Archives/
+    └── Versions-anterieures/
 ```
 
 ## Statuts

@@ -3,9 +3,8 @@
 Quelques visuels et textes prêts à utiliser pour parler de B-Only à votre
 communauté.
 
-**État :** phase 1 — structure initialisée. Les contenus restent `BROUILLON`
-jusqu’à leur rédaction en phase 2, puis `PRÊT À RELIRE` jusqu’à validation
-humaine.
+**État :** phase 2 — contenus génériques `PRÊTS À RELIRE`. Ils ne deviennent
+`VALIDÉS` qu’après validation humaine.
 
 ## Cadrage
 
@@ -68,10 +67,15 @@ Racine documentée :
 Action - Initiatives/B-Only/2026/03_Communication/
 ```
 
-Dossier cible proposé, actuellement `À CRÉER / À CONFIRMER` :
+Dossier créé et indexé dans le Groupfolder Association le 14 septembre 2026 :
 
 ```text
 Action - Initiatives/B-Only/2026/03_Communication/Partner-Kit/
+├── Generiques/
+├── Co-brandes/
+├── Videos/
+└── Archives/
+    └── Versions-anterieures/
 ```
 
 Les fichiers lourds restent dans Nextcloud. GitHub conserve les textes, les

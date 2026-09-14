@@ -1,7 +1,7 @@
 # Index Nextcloud AlpineChain
 
 Dernière vérification documentaire complète : 2026-07-30
-Dernière mise à jour ciblée B-Only : 2026-09-08 — six logos sources BitVault classés et vérifiés
+Dernière mise à jour ciblée B-Only : 2026-09-14 — arborescence du kit partenaires créée et indexée
 Dernière mise à jour de sécurité : 2026-09-12 — détails techniques déplacés dans `Alpinechain/Serveur`
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
 Audit ciblé B-Only 2026 après nettoyage : 45 dossiers et 111 fichiers
@@ -63,9 +63,15 @@ Association/
 │   │       │   └── Logos Participants/
 │   │       ├── 02_Sponsors-Contrats/
 │   │       ├── 03_Communication/
-│   │       │   └── Vignettes/
-│   │       │       ├── Intervenants/
-│   │       │       └── Organisations/
+│   │       │   ├── Vignettes/
+│   │       │   │   ├── Intervenants/
+│   │       │   │   └── Organisations/
+│   │       │   └── Partner-Kit/
+│   │       │       ├── Generiques/
+│   │       │       ├── Co-brandes/
+│   │       │       ├── Videos/
+│   │       │       └── Archives/
+│   │       │           └── Versions-anterieures/
 │   │       ├── 04_Production-Logistique/
 │   │       ├── 05_Finances/
 │   │       ├── 06_Medias/
@@ -120,9 +126,15 @@ Action - Initiatives/B-Only/
     ├── 02_Sponsors-Contrats/
     │   └── Supports-partenariat/
     ├── 03_Communication/
-    │   └── Vignettes/
-    │       ├── Intervenants/
-    │       └── Organisations/
+    │   ├── Vignettes/
+    │   │   ├── Intervenants/
+    │   │   └── Organisations/
+    │   └── Partner-Kit/
+    │       ├── Generiques/
+    │       ├── Co-brandes/
+    │       ├── Videos/
+    │       └── Archives/
+    │           └── Versions-anterieures/
     ├── 04_Production-Logistique/
     │   ├── Restauration/
     │   └── Notes-de-travail/
@@ -142,6 +154,8 @@ ce qui permet encore une restauration. Les portraits sont dans
 `01_Programme-Intervenants/Logos Participants/`, les vignettes actives dans
 `03_Communication/Vignettes/Intervenants/` ou `Organisations/`. Le dossier
 `Archives/` est vide à la suite du nettoyage manuel confirmé par Cyrille.
+Le dossier `03_Communication/Partner-Kit/` et ses cinq sous-dossiers ont été
+créés et indexés le 14 septembre 2026 ; ils ne contiennent encore aucun visuel.
 
 ### Rencontres Souveraineté 3.0
 
