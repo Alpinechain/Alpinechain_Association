@@ -12,7 +12,7 @@ fichier.
 
 ## Structure
 
-1. « Nous serons / nous suivons B-Only à Annecy » selon la relation validée ;
+1. « On sera / on suit B-Only à Annecy » selon la relation validée ;
 2. une phrase sur la valeur de l’événement ;
 3. « 7–9 novembre 2026 » ;
 4. CTA `b-only.org`.
@@ -20,14 +20,13 @@ fichier.
 ## Script générique
 
 ```text
-Nous suivons B-Only à Annecy. Du 7 au 9 novembre, trois jours pour comprendre
-Bitcoin, apprendre et rencontrer celles et ceux qui le font vivre. Découvrez
-le programme sur b-only.org.
+On remet ça à Annecy ! Du 7 au 9 novembre, on se retrouve à B-Only pour
+apprendre, tester, discuter et vivre Bitcoin ensemble. Tu viens ? Regarde le
+programme sur b-only.org.
 ```
 
-Variante si la présence 2026 est confirmée : remplacer « Nous suivons » par
-« Nous serons à ». Une relation historique utilise « Nous avons participé à
-une précédente édition de ».
+Variante si la présence 2026 est confirmée : utiliser « On sera à ». Une
+relation historique utilise « On a participé à une précédente édition de ».
 
 ## Variables partenaire
 
@@ -43,7 +42,8 @@ une précédente édition de ».
 ## Version avatar
 
 - cadrage vertical, buste ou plan poitrine ;
-- débit naturel, ton direct, sans voix publicitaire ;
+- débit naturel, sourire audible, ton amical et complice, sans voix
+  publicitaire ;
 - sous-titres systématiques ;
 - écran final de 3 secondes avec dates et CTA ;
 - aucune synchronisation labiale ou voix clonée sans accord explicite de la
@@ -51,7 +51,7 @@ une précédente édition de ».
 
 ## Version sans avatar
 
-1. 0–4 s : logo validé du relais avec « Nous suivons B-Only à Annecy » ;
+1. 0–4 s : logo validé du relais avec « On se retrouve à B-Only ? » ;
 2. 4–13 s : visuel générique B-Only et phrase de valeur ;
 3. 13–18 s : « 7–9 novembre 2026 » ;
 4. 18–22 s : écran final `b-only.org`.

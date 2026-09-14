@@ -4,34 +4,36 @@
 
 ## Objet ou titre suggéré
 
-- `B-Only revient à Annecy du 7 au 9 novembre 2026`
-- `Trois jours pour comprendre et pratiquer Bitcoin à Annecy`
+- `On remet ça à Annecy pour B-Only’26 ?`
+- `B-Only revient du 7 au 9 novembre — on s’y retrouve ?`
 
 ## Version courte — 60 à 90 mots
 
-B-Only revient à Annecy du 7 au 9 novembre 2026. Pendant trois jours,
-l’événement réunira des personnes venues découvrir Bitcoin, approfondir leurs
-pratiques et partager des expériences concrètes. Conférences, ateliers et
-temps de rencontre permettront à chacun d’entrer dans le programme selon son
-niveau et ses questions. Retrouvez le programme et les informations pratiques
-sur https://b-only.org/ et préparez votre venue à Annecy.
+On remet ça à Annecy 🧡 B-Only revient du 7 au 9 novembre 2026 pour trois jours
+de conférences, d’ateliers et surtout de rencontres entre personnes qui ont
+envie de comprendre, pratiquer et faire vivre Bitcoin. Que tu viennes avec des
+questions, des expériences à partager ou simplement l’envie de retrouver la
+communauté, tu es le bienvenu. Découvre le programme sur https://b-only.org/
 
 ## Version développée — 120 à 180 mots
 
-B-Only revient à Annecy du 7 au 9 novembre 2026 pour trois jours consacrés à
-Bitcoin, à ses usages et aux questions concrètes qu’il soulève.
+B-Only revient à Annecy du 7 au 9 novembre 2026, et on avait vraiment envie de
+t’en parler.
 
-L’événement réunit des personnes aux parcours variés : celles qui découvrent
-Bitcoin, celles qui l’utilisent déjà, ainsi que des intervenants et des
-communautés qui viennent transmettre leurs connaissances et confronter leurs
-expériences. Le programme mêle conférences, ateliers pratiques et temps de
-rencontre afin que chacun puisse apprendre, poser ses questions et repartir
-avec des pistes utiles.
+Pourquoi ? Parce qu’on connaît l’événement grâce à {{RELATION_BONLY}} et qu’on
+l’apprécie pour une raison toute simple : {{RAISON_PERSONNELLE}}.
 
-Nous avons choisi de vous en parler parce que {{RAISON_PERSONNELLE}}. Si ces
-sujets vous intéressent, ou si vous connaissez quelqu’un qui aimerait les
-explorer dans un cadre collectif, retrouvez le programme et toutes les
-informations pratiques sur https://b-only.org/
+Pendant trois jours, on va apprendre, tester, débattre, partager des expériences
+et passer du temps avec des personnes qui vivent Bitcoin de façons très
+différentes. Il y aura des conférences, des ateliers pratiques, des questions de
+débutants comme des discussions plus pointues — et surtout beaucoup d’occasions
+de parler tranquillement avec les gens présents.
+
+Si tu as envie de venir, fais-nous signe : ça nous ferait plaisir de t’y
+retrouver. Et si tu connais une personne que ces sujets pourraient intéresser,
+n’hésite pas à lui transmettre ce message.
+
+Le programme et toutes les informations sont sur https://b-only.org/
 
 Les deux versions renverront par défaut vers <https://b-only.org/> et pourront
 être insérées telles quelles dans une newsletter partenaire après validation

@@ -20,6 +20,11 @@ logo, un témoignage ou une publication. Signaler les contradictions et laisser
 le livrable `PRÊT À RELIRE`. Pour les visiteurs 2025, traiter uniquement le
 segment agrégé sans recopier de données personnelles dans GitHub.
 
+Le ton par défaut est personnel, amical et complice. Tutoyer, écrire avec « on »
+et donner l’impression d’un message réellement adressé à une connaissance de
+l’écosystème Bitcoin. Éviter le vocabulaire institutionnel et publicitaire. Le
+vouvoiement reste possible si la relation documentée l’exige.
+
 ## Données d’entrée minimales
 
 ```text

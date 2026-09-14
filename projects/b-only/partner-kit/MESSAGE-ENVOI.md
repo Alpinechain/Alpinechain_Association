@@ -2,116 +2,118 @@
 
 **État :** `PRÊT À RELIRE` — aucun envoi effectué.
 
-Chaque version finale visera 120 à 180 mots, restera directe et non
-institutionnelle, et intégrera exactement :
+Chaque version finale vise 120 à 180 mots, avec un ton personnel, amical et
+proche des relations déjà entretenues dans l’écosystème Bitcoin. Le tutoiement
+est utilisé par défaut ; il peut être remplacé par le vouvoiement lorsque la
+relation réelle l’exige. Chaque message intègre exactement :
 
 > Il n’y a évidemment aucune obligation de publication.
 
-Le destinataire pourra reprendre les textes tels quels ou les adapter. La
-demande d’URL publique restera facultative et servira uniquement à permettre un
-relais éventuel par AlpineChain ou B-Only.
+Le destinataire peut reprendre les textes tels quels ou les adapter. La demande
+d’URL publique reste facultative et sert uniquement à permettre un relais
+éventuel par AlpineChain ou B-Only.
 
 ## Partenaire 2026
 
-**Objet suggéré :** De quoi inviter votre communauté à B-Only’26
+**Objet suggéré :** On remet ça à Annecy ? 🧡
 
-Bonjour {{CONTACT}},
+Salut {{PRENOM}},
 
-Merci de soutenir B-Only cette année. L’événement revient à Annecy du 7 au
-9 novembre 2026, et nous aimerions vous faciliter au maximum le partage auprès
-de votre communauté.
+On est vraiment heureux de t’avoir à nos côtés pour B-Only’26. Au-delà du
+partenariat, tu fais partie des personnes avec qui on construit cette aventure
+et avec qui on a plaisir à faire vivre Bitcoin autrement qu’à travers un écran.
 
-Nous avons préparé un petit kit avec des textes courts, une version newsletter
-et plusieurs formats visuels. Vous pouvez reprendre le contenu tel quel ou
-l’adapter librement à votre ton. L’idée n’est pas de vous demander un simple
-repost, mais de vous donner de quoi inviter facilement les personnes pour qui
-B-Only peut être utile.
+On t’a préparé un petit kit pour que tu puisses inviter ta communauté sans y
+passer la soirée : quelques textes, une version newsletter et des visuels aux
+bons formats. Tu peux tout reprendre tel quel, changer deux phrases ou y mettre
+complètement ta patte. Le plus important, c’est que ça te ressemble.
 
 Il n’y a évidemment aucune obligation de publication.
 
-Toutes les informations sont ici : https://b-only.org/
+On se retrouve à Annecy du 7 au 9 novembre 2026. Toutes les informations sont
+ici : https://b-only.org/
 
-Si vous publiez et souhaitez que B-Only ou AlpineChain relaie votre message,
-vous pouvez simplement nous envoyer son URL publique.
+Si tu publies quelque chose, envoie-nous simplement le lien : ça nous fera
+plaisir de le relayer depuis B-Only ou AlpineChain.
 
-Merci encore pour votre soutien,
+Merci d’être dans l’aventure,
 
 L’équipe AlpineChain / B-Only
 
 ## Partenaire ou relais historique
 
-**Objet suggéré :** B-Only revient à Annecy — un kit si vous souhaitez en parler
+**Objet suggéré :** B-Only revient — ça nous ferait plaisir de t’y retrouver
 
-Bonjour {{CONTACT}},
+Salut {{PRENOM}},
 
-Vous avez participé à l’histoire de B-Only, et nous tenions à vous prévenir du
-retour de l’événement à Annecy du 7 au 9 novembre 2026.
+Tu as fait partie de l’histoire de B-Only et on avait envie de te donner des
+nouvelles directement : on remet ça à Annecy du 7 au 9 novembre 2026.
 
-Si cette nouvelle édition peut intéresser votre communauté, nous avons préparé
-un kit très léger : quelques textes prêts à reprendre, une version newsletter
-et des visuels adaptés aux principaux formats. Vous pouvez tout utiliser tel
-quel, modifier le ton ou ne conserver que l’information qui vous paraît utile.
+Même si tu n’es pas engagé dans l’édition cette année, le lien reste là. Si tu
+penses que B-Only peut parler à quelques personnes autour de toi, on t’a
+préparé un kit tout simple avec des textes et des visuels prêts à reprendre. Tu
+peux les utiliser tels quels, les adapter à ta manière ou juste transmettre le
+lien à quelqu’un que ça pourrait faire vibrer.
 
 Il n’y a évidemment aucune obligation de publication.
 
-Le programme et les informations pratiques sont disponibles ici :
-https://b-only.org/
+Le programme et les informations pratiques sont là : https://b-only.org/
 
-Si vous choisissez d’en parler, vous pouvez nous transmettre l’URL publique de
-votre message. B-Only ou AlpineChain pourra alors envisager de le relayer.
+Et si tu en parles publiquement, envoie-nous le lien. On sera heureux de donner
+un peu plus d’écho à ton message.
 
-Merci d’avoir contribué au parcours de B-Only,
+Au plaisir de se recroiser autour de Bitcoin,
 
 L’équipe AlpineChain / B-Only
 
 ## Intervenant, artiste, marchand ou communauté amie
 
-**Objet suggéré :** Voici de quoi inviter votre communauté à B-Only’26
+**Objet suggéré :** On se retrouve à B-Only’26 ?
 
-Bonjour {{CONTACT}},
+Salut {{PRENOM}},
 
-{{RELATION_BONLY}} Nous avons préparé un kit simple pour vous permettre d’en
-parler facilement à votre communauté, avec vos mots et sans perdre de temps.
+{{RELATION_BONLY}} et on est vraiment content de vivre cette nouvelle édition
+avec toi. B-Only, c’est d’abord une histoire de personnes qui aiment apprendre,
+transmettre, bricoler, débattre et passer du temps ensemble autour de Bitcoin.
 
-Vous y trouverez des textes courts pour les réseaux, une version newsletter et
-des visuels aux formats les plus courants. Ils peuvent être repris tels quels
-ou adaptés à votre manière de communiquer. L’objectif est simplement d’aider
-les personnes qui vous suivent à comprendre où et quand nous retrouver : à
-Annecy, du 7 au 9 novembre 2026.
+On t’a préparé un kit pour que tu puisses inviter ta communauté sans devoir
+repartir d’une page blanche : quelques textes, une version newsletter et des
+visuels aux bons formats. Reprends ce qui t’est utile, change le ton, ajoute ton
+expérience ou fais beaucoup plus court. Il faut surtout que le message reste le
+tien.
 
 Il n’y a évidemment aucune obligation de publication.
 
-Le programme et les informations pratiques sont ici : https://b-only.org/
+On se retrouve à Annecy du 7 au 9 novembre 2026 : https://b-only.org/
 
-Si vous publiez et souhaitez un relais par B-Only ou AlpineChain, envoyez-nous
-simplement l’URL publique.
+Si tu publies, pense à nous envoyer le lien. On pourra le relayer et montrer que
+B-Only vit aussi grâce aux communautés qui l’entourent.
 
-Au plaisir de faire vivre cette édition avec vous,
+À très vite,
 
 L’équipe AlpineChain / B-Only
 
 ## Participant visiteur de l’édition 2025
 
-**Objet suggéré :** B-Only revient à Annecy du 7 au 9 novembre
+**Objet suggéré :** Tu étais là en 2025… on remet ça ?
 
-Bonjour,
+Salut,
 
-Vous étiez avec nous à B-Only en 2025, et nous sommes heureux de vous annoncer
-que l’événement revient à Annecy du 7 au 9 novembre 2026.
+Tu étais avec nous à B-Only en 2025, alors on avait envie de te donner des
+nouvelles directement : on revient à Annecy du 7 au 9 novembre 2026.
 
-Si l’expérience vous avait plu, vous connaissez peut-être une personne avec
-qui vous aimeriez la partager cette année. Nous avons donc préparé quelques
-textes et visuels faciles à transmettre, par message, dans une communauté ou
-sur vos réseaux. Vous pouvez les reprendre tels quels ou les adapter librement.
+On espère que tu avais passé un bon moment avec nous. Si tu as envie de revenir,
+ce sera un vrai plaisir de te retrouver. Et peut-être que cette fois tu connais
+une personne avec qui tu aimerais partager l’expérience : un ami curieux, un
+bitcoiner de longue date ou quelqu’un qui pose beaucoup de bonnes questions.
+
+On a préparé quelques textes et visuels faciles à transmettre. Tu peux les
+reprendre, les modifier ou simplement envoyer le lien à la bonne personne.
 
 Il n’y a évidemment aucune obligation de publication.
 
-Vous retrouverez le programme et toutes les informations pratiques ici :
-https://b-only.org/
+Le programme et toutes les informations sont là : https://b-only.org/
 
-Et bien sûr, ce message est aussi une invitation à revenir nous voir. Nous
-serons ravis de vous retrouver à Annecy pour cette nouvelle édition.
-
-À bientôt,
+On espère te revoir en novembre 🧡
 
 L’équipe AlpineChain / B-Only

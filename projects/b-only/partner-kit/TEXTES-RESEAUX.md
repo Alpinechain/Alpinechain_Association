@@ -5,23 +5,27 @@
 ## A — Relais ultra simple
 
 ```text
-B-Only revient à Annecy du 7 au 9 novembre 2026 : trois jours pour comprendre
-Bitcoin, apprendre et rencontrer celles et ceux qui le font vivre.
+On remet ça à Annecy 🧡
 
-Programme et informations : https://b-only.org/
+B-Only revient du 7 au 9 novembre 2026 pour trois jours de rencontres,
+d’ateliers, de discussions et de Bitcoin vécu ensemble.
+
+Viens voir le programme : https://b-only.org/
 ```
 
 ## B — Recommandation du relais
 
 ```text
-Nous avons {{RELATION_BONLY}} et gardons de cette expérience une raison simple
-de vous recommander l’événement : {{RAISON_PERSONNELLE}}.
+On connaît B-Only parce que {{RELATION_BONLY}}, et on avait envie de t’en parler
+avec nos propres mots.
 
-B-Only revient à Annecy du 7 au 9 novembre 2026. Si vous souhaitez découvrir
-Bitcoin, approfondir vos pratiques ou rencontrer celles et ceux qui le font
-vivre, nous serons heureux de vous y retrouver.
+Ce qu’on aime dans cet événement : {{RAISON_PERSONNELLE}}.
 
-Programme et informations : https://b-only.org/
+B-Only revient à Annecy du 7 au 9 novembre 2026. Si l’idée de passer trois jours
+à apprendre, échanger et vivre Bitcoin avec d’autres te parle, on se retrouve
+là-bas.
+
+Le programme est ici : https://b-only.org/
 ```
 
 ## C — Modèle personnalisable
@@ -37,11 +41,11 @@ Variables autorisées :
 ```
 
 ```text
-{{PARTENAIRE}} {{RELATION_BONLY}}.
+Chez {{PARTENAIRE}}, on connaît B-Only parce que {{RELATION_BONLY}}.
 
-Pour nous, B-Only mérite votre attention parce que {{RAISON_PERSONNELLE}}.
+On avait envie de t’en parler parce que {{RAISON_PERSONNELLE}}.
 
-Rendez-vous à Annecy du 7 au 9 novembre 2026.
+On se retrouve à Annecy du 7 au 9 novembre 2026 ?
 
 {{CTA}}
 ```
@@ -57,16 +61,19 @@ fabriquer cinq messages artificiellement différents.
 ### LinkedIn
 
 ```text
-B-Only revient à Annecy du 7 au 9 novembre 2026.
+Il y a les événements qu’on relaie parce qu’il le faut. Et il y a ceux dont on
+parle parce qu’on a vraiment envie d’y retrouver du monde.
 
-Pendant trois jours, l’événement réunira des personnes venues comprendre
-Bitcoin, approfondir leurs pratiques et partager des expériences concrètes.
+B-Only revient à Annecy du 7 au 9 novembre 2026. Trois jours pour apprendre,
+tester, débattre et surtout passer du temps avec des personnes qui font vivre
+Bitcoin de façons très différentes.
 
-Nous vous recommandons cette édition parce que {{RAISON_PERSONNELLE}}. Que vous
-découvriez Bitcoin ou que vous le pratiquiez déjà, le programme offre plusieurs
-portes d’entrée pour apprendre et rencontrer celles et ceux qui le font vivre.
+On connaît B-Only parce que {{RELATION_BONLY}}, et on te recommande cette
+édition parce que {{RAISON_PERSONNELLE}}.
 
-Retrouvez le programme et les informations pratiques : https://b-only.org/
+Si tu viens, fais-nous signe. On se retrouvera là-bas 🧡
+
+Le programme : https://b-only.org/
 
 #Bitcoin #BOnly26 #Annecy
 ```
@@ -77,38 +84,40 @@ Une idée, un objectif, une action attendue et 240 caractères maximum, lien
 compris.
 
 ```text
-B-Only revient à Annecy du 7 au 9 novembre 2026 : trois jours pour comprendre
-Bitcoin, apprendre et rencontrer celles et ceux qui le font vivre.
-
-Programme : https://b-only.org/
+On remet ça à Annecy 🧡 B-Only revient du 7 au 9 novembre 2026 : trois jours
+pour apprendre, débattre, bricoler et vivre Bitcoin ensemble. On s’y retrouve ?
+https://b-only.org/
 ```
 
 ### Facebook
 
 ```text
-B-Only revient à Annecy du 7 au 9 novembre 2026 !
+On remet ça à Annecy du 7 au 9 novembre 2026 🧡
 
-Trois jours pour découvrir Bitcoin, poser ses questions, approfondir ses
-pratiques et rencontrer des personnes qui partagent leurs expériences sans
-réduire le sujet à des slogans.
+B-Only, ce sont trois jours pour apprendre, tester, débattre, poser toutes les
+questions qu’on garde parfois pour plus tard… et surtout retrouver des gens avec
+qui Bitcoin devient concret et vivant.
 
-Nous avons choisi de vous en parler parce que {{RAISON_PERSONNELLE}}.
+On connaît l’événement parce que {{RELATION_BONLY}} et on avait envie de t’en
+parler parce que {{RAISON_PERSONNELLE}}.
 
-Découvrez le programme et les informations pratiques : https://b-only.org/
+Si tu viens, dis-le-nous. On se retrouvera là-bas !
+
+Le programme : https://b-only.org/
 ```
 
 ### Instagram
 
 ```text
-B-ONLY REVIENT À ANNECY 🧡
+ON REMET ÇA À ANNECY 🧡
 
 📅 7–9 novembre 2026
 📍 Annecy
 
-Trois jours pour comprendre Bitcoin, apprendre, expérimenter et rencontrer
-celles et ceux qui le font vivre.
+Trois jours pour apprendre, tester, discuter, refaire le monde autour d’un verre
+et vivre Bitcoin avec celles et ceux qui le font avancer.
 
-Programme et informations via https://b-only.org/
+Tu viens ? Le programme est sur https://b-only.org/
 
 #Bitcoin #BOnly26 #Annecy
 ```
@@ -116,26 +125,27 @@ Programme et informations via https://b-only.org/
 ### Nostr
 
 ```text
-B-Only revient à Annecy du 7 au 9 novembre 2026.
+Pas de grand discours : on aime B-Only parce que {{RAISON_PERSONNELLE}}.
 
-Trois jours pour parler de Bitcoin sans bruit inutile : comprendre, apprendre,
-expérimenter et partager des pratiques concrètes avec des personnes venues de
-différents horizons.
+On y retrouve des bitcoiners qu’on connaît, on en rencontre de nouveaux, on
+apprend, on teste des choses et on prend le temps de discuter pour de vrai.
 
-Nous vous recommandons cette édition parce que {{RAISON_PERSONNELLE}}.
+B-Only revient à Annecy du 7 au 9 novembre 2026. Si tu passes dans le coin,
+viens nous retrouver.
 
-Programme et informations : https://b-only.org/
+Le programme : https://b-only.org/
 
 #bitcoin #bonly26 #annecy
 ```
 
 ## Adaptation pour un relais historique
 
-Employer une relation passée explicite, par exemple « nous avons participé à
-une précédente édition ». Ne jamais laisser entendre une présence en 2026.
+Employer une relation passée explicite, par exemple « on a partagé une
+précédente édition ». La proximité reste chaleureuse, mais ne doit jamais
+laisser entendre une présence en 2026.
 
 ## Adaptation pour un visiteur 2025
 
-Remplacer la recommandation institutionnelle par une expérience personnelle
-facultative. Ne jamais fabriquer de témoignage : la variable
+Remplacer la recommandation institutionnelle par un souvenir ou une envie de
+retrouvailles. Ne jamais fabriquer de témoignage : la variable
 `{{RAISON_PERSONNELLE}}` doit être complétée par le visiteur ou supprimée.

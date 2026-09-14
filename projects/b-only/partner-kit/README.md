@@ -86,6 +86,9 @@ publiques.
 
 - conserver les dates du 7 au 9 novembre 2026 et le CTA principal ;
 - laisser le relais propriétaire de son ton ;
+- privilégier le tutoiement, les formulations naturelles et l’esprit de
+  retrouvailles entre bitcoiners ;
+- éviter le ton institutionnel, commercial ou excessivement promotionnel ;
 - ne jamais inventer une relation, un témoignage ou une présence en 2026 ;
 - ne pas présenter un contenu préparé comme envoyé ou publié ;
 - ne pas utiliser de logo sans source validée ;
