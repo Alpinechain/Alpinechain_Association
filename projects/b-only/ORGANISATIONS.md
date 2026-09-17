@@ -1,6 +1,6 @@
 # Registre des organisations B-Only 2026
 
-Dernière mise à jour : 2026-09-08
+Dernière mise à jour : 2026-09-17
 
 Issue sponsors : [#3 — Pipeline sponsors](https://github.com/Alpinechain/Alpinechain_Association/issues/3)  
 Issue communication : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
@@ -54,10 +54,13 @@ Les chemins Nextcloud sont relatifs à
 Suivi : [#147 — lots HWW et vidéo partenaire](https://github.com/Alpinechain/Alpinechain_Association/issues/147).
 
 - Accord : **CONFIRMÉ** par Cyrille le 2026-09-05 ; Neowalt ne viendra pas sur place.
-- Contribution : envoi convenu de **3 × 2 clés matérielles (HWW), soit 6 unités**, à offrir lors du jeu/quiz du samedi 7 novembre au soir. Modèles exacts et composition des lots à préciser ; expédition et réception **EN ATTENTE**.
+- Contribution confirmée le 2026-09-17 pour le jeu concours : **2 × Tangem (pack de deux cartes), 2 × Ellipal Titan Mini et 2 × SafePal X1**. Cela représente six lots produits ; chaque lot Tangem contient deux cartes et ne doit donc pas être résumé comme une seule unité physique lors de l'inventaire.
+- Caractéristiques communiquées par Neowalt : Tangem au format carte via NFC ; Ellipal Titan Mini avec écran tactile et fonctionnement totalement air-gap ; SafePal X1 avec touches physiques et fonctionnement Bluetooth.
+- Périmètre : ces wallets ne sont **pas Bitcoin-only** et prennent en charge plusieurs cryptomonnaies.
+- Expédition : Neowalt prévoit l'envoi des wallets **vers mi-octobre** ; réception et inventaire restent **EN ATTENTE**.
 - Contact : Paul Renaud. Carte de contact archivée dans le dossier privé `02_Sponsors-Contrats/Neowalt/` ([fichier Nextcloud](https://cloud.alpinechain.xyz/f/4745)) ; enregistrement CRM encore à effectuer.
 - Logos : archivage Nextcloud **CONFIRMÉ** le 2026-09-05 dans `01_Programme-Intervenants/Logos Participants/` : [symbole seul, 970 × 860](https://cloud.alpinechain.xyz/f/4742) et [logo horizontal à texte blanc, 3247 × 1176](https://cloud.alpinechain.xyz/f/4743). Tailles et SHA-256 identiques aux sources ; indexation sans erreur. La carte de contact n'est pas un support à publier.
-- Vidéo courte de présentation : **EN ATTENTE** de réception, destinée au jeu ; durée, format et test régie à organiser dans #147 avec #12.
+- Vidéos de présentation : plusieurs vidéos sont en cours de préparation ; Neowalt prévoit leur envoi **vers mi-octobre** afin de laisser une marge de correction avant B-Only. Durée, format, choix de la ou des vidéos et test régie restent à organiser dans #147 avec #12.
 - Déclinaison pour boucle écrans avec les autres partenaires : **À VALIDER**.
 - Visibilité site : à préparer comme partenaire de lots, sans annoncer de présence physique ; utiliser une variante contrastée du logo. Publication à suivre dans #24.
 
