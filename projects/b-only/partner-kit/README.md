@@ -118,3 +118,12 @@ agrégé. Les relais déjà assurés en sont exclus. Cyrille a confirmé le
 17 septembre 2026 que les quatre kits et les visuels génériques avaient été
 validés et transmis lors de cette vague. Cela ne constitue pas une preuve de
 publication par les destinataires ; aucune URL publique n’est encore archivée.
+
+## Suivi post-envoi
+
+Le suivi de la première vague est ouvert dans
+`activation/FOLLOW-UP-WAVE-01.md`. Il prévoit une relance amicale unique pour
+les contacts nommés à partir de J+3, calculé depuis la date réelle d’envoi, et
+aucune relance individuelle automatique des visiteurs. Une publication ne sera
+enregistrée dans `diffusion-tracking.csv` qu’après réception et vérification de
+son URL publique.

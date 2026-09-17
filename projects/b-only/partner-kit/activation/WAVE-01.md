@@ -63,3 +63,6 @@ GitHub. Aucun visuel co-brandé n’est entré dans cette première vague.
 Les statuts d’envoi sont renseignés dans `../partners.csv`. Une ligne ne sera
 ajoutée dans `../diffusion-tracking.csv` qu’après réception d’une URL réellement
 publique.
+
+Le suivi des retours, la relance unique éventuelle et l’archivage des preuves
+sont décrits dans `FOLLOW-UP-WAVE-01.md`.
