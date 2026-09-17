@@ -1,4 +1,4 @@
-# Kit pilote — PlebStyle
+# Kit — PlebStyle
 
 **État :** `PRÊT À RELIRE` — `NON ENVOYÉ`.
 

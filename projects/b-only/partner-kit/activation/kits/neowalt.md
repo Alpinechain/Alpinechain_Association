@@ -1,4 +1,4 @@
-# Kit pilote — Neowalt
+# Kit — Neowalt
 
 **État :** `PRÊT À RELIRE` — `NON ENVOYÉ`.
 

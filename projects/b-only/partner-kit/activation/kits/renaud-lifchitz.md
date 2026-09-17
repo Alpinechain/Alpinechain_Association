@@ -1,4 +1,4 @@
-# Kit pilote — Renaud Lifchitz
+# Kit — Renaud Lifchitz
 
 **État :** `PRÊT À RELIRE` — `NON ENVOYÉ`.
 
@@ -58,4 +58,4 @@ et prendre le temps d’échanger autour de Bitcoin. Rendez-vous du 7 au
 ## Visuels joints après validation
 
 Utiliser les quatre génériques `v02`. Une déclinaison avec portrait ou logo
-relève de la campagne intervenant existante, pas de ce kit pilote.
+relève de la campagne intervenant existante, pas de ce kit partenaire.

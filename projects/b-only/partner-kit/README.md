@@ -3,7 +3,7 @@
 Quelques visuels et textes prêts à utiliser pour parler de B-Only à votre
 communauté.
 
-**État :** phase 4 — première vague pilote et quatre kits ciblés `PRÊTS À
+**État :** phase 4 — première vague complète et quatre kits ciblés `PRÊTS À
 RELIRE` ; cinq visuels restent `À VALIDER`. Aucun élément ne devient `VALIDÉ`
 sans validation humaine.
 
@@ -107,10 +107,10 @@ Après réception d’une URL publique, ajouter une ligne dans
 `diffusion-tracking.csv`. Le relais éventuel par AlpineChain ou B-Only reste une
 action distincte soumise à validation humaine.
 
-## Activation pilote
+## Première vague complète
 
-La première vague préparée est décrite dans `activation/WAVE-01.md`. Elle teste
-quatre cas distincts sans inclure les relais déjà assurés : partenaire 2026 à
-distance, relais historique, intervenant confirmé et visiteurs 2025 traités
-comme segment agrégé. Les kits restent non envoyés et sont regroupés dans
-`activation/kits/`.
+La première vague préparée est décrite dans `activation/WAVE-01.md`. Son
+périmètre a été confirmé par Cyrille le 17 septembre 2026 : Neowalt, PlebStyle,
+Renaud Lifchitz et plus de 160 visiteurs de B-Only 2025 traités comme segment
+agrégé. Les relais déjà assurés en sont exclus. Les kits restent non envoyés et
+sont regroupés dans `activation/kits/`.

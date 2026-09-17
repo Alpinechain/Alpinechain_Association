@@ -1,25 +1,31 @@
-# Vague 01 — pilote du kit partenaire
+# Vague 01 — périmètre complet
 
 **État :** `PRÊT À RELIRE` — aucun message envoyé, programmé ou publié.
 
 ## Cadrage
 
 - Projet : B-Only 2026.
-- Objectif : valider le fonctionnement du kit sur quatre relations différentes
-  avant d’élargir la diffusion.
+- Objectif : activer la première vague complète auprès de trois relations de
+  confiance et de la cohorte des anciens visiteurs.
+- Périmètre confirmé par Cyrille le 17 septembre 2026 : Neowalt, PlebStyle,
+  Renaud Lifchitz et plus de 160 visiteurs de B-Only 2025.
 - CTA unique : <https://b-only.org/>.
 - Visuels : quatre génériques `v02` référencés dans `../assets/README.md`, tous
   encore `À VALIDER`.
 - Validation : Cyrille avant chaque envoi.
 
-## Sélection pilote
+## Périmètre complet
 
 | Cible | Segment | Pourquoi ce cas | Kit | Gate avant envoi |
 |---|---|---|---|---|
-| Neowalt | partenaire 2026 à distance | Tester un partenaire qui contribue sans être présent physiquement | `kits/neowalt.md` | Valider la désignation publique « partenaire de lots » et l’URL de destination |
-| PlebStyle | relais historique | Tester une relation passée après un désistement 2026, sans ambiguïté sur la présence | `kits/plebstyle.md` | Relire le rappel explicite de l’absence en 2026 |
-| Renaud Lifchitz | intervenant confirmé et public | Tester l’invitation personnelle d’un intervenant déjà annoncé | `kits/renaud-lifchitz.md` | Validation du message et des visuels du kit |
-| Visiteurs B-Only 2025 | anciens participants | Tester le message de retrouvailles distinct des speakers, partenaires, marchands et artistes | `kits/visiteurs-2025.md` | Sélectionner les destinataires dans Pretix ou l’outil autorisé, hors GitHub |
+| Neowalt | partenaire 2026 à distance | Partenaire qui contribue sans être présent physiquement | `kits/neowalt.md` | Valider la désignation publique « partenaire de lots » et l’URL de destination |
+| PlebStyle | relais historique | Relation passée après un désistement 2026, sans ambiguïté sur la présence | `kits/plebstyle.md` | Relire le rappel explicite de l’absence en 2026 |
+| Renaud Lifchitz | intervenant confirmé et public | Invitation personnelle d’un intervenant déjà annoncé | `kits/renaud-lifchitz.md` | Validation du message et des visuels du kit |
+| Plus de 160 visiteurs B-Only 2025 | anciens participants | Message de retrouvailles distinct des speakers, partenaires, marchands et artistes | `kits/visiteurs-2025.md` | Sélectionner les destinataires dans Pretix ou l’outil autorisé, hors GitHub |
+
+Le volume « plus de 160 » est une indication agrégée fournie par Cyrille. Il
+ne vaut ni liste nominative, ni nombre exact de destinataires joignables : ce
+dernier sera contrôlé dans l’outil autorisé au moment de préparer l’envoi.
 
 ## Hors vague
 
@@ -42,9 +48,10 @@ dossier Nextcloud `Partner-Kit/Generiques/` :
 - `bonly26--partner-kit--generic--landscape--1200x628--v02.png`.
 
 Ne pas joindre automatiquement les quatre formats : choisir ceux réellement
-utiles au destinataire. Aucun visuel co-brandé n’entre dans cette vague pilote.
+utiles au destinataire. Aucun visuel co-brandé n’entre dans cette première
+vague.
 
-## Ordre d’essai proposé
+## Ordre d’activation proposé
 
 1. Renaud Lifchitz, après validation du message et des visuels.
 2. PlebStyle, comme relais strictement historique.
