@@ -1,6 +1,7 @@
 # Vague 01 — périmètre complet
 
-**État :** `PRÊT À RELIRE` — aucun message envoyé, programmé ou publié.
+**État :** `VALIDÉ` — `ENVOYÉ`. Aucune publication par les destinataires n’est
+encore attestée par une URL publique.
 
 ## Cadrage
 
@@ -10,22 +11,23 @@
 - Périmètre confirmé par Cyrille le 17 septembre 2026 : Neowalt, PlebStyle,
   Renaud Lifchitz et plus de 160 visiteurs de B-Only 2025.
 - CTA unique : <https://b-only.org/>.
-- Visuels : quatre génériques `v02` référencés dans `../assets/README.md`, tous
-  encore `À VALIDER`.
-- Validation : Cyrille avant chaque envoi.
+- Visuels : quatre génériques `v02` référencés dans `../assets/README.md`,
+  validés et transmis avec les kits.
+- Validation et transmission : confirmées par Cyrille le 17 septembre 2026.
 
 ## Périmètre complet
 
-| Cible | Segment | Pourquoi ce cas | Kit | Gate avant envoi |
+| Cible | Segment | Pourquoi ce cas | Kit | Résultat |
 |---|---|---|---|---|
-| Neowalt | partenaire 2026 à distance | Partenaire qui contribue sans être présent physiquement | `kits/neowalt.md` | Valider la désignation publique « partenaire de lots » et l’URL de destination |
-| PlebStyle | relais historique | Relation passée après un désistement 2026, sans ambiguïté sur la présence | `kits/plebstyle.md` | Relire le rappel explicite de l’absence en 2026 |
-| Renaud Lifchitz | intervenant confirmé et public | Invitation personnelle d’un intervenant déjà annoncé | `kits/renaud-lifchitz.md` | Validation du message et des visuels du kit |
-| Plus de 160 visiteurs B-Only 2025 | anciens participants | Message de retrouvailles distinct des speakers, partenaires, marchands et artistes | `kits/visiteurs-2025.md` | Sélectionner les destinataires dans Pretix ou l’outil autorisé, hors GitHub |
+| Neowalt | partenaire 2026 à distance | Partenaire qui contribue sans être présent physiquement | `kits/neowalt.md` | Kit et visuels validés et transmis |
+| PlebStyle | relais historique | Relation passée après un désistement 2026, sans ambiguïté sur la présence | `kits/plebstyle.md` | Kit et visuels validés et transmis |
+| Renaud Lifchitz | intervenant confirmé et public | Invitation personnelle d’un intervenant déjà annoncé | `kits/renaud-lifchitz.md` | Kit et visuels validés et transmis |
+| Plus de 160 visiteurs B-Only 2025 | anciens participants | Message de retrouvailles distinct des speakers, partenaires, marchands et artistes | `kits/visiteurs-2025.md` | Kit et visuels validés et transmis au segment privé |
 
 Le volume « plus de 160 » est une indication agrégée fournie par Cyrille. Il
 ne vaut ni liste nominative, ni nombre exact de destinataires joignables : ce
-dernier sera contrôlé dans l’outil autorisé au moment de préparer l’envoi.
+dernier et les coordonnées restent exclusivement dans l’outil autorisé et ne
+sont pas consignés dans GitHub.
 
 ## Hors vague
 
@@ -37,27 +39,27 @@ dernier sera contrôlé dans l’outil autorisé au moment de préparer l’envo
 - autres désistements et anciens noms remplacés : aucune présence 2026 ne doit
   être suggérée.
 
-## Pièces jointes communes
+## Pièces jointes communes transmises
 
-Après validation graphique, joindre selon le canal un ou plusieurs fichiers du
-dossier Nextcloud `Partner-Kit/Generiques/` :
+Les formats transmis selon les besoins de chaque canal proviennent du dossier
+Nextcloud `Partner-Kit/Generiques/` :
 
 - `bonly26--partner-kit--generic--square--1080x1080--v02.png` ;
 - `bonly26--partner-kit--generic--vertical--1080x1350--v02.png` ;
 - `bonly26--partner-kit--generic--story--1080x1920--v02.png` ;
 - `bonly26--partner-kit--generic--landscape--1200x628--v02.png`.
 
-Ne pas joindre automatiquement les quatre formats : choisir ceux réellement
-utiles au destinataire. Aucun visuel co-brandé n’entre dans cette première
-vague.
+Le choix précis du ou des formats par destinataire n’est pas détaillé dans
+GitHub. Aucun visuel co-brandé n’est entré dans cette première vague.
 
-## Ordre d’activation proposé
+## Résultat de la vague
 
-1. Renaud Lifchitz, après validation du message et des visuels.
-2. PlebStyle, comme relais strictement historique.
-3. Neowalt, après validation de sa désignation publique et de son URL.
-4. Visiteurs 2025, après préparation de la sélection privée des destinataires.
+- quatre kits validés ;
+- quatre kits transmis ;
+- quatre visuels génériques validés et transmis avec les kits ;
+- aucune publication ou URL publique attribuable aux destinataires n’est encore
+  documentée.
 
-Après chaque envoi, renseigner `send_status` dans `../partners.csv`. Une ligne
-n’est ajoutée dans `../diffusion-tracking.csv` qu’après réception d’une URL
-réellement publique.
+Les statuts d’envoi sont renseignés dans `../partners.csv`. Une ligne ne sera
+ajoutée dans `../diffusion-tracking.csv` qu’après réception d’une URL réellement
+publique.

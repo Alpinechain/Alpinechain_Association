@@ -1,6 +1,6 @@
 # Kit — PlebStyle
 
-**État :** `PRÊT À RELIRE` — `NON ENVOYÉ`.
+**État :** `VALIDÉ` — `ENVOYÉ` lors de la première vague.
 
 ## Faits utilisables
 

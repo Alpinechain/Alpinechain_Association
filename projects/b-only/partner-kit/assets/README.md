@@ -32,18 +32,19 @@ Action - Initiatives/B-Only/2026/03_Communication/Partner-Kit/
 
 Un fichier produit ne devient jamais `VALIDÉ` sans validation humaine.
 
-## Visuels produits à valider
+## Visuels produits
 
-Les exports ont été déposés le 14 septembre 2026 sans partage public. Ils
-restent tous `À VALIDER` : leur présence dans Nextcloud ne vaut pas validation
-graphique ni autorisation de diffusion.
+Les exports ont été déposés le 14 septembre 2026 sans partage public. Cyrille a
+confirmé le 17 septembre 2026 la validation et la transmission des quatre
+formats génériques avec la première vague. Le modèle co-brandé, qui n’a pas été
+utilisé dans cette vague, reste `À VALIDER`.
 
 | Fichier | Dossier Nextcloud | Dimensions | Taille | SHA-256 | ID | Statut |
 |---|---|---:|---:|---|---:|---|
-| `bonly26--partner-kit--generic--square--1080x1080--v02.png` | `Generiques/` | 1080 × 1080 | 713 952 o | `e6d86670d7aa90a35fce9671adab10bfec50936166410f5f6fc40089c390a12b` | 4913 | À VALIDER |
-| `bonly26--partner-kit--generic--vertical--1080x1350--v02.png` | `Generiques/` | 1080 × 1350 | 910 436 o | `5166b2e432bc70a243256de3bd54f0f0057c700484a228512bd6c975c6d4a84f` | 4914 | À VALIDER |
-| `bonly26--partner-kit--generic--story--1080x1920--v02.png` | `Generiques/` | 1080 × 1920 | 1 128 612 o | `cf5da3afd122de3c342e1cc4e1934a6e780a037b93d03911212f69ee42d278ae` | 4915 | À VALIDER |
-| `bonly26--partner-kit--generic--landscape--1200x628--v02.png` | `Generiques/` | 1200 × 628 | 382 516 o | `faa4278a61ebb6a94d7744623c3b7468acb6b44b51a3439f27f86f3517e68c71` | 4916 | À VALIDER |
+| `bonly26--partner-kit--generic--square--1080x1080--v02.png` | `Generiques/` | 1080 × 1080 | 713 952 o | `e6d86670d7aa90a35fce9671adab10bfec50936166410f5f6fc40089c390a12b` | 4913 | VALIDÉ |
+| `bonly26--partner-kit--generic--vertical--1080x1350--v02.png` | `Generiques/` | 1080 × 1350 | 910 436 o | `5166b2e432bc70a243256de3bd54f0f0057c700484a228512bd6c975c6d4a84f` | 4914 | VALIDÉ |
+| `bonly26--partner-kit--generic--story--1080x1920--v02.png` | `Generiques/` | 1080 × 1920 | 1 128 612 o | `cf5da3afd122de3c342e1cc4e1934a6e780a037b93d03911212f69ee42d278ae` | 4915 | VALIDÉ |
+| `bonly26--partner-kit--generic--landscape--1200x628--v02.png` | `Generiques/` | 1200 × 628 | 382 516 o | `faa4278a61ebb6a94d7744623c3b7468acb6b44b51a3439f27f86f3517e68c71` | 4916 | VALIDÉ |
 | `bonly26--partner-kit--template--cobrand--square--v01.png` | `Co-brandes/` | 1080 × 1080 | 517 742 o | `db62aa30518f75acde9c637259424d81e1fa3ba5b9fc33f2420fd42bbdf03136` | 4904 | À VALIDER |
 
 Les quatre exports génériques `v01`, dont les couches de montagnes n’étaient

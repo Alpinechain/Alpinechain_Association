@@ -1,13 +1,14 @@
 # Kit — visiteurs B-Only 2025
 
-**État :** `PRÊT À RELIRE` — `NON ENVOYÉ`.
+**État :** `VALIDÉ` — `ENVOYÉ` lors de la première vague.
 
 Ce fichier décrit un segment agrégé. Aucun nom, courriel, numéro de commande ou
 autre donnée Pretix ne doit être copié dans GitHub.
 
 Le périmètre de la première vague comprend plus de 160 visiteurs, selon le
 volume communiqué par Cyrille le 17 septembre 2026. Le nombre exact de
-destinataires joignables sera contrôlé dans l’outil autorisé avant envoi.
+destinataires et leurs coordonnées restent dans l’outil autorisé et ne sont pas
+recopiés dans GitHub.
 
 ## Message d’approche
 

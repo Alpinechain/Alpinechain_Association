@@ -3,9 +3,9 @@
 Quelques visuels et textes prêts à utiliser pour parler de B-Only à votre
 communauté.
 
-**État :** phase 4 — première vague complète et quatre kits ciblés `PRÊTS À
-RELIRE` ; cinq visuels restent `À VALIDER`. Aucun élément ne devient `VALIDÉ`
-sans validation humaine.
+**État :** phase 4 — première vague complète `VALIDÉE` et `ENVOYÉE`. Les
+quatre kits ciblés et les quatre visuels génériques ont été validés puis
+transmis. Le modèle co-brandé, hors vague, reste `À VALIDER`.
 
 ## Cadrage
 
@@ -13,7 +13,8 @@ sans validation humaine.
 - Objectif : permettre à un relais d’inviter sa communauté en moins de deux
   minutes, avec un contenu directement copiable et personnalisable.
 - CTA principal : <https://b-only.org/>.
-- Validation : Cyrille avant tout envoi, programmation ou publication.
+- Validation : kits et visuels de la première vague validés par Cyrille ; toute
+  nouvelle activation, programmation ou publication reste soumise à validation.
 - Suivi : [Issue #168](https://github.com/Alpinechain/Alpinechain_Association/issues/168).
 
 Le kit s’adresse séparément aux partenaires 2026, aux partenaires et relais
@@ -85,9 +86,10 @@ publiques.
 
 Quatre déclinaisons génériques `v02` et un modèle co-brandé carré ont été
 déposés dans `Generiques/` et `Co-brandes/` le 14 septembre 2026. Les quatre
-génériques `v01` remplacés ont été retirés du kit et placés dans la corbeille
-Nextcloud. Le détail des formats, empreintes et statuts figure dans
-`assets/README.md`. Aucun partage public n’a été créé.
+génériques `v02` ont ensuite été validés et transmis avec la première vague ;
+le modèle co-brandé reste hors vague et `À VALIDER`. Les quatre génériques
+`v01` remplacés ont été retirés du kit et placés dans la corbeille Nextcloud.
+Le détail des formats, empreintes et statuts figure dans `assets/README.md`.
 
 ## Règles de personnalisation
 
@@ -112,5 +114,7 @@ action distincte soumise à validation humaine.
 La première vague préparée est décrite dans `activation/WAVE-01.md`. Son
 périmètre a été confirmé par Cyrille le 17 septembre 2026 : Neowalt, PlebStyle,
 Renaud Lifchitz et plus de 160 visiteurs de B-Only 2025 traités comme segment
-agrégé. Les relais déjà assurés en sont exclus. Les kits restent non envoyés et
-sont regroupés dans `activation/kits/`.
+agrégé. Les relais déjà assurés en sont exclus. Cyrille a confirmé le
+17 septembre 2026 que les quatre kits et les visuels génériques avaient été
+validés et transmis lors de cette vague. Cela ne constitue pas une preuve de
+publication par les destinataires ; aucune URL publique n’est encore archivée.
