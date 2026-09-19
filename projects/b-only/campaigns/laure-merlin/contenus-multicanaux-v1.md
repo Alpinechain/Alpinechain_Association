@@ -146,11 +146,11 @@ https://go.alpinechain.xyz/b26-lm-li-abm
 
 ## X
 
-🧱 Bitcoin est numérique. Pour le comprendre, il faut parfois pouvoir le toucher.
+🧱 Bitcoin est numérique. Parfois, il faut pouvoir le toucher pour le comprendre.
 
 Laure Merlin animera l'Atelier Bitcoin Lego à #BOnly2026 : 12–15 places, des briques et des questions.
 
-🎟️ Réserve ta place :
+🎟️ Réserve :
 https://go.alpinechain.xyz/b26-lm-x
 
 ## Facebook
