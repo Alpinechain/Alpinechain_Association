@@ -1,0 +1,129 @@
+# B-Only’26 — Kit pour inviter votre communauté
+
+Quelques visuels et textes prêts à utiliser pour parler de B-Only à votre
+communauté.
+
+**État :** phase 4 — première vague complète `VALIDÉE` et `ENVOYÉE`. Les
+quatre kits ciblés et les quatre visuels génériques ont été validés puis
+transmis. Le modèle co-brandé, hors vague, reste `À VALIDER`.
+
+## Cadrage
+
+- Projet : B-Only 2026.
+- Objectif : permettre à un relais d’inviter sa communauté en moins de deux
+  minutes, avec un contenu directement copiable et personnalisable.
+- CTA principal : <https://b-only.org/>.
+- Validation : kits et visuels de la première vague validés par Cyrille ; toute
+  nouvelle activation, programmation ou publication reste soumise à validation.
+- Suivi : [Issue #168](https://github.com/Alpinechain/Alpinechain_Association/issues/168).
+
+Le kit s’adresse séparément aux partenaires 2026, aux partenaires et relais
+historiques, aux intervenants, artistes, marchands et communautés amies, ainsi
+qu’aux visiteurs de l’édition 2025.
+
+Un désistement pour 2026 n’interdit pas de proposer un relais historique. Le
+message correspondant ne doit toutefois jamais suggérer une présence, un
+partenariat ou un engagement en 2026. Un ancien nom remplacé sert uniquement
+d’alias de rapprochement : le nom public actuel est utilisé pour tout contenu.
+
+## Mode d’emploi en moins de deux minutes
+
+1. Identifier le segment du destinataire dans `partners.csv`, ou le segment
+   agrégé `attendee-2025` pour les anciens visiteurs.
+2. Choisir le message d’approche dans `MESSAGE-ENVOI.md`.
+3. Choisir une base sociale dans `TEXTES-RESEAUX.md` ou une version dans
+   `NEWSLETTER.md`, puis personnaliser uniquement à partir de faits validés.
+4. Joindre un visuel validé référencé dans `assets/README.md`.
+5. Après validation humaine, envoyer manuellement le kit. Si le destinataire
+   partage une publication, enregistrer uniquement son URL publique dans
+   `diffusion-tracking.csv`.
+
+## Données et confidentialité
+
+`partners.csv` recense uniquement des organisations, noms publics et statuts
+opérationnels nécessaires. Les noms, courriels et coordonnées des visiteurs
+2025 restent dans Pretix ou dans l’outil de contact autorisé et ne sont jamais
+copiés dans GitHub. Leur message est préparé comme un segment agrégé.
+
+Les relais déjà assurés — Paymium, Cercle du Coin, Bitstack, Bitcoin.fr et
+Cryptoast — restent référencés mais sont exclus de la première vague de
+prospection du kit.
+
+## Sources de vérité
+
+- organisations : `../ORGANISATIONS.md` ;
+- intervenants : `../INTERVENANTS.md` ;
+- participants, assets et comptes publics : `../PARTICIPANTS.md` ;
+- programme : `../programme/` et Issue #11 ;
+- communication et preuves publiques : Issue #24 ;
+- règles graphiques et vignettes : Issue #53 ;
+- visuels lourds et logos sources : Nextcloud AlpineChain.
+
+Toute contradiction est signalée au lieu d’être arbitrée automatiquement.
+
+## Nextcloud
+
+Racine documentée :
+
+```text
+Action - Initiatives/B-Only/2026/03_Communication/
+```
+
+Dossier créé et indexé dans le Groupfolder Association le 14 septembre 2026 :
+
+```text
+Action - Initiatives/B-Only/2026/03_Communication/Partner-Kit/
+├── Generiques/
+├── Co-brandes/
+├── Videos/
+└── Archives/
+    └── Versions-anterieures/
+```
+
+Les fichiers lourds restent dans Nextcloud. GitHub conserve les textes, les
+consignes, les noms de fichiers, les métadonnées, les statuts et les URL
+publiques.
+
+Quatre déclinaisons génériques `v02` et un modèle co-brandé carré ont été
+déposés dans `Generiques/` et `Co-brandes/` le 14 septembre 2026. Les quatre
+génériques `v02` ont ensuite été validés et transmis avec la première vague ;
+le modèle co-brandé reste hors vague et `À VALIDER`. Les quatre génériques
+`v01` remplacés ont été retirés du kit et placés dans la corbeille Nextcloud.
+Le détail des formats, empreintes et statuts figure dans `assets/README.md`.
+
+## Règles de personnalisation
+
+- conserver les dates du 7 au 9 novembre 2026 et le CTA principal ;
+- laisser le relais propriétaire de son ton ;
+- privilégier le tutoiement, les formulations naturelles et l’esprit de
+  retrouvailles entre bitcoiners ;
+- éviter le ton institutionnel, commercial ou excessivement promotionnel ;
+- ne jamais inventer une relation, un témoignage ou une présence en 2026 ;
+- ne pas présenter un contenu préparé comme envoyé ou publié ;
+- ne pas utiliser de logo sans source validée ;
+- pour X, respecter la limite interne de 240 caractères, lien compris.
+
+## Signalement d’une publication
+
+Après réception d’une URL publique, ajouter une ligne dans
+`diffusion-tracking.csv`. Le relais éventuel par AlpineChain ou B-Only reste une
+action distincte soumise à validation humaine.
+
+## Première vague complète
+
+La première vague préparée est décrite dans `activation/WAVE-01.md`. Son
+périmètre a été confirmé par Cyrille le 17 septembre 2026 : Neowalt, PlebStyle,
+Renaud Lifchitz et plus de 160 visiteurs de B-Only 2025 traités comme segment
+agrégé. Les relais déjà assurés en sont exclus. Cyrille a confirmé le
+17 septembre 2026 que les quatre kits et les visuels génériques avaient été
+validés et transmis lors de cette vague. Cela ne constitue pas une preuve de
+publication par les destinataires ; aucune URL publique n’est encore archivée.
+
+## Suivi post-envoi
+
+Le suivi de la première vague est ouvert dans
+`activation/FOLLOW-UP-WAVE-01.md`. Il prévoit une relance amicale unique pour
+les contacts nommés à partir de J+3, calculé depuis la date réelle d’envoi, et
+aucune relance individuelle automatique des visiteurs. Une publication ne sera
+enregistrée dans `diffusion-tracking.csv` qu’après réception et vérification de
+son URL publique.

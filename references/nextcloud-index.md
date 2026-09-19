@@ -1,7 +1,7 @@
 # Index Nextcloud AlpineChain
 
 Dernière vérification documentaire complète : 2026-07-30
-Dernière mise à jour ciblée B-Only : 2026-09-08 — six logos sources BitVault classés et vérifiés
+Dernière mise à jour ciblée B-Only : 2026-09-14 — visuels génériques v02 déposés, v01 placés dans la corbeille
 Dernière mise à jour de sécurité : 2026-09-12 — détails techniques déplacés dans `Alpinechain/Serveur`
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
 Audit ciblé B-Only 2026 après nettoyage : 45 dossiers et 111 fichiers
@@ -63,9 +63,15 @@ Association/
 │   │       │   └── Logos Participants/
 │   │       ├── 02_Sponsors-Contrats/
 │   │       ├── 03_Communication/
-│   │       │   └── Vignettes/
-│   │       │       ├── Intervenants/
-│   │       │       └── Organisations/
+│   │       │   ├── Vignettes/
+│   │       │   │   ├── Intervenants/
+│   │       │   │   └── Organisations/
+│   │       │   └── Partner-Kit/
+│   │       │       ├── Generiques/
+│   │       │       ├── Co-brandes/
+│   │       │       ├── Videos/
+│   │       │       └── Archives/
+│   │       │           └── Versions-anterieures/
 │   │       ├── 04_Production-Logistique/
 │   │       ├── 05_Finances/
 │   │       ├── 06_Medias/
@@ -120,9 +126,15 @@ Action - Initiatives/B-Only/
     ├── 02_Sponsors-Contrats/
     │   └── Supports-partenariat/
     ├── 03_Communication/
-    │   └── Vignettes/
-    │       ├── Intervenants/
-    │       └── Organisations/
+    │   ├── Vignettes/
+    │   │   ├── Intervenants/
+    │   │   └── Organisations/
+    │   └── Partner-Kit/
+    │       ├── Generiques/
+    │       ├── Co-brandes/
+    │       ├── Videos/
+    │       └── Archives/
+    │           └── Versions-anterieures/
     ├── 04_Production-Logistique/
     │   ├── Restauration/
     │   └── Notes-de-travail/
@@ -142,6 +154,14 @@ ce qui permet encore une restauration. Les portraits sont dans
 `01_Programme-Intervenants/Logos Participants/`, les vignettes actives dans
 `03_Communication/Vignettes/Intervenants/` ou `Organisations/`. Le dossier
 `Archives/` est vide à la suite du nettoyage manuel confirmé par Cyrille.
+Le dossier `03_Communication/Partner-Kit/` et ses cinq sous-dossiers ont été
+créés et indexés le 14 septembre 2026. Quatre visuels génériques `v02` sont
+actifs dans `Generiques/` et un modèle co-brandé carré dans `Co-brandes/`. Les
+quatre génériques `v01` remplacés ont été retirés des dossiers du kit et placés
+dans la corbeille Nextcloud ; ils restent récupérables tant que celle-ci n’est
+pas vidée. Les tailles et empreintes des fichiers actifs sont consignées dans
+`projects/b-only/partner-kit/assets/README.md`. Ces cinq fichiers restent
+`À VALIDER` et aucun partage public n’a été créé.
 
 ### Rencontres Souveraineté 3.0
 
