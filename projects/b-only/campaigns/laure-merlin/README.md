@@ -27,11 +27,11 @@ Cette campagne porte uniquement sur **l'Atelier Bitcoin Lego**. La prise de paro
 
 - portrait source contrôlé le 19 septembre 2026 :
   `01_Programme-Intervenants/Photos Intervenants/intervenant--laure-merlin--portrait--2026-09-11--source.jpg` ;
-- vignette de travail à valider :
-  `03_Communication/Vignettes/Intervenants/vignette--laure-merlin--atelier-bitcoin-lego--2026-09-19--proposition-v2.png` ;
+- vignette validée par Cyrille le 19 septembre 2026 :
+  `03_Communication/Vignettes/Intervenants/vignette--laure-merlin--atelier-bitcoin-lego--2026-09-19--valide.png` ;
 - texte alternatif : « Visuel B-Only'26 annonçant Laure Merlin et l'« Atelier Bitcoin Lego », atelier pédagogique autour de Bitcoin organisé au Pleb Forum à Annecy le dimanche 8 novembre 2026. »
 
-La vignette de travail reprend le portrait source et le système graphique des
+La vignette validée reprend le portrait source et le système graphique des
 vignettes intervenants B-Only validées. Elle ne mentionne pas le Cercle du Coin
 et n'utilise ni logo LEGO officiel, ni CTA, URL, QR code ou mention de la
 keynote « Comment faire communauté ».
@@ -49,7 +49,7 @@ Pretix/UTM exacte de `campaign-links-v1.csv`, puis la page Pretix répond en HTT
 
 - [x] portrait source retrouvé et contrôlé dans Nextcloud ;
 - [x] vignette de travail produite et classée avec un suffixe de proposition ;
-- [ ] vignette validée humainement puis classée avec le suffixe `--valide` ;
+- [x] vignette validée humainement puis classée avec le suffixe `--valide` le 19 septembre 2026 ;
 - [x] sept vouchers Pretix créés et vérifiés ;
 - [x] sept alias Shlink créés et vérifiés ;
 - [ ] contenus V1 validés humainement ;
@@ -58,10 +58,9 @@ Pretix/UTM exacte de `campaign-links-v1.csv`, puis la page Pretix répond en HTT
 
 ## Éléments manquants avant programmation
 
-- vignette validée ;
 - décision sur une éventuelle réservation spécifique de l'atelier ;
 - validation éditoriale des textes.
 
 ## Statut
 
-**PRÊT À RELIRE — liens suivis actifs et vignette de travail produite ; validation humaine du visuel et des textes encore nécessaire avant programmation.**
+**PRÊT À RELIRE — liens suivis actifs et vignette validée ; validation humaine des textes encore nécessaire avant programmation.**

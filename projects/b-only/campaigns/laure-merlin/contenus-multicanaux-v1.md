@@ -203,7 +203,7 @@ Visuel B-Only'26 annonçant Laure Merlin et l'« Atelier Bitcoin Lego », atelie
 - [ ] valider les contenus V1 ;
 - [x] portrait source de Laure contrôlé dans Nextcloud le 19 septembre 2026 ;
 - [x] produire une vignette de travail avec suffixe de proposition ;
-- [ ] valider humainement la vignette puis la classer avec le suffixe `--valide` ;
+- [x] valider humainement la vignette puis la classer avec le suffixe `--valide` le 19 septembre 2026 ;
 - [ ] confirmer si l'atelier nécessite une réservation spécifique en plus du billet B-Only ;
 - [x] créer et vérifier les liens suivis / vouchers par canal le 19 septembre 2026 ;
 - [ ] contrôler les comptes et aperçus avant programmation ;
