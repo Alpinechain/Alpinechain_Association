@@ -1,29 +1,77 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V8
-Date : 2026-09-11
+Version : V9
+Date : 2026-09-19
 Fuseau : Europe/Paris
+
+## Principe de cadence
+
+À partir du 24 septembre, il n'y a plus de créneau de respiration dédié.
+
+La cadence alterne :
+- des vagues intervenants / workshops sur 3 jours ;
+- des publications complémentaires entre les vagues pour soutenir la billetterie et dynamiser le rythme : programme, coulisses, partenaires, workshops, rappels pratiques ou extraits de contenus ;
+- Nostr reste manuel lorsque prévu dans les campagnes.
+
+Les publications complémentaires ne doivent pas remplacer ni retarder une campagne intervenant prête.
 
 ## Séquence active
 
 | Dates | Campagne | Statut |
 |---|---|---|
-| 14–16 septembre | Christine Jeanneaux — « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | PRÊT À PROGRAMMER |
+| 14–16 septembre | Christine Jeanneaux — « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | DIFFUSION PASSÉE / À ARCHIVER |
 | 17–19 septembre | Florent Gabriel — « L’IA est-elle en train de sauver ou de tuer Bitcoin ? » | PROGRAMMÉ — campagne V2 |
 | 21–23 septembre | Lionel Jeannerat — « Bitcoin pour les Copain.e.s » | PRÊT À PROGRAMMER — campagne V2 validée |
-| 24–26 septembre | Respiration B-Only / billetterie / programme ou prochain intervenant prêt | À CADRER |
-| 28–30 septembre | À réattribuer selon état réel des campagnes | À ARBITRER |
-| 1er–3 octobre | Créneau libre | À RÉATTRIBUER |
-| 5–7 octobre | Laure Merlin — « Atelier Bitcoin Lego » | À PRODUIRE |
-| 8–10 octobre | Nicolas Cantu — « Lire les dégâts de l’impression monétaire dans les sols. » | À PRODUIRE |
-| 12–14 octobre | Noé / WeSatoshis | À COMPLÉTER |
-| 15–17 octobre | Michel Khazzaka | À COMPLÉTER |
+| 24–26 septembre | Nicolas Cantu — « Lire les dégâts de l’impression monétaire dans les sols. » | À FINALISER — textes V1 + liens déjà présents |
+| 27 septembre | Publication complémentaire B-Only | À CADRER |
+| 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | À PRODUIRE |
+| 1er–3 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE |
+| 4 octobre | Publication complémentaire B-Only | À CADRER |
+| 5–7 octobre | Noé / WeSatoshis | À COMPLÉTER |
+| 8–10 octobre | Michel Khazzaka | À COMPLÉTER |
+| 11 octobre | Publication complémentaire B-Only | À CADRER |
+| 12–14 octobre | Alexis Roussel | À COMPLÉTER |
+| 15–17 octobre | Delphine Vincent | EN ATTENTE — diffuser uniquement si participation confirmée |
+| 18 octobre | Publication complémentaire B-Only | À CADRER |
 | 19–21 octobre | Rappel des workshops pratiques | À CADRER |
-| 22–24 octobre | Alexis Roussel | À COMPLÉTER |
-| 26–28 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE |
-| 29–31 octobre | Delphine Vincent | EN ATTENTE |
-| 2–4 novembre | Dernier rappel workshops | À CADRER |
+| 22–24 octobre | Créneau intervenant / programme suivant prêt | À RÉATTRIBUER |
+| 25 octobre | Publication complémentaire B-Only | À CADRER |
+| 26–28 octobre | Campagne programme / partenaire / intervenant disponible | À RÉATTRIBUER |
+| 29–31 octobre | Rappel billetterie + programme | À CADRER |
+| 1er novembre | Publication complémentaire / bascule tarif retardataire | À CADRER |
+| 2–4 novembre | Dernier rappel workshops / informations pratiques | À CADRER |
 | 5–6 novembre | Le Cercle du Coin avec Laure Merlin | À PRODUIRE |
+
+## Priorité de production immédiate
+
+1. **Nicolas Cantu**
+   - reprendre et finaliser `campaigns/nicolas-cantu/contenus-multicanaux-v1.md` ;
+   - exploiter `campaigns/nicolas-cantu/campaign-links-v1.csv` ;
+   - produire / valider la vignette ;
+   - créer le calendrier de diffusion 24–26 septembre ;
+   - passer la campagne en `PRÊT À PROGRAMMER`.
+
+2. **Laure Merlin**
+   - créer le dossier de campagne dédié ;
+   - préparer les contenus multicanaux ;
+   - produire / valider la vignette ;
+   - créer les liens suivis ;
+   - créer le calendrier 28–30 septembre.
+
+3. **BitVault / Loïc Ruchat-Leuthardt**
+   - créer le dossier de campagne dédié ;
+   - exploiter le sujet confirmé « Posséder ses bitcoins en toute sécurité » ;
+   - préparer les contenus multicanaux ;
+   - produire / valider la vignette ;
+   - créer les liens suivis ;
+   - créer le calendrier 1er–3 octobre.
+
+4. **Puis, dans cet ordre**
+   - Noé / WeSatoshis ;
+   - Michel Khazzaka ;
+   - Alexis Roussel ;
+   - Delphine Vincent uniquement après confirmation ;
+   - autres campagnes programme / workshops prêtes.
 
 ## Lionel Jeannerat — version active
 
@@ -54,5 +102,9 @@ Florent :
 Lionel :
 - `campaigns/lionel-jeannerat/contenus-multicanaux-v2.md`
 - `campaigns/lionel-jeannerat/calendrier-diffusion-v2.csv`
+
+Nicolas :
+- `campaigns/nicolas-cantu/contenus-multicanaux-v1.md`
+- `campaigns/nicolas-cantu/campaign-links-v1.csv`
 
 Les versions antérieures restent archivées et ne doivent pas être programmées en parallèle.
