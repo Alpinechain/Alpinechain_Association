@@ -52,15 +52,15 @@ Pretix/UTM exacte de `campaign-links-v1.csv`, puis la page Pretix répond en HTT
 - [x] vignette validée humainement puis classée avec le suffixe `--valide` le 19 septembre 2026 ;
 - [x] sept vouchers Pretix créés et vérifiés ;
 - [x] sept alias Shlink créés et vérifiés ;
-- [ ] contenus V1 validés humainement ;
+- [x] contenus V1 validés humainement par Cyrille le 19 septembre 2026 ;
 - [ ] décision prise sur une éventuelle réservation spécifique de l'atelier ;
 - [ ] comptes et aperçus contrôlés avant programmation.
 
 ## Éléments manquants avant programmation
 
 - décision sur une éventuelle réservation spécifique de l'atelier ;
-- validation éditoriale des textes.
+- validation éditoriale des textes : effectuée le 19 septembre 2026.
 
 ## Statut
 
-**PRÊT À RELIRE — liens suivis actifs et vignette validée ; validation humaine des textes encore nécessaire avant programmation.**
+**VALIDÉ ÉDITORIALEMENT — liens suivis actifs, vignette validée et contenus relus par Cyrille le 19 septembre 2026 ; restent la décision sur une éventuelle réservation spécifique et le contrôle des comptes / aperçus avant programmation.**
