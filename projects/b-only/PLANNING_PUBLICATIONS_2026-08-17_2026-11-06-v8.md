@@ -24,7 +24,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 21–23 septembre | Lionel Jeannerat — « Bitcoin pour les Copain.e.s » | PRÊT À PROGRAMMER — campagne V2 validée |
 | 24–26 septembre | Nicolas Cantu — « Lire les dégâts de l’impression monétaire dans les sols. » | PROGRAMMÉ — campagne V2 |
 | 27 septembre | Publication complémentaire B-Only | À CADRER |
-| 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | PRÊT À RELIRE — visuel et liens suivis à finaliser |
+| 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | PRÊT À RELIRE — liens suivis actifs ; vignette V2 en proposition à valider |
 | 1er–3 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE |
 | 4 octobre | Publication complémentaire B-Only | À CADRER |
 | 5–7 octobre | Noé / WeSatoshis | À COMPLÉTER |
@@ -52,11 +52,10 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
    - passer la campagne en `PRÊT À PROGRAMMER`.
 
 2. **Laure Merlin**
-   - créer le dossier de campagne dédié ;
-   - préparer les contenus multicanaux ;
-   - produire / valider la vignette ;
-   - créer les liens suivis ;
-   - créer le calendrier 28–30 septembre.
+   - dossier, contenus multicanaux et calendrier 28–30 septembre préparés ;
+   - sept vouchers Pretix et alias courts actifs et vérifiés ;
+   - vignette V2 produite sans mention du Cercle du Coin ;
+   - faire valider humainement les contenus et la vignette avant programmation.
 
 3. **BitVault / Loïc Ruchat-Leuthardt**
    - créer le dossier de campagne dédié ;
