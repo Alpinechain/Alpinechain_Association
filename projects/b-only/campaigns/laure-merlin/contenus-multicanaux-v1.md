@@ -11,7 +11,7 @@
 - lieu : Pleb Forum — Workshop, B-Only'26, Annecy ;
 - capacité souhaitée : **12 à 15 participants** ;
 - aucun besoin technique particulier déclaré ;
-- le portrait de Laure reste à obtenir ;
+- le portrait source de Laure est classé dans Nextcloud ;
 - le logo du Cercle du Coin est disponible ;
 - cette campagne est dédiée à l'atelier et ne remplace pas la campagne distincte du Cercle du Coin / keynote « Comment faire communauté » prévue en fin de campagne B-Only.
 
@@ -82,7 +82,7 @@ L'objectif est avant tout de proposer **une autre porte d'entrée pour comprendr
 📅 **Dimanche 8 novembre 2026 — 18:00 à 18:50**  
 👥 **12 à 15 participants maximum**
 
-🎟️ Billet B-Only'26 : https://join.alpinechain.xyz/org/bonly26/
+🎟️ Billet B-Only'26 : https://go.alpinechain.xyz/b26-lm-blog
 
 > L'atelier fait partie du programme B-Only. Les modalités éventuelles de réservation spécifique de l'atelier restent à préciser.
 
@@ -103,7 +103,7 @@ L'atelier sera volontairement limité à **12–15 participants**, pour conserve
 📅 Dimanche 8 novembre — 18:00 à 18:50  
 📍 Pleb Forum — B-Only'26, Annecy
 
-🎟️ https://join.alpinechain.xyz/org/bonly26/
+🎟️ https://go.alpinechain.xyz/b26-lm-li-ac
 
 #Bitcoin #BOnly2026 #Annecy #EducationBitcoin
 
@@ -120,7 +120,7 @@ Le nombre de participants sera volontairement limité à **12–15 personnes**.
 📅 Dimanche 8 novembre — 18:00 à 18:50  
 📍 B-Only'26 — Annecy
 
-🎟️ https://join.alpinechain.xyz/org/bonly26/
+🎟️ https://go.alpinechain.xyz/b26-lm-li-abm
 
 #Bitcoin #Annecy #BOnly2026
 
@@ -128,14 +128,14 @@ Le nombre de participants sera volontairement limité à **12–15 personnes**.
 
 🧱 Et si on expliquait Bitcoin avec des LEGO ?
 
-Laure Merlin animera l'**Atelier Bitcoin Lego** à #BOnly2026.
+Laure Merlin animera l'Atelier Bitcoin Lego à #BOnly2026.
 
 Un format pédagogique en petit groupe, limité à 12–15 participants.
 
 📅 8 nov. · 18h
 📍 Annecy
 
-🎟️ https://join.alpinechain.xyz/org/bonly26/
+🎟️ https://go.alpinechain.xyz/b26-lm-x
 
 ## Facebook
 
@@ -150,7 +150,7 @@ L'atelier sera volontairement limité à **12–15 participants**.
 📅 Dimanche 8 novembre — 18:00 à 18:50  
 📍 Pleb Forum — B-Only'26, Annecy
 
-🎟️ https://join.alpinechain.xyz/org/bonly26/
+🎟️ https://go.alpinechain.xyz/b26-lm-fb
 
 ## Instagram
 
@@ -164,7 +164,7 @@ Oui, ça fonctionne.
 📅 Dimanche 8 novembre · 18:00  
 📍 Annecy
 
-🎟️ Billetterie B-Only — lien en bio
+🎟️ Billetterie B-Only — lien en bio / https://go.alpinechain.xyz/b26-lm-ig
 
 #Bitcoin #BOnly2026 #Annecy #BitcoinEducation
 
@@ -179,7 +179,7 @@ Laure Merlin animera l'**Atelier Bitcoin Lego** à B-Only'26 : un format pédago
 📅 8 novembre · 18:00  
 📍 Annecy
 
-https://join.alpinechain.xyz/org/bonly26/
+https://go.alpinechain.xyz/b26-lm-nostr
 
 ## Texte alternatif du futur visuel
 
@@ -201,10 +201,11 @@ Visuel B-Only'26 annonçant Laure Merlin et l'« Atelier Bitcoin Lego », atelie
 - [x] capacité 12–15 participants confirmée ;
 - [x] aucun besoin technique particulier identifié ;
 - [ ] valider les contenus V1 ;
-- [ ] obtenir ou valider un portrait de Laure, ou décider officiellement d'un visuel sans portrait ;
-- [ ] produire et valider la vignette ;
+- [x] portrait source de Laure contrôlé dans Nextcloud le 19 septembre 2026 ;
+- [x] produire une vignette de travail avec suffixe de proposition ;
+- [ ] valider humainement la vignette puis la classer avec le suffixe `--valide` ;
 - [ ] confirmer si l'atelier nécessite une réservation spécifique en plus du billet B-Only ;
-- [ ] créer et vérifier les liens suivis / vouchers par canal ;
+- [x] créer et vérifier les liens suivis / vouchers par canal le 19 septembre 2026 ;
 - [ ] contrôler les comptes et aperçus avant programmation ;
 - [ ] Nostr manuel ;
 - [ ] archiver les URLs réellement publiées et métriques dans l'Issue #24.
