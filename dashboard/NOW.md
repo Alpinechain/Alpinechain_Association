@@ -10,7 +10,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ## Priorités actives
 
-1. **Terminer la diffusion Pierre Noizat** : trois URLs publiques sont archivées et revérifiées ; vérifier Nostr, X, Facebook et Instagram après publication réelle, puis relever les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
+1. **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.
 2. **Préparer la séquence Christine Jeanneaux des 14–16 septembre** : la campagne et ses sept couples voucher/alias sont `PRÊTS À PROGRAMMER`, mais la programmation et la publication restent soumises au contrôle humain des comptes et aperçus.
 3. **Sécuriser les séquences Florent et Lionel** : Florent Gabriel est `PROGRAMMÉ` du 17 au 19 septembre ; Lionel Jeannerat est `PRÊT À PROGRAMMER` du 21 au 23 septembre. Contrôler les comptes et aperçus, conserver Nostr manuel, puis archiver uniquement les URLs réellement publiées dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 4. **Consolider les chantiers B-Only et replanifier la maintenance** : programme [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), audiovisuel [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), logistique [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), budget [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) et risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) restent à consolider avant le 30 septembre. La nouvelle fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119), avec Pretix gelé.
@@ -45,7 +45,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 - Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup n’a pas été publié et ne le sera pas.
 - Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
 - Renaud Lifchitz : campagne V3 publiée du 3 au 5 septembre ; les sept URLs publiques, dont Nostr publié manuellement, sont archivées et revérifiées en HTTP 200 le 11 septembre. Les métriques restent à relever dans #24.
-- Pierre Noizat : campagne intervenant V1 en diffusion ; Blog et deux publications LinkedIn sont `PUBLIÉS / TROIS URLS ARCHIVÉES`. Nostr, X, Facebook et Instagram restent à vérifier et archiver après publication réelle.
+- Pierre Noizat : campagne intervenant V1 `PUBLIÉE / SEPT URLS ARCHIVÉES` ; les métriques restent à relever séparément par plateforme.
 - Planning actif : Christine Jeanneaux du 14 au 16 septembre est `PRÊTE À PROGRAMMER` ; Florent Gabriel est `PROGRAMMÉ` du 17 au 19 septembre avec la campagne V2 ; Lionel Jeannerat est `PRÊT À PROGRAMMER` du 21 au 23 septembre avec la campagne V2 validée. Le créneau du 24 au 26 septembre reste à cadrer ; BitVault est prévu du 26 au 28 octobre et Delphine Vincent du 29 au 31 octobre uniquement si sa participation est confirmée.
 - L’inversion Lionel/quiz n’exige aucune correction de publication déjà diffusée : aucune preuve publique archivée ne contient ces deux créneaux. Toute future campagne Lionel devra reprendre le dimanche 8 novembre, 18 h 30–19 h 20 ; aucune vague dédiée au quiz n’est actuellement planifiée.
 - Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
@@ -101,7 +101,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 | Date | Action |
 |---|---|
-| 12 septembre | Vérifier et archiver les quatre publications Pierre Noizat encore manquantes ; relever ensuite les métriques séparément dans #24 |
+| Suivi | Relever les métriques Pierre Noizat séparément par plateforme dans #24 ; les sept URLs sont archivées |
 | 14–16 septembre | Programmer puis publier Christine Jeanneaux uniquement après validation humaine ; archiver chaque URL réellement diffusée |
 | 17–19 septembre | Surveiller la campagne Florent Gabriel programmée ; publier Nostr manuellement puis archiver uniquement les URLs réellement diffusées |
 | 21–23 septembre | Programmer Lionel Jeannerat après contrôle final des comptes et aperçus ; conserver Nostr manuel |

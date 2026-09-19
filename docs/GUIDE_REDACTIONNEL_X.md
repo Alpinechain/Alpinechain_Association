@@ -84,7 +84,7 @@ Une publication ne doit pas seulement informer. Elle doit donner une raison clai
 
 Une publication X standard doit viser 240 caractères maximum.
 
-Cette limite interne force la clarté, réduit le bruit et facilite l’automatisation future.
+Cette limite interne, lien compris, laisse davantage de place à une accroche utile tout en conservant un format court. Elle constitue un plafond, pas un objectif : une publication plus brève reste préférable lorsqu’elle suffit.
 
 ### Publication longue
 

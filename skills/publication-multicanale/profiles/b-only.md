@@ -40,6 +40,7 @@ Lorsque pertinent : réservation B-Only via la billetterie officielle.
 - ne jamais annoncer un créneau provisoire comme définitif ;
 - ne jamais présenter un sponsor confirmé comme payé sans preuve comptable ;
 - ne jamais présenter une campagne validée comme publiée sans URL publique ;
+- lorsque le Blog et Nostr accueillent le même format long, conserver un seul corps éditorial commun et ne varier que les éléments techniques indispensables, notamment le lien suivi ;
 - utiliser les titres et synopsis dans leur dernière version validée ;
 - vérifier les désistements et remplacements avant publication ;
 - conserver la distinction sponsor / partenaire selon les décisions du projet ;
