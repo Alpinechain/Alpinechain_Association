@@ -1,22 +1,23 @@
-# Campagne Lionel Jeannerat — suivi V1
+# Campagne Lionel Jeannerat — suivi V2
 
 ## Position dans la séquence B-Only
 
-La campagne Lionel Jeannerat est proposée en vague B du **1er au 3 octobre
-2026**, après la vague Marius Farashi du 28 au 30 septembre.
+La campagne Lionel Jeannerat est positionnée du **21 au 23 septembre 2026**, après Florent Gabriel.
 
-Cette fenêtre provient du planning éditorial V6. Elle ne confirme ni la
-participation ni le créneau de Lionel dans le programme, qui reste
-`reserved/internal`.
+Cette fenêtre éditoriale est distincte du créneau de Lionel dans le programme de la conférence.
 
 ## Sujet
 
 **Lionel Jeannerat** — « Bitcoin pour les Copain.e.s »
 
-Angle confirmé : état des lieux des communautés et de l'environnement autour
-de Bitcoin, avec des points de repère historiques.
+Angle confirmé : état des lieux des communautés et de l'environnement autour de Bitcoin, avec des points de repère historiques.
 
-Contenus de référence : `contenus-multicanaux-v1.md`.
+## Versions actives
+
+- contenus à programmer : `contenus-multicanaux-v2.md` ;
+- calendrier actif : `calendrier-diffusion-v2.csv`.
+
+Les V1 sont conservées pour l'historique et ne doivent plus être programmées.
 
 ## Ressources validées
 
@@ -25,37 +26,41 @@ Contenus de référence : `contenus-multicanaux-v1.md`.
 - vignette validée Nextcloud :
   `03_Communication/Vignettes/Intervenants/vignette--lionel-jeannerat--bitcoin-pour-les-copain-e-s--2026-09-11--valide.png`.
 
-## Planning de diffusion proposé
+## Planning de diffusion
 
 | Date | Heure | Canal | Compte |
 |---|---:|---|---|
-| 1er octobre | 12:15 | Blog | AlpineChain |
-| 1er octobre | 18:15 | LinkedIn | AlpineChain |
-| 2 octobre | 08:15 | LinkedIn | Annecy Bitcoin Meetup |
-| 2 octobre | 18:15 | X | AlpineChain |
-| 3 octobre | 12:15 | Nostr | AlpineChain — publication manuelle |
-| 3 octobre | 18:30 | Facebook | B-Only |
-| 3 octobre | 20:00 | Instagram | B-Only |
+| 21 septembre | 08:00 | Blog | AlpineChain |
+| 21 septembre | 18:15 | LinkedIn | AlpineChain |
+| 22 septembre | 08:15 | LinkedIn | Annecy Bitcoin Meetup |
+| 22 septembre | 18:15 | X | AlpineChain |
+| 23 septembre | 12:15 | Nostr | AlpineChain — publication manuelle |
+| 23 septembre | 18:30 | Facebook | B-Only |
+| 23 septembre | 20:00 | Instagram | B-Only |
 
-Calendrier machine : `calendrier-diffusion-v1.csv`.
+Calendrier machine : `calendrier-diffusion-v2.csv`.
 
-## Gate avant programmation
+## Évolution éditoriale V2
 
-- confirmer définitivement la participation et le statut publiable de la
-  session ;
-- confirmer les droits et le crédit du portrait ;
-- relire et valider les textes multicanaux ;
-- sept vouchers Pretix et sept alias courts `b26-lj-*` actifs et vérifiés le
-  11 septembre 2026 ;
-- vérifier que la vignette validée est utilisée sur chaque canal ;
-- contrôler les comptes et aperçus avant programmation ;
-- conserver Nostr en publication manuelle ;
-- après diffusion réelle, archiver les URL publiques et les métriques dans
-  l'Issue #24.
+La V2 renforce :
+- l'accroche sur le paradoxe entre protocole décentralisé et communautés très humaines ;
+- la dimension historique ;
+- les questions de transmission, accueil et évolution des groupes ;
+- un ton plus vivant, sans transformer Lionel en porte-parole d'idées non fournies ;
+- un article Blog/Nostr long et commun, comme pour la campagne Florent Gabriel.
+
+## Validation
+
+- [x] identité, fonction, titre, angle et visuel validés ;
+- [x] liens courts actifs et vérifiés ;
+- [x] fenêtre éditoriale attribuée au 21–23 septembre ;
+- [x] contenus V2 préparés ;
+- [x] contenus V2 validés par Cyrille le 11 septembre 2026 ;
+- [x] version V2 désignée comme version active à programmer ;
+- [ ] contrôler les comptes et aperçus avant programmation ;
+- [ ] conserver Nostr en publication manuelle ;
+- [ ] après diffusion réelle, archiver les URL publiques et les métriques dans l'Issue #24.
 
 ## Statut
 
-**PRÊT À RELIRE — liens actifs, mais non programmable tant que les autres
-gates ci-dessus ne sont pas levés.**
-
-Aucune programmation ni publication n'a été effectuée.
+**PRÊT À PROGRAMMER — contrôle final des aperçus à effectuer au moment de la programmation.**

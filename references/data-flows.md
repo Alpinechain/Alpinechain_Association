@@ -1,7 +1,7 @@
 # Flux opérationnels AlpineChain
 
-Version : V1.2
-Dernière mise à jour : 2026-09-06
+Version : V1.3
+Dernière mise à jour : 2026-09-12
 
 ## Objet
 
@@ -20,7 +20,7 @@ L’humain valide les décisions et publications
 
 Aucun secret, billet nominatif, donnée bancaire, facture complète ou coordonnée personnelle ne doit être recopié dans une Issue.
 
-## Cartographie technique
+## Cartographie des outils
 
 | Outil | URL / emplacement | Données principales | Sensibilité | Source de vérité |
 |---|---|---|---|---|
@@ -147,33 +147,26 @@ Les transactions détaillées restent dans be-BOP Bar et les outils comptables.
 ## Flux 7 — Infrastructure et incident
 
 ```text
-Configuration GitHub Serveur
-  → application contrôlée sur le serveur
-  → contrôle externe des URLs
-  → échec détecté
-  → Issue incident automatique dans Alpinechain_Association
-  → diagnostic humain avec runbook Serveur
-  → correction validée
-  → contrôle de rétablissement
-  → fermeture automatique ou humaine de l’incident
+Contrôle des services publics
+  → impact associatif signalé dans Alpinechain_Association
+  → diagnostic et correction suivis dans Alpinechain/Serveur
+  → retour synthétique sur le rétablissement
 ```
 
-Les changements de production passent par le dépôt privé `Alpinechain/Serveur`. Le dépôt public ne contient ni secrets ni configuration sensible.
+Le dépôt Association conserve l’impact, les décisions et la coordination. Le
+dépôt privé `Alpinechain/Serveur` conserve la configuration, les preuves
+techniques, les procédures et le détail des incidents.
 
 ## Flux 8 — Sauvegarde et restauration
 
 ```text
-Bases et volumes Podman
-  → dumps cohérents
-  → sauvegarde Restic chiffrée
-  → dépôt hors serveur
-  → rétention automatique
-  → contrôle d’intégrité
-  → restauration isolée planifiée
-  → rapport daté dans GitHub
+Objectifs de continuité validés par l’association
+  → mise en œuvre et contrôles dans Alpinechain/Serveur
+  → état synthétique et arbitrages dans Alpinechain_Association
 ```
 
-Une sauvegarde n’est déclarée opérationnelle qu’après un test de restauration documenté.
+Une sauvegarde n’est déclarée opérationnelle qu’après un test de restauration
+documenté dans le dépôt privé Serveur.
 
 ## Contrats d’interface minimaux
 
@@ -186,7 +179,7 @@ Une sauvegarde n’est déclarée opérationnelle qu’après un test de restaur
 | Nextcloud | Site / réseaux | Médias approuvés | Publication manuelle | Humaine |
 | PeerTube | Réseaux | URL vidéo publique | Publication préparée | Humaine |
 | Monitoring | GitHub | Disponibilité des URLs | GitHub Actions | Automatique |
-| Serveur | Dépôt de sauvegarde | Données chiffrées | Restic | Automatique, contrôle humain |
+| Serveur | Association | État de continuité synthétique | Compte-rendu | Contrôle humain |
 
 ## Intégrations actives au 24 juillet 2026
 
@@ -199,13 +192,15 @@ Une sauvegarde n’est déclarée opérationnelle qu’après un test de restaur
   `cyrille@alpinechain.xyz`, sans modification des messages ; relève
   incrémentale des métadonnées toutes les quatre heures et lecture détaillée à
   la demande ;
-- sauvegarde Restic quotidienne, contrôle hebdomadaire et rapport local.
+- état synthétique de continuité issu des contrôles du dépôt Serveur.
 
-Le MCP reste privé sur le serveur et est utilisé par Codex via tunnel SSH. Une exposition directe à GPT n’est pas nécessaire dans l’architecture retenue.
+Les modalités techniques du MCP et des sauvegardes sont documentées dans le
+dépôt privé Serveur. Le dépôt Association décrit uniquement les usages autorisés
+et les échanges avec les sources de vérité.
 
 ## Prochaines intégrations possibles
 
 - création de brouillons de communication depuis les données validées ;
-- remontée du dernier succès de sauvegarde vers le Control Center GitHub.
+- remontée d’un état synthétique de continuité vers le Control Center GitHub.
 
 Toute intégration future doit respecter `references/automation-policy.md` et disposer d’une procédure de révocation.

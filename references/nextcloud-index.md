@@ -1,30 +1,27 @@
 # Index Nextcloud AlpineChain
 
 Dernière vérification documentaire complète : 2026-07-30
-Dernière mise à jour ciblée B-Only : 2026-09-08 — six logos sources BitVault classés et vérifiés
-Dernière mise à jour de sécurité : 2026-08-16
+Dernière mise à jour ciblée B-Only : 2026-09-14 — visuels génériques v02 déposés, v01 placés dans la corbeille
+Dernière mise à jour de sécurité : 2026-09-12 — détails techniques déplacés dans `Alpinechain/Serveur`
 Inventaire vérifié le 13 juillet : 66 dossiers, 133 fichiers, environ 228,5 Mio
 Audit ciblé B-Only 2026 après nettoyage : 45 dossiers et 111 fichiers
 Nextcloud au 16 août 2026 : 24 fichiers textuels de campagne encore actifs
 
 ## Statut d’accès
 
-Le partage public historique suivant a été supprimé et n’existe plus :
-
-```text
-https://cloud.alpinechain.xyz/s/6aBTY243WDkbSGL
-```
-
-Il ne constitue plus un point d’accès à Nextcloud. Cette suppression coupe l’exposition publique observée lors de l’inventaire du 13 juillet 2026.
-
-La structure 2026 a ensuite été créée et vérifiée au moyen d’un accès WebDAV authentifié et de requêtes `PROPFIND`. En revanche, l’absence de partage public empêche désormais toute relecture anonyme du contenu réel des dossiers, ce qui correspond au niveau de sécurité attendu. Toute nouvelle vérification documentaire doit être réalisée avec un accès Nextcloud ou WebDAV authentifié.
+Le partage public historique donnant accès à l’arborescence générale a été
+supprimé et son absence a été vérifiée. Toute nouvelle vérification documentaire
+doit être réalisée avec un accès Nextcloud ou WebDAV authentifié.
 
 Le contrôle authentifié du 16 août 2026 recense trois partages publics actifs
 sur le périmètre Association. Ils sont confirmés et doivent rester inchangés :
 la campagne Christine Jeanneaux, ainsi que le contenu V2 et la vignette Paymium.
-Un enregistrement public orphelin (`share_id=20`, `fileid=3478`) empêche
-`occ share:list` de produire un inventaire complet. Sa suppression n'est pas
-autorisée ; il reste donc signalé sans modification.
+
+L’inventaire technique et une anomalie interne du registre des partages sont
+documentés dans le dépôt privé `Alpinechain/Serveur`. Ce fichier public conserve
+uniquement la décision associative sur les contenus volontairement partagés.
+Tout partage doit être revalidé dans Nextcloud avant de présenter cet état comme
+actuel ; aucune suppression n’est autorisée à partir de cette référence.
 
 ## Rôle
 
@@ -66,9 +63,15 @@ Association/
 │   │       │   └── Logos Participants/
 │   │       ├── 02_Sponsors-Contrats/
 │   │       ├── 03_Communication/
-│   │       │   └── Vignettes/
-│   │       │       ├── Intervenants/
-│   │       │       └── Organisations/
+│   │       │   ├── Vignettes/
+│   │       │   │   ├── Intervenants/
+│   │       │   │   └── Organisations/
+│   │       │   └── Partner-Kit/
+│   │       │       ├── Generiques/
+│   │       │       ├── Co-brandes/
+│   │       │       ├── Videos/
+│   │       │       └── Archives/
+│   │       │           └── Versions-anterieures/
 │   │       ├── 04_Production-Logistique/
 │   │       ├── 05_Finances/
 │   │       ├── 06_Medias/
@@ -123,9 +126,15 @@ Action - Initiatives/B-Only/
     ├── 02_Sponsors-Contrats/
     │   └── Supports-partenariat/
     ├── 03_Communication/
-    │   └── Vignettes/
-    │       ├── Intervenants/
-    │       └── Organisations/
+    │   ├── Vignettes/
+    │   │   ├── Intervenants/
+    │   │   └── Organisations/
+    │   └── Partner-Kit/
+    │       ├── Generiques/
+    │       ├── Co-brandes/
+    │       ├── Videos/
+    │       └── Archives/
+    │           └── Versions-anterieures/
     ├── 04_Production-Logistique/
     │   ├── Restauration/
     │   └── Notes-de-travail/
@@ -145,6 +154,14 @@ ce qui permet encore une restauration. Les portraits sont dans
 `01_Programme-Intervenants/Logos Participants/`, les vignettes actives dans
 `03_Communication/Vignettes/Intervenants/` ou `Organisations/`. Le dossier
 `Archives/` est vide à la suite du nettoyage manuel confirmé par Cyrille.
+Le dossier `03_Communication/Partner-Kit/` et ses cinq sous-dossiers ont été
+créés et indexés le 14 septembre 2026. Quatre visuels génériques `v02` sont
+actifs dans `Generiques/` et un modèle co-brandé carré dans `Co-brandes/`. Les
+quatre génériques `v01` remplacés ont été retirés des dossiers du kit et placés
+dans la corbeille Nextcloud ; ils restent récupérables tant que celle-ci n’est
+pas vidée. Les tailles et empreintes des fichiers actifs sont consignées dans
+`projects/b-only/partner-kit/assets/README.md`. Ces cinq fichiers restent
+`À VALIDER` et aucun partage public n’a été créé.
 
 ### Rencontres Souveraineté 3.0
 

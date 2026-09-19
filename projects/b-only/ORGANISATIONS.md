@@ -1,6 +1,6 @@
 # Registre des organisations B-Only 2026
 
-Dernière mise à jour : 2026-09-08
+Dernière mise à jour : 2026-09-17
 
 Issue sponsors : [#3 — Pipeline sponsors](https://github.com/Alpinechain/Alpinechain_Association/issues/3)  
 Issue communication : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
@@ -28,6 +28,7 @@ Les chemins Nextcloud sont relatifs à
 | The Big Whale | Média potentiel | En attente | Article, publication, texte promotionnel ou participation proposés | Manquant | Raphaël Bloch | Contact initial le 2026-06-08 ; relance vue le 2026-07-22 | Attendre une réponse positive ou négative avant toute annonce |
 | BFM Crypto | Média potentiel | En attente | Participation éditoriale possible | Manquant | Sandra Gandoin | À dater | Confirmer la disponibilité et le format |
 | Gallion | Organisation liée | Affiliation confirmée | Organisation d'Aurore Galves, éducatrice Bitcoin, associée à sa présentation | `01_Programme-Intervenants/Logos Participants/organisation--gallion--logo--2026-07-19--source.jpg` | Aurore Galves | Fonction et organisation confirmées le 2026-08-05 | Employer cette affiliation dans la campagne intervenante ; aucune communication organisation dédiée n'est validée à ce stade |
+| Blobb.io | Organisation liée | Affiliation confirmée | Organisation de Florent Gabriel, associée à sa présentation sur l’IA et Bitcoin | Deux sources reçues le 2026-09-01 : `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-noir-jaune--2026-09-01--source.png` et `organisation--blobb-io--logo-contour--2026-09-01--source.png` | Florent Gabriel, CEO et cofondateur | Titre exact, angle, campagne intervenant V1 et vignette V6 validés le 2026-09-11 ; sept liens suivis actifs | Confirmer les droits/crédit du portrait et la visibilité publique avant programmation ; aucune communication organisation dédiée n’est décidée |
 | WeSatoshis | Organisation liée | À confirmer | Workshop possible | Manquant | Noé | À dater | Confirmer l'affiliation et obtenir le logo |
 | 4NK.Organic | Organisation liée | À confirmer | Organisation associée à la présentation agricole de Nicolas Cantu | `01_Programme-Intervenants/Logos Participants/organisation--4nk-organic--logo--2026-07-27--source.jpg` | Nicolas Cantu, fondateur | Logo reçu le 2026-07-27 | Confirmer le statut de l'organisation et la communication éventuelle |
 | Hodling SA | Organisation liée | Planifié | Organisation associée au workshop de Polto et Darko : « Justifier l'origine de ses bitcoins » | Logo SVG source conservé dans `01_Programme-Intervenants/Logos Participants/organisation--hodling--logo--2026-07-30--source.svg` ; non intégré à la vignette intervenants | Polto et Darko | Titre, résumé, affiliation, portraits et logo reçus le 2026-07-30 | Conserver le logo pour un éventuel besoin futur ; aucune communication organisation dédiée prévue à ce stade |
@@ -53,10 +54,13 @@ Les chemins Nextcloud sont relatifs à
 Suivi : [#147 — lots HWW et vidéo partenaire](https://github.com/Alpinechain/Alpinechain_Association/issues/147).
 
 - Accord : **CONFIRMÉ** par Cyrille le 2026-09-05 ; Neowalt ne viendra pas sur place.
-- Contribution : envoi convenu de **3 × 2 clés matérielles (HWW), soit 6 unités**, à offrir lors du jeu/quiz du samedi 7 novembre au soir. Modèles exacts et composition des lots à préciser ; expédition et réception **EN ATTENTE**.
+- Contribution confirmée le 2026-09-17 pour le jeu concours : **2 × Tangem (pack de deux cartes), 2 × Ellipal Titan Mini et 2 × SafePal X1**. Cela représente six lots produits ; chaque lot Tangem contient deux cartes et ne doit donc pas être résumé comme une seule unité physique lors de l'inventaire.
+- Caractéristiques communiquées par Neowalt : Tangem au format carte via NFC ; Ellipal Titan Mini avec écran tactile et fonctionnement totalement air-gap ; SafePal X1 avec touches physiques et fonctionnement Bluetooth.
+- Périmètre : ces wallets ne sont **pas Bitcoin-only** et prennent en charge plusieurs cryptomonnaies.
+- Expédition : Neowalt prévoit l'envoi des wallets **vers mi-octobre** ; réception et inventaire restent **EN ATTENTE**.
 - Contact : Paul Renaud. Carte de contact archivée dans le dossier privé `02_Sponsors-Contrats/Neowalt/` ([fichier Nextcloud](https://cloud.alpinechain.xyz/f/4745)) ; enregistrement CRM encore à effectuer.
 - Logos : archivage Nextcloud **CONFIRMÉ** le 2026-09-05 dans `01_Programme-Intervenants/Logos Participants/` : [symbole seul, 970 × 860](https://cloud.alpinechain.xyz/f/4742) et [logo horizontal à texte blanc, 3247 × 1176](https://cloud.alpinechain.xyz/f/4743). Tailles et SHA-256 identiques aux sources ; indexation sans erreur. La carte de contact n'est pas un support à publier.
-- Vidéo courte de présentation : **EN ATTENTE** de réception, destinée au jeu ; durée, format et test régie à organiser dans #147 avec #12.
+- Vidéos de présentation : plusieurs vidéos sont en cours de préparation ; Neowalt prévoit leur envoi **vers mi-octobre** afin de laisser une marge de correction avant B-Only. Durée, format, choix de la ou des vidéos et test régie restent à organiser dans #147 avec #12.
 - Déclinaison pour boucle écrans avec les autres partenaires : **À VALIDER**.
 - Visibilité site : à préparer comme partenaire de lots, sans annoncer de présence physique ; utiliser une variante contrastée du logo. Publication à suivre dans #24.
 

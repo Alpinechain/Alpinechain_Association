@@ -1,7 +1,7 @@
 # Guide rédactionnel X
 
 Version : V0.2
-Dernière mise à jour : 2026-08-30
+Dernière mise à jour : 2026-09-01
 
 ---
 
