@@ -22,9 +22,9 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 14–16 septembre | Christine Jeanneaux — « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | DIFFUSION PASSÉE / À ARCHIVER |
 | 17–19 septembre | Florent Gabriel — « L’IA est-elle en train de sauver ou de tuer Bitcoin ? » | PROGRAMMÉ — campagne V2 |
 | 21–23 septembre | Lionel Jeannerat — « Bitcoin pour les Copain.e.s » | PRÊT À PROGRAMMER — campagne V2 validée |
-| 24–26 septembre | Nicolas Cantu — « Lire les dégâts de l’impression monétaire dans les sols. » | À FINALISER — textes V1 + liens déjà présents |
+| 24–26 septembre | Nicolas Cantu — « Lire les dégâts de l’impression monétaire dans les sols. » | PROGRAMMÉ — campagne V2 |
 | 27 septembre | Publication complémentaire B-Only | À CADRER |
-| 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | À PRODUIRE |
+| 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | PRÊT À RELIRE — visuel et liens suivis à finaliser |
 | 1er–3 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE |
 | 4 octobre | Publication complémentaire B-Only | À CADRER |
 | 5–7 octobre | Noé / WeSatoshis | À COMPLÉTER |
