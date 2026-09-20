@@ -22,11 +22,17 @@ Préparer et capitaliser les ateliers et rencontres Bitcoin organisés par Alpin
 - logistique du lieu et du matériel ;
 - bilan, ressources et retours participants.
 
-## Prochain rendez-vous connu
+## État au 20 septembre 2026
 
-Atelier multisig et Disaster Recovery, prévu le 2 septembre 2026 à 19:00.
+L'atelier multisig et Disaster Recovery du 2 septembre 2026 est réalisé et l'Issue [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6) est clôturée.
 
-Issue opérationnelle : [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6)
+Repères de dynamique 2026 communiqués le 20 septembre :
+
+- fréquentation habituelle : environ **8 à 15 personnes** ;
+- cœur régulier : environ **6 à 8 personnes** ;
+- nouveaux participants passés depuis le début de l'année : environ **4 à 6**.
+
+Le prochain atelier du cycle 2026 doit être consolidé dans une Issue dédiée avant annonce publique.
 
 ## Sources de vérité
 
