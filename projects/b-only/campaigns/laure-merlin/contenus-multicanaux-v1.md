@@ -1,6 +1,6 @@
 # Campagne Laure Merlin — Atelier Bitcoin Lego — contenus multicanaux V1
 
-**État : VALIDÉ ÉDITORIALEMENT — relu et validé par Cyrille le 19 septembre 2026.**
+**État : PRÊT À RELIRE — version enrichie le 20 septembre 2026 : article développé, publications renforcées et CTA conservés par canal.**
 
 ## Références validées
 
@@ -23,118 +23,240 @@ L'angle de campagne repose sur ce contraste : sortir un moment des écrans, des 
 
 L'atelier doit être présenté comme un format **concret, participatif et volontairement limité en taille**, pas comme un cours magistral ni comme une promesse d'expliquer l'intégralité de Bitcoin en 50 minutes.
 
+Le message central : **on ne vient pas seulement écouter parler de Bitcoin ; on vient essayer de mieux se le représenter, manipuler, questionner et comprendre ensemble.**
+
 Le CTA principal de chaque canal est explicite : **réserver sa place pour B-Only'26**.
 
 ## Blog / Nostr long
 
 ### Bitcoin avec des briques : quand l'abstrait devient enfin visible
 
-Bitcoin est un protocole numérique.
+Bitcoin est partout numérique.
 
-On ne voit pas une transaction circuler dans le réseau. On ne tient pas un bloc dans sa main. On ne regarde pas le consensus se former devant soi.
+Une transaction n'a pas de forme que l'on peut saisir avec les mains. Un bloc n'est pas une boîte. Le réseau n'est pas une salle remplie de machines reliées par des fils visibles. Et le consensus n'est pas une réunion où tout le monde lève la main.
 
-Et pourtant, pour comprendre Bitcoin, il faut réussir à se représenter ce qui se passe.
+Pourtant, pour comprendre Bitcoin, nous avons besoin de nous représenter ce qui se passe.
 
-C'est précisément le pari de **Laure Merlin** avec son **Atelier Bitcoin Lego**, proposé à B-Only'26.
+C'est souvent là que les difficultés commencent.
 
-Ici, pas de nouvelle heure passée devant une succession de slides.
+On découvre quelques mots : transaction, bloc, réseau, validation, consensus, chaîne, mineurs, nœuds…
 
-L'idée est au contraire de sortir un moment des écrans et de passer par un support physique : des briques, des objets, des étapes que l'on peut manipuler et visualiser ensemble.
+Puis les mots s'accumulent.
 
-### Comprendre en manipulant
+On comprend chaque terme séparément, mais l'ensemble reste parfois flou. On sait répéter une définition sans forcément réussir à visualiser la mécanique globale.
 
-Quand on découvre Bitcoin, le vocabulaire arrive vite : transaction, bloc, réseau, validation, consensus, chaîne…
+C'est précisément ce décalage que **Laure Merlin** propose d'explorer avec son **Atelier Bitcoin Lego** à B-Only'26.
 
-Pris séparément, chaque mot peut sembler simple.
+Le principe n'est pas de transformer Bitcoin en jouet, ni de prétendre résumer tout le protocole avec quelques briques.
 
-Mais lorsqu'ils s'empilent sans représentation concrète, l'ensemble devient vite abstrait.
+L'idée est plus intéressante : **changer de représentation pour aider à comprendre.**
 
-Avec un support physique, on peut ralentir.
+### Sortir de l'écran pour mieux voir
 
-Voir une étape.
+La plupart du temps, Bitcoin nous est présenté à travers un écran.
 
-Déplacer un élément.
+Une application de wallet.
 
-Revenir en arrière.
+Un explorateur de blocs.
 
-Poser une question au moment précis où quelque chose cesse d'être clair.
+Un graphique.
 
-C'est toute la force de ce format : **faire passer certains mécanismes de l'abstrait au visible**.
+Une présentation.
 
-### Un atelier volontairement limité à 12–15 personnes
+Un schéma.
 
-L'Atelier Bitcoin Lego ne sera pas une conférence classique.
+Des lignes de texte.
 
-Le groupe sera limité à **12 à 15 participants** afin de conserver de vraies interactions et de laisser de la place aux questions.
+Tout cela est utile. Mais lorsque l'on essaie de construire une compréhension d'ensemble, le numérique a aussi une limite : beaucoup de choses restent invisibles.
 
-Ce petit format fait partie de l'expérience : on ne vient pas seulement écouter, on vient participer.
+Un support physique permet de prendre le problème autrement.
 
-C'est aussi exactement l'esprit du **Pleb Forum** de B-Only : créer des formats plus proches, plus pratiques et plus interactifs en complément des conférences principales.
+On peut déplacer un élément.
 
-### Pas besoin d'être développeur
+Le comparer à un autre.
 
-Cet atelier n'est pas réservé aux profils techniques.
+Revenir à l'étape précédente.
 
-Il s'adresse aussi à celles et ceux qui connaissent déjà Bitcoin mais souhaitent revoir certains mécanismes sous un autre angle, ou qui cherchent simplement une manière plus intuitive de mettre les pièces du puzzle ensemble.
+Créer une représentation commune autour de laquelle tout le groupe peut discuter.
 
-Parfois, comprendre ne demande pas davantage de jargon.
+Ce qui était une suite de mots devient alors quelque chose que l'on peut pointer du doigt.
 
-Il faut simplement changer de représentation.
+Et parfois, c'est précisément ce changement de perspective qui permet de faire apparaître le fameux « ah, d'accord ».
 
-Et si quelques briques suffisaient à provoquer le déclic ?
+### Comprendre ne signifie pas simplifier à l'excès
+
+Expliquer Bitcoin simplement est un exercice délicat.
+
+À force de vouloir tout rendre facile, on finit parfois par supprimer ce qui fait justement l'intérêt du système.
+
+À l'inverse, vouloir être parfaitement exact dès la première phrase peut transformer une découverte en tunnel de jargon.
+
+Entre les deux, il existe une autre voie : **construire progressivement une représentation**, puis l'affiner.
+
+C'est là qu'un atelier prend tout son sens.
+
+On peut commencer avec quelque chose de visible et concret, puis ajouter de la complexité au fur et à mesure.
+
+On peut aussi identifier immédiatement ce qui pose problème.
+
+Une personne bloque sur une étape ? On s'arrête.
+
+Une question apparaît ? Elle devient une partie de l'atelier.
+
+Une représentation semble trop simplifiée ? On la corrige collectivement.
+
+Ce rythme est très différent d'une conférence classique, où l'intervenant avance nécessairement pendant que le public tente de suivre.
+
+### Un format où les questions font partie du programme
+
+L'**Atelier Bitcoin Lego** sera limité à **12 à 15 participants**.
+
+Ce nombre n'est pas anecdotique.
+
+Il permet de conserver un groupe suffisamment petit pour que les échanges restent naturels et que chacun puisse réellement participer.
+
+Ici, l'intérêt ne vient pas seulement de ce que Laure va montrer.
+
+Il vient aussi des questions posées autour de la table.
+
+Des incompréhensions.
+
+Des façons différentes de se représenter un même mécanisme.
+
+Des discussions qui naissent quand une brique n'est soudain plus seulement une brique, mais la représentation d'une idée que l'on essaie de comprendre ensemble.
+
+C'est exactement le type de format que nous voulons développer au **Pleb Forum de B-Only** : compléter les conférences par des espaces plus directs, plus pratiques et plus interactifs.
+
+### À qui s'adresse cet atelier ?
+
+Il n'est pas nécessaire d'être développeur.
+
+Il n'est pas non plus nécessaire de découvrir Bitcoin pour la première fois.
+
+L'atelier peut intéresser plusieurs profils.
+
+Celles et ceux qui commencent à explorer Bitcoin et veulent dépasser les premières définitions.
+
+Celles et ceux qui connaissent déjà le sujet mais souhaitent revoir certains mécanismes sous un autre angle.
+
+Celles et ceux qui cherchent de nouvelles façons d'expliquer Bitcoin à leur entourage.
+
+Et, plus largement, toutes les personnes qui ont déjà connu ce moment étrange où elles pensaient avoir compris une notion… avant de réaliser qu'elles n'arrivaient pas vraiment à l'expliquer.
+
+Parce qu'au fond, comprendre quelque chose, c'est aussi être capable de construire une représentation suffisamment claire pour en discuter avec quelqu'un d'autre.
+
+### B-Only : écouter, mais aussi manipuler et discuter
+
+B-Only'26 se déroulera sur trois jours à Annecy.
+
+Des conférences permettront d'aller en profondeur sur différents sujets.
+
+Mais une conférence Bitcoin ne devrait pas être uniquement une succession de personnes sur une scène.
+
+Le Pleb Forum est justement là pour créer d'autres formes d'échange.
+
+Des workshops.
+
+Des discussions.
+
+Des petits groupes.
+
+Des moments où la distance entre l'intervenant et le public disparaît presque complètement.
+
+L'Atelier Bitcoin Lego s'inscrit parfaitement dans cette logique.
+
+Pendant 50 minutes, l'objectif n'est pas d'ajouter encore une présentation à regarder.
+
+C'est de prendre Bitcoin, de changer d'angle, et d'essayer de mieux le voir.
+
+Avec des briques.
+
+Avec des questions.
+
+Avec les autres participants.
+
+Et peut-être avec ce petit déclic que l'on cherche parfois depuis plusieurs mois.
+
+### Quelques briques peuvent-elles vraiment aider à comprendre Bitcoin ?
+
+La réponse ne tient probablement pas dans les briques elles-mêmes.
+
+Elle tient dans ce qu'elles permettent de faire : ralentir, matérialiser une idée, observer une relation, discuter d'une étape et construire une représentation commune.
+
+Bitcoin restera un protocole numérique.
+
+Mais rien n'oblige notre apprentissage à rester entièrement derrière un écran.
 
 📍 **B-Only'26 — Pleb Forum, Annecy**  
 📅 **Dimanche 8 novembre 2026 — 18:00 à 18:50**  
 👥 **12 à 15 participants maximum**
 
-🎟️ **Réserve ta place pour B-Only'26 :**  
+🎟️ **Envie de vivre l'atelier et le reste de B-Only'26 ? Réserve ta place :**  
 https://go.alpinechain.xyz/b26-lm-blog
 
 > L'atelier fait partie du programme B-Only. Les modalités éventuelles de réservation spécifique de l'atelier restent à préciser.
 
 ## LinkedIn — AlpineChain
 
-**Bitcoin est numérique. Mais pour le comprendre, il faut parfois pouvoir le toucher.**
+**On peut lire dix définitions de Bitcoin sans réussir à vraiment se représenter ce qui se passe.**
 
-À B-Only'26, **Laure Merlin** proposera un format qui change volontairement des conférences classiques :
+Transaction. Bloc. Réseau. Validation. Consensus.
+
+Les mots sont connus.
+
+Mais lorsque tout reste derrière un écran, ils peuvent vite devenir une collection de concepts abstraits.
+
+À B-Only'26, **Laure Merlin** propose de changer complètement de méthode :
 
 🧱 **l'Atelier Bitcoin Lego**
 
-L'idée est simple : utiliser un support physique et visuel pour rendre plus intuitifs certains mécanismes habituellement cachés derrière un écran et du vocabulaire technique.
+Pas une conférence de plus à regarder passivement.
 
-Transactions, blocs, réseau, validation… quand tout reste abstrait, les mots peuvent vite s'empiler.
+Un format en petit groupe pour rendre certaines idées visibles, manipuler une représentation, revenir sur une étape et poser une question exactement au moment où elle apparaît.
 
-Avec des briques, on peut au contraire manipuler, visualiser, revenir sur une étape et poser une question exactement au moment où elle apparaît.
+Parce qu'il y a une vraie différence entre connaître une définition… et réussir à se construire une image mentale claire de ce qu'elle signifie.
 
-L'atelier sera limité à **12–15 participants** pour garder un vrai format d'échange et de participation.
+L'atelier sera limité à **12–15 participants** afin de garder ce qui fait précisément l'intérêt du format : l'interaction.
 
 Pas besoin d'être développeur.
 
-Il suffit d'avoir envie de comprendre Bitcoin autrement.
+Pas besoin non plus de découvrir Bitcoin pour la première fois.
+
+Si tu as déjà eu l'impression de « comprendre à peu près » avant de bloquer au moment de l'expliquer à quelqu'un d'autre, cet atelier devrait te parler.
 
 📅 Dimanche 8 novembre — 18:00 à 18:50  
 📍 Pleb Forum — B-Only'26, Annecy
 
-🎟️ **Réserve ta place pour B-Only'26 :**  
+🎟️ **Viens comprendre Bitcoin autrement. Réserve ta place pour B-Only'26 :**  
 https://go.alpinechain.xyz/b26-lm-li-ac
 
 #Bitcoin #BOnly2026 #Annecy #EducationBitcoin
 
 ## LinkedIn — Annecy Bitcoin Meetup
 
-**Et si le déclic Bitcoin tenait dans quelques briques ?**
+**Tu penses avoir compris Bitcoin ? Essaie de l'expliquer sans écran, sans schéma et sans jargon.**
+
+C'est là que les choses deviennent intéressantes.
 
 À B-Only'26, **Laure Merlin** animera son **Atelier Bitcoin Lego** au Pleb Forum.
 
-Pas une nouvelle conférence à regarder passivement.
+L'idée : quitter un moment les slides et les applications pour construire une représentation plus concrète de certains mécanismes de Bitcoin.
 
-Un petit groupe, des briques, des mécanismes à visualiser et surtout la possibilité de poser les questions au moment où elles arrivent.
+Des briques.
 
-L'objectif : sortir un instant des écrans pour rendre Bitcoin plus concret.
+Un petit groupe.
 
-L'atelier sera volontairement limité à **12–15 personnes**.
+Des questions.
 
-Que tu découvres Bitcoin ou que tu veuilles simplement revoir certains mécanismes autrement, viens manipuler le sujet plutôt que simplement l'écouter.
+Des étapes que l'on peut reprendre jusqu'à ce qu'elles deviennent réellement compréhensibles.
+
+Le nombre de participants sera volontairement limité à **12–15 personnes**.
+
+Ce n'est donc pas une présentation à regarder de loin.
+
+C'est un atelier auquel il faudra prendre part.
+
+Que tu découvres Bitcoin, que tu l'utilises déjà ou que tu cherches simplement une meilleure manière de l'expliquer autour de toi, viens confronter ta représentation à celle des autres.
 
 📅 Dimanche 8 novembre — 18:00 à 18:50  
 📍 B-Only'26 — Annecy
@@ -146,56 +268,68 @@ https://go.alpinechain.xyz/b26-lm-li-abm
 
 ## X
 
-🧱 Bitcoin est numérique. Parfois, il faut pouvoir le toucher pour le comprendre.
+🧱 Tu crois avoir compris Bitcoin ? Essaie de l'expliquer sans écran ni jargon.
 
-Laure Merlin animera l'Atelier Bitcoin Lego à #BOnly2026 : 12–15 places, des briques et des questions.
+À #BOnly2026, Laure Merlin le rendra plus concret avec son Atelier Bitcoin Lego, limité à 12–15 personnes.
 
 🎟️ Réserve :
 https://go.alpinechain.xyz/b26-lm-x
 
 ## Facebook
 
-🧱 **Et si on arrêtait cinq minutes d'expliquer Bitcoin uniquement avec des slides ?**
+🧱 **Tu penses avoir compris Bitcoin ? Essaie maintenant de l'expliquer sans écran, sans schéma et sans jargon.**
 
-À B-Only'26, **Laure Merlin** proposera son **Atelier Bitcoin Lego**.
+C'est souvent à ce moment-là qu'on découvre ce qui est vraiment clair… et ce qui l'est beaucoup moins.
 
-Le principe : utiliser des briques et un support physique pour rendre plus visibles certains mécanismes de Bitcoin qui restent souvent abstraits lorsqu'on les découvre uniquement avec des mots.
+À B-Only'26, **Laure Merlin** proposera son **Atelier Bitcoin Lego** pour aborder le problème autrement.
+
+Le principe n'est pas de transformer Bitcoin en jouet.
+
+Il s'agit d'utiliser un support physique pour rendre certains mécanismes plus visibles, construire une représentation commune et pouvoir revenir sur une étape dès qu'une question apparaît.
 
 On manipule.
 
-On visualise.
+On observe.
 
-On revient sur une étape.
+On discute.
 
-Et surtout, on peut poser les questions au fur et à mesure.
+On recommence si nécessaire.
 
-L'atelier sera limité à **12–15 participants**, pour conserver un vrai moment d'échange et de participation.
+Et surtout, on ne reste pas simple spectateur.
 
-Pas besoin d'être expert ni développeur : l'objectif est justement de regarder Bitcoin autrement.
+L'atelier sera limité à **12–15 participants**, afin de garder un format réellement interactif.
+
+Que tu découvres Bitcoin ou que tu cherches une meilleure manière de l'expliquer autour de toi, c'est l'occasion de sortir des slides et de tester une autre façon de comprendre.
 
 📅 Dimanche 8 novembre — 18:00 à 18:50  
 📍 Pleb Forum — B-Only'26, Annecy
 
-🎟️ **Réserve ta place pour B-Only'26 :**  
+🎟️ **Envie d'en être ? Réserve ta place pour B-Only'26 :**  
 https://go.alpinechain.xyz/b26-lm-fb
 
 ## Instagram
 
-🧱 **ET SI BITCOIN DEVENAIT VISIBLE ?**
+🧱 **TU CROIS AVOIR COMPRIS BITCOIN ?**
 
-Bitcoin est numérique.
+Essaie de l'expliquer sans écran.
+Sans schéma.
+Sans jargon.
 
-Mais parfois, quelques briques permettent de mieux comprendre qu'un long schéma.
+Pas si simple.
 
-À B-Only'26, **Laure Merlin** animera son **Atelier Bitcoin Lego** : un format participatif pour manipuler, visualiser et poser ses questions autrement.
+À B-Only'26, **Laure Merlin** propose de changer complètement de méthode avec son **Atelier Bitcoin Lego**.
+
+Des briques pour rendre certaines idées visibles.
+
+Un petit groupe pour pouvoir poser de vraies questions.
+
+Et 50 minutes pour arrêter de simplement écouter Bitcoin… et commencer à le manipuler autrement.
 
 👥 12–15 participants maximum  
 📅 Dimanche 8 novembre · 18:00  
 📍 Pleb Forum · Annecy
 
-Pas besoin d'être développeur.
-
-Juste d'avoir envie de comprendre Bitcoin avec un autre regard.
+Débutant, habitué ou simplement curieux : viens tester ta façon de comprendre Bitcoin.
 
 🎟️ **Réserve ta place pour B-Only'26 — lien en bio / sticker :**  
 https://go.alpinechain.xyz/b26-lm-ig
@@ -204,9 +338,9 @@ https://go.alpinechain.xyz/b26-lm-ig
 
 ## Nostr court
 
-🧱 Bitcoin est numérique. Pour le comprendre, il faut parfois pouvoir le toucher.
+🧱 Tu crois avoir compris Bitcoin ? Essaie de l'expliquer sans écran, sans schéma et sans jargon.
 
-À B-Only'26, **Laure Merlin** animera l'**Atelier Bitcoin Lego** : un petit groupe de 12–15 personnes pour manipuler, visualiser et poser ses questions autrement.
+À B-Only'26, **Laure Merlin** proposera son **Atelier Bitcoin Lego** : 12–15 personnes, des briques, des questions et une autre façon de rendre certains mécanismes visibles.
 
 📅 8 novembre · 18:00  
 📍 Annecy
@@ -222,9 +356,9 @@ Visuel B-Only'26 annonçant Laure Merlin et l'« Atelier Bitcoin Lego », atelie
 
 **Titre SEO :** Atelier Bitcoin Lego avec Laure Merlin à B-Only 2026
 
-**Méta-description :** À B-Only'26, Laure Merlin propose un Atelier Bitcoin Lego à Annecy : un format concret et participatif limité à 12–15 personnes pour comprendre Bitcoin autrement.
+**Méta-description :** À B-Only'26, Laure Merlin anime un Atelier Bitcoin Lego à Annecy : un format concret et participatif, limité à 12–15 personnes, pour rendre certains mécanismes de Bitcoin plus visibles.
 
-**Extrait :** Et si quelques briques rendaient Bitcoin plus intuitif ? Laure Merlin propose à B-Only'26 un atelier en petit groupe pour manipuler, visualiser et comprendre autrement.
+**Extrait :** Comprendre Bitcoin ne passe pas forcément par davantage de jargon. À B-Only'26, Laure Merlin propose un atelier en petit groupe utilisant des briques pour rendre certaines idées plus concrètes, visibles et discutables.
 
 ## Gates avant programmation
 
@@ -233,7 +367,7 @@ Visuel B-Only'26 annonçant Laure Merlin et l'« Atelier Bitcoin Lego », atelie
 - [x] créneau public confirmé ;
 - [x] capacité 12–15 participants confirmée ;
 - [x] aucun besoin technique particulier identifié ;
-- [x] contenus V1 relus et validés par Cyrille le 19 septembre 2026 ;
+- [ ] contenus enrichis du 20 septembre 2026 à relire et valider ;
 - [x] portrait source de Laure contrôlé dans Nextcloud le 19 septembre 2026 ;
 - [x] produire une vignette de travail avec suffixe de proposition ;
 - [x] valider humainement la vignette puis la classer avec le suffixe `--valide` le 19 septembre 2026 ;
