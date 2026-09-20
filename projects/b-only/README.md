@@ -21,6 +21,11 @@ Les deux registres de préparation des vignettes sont :
 - [`programme/`](programme/) pour la grille horaire de travail et sa page HTML
   statique, encore soumise à validation humaine avant publication.
 
+Le cadrage transversal de la communication est proposé dans
+[`COMMUNICATION_REFERENCE_2026-v1.md`](COMMUNICATION_REFERENCE_2026-v1.md). Il
+reste au statut `PRÊT À RELIRE` tant que sa promesse, ses messages et ses
+publics prioritaires n'ont pas été validés.
+
 Ils ne contiennent que des statuts et métadonnées adaptés à un dépôt public.
 Les conversations complètes, coordonnées, portraits, logos et documents sources
 restent dans la messagerie ou dans Nextcloud selon leur nature.
