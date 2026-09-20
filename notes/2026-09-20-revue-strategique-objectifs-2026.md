@@ -10,6 +10,8 @@ Cette note confronte les objectifs 2026 à l'état réel des projets associatifs
 |---|---:|---|
 | Adhérents particuliers 2026 | 3 | Niveau inférieur à fin 2025 |
 | Adhérents fin 2025 | 8 particuliers + 2 entreprises | Base de comparaison |
+| Recette moyenne des meetups Bitcoin payants | environ 25 € par meetup | Nouveau revenu récurrent hors adhésions |
+| Boutique goodies | environ 100 € de recettes cumulées à ce jour | Nouvelle source de revenus accessoires |
 | Billets B-Only 2026 | 42 | À suivre prioritairement jusqu'au 7 novembre |
 | Fréquentation habituelle des meetups | 8 à 15 personnes | Noyau local réel mais encore limité |
 | Cœur régulier du groupe | 6 à 8 personnes | Base communautaire stable |
@@ -46,9 +48,11 @@ La fréquentation habituelle est de 8 à 15 personnes, avec un cœur de groupe e
 
 Le noyau régulier existe, mais la croissance reste modeste : environ 4 à 6 nouveaux participants sont passés depuis le début de l'année.
 
-Le signal le plus préoccupant concerne les adhésions : 3 adhérents particuliers en 2026, contre 8 particuliers et 2 membres entreprise fin 2025.
+Les adhésions sont en retrait : 3 adhérents particuliers en 2026, contre 8 particuliers et 2 membres entreprise fin 2025. Ce recul ne doit toutefois pas être lu comme une baisse équivalente de l'engagement financier : la plupart des participants aux meetups Bitcoin paient leur venue.
 
-La priorité n'est donc plus seulement d'organiser des événements, mais de convertir davantage de participants ponctuels en membres, contributeurs et bénévoles réguliers.
+Les meetups Bitcoin génèrent désormais environ **25 € de recettes par rencontre en moyenne**, ce qui crée un petit revenu récurrent distinct des cotisations. La boutique en ligne de goodies représente également environ **100 € de recettes cumulées à ce jour**.
+
+La lecture stratégique doit donc distinguer trois dimensions : **adhésion formelle**, **participation régulière** et **contribution financière par l'usage**. La priorité reste d'améliorer l'adhésion et la contribution active, sans considérer que les non-adhérents réguliers sont désengagés.
 
 ### 4. Faire émerger des expérimentations locales
 
@@ -95,14 +99,14 @@ Les modèles prévoient une capitalisation J+1/J+3, mais l'application reste irr
 Les indicateurs à privilégier doivent rester simples :
 
 - événements : inscrits, présents, nouveaux, revenants ;
-- communauté : adhérents, membres actifs, bénévoles actifs ;
+- communauté : adhérents, participants réguliers, bénévoles actifs et contribution financière hors cotisations ;
 - communication : clics et inscriptions générées ;
 - ABT : commerçants actifs et retours d'usage ;
 - B-Only : billets vendus et origine des ventes.
 
 ## Diagnostic
 
-AlpineChain a beaucoup progressé sur la structuration et l'exécution. Le principal écart restant concerne la croissance de la communauté et sa mesure.
+AlpineChain a beaucoup progressé sur la structuration et l'exécution. Le principal écart restant concerne la croissance de la communauté et sa mesure. La baisse des adhésions est partiellement compensée par l'apparition de revenus liés à la participation aux meetups et à la boutique, ce qui traduit une évolution du mode de soutien plutôt qu'un simple recul.
 
 Le système opérationnel est désormais plus mature que la taille actuelle de la communauté. L'enjeu de fin 2026 et de 2027 est donc de transformer les événements et les outils en dynamique durable : davantage de membres, de contributeurs, de retours réguliers et de relais locaux.
 
