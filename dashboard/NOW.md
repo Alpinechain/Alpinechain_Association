@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-09-12
+Date de dernière mise à jour : 2026-09-20
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -10,7 +10,21 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ## Priorités actives
 
-1. **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.
+1. **Accélérer la conversion B-Only** : état communiqué au 20 septembre : **42 billets vendus**. Prioriser les relais partenaires, communautés des intervenants, médias, presse locale et liens suivis afin de mesurer l'origine des ventes.
+2. **Préparer et tenir Souveraineté 3.0 — BitVault du 24 septembre** : rencontre à 19:00 au Refuge du Craic, présentation courte puis échanges autour de la self-custody et de la sécurité Bitcoin.
+3. **Suivre la dynamique communautaire et ses revenus** : la fréquentation habituelle des meetups est estimée à **8–15 personnes**, avec un cœur régulier de **6–8 personnes** et environ **4–6 nouveaux participants** depuis le début de l'année. Les adhésions 2026 sont à **3 particuliers**, contre **8 particuliers + 2 entreprises fin 2025**, mais la plupart des participants aux meetups Bitcoin paient leur venue : environ **25 € de recettes par meetup en moyenne**. La boutique goodies représente également environ **100 € de recettes cumulées à ce jour**.
+4. **Maintenir Annecy Bitcoin Tour et commencer à mesurer son usage** : les **8 commerçants partenaires sont toujours actifs** ; aucun retour chiffré sur les paiements n'est encore disponible.
+5. **Consolider les chantiers B-Only et replanifier la maintenance** : programme [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), audiovisuel [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), logistique [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), budget [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) et risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) restent à consolider avant le 30 septembre. La nouvelle fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119), avec Pretix gelé.
+
+## Revue stratégique 2026
+
+La revue du 20 septembre est versionnée dans [`notes/2026-09-20-revue-strategique-objectifs-2026.md`](../notes/2026-09-20-revue-strategique-objectifs-2026.md).
+
+Constat principal : le socle opérationnel est désormais solide ; le principal écart aux objectifs 2026 concerne la croissance mesurable de la communauté, la conversion des participants en adhérents/contributeurs et la mesure de l'impact.
+
+## Suivis de communication antérieurs
+
+- **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.
 2. **Préparer la séquence Christine Jeanneaux des 14–16 septembre** : la campagne et ses sept couples voucher/alias sont `PRÊTS À PROGRAMMER`, mais la programmation et la publication restent soumises au contrôle humain des comptes et aperçus.
 3. **Sécuriser les séquences Florent et Lionel** : Florent Gabriel est `PROGRAMMÉ` du 17 au 19 septembre ; Lionel Jeannerat est `PRÊT À PROGRAMMER` du 21 au 23 septembre. Contrôler les comptes et aperçus, conserver Nostr manuel, puis archiver uniquement les URLs réellement publiées dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 4. **Consolider les chantiers B-Only et replanifier la maintenance** : programme [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), audiovisuel [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), logistique [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), budget [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) et risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) restent à consolider avant le 30 septembre. La nouvelle fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119), avec Pretix gelé.
@@ -55,9 +69,9 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 ### Billetterie
 
 - Billetterie publique ouverte : https://join.alpinechain.xyz/org/bonly26/
-- Contrôle Pretix du 29 août : **39 billets payés** répartis sur **33 commandes payées**, hors positions annulées ; dernier paiement confirmé le 27 août.
+- État communiqué et validé par Cyrille le 20 septembre : **42 billets vendus**.
 - Le quota **Early est épuisé** ; aucune place Early n’est encore disponible.
-- Le point d’entrée Pretix répondait en HTTP 200 le 11 septembre à 18:58 UTC. Les agrégats de ventes n’ont pas pu être relus dans Pretix pendant la revue W37 : le chiffre du 29 août reste donc le dernier état confirmé, pas une valeur déclarée actuelle.
+- Ce chiffre du 20 septembre remplace le dernier état consolidé du 29 août pour le pilotage stratégique ; Pretix reste la source de vérité détaillée des commandes et paiements.
 - Les liens UTM et courts sont prêts pour les campagnes ; les URLs publiées et métriques doivent être reportées dans #24 et #64.
 
 ### Sponsors

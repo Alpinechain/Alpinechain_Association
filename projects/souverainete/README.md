@@ -25,11 +25,20 @@ Organiser des rencontres locales consacrées à la souveraineté numérique, aux
 
 ## Prochain rendez-vous
 
-Le prochain thème, la date, l’intervenant éventuel et la promesse publique restent à valider.
+**Meetup Souveraineté 3.0 — BitVault**
+
+- Date : jeudi 24 septembre 2026 ;
+- accueil : dès 19:00 ;
+- lieu : salle Refuge du Craic — Novotel Annecy Centre ;
+- intervenant : BitVault ;
+- format : présentation de 20 à 30 minutes puis questions, critiques et échanges ;
+- angle : sécurité Bitcoin, self-custody et résistance aux scénarios de compromission ;
+- accès : gratuit ;
+- inscription : https://www.meetup.com/alpinechain-xyz/events/316526556
 
 Issue opérationnelle : [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7)
 
-La porte de lancement J-21 reste fermée tant que la date, le lieu, le responsable, le thème et l’inscription ne sont pas confirmés.
+Le rythme cible d'un rendez-vous mensuel est maintenu pour le moment. Il sera réévalué après B-Only selon les idées qui émergent et la dynamique réelle du groupe.
 
 ## Sources de vérité
 
