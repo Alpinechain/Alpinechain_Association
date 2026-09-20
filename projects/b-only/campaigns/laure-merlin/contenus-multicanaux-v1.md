@@ -1,6 +1,6 @@
 # Campagne Laure Merlin — Atelier Bitcoin Lego — contenus multicanaux V1
 
-**État : PRÊT À RELIRE — version enrichie le 20 septembre 2026 : article développé, publications renforcées et CTA conservés par canal.**
+**État : PROGRAMMÉ — version enrichie validée et publications programmées le 20 septembre 2026.**
 
 ## Références validées
 
@@ -367,12 +367,12 @@ Visuel B-Only'26 annonçant Laure Merlin et l'« Atelier Bitcoin Lego », atelie
 - [x] créneau public confirmé ;
 - [x] capacité 12–15 participants confirmée ;
 - [x] aucun besoin technique particulier identifié ;
-- [ ] contenus enrichis du 20 septembre 2026 à relire et valider ;
+- [x] contenus enrichis du 20 septembre 2026 relus, validés et programmés ;
 - [x] portrait source de Laure contrôlé dans Nextcloud le 19 septembre 2026 ;
 - [x] produire une vignette de travail avec suffixe de proposition ;
 - [x] valider humainement la vignette puis la classer avec le suffixe `--valide` le 19 septembre 2026 ;
 - [ ] confirmer si l'atelier nécessite une réservation spécifique en plus du billet B-Only ;
 - [x] créer et vérifier les liens suivis / vouchers par canal le 19 septembre 2026 ;
-- [ ] contrôler les comptes et aperçus avant programmation ;
+- [x] comptes et aperçus contrôlés avant programmation ;
 - [ ] Nostr manuel ;
 - [ ] archiver les URLs réellement publiées et métriques dans l'Issue #24.
