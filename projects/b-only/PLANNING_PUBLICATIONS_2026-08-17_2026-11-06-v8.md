@@ -44,14 +44,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 
 ## Priorité de production immédiate
 
-1. **Nicolas Cantu**
-   - reprendre et finaliser `campaigns/nicolas-cantu/contenus-multicanaux-v1.md` ;
-   - exploiter `campaigns/nicolas-cantu/campaign-links-v1.csv` ;
-   - produire / valider la vignette ;
-   - créer le calendrier de diffusion 24–26 septembre ;
-   - passer la campagne en `PRÊT À PROGRAMMER`.
-
-2. **BitVault / Loïc Ruchat-Leuthardt**
+1. **BitVault / Loïc Ruchat-Leuthardt**
    - créer le dossier de campagne dédié ;
    - exploiter le sujet confirmé « Posséder ses bitcoins en toute sécurité » ;
    - préparer les contenus multicanaux ;
@@ -59,7 +52,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
    - créer les liens suivis ;
    - créer le calendrier 1er–3 octobre.
 
-3. **Puis, dans cet ordre**
+2. **Puis, dans cet ordre**
    - Noé / WeSatoshis ;
    - Michel Khazzaka ;
    - Alexis Roussel ;
