@@ -22,12 +22,11 @@ reclasse donc en acquis, décisions à valider et actions restantes.
 
 ## Promesse centrale
 
-> B-Only réunit à Annecy celles et ceux qui veulent comprendre, pratiquer et
-> débattre de Bitcoin, dans un format à taille humaine, sans discours
-> commercial imposé.
+> B-Only rassemble à Annecy une communauté curieuse et engagée autour de
+> Bitcoin, entre conférences, ateliers pratiques, débats et rencontres à
+> taille humaine.
 
-Cette formulation reste soumise à validation éditoriale finale avant d'être
-utilisée comme signature publique systématique.
+Cette formulation est validée comme promesse centrale du référentiel.
 
 ## Messages structurants
 
