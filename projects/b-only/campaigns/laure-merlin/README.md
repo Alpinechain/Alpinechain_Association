@@ -54,13 +54,13 @@ Pretix/UTM exacte de `campaign-links-v1.csv`, puis la page Pretix répond en HTT
 - [x] sept alias Shlink créés et vérifiés ;
 - [x] contenus V1 validés humainement par Cyrille le 19 septembre 2026 ;
 - [ ] décision prise sur une éventuelle réservation spécifique de l'atelier ;
-- [ ] comptes et aperçus contrôlés avant programmation.
+- [x] comptes et aperçus contrôlés avant programmation ;
+- [x] publications programmées le 20 septembre 2026.
 
-## Éléments manquants avant programmation
+## Éléments restant à traiter hors programmation
 
-- décision sur une éventuelle réservation spécifique de l'atelier ;
-- validation éditoriale des textes : effectuée le 19 septembre 2026.
+- décision sur une éventuelle réservation spécifique de l'atelier.
 
 ## Statut
 
-**VALIDÉ ÉDITORIALEMENT — liens suivis actifs, vignette validée et contenus relus par Cyrille le 19 septembre 2026 ; restent la décision sur une éventuelle réservation spécifique et le contrôle des comptes / aperçus avant programmation.**
+**PROGRAMMÉ — contenus validés, liens suivis actifs, vignette validée et publications programmées le 20 septembre 2026. La décision sur une éventuelle réservation spécifique de l'atelier reste un point logistique distinct.**
