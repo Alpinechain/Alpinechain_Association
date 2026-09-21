@@ -1,7 +1,7 @@
 # Continuité et sauvegardes AlpineChain
 
-Version : V1.2
-Dernière mise à jour : 2026-09-12
+Version : V1.3
+Dernière mise à jour : 2026-09-21
 
 ## Rôle de cette référence
 
@@ -27,8 +27,13 @@ contractuelle.
 ## État associatif
 
 Le dispositif de sauvegarde chiffrée hors serveur est actif et un test de
-restauration isolée a été validé. Le dépôt Association ne conserve que cet état
-synthétique et les décisions nécessitant un arbitrage humain.
+restauration isolée a été validé. La sauvegarde quotidienne, le contrôle Restic
+hebdomadaire et le rapport d'exploitation quotidien disposent chacun d'une
+alerte externe distincte. Les trois signaux réels et la notification email ont
+été validés le 21 septembre 2026.
+
+Le dépôt Association ne conserve que cet état synthétique et les décisions
+nécessitant un arbitrage humain.
 
 Les résultats datés, incidents, rotations d’accès et preuves techniques sont
 suivis dans le dépôt privé Serveur. Aucun secret, identifiant de stockage,
