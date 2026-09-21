@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-09-20
+Date de dernière mise à jour : 2026-09-21
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -14,7 +14,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 2. **Préparer et tenir Souveraineté 3.0 — BitVault du 24 septembre** : rencontre à 19:00 au Refuge du Craic, présentation courte puis échanges autour de la self-custody et de la sécurité Bitcoin.
 3. **Suivre la dynamique communautaire et ses revenus** : la fréquentation habituelle des meetups est estimée à **8–15 personnes**, avec un cœur régulier de **6–8 personnes** et environ **4–6 nouveaux participants** depuis le début de l'année. Les adhésions 2026 sont à **3 particuliers**, contre **8 particuliers + 2 entreprises fin 2025**, mais la plupart des participants aux meetups Bitcoin paient leur venue : environ **25 € de recettes par meetup en moyenne**. La boutique goodies représente également environ **100 € de recettes cumulées à ce jour**.
 4. **Maintenir Annecy Bitcoin Tour et commencer à mesurer son usage** : les **8 commerçants partenaires sont toujours actifs** ; aucun retour chiffré sur les paiements n'est encore disponible.
-5. **Consolider les chantiers B-Only et replanifier la maintenance** : programme [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), audiovisuel [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), logistique [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), budget [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) et risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) restent à consolider avant le 30 septembre. La nouvelle fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119), avec Pretix gelé.
+5. **Consolider les chantiers B-Only et replanifier la maintenance** : l’incident de sauvegarde est résolu et vérifié dans [Serveur #130](https://github.com/Alpinechain/Serveur/issues/130). Programme [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), audiovisuel [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), logistique [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), budget [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) et risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) restent à consolider avant le 30 septembre. La maintenance applicative dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119) reste soumise à sa validation humaine ; Pretix reste gelé.
 
 ## Revue stratégique 2026
 
@@ -22,14 +22,14 @@ La revue du 20 septembre est versionnée dans [`notes/2026-09-20-revue-strategiq
 
 Constat principal : le socle opérationnel est désormais solide ; le principal écart aux objectifs 2026 concerne la croissance mesurable de la communauté, la conversion des participants en adhérents/contributeurs et la mesure de l'impact.
 
-## Suivis de communication antérieurs
+## Suivis de communication actuels
 
 - **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.
-2. **Préparer la séquence Christine Jeanneaux des 14–16 septembre** : la campagne et ses sept couples voucher/alias sont `PRÊTS À PROGRAMMER`, mais la programmation et la publication restent soumises au contrôle humain des comptes et aperçus.
-3. **Sécuriser les séquences Florent et Lionel** : Florent Gabriel est `PROGRAMMÉ` du 17 au 19 septembre ; Lionel Jeannerat est `PRÊT À PROGRAMMER` du 21 au 23 septembre. Contrôler les comptes et aperçus, conserver Nostr manuel, puis archiver uniquement les URLs réellement publiées dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
-4. **Consolider les chantiers B-Only et replanifier la maintenance** : programme [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), audiovisuel [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), logistique [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), budget [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) et risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) restent à consolider avant le 30 septembre. La nouvelle fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119), avec Pretix gelé.
+- **Compléter les preuves Christine Jeanneaux** : six URLs publiques sont fournies ; Nostr reste à archiver uniquement si une publication publique existe.
+- **Compléter les preuves Florent Gabriel** : cinq URLs publiques sont fournies ; Blog et Nostr restent à archiver uniquement s’ils ont effectivement été publiés.
+- **Suivre Lionel Jeannerat** : Blog et une publication LinkedIn sont fournis ; contrôle global des autres liens maintenu au 28 septembre dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 
-## Décisions et mises à jour au 12 septembre 2026
+## Décisions et mises à jour consolidées
 
 ### Programme B-Only
 
@@ -60,7 +60,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
 - Renaud Lifchitz : campagne V3 publiée du 3 au 5 septembre ; les sept URLs publiques, dont Nostr publié manuellement, sont archivées et revérifiées en HTTP 200 le 11 septembre. Les métriques restent à relever dans #24.
 - Pierre Noizat : campagne intervenant V1 `PUBLIÉE / SEPT URLS ARCHIVÉES` ; les métriques restent à relever séparément par plateforme.
-- Planning actif : Christine Jeanneaux du 14 au 16 septembre est `PRÊTE À PROGRAMMER` ; Florent Gabriel est `PROGRAMMÉ` du 17 au 19 septembre avec la campagne V2 ; Lionel Jeannerat est `PRÊT À PROGRAMMER` du 21 au 23 septembre avec la campagne V2 validée. Le créneau du 24 au 26 septembre reste à cadrer ; BitVault est prévu du 26 au 28 octobre et Delphine Vincent du 29 au 31 octobre uniquement si sa participation est confirmée.
+- Planning actif : Christine Jeanneaux dispose de six URLs publiques fournies, Florent Gabriel de cinq, et Lionel Jeannerat a commencé sa diffusion avec le Blog et une publication LinkedIn. Les preuves manquantes ne doivent être archivées qu’après publication réelle. Laure Merlin est programmée du 28 au 30 septembre ; BitVault est prévu du 26 au 28 octobre et Delphine Vincent du 29 au 31 octobre uniquement si sa participation est confirmée.
 - L’inversion Lionel/quiz n’exige aucune correction de publication déjà diffusée : aucune preuve publique archivée ne contient ces deux créneaux. Toute future campagne Lionel devra reprendre le dimanche 8 novembre, 18 h 30–19 h 20 ; aucune vague dédiée au quiz n’est actuellement planifiée.
 - Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
 
@@ -91,36 +91,34 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
 - Pierre Noizat : portrait source de référence et vignette définitive classés dans Nextcloud ; les deux portraits non retenus sont archivés sans suppression.
 - Le workshop de Renaud est confirmé et public dans le programme ; sa vignette est validée et sa campagne V3 a été publiée du 3 au 5 septembre. Les sept URLs sont archivées dans la PR #133 ; les métriques restent à relever.
-- Florent Gabriel : campagne V2 `PROGRAMMÉE` du 17 au 19 septembre, avec textes, calendrier, vignette V6 et sept liens suivis actifs. Les aperçus restent à contrôler dans les outils et Nostr demeure manuel.
-- Lionel Jeannerat reste provisoire et interne au programme, désormais dimanche 8 novembre de 18 h 30 à 19 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; sa campagne V2 du 21 au 23 septembre est `PRÊTE À PROGRAMMER`, avec contenus validés et sept liens actifs. Le contrôle des comptes et aperçus reste requis ; Nostr demeure manuel.
+- Florent Gabriel : campagne V2 diffusée sur cinq canaux avec URLs fournies ; Blog et Nostr restent à confirmer avant archivage. Sa vignette V6 est validée et active.
+- Lionel Jeannerat reste provisoire et interne au programme, désormais dimanche 8 novembre de 18 h 30 à 19 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; Blog et une publication LinkedIn sont fournis, avec contrôle global des autres preuves prévu le 28 septembre.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
-- Restent notamment à obtenir : sujet de Michel Khazzaka, identité complète de Jean et confirmations des créneaux encore provisoires.
+- Restent notamment à obtenir : éléments éditoriaux de Michel Khazzaka, compléments d’Alexandre Stachtchenko et Alexis Roussel, détails pratiques de Laure Merlin, responsables du quiz et éléments opérationnels de BitVault. La date de gel du programme est fixée au 9 octobre 2026.
 
 ## Continuité des services
 
-- Les incidents serveur des 11 et 12 septembre sont résolus et le rétablissement
-  des services publics est confirmé dans [#163](https://github.com/Alpinechain/Alpinechain_Association/issues/163).
-  Les diagnostics, corrections et preuves techniques restent dans
-  [Serveur #122](https://github.com/Alpinechain/Serveur/issues/122) et
-  [Serveur #126](https://github.com/Alpinechain/Serveur/issues/126).
+- Les dix services publics contrôlés répondent en HTTP 200 au 21 septembre à 15:29 UTC ; le dernier workflow `Public Service Monitoring` est également en succès et aucune Issue d’incident public n’est ouverte.
+- L’incident de sauvegarde [Serveur #130](https://github.com/Alpinechain/Serveur/issues/130) est résolu le 21 septembre. Deux conteneurs MariaDB recréés lors de l’incident du 12 septembre conservaient un environnement obsolète ou vide pour Dolibarr et Matomo, alors que les applications utilisaient les secrets actifs corrects. Les conteneurs de base ont été recréés avec l’environnement canonique, sans modification de volume.
+- La sauvegarde complète a réussi le 21 septembre à 15:50 UTC avec le snapshot `2f4cca26`, puis le contrôle Restic sur 5 % des données a réussi à 15:51 UTC. Le rapport d’exploitation a été régénéré avec succès ; le système est `running` et aucune unité systemd n’est en échec.
+- Les 26 conteneurs sont actifs, dont les services disposant d’un healthcheck en état sain. Les disques restent sous seuil : `/` à 26 % et `/opt/podman` à 54 %. Les timers de sauvegarde, contrôle Restic, rapport d’exploitation et contrôle mensuel restent armés.
+- Une restauration ciblée depuis le snapshot `2f4cca26` a récupéré et validé les exports Dolibarr et Matomo le 21 septembre ; le dernier test de restauration représentatif complet reste celui du 27 juillet. Les répertoires temporaires de diagnostic et de restauration non chiffrés ont été retirés après contrôle.
 - La page de liens officielle `https://bio.alpinechain.xyz` est publiée depuis le 12 septembre ; son accès public et ses sept destinations ont été vérifiés dans [#164](https://github.com/Alpinechain/Alpinechain_Association/issues/164), désormais clôturée.
-- Le dispositif de sauvegarde et de restauration est opérationnel. Les contrôles
-  et résultats détaillés sont conservés dans le dépôt privé Serveur ; seule une
-  anomalie ayant un impact associatif doit être reprise ici.
-- La prochaine fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119).
-- Control Center au 11 septembre : aucun P0/P1 actif, trois éléments `En attente` (#4, #11 et #132), aucun élément `À valider`. L’ancienne revue W36 #145 est clôturée ; les actions actives restent distribuées dans leurs Issues dédiées.
+- La prochaine fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119). Le prérequis de sauvegarde est de nouveau satisfait, mais la maintenance conserve sa validation humaine distincte. Pretix reste gelé tant que l’add-on SBP / BTC Swiss Payserver n’est pas validé.
+- Sécurité au 21 septembre : aucun signal de secret manifeste dans les fichiers suivis du dépôt public, aucun Dependabot ouvert sur `Alpinechain_Association`, et les dix certificats TLS contrôlés sont valides au moins jusqu’au 21 octobre. Le dépôt Serveur compte 21 alertes Dependabot ouvertes, dont 7 de sévérité haute, avec des PR de mise à niveau déjà ouvertes ; elles doivent être arbitrées dans la maintenance contrôlée, sans appliquer automatiquement le rapport.
+- Control Center au 21 septembre : aucun P0/P1 actif, trois éléments `En attente` (#4, #11 et #132), aucun élément `À valider`. La revue W38 #167 est remplacée par la revue W39 #175 ; les actions actives restent distribuées dans leurs Issues dédiées.
 
 ## Prochaines échéances
 
 | Date | Action |
 |---|---|
-| Suivi | Relever les métriques Pierre Noizat séparément par plateforme dans #24 ; les sept URLs sont archivées |
-| 14–16 septembre | Programmer puis publier Christine Jeanneaux uniquement après validation humaine ; archiver chaque URL réellement diffusée |
-| 17–19 septembre | Surveiller la campagne Florent Gabriel programmée ; publier Nostr manuellement puis archiver uniquement les URLs réellement diffusées |
-| 21–23 septembre | Programmer Lionel Jeannerat après contrôle final des comptes et aperçus ; conserver Nostr manuel |
-| 24–26 septembre | Cadrer la respiration B-Only, billetterie, programme ou prochain intervenant prêt sans inventer de campagne |
+| Suivi | Vérifier la prochaine exécution automatique de sauvegarde après le rétablissement documenté dans Serveur #130 |
+| 24 septembre | Tenir le meetup Souveraineté 3.0 — BitVault à 19:00 au Refuge du Craic ; archiver ensuite les indicateurs et suites dans #7 |
+| 25 septembre | Effectuer la visite Novotel avec Cédric pour valider implantation, flux, stands, mobilier, électricité et contraintes de captation (#12, #25, #27, #170) |
+| 28 septembre | Contrôler et archiver uniquement les liens réellement publiés pour Lionel Jeannerat dans #24 |
+| 28–30 septembre | Suivre la campagne Laure Merlin programmée ; distinguer programmation, publication et preuves publiques |
 | Avant le 30 septembre | Consolider programme, audiovisuel, logistique, budget, risques et modèles/expédition des lots Neowalt dans les Issues pilotes |
-| À replanifier | Décider une fenêtre de maintenance sauvegardée et réversible dans Serveur #119, en tenant compte des protections mémoire déployées ; conserver Pretix gelé |
+| À replanifier | Décider une fenêtre de maintenance sauvegardée et réversible dans Serveur #119 ; arbitrer les mises à niveau de dépendances et conserver Pretix gelé |
 | 9 octobre | J-30 B-Only : faire valider le niveau de gel du programme et les dépendances logistiques, audiovisuelles, financières et de continuité |
 | 7–9 novembre | B-Only 2026 |
