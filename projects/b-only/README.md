@@ -12,6 +12,10 @@ B-Only 2026, du 7 au 9 novembre 2026 au Novotel Annecy Centre.
 
 Le portefeuille opérationnel est décrit dans [`BOARD.md`](BOARD.md) et affiché dans la [vue GitHub Project B-Only 2026](https://github.com/users/Alpinechain/projects/1/views/2).
 
+Référence commune pour les salles et l’implantation Novotel :
+
+- [`logistique/NOVOTEL-ANNECY.md`](logistique/NOVOTEL-ANNECY.md) — brochure officielle, plan PowerPoint de travail, liens Matterport et points à confirmer sur place.
+
 Les deux registres de préparation des vignettes sont :
 
 - [`INTERVENANTS.md`](INTERVENANTS.md) pour les personnes, leurs sujets et les
