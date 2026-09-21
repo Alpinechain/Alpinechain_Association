@@ -104,6 +104,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - La sauvegarde complète a réussi le 21 septembre à 15:50 UTC avec le snapshot `2f4cca26`, puis le contrôle Restic sur 5 % des données a réussi à 15:51 UTC. Le rapport d’exploitation a été régénéré avec succès ; le système est `running` et aucune unité systemd n’est en échec.
 - Les 26 conteneurs sont actifs, dont les services disposant d’un healthcheck en état sain. Les disques restent sous seuil : `/` à 26 % et `/opt/podman` à 54 %. Les timers de sauvegarde, contrôle Restic, rapport d’exploitation et contrôle mensuel restent armés.
 - Une restauration ciblée depuis le snapshot `2f4cca26` a récupéré et validé les exports Dolibarr et Matomo le 21 septembre ; le dernier test de restauration représentatif complet reste celui du 27 juillet. Les répertoires temporaires de diagnostic et de restauration non chiffrés ont été retirés après contrôle.
+- Trois contrôles Healthchecks.io distincts couvrent désormais la sauvegarde quotidienne, le contrôle Restic hebdomadaire et le rapport d'exploitation quotidien. Les trois traitements réels ont transmis un succès le 21 septembre et l'intégration email associative a été testée avec réception confirmée ; aucune URL de ping n'est conservée dans GitHub.
 - La page de liens officielle `https://bio.alpinechain.xyz` est publiée depuis le 12 septembre ; son accès public et ses sept destinations ont été vérifiés dans [#164](https://github.com/Alpinechain/Alpinechain_Association/issues/164), désormais clôturée.
 - La prochaine fenêtre de maintenance reste à décider dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119). Le prérequis de sauvegarde est de nouveau satisfait, mais la maintenance conserve sa validation humaine distincte. Pretix reste gelé tant que l’add-on SBP / BTC Swiss Payserver n’est pas validé.
 - Sécurité au 21 septembre : aucun signal de secret manifeste dans les fichiers suivis du dépôt public, aucun Dependabot ouvert sur `Alpinechain_Association`, et les dix certificats TLS contrôlés sont valides au moins jusqu’au 21 octobre. Le dépôt Serveur compte 21 alertes Dependabot ouvertes, dont 7 de sévérité haute, avec des PR de mise à niveau déjà ouvertes ; elles doivent être arbitrées dans la maintenance contrôlée, sans appliquer automatiquement le rapport.
@@ -113,7 +114,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 | Date | Action |
 |---|---|
-| Suivi | Vérifier la prochaine exécution automatique de sauvegarde après le rétablissement documenté dans Serveur #130 |
+| 22–27 septembre | Confirmer les premières exécutions planifiées sous surveillance Healthchecks.io : sauvegarde et rapport quotidiens, puis contrôle Restic hebdomadaire |
 | 24 septembre | Tenir le meetup Souveraineté 3.0 — BitVault à 19:00 au Refuge du Craic ; archiver ensuite les indicateurs et suites dans #7 |
 | 25 septembre | Effectuer la visite Novotel avec Cédric pour valider implantation, flux, stands, mobilier, électricité et contraintes de captation (#12, #25, #27, #170) |
 | 28 septembre | Contrôler et archiver uniquement les liens réellement publiés pour Lionel Jeannerat dans #24 |
