@@ -1,6 +1,6 @@
 # Registre des organisations B-Only 2026
 
-Dernière mise à jour : 2026-09-17
+Dernière mise à jour : 2026-09-22
 
 Issue sponsors : [#3 — Pipeline sponsors](https://github.com/Alpinechain/Alpinechain_Association/issues/3)  
 Issue communication : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
@@ -27,6 +27,8 @@ Les chemins Nextcloud sont relatifs à
 | Bitcoin.fr | Soutien média | Mentionné comme soutien | Relais éditorial à préciser | `01_Programme-Intervenants/Logos Participants/organisation--bitcoin-fr--logo-blanc--2023-10-13--source.svg` | À identifier | À dater | Identifier l'interlocuteur et la contrepartie attendue |
 | The Big Whale | Média potentiel | En attente | Article, publication, texte promotionnel ou participation proposés | Manquant | Raphaël Bloch | Contact initial le 2026-06-08 ; relance vue le 2026-07-22 | Attendre une réponse positive ou négative avant toute annonce |
 | BFM Crypto | Média potentiel | En attente | Participation éditoriale possible | Manquant | Sandra Gandoin | À dater | Confirmer la disponibilité et le format |
+| OUR(S) | Média potentiel | REFUSÉ | Relais éditorial proposé ; sujet jugé éloigné de la ligne éditoriale | N/A | Mathieu Ozanam | Réponse négative reçue le 2026-09-21 | Remercier pour la réponse et classer sans suite |
+| Onl'fait / MakerLab ForPro | FabLab et relais potentiel | REFUSÉ POUR LE RELAIS GÉNÉRAL ; OUVERTURE THÉMATIQUE | Pas de publication dédiée au B-Only ; possibilité de réexaminer un contenu directement lié à la fabrication numérique, à l'électronique, à l'open hardware ou à l'univers maker | N/A | Bérengère Iragne | Réponse reçue le 2026-09-22 | Présenter honnêtement l'angle possible autour du matériel de minage domestique et de la récupération de chaleur avec Fulcran ; ne déclarer aucun relais tant qu'une nouvelle réponse positive n'est pas reçue |
 | Gallion | Organisation liée | Affiliation confirmée | Organisation d'Aurore Galves, éducatrice Bitcoin, associée à sa présentation | `01_Programme-Intervenants/Logos Participants/organisation--gallion--logo--2026-07-19--source.jpg` | Aurore Galves | Fonction et organisation confirmées le 2026-08-05 | Employer cette affiliation dans la campagne intervenante ; aucune communication organisation dédiée n'est validée à ce stade |
 | Blobb.io | Organisation liée | Affiliation confirmée | Organisation de Florent Gabriel, associée à sa présentation sur l’IA et Bitcoin | Deux sources reçues le 2026-09-01 : `01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-noir-jaune--2026-09-01--source.png` et `organisation--blobb-io--logo-contour--2026-09-01--source.png` | Florent Gabriel, CEO et cofondateur | Titre exact, angle, campagne intervenant V1 et vignette V6 validés le 2026-09-11 ; sept liens suivis actifs | Confirmer les droits/crédit du portrait et la visibilité publique avant programmation ; aucune communication organisation dédiée n’est décidée |
 | WeSatoshis | Organisation liée | À confirmer | Workshop possible | Manquant | Noé | À dater | Confirmer l'affiliation et obtenir le logo |
