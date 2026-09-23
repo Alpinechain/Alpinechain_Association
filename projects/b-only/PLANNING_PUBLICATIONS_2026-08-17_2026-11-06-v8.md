@@ -1,8 +1,12 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V9
-Date : 2026-09-19
+Version : V10
+Date : 2026-09-23
 Fuseau : Europe/Paris
+
+Les fenêtres passées sont conservées pour la traçabilité. Leur statut repose
+sur les preuves publiques enregistrées dans l'Issue #24, et non sur la seule
+date prévue du calendrier.
 
 ## Principe de cadence
 
@@ -19,9 +23,9 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 
 | Dates | Campagne | Statut |
 |---|---|---|
-| 14–16 septembre | Christine Jeanneaux — « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | DIFFUSION PASSÉE / À ARCHIVER |
-| 17–19 septembre | Florent Gabriel — « L’IA est-elle en train de sauver ou de tuer Bitcoin ? » | PROGRAMMÉ — campagne V2 |
-| 21–23 septembre | Lionel Jeannerat — « Bitcoin pour les Copain.e.s » | PRÊT À PROGRAMMER — campagne V2 validée |
+| 14–16 septembre | Christine Jeanneaux — « Et si on comptait les moutons ? — Anatomie d’un mimétisme autour de Bitcoin » | PUBLIÉE — six URLs publiques fournies ; Nostr à archiver uniquement sur preuve |
+| 17–19 septembre | Florent Gabriel — « L’IA est-elle en train de sauver ou de tuer Bitcoin ? » | PUBLIÉE — cinq URLs publiques fournies ; Blog et Nostr à archiver uniquement sur preuve |
+| 21–23 septembre | Lionel Jeannerat — « Bitcoin pour les Copain.e.s » | DIFFUSION EN COURS — Blog et une publication LinkedIn fournis ; contrôle global le 28 septembre |
 | 24–26 septembre | Nicolas Cantu — « Lire les dégâts de l’impression monétaire dans les sols. » | PROGRAMMÉ — campagne V2 |
 | 27 septembre | Publication complémentaire B-Only | À CADRER |
 | 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | PROGRAMMÉ — campagne V1 enrichie validée |
@@ -44,7 +48,24 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 
 ## Priorité de production immédiate
 
-1. **BitVault / Loïc Ruchat-Leuthardt**
+1. **Lionel Jeannerat**
+   - terminer la fenêtre du 21 au 23 septembre sans déduire une publication de
+     la seule programmation ;
+   - conserver Nostr en publication manuelle ;
+   - contrôler et archiver les preuves publiques manquantes le 28 septembre.
+
+2. **Nicolas Cantu**
+   - exécuter la campagne V2 programmée du 24 au 26 septembre ;
+   - conserver Nostr en publication manuelle ;
+   - archiver uniquement les URLs réellement publiées.
+
+3. **Laure Merlin**
+   - surveiller la campagne programmée du 28 au 30 septembre ;
+   - conserver Nostr en publication manuelle ;
+   - traiter séparément la décision logistique sur une éventuelle réservation
+     de l'atelier.
+
+4. **BitVault / Loïc Ruchat-Leuthardt**
    - créer le dossier de campagne dédié ;
    - exploiter le sujet confirmé « Posséder ses bitcoins en toute sécurité » ;
    - préparer les contenus multicanaux ;
@@ -52,7 +73,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
    - créer les liens suivis ;
    - créer le calendrier 1er–3 octobre.
 
-2. **Puis, dans cet ordre**
+5. **Puis, dans cet ordre**
    - Noé / WeSatoshis ;
    - Michel Khazzaka ;
    - Alexis Roussel ;
@@ -64,7 +85,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 - contenus : `campaigns/lionel-jeannerat/contenus-multicanaux-v2.md`
 - calendrier : `campaigns/lionel-jeannerat/calendrier-diffusion-v2.csv`
 - vignette validée : `03_Communication/Vignettes/Intervenants/vignette--lionel-jeannerat--bitcoin-pour-les-copain-e-s--2026-09-11--valide.png`
-- statut : **PRÊT À PROGRAMMER**
+- statut : **DIFFUSION EN COURS — Blog et une publication LinkedIn fournis ; contrôle global le 28 septembre**
 - Nostr reste manuel.
 
 ## Planning Lionel — 21 au 23 septembre
@@ -90,7 +111,13 @@ Lionel :
 - `campaigns/lionel-jeannerat/calendrier-diffusion-v2.csv`
 
 Nicolas :
-- `campaigns/nicolas-cantu/contenus-multicanaux-v1.md`
+- `campaigns/nicolas-cantu/contenus-multicanaux-v2.md`
+- `campaigns/nicolas-cantu/calendrier-diffusion-v2.csv`
 - `campaigns/nicolas-cantu/campaign-links-v1.csv`
+
+Laure :
+- `campaigns/laure-merlin/contenus-multicanaux-v1.md`
+- `campaigns/laure-merlin/calendrier-diffusion-v1.csv`
+- `campaigns/laure-merlin/campaign-links-v1.csv`
 
 Les versions antérieures restent archivées et ne doivent pas être programmées en parallèle.
