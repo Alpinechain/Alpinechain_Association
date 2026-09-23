@@ -39,10 +39,10 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Alexandre Stachtchenko et Alexis Roussel échangent leurs créneaux : Alexandre est confirmé et rendu public samedi 7 novembre de 15 h à 15 h 50 sous le libellé provisoire « Responsable Stratégie - Bitstack », sans révéler le titre de sa présentation ; Alexis reste lundi 9 novembre de 11 h à 11 h 50.
 - Sandra Gandoin est indisponible pour l’édition 2026. Son ancien créneau du dimanche à 16 h 30 est proposé à Delphine Vincent, au statut `option/internal` dans l’attente de sa réponse et de ses éléments éditoriaux.
 - Aurore Galves et les six interventions ProfEduStream confirmées ont été rendues publiques dans le programme par les PR #129 et #135.
-- La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et Lionel Jeannerat dimanche 8 novembre de 18 h 30 à 19 h 20, en salle principale. Les deux entrées restent `reserved/internal`.
+- La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et reste `reserved/internal`. Lionel Jeannerat est confirmé et rendu public dimanche 8 novembre de 18 h 30 à 19 h 20, en salle principale, après le début de sa campagne publique le 21 septembre.
 - Le workshop Specter de Schnuartz est remplacé par « Atelier Bitcoin Lego » avec Laure Merlin, dimanche 8 novembre de 18 h à 18 h 50 au Pleb Forum. Le créneau est `confirmed/public` depuis le 2026-09-06 ; ses détails pratiques et besoins techniques restent à finaliser.
 - Le Cercle du Coin intervient désormais lundi 9 novembre de 9 h à 10 h avec Laure Merlin : présentation du Cercle pendant 10 à 15 minutes, puis keynote « Comment faire communauté » pendant 30 à 35 minutes. Le créneau reste `confirmed/public`.
-- La source contient 30 entrées, dont 1 annulée conservée pour audit. Les 29 entrées actives comprennent 17 `confirmed`, dont 14 publiques ; 2 entrées fixes publiques, 1 option interne et 9 réservations internes.
+- La source contient 30 entrées, dont 1 annulée conservée pour audit. Les 29 entrées actives comprennent 20 `confirmed`, dont 18 publiques ; 2 entrées fixes publiques, 1 option interne et 6 réservations internes.
 - Le programme reste en état `draft` : la source est publiée, mais les créneaux non confirmés restent provisoires.
 
 ### Communication
@@ -92,7 +92,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Pierre Noizat : portrait source de référence et vignette définitive classés dans Nextcloud ; les deux portraits non retenus sont archivés sans suppression.
 - Le workshop de Renaud est confirmé et public dans le programme ; sa vignette est validée et sa campagne V3 a été publiée du 3 au 5 septembre. Les sept URLs sont archivées dans la PR #133 ; les métriques restent à relever.
 - Florent Gabriel : campagne V2 diffusée sur cinq canaux avec URLs fournies ; Blog et Nostr restent à confirmer avant archivage. Sa vignette V6 est validée et active.
-- Lionel Jeannerat reste provisoire et interne au programme, désormais dimanche 8 novembre de 18 h 30 à 19 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; Blog et une publication LinkedIn sont fournis, avec contrôle global des autres preuves prévu le 28 septembre.
+- Lionel Jeannerat est `confirmed/public` dans le programme, dimanche 8 novembre de 18 h 30 à 19 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; Blog et une publication LinkedIn sont fournis, avec contrôle global des autres preuves prévu le 28 septembre.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
 - Restent notamment à obtenir : éléments éditoriaux de Michel Khazzaka, compléments d’Alexandre Stachtchenko et Alexis Roussel, détails pratiques de Laure Merlin, responsables du quiz et éléments opérationnels de BitVault. La date de gel du programme est fixée au 9 octobre 2026.
