@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-09-21
+Date de dernière mise à jour : 2026-09-29
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -36,7 +36,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Pierre Noizat : titre, synopsis et créneau `confirmed/public` confirmés ; portrait choisi normalisé et deux variantes non retenues archivées le 14 août ; vignette définitive validée active.
 - Le workshop initialement prévu avec Jean est abandonné pour 2026. BitVault / Loïc Ruchat-Leuthardt reprend le créneau du samedi 7 novembre de 15 h 30 à 16 h 20 au Pleb Forum sous le titre « Posséder ses bitcoins en toute sécurité » ; la participation et le créneau sont confirmés, mais la session reste interne tant que les éléments opérationnels manquants ne sont pas consolidés.
 - Michel Khazzaka prend le créneau de lundi 9 novembre de 10 h à 10 h 50 en salle principale.
-- Alexandre Stachtchenko et Alexis Roussel échangent leurs créneaux : Alexandre est confirmé et rendu public samedi 7 novembre de 15 h à 15 h 50 sous le libellé provisoire « Responsable Stratégie - Bitstack », sans révéler le titre de sa présentation ; Alexis reste lundi 9 novembre de 11 h à 11 h 50.
+- Alexandre Stachtchenko est confirmé et public samedi 7 novembre de 15 h à 15 h 50 avec le titre « La Femme est l'avenir de Bitcoin ». Son angle éditorial porte sur les enseignements des baromètres d'adoption de Bitcoin en Espagne, Italie et France, avec un focus sur la place des femmes ; campagne V1 préparée le 29 septembre, vignette et liens suivis à finaliser.
 - Sandra Gandoin est indisponible pour l’édition 2026. Son ancien créneau du dimanche à 16 h 30 est proposé à Delphine Vincent, au statut `option/internal` dans l’attente de sa réponse et de ses éléments éditoriaux.
 - Aurore Galves et les six interventions ProfEduStream confirmées ont été rendues publiques dans le programme par les PR #129 et #135.
 - La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et reste `reserved/internal`. Lionel Jeannerat est confirmé et rendu public dimanche 8 novembre de 18 h 30 à 19 h 20, en salle principale, après le début de sa campagne publique le 21 septembre.
@@ -60,7 +60,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
 - Renaud Lifchitz : campagne V3 publiée du 3 au 5 septembre ; les sept URLs publiques, dont Nostr publié manuellement, sont archivées et revérifiées en HTTP 200 le 11 septembre. Les métriques restent à relever dans #24.
 - Pierre Noizat : campagne intervenant V1 `PUBLIÉE / SEPT URLS ARCHIVÉES` ; les métriques restent à relever séparément par plateforme.
-- Planning actif : Christine Jeanneaux dispose de six URLs publiques fournies, Florent Gabriel de cinq, et Lionel Jeannerat a commencé sa diffusion avec le Blog et une publication LinkedIn. Les preuves manquantes ne doivent être archivées qu’après publication réelle. Laure Merlin est programmée du 28 au 30 septembre ; BitVault est prévu du 26 au 28 octobre et Delphine Vincent du 29 au 31 octobre uniquement si sa participation est confirmée.
+- Planning actif : Christine Jeanneaux dispose de six URLs publiques fournies, Florent Gabriel de cinq, et Lionel Jeannerat a commencé sa diffusion avec le Blog et une publication LinkedIn. Les preuves manquantes ne doivent être archivées qu’après publication réelle. Laure Merlin est programmée du 28 au 30 septembre. La campagne Alexandre Stachtchenko est proposée du 1er au 3 octobre, sous réserve de vignette, liens suivis et validation humaine ; BitVault est repositionné plus tard en octobre.
 - L’inversion Lionel/quiz n’exige aucune correction de publication déjà diffusée : aucune preuve publique archivée ne contient ces deux créneaux. Toute future campagne Lionel devra reprendre le dimanche 8 novembre, 18 h 30–19 h 20 ; aucune vague dédiée au quiz n’est actuellement planifiée.
 - Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
 
@@ -95,7 +95,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Lionel Jeannerat est `confirmed/public` dans le programme, dimanche 8 novembre de 18 h 30 à 19 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; Blog et une publication LinkedIn sont fournis, avec contrôle global des autres preuves prévu le 28 septembre.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
-- Restent notamment à obtenir : éléments éditoriaux de Michel Khazzaka, compléments d’Alexandre Stachtchenko et Alexis Roussel, détails pratiques de Laure Merlin, responsables du quiz et éléments opérationnels de BitVault. La date de gel du programme est fixée au 9 octobre 2026.
+- Restent notamment à obtenir : éléments éditoriaux de Michel Khazzaka et Alexis Roussel, résultats chiffrés publiables et droits portrait d’Alexandre Stachtchenko, détails pratiques de Laure Merlin, responsables du quiz et éléments opérationnels de BitVault. La date de gel du programme est fixée au 9 octobre 2026.
 
 ## Continuité des services
 
@@ -119,6 +119,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 | 25 septembre | Effectuer la visite Novotel avec Cédric pour valider implantation, flux, stands, mobilier, électricité et contraintes de captation (#12, #25, #27, #170) |
 | 28 septembre | Contrôler et archiver uniquement les liens réellement publiés pour Lionel Jeannerat dans #24 |
 | 28–30 septembre | Suivre la campagne Laure Merlin programmée ; distinguer programmation, publication et preuves publiques |
+| 29–30 septembre | Finaliser vignette, liens suivis et relecture de la campagne Alexandre Stachtchenko pour une fenêtre proposée du 1er au 3 octobre |
 | Avant le 30 septembre | Consolider programme, audiovisuel, logistique, budget, risques et modèles/expédition des lots Neowalt dans les Issues pilotes |
 | À replanifier | Décider une fenêtre de maintenance sauvegardée et réversible dans Serveur #119 ; arbitrer les mises à niveau de dépendances et conserver Pretix gelé |
 | 9 octobre | J-30 B-Only : faire valider le niveau de gel du programme et les dépendances logistiques, audiovisuelles, financières et de continuité |
