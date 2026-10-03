@@ -1,0 +1,8 @@
+jour_relatif,date,time,timezone,channel,account,content_file,status,notes,short_url
+J1,2026-10-07,08:00,Europe/Paris,Blog,AlpineChain,article-long-v1.md,À RELIRE,Article long V1 à valider avant programmation,https://go.alpinechain.xyz/b26-mf-blog
+J1,2026-10-07,18:15,Europe/Paris,LinkedIn,AlpineChain,contenus-multicanaux-v2.md,À RELIRE,,https://go.alpinechain.xyz/b26-mf-li-ac
+J2,2026-10-08,08:15,Europe/Paris,LinkedIn,Annecy Bitcoin Meetup,contenus-multicanaux-v2.md,À RELIRE,,https://go.alpinechain.xyz/b26-mf-li-abm
+J2,2026-10-08,18:15,Europe/Paris,X,AlpineChain,contenus-multicanaux-v2.md,À RELIRE,Contrôler longueur finale URL comprise,https://go.alpinechain.xyz/b26-mf-x
+J3,2026-10-09,12:15,Europe/Paris,Nostr,AlpineChain,contenus-multicanaux-v2.md,À RELIRE,Publication manuelle,https://go.alpinechain.xyz/b26-mf-nostr
+J3,2026-10-09,18:30,Europe/Paris,Facebook,B-Only,contenus-multicanaux-v2.md,À RELIRE,,https://go.alpinechain.xyz/b26-mf-fb
+J3,2026-10-09,20:00,Europe/Paris,Instagram,B-Only,contenus-multicanaux-v2.md,À RELIRE,Lien suivi en bio ou sticker à contrôler,https://go.alpinechain.xyz/b26-mf-ig

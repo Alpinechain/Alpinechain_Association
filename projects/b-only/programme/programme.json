@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-10-03T14:15:07Z",
+    "updatedAt": "2026-10-03T14:55:00Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -35,7 +35,7 @@
     {"id":"sun-main-pierre","date":"2026-11-08","start":"09:30","end":"10:20","room":"main","status":"confirmed","visibility":"public","title":"Energie, monnaie et civilisation","speakers":["Pierre Noizat"],"format":"Présentation de 20 minutes et questions","notes":"De Lavoisier à Satoshi, une exploration des liens entre énergie, monnaie et civilisation, face aux détournements de l’écologie politique et aux bouleversements introduits par Bitcoin."},
     {"id":"sun-workshop-meetup-organizers","date":"2026-11-08","start":"10:00","end":"10:50","room":"workshop","status":"confirmed","visibility":"public","title":"Communautés francophones","speakers":["ProfEduStream","Copinmalin"],"format":"Point de situation des organisateurs de Meetup","notes":"Réunion trimestrielle pour partager les expériences des organisateurs de Meetup. Créneau attribué le 2026-08-23."},
     {"id":"sun-main-elodie-mobile-money","date":"2026-11-08","start":"10:30","end":"11:20","room":"main","status":"confirmed","visibility":"public","title":"Quand Bitcoin rencontre le mobile money","speakers":["Élodie Lué"],"format":"Présentation et questions","notes":""},
-    {"id":"sun-workshop-marius","date":"2026-11-08","start":"11:00","end":"11:50","room":"workshop","status":"reserved","visibility":"internal","title":"Ark et solutions de seconde couche","speakers":["Marius Farashi"],"format":"Workshop","notes":"Titre et contenu définitifs à confirmer."},
+    {"id":"sun-workshop-marius","date":"2026-11-08","start":"11:00","end":"11:50","room":"workshop","status":"reserved","visibility":"internal","title":"Vous posséderez vos UTXO et vous serez heureux","speakers":["Marius Farashi"],"format":"Workshop sur Ark","notes":"À l’heure où la self-custody de Bitcoin est abandonnée par les « nouveaux Bitcoiners », nous devons mettre l’accent sur les solutions de dépense et de détention de nos satoshis qui ne permettent pas à un tiers de nous en déposséder. Quand il s’agit de dépenser nos bitcoins, nous avons aujourd’hui 2 solutions : gérer nos propres canaux Lightning ou déléguer nos signatures à un tiers. Ark tente de répondre à cette problématique."},
     {"id":"sun-lunch","date":"2026-11-08","start":"12:00","end":"13:50","room":"main","status":"fixed","visibility":"public","title":"Pause déjeuner","speakers":[],"format":"Pause","notes":"Pause commune."},
     {"id":"sun-main-aurore","date":"2026-11-08","start":"14:00","end":"14:50","room":"main","status":"confirmed","visibility":"public","title":"Have Fun Staying Fun — Les mèmes, le langage de la révolution monétaire","speakers":["Aurore Galves"],"format":"Présentation et questions","notes":"Titre, portrait, fonction d'éducatrice Bitcoin, organisation Gallion, vignette et campagne V1 validés le 2026-08-05."},
     {"id":"sun-workshop-elodie-lightning","date":"2026-11-08","start":"14:30","end":"15:20","room":"workshop","status":"confirmed","visibility":"public","title":"Paiements via Lightning Network","speakers":["Élodie Lué"],"format":"Workshop et équipement en direct","notes":"Modalités de participation des commerçants à préciser."},
