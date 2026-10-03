@@ -94,7 +94,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 - Pierre Noizat — source 2026 + vignette définitive validée.
 - Aurore Galves Orjol — portrait 2026 + vignette validée.
 - Alexandre Stachtchenko — portrait historique disponible.
-- Marius Farashi Tasooji — nouveau portrait source fourni le 2026-10-03 et classé dans Nextcloud ; vignette proposée, à valider. Voir `campaigns/marius-farashi/README.md`.
+- Marius Farashi Tasooji — nouveau portrait source fourni le 2026-10-03 et classé dans Nextcloud ; vignette validée le 2026-10-03. Voir `campaigns/marius-farashi/README.md`.
 - Renaud Lifchitz — portrait officiel 2026 + vignette validée.
 - Nicolas Cantu — portrait 2026 + vignette validée.
 - ProfEduStream — portrait 2026 + vignettes validées.

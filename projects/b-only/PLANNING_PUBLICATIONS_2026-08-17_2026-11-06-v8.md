@@ -49,8 +49,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 ## Campagne préparée — fenêtre à attribuer
 
 Marius Farashi — **« Vous posséderez vos UTXO et vous serez heureux »**, Workshop sur Ark :
-textes V1 **PRÊT À RELIRE**, portrait source classé et vignette proposée le
-3 octobre. Voir [le dossier de campagne](campaigns/marius-farashi/README.md).
+textes V1 et vignette **VALIDÉS** par Cyrille le 3 octobre ; portrait source classé. Voir [le dossier de campagne](campaigns/marius-farashi/README.md).
 La fenêtre des 28–30 septembre figurant dans les anciennes versions est
 remplacée par Laure dans le planning actif : aucune date de diffusion Marius
 n’est arrêtée. Choisir une vague disponible après validation, sans déplacer

@@ -1,7 +1,9 @@
 # Campagne Marius Farashi — Workshop sur Ark
 
 Date : 2026-10-03
-Statut : **PRÊT À RELIRE**
+Statut : **VALIDÉ — textes et vignette ; fenêtre de diffusion à attribuer**
+
+Validation de Cyrille : « OK » dans la conversation du 3 octobre 2026.
 Suivi dédié : [#184](https://github.com/Alpinechain/Alpinechain_Association/issues/184).
 Pilotes : #11 pour le programme, #24 pour la communication.
 
@@ -39,9 +41,11 @@ Chemins relatifs à `Association/Action - Initiatives/B-Only/2026/` :
 - vignette : `03_Communication/Vignettes/Intervenants/vignette--marius-farashi--utxo-ark--2026-10-03--proposition.png`.
 
 Portrait fourni explicitement pour cette vignette : **SOURCE DISPONIBLE**.
-Vignette carrée produite à partir du modèle Laure Merlin : **VISUEL PRODUIT — À VALIDER**.
+Vignette carrée produite à partir du modèle Laure Merlin : **VISUEL VALIDÉ**.
 Le contrôle visuel confirme la présence du nom, du titre complet et du portrait
-fourni ; l’acceptation graphique reste humaine.
+fourni ; la vignette a été validée par Cyrille le 3 octobre 2026.
+Le fichier conserve son nom `--proposition.png` pour préserver la référence
+exacte du visuel relu ; sa validation est enregistrée ici.
 
 Dépôt effectué sans écrasement ; taille et SHA-256 comparés après écriture,
 scan Nextcloud terminé sans erreur le 3 octobre 2026 :
@@ -49,13 +53,13 @@ scan Nextcloud terminé sans erreur le 3 octobre 2026 :
 | Ressource | Taille | SHA-256 |
 |---|---:|---|
 | Portrait original | 349742 octets | `1881727311f477b0b784707dfb9d3afb57e97327d45e3eb50d7f4b41340c944e` |
-| Vignette proposée | 1761286 octets | `6b35ddb080c83972fe3663b147f585010b9c67118b497215a3c17b5afa28d099` |
+| Vignette validée | 1761286 octets | `6b35ddb080c83972fe3663b147f585010b9c67118b497215a3c17b5afa28d099` |
 
 ## Avant programmation
 
 - [x] titre, synopsis et portrait reçus et enregistrés ;
 - [x] textes préparés, vignette proposée et classée dans Nextcloud ;
-- [ ] valider les textes et la vignette ;
+- [x] textes et vignette validés par Cyrille le 3 octobre 2026 ;
 - [ ] confirmer la participation et compléter les prérequis / besoins techniques ;
 - [ ] fixer la fenêtre de diffusion sans concurrence sur les mêmes comptes ;
 - [ ] contrôler les droits de diffusion, les comptes et les aperçus ;

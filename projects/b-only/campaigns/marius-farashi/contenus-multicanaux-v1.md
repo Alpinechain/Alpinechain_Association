@@ -1,6 +1,6 @@
 # Marius Farashi — contenus multicanaux V1
 
-Date : 2026-10-03 — **PRÊT À RELIRE**
+Date : 2026-10-03 — **VALIDÉ par Cyrille — textes et vignette**
 
 Titre de l’intervention : **Vous posséderez vos UTXO et vous serez heureux**
 Format : **Workshop sur Ark**
@@ -113,5 +113,5 @@ Vignette B-Only’26 sur fond ivoire, noir et orange. À droite, portrait souria
 - CTA : billet B-Only, sans prétendre qu’il réserve une place dédiée à l’atelier.
 - Instagram : placer effectivement le lien en bio ou en sticker avant diffusion.
 - Nostr : même texte long que le Blog, publication manuelle.
-- X : une idée, une question concrète et un CTA ; moins de 240 caractères, URL comprise. Grille du guide : 9/10, point « compréhensible hors bulle Bitcoin » à renforcer si le public visé devient débutant ; validation humaine encore requise.
-- Textes, vignette, droits de diffusion et fenêtre de campagne à valider selon le README.
+- X : une idée, une question concrète et un CTA ; moins de 240 caractères, URL comprise. Grille du guide : 9/10, point « compréhensible hors bulle Bitcoin » à renforcer si le public visé devient débutant ; validation éditoriale de Cyrille enregistrée le 3 octobre 2026.
+- Textes et vignette validés ; droits de diffusion, comptes, aperçus et fenêtre de campagne restent à contrôler selon le README.
