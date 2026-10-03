@@ -24,6 +24,8 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Suivis de communication actuels
 
+- **Séquence confirmée le 3 octobre** : Alexandre lancé à la place de BitVault ; Marius à partir du mercredi 7 octobre (textes V2 à relire), puis BitVault, Noé, Frédéric, Alexis et Thomas dans les fenêtres réservées du planning. Vérifier la fin réelle d’Alexandre avant Marius ; aucune programmation automatique.
+
 - **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.
 - **Compléter les preuves Christine Jeanneaux** : six URLs publiques sont fournies ; Nostr reste à archiver uniquement si une publication publique existe.
 - **Compléter les preuves Florent Gabriel** : cinq URLs publiques sont fournies ; Blog et Nostr restent à archiver uniquement s’ils ont effectivement été publiés.
