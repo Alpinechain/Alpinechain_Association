@@ -1,6 +1,6 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V14
+Version : V15
 Date : 2026-10-03
 Fuseau : Europe/Paris
 
@@ -32,7 +32,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 1er–3 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE |
 | 4 octobre | Publication complémentaire B-Only | À CADRER |
 | À replanifier — ancienne fenêtre 5–7 octobre | Noé / WeSatoshis | À COMPLÉTER — ne pas programmer en concurrence avec Marius |
-| 7–9 octobre | Marius Farashi — « Vous posséderez vos UTXO et vous serez heureux » | PRÊT À PROGRAMMER — textes et vignette validés ; sept liens suivis actifs |
+| 7–9 octobre | Marius Farashi — « Vous posséderez vos UTXO et vous serez heureux » | À RELIRE — article long V1 et posts V2 proposés ; vignette validée ; sept liens suivis actifs |
 | À replanifier — ancienne fenêtre 8–10 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | À PRODUIRE — créneau confirmé en interne ; éléments éditoriaux et visuels à consolider |
 | 11 octobre | Publication complémentaire B-Only | À CADRER |
 | 12–14 octobre | Alexis Roussel | À COMPLÉTER |
@@ -142,3 +142,11 @@ Laure :
 - `campaigns/laure-merlin/campaign-links-v1.csv`
 
 Les versions antérieures restent archivées et ne doivent pas être programmées en parallèle.
+
+
+## Alexandre Stachtchenko — préparation confirmée le 3 octobre
+
+- Titre : « La Femme est l'avenir de Bitcoin ».
+- Communications préparées, portrait et vignette V3 classés dans Nextcloud.
+- La fenêtre du 1er au 3 octobre de la PR #182 était une proposition ; aucune programmation ni publication n'est attestée par cette préparation.
+- La date de diffusion reste à confirmer dans #24 ; les fenêtres des autres campagnes sont conservées.
