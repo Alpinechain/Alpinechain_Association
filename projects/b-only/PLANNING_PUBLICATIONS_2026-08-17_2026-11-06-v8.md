@@ -1,7 +1,7 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V10
-Date : 2026-09-29
+Version : V12
+Date : 2026-10-03
 Fuseau : Europe/Paris
 
 Les fenêtres passées sont conservées pour la traçabilité. Leur statut repose
@@ -29,16 +29,16 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 24–26 septembre | Nicolas Cantu — « Lire les dégâts de l’impression monétaire dans les sols. » | PROGRAMMÉ — campagne V2 |
 | 27 septembre | Publication complémentaire B-Only | À CADRER |
 | 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | PROGRAMMÉ — campagne V1 enrichie validée |
-| 1er–3 octobre | Alexandre Stachtchenko — « La Femme est l'avenir de Bitcoin » | PRÊT À RELIRE — textes V1 prêts ; vignette et liens suivis à finaliser |
+| 1er–3 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE |
 | 4 octobre | Publication complémentaire B-Only | À CADRER |
 | 5–7 octobre | Noé / WeSatoshis | À COMPLÉTER |
-| 8–10 octobre | Michel Khazzaka | À COMPLÉTER |
+| 8–10 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | À PRODUIRE — créneau confirmé en interne ; éléments éditoriaux et visuels à consolider |
 | 11 octobre | Publication complémentaire B-Only | À CADRER |
 | 12–14 octobre | Alexis Roussel | À COMPLÉTER |
-| 15–17 octobre | Delphine Vincent | EN ATTENTE — diffuser uniquement si participation confirmée |
+| 15–17 octobre | Thomas Mang | À PRODUIRE — créneau confirmé en interne lundi 9 novembre à 10 h ; titre définitif et éléments éditoriaux à consolider |
 | 18 octobre | Publication complémentaire B-Only | À CADRER |
 | 19–21 octobre | Rappel des workshops pratiques | À CADRER |
-| 22–24 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE — repositionné pour laisser la priorité à Alexandre |
+| 22–24 octobre | Créneau intervenant / programme suivant prêt | À RÉATTRIBUER |
 | 25 octobre | Publication complémentaire B-Only | À CADRER |
 | 26–28 octobre | Campagne programme / partenaire / intervenant disponible | À RÉATTRIBUER |
 | 29–31 octobre | Rappel billetterie + programme | À CADRER |
@@ -65,23 +65,20 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
    - traiter séparément la décision logistique sur une éventuelle réservation
      de l'atelier.
 
-4. **Alexandre Stachtchenko**
-   - relire les contenus V1 autour de « La Femme est l'avenir de Bitcoin » ;
-   - produire et valider la vignette à partir du portrait historique ou d'une nouvelle photo ;
-   - créer et vérifier les liens suivis ;
-   - compléter uniquement avec les résultats chiffrés des baromètres explicitement validés ;
-   - viser la fenêtre du 1er au 3 octobre après validation humaine.
+4. **BitVault / Loïc Ruchat-Leuthardt**
+   - créer le dossier de campagne dédié ;
+   - exploiter le sujet confirmé « Posséder ses bitcoins en toute sécurité » ;
+   - préparer les contenus multicanaux ;
+   - produire / valider la vignette ;
+   - créer les liens suivis ;
+   - créer le calendrier 1er–3 octobre.
 
-5. **BitVault / Loïc Ruchat-Leuthardt**
-   - conserver la campagne à produire ;
-   - la repositionner provisoirement du 22 au 24 octobre ;
-   - ne pas bloquer une campagne intervenant déjà prête.
-
-6. **Puis, dans cet ordre**
+5. **Puis, dans cet ordre**
    - Noé / WeSatoshis ;
-   - Michel Khazzaka ;
+   - Frédéric Jollien ;
    - Alexis Roussel ;
-   - Delphine Vincent uniquement après confirmation ;
+   - Thomas Mang ;
+   - Michel Khazzaka reste en option sans créneau ;
    - autres campagnes programme / workshops prêtes.
 
 ## Lionel Jeannerat — version active
@@ -119,14 +116,16 @@ Nicolas :
 - `campaigns/nicolas-cantu/calendrier-diffusion-v2.csv`
 - `campaigns/nicolas-cantu/campaign-links-v1.csv`
 
-Alexandre :
-- `campaigns/alexandre-stachtchenko/contenus-multicanaux-v1.md`
-- `campaigns/alexandre-stachtchenko/calendrier-diffusion-v1.csv`
-- `campaigns/alexandre-stachtchenko/brief-vignette-v1.md`
-
 Laure :
 - `campaigns/laure-merlin/contenus-multicanaux-v1.md`
 - `campaigns/laure-merlin/calendrier-diffusion-v1.csv`
 - `campaigns/laure-merlin/campaign-links-v1.csv`
 
 Les versions antérieures restent archivées et ne doivent pas être programmées en parallèle.
+
+## Alexandre Stachtchenko — préparation confirmée le 3 octobre
+
+- Titre : « La Femme est l'avenir de Bitcoin ».
+- Communications préparées, portrait et vignette V3 classés dans Nextcloud.
+- La fenêtre du 1er au 3 octobre de la PR #182 était une proposition ; aucune programmation ni publication n'est attestée par cette préparation.
+- La date de diffusion reste à confirmer dans #24 ; les fenêtres des autres campagnes sont conservées.

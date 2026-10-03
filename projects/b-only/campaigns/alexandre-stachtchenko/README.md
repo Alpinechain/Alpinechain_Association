@@ -14,7 +14,9 @@ Créneau programme : **samedi 7 novembre 2026, 15:00–15:50, scène principale*
 
 **PRÊT À RELIRE — vignette V3 produite et classée dans Nextcloud ; validation du visuel, liens suivis et droits portrait à finaliser avant programmation.**
 
-Fenêtre éditoriale proposée : **1er–3 octobre 2026**, en remplacement de la vague BitVault encore à produire. Toute programmation reste soumise à validation humaine.
+Préparation des communications confirmée par Cyrille le **3 octobre 2026**, avec autorisation de mettre à jour le programme et de fusionner la PR #182.
+
+La fenêtre **1er–3 octobre 2026** du calendrier V1 est une proposition historique, à replanifier dans #24. Elle ne constitue pas une preuve de programmation ni de publication. Les créneaux des autres campagnes sont conservés.
 
 ## Références
 
