@@ -31,7 +31,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | PROGRAMMÉ — campagne V1 enrichie validée |
 | Lancée le 3 octobre — fin à confirmer | Alexandre Stachtchenko — « La Femme est l'avenir de Bitcoin » | DIFFUSION EN COURS — lancement confirmé par Cyrille ; URLs à archiver |
 | 4–6 octobre | Suite de la campagne Alexandre | ÉVITER une nouvelle vague intervenant avant Marius ; vérifier les horaires effectivement programmés |
-| 7–9 octobre | Marius Farashi — « Vous posséderez vos UTXO et vous serez heureux » | À RELIRE — article long V1 et posts V2 proposés ; vignette validée ; sept liens suivis actifs |
+| 7–9 octobre | Marius Farashi — « Vous posséderez vos UTXO et vous serez heureux » | PRÊT À PROGRAMMER — article long V1 et posts V2 validés par Cyrille le 3 octobre ; vignette validée ; sept liens suivis actifs |
 | 11 octobre | Publication complémentaire B-Only | À CADRER |
 | 12–14 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE — fenêtre réservée, sous réserve de préparation et validation |
 | 15–17 octobre | Noé / WeSatoshis | À COMPLÉTER — fenêtre réservée |
@@ -49,9 +49,9 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 
 Démarrage mercredi 7 octobre demandé par Cyrille le 3 octobre. Vignette
 validée, sept liens Pretix / Shlink actifs et vérifiés. Les nouveaux textes V2
-et l'article long V1 restent **À RELIRE** avant programmation :
+et l'article long V1 sont **VALIDÉS PAR CYRILLE / PRÊT À PROGRAMMER** :
 [calendrier détaillé V2](campaigns/marius-farashi/calendrier-diffusion-v2.csv).
-La V1 était validée ; la V2 proposée ne vaut pas validation automatique.
+Validation humaine de la V2 et de l’article long enregistrée le 3 octobre.
 Aucun envoi ni programmation effectués par l’agent.
 
 Les anciennes fenêtres Noé (5–7 octobre) et Frédéric (8–10 octobre)
@@ -75,8 +75,8 @@ et reste manuel. Contrôler les comptes et aperçus avant programmation.
 
 1. **Alexandre Stachtchenko** : campagne lancée par Cyrille le 3 octobre à la
    place de BitVault ; archiver les URLs réelles et contrôler la fin de diffusion.
-2. **Marius Farashi** : démarrage mercredi 7 octobre ; relire et valider les
-   nouveaux textes V2 avant programmation, conserver Nostr manuel.
+2. **Marius Farashi** : démarrage mercredi 7 octobre ; programmer les
+   textes V2 validés selon le calendrier, conserver Nostr manuel.
 3. **BitVault / Loïc**, puis **Noé / WeSatoshis**, **Frédéric Jollien**,
    **Alexis Roussel** et **Thomas Mang** : produire les éléments manquants et
    valider les campagnes dans les fenêtres réservées du tableau.

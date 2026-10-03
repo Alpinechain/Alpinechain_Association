@@ -24,13 +24,12 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Suivis de communication actuels
 
-- **Séquence confirmée le 3 octobre** : Alexandre lancé à la place de BitVault ; Marius à partir du mercredi 7 octobre (textes V2 à relire), puis BitVault, Noé, Frédéric, Alexis et Thomas dans les fenêtres réservées du planning. Vérifier la fin réelle d’Alexandre avant Marius ; aucune programmation automatique.
 
 - **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.
 - **Compléter les preuves Christine Jeanneaux** : six URLs publiques sont fournies ; Nostr reste à archiver uniquement si une publication publique existe.
 - **Compléter les preuves Florent Gabriel** : cinq URLs publiques sont fournies ; Blog et Nostr restent à archiver uniquement s’ils ont effectivement été publiés.
 - **Lionel Jeannerat** : sept URLs archivées dans #24 le 28 septembre ; contrôle des liens terminé, métriques à relever séparément.
-- **Séquence décidée le 3 octobre** : Alexandre lancé à la place de BitVault, `DIFFUSION EN COURS` déclarée par Cyrille ; URLs et fin réelle à archiver. Marius : 7–9 octobre, textes V2 `PRÊT À RELIRE` dans la PR #185. Fenêtres réservées : BitVault 12–14, Noé 15–17, Frédéric 19–21, Alexis 22–24, Thomas 26–28 octobre. Maintenir au moins 24 h entre sujets sur un même compte, cible 48 h ; vérifier la fin réelle d’Alexandre avant Marius. Le planning V16 reste en PR #185, non fusionnée.
+- **Séquence décidée le 3 octobre** : Alexandre lancé à la place de BitVault, `DIFFUSION EN COURS` déclarée par Cyrille ; URLs et fin réelle à archiver. Marius : 7–9 octobre, textes V2 et article long validés par Cyrille, `PRÊT À PROGRAMMER`, PR #185. Fenêtres réservées : BitVault 12–14, Noé 15–17, Frédéric 19–21, Alexis 22–24, Thomas 26–28 octobre. Maintenir au moins 24 h entre sujets sur un même compte, cible 48 h ; vérifier la fin réelle d’Alexandre avant Marius. Planning V16 de référence intégré avec la PR #185.
 - **Codes sponsors #186** : trois vouchers créés et vérifiés le 3 octobre, chacun pour 50 billets standard à 150 €, jusqu’au 31 octobre. Transmission aux sponsors par Cyrille encore à faire ; aucun code privé dans GitHub.
 
 ## Décisions et mises à jour consolidées
@@ -113,7 +112,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 | Date | Action |
 |---|---|
 | Maintenant | Construire le registre des risques #27 à partir des plans cotés ; finaliser la liste des partenaires avant implantation #25 |
-| Avant le 7 octobre | Relire Marius V2 #184 / PR #185, vérifier la fin réelle d’Alexandre et archiver ses URLs #24 |
+| Avant le 7 octobre | Programmer la campagne Marius validée #184 selon le calendrier V2, vérifier la fin réelle d’Alexandre et archiver ses URLs #24 |
 | 7–9 octobre | Fenêtre Marius décidée ; programmation après validation humaine |
 | 9 octobre | Gel du programme : niveau de gel et dépendances à faire valider ; consolider #11, #12, #25, #26, #27 |
 | Mi-octobre | Suivre l’expédition des lots et les vidéos Neowalt #147 |

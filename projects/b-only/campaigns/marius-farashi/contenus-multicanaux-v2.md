@@ -1,6 +1,6 @@
 # Marius Farashi — contenus multicanaux V2
 
-Date : 2026-10-03 — **À RELIRE / À VALIDER**
+Date : 2026-10-03 — **VALIDÉ PAR CYRILLE — PRÊT À PROGRAMMER**
 
 Titre de l’intervention : **Vous posséderez vos UTXO et vous serez heureux**  
 Format : **Workshop sur Ark**
