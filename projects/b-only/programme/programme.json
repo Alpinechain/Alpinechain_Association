@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "draft",
-    "updatedAt": "2026-10-03T12:59:49Z",
+    "updatedAt": "2026-10-03T14:55:00Z",
     "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
   },
   "rooms": [
@@ -23,7 +23,7 @@
   ],
   "entries": [
     {"id":"sat-opening","date":"2026-11-07","start":"14:00","end":"14:50","room":"main","status":"fixed","visibility":"public","title":"Ouverture de B-Only 2026","speakers":[],"format":"Ouverture","notes":"Ouverture commune aux deux espaces."},
-    {"id":"sat-main-alexandre","date":"2026-11-07","start":"15:00","end":"15:50","room":"main","status":"confirmed","visibility":"public","title":"Responsable Stratégie - Bitstack","speakers":["Alexandre Stachtchenko"],"format":"Présentation et questions","notes":"Participation, créneau et rattachement à Bitstack rendus publics le 17 août 2026. Le libellé public provisoire ne constitue pas le titre de la présentation, qui reste à révéler ; photo et contenu à obtenir."},
+    {"id":"sat-main-alexandre","date":"2026-11-07","start":"15:00","end":"15:50","room":"main","status":"confirmed","visibility":"public","title":"La Femme est l'avenir de Bitcoin","speakers":["Alexandre Stachtchenko"],"format":"Présentation et questions","notes":"Titre confirmé le 29 septembre 2026. Alexandre présentera les enseignements de baromètres d'adoption de Bitcoin menés en Espagne, en Italie et en France, avec un focus sur la place des femmes dans l'adoption. Portrait fourni et vignette V3 classés dans Nextcloud le 3 octobre ; communications préparées. Aucun résultat chiffré non validé n'est annoncé."},
     {"id":"sat-workshop-profedu-qa","date":"2026-11-07","start":"14:30","end":"15:20","room":"workshop","status":"confirmed","visibility":"public","title":"Q&A débutants : utiliser Bitcoin","speakers":["ProfEduStream"],"format":"Questions-réponses","notes":"Entrez dans le terrier du lapin. Outils : Sparrow, mempool.space, plaque en acier et Jade. Présentation : https://canva.link/qod0x69lk6kvbky."},
     {"id":"sat-workshop-bitvault","date":"2026-11-07","start":"15:30","end":"16:20","room":"workshop","status":"confirmed","visibility":"internal","title":"Posséder ses bitcoins en toute sécurité","speakers":["Loïc Ruchat-Leuthardt"],"format":"Workshop","notes":"Participation de BitVault confirmée le 2026-09-08. Ce créneau remplace le workshop de Jean, qui ne pourra pas être prêt pour B-Only 2026. La phrase fournie pour le visuel est utilisée comme titre ; synopsis, format détaillé, prérequis, besoins techniques et statut du partenariat restent à préciser."},
     {"id":"sat-main-nicolas","date":"2026-11-07","start":"16:00","end":"16:50","room":"main","status":"confirmed","visibility":"internal","title":"Lire les dégâts de l’impression monétaire dans les sols.","speakers":["Nicolas Cantu"],"format":"Présentation et questions","notes":"Titre, pitch, portrait et vignette validés."},
