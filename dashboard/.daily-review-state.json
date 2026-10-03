@@ -1,7 +1,29 @@
 {
-  "last_review": "2026-08-11T18:44:00+02:00",
-  "last_commit": "ed57218932cab5e9cb2c1895ee2448da084d5ad5",
-  "open_issues_seen": [2, 3, 4, 6, 7, 11, 12, 24, 25, 26, 27, 45, 53, 61, 72, 73, 74, 105],
-  "open_prs_seen": [],
-  "note": "Première revue quotidienne complète effectuée. État consolidé après synchronisation Pierre Noizat, Paymium, publications Le Cercle du Coin et billetterie B-Only."
+  "last_review": "2026-10-03T18:43:02+02:00",
+  "last_commit": "17c50135c4651d8b90847f3c1f78f6c585e288b3",
+  "open_issues_seen": [
+    186,
+    184,
+    181,
+    173,
+    168,
+    153,
+    147,
+    132,
+    61,
+    53,
+    45,
+    27,
+    26,
+    25,
+    24,
+    12,
+    11,
+    7,
+    4
+  ],
+  "open_prs_seen": [
+    185
+  ],
+  "note": "Synchronisation documentaire des décisions GitHub et historique Codex accessible ; pas de revue serveur ni extraction récente des outils métier."
 }
