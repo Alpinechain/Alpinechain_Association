@@ -1,6 +1,6 @@
 # Registre des participants et assets — B-Only 2026
 
-Dernière mise à jour : 2026-09-11
+Dernière mise à jour : 2026-10-03
 
 ## Rôle
 
