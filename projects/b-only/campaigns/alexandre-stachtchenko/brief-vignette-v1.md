@@ -1,6 +1,10 @@
 # Brief vignette — Alexandre Stachtchenko — V1
 
-**État : À PRODUIRE / À VALIDER**
+**État : VISUEL PRODUIT — V3 À VALIDER, 3 octobre 2026.**
+
+La V3 remplace les propositions locales V1 et V2 non retenues. Elle reprend
+directement la vignette Polto & Darko validée du 30 juillet 2026 comme référence
+graphique, recoupée avec la vignette ProfEduStream validée du 3 août 2026.
 
 ## Texte affiché
 
@@ -17,26 +21,36 @@ Reprendre strictement le système visuel des vignettes intervenants 2026 déjà 
 - format carré ;
 - cadre anthracite avec filet orange ;
 - fond ivoire avec trame orange ;
-- identité B-Only en haut à gauche ;
+- logo rond B-Only et identité `B-ONLY'26` en haut à gauche ;
 - badge diagonal orange en haut à droite ;
-- portrait sur la moitié droite ;
-- nom, fonction et titre sur la moitié gauche ;
-- silhouette alpine sombre dans la partie basse ;
+- portrait photographique détouré en noir et blanc sur la moitié droite ;
+- nom en noir, fonction et titre en orange sur la moitié gauche ;
+- typographie étroite et haute, séparateur orange entre fonction et titre ;
+- montagnes sombres anguleuses et enneigées dans la partie basse ;
 - très peu de texte hors titre, identité et fonction.
 
-Le titre doit être l'élément dominant. Ne pas ajouter de chiffres ou de conclusion des baromètres sur la vignette.
+Conserver la hiérarchie des vignettes de référence : identité B-Only, nom,
+fonction, puis titre. Ne pas ajouter de chiffres, de conclusion des baromètres,
+de date, d'horaire ou de lieu sur la vignette.
 
 ## Source portrait
 
-Un portrait historique d'Alexandre est disponible dans les ressources B-Only. Avant production finale :
+Portrait fourni par Cyrille le 3 octobre 2026 : `Alex Statch photo.png`,
+800 × 800 pixels. Source conservée sans modification dans Nextcloud :
+`01_Programme-Intervenants/Photos Intervenants/intervenant--alexandre-stachtchenko--portrait--2026-10-03--source.png`.
+Crédit et droits de diffusion restent à confirmer avant publication.
 
-- identifier le fichier source exact dans Nextcloud ;
-- vérifier résolution, crédit et droits d'utilisation ;
-- privilégier une nouvelle photo fournie par Alexandre si elle arrive avant validation.
+## Fichier Nextcloud actif à relire
 
-## Nom de fichier cible
+`03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-10-03--a-valider-v3.png`
 
-`03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-09-29--valide.png`
+Chemins relatifs à `Association/Action - Initiatives/B-Only/2026/`.
+Dépôt sans écrasement ; taille et SHA-256 contrôlés le 3 octobre 2026 :
+
+| Ressource | Taille | SHA-256 |
+|---|---:|---|
+| Portrait source | 841604 octets | `1e6d2208d99fc3873fe80b0f9fa8d72a0abce3f981aaf70a421419b7013bc098` |
+| Vignette V3 | 1818137 octets | `6e7bc08af268d35e1c13b365323cdda54cb22fa03af418915dbb8c9d2b9e7b7b` |
 
 Le suffixe `--valide` ne doit être appliqué qu'après validation humaine.
 
@@ -46,7 +60,7 @@ Le suffixe `--valide` ne doit être appliqué qu'après validation humaine.
 
 ## Validation attendue
 
-- [ ] portrait source et identité visuelle contrôlés
+- [x] portrait source fourni et gabarit comparé aux vignettes précédentes
 - [ ] fonction validée
 - [x] titre exact validé
 - [x] angle Espagne / Italie / France validé

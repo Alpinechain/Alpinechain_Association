@@ -135,7 +135,7 @@ Une formule forte. Des données pour la mettre à l'épreuve.
 
 ## Visuel / alt
 
-Visuel à produire selon `brief-vignette-v1.md`.
+Visuel V3 produit le 3 octobre 2026 et classé dans Nextcloud, à valider selon `brief-vignette-v1.md`. Il reprend le gabarit validé Polto & Darko : logo rond B-Only, nom noir, fonction et titre orange, portrait monochrome à droite et montagnes sombres enneigées.
 
 Texte alternatif proposé : « Vignette B-Only'26 annonçant Alexandre Stachtchenko et sa conférence “La Femme est l'avenir de Bitcoin”, fondée sur les enseignements de baromètres d'adoption menés en France, Italie et Espagne. »
 
