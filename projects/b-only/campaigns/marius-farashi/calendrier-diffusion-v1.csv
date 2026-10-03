@@ -1,8 +1,8 @@
-jour_relatif,date,time,timezone,channel,account,content_file,status,notes
-J1,,08:00,Europe/Paris,Blog,AlpineChain,contenus-multicanaux-v1.md,PRÊT À RELIRE,Date à attribuer après validation
-J1,,18:15,Europe/Paris,LinkedIn,AlpineChain,contenus-multicanaux-v1.md,PRÊT À RELIRE,
-J2,,08:15,Europe/Paris,LinkedIn,Annecy Bitcoin Meetup,contenus-multicanaux-v1.md,PRÊT À RELIRE,
-J2,,18:15,Europe/Paris,X,AlpineChain,contenus-multicanaux-v1.md,PRÊT À RELIRE,240 caractères maximum URL comprise
-J3,,12:15,Europe/Paris,Nostr,AlpineChain,contenus-multicanaux-v1.md,PRÊT À RELIRE,Publication manuelle du texte long Blog
-J3,,18:30,Europe/Paris,Facebook,B-Only,contenus-multicanaux-v1.md,PRÊT À RELIRE,
-J3,,20:00,Europe/Paris,Instagram,B-Only,contenus-multicanaux-v1.md,PRÊT À RELIRE,Lien officiel en bio ou sticker à contrôler
+jour_relatif,date,time,timezone,channel,account,content_file,status,notes,short_url
+J1,2026-10-07,08:00,Europe/Paris,Blog,AlpineChain,contenus-multicanaux-v1.md,PRÊT À PROGRAMMER,Fenêtre demandée par Cyrille ; contrôle comptes et aperçus avant programmation,https://go.alpinechain.xyz/b26-mf-blog
+J1,2026-10-07,18:15,Europe/Paris,LinkedIn,AlpineChain,contenus-multicanaux-v1.md,PRÊT À PROGRAMMER,,https://go.alpinechain.xyz/b26-mf-li-ac
+J2,2026-10-08,08:15,Europe/Paris,LinkedIn,Annecy Bitcoin Meetup,contenus-multicanaux-v1.md,PRÊT À PROGRAMMER,,https://go.alpinechain.xyz/b26-mf-li-abm
+J2,2026-10-08,18:15,Europe/Paris,X,AlpineChain,contenus-multicanaux-v1.md,PRÊT À PROGRAMMER,240 caractères maximum URL comprise,https://go.alpinechain.xyz/b26-mf-x
+J3,2026-10-09,12:15,Europe/Paris,Nostr,AlpineChain,contenus-multicanaux-v1.md,PRÊT À PROGRAMMER,Publication manuelle du texte long Blog,https://go.alpinechain.xyz/b26-mf-nostr
+J3,2026-10-09,18:30,Europe/Paris,Facebook,B-Only,contenus-multicanaux-v1.md,PRÊT À PROGRAMMER,,https://go.alpinechain.xyz/b26-mf-fb
+J3,2026-10-09,20:00,Europe/Paris,Instagram,B-Only,contenus-multicanaux-v1.md,PRÊT À PROGRAMMER,Lien suivi en bio ou sticker à contrôler,https://go.alpinechain.xyz/b26-mf-ig

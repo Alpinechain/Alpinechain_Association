@@ -32,7 +32,10 @@ Tu t’intéresses à Bitcoin, à Lightning et aux façons de dépenser tes sato
 **B-Only’26 se déroule du 7 au 9 novembre 2026 au Novotel Annecy Centre.**
 
 **Réserve ton billet pour B-Only’26 :**
-https://join.alpinechain.xyz/org/bonly26/
+https://go.alpinechain.xyz/b26-mf-blog
+
+Pour Nostr long, reprendre le même texte en remplaçant uniquement le CTA Blog
+par le lien Nostr : https://go.alpinechain.xyz/b26-mf-nostr
 
 ## LinkedIn — AlpineChain
 
@@ -50,7 +53,7 @@ Un atelier pour mettre la question de l’autonomie au centre de la discussion s
 📅 B-Only’26 — 7 au 9 novembre 2026
 
 Réserve ton billet :
-https://join.alpinechain.xyz/org/bonly26/
+https://go.alpinechain.xyz/b26-mf-li-ac
 
 ## LinkedIn — Annecy Bitcoin Meetup
 
@@ -65,12 +68,12 @@ Marius part des choix entre gérer ses canaux Lightning et faire appel à un tie
 B-Only’26 · 7–9 novembre · Novotel Annecy Centre
 
 Rejoins-nous :
-https://join.alpinechain.xyz/org/bonly26/
+https://go.alpinechain.xyz/b26-mf-li-abm
 
 ## X — AlpineChain
 
 Dépenser ses bitcoins en gardant le contrôle : que propose Ark ? Workshop avec Marius Farashi à B-Only’26, du 7 au 9 novembre à Annecy.
-Réserve ton billet : https://join.alpinechain.xyz/org/bonly26/
+Réserve ton billet : https://go.alpinechain.xyz/b26-mf-x
 
 ## Facebook — B-Only
 
@@ -84,7 +87,7 @@ L’atelier part de la question du contrôle de nos satoshis et des choix entre 
 Rendez-vous à B-Only’26, du 7 au 9 novembre au Novotel Annecy Centre.
 
 🎟️ Réserve ton billet pour l’événement :
-https://join.alpinechain.xyz/org/bonly26/
+https://go.alpinechain.xyz/b26-mf-fb
 
 ## Instagram — B-Only
 
@@ -98,7 +101,7 @@ Marius Farashi propose un **Workshop sur Ark** à B-Only’26. Au centre du suje
 📅 7–9 novembre 2026
 
 🎟️ Réserve ton billet B-Only via le lien en bio / sticker :
-https://join.alpinechain.xyz/org/bonly26/
+https://go.alpinechain.xyz/b26-mf-ig
 
 #Bitcoin #BOnly2026 #Annecy #Ark
 
@@ -114,4 +117,4 @@ Vignette B-Only’26 sur fond ivoire, noir et orange. À droite, portrait souria
 - Instagram : placer effectivement le lien en bio ou en sticker avant diffusion.
 - Nostr : même texte long que le Blog, publication manuelle.
 - X : une idée, une question concrète et un CTA ; moins de 240 caractères, URL comprise. Grille du guide : 9/10, point « compréhensible hors bulle Bitcoin » à renforcer si le public visé devient débutant ; validation éditoriale de Cyrille enregistrée le 3 octobre 2026.
-- Textes et vignette validés ; droits de diffusion, comptes, aperçus et fenêtre de campagne restent à contrôler selon le README.
+- Textes et vignette validés ; fenêtre du 7 au 9 octobre fixée par Cyrille. Liens suivis actifs et vérifiés. Droits de diffusion, comptes et aperçus restent à contrôler avant programmation.

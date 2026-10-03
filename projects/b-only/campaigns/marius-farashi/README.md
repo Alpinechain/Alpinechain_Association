@@ -1,7 +1,7 @@
 # Campagne Marius Farashi — Workshop sur Ark
 
 Date : 2026-10-03
-Statut : **VALIDÉ — textes et vignette ; fenêtre de diffusion à attribuer**
+Statut : **PRÊT À PROGRAMMER — campagne du 7 au 9 octobre 2026**
 
 Validation de Cyrille : « OK » dans la conversation du 3 octobre 2026.
 Suivi dédié : [#184](https://github.com/Alpinechain/Alpinechain_Association/issues/184).
@@ -22,9 +22,10 @@ Pilotes : #11 pour le programme, #24 pour la communication.
 ## Livrables
 
 - [Contenus multicanaux V1](contenus-multicanaux-v1.md) : Blog / Nostr long, deux LinkedIn, X, Facebook, Instagram et texte alternatif.
-- [Séquence relative V1](calendrier-diffusion-v1.csv) : trois jours, dates à attribuer dans le planning actif après validation ; aucune programmation réalisée.
-- CTA commun : https://join.alpinechain.xyz/org/bonly26/ — réponse HTTP 200 vérifiée le 3 octobre 2026.
-- Aucun alias Shlink ni voucher dédié créé ; le CTA est le lien officiel direct, sans attribution propre à cette campagne.
+- [Calendrier V1](calendrier-diffusion-v1.csv) : du mercredi 7 au vendredi 9 octobre, fuseau Europe/Paris ; aucune programmation réalisée.
+- [Sept liens suivis par canal](campaign-links-v1.csv), créés et vérifiés le 3 octobre 2026.
+- Sept vouchers `B26-SPK-MF-*` : sans remise (`price_mode=none`), 1 000 usages chacun, expiration le 9 novembre à 23 h 59 Europe/Paris, tag `tracking:bonly26_speakers`, aucune réservation ou dérogation de quota, aucun dévoilement des articles cachés.
+- Sept alias Shlink `b26-mf-*` : redirections HTTP 302 vers les destinations Pretix/UTM exactes, puis pages Pretix HTTP 200. Chaque CTA figure dans les textes et le calendrier ; Blog et Nostr ont des liens distincts.
 
 Le synopsis est conservé à l’identique dans le programme et le registre des
 intervenants. Sa formulation sur les « 2 solutions » est celle de l’intervenant :
@@ -61,9 +62,9 @@ scan Nextcloud terminé sans erreur le 3 octobre 2026 :
 - [x] textes préparés, vignette proposée et classée dans Nextcloud ;
 - [x] textes et vignette validés par Cyrille le 3 octobre 2026 ;
 - [ ] confirmer la participation et compléter les prérequis / besoins techniques ;
-- [ ] fixer la fenêtre de diffusion sans concurrence sur les mêmes comptes ;
+- [x] fenêtre du 7 au 9 octobre fixée par Cyrille ; Noé et Frédéric à replanifier pour éviter les chevauchements ;
 - [ ] contrôler les droits de diffusion, les comptes et les aperçus ;
-- [ ] choisir si le lien officiel direct suffit ou si une attribution dédiée est nécessaire ;
+- [x] attribution dédiée Pretix / Shlink créée et vérifiée pour les sept canaux ;
 - [ ] publier Nostr manuellement, puis archiver les URLs publiques et métriques dans #24.
 
 La confirmation définitive de l’horaire est suivie dans #11 ; elle ne bloque

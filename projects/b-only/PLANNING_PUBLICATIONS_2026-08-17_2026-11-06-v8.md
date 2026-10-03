@@ -1,6 +1,6 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V13
+Version : V14
 Date : 2026-10-03
 Fuseau : Europe/Paris
 
@@ -31,8 +31,9 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 28–30 septembre | Laure Merlin — « Atelier Bitcoin Lego » | PROGRAMMÉ — campagne V1 enrichie validée |
 | 1er–3 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE |
 | 4 octobre | Publication complémentaire B-Only | À CADRER |
-| 5–7 octobre | Noé / WeSatoshis | À COMPLÉTER |
-| 8–10 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | À PRODUIRE — créneau confirmé en interne ; éléments éditoriaux et visuels à consolider |
+| À replanifier — ancienne fenêtre 5–7 octobre | Noé / WeSatoshis | À COMPLÉTER — ne pas programmer en concurrence avec Marius |
+| 7–9 octobre | Marius Farashi — « Vous posséderez vos UTXO et vous serez heureux » | PRÊT À PROGRAMMER — textes et vignette validés ; sept liens suivis actifs |
+| À replanifier — ancienne fenêtre 8–10 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | À PRODUIRE — créneau confirmé en interne ; éléments éditoriaux et visuels à consolider |
 | 11 octobre | Publication complémentaire B-Only | À CADRER |
 | 12–14 octobre | Alexis Roussel | À COMPLÉTER |
 | 15–17 octobre | Thomas Mang | À PRODUIRE — créneau confirmé en interne lundi 9 novembre à 10 h ; titre définitif et éléments éditoriaux à consolider |
@@ -46,15 +47,24 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 2–4 novembre | Dernier rappel workshops / informations pratiques | À CADRER |
 | 5–6 novembre | Le Cercle du Coin avec Laure Merlin | À PRODUIRE |
 
-## Campagne préparée — fenêtre à attribuer
+## Campagne Marius — 7 au 9 octobre
 
-Marius Farashi — **« Vous posséderez vos UTXO et vous serez heureux »**, Workshop sur Ark :
-textes V1 et vignette **VALIDÉS** par Cyrille le 3 octobre ; portrait source classé. Voir [le dossier de campagne](campaigns/marius-farashi/README.md).
-La fenêtre des 28–30 septembre figurant dans les anciennes versions est
-remplacée par Laure dans le planning actif : aucune date de diffusion Marius
-n’est arrêtée. Choisir une vague disponible après validation, sans déplacer
-automatiquement une autre campagne. Le créneau de l’atelier reste provisoire
-et interne ; les textes ne publient pas cet horaire.
+Démarrage mercredi 7 octobre demandé par Cyrille le 3 octobre. Textes et
+vignette validés, sept liens Pretix / Shlink actifs et vérifiés :
+[calendrier détaillé](campaigns/marius-farashi/calendrier-diffusion-v1.csv).
+Statut **PRÊT À PROGRAMMER** ; aucun envoi ni programmation effectués.
+
+Cette vague mercredi–vendredi constitue une exception explicite à la cadence
+habituelle à la demande de Cyrille. Les anciennes fenêtres Noé (5–7 octobre)
+et Frédéric (8–10 octobre) se chevauchent avec cette campagne : elles sont
+à réattribuer avant toute programmation. Aucun changement dans un outil de
+publication n’a été effectué. Viser 48 heures, au minimum 24 heures, entre
+sujets différents sur le même canal et compte. Les autres fenêtres restent
+inchangées ; ne pas décaler automatiquement Frédéric sur Alexis.
+
+Le créneau de l’atelier reste provisoire et interne ; les textes ne publient
+pas cet horaire. Nostr utilise le texte long Blog avec son propre lien suivi
+et reste manuel. Contrôler les comptes et aperçus avant programmation.
 
 ## Priorité de production immédiate
 
