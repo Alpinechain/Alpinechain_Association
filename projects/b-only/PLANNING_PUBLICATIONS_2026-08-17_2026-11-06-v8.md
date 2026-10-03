@@ -1,7 +1,7 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V10
-Date : 2026-09-23
+Version : V12
+Date : 2026-10-03
 Fuseau : Europe/Paris
 
 Les fenêtres passées sont conservées pour la traçabilité. Leur statut repose
@@ -32,10 +32,10 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 1er–3 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE |
 | 4 octobre | Publication complémentaire B-Only | À CADRER |
 | 5–7 octobre | Noé / WeSatoshis | À COMPLÉTER |
-| 8–10 octobre | Michel Khazzaka | À COMPLÉTER |
+| 8–10 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | À PRODUIRE — créneau confirmé en interne ; éléments éditoriaux et visuels à consolider |
 | 11 octobre | Publication complémentaire B-Only | À CADRER |
 | 12–14 octobre | Alexis Roussel | À COMPLÉTER |
-| 15–17 octobre | Delphine Vincent | EN ATTENTE — diffuser uniquement si participation confirmée |
+| 15–17 octobre | Thomas Mang | À PRODUIRE — créneau confirmé en interne lundi 9 novembre à 10 h ; titre définitif et éléments éditoriaux à consolider |
 | 18 octobre | Publication complémentaire B-Only | À CADRER |
 | 19–21 octobre | Rappel des workshops pratiques | À CADRER |
 | 22–24 octobre | Créneau intervenant / programme suivant prêt | À RÉATTRIBUER |
@@ -75,9 +75,10 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 
 5. **Puis, dans cet ordre**
    - Noé / WeSatoshis ;
-   - Michel Khazzaka ;
+   - Frédéric Jollien ;
    - Alexis Roussel ;
-   - Delphine Vincent uniquement après confirmation ;
+   - Thomas Mang ;
+   - Michel Khazzaka reste en option sans créneau ;
    - autres campagnes programme / workshops prêtes.
 
 ## Lionel Jeannerat — version active
