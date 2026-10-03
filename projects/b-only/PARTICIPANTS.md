@@ -22,7 +22,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Pierre Noizat | Speaker | Paymium | ✓ | ✓ | `@PierreNoizat` | — | `pierrenoizat` | N/A | N/A | — | Portrait/vignette 2026 validés |
 | Aurore Galves Orjol | Speaker | GALLION | ✓ | ✓ | `@aurore_btc` | — | `aurore-galvesorjol` | N/A | `aurore.orjol` | — | GALLION et LinkedIn confirmés publiquement |
 | Alexandre Stachtchenko | Speaker | Bitstack | historique | ✓ | `@StachAlex` | `npub1nm44dsxxns2f6zquhk24dqzvlawdaf49jdpvvgnuuvy4aqc3r29qcwx73p` | `alexandre-stachtchenko-27655655` | `@alexandre_stachtchenko` | — | TikTok `@alexandrestachtchenko` ; `alexstach.fr` | Nostr fourni directement |
-| Marius Farashi Tasooji | Workshop | Cryptoast / Lendasat | historique | ✓/variantes | `@mariusoffchain` | `npub1yxkvnuk32mw0tvw36u48x008k7anrlytv4rrp6pcrkeytq2uusdqdmw8a5` | `marius-off-chain-5a166118b` | `@mariusoffchain` | N/A | YouTube `@mariusoffchain` | Cryptoast confirmé ; comptes fournis directement |
+| Marius Farashi Tasooji | Workshop sur Ark | Cryptoast / Lendasat | source reçue le 2026-10-03 | ✓/variantes | `@mariusoffchain` | `npub1yxkvnuk32mw0tvw36u48x008k7anrlytv4rrp6pcrkeytq2uusdqdmw8a5` | `marius-off-chain-5a166118b` | `@mariusoffchain` | N/A | YouTube `@mariusoffchain` | Cryptoast confirmé ; comptes fournis directement |
 | Renaud Lifchitz | Workshop technique | Sharekey / Enforcis historique | ✓ | — | `@nono2357` | `npub1renaud65zug8r570ndztde2xhk206z3v50a5mwa3kp2xshy3zmjqkqaw97` | `renaudlifchitz` | — | `renaudl` (privé) | — | Portrait/vignette 2026 validés |
 | Nicolas Cantu | Speaker | 4NK.Organic / BTC Villages | ✓ | ✓ | `@NicolasCantuBk` | `npub18s03s39fa80ce2n3cmm0zme3jqehc82h6ld9sxq03uejqm3d05gsae0fuu` | `nicolascantuinnovationresilience` | N/A | N/A | `btcvillages.com` | BTC Villages confirmé publiquement |
 | ProfEduStream | Speaker + sessions pédagogiques | ProfEduStream | ✓ | ? | `@ProfEduStream` | — | — | — | — | YouTube `@ProfEduStream` | X et YouTube validés |
@@ -94,7 +94,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 - Pierre Noizat — source 2026 + vignette définitive validée.
 - Aurore Galves Orjol — portrait 2026 + vignette validée.
 - Alexandre Stachtchenko — portrait historique disponible.
-- Marius Farashi Tasooji — portrait historique disponible.
+- Marius Farashi Tasooji — nouveau portrait source fourni le 2026-10-03 et classé dans Nextcloud ; vignette proposée, à valider. Voir `campaigns/marius-farashi/README.md`.
 - Renaud Lifchitz — portrait officiel 2026 + vignette validée.
 - Nicolas Cantu — portrait 2026 + vignette validée.
 - ProfEduStream — portrait 2026 + vignettes validées.

@@ -1,0 +1,8 @@
+jour_relatif,date,time,timezone,channel,account,content_file,status,notes
+J1,,08:00,Europe/Paris,Blog,AlpineChain,contenus-multicanaux-v1.md,PRÊT À RELIRE,Date à attribuer après validation
+J1,,18:15,Europe/Paris,LinkedIn,AlpineChain,contenus-multicanaux-v1.md,PRÊT À RELIRE,
+J2,,08:15,Europe/Paris,LinkedIn,Annecy Bitcoin Meetup,contenus-multicanaux-v1.md,PRÊT À RELIRE,
+J2,,18:15,Europe/Paris,X,AlpineChain,contenus-multicanaux-v1.md,PRÊT À RELIRE,240 caractères maximum URL comprise
+J3,,12:15,Europe/Paris,Nostr,AlpineChain,contenus-multicanaux-v1.md,PRÊT À RELIRE,Publication manuelle du texte long Blog
+J3,,18:30,Europe/Paris,Facebook,B-Only,contenus-multicanaux-v1.md,PRÊT À RELIRE,
+J3,,20:00,Europe/Paris,Instagram,B-Only,contenus-multicanaux-v1.md,PRÊT À RELIRE,Lien officiel en bio ou sticker à contrôler

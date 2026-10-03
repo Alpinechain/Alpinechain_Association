@@ -1,6 +1,6 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V12
+Version : V13
 Date : 2026-10-03
 Fuseau : Europe/Paris
 
@@ -45,6 +45,17 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 1er novembre | Publication complémentaire / bascule tarif retardataire | À CADRER |
 | 2–4 novembre | Dernier rappel workshops / informations pratiques | À CADRER |
 | 5–6 novembre | Le Cercle du Coin avec Laure Merlin | À PRODUIRE |
+
+## Campagne préparée — fenêtre à attribuer
+
+Marius Farashi — **« Vous posséderez vos UTXO et vous serez heureux »**, Workshop sur Ark :
+textes V1 **PRÊT À RELIRE**, portrait source classé et vignette proposée le
+3 octobre. Voir [le dossier de campagne](campaigns/marius-farashi/README.md).
+La fenêtre des 28–30 septembre figurant dans les anciennes versions est
+remplacée par Laure dans le planning actif : aucune date de diffusion Marius
+n’est arrêtée. Choisir une vague disponible après validation, sans déplacer
+automatiquement une autre campagne. Le créneau de l’atelier reste provisoire
+et interne ; les textes ne publient pas cet horaire.
 
 ## Priorité de production immédiate
 
