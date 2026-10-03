@@ -1,7 +1,7 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V10
-Date : 2026-09-23
+Version : V11
+Date : 2026-10-03
 Fuseau : Europe/Paris
 
 Les fenêtres passées sont conservées pour la traçabilité. Leur statut repose
@@ -35,7 +35,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 8–10 octobre | Michel Khazzaka | À COMPLÉTER |
 | 11 octobre | Publication complémentaire B-Only | À CADRER |
 | 12–14 octobre | Alexis Roussel | À COMPLÉTER |
-| 15–17 octobre | Delphine Vincent | EN ATTENTE — diffuser uniquement si participation confirmée |
+| 15–17 octobre | Créneau intervenant à réattribuer | À ARBITRER — Delphine Vincent indisponible pour 2026 ; Frédéric Jollien et autres pistes à qualifier avant programmation |
 | 18 octobre | Publication complémentaire B-Only | À CADRER |
 | 19–21 octobre | Rappel des workshops pratiques | À CADRER |
 | 22–24 octobre | Créneau intervenant / programme suivant prêt | À RÉATTRIBUER |
