@@ -1,6 +1,6 @@
 # Novotel Annecy Centre — références salles B-Only 2026
 
-Dernière mise à jour : 2026-09-21
+Dernière mise à jour : 2026-10-03
 
 ## Rôle
 
@@ -54,18 +54,13 @@ https://my.matterport.com/show/?m=Hsm8tuyV6R1&lang=fr
 
 ## Suivi opérationnel
 
-- Issue logistique principale : #25 — accueil, stands, bar et logistique.
-- Issue liée : #170 — emplacement de présentation Fulcran.
-- Visite Novotel prévue le **25 septembre 2026** pour valider l’implantation, les flux, les stands, le mobilier, l’électricité et les contraintes de captation.
-- À la visite, confirmer en priorité :
-  - dimensions réelles des tables ;
-  - géométrie exacte des deux salles réunies ;
-  - position des cloisons, portes, écrans et prises électriques ;
-  - zones de circulation et contraintes incendie / évacuation ;
-  - emplacements possibles pour les stands et Fulcran.
+- Issue logistique principale : #25 ; risques : #27.
+- La visite prévue le 25 septembre n’a pas eu lieu. Plans cotés reçus le 28 septembre : ils remplacent la visite comme base de travail documentaire.
+- Implantation finale à valider après confirmation de tous les partenaires. Dimensions des tables, géométrie, cloisons, portes, prises, flux et contraintes de sécurité restent à confirmer avec le Novotel ; les anciennes mesures Matterport restent approximatives.
+- Fulcran : participation annulée, #170 clôturée. BOB : absent. Konsensus : absent physiquement, éventuel envoi de livres à confirmer sans stand dédié (décisions des 28 et 29 septembre dans #25).
 
 ## Statut
 
-**BASE DE TRAVAIL — À CONFIRMER SUR PLACE**
+**PLANS COTÉS REÇUS — IMPLANTATION FINALE À VALIDER**
 
-Les deux liens Matterport et la brochure Novotel constituent désormais les références communes pour préparer l’implantation avant validation physique.
+Sources : #25, commentaires des 28 et 29 septembre. Les documents lourds restent dans Nextcloud ; leur présence et leurs dimensions n’ont pas été revérifiées lors de cette synchronisation.

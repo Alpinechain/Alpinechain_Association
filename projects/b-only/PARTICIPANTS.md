@@ -50,10 +50,10 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Kimatoshi | Revendeur de produits en Bitcoin | Kimatoshi | — | — | `@Kima_Toshi_AR` | `npub1vr2qtyh7a33hjkl5rlxawlx44rnwfplcy9ymjpmgupacms7kleushqg3k3` | — | — | — | — | Présence 2026 à confirmer |
 | Lady Block Jane | Artiste | Lady Block Jane | — | — | `@Lady_Block_Jane` | `npub1htrxgxng00uc8aryq4w6q462drvl4rzk4u9elfar9vxlu7clw40s7re8m0` | — | `@lady_block_jane` | — | — | Corrige l'ancienne entrée « Yena » |
 | Theorygon / Theorigon | Artiste | Theorygon | — | — | `@Cryptogon1` | `npub1a09m4m7d6l7cjj6jjsslmxla3f99a9mqrsgqq877tjhqjvqw0r9qgp6jqv` | — | — | — | — | Nom public/orthographe finale à harmoniser |
-| Édouard — Konsensus | Éditeur de livres / exposant | Konsensus | — | ✓ | `@edouard_knw` ; `@KonsensusN` ; `@KonsensusFR` | `npub1udjlzurkhc6c7zeju6u5a8lrhdeajt2x7vy9j4kz3ptdq2nspvtq5ftve2` | — | — | — | — | Stand indépendant ou espace communautaire AlpineChain à déterminer |
+| Édouard — Konsensus | Éditeur de livres / exposant | Konsensus | — | ✓ | `@edouard_knw` ; `@KonsensusN` ; `@KonsensusFR` | `npub1udjlzurkhc6c7zeju6u5a8lrhdeajt2x7vy9j4kz3ptdq2nspvtq5ftve2` | — | — | — | — | Absent physiquement en 2026 ; éventuel envoi de livres à confirmer (#25) |
 | Jonathan | Exposant désisté | PlebStyle | — | ✓ | — | — | — | — | — | — | Désistement confirmé le 2026-09-04 |
 | Vaga | Revendeur de produits en Bitcoin | Lab312 | — | — | — | — | — | — | — | — | Identité, présence et format de stand à confirmer |
-| BOB — contact à identifier | Revendeur de bières | Brewery Only Bitcoin | — | — | — | — | — | — | — | — | Présence 2026, contact et besoins de stand à confirmer |
+| BOB — contact à identifier | Revendeur de bières | Brewery Only Bitcoin | — | — | — | — | — | — | — | — | Absent en 2026, décision du 29 septembre (#25) |
 
 ## Organisations et comptes associés
 
@@ -114,7 +114,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 
 ## Recherche réseaux — reste à résoudre
 
-Priorité : Lionel Jeannerat, Darko Gasic, Jean, Noé, Vaga/Lab312 et le contact de BOB.
+Priorité : compléter les dossiers actifs dans #11 ; BOB est absent en 2026 et le workshop Jean est abandonné.
 
 À consolider : comptes éventuels supplémentaires de Christine Jeanneaux, Sandra Gandoin, Hubert Pineau et ProfEduStream ; identité complète d'Édouard ; orthographe publique Theorygon/Theorigon.
 
