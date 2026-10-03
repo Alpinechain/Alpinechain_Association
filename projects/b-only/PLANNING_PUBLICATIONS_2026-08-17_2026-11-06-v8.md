@@ -122,3 +122,10 @@ Laure :
 - `campaigns/laure-merlin/campaign-links-v1.csv`
 
 Les versions antérieures restent archivées et ne doivent pas être programmées en parallèle.
+
+## Alexandre Stachtchenko — préparation confirmée le 3 octobre
+
+- Titre : « La Femme est l'avenir de Bitcoin ».
+- Communications préparées, portrait et vignette V3 classés dans Nextcloud.
+- La fenêtre du 1er au 3 octobre de la PR #182 était une proposition ; aucune programmation ni publication n'est attestée par cette préparation.
+- La date de diffusion reste à confirmer dans #24 ; les fenêtres des autres campagnes sont conservées.
