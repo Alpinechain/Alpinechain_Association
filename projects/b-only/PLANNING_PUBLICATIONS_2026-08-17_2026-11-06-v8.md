@@ -1,7 +1,7 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V16
-Date : 2026-10-03
+Version : V17
+Date : 2026-10-04
 Fuseau : Europe/Paris
 
 Les fenêtres passées sont conservées pour la traçabilité. Leur statut repose
@@ -33,13 +33,13 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 4–6 octobre | Suite de la campagne Alexandre | ÉVITER une nouvelle vague intervenant avant Marius ; vérifier les horaires effectivement programmés |
 | 7–9 octobre | Marius Farashi — « Vous posséderez vos UTXO et vous serez heureux » | PRÊT À PROGRAMMER — article long V1 et posts V2 validés par Cyrille le 3 octobre ; vignette validée ; sept liens suivis actifs |
 | 11 octobre | Publication complémentaire B-Only | À CADRER |
-| 12–14 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE — fenêtre réservée, sous réserve de préparation et validation |
+| 12–14 octobre | Thomas Mang — « Détenir ses bitcoins, être souverain ? » | PRÉPARÉE — campagne et vignette produites ; fenêtre avancée sur décision de Cyrille le 4 octobre, relecture avant programmation |
 | 15–17 octobre | Noé / WeSatoshis | À COMPLÉTER — fenêtre réservée |
 | 18 octobre | Publication complémentaire B-Only | À CADRER |
 | 19–21 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | À PRODUIRE — éléments éditoriaux et visuels à consolider |
 | 22–24 octobre | Alexis Roussel | À COMPLÉTER — fenêtre réservée |
 | 25 octobre | Publication complémentaire B-Only | À CADRER |
-| 26–28 octobre | Thomas Mang | À PRODUIRE — titre définitif et éléments éditoriaux à consolider |
+| 26–28 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE — fenêtre reportée par échange avec Thomas ; préparation et validation requises |
 | 29–31 octobre | Rappel billetterie + programme | À CADRER |
 | 1er novembre | Publication complémentaire / bascule tarif retardataire | À CADRER |
 | 2–4 novembre | Dernier rappel workshops / informations pratiques | À CADRER |
@@ -56,7 +56,8 @@ Aucun envoi ni programmation effectués par l’agent.
 
 Les anciennes fenêtres Noé (5–7 octobre) et Frédéric (8–10 octobre)
 sont remplacées par les dates du tableau. La séquence retenue le 3 octobre
-est Alexandre → Marius → BitVault → Noé → Frédéric → Alexis → Thomas.
+est remplacée le 4 octobre par Alexandre → Marius → Thomas → Noé → Frédéric → Alexis → BitVault.
+Thomas, déjà préparé, prend la fenêtre du 12–14 octobre ; BitVault reprend celle du 26–28 octobre. Aucun contenu n’est programmé par ce changement.
 Les fenêtres après Marius sont réservées sous condition de préparation et de
 validation humaine ; elles ne constituent pas une programmation effective.
 Le rappel workshops du 19–21 octobre laisse place à Frédéric ; les rappels
@@ -77,8 +78,8 @@ et reste manuel. Contrôler les comptes et aperçus avant programmation.
    place de BitVault ; archiver les URLs réelles et contrôler la fin de diffusion.
 2. **Marius Farashi** : démarrage mercredi 7 octobre ; programmer les
    textes V2 validés selon le calendrier, conserver Nostr manuel.
-3. **BitVault / Loïc**, puis **Noé / WeSatoshis**, **Frédéric Jollien**,
-   **Alexis Roussel** et **Thomas Mang** : produire les éléments manquants et
+3. **Thomas Mang**, puis **Noé / WeSatoshis**, **Frédéric Jollien**,
+   **Alexis Roussel** et **BitVault / Loïc** : compléter les éléments manquants et
    valider les campagnes dans les fenêtres réservées du tableau.
 4. **Suivis précédents** : archiver les preuves Nicolas et Laure ; pour Lionel,
    les sept URLs sont archivées dans #24 depuis le 28 septembre, métriques à relever.

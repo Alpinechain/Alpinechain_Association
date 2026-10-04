@@ -13,7 +13,7 @@ Suivi : [Issue #188](https://github.com/Alpinechain/Alpinechain_Association/issu
 - Titre : **Détenir ses bitcoins, être souverain ?**, validé par Cyrille pour le programme privé le 4 octobre 2026. Synopsis et contenus de communication encore à relire.
 - Base éditoriale : articles de Thomas Mang [sur la possession](https://bitcoin.fr/detention-propriete-et-souverainete-les-nuances-de-la-possession-de-bitcoins/) et [sur le non-KYC](https://bitcoin.fr/faut-il-avoir-des-bitcoins-non-kyc/), consultés le 3 octobre.
 - CTA : découvrir B-Only et accéder à la réservation depuis https://b-only.org/ ; aucun lien suivi spécifique créé.
-- Fenêtre réservée : 26–28 octobre 2026 selon le pilotage actuel de #24 ; calendrier détaillé à arrêter après validation, sans programmation effectuée.
+- Fenêtre réservée : 12–14 octobre 2026, à la place de BitVault, sur décision de Cyrille le 4 octobre dans le suivi #24 ; calendrier détaillé à arrêter après validation, sans programmation effectuée.
 
 ## LinkedIn — AlpineChain
 
