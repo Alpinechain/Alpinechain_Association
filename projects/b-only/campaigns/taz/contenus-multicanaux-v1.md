@@ -12,7 +12,7 @@ Préparé le 5 octobre 2026 — **PRÊT À RELIRE**.
 - Description : **Atelier autour des capacités connues et moins connues de la carte Wesatoshis.**
 - CTA : découvrir B-Only et accéder à la réservation depuis https://b-only.org/.
 - Statut : brouillons ; participation et créneau à confirmer avant diffusion.
-- Visuel : image produit fournie, vignette à produire et à valider.
+- Visuel : image produit fournie, vignette V1 produite le 6 octobre et à valider.
 
 ## LinkedIn — AlpineChain
 

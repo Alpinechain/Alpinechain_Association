@@ -38,15 +38,15 @@ suivi #11 avant diffusion. La préparation ne rend pas la session publique.
 
 ## Prochaine action
 
-Relire les textes, confirmer la participation et le créneau, puis produire
-et valider la vignette et arrêter les horaires de diffusion dans la fenêtre
+Relire les textes, confirmer la participation et le créneau, puis valider la vignette V1 produite le 6 octobre et arrêter les horaires de diffusion dans la fenêtre
 réservée. Respecter un minimum de 24 h entre sujets sur un même compte,
 avec une cible de 48 h, après Thomas et avant Frédéric.
 
 - [ ] Textes validés par Cyrille.
 - [ ] Participation et créneau confirmés ; programme et registres mis en cohérence.
 - [ ] Droits et crédit de l'image vérifiés.
-- [ ] Vignette produite, conservée dans Nextcloud et validée.
+- [x] Vignette V1 produite le 6 octobre ; copie locale pour relecture.
+- [ ] Vignette conservée dans Nextcloud et validée.
 - [ ] Calendrier détaillé validé et parcours de réservation revérifié.
 
 Aucun lien court spécifique créé. Aucun contenu programmé ou publié.

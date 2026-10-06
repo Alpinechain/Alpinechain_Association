@@ -1,6 +1,6 @@
 # Brief vignette — Taz — V1
 
-État : **SOURCE DISPONIBLE / VISUEL À PRODUIRE** — 5 octobre 2026.
+État : **VISUEL PRODUIT — V1 À VALIDER** — 6 octobre 2026.
 
 ## Texte affiché
 
@@ -30,8 +30,22 @@ Source WebP inspectée et accessible en HTTP 200 le 5 octobre 2026.
 Elle montre un boîtier Wesatoshis ouvert, avec écran et quatre boutons.
 Les droits et le crédit de diffusion restent à vérifier avant publication.
 Les médias sources et la future vignette sont à conserver dans Nextcloud.
-Aucune vignette produite ou validée à ce stade.
+Vignette V1 produite le 6 octobre 2026 ; validation humaine et dépôt Nextcloud restent à effectuer.
 
 ## Texte alternatif proposé
 
 Vignette B-Only'26 annonçant l'atelier de Taz « Wesatoshis, une pépite de hardware Bitcoin. », avec la carte Wesatoshis dans son boîtier ouvert, un écran et quatre boutons.
+
+## Proposition produite le 6 octobre
+
+- Méthode : outil intégré de génération d’images, adaptation du gabarit Thomas Mang V2.
+- Image de la carte : source fournie par Cyrille ; elle remplace entièrement le portrait.
+- Copie locale pour relecture : `~/Téléchargements/vignette--taz--wesatoshis--2026-10-06--a-valider-v1.png`.
+- Dimensions : 1254 × 1254 pixels.
+- SHA-256 : `7d595676ea90e02ecf2566145b6f7a4acb5fbbca7c1815c61c53b28444eb6a70`.
+- Contrôle visuel : nom TAZ, badge WORKSHOP, titre exact en capitales avec accent et ponctuation ; carte avec écran, quatre boutons et couvercle ouvert ; aucun portrait ni horaire.
+- Aucun fichier image versionné dans GitHub ; aucune publication.
+
+### Consigne de génération
+
+Adapter le gabarit B-Only de Thomas Mang en conservant le logo, le bandeau B-ONLY'26, le fond ivoire tramé orange, le cadre anthracite et orange, la typographie condensée et les montagnes. Remplacer intégralement le portrait par le Wesatoshis fourni, à droite, proportions conservées, écran et quatre boutons visibles. Nom TAZ en noir à gauche, titre « WESATOSHIS, UNE PÉPITE DE HARDWARE BITCOIN. » en orange, badge WORKSHOP. Aucun visage, fonction, date ou horaire.
