@@ -1,6 +1,6 @@
 # Brief vignette — Taz — V1
 
-État : **VISUEL PRODUIT — V1 À VALIDER** — 6 octobre 2026.
+État : **VISUEL VALIDÉ — V1 DÉPOSÉE DANS NEXTCLOUD** — 6 octobre 2026.
 
 ## Texte affiché
 
@@ -29,8 +29,7 @@ https://wesatoshis.com/wesatoshis-card-cutout.webp
 Source WebP inspectée et accessible en HTTP 200 le 5 octobre 2026.
 Elle montre un boîtier Wesatoshis ouvert, avec écran et quatre boutons.
 Les droits et le crédit de diffusion restent à vérifier avant publication.
-Les médias sources et la future vignette sont à conserver dans Nextcloud.
-Vignette V1 produite le 6 octobre 2026 ; validation humaine et dépôt Nextcloud restent à effectuer.
+Vignette V1 produite, approuvée par Cyrille (« très bien à mettre dans le nextcloud avec les autres ») et déposée dans Nextcloud le 6 octobre 2026. Cette validation graphique ne vaut pas autorisation de publication de la campagne.
 
 ## Texte alternatif proposé
 
@@ -49,3 +48,12 @@ Vignette B-Only'26 annonçant l'atelier de Taz « Wesatoshis, une pépite de har
 ### Consigne de génération
 
 Adapter le gabarit B-Only de Thomas Mang en conservant le logo, le bandeau B-ONLY'26, le fond ivoire tramé orange, le cadre anthracite et orange, la typographie condensée et les montagnes. Remplacer intégralement le portrait par le Wesatoshis fourni, à droite, proportions conservées, écran et quatre boutons visibles. Nom TAZ en noir à gauche, titre « WESATOSHIS, UNE PÉPITE DE HARDWARE BITCOIN. » en orange, badge WORKSHOP. Aucun visage, fonction, date ou horaire.
+
+## Dépôt Nextcloud vérifié
+
+- Dossier : `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/`.
+- Fichier : `vignette--taz--wesatoshis--2026-10-06--valide-v1.png`.
+- [Ouvrir dans Nextcloud](https://cloud.alpinechain.xyz/index.php/f/5118) — identifiant `5118`.
+- Taille : 1 847 069 octets ; SHA-256 identique à la copie locale ci-dessus.
+- Création exclusive sans écrasement ; indexation `groupfolders:scan 1` terminée avec zéro erreur ; présence et taille confirmées dans l’index Nextcloud.
+- Aucun partage externe créé.
