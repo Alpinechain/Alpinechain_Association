@@ -1,0 +1,8 @@
+jour_relatif,date,time,timezone,channel,account,content_file,status,responsable,validation_ref,url,notes
+J1,,,Europe/Paris,Blog,AlpineChain,article-blog-nostr-v1.md,À RELIRE,Cyrille,,https://b-only.org/,Date et horaire à valider
+J1,,,Europe/Paris,LinkedIn,AlpineChain,contenus-multicanaux-v1.md,À RELIRE,Cyrille,,https://b-only.org/,Après validation des textes
+J2,,,Europe/Paris,LinkedIn,Annecy Bitcoin Meetup,contenus-multicanaux-v1.md,À RELIRE,Cyrille,,https://b-only.org/,Version dédiée au compte
+J2,,,Europe/Paris,X,AlpineChain,contenus-multicanaux-v1.md,À RELIRE,Cyrille,,https://b-only.org/,Recontrôler la longueur finale
+J3,,,Europe/Paris,Nostr,AlpineChain,article-blog-nostr-v1.md,À RELIRE,Cyrille,,https://b-only.org/,Long-form commun avec Blog ; diffusion manuelle
+J3,,,Europe/Paris,Facebook,B-Only,contenus-multicanaux-v1.md,À RELIRE,Cyrille,,https://b-only.org/,Vignette validée
+J3,,,Europe/Paris,Instagram,B-Only,contenus-multicanaux-v1.md,À RELIRE,Cyrille,,https://b-only.org/,Vérifier lien en bio
