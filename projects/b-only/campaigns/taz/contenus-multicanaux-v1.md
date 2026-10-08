@@ -11,7 +11,7 @@ Préparé le 5 octobre 2026 — **PRÊT À RELIRE**.
 - Titre : **Wesatoshis, une pépite de hardware Bitcoin.**
 - Description : **Atelier autour des capacités connues et moins connues de la carte Wesatoshis.**
 - CTA : découvrir B-Only et accéder à la réservation depuis https://b-only.org/.
-- Statut : brouillons ; participation et créneau à confirmer avant diffusion.
+- Statut : brouillons ; participation et créneau privé confirmés le 8 octobre par Cyrille, session `confirmed/internal`, communication à relire avant diffusion.
 - Visuel : image produit fournie, vignette V1 approuvée et déposée dans Nextcloud le 6 octobre ([fichier 5118](https://cloud.alpinechain.xyz/index.php/f/5118)).
 
 ## LinkedIn — AlpineChain
