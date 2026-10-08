@@ -39,7 +39,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | Alexandre Poltorak « Polto » | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | `@_polto_` | — | `polto` | — | — | GitHub `@polto` | X et LinkedIn confirmés ; Instagram `@_polto_` attesté historiquement mais à confirmer avant identification ; aucun npub trouvé lors de la recherche du 2026-08-29 |
 | Darko Gasic | Workshop / Pleb Forum | Hodling SA | ✓ | ✓ | — | — | — | — | — | — | Recherche du 2026-08-29 : aucun compte personnel confirmé ; le profil Instagram `@darko.gasic` n'est pas attribuable avec certitude et ne doit pas être identifié ; aucun npub trouvé |
 | Schnuartz | Workshop remplacé | Specter DIY ; ClavaStack | — | ? | `@Schnuartz` | — | — | — | — | Linktree `schnuartz` ; `clavastack.com` | Le workshop Specter est remplacé dans le programme le 2026-08-31 |
-| Noé | Workshop | WeSatoshis ? | — | — | — | — | — | — | — | — | Identité/affiliation à confirmer |
+| Taz | Workshop | Affiliation à confirmer | Image produit | — | — | — | — | — | — | — | Nom public fourni par Cyrille ; atelier Wesatoshis confirmé lundi à 10 h 30, interne ; vignette validée dans Nextcloud (5118) |
 
 ## Artistes, marchands et exposants
 
@@ -80,7 +80,7 @@ Vue centrée sur les personnes physiquement ou publiquement associées à B-Only
 | PlebStyle | Exposant — désistement 2026 | ✓ | Jonathan | — |
 | Lab312 | Revendeur de produits en Bitcoin | — | Vaga | — |
 | BOB (Brewery Only Bitcoin) | Revendeur de bières | — | à identifier | — |
-| WeSatoshis | Organisation liée | — | Noé ? | — |
+| WeSatoshis | Organisation liée — à confirmer | — | Taz — affiliation à confirmer | — |
 | BFM Business | Média | — | Sandra Gandoin | — |
 | Sharekey | Organisation liée | — | Renaud Lifchitz | — |
 | Valuechain Consulting | Organisation liée | — | Michel Khazzaka | LinkedIn/fondateur confirmé |
