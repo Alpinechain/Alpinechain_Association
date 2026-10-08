@@ -1,6 +1,6 @@
 # Vignette — Mill3sim3 — V1
 
-État : **VISUEL PRODUIT — À VALIDER**, 8 octobre 2026.
+État : **VISUEL VALIDÉ — V1 DÉPOSÉE DANS NEXTCLOUD**, 8 octobre 2026.
 
 ## Texte affiché
 
@@ -9,7 +9,7 @@
 - Nom : `Mill3sim3`.
 - Titre : `PRÉSENTATION DE BITCOINTRAILS`.
 
-Titre descriptif proposé à partir de la demande de Cyrille. Aucun horaire, lieu ou affiliation ajouté.
+Titre descriptif validé par Cyrille avec la vignette le 8 octobre 2026. Aucun horaire, lieu ou affiliation ajouté.
 
 ## Sources et composition
 
@@ -23,14 +23,20 @@ Portrait fourni par Cyrille et confirmé comme portrait de référence le 8 octo
 
 Vignette créée avec l'outil intégré de génération d'images, à partir du gabarit Alexandre V3 : cadre anthracite et filet orange, fond ivoire tramé, logo B-Only, badge diagonal et montagnes en bas. Portrait en couleur sur la droite ; nom noir et titre orange à gauche. Casquette Bitcoin, lunettes, foulard, sac et caméra conservés dans l'adaptation.
 
-## Livrable local pour relecture
+## Livrable validé
 
-- Fichier : `~/Téléchargements/vignette--mill3sim3--presentation-bitcointrails--2026-10-08--a-valider-v1.png`.
+- Fichier : `~/Téléchargements/vignette--mill3sim3--presentation-bitcointrails--2026-10-08--valide-v1.png`.
 - Dimensions : 1254 × 1254 pixels ; taille : 1995012 octets.
 - SHA-256 : `af05450be8f1a67ee007e3f0482fcb6981fb6cb7878255332a1e89f3ac53acac`.
 - Contrôle visuel : identité, badge, nom et titre lisibles ; aucun ancien texte Alexandre ; aucun horaire.
 
-La vignette n'est pas encore déposée dans Nextcloud et reste à valider par Cyrille. Aucun visuel lourd versionné dans GitHub. Aucune publication ni changement de visibilité du programme.
+Vignette V1 validée par Cyrille le 8 octobre 2026, puis déposée sans écrasement dans Nextcloud. SHA-256 distant vérifié par l'outil ; présence et taille relues dans le dossier.
+
+- Dossier : `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/`.
+- Fichier : `vignette--mill3sim3--presentation-bitcointrails--2026-10-08--valide-v1.png`.
+- [Ouvrir dans Nextcloud](https://cloud.alpinechain.xyz/apps/files/?dir=%2FAssociation%2FAction+-+Initiatives%2FB-Only%2F2026%2F03_Communication%2FVignettes%2FIntervenants%2Fvignette--mill3sim3--presentation-bitcointrails--2026-10-08--valide-v1.png).
+
+Aucun visuel lourd versionné dans GitHub. La validation graphique ne vaut pas autorisation de publication ni de fusion ; le programme reste `confirmed/internal`.
 
 ## Texte alternatif proposé
 
