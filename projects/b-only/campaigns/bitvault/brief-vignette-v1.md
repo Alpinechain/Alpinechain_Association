@@ -1,16 +1,30 @@
-# Brief vignette — Loïc Ruchat-Leuthardt / BitVault
+# Vignette V1 — Loïc Ruchat-Leuthardt / BitVault
 
-Statut : **VISUEL À PRODUIRE** (`pending_review`). Aucun visuel généré ou validé par cette préparation.
+Statut : **VISUEL PRODUIT — À VALIDER** (`pending_review`) — 12 octobre 2026.
 
-- Modèle : identité B-Only’26 et gabarit intervenant existant, déclinaisons compatibles avec les canaux retenus.
+## Visuel produit
+
+Gabarit B-Only'26 existant : fond ivoire tramé orange, cadre orange/anthracite,
+logo de l’événement, nom à gauche et portrait à droite, montagnes dans la partie basse.
+Portrait fourni directement par Cyrille ; aucun portrait tiers de substitution.
+
 - Nom : Loïc Ruchat-Leuthardt / BitVault.
 - Titre exact : « Posséder ses bitcoins en toute sécurité ».
-- Mention événement : B-Only’26 · 7–9 novembre 2026 · Annecy.
-- Affiliation/fonction : Loïc Ruchat-Leuthardt / BitVault ; ne pas inventer de fonction professionnelle.
-- Créneau si retenu dans la composition : Dimanche 8 novembre 2026, 14 h 30–15 h 20, Pleb Forum — Workshop.
-- Portrait : manquant dans le registre ; obtenir la source et les droits, puis produire la vignette. Ne pas fabriquer le visage.
-- Logos BitVault : six sources indexées dans `01_Programme-Intervenants/Logos Participants/` ; choix du logo actif à valider.
+- Badge : WORKSHOP.
+- Fonction professionnelle : aucune.
+- Date/horaire dans le visuel : aucun.
+- Logo BitVault fourni, sans qualifier une relation de sponsor/partenaire.
 
-Portrait, droits/crédit, synopsis du workshop, déroulé, prérequis et besoins techniques restent à préciser. Le statut de partenariat de BitVault n’est pas confirmé ; aucune mention de sponsor ou partenaire officiel n’est utilisée. Aucune fonctionnalité détaillée, garantie ou efficacité du produit n’est promise.
+## Sources et dépôt
 
-Validation visuelle de Cyrille avant tout dépôt comme version `--valide` ou utilisation publique. Alt text à adapter au rendu final.
+- [Portrait source fourni par Cyrille](https://cloud.alpinechain.xyz/index.php/f/5137).
+- [Vignette PNG V1 à valider](https://cloud.alpinechain.xyz/index.php/f/5138).
+- Nextcloud : `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/`.
+- Création exclusive WebDAV, tailles/SHA-256/identifiants relus à distance ; Groupfolder 1 indexé sans erreur.
+- Copies de diffusion légères et empreintes des sources documentées dans la PR #209.
+
+## Prochaine action
+
+Cyrille valide le visuel. Les textes et calendriers de campagne restent à relire
+et à confirmer séparément. L’intégration au planning est préparée dans #209 ;
+aucune fusion, programmation ni publication de campagne effectuée.

@@ -1,16 +1,30 @@
-# Brief vignette — Frédéric Jollien
+# Vignette V1 — Frédéric Jollien
 
-Statut : **VISUEL À PRODUIRE** (`pending_review`). Aucun visuel généré ou validé par cette préparation.
+Statut : **VISUEL PRODUIT — À VALIDER** (`pending_review`) — 12 octobre 2026.
 
-- Modèle : identité B-Only’26 et gabarit intervenant existant, déclinaisons compatibles avec les canaux retenus.
+## Visuel produit
+
+Gabarit B-Only'26 existant : fond ivoire tramé orange, cadre orange/anthracite,
+logo de l’événement, nom à gauche et portrait à droite, montagnes dans la partie basse.
+Portrait fourni directement par Cyrille ; aucun portrait tiers de substitution.
+
 - Nom : Frédéric Jollien.
 - Titre exact : « Bitcoin : quand la technologie réalise l’idéal libéral ».
-- Mention événement : B-Only’26 · 7–9 novembre 2026 · Annecy.
-- Affiliation/fonction : Institut Libéral ; fonction exacte `to_verify`, pas de mention « directeur ».
-- Créneau si retenu dans la composition : Dimanche 8 novembre 2026, 16 h 30–17 h 20, salle principale.
-- Portrait : manquant dans le registre ; obtenir la source et les droits, puis produire la vignette. Ne pas fabriquer le visage.
-- Logo Institut Libéral : disponibilité et droit d’usage à vérifier avant intégration.
+- Badge : INTERVENANT.
+- Fonction professionnelle : aucune.
+- Date/horaire dans le visuel : aucun.
+- Aucune affiliation ou fonction non confirmée ajoutée.
 
-Portrait, droits/crédit, biographie et synopsis validés à obtenir. `to_verify` : le registre décrit « directeur pour la Suisse romande » ; la page officielle de l’Institut Libéral le présente comme économiste et membre du comité. La campagne n’utilise que le nom et l’affiliation ; ne pas publier la fonction du registre sans confirmation.
+## Sources et dépôt
 
-Validation visuelle de Cyrille avant tout dépôt comme version `--valide` ou utilisation publique. Alt text à adapter au rendu final.
+- [Portrait source fourni par Cyrille](https://cloud.alpinechain.xyz/index.php/f/5135).
+- [Vignette PNG V1 à valider](https://cloud.alpinechain.xyz/index.php/f/5136).
+- Nextcloud : `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/`.
+- Création exclusive WebDAV, tailles/SHA-256/identifiants relus à distance ; Groupfolder 1 indexé sans erreur.
+- Copies de diffusion légères et empreintes des sources documentées dans la PR #209.
+
+## Prochaine action
+
+Cyrille valide le visuel. Les textes et calendriers de campagne restent à relire
+et à confirmer séparément. L’intégration au planning est préparée dans #209 ;
+aucune fusion, programmation ni publication de campagne effectuée.

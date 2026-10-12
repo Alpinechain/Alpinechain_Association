@@ -14,7 +14,7 @@ Préparée le 12 octobre 2026 — **PRÊT À RELIRE** (`pending_review`).
 - [Textes multicanaux](contenus-multicanaux-v1.md) : deux LinkedIn, X, Instagram, Facebook et alt text.
 - [Corps commun Blog / Nostr](article-blog-nostr-v1.md).
 - [Calendrier proposé](calendrier-diffusion-v1.csv) : sept canaux sur trois jours.
-- [Brief de vignette](brief-vignette-v1.md) : portrait et validation nécessaires.
+- [Brief de vignette](brief-vignette-v1.md) : visuel produit à valider.
 
 ## Sources et vérifications
 
@@ -29,3 +29,7 @@ Portrait, droits/crédit, biographie et synopsis validés à obtenir. `to_verify
 Cyrille relit les textes et l’angle ; obtenir les médias nécessaires puis produire/valider la vignette. Confirmer le calendrier et l’espacement avec Mill3sim3 avant programmation. Les dates proposées ne modifient aucun outil de publication.
 
 Suivi dédié : #204 ; communication : #24 ; visuels : #53 ; besoins pratiques : #12 / #25. Aucun lien court, UTM ou voucher spécifique créé ; aucun contenu programmé ou publié.
+
+## Actualisation visuel — 12 octobre 2026
+
+Le portrait fourni par Cyrille et la vignette B-Only V1 sont désormais classés dans Nextcloud : portrait 5135, vignette 5136. **VISUEL PRODUIT — À VALIDER** (`pending_review`). Le [brief V1](brief-vignette-v1.md) décrit le visuel effectivement produit ; les mentions antérieures de portrait manquant sont historiques. Texte, visuel et calendrier restent à valider avant diffusion. Intégration au planning préparée dans #209.
