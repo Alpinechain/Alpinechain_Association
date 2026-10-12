@@ -21,6 +21,16 @@ humaine.
 Les portraits, logos, biographies et documents sources restent dans Nextcloud.
 Cette page ne contient que les informations nécessaires au programme.
 
+## Validation du programme complet — 12 octobre 2026
+
+Cyrille a déclaré la grille complète : 30 créneaux actifs publics, plus une
+entrée annulée conservée pour audit. Le créneau du lundi 11 h–11 h 50 est une
+« Présentation de clôture » sans invité nommé. Mill3sim3 / Bitcointrails est inclus dimanche 11 h 30–12 h en salle principale.
+Cette validation autorise la
+transition vers `publication.state: published` dans la PR de consolidation.
+Les dernières communications restent à planifier dans #24 ; les besoins
+opérationnels restent suivis séparément dans #12 et #25.
+
 ## Mise à jour
 
 1. Modifier uniquement `programme.json`.

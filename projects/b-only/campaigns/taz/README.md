@@ -25,14 +25,14 @@ Le site et l'image répondent en HTTP 200 ; l'image WebP a été inspectée.
 
 La fenêtre de communication du **15 au 17 octobre 2026** est réservée dans le
 planning actif. Elle ne constitue pas une programmation effective.
-La session est confirmée `confirmed/internal` sur demande de Cyrille le 8 octobre : lundi 9 novembre, 10 h 30–11 h 20, Pleb Forum — Workshop. Aucun horaire
+La session est confirmée `confirmed/public` depuis la validation de Cyrille et le déploiement de la PR #201 le 12 octobre : lundi 9 novembre, 10 h 30–11 h 20, Pleb Forum — Workshop. Aucun horaire
 d'atelier n'est annoncé. Les contenus sont des brouillons pour validation.
 
 La demande fixe le nom public, le titre et la description ; elle ne confirme
 ni une fonction professionnelle ni une relation de partenariat. Aucune
 fonction, affiliation ou capacité technique précise n'est ajoutée.
 
-Le programme et les registres utilisent désormais le nom public Taz, en conservant l’identifiant `mon-workshop-noe`. La session reste interne ; la communication reste à relire.
+Le programme et les registres utilisent désormais le nom public Taz, en conservant l’identifiant `mon-workshop-noe`. La session est publique ; la communication reste à relire.
 
 ## Prochaine action
 
