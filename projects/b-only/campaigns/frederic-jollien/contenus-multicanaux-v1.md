@@ -1,5 +1,6 @@
-# Frédéric Jollien — communications V2 (à relire)
+# Frédéric Jollien — communications V2
 
+État de suivi : **DIFFUSION EN COURS — publications postées et suivantes planifiées**, déclaré par Cyrille le 12 octobre 2026. URLs publiques et horaires réels par réseau non fournis ; archivage et métriques restent à compléter dans #24. Aucun statut `URLS ARCHIVÉES` n’est déduit. Les textes ci-dessous sont conservés sans réécriture.
 Angle : **Et si une technologie rendait certaines libertés monétaires concrètement exerçables ?** Session confirmée ; fonction précise non ajoutée (à vérifier). CTA : https://b-only.org/.
 
 ## Blog / Nostr

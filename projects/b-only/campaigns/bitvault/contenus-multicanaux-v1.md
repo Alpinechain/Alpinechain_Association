@@ -1,5 +1,6 @@
-# Loïc Ruchat-Leuthardt / BitVault — communications V2 (à relire)
+# Loïc Ruchat-Leuthardt / BitVault — communications V2
 
+État de suivi : **DIFFUSION EN COURS — publications postées et suivantes planifiées**, déclaré par Cyrille le 12 octobre 2026. URLs publiques et horaires réels par réseau non fournis ; archivage et métriques restent à compléter dans #24. Aucun statut `URLS ARCHIVÉES` n’est déduit. Les textes ci-dessous sont conservés sans réécriture.
 Angle : **Vos clés sont à vous. Et si la vraie question était ce qui se passe quand tout ne se déroule pas comme prévu ?** CTA : https://b-only.org/. Ne pas présenter BitVault comme sponsor/partenaire confirmé ni promettre de fonction ou de démonstration non validée.
 
 ## Blog / Nostr

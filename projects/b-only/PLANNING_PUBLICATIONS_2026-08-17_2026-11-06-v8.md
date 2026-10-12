@@ -1,6 +1,6 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V19
+Version : V20
 Date : 2026-10-12
 Fuseau : Europe/Paris
 
@@ -12,17 +12,16 @@ date prévue du calendrier.
 
 Cyrille déclare le programme complet le 12 octobre : 30 créneaux actifs publics,
 avec une présentation de clôture lundi 11 h–11 h 50 sans invité nommé.
-Thomas et Taz sont PROGRAMMÉS selon la déclaration de Cyrille du 12 octobre ; Mill3sim3 est EN COURS. La préparation de Frédéric et Loïc / BitVault est PRÊTE À RELIRE ; les visuels restent à produire et les calendriers proposés à valider dans #24.
-Les fenêtres de Frédéric et BitVault restent proposées ; leurs dates ne prouvent ni
-programmation effective ni publication. Thomas et Taz sont PROGRAMMÉS sur déclaration de Cyrille.
+Thomas et Taz sont PROGRAMMÉS selon la déclaration de Cyrille du 12 octobre ; Mill3sim3 est EN COURS. Frédéric et Loïc / BitVault : DIFFUSION EN COURS, publications postées et suivantes planifiées selon Cyrille le 12 octobre ; visuels validés, URLs et horaires réels à archiver dans #24.
+Les fenêtres de préparation Frédéric et BitVault ci-dessous sont historiques : les heures effectives par réseau ne sont pas fournies. La déclaration de Cyrille confirme la diffusion et la planification, sans établir les URLs publiques ni valider ces dates proposées.
 
 | Communication | État actuel | Prochaine action |
 |---|---|---|
 | Thomas Mang — 12–14 octobre | PROGRAMMÉ — déclaré par Cyrille le 12 octobre (#188) | Archiver les URLs après diffusion réelle ; horaires exacts non fournis |
 | Taz / Wesatoshis — 15–17 octobre | PROGRAMMÉ — déclaré par Cyrille le 12 octobre | Archiver les URLs après diffusion réelle ; horaires exacts non fournis |
-| Frédéric Jollien — 19–21 octobre | PRÊT À RELIRE — textes et calendrier V1 proposés ; visuel à produire | Relire le pack Frédéric et fournir portrait/droits |
+| Frédéric Jollien — 19–21 octobre | DIFFUSION EN COURS — posté et planifié, déclaré le 12 octobre ; visuel validé | Archiver URLs et horaires effectifs par réseau |
 | Ancienne fenêtre Alexis — 22–24 octobre | À RÉARBITRER | Choisir explicitement un contenu de remplacement ; la clôture n’annonce aucun invité |
-| BitVault / Loïc — 26–28 octobre | PRÊT À RELIRE — textes et calendrier V1 proposés ; visuel à produire | Relire le pack BitVault et fournir portrait/droits |
+| BitVault / Loïc — 26–28 octobre | DIFFUSION EN COURS — posté et planifié, déclaré le 12 octobre ; visuel validé | Archiver URLs et horaires effectifs par réseau |
 | Programme complet / billetterie, informations pratiques, Cercle du Coin | À PLANIFIER | Arrêter les dates, canaux, responsables et validations dans les fenêtres restantes |
 | Mill3sim3 / Bitcointrails — PR #197 | EN COURS — déclaré par Cyrille le 12 octobre ; URLs non fournies | Préciser la fenêtre et archiver les URLs réelles ; aucun statut PUBLIÉ sans preuve |
 
@@ -57,10 +56,10 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 12–14 octobre | Thomas Mang — « Détenir ses bitcoins, être souverain ? » | PROGRAMMÉ — déclaration de Cyrille le 12 octobre ; URLs à archiver après diffusion réelle |
 | 15–17 octobre | Taz / Wesatoshis | PROGRAMMÉ — déclaration de Cyrille le 12 octobre ; URLs à archiver après diffusion réelle |
 | 18 octobre | Publication complémentaire B-Only | À CADRER |
-| 19–21 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | PRÊT À RELIRE — pack V1 préparé ; portrait/droits et vignette à consolider |
+| 19–21 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | DIFFUSION EN COURS — posté et planifié selon Cyrille ; visuel validé, URLs et heures réelles à archiver |
 | 22–24 octobre | Ancienne campagne Alexis Roussel — à réexaminer | À RÉEXAMINER — son créneau du lundi 11 h est remplacé par « Présentation de clôture », sans invité précisé, sur décision de Cyrille le 12 octobre ; aucun remplacement éditorial décidé |
 | 25 octobre | Publication complémentaire B-Only | À CADRER |
-| 26–28 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | PRÊT À RELIRE — pack V1 préparé ; fenêtre conservée, visuel à produire et calendrier à valider |
+| 26–28 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | DIFFUSION EN COURS — posté et planifié selon Cyrille ; proposition de fenêtre historique, URLs et heures réelles à archiver |
 | 29–31 octobre | Rappel billetterie + programme | À CADRER |
 | 1er novembre | Publication complémentaire / bascule tarif retardataire | À CADRER |
 | 2–4 novembre | Dernier rappel workshops / informations pratiques | À CADRER |
@@ -100,7 +99,7 @@ et reste manuel. Contrôler les comptes et aperçus avant programmation.
 2. **Marius Farashi** : démarrage mercredi 7 octobre ; programmer les
    textes V2 validés selon le calendrier, conserver Nostr manuel.
 3. **Thomas Mang**, puis **Taz / Wesatoshis**, **Frédéric Jollien** et
-   **BitVault / Loïc** : compléter et valider les campagnes dans les fenêtres
+   **BitVault / Loïc** : suivre les diffusions et archiver leurs URLs ; les fenêtres de préparation étaient
    réservées ; réarbitrer séparément la fenêtre auparavant prévue pour Alexis.
 4. **Suivis précédents** : archiver les preuves Nicolas et Laure ; pour Lionel,
    les sept URLs sont archivées dans #24 depuis le 28 septembre, métriques à relever.
@@ -160,3 +159,7 @@ Les versions antérieures restent archivées et ne doivent pas être programmée
 - Le CSV V1 du 1er–3 octobre conserve les anciennes dates proposées : il ne
   décrit pas les horaires réellement utilisés lors du lancement du 3 octobre.
 - Contrôler la fin réelle de diffusion et l’espacement par canal avant Marius.
+
+## Confirmation de diffusion — 12 octobre 2026
+
+Frédéric Jollien et Loïc / BitVault : publications déjà postées et suivantes planifiées sur les différents réseaux, déclaration de Cyrille. URLs publiques, répartition par canal et horaires réels restent à archiver dans #24 / #203 / #204 ; aucune métrique ni URL archivée inventée.

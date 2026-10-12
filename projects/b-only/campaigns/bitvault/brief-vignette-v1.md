@@ -1,5 +1,7 @@
 # Vignette V1 — Loïc Ruchat-Leuthardt / BitVault
 
+État courant : **VISUEL VALIDÉ** ; copie validée Nextcloud 5140, selon #24 / #203. Les sections de production suivantes conservent l’historique.
+
 Statut : **VISUEL PRODUIT — À VALIDER** (`pending_review`) — 12 octobre 2026.
 
 ## Visuel produit

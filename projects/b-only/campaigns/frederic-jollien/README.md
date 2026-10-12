@@ -1,5 +1,15 @@
 # Campagne — Frédéric Jollien
 
+## État courant — 12 octobre 2026
+
+**DIFFUSION EN COURS — publications postées et suivantes planifiées**, déclaré par Cyrille le 12 octobre 2026. URLs publiques et horaires réels par réseau non fournis ; archivage et métriques restent à compléter dans #24. Aucun statut `URLS ARCHIVÉES` n’est déduit.
+
+Vignette validée et archivée dans Nextcloud : [fichier 5139](https://cloud.alpinechain.xyz/index.php/f/5139). Suivi : #204, #24 ; besoins pratiques #12 / #25.
+
+Les dates et heures du calendrier de préparation restent historiques et ne prouvent pas les heures réellement programmées. Prochaine action : archiver les URLs après chaque diffusion, puis relever les métriques par réseau.
+
+## Historique de préparation — remplacé par l’état courant
+
 Préparée le 12 octobre 2026 — **PRÊT À RELIRE** (`pending_review`).
 
 ## Base confirmée

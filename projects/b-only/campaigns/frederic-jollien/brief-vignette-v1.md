@@ -1,5 +1,7 @@
 # Vignette V1 — Frédéric Jollien
 
+État courant : **VISUEL VALIDÉ** ; copie validée Nextcloud 5139, selon #24 / #204. Les sections de production suivantes conservent l’historique.
+
 Statut : **VISUEL PRODUIT — À VALIDER** (`pending_review`) — 12 octobre 2026.
 
 ## Visuel produit
