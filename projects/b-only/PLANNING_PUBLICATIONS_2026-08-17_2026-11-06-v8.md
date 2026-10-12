@@ -99,8 +99,9 @@ et reste manuel. Contrôler les comptes et aperçus avant programmation.
 2. **Marius Farashi** : démarrage mercredi 7 octobre ; programmer les
    textes V2 validés selon le calendrier, conserver Nostr manuel.
 3. **Thomas Mang**, puis **Taz / Wesatoshis**, **Frédéric Jollien** et
-   **BitVault / Loïc** : suivre les diffusions et archiver leurs URLs ; les fenêtres de préparation étaient
-   réservées ; réarbitrer séparément la fenêtre auparavant prévue pour Alexis.
+   **BitVault / Loïc** : suivre les diffusions et archiver leurs URLs ;
+   rapprocher les heures effectives des fenêtres de préparation historiques.
+   Réarbitrer séparément la fenêtre auparavant prévue pour Alexis.
 4. **Suivis précédents** : archiver les preuves Nicolas et Laure ; pour Lionel,
    les sept URLs sont archivées dans #24 depuis le 28 septembre, métriques à relever.
 

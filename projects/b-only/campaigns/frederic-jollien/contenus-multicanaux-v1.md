@@ -25,7 +25,7 @@ Quelles libertés Bitcoin rend-il possibles ? Quelles limites subsistent ? Et qu
 
 **Vous voyez Bitcoin d’abord comme une innovation technique, monétaire ou philosophique ?**
 
-📍 Annecy — 7 au 9 novembre 2026  
+📍 Annecy — 7 au 9 novembre 2026
 🎤 Dimanche 8 novembre, 16 h 30
 
 🎟️ Programme et réservation : https://b-only.org/
@@ -71,7 +71,7 @@ Un sujet pour réfléchir, poser des questions et débattre — sans obligation 
 
 💬 **Et vous, qu’est-ce qui vous intéresse le plus dans Bitcoin : la technologie, la monnaie ou l’autonomie qu’il peut offrir ?**
 
-📅 Dimanche 8 novembre, 16 h 30–17 h 20  
+📅 Dimanche 8 novembre, 16 h 30–17 h 20
 📍 Novotel Annecy Centre
 
 🎟️ https://b-only.org/
@@ -88,7 +88,7 @@ Une idée. Un protocole. Des choix à discuter.
 
 💬 Pour vous, Bitcoin est d’abord une technologie, une monnaie ou une idée de liberté ?
 
-📍 Annecy · 7–9 novembre 2026  
+📍 Annecy · 7–9 novembre 2026
 🎟️ **b-only.org** (lien en bio à vérifier)
 
 #Bitcoin #BOnly26 #Annecy

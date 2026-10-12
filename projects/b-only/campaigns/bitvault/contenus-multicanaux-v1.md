@@ -25,7 +25,7 @@ L’occasion de remettre les bonnes questions au centre des échanges, sans tran
 
 **Et vous, pourriez-vous expliquer votre méthode de conservation en cinq minutes ?**
 
-📍 Annecy · 7–9 novembre  
+📍 Annecy · 7–9 novembre
 📅 Dimanche 8 novembre, 14 h 30, Pleb Forum
 
 🎟️ Programme et réservations : https://b-only.org/
@@ -46,7 +46,7 @@ Un workshop pour prendre au sérieux les questions de conservation et en discute
 
 **Quelle question sur la sécurité Bitcoin aimeriez-vous pouvoir poser sans jugement ?**
 
-📅 Dimanche 8 novembre, 14 h 30, Annecy  
+📅 Dimanche 8 novembre, 14 h 30, Annecy
 🎟️ https://b-only.org/
 
 ## X — AlpineChain
@@ -73,7 +73,7 @@ Un rendez-vous consacré aux questions très concrètes de conservation et de s�
 
 💬 **Et vous, quelle précaution a le plus changé votre façon de conserver vos bitcoins ?**
 
-📅 Dimanche 8 novembre, 14 h 30–15 h 20  
+📅 Dimanche 8 novembre, 14 h 30–15 h 20
 📍 Pleb Forum — Novotel Annecy Centre
 
 🎟️ Découvrez le programme : https://b-only.org/
@@ -90,7 +90,7 @@ Un rendez-vous consacré aux questions très concrètes de conservation et de s�
 
 💬 Et vous, vous avez déjà réfléchi à ce qui se passerait si votre appareil ne fonctionnait plus ?
 
-📍 Annecy · 7–9 novembre 2026  
+📍 Annecy · 7–9 novembre 2026
 🎟️ **b-only.org** (lien en bio à vérifier)
 
 #Bitcoin #BOnly26 #SelfCustody #Annecy

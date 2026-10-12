@@ -56,7 +56,7 @@ Ces approches ne s’excluent pas. Elles peuvent même se compléter, à conditi
 
 Frédéric Jollien apportera sa perspective lors de **B-Only'26**, organisé par AlpineChain à Annecy du **7 au 9 novembre 2026**.
 
-**Sa conférence : « Bitcoin : quand la technologie réalise l’idéal libéral »**  
+**Sa conférence : « Bitcoin : quand la technologie réalise l’idéal libéral »**
 📍 Dimanche 8 novembre, 16 h 30–17 h 20, salle principale — Novotel Annecy Centre.
 
 👉 Découvrez le programme complet et réservez votre place : https://b-only.org/
