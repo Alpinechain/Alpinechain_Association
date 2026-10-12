@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-10-03
+Date de dernière mise à jour : 2026-10-12 (mise à jour ciblée programme et communications)
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -14,7 +14,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 2. **Finaliser la capitalisation Souveraineté 3.0 — BitVault** : rencontre tenue le 24 septembre ; retour public publié sur cinq canaux et synthèse qualitative archivés dans [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7). Restent les indicateurs précis et la confirmation des archives utiles.
 3. **Suivre la dynamique communautaire et ses revenus** : la fréquentation habituelle des meetups est estimée à **8–15 personnes**, avec un cœur régulier de **6–8 personnes** et environ **4–6 nouveaux participants** depuis le début de l'année. Les adhésions 2026 sont à **3 particuliers**, contre **8 particuliers + 2 entreprises fin 2025**, mais la plupart des participants aux meetups Bitcoin paient leur venue : environ **25 € de recettes par meetup en moyenne**. La boutique goodies représente également environ **100 € de recettes cumulées à ce jour**.
 4. **Maintenir Annecy Bitcoin Tour et commencer à mesurer son usage** : les **8 commerçants partenaires sont toujours actifs** ; aucun retour chiffré sur les paiements n'est encore disponible.
-5. **Préparer le gel du 9 octobre** : registre des risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) à construire ; plans cotés Novotel reçus, implantation finale après confirmation des partenaires (#25). Devis Aravision signé et envoyé (#12), devis Grifartaix signé et budget Nextcloud déclaré à jour le 28 septembre (#26). Maintenance mensuelle reportée après B-Only sauf urgence, dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119) ; Pretix reste gelé.
+5. **Finaliser la préparation opérationnelle après validation du programme complet le 12 octobre** : registre des risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) à construire ; plans cotés Novotel reçus, implantation finale après confirmation des partenaires (#25). Devis Aravision signé et envoyé (#12), devis Grifartaix signé et budget Nextcloud déclaré à jour le 28 septembre (#26). Maintenance mensuelle reportée après B-Only sauf urgence, dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119) ; Pretix reste gelé.
 
 ## Revue stratégique 2026
 
@@ -45,8 +45,8 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et est désormais `confirmed/public` sous le titre « Surprise ». Lionel Jeannerat est confirmé et public dimanche 8 novembre de 17 h 30 à 18 h 20, en salle principale, après le début de sa campagne publique le 21 septembre.
 - Le workshop Specter de Schnuartz est remplacé par « Atelier Bitcoin Lego » avec Laure Merlin, dimanche 8 novembre de 18 h à 18 h 50 au Pleb Forum. Le créneau est `confirmed/public` depuis le 2026-09-06 ; ses détails pratiques et besoins techniques restent à finaliser.
 - Le Cercle du Coin intervient désormais lundi 9 novembre de 9 h à 10 h avec Laure Merlin : présentation du Cercle pendant 10 à 15 minutes, puis keynote « Comment faire communauté » pendant 30 à 35 minutes. Le créneau reste `confirmed/public`.
-- La source contient 30 entrées, dont 1 annulée conservée pour audit. Tous les 29 créneaux actifs sont préparés en visibilité publique sur décision de Cyrille le 12 octobre ; l’entrée annulée reste masquée ; Michel Khazzaka reste une option sans créneau. Le programme reste en `draft` jusqu’au gel.
-- Le programme reste en état `draft` : la source est publiée, mais les créneaux non confirmés restent provisoires.
+- La grille complète contient 31 entrées, dont 1 annulée conservée pour audit. Les 29 créneaux précédents sont publics depuis #201 ; Mill3sim3 / Bitcointrails est ajouté en visibilité publique sur décision de Cyrille le 12 octobre ; l’entrée annulée reste masquée ; Michel Khazzaka reste une option sans créneau. Programme déclaré complet par Cyrille le 12 octobre ; passage en `published` préparé dans la PR de consolidation.
+- Le programme est complet et validé par Cyrille. Les dernières communications restent à planifier dans #24 ; cela ne remet pas en attente la grille programme #11.
 
 ### Communication
 
@@ -98,7 +98,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Lionel Jeannerat est `confirmed/public` dans le programme, dimanche 8 novembre de 17 h 30 à 18 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; sept URLs sont archivées depuis le 28 septembre ; métriques à relever séparément.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
-- Restent notamment à obtenir : éléments éditoriaux et techniques de Frédéric Jollien et Thomas Mang, nouvelles disponibilités éventuelles de Michel Khazzaka, compléments d’Alexandre Stachtchenko et organisation de la présentation de clôture sans invité précisé, détails pratiques de Laure Merlin, responsables du quiz et éléments opérationnels de BitVault. La date de gel du programme est fixée au 9 octobre 2026.
+- Restent notamment à obtenir : éléments éditoriaux et techniques de Frédéric Jollien et Thomas Mang, nouvelles disponibilités éventuelles de Michel Khazzaka, compléments d’Alexandre Stachtchenko et organisation de la présentation de clôture sans invité précisé, détails pratiques de Laure Merlin, responsables du quiz et éléments opérationnels de BitVault. L’échéance initiale de gel était le 9 octobre ; la déclaration de programme complet est validée le 12 octobre. Ces compléments relèvent désormais de la préparation technique (#12), de la logistique (#25) et de la communication (#24 / #53).
 
 ## Continuité des services
 
@@ -114,7 +114,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 | Maintenant | Construire le registre des risques #27 à partir des plans cotés ; finaliser la liste des partenaires avant implantation #25 |
 | Avant le 7 octobre | Programmer la campagne Marius validée #184 selon le calendrier V2, vérifier la fin réelle d’Alexandre et archiver ses URLs #24 |
 | 7–9 octobre | Fenêtre Marius décidée ; programmation après validation humaine |
-| 9 octobre | Gel du programme : niveau de gel et dépendances à faire valider ; consolider #11, #12, #25, #26, #27 |
+| 12 octobre | Programme déclaré complet par Cyrille ; dernières communications à planifier (#24), dépendances opérationnelles suivies séparément (#12, #25, #26, #27) |
 | Mi-octobre | Suivre l’expédition des lots et les vidéos Neowalt #147 |
 | 31 octobre | Expiration des codes sponsors #186 ; réception/inventaire des lots et test régie à finaliser |
 | 7–9 novembre | B-Only 2026 |
@@ -136,3 +136,12 @@ Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre.
 - Lundi 11 h–11 h 50 : « Présentation de clôture », sans invité précisé, remplace le créneau d’Alexis Roussel. Sa campagne du 22–24 octobre est à réexaminer ; aucun remplacement éditorial n’est choisi automatiquement.
 - L’échange des workshops Élodie / Loïc du 11 octobre est conservé : Élodie samedi 15 h 30–16 h 20, Loïc dimanche 14 h 30–15 h 20.
 - Suivi : #11 ; la PR #197 reste distincte et devra conserver la visibilité publique lors de sa resynchronisation.
+
+## Programme complet — décision du 12 octobre 2026
+
+- Cyrille déclare le programme complet ; la grille validée comporte 30 créneaux actifs publics et une entrée annulée conservée pour audit.
+- Le bandeau provisoire est remplacé par « Programme complet — B-Only 2026, du 7 au 9 novembre à Annecy. » ; transition `published` préparée dans la PR de consolidation, fusion à valider.
+- Dernières communications : relire Thomas et Taz, préparer Frédéric et BitVault, réarbitrer l’ancienne fenêtre Alexis, arrêter les rappels programme/billetterie, informations pratiques et Cercle du Coin. Fenêtres réservées à confirmer dans #24 ; aucun nouveau statut `PROGRAMMÉ` ou `PUBLIÉ` sans preuve.
+- Mill3sim3 / Bitcointrails est intégré au programme complet : dimanche 8 novembre, 11 h 30–12 h, salle principale, visibilité publique validée par Cyrille le 12 octobre. Sa campagne préparée dans #197 reste à relire et à planifier ; cette PR sera resynchronisée après fusion pour ne porter que les éléments de campagne restants.
+- Les besoins techniques, droits, prérequis et rôles du jour J restent suivis dans #12, #25 et #53 ; la complétude du programme ne les déclare pas accomplis.
+- Sources vérifiées : programme et modèle public déployés par #201, Issues #11 / #24 / #153 / #188, PR #197 et fichiers de campagnes. Pas de nouvelle revue des outils financiers, de billetterie ou de Nextcloud.
