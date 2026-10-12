@@ -30,8 +30,4 @@ Les copies de diffusion seront publiques après la fusion/déploiement autorisé
 - Loïc : logo BitVault sur fond blanc, usage dans sa pastille validé par Cyrille le 12 octobre.
   Source : `Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--bitvault--logo-fond-blanc-carre--2026-09-08--source.png`.
   SHA-256 : `743f27ef18adb6aadd9c9a3d539a52164bf2bb246e6374ecbf095a8442bdf02a`. Copies WebP légères dans ce dossier.
-- Frédéric : portrait officiel choisi par Cyrille le 12 octobre, chargé directement depuis
-  https://www.libinst.ch/wp-content/uploads/2023/08/Frederic-Jollien.jpg
-  (miniature 300 px fournie par le site, HTTP 200 vérifié).
-  Page de référence : https://www.libinst.ch/fr/a-propos-de-linstitut/ .
-  Aucun logo Institut Libéral n’est intégré par cette modification.
+- Frédéric : la photo de l’Institut Libéral précédemment proposée est rejetée par Cyrille le 12 octobre et retirée de cette PR. Profil de référence fourni : https://www.linkedin.com/in/fjollien/ . LinkedIn renvoie HTTP 999 lors de la vérification ; aucun portrait de remplacement n’est affirmé disponible ou validé. La pastille reste neutre tant que le bon fichier n’est pas obtenu.

@@ -123,6 +123,7 @@ validé. Les portraits d’Élodie (workshop) et Laure (Cercle du Coin), ainsi q
 vignettes validées de Florent, Mill3sim3 et Taz, disposent de copies de
 diffusion légères sous `public/visuals/`, avec provenance et empreintes
 des originaux dans `SOURCES.md`. Les originaux restent dans Nextcloud.
-Loïc utilise le logo BitVault choisi après inventaire ; Frédéric utilise le
-portrait officiel de l’Institut Libéral, tous deux sur accord de Cyrille.
-Seul le rendez-vous des organisateurs de meetups reste sans visuel associé.
+Loïc utilise le logo BitVault choisi après inventaire, sur accord de Cyrille.
+Frédéric reste sans visuel : la photo de l’Institut Libéral a été rejetée, et
+le portrait du profil LinkedIn fourni doit être obtenu. Le rendez-vous des
+organisateurs de meetups reste également sans visuel associé.

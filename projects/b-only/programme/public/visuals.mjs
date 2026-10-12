@@ -112,9 +112,5 @@ export const sessionVisuals = {
   "sat-workshop-bitvault": {
     "src": "visuals/bitvault-logo-thumb.webp",
     "full": "visuals/bitvault-logo-full.webp"
-  },
-  "sun-main-frederic-jollien": {
-    "src": "https://www.libinst.ch/wp-content/uploads/2023/08/Frederic-Jollien-300x300.jpg",
-    "full": "https://www.libinst.ch/wp-content/uploads/2023/08/Frederic-Jollien.jpg"
   }
 };
