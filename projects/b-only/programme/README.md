@@ -123,7 +123,8 @@ validé. Les portraits d’Élodie (workshop) et Laure (Cercle du Coin), ainsi q
 vignettes validées de Florent, Mill3sim3 et Taz, disposent de copies de
 diffusion légères sous `public/visuals/`, avec provenance et empreintes
 des originaux dans `SOURCES.md`. Les originaux restent dans Nextcloud.
-Loïc utilise le logo BitVault choisi après inventaire, sur accord de Cyrille.
-Frédéric dispose désormais d’une vignette B-Only V1 à valider, préparée à
-partir du portrait fourni par Cyrille et référencée dans `SOURCES.md`.
+Loïc et Frédéric disposent désormais de vignettes B-Only V1 à valider,
+préparées à partir des portraits fournis par Cyrille et classées dans Nextcloud.
+La vignette de Loïc utilise le logo BitVault. Provenance et empreintes
+sont référencées dans `SOURCES.md`.
 Le rendez-vous des organisateurs de meetups reste seul sans visuel associé.

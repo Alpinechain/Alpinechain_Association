@@ -110,8 +110,8 @@ export const sessionVisuals = {
     "full": "visuals/taz-full.webp"
   },
   "sat-workshop-bitvault": {
-    "src": "visuals/bitvault-logo-thumb.webp",
-    "full": "visuals/bitvault-logo-full.webp"
+    "src": "visuals/loic-vignette-thumb.webp",
+    "full": "visuals/loic-vignette-full.webp"
   },
   "sun-main-frederic-jollien": {
     "src": "visuals/frederic-vignette-thumb.webp",

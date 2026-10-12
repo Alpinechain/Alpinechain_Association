@@ -39,3 +39,23 @@ Les copies de diffusion seront publiques après la fusion/déploiement autorisé
   Dépôts WebDAV exclusifs (If-None-Match: *), lecture distante et SHA-256 vérifiés.
   Le portrait de l’Institut Libéral rejeté n’est pas utilisé. Aucun titre professionnel ou affiliation n’est ajouté au visuel.
   Copies WebP légères utilisées pour la pastille et le zoom ; aucun original lourd versionné.
+
+## Vignette Loïc / BitVault — V1 à valider
+
+Portrait fourni directement par Cyrille le 12 octobre (`loic ruchat profil.jpeg`, 800 × 800 px).
+Source canonique : `Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Photos Intervenants/intervenant--loic-ruchat-leuthardt--portrait--2026-10-12--source.jpeg`.
+SHA-256 portrait : `ae71dc5f0ddaf68f7720398049b68924e41ca5949abe63c6b177c7b1806151a1`.
+Vignette B-Only V1 générée à sa demande : `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--loic-ruchat-leuthardt--posseder-ses-bitcoins-en-toute-securite--2026-10-12--a-valider-v1.png`.
+SHA-256 PNG : `578843e4a8e51e713b03e342d7f856ce8830105282ebbfb5245aa9655341a54a`.
+Statut : **VISUEL PRODUIT — À VALIDER** (`pending_review`). Badge WORKSHOP, nom complet et titre « Posséder ses bitcoins en toute sécurité » ; logo BitVault fourni, aucune fonction ou statut partenaire ajouté.
+
+Créations exclusives WebDAV, lecture distante/empreintes vérifiées et Groupfolder 1 indexé sans erreur. Les copies WebP servent à la pastille et au zoom, en remplacement du logo seul. Profil fourni : https://www.linkedin.com/in/lo%C3%AFc-ruchat-leuthardt/ .
+
+## Liens Nextcloud vérifiés
+
+- Portrait Frédéric : https://cloud.alpinechain.xyz/index.php/f/5135
+- Vignette Frédéric V1 à valider : https://cloud.alpinechain.xyz/index.php/f/5136
+- Portrait Loïc : https://cloud.alpinechain.xyz/index.php/f/5137
+- Vignette Loïc V1 à valider : https://cloud.alpinechain.xyz/index.php/f/5138
+
+Identifiants relus par PROPFIND, contenus et SHA-256 relus après dépôt.
