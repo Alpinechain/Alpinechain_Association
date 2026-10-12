@@ -88,5 +88,33 @@ export const sessionVisuals = {
   "mon-workshop-profedu-ai-bitcoin": {
     "src": "https://alpinechain.xyz/wp-content/uploads/2026/08/vignette-profedustream-apprendre-bitcoin-en-pratique-2026-08-03-valide-300x300.png",
     "full": "https://alpinechain.xyz/wp-content/uploads/2026/08/vignette-profedustream-apprendre-bitcoin-en-pratique-2026-08-03-valide.png"
+  },
+  "sun-workshop-elodie-lightning": {
+    "src": "visuals/elodie-workshop-thumb.webp",
+    "full": "visuals/elodie-workshop-full.webp"
+  },
+  "mon-main-cercle": {
+    "src": "visuals/laure-cercle-thumb.webp",
+    "full": "visuals/laure-cercle-full.webp"
+  },
+  "sat-main-florent": {
+    "src": "visuals/florent-thumb.webp",
+    "full": "visuals/florent-full.webp"
+  },
+  "sun-main-mill3sim3-bitcointrails": {
+    "src": "visuals/mill3sim3-thumb.webp",
+    "full": "visuals/mill3sim3-full.webp"
+  },
+  "mon-workshop-noe": {
+    "src": "visuals/taz-thumb.webp",
+    "full": "visuals/taz-full.webp"
+  },
+  "sat-workshop-bitvault": {
+    "src": "visuals/loic-vignette-thumb.webp",
+    "full": "visuals/loic-vignette-full.webp"
+  },
+  "sun-main-frederic-jollien": {
+    "src": "visuals/frederic-vignette-thumb.webp",
+    "full": "visuals/frederic-vignette-full.webp"
   }
 };

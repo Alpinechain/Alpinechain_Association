@@ -119,6 +119,12 @@ Les pastilles sont agrandissables au clic ou au clavier. Une entrée masquée
 par le modèle public ne charge pas sa vignette. Une image manquante ou
 indisponible laisse un repère neutre ; cela ne modifie pas le créneau. Ajouter
 un visuel uniquement s’il correspond à la session et si son usage public est
-validé. Les huit entrées sans visuel associé lors de cette préparation sont
-BitVault, Florent, les organisateurs de meetups, Mill3sim3, le workshop
-Lightning d’Élodie, Frédéric, le Cercle du Coin et Taz.
+validé. Les portraits d’Élodie (workshop) et Laure (Cercle du Coin), ainsi que les
+vignettes validées de Florent, Mill3sim3 et Taz, disposent de copies de
+diffusion légères sous `public/visuals/`, avec provenance et empreintes
+des originaux dans `SOURCES.md`. Les originaux restent dans Nextcloud.
+Loïc et Frédéric disposent désormais de vignettes B-Only V1 à valider,
+préparées à partir des portraits fournis par Cyrille et classées dans Nextcloud.
+La vignette de Loïc utilise le logo BitVault. Provenance et empreintes
+sont référencées dans `SOURCES.md`.
+Le rendez-vous des organisateurs de meetups reste seul sans visuel associé.
