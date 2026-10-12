@@ -1,68 +1,103 @@
-# Loïc Ruchat-Leuthardt / BitVault — contenus multicanaux V1
+# Loïc Ruchat-Leuthardt / BitVault — communications V2 (à relire)
 
-Statut : **PRÊT À RELIRE** (`pending_review`) — 12 octobre 2026.
-Profil : B-Only. Objectif : annoncer la session confirmée et inviter à consulter le programme / réserver.
-Créneau confirmé : Dimanche 8 novembre 2026, 14 h 30–15 h 20, Pleb Forum — Workshop.
-CTA : https://b-only.org/ ; billetterie officielle : https://join.alpinechain.xyz/org/bonly26/.
-Aucun lien court ni voucher de campagne créé.
+Angle : **Vos clés sont à vous. Et si la vraie question était ce qui se passe quand tout ne se déroule pas comme prévu ?** CTA : https://b-only.org/. Ne pas présenter BitVault comme sponsor/partenaire confirmé ni promettre de fonction ou de démonstration non validée.
+
+## Blog / Nostr
+
+Article long commun : [article-blog-nostr-v1.md](article-blog-nostr-v1.md). Même corps éditorial sur les deux canaux, hors métadonnées SEO WordPress.
 
 ## LinkedIn — AlpineChain
 
-Que signifie « posséder ses bitcoins » lorsque vient le moment de penser à leur sécurité ?
+**« Pas vos clés, pas vos bitcoins. » D’accord. Et après ?**
 
-À B-Only’26, Loïc Ruchat-Leuthardt, avec BitVault, animera le workshop « Posséder ses bitcoins en toute sécurité ».
+Vous avez retiré vos bitcoins d’une plateforme. Vous avez choisi votre portefeuille. Vous avez mis votre sauvegarde à l’abri.
 
-La conservation ouvre des questions très concrètes : accès, usage au quotidien, perte, imprévu. C’est un sujet à aborder avant de se retrouver face à une difficulté.
+**Mais que se passe-t-il si votre appareil tombe en panne ? Si vous devez retrouver l’accès dans une situation imprévue ?**
 
-Rendez-vous dimanche 8 novembre, de 14 h 30 à 15 h 20, au Pleb Forum du Novotel Annecy Centre.
+La souveraineté ne tient pas seulement à la possession d’un outil. Elle repose aussi sur la compréhension de son organisation et de ses limites.
 
-B-Only’26 réunit les bitcoiners et les curieux du 7 au 9 novembre à Annecy. Consultez le programme et réservez votre place : https://b-only.org/
+À **B-Only'26**, **Loïc Ruchat-Leuthardt / BitVault** animera le workshop :
+
+🔐 **« Posséder ses bitcoins en toute sécurité »**
+
+L’occasion de remettre les bonnes questions au centre des échanges, sans transformer la sécurité en concours de complexité.
+
+**Et vous, pourriez-vous expliquer votre méthode de conservation en cinq minutes ?**
+
+📍 Annecy · 7–9 novembre  
+📅 Dimanche 8 novembre, 14 h 30, Pleb Forum
+
+🎟️ Programme et réservations : https://b-only.org/
+
+#Bitcoin #BOnly26 #SelfCustody #Annecy
 
 ## LinkedIn — Annecy Bitcoin Meetup
 
-La sécurité de ses bitcoins mérite mieux qu’une réponse copiée sans discussion.
+**Le meilleur wallet du monde ne remplace pas une organisation que l’on comprend.**
 
-B-Only’26 propose un workshop avec Loïc Ruchat-Leuthardt / BitVault : « Posséder ses bitcoins en toute sécurité ». Un rendez-vous pour remettre les questions de conservation au centre des échanges.
+On aime parler des outils. Un peu moins des imprévus.
 
-Dimanche 8 novembre, 14 h 30–15 h 20, Pleb Forum — Novotel Annecy Centre.
+Et pourtant, perdre un appareil, oublier une étape ou ne pas savoir récupérer l’accès peut transformer une bonne intention en vrai problème.
 
-Le programme complet des 7–9 novembre et la réservation : https://b-only.org/
+À **B-Only'26**, Loïc Ruchat-Leuthardt / BitVault animera **« Posséder ses bitcoins en toute sécurité »**.
+
+Un workshop pour prendre au sérieux les questions de conservation et en discuter ensemble.
+
+**Quelle question sur la sécurité Bitcoin aimeriez-vous pouvoir poser sans jugement ?**
+
+📅 Dimanche 8 novembre, 14 h 30, Annecy  
+🎟️ https://b-only.org/
 
 ## X — AlpineChain
 
-Posséder ses bitcoins en toute sécurité : workshop avec Loïc Ruchat-Leuthardt / BitVault à B-Only’26.
-Dimanche 8 novembre, 14 h 30, Annecy.
-Programme et réservation : https://b-only.org/
+« Pas vos clés, pas vos bitcoins. » Et après ?
 
-## Instagram — B-Only
+🔐 Sécurité, sauvegardes, imprévus : les bonnes questions comptent.
 
-Vos bitcoins. Leur sécurité. Les questions à poser avant l’imprévu.
+Workshop avec Loïc Ruchat-Leuthardt / BitVault à B-Only'26, Annecy.
 
-Loïc Ruchat-Leuthardt / BitVault animera « Posséder ses bitcoins en toute sécurité » à B-Only’26.
-
-Dimanche 8 novembre · 14 h 30–15 h 20
-Pleb Forum — Novotel Annecy Centre
-
-B-Only’26 · 7–9 novembre · Annecy
-Programme et réservation via le lien B-Only en bio, à vérifier avant diffusion.
-
-#Bitcoin #BOnly26 #Annecy
+🎟️ https://b-only.org/
 
 ## Facebook — B-Only
 
-Comment penser la sécurité de ses bitcoins avant qu’un problème ne survienne ?
+**Vous avez vos clés Bitcoin. Mais sauriez-vous retrouver vos fonds si votre appareil disparaissait demain ?**
 
-À B-Only’26, Loïc Ruchat-Leuthardt / BitVault animera le workshop « Posséder ses bitcoins en toute sécurité ».
+Ce n’est pas la question la plus agréable. C’est peut-être l’une des plus utiles à se poser *avant* d’en avoir besoin.
 
-Rendez-vous dimanche 8 novembre, de 14 h 30 à 15 h 20, au Pleb Forum du Novotel Annecy Centre.
+À **B-Only'26**, **Loïc Ruchat-Leuthardt / BitVault** animera un workshop :
 
-Trois jours de conférences, d’ateliers et de rencontres autour de Bitcoin, du 7 au 9 novembre à Annecy.
-Découvrez le programme complet et réservez votre place : https://b-only.org/
+🔐 **« Posséder ses bitcoins en toute sécurité »**
 
-## Blog et Nostr
+Un rendez-vous consacré aux questions très concrètes de conservation et de sécurité, au-delà du simple choix d’un matériel.
 
-Utiliser le corps commun [article Blog / Nostr V1](article-blog-nostr-v1.md). Nostr reste manuel ; tags proposés : `nostrfr`, `bonly26`.
+💬 **Et vous, quelle précaution a le plus changé votre façon de conserver vos bitcoins ?**
 
-## Texte alternatif proposé
+📅 Dimanche 8 novembre, 14 h 30–15 h 20  
+📍 Pleb Forum — Novotel Annecy Centre
 
-Projet de visuel B-Only’26 annonçant Loïc Ruchat-Leuthardt / BitVault et le workshop « Posséder ses bitcoins en toute sécurité », dimanche 8 novembre de 14 h 30 à 15 h 20 à Annecy. Adapter à la composition finale avant publication.
+🎟️ Découvrez le programme : https://b-only.org/
+
+## Instagram — B-Only
+
+**Vous avez vos clés. Mais avez-vous pensé au plan B ?**
+
+🔐 La souveraineté Bitcoin, c’est aussi comprendre comment protéger ses accès et réfléchir aux imprévus.
+
+À **B-Only'26**, Loïc Ruchat-Leuthardt / BitVault animera :
+
+**« Posséder ses bitcoins en toute sécurité »**
+
+💬 Et vous, vous avez déjà réfléchi à ce qui se passerait si votre appareil ne fonctionnait plus ?
+
+📍 Annecy · 7–9 novembre 2026  
+🎟️ **b-only.org** (lien en bio à vérifier)
+
+#Bitcoin #BOnly26 #SelfCustody #Annecy
+
+## Texte alternatif (provisoire)
+
+Visuel à finaliser pour B-Only'26 annonçant Loïc Ruchat-Leuthardt / BitVault et le workshop « Posséder ses bitcoins en toute sécurité ». À adapter après validation du portrait et de la composition finale.
+
+## Contrôles
+
+Textes à valider ; vignette, droits et crédit du portrait manquants. Workshop confirmé, mais déroulé, matériel et prérequis à confirmer. Ne pas promettre de protection absolue ni de démonstration. URL publiques à archiver dans #24 seulement après diffusion.
