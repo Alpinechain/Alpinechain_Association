@@ -8,9 +8,9 @@
     "websiteUrl": "https://b-only.org/"
   },
   "publication": {
-    "state": "draft",
-    "updatedAt": "2026-10-12T07:32:43Z",
-    "notice": "Programme de travail provisoire — horaires et contenus soumis à confirmation."
+    "state": "published",
+    "updatedAt": "2026-10-12T07:41:51Z",
+    "notice": "Programme complet — B-Only 2026, du 7 au 9 novembre à Annecy."
   },
   "rooms": [
     {"id":"main","name":"Salle principale","capacity":150},

@@ -1,12 +1,33 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V17
-Date : 2026-10-04
+Version : V18
+Date : 2026-10-12
 Fuseau : Europe/Paris
 
 Les fenêtres passées sont conservées pour la traçabilité. Leur statut repose
 sur les preuves publiques enregistrées dans l'Issue #24, et non sur la seule
 date prévue du calendrier.
+
+## Programme complet ; dernières communications à planifier
+
+Cyrille déclare le programme complet le 12 octobre : 29 créneaux actifs publics,
+avec une présentation de clôture lundi 11 h–11 h 50 sans invité nommé.
+La planification des dernières communications reste ouverte dans #24.
+Les fenêtres ci-dessous restent réservées ; leurs dates ne prouvent ni
+programmation effective ni publication.
+
+| Communication | État actuel | Prochaine action |
+|---|---|---|
+| Thomas Mang — 12–14 octobre | PRÊT À RELIRE (#188) | Valider textes et visuel, puis confirmer les heures de diffusion ; vérifier si la fenêtre reste réalisable |
+| Taz / Wesatoshis — 15–17 octobre | PRÊT À RELIRE ; vignette validée | Relire la campagne et arrêter le calendrier détaillé |
+| Frédéric Jollien — 19–21 octobre | À PRODUIRE | Consolider éléments éditoriaux et visuel, puis proposer le calendrier |
+| Ancienne fenêtre Alexis — 22–24 octobre | À RÉARBITRER | Choisir explicitement un contenu de remplacement ; la clôture n’annonce aucun invité |
+| BitVault / Loïc — 26–28 octobre | À PRODUIRE | Préparer et valider la campagne avant planification |
+| Programme complet / billetterie, informations pratiques, Cercle du Coin | À PLANIFIER | Arrêter les dates, canaux, responsables et validations dans les fenêtres restantes |
+| Mill3sim3 / Bitcointrails — PR #197 | PRÊT À RELIRE, proposition distincte | Arbitrer l’intégration au programme et la fenêtre de diffusion ; pas de programmation déduite |
+
+Les preuves et métriques des annonces déjà diffusées restent un suivi distinct.
+La couverture des 7–9 novembre et la capitalisation J+1/J+3 restent à compléter.
 
 ## Principe de cadence
 
@@ -34,7 +55,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 7–9 octobre | Marius Farashi — « Vous posséderez vos UTXO et vous serez heureux » | PRÊT À PROGRAMMER — article long V1 et posts V2 validés par Cyrille le 3 octobre ; vignette validée ; sept liens suivis actifs |
 | 11 octobre | Publication complémentaire B-Only | À CADRER |
 | 12–14 octobre | Thomas Mang — « Détenir ses bitcoins, être souverain ? » | PRÉPARÉE — campagne et vignette produites ; fenêtre avancée sur décision de Cyrille le 4 octobre, relecture avant programmation |
-| 15–17 octobre | Noé / WeSatoshis | À COMPLÉTER — fenêtre réservée |
+| 15–17 octobre | Taz / Wesatoshis | PRÊT À RELIRE — textes préparés ; vignette validée ; calendrier détaillé à arrêter |
 | 18 octobre | Publication complémentaire B-Only | À CADRER |
 | 19–21 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | À PRODUIRE — éléments éditoriaux et visuels à consolider |
 | 22–24 octobre | Ancienne campagne Alexis Roussel — à réexaminer | À RÉEXAMINER — son créneau du lundi 11 h est remplacé par « Présentation de clôture », sans invité précisé, sur décision de Cyrille le 12 octobre ; aucun remplacement éditorial décidé |
@@ -68,8 +89,8 @@ canal et compte, y compris les publications complémentaires. Les horaires
 réels de fin d’Alexandre doivent être contrôlés avant le démarrage de Marius
 le 7 octobre. Aucun outil de publication n’a été modifié par cette mise à jour.
 
-Le créneau de l’atelier reste provisoire et interne ; les textes ne publient
-pas cet horaire. Nostr utilise le texte long Blog avec son propre lien suivi
+Tous les créneaux actifs du programme sont publics depuis la PR #201 ;
+les textes et calendriers de communication restent à valider séparément. Nostr utilise le texte long Blog avec son propre lien suivi
 et reste manuel. Contrôler les comptes et aperçus avant programmation.
 
 ## Priorité de production immédiate
@@ -78,9 +99,9 @@ et reste manuel. Contrôler les comptes et aperçus avant programmation.
    place de BitVault ; archiver les URLs réelles et contrôler la fin de diffusion.
 2. **Marius Farashi** : démarrage mercredi 7 octobre ; programmer les
    textes V2 validés selon le calendrier, conserver Nostr manuel.
-3. **Thomas Mang**, puis **Noé / WeSatoshis**, **Frédéric Jollien**,
-   **Alexis Roussel** et **BitVault / Loïc** : compléter les éléments manquants et
-   valider les campagnes dans les fenêtres réservées du tableau.
+3. **Thomas Mang**, puis **Taz / Wesatoshis**, **Frédéric Jollien** et
+   **BitVault / Loïc** : compléter et valider les campagnes dans les fenêtres
+   réservées ; réarbitrer séparément la fenêtre auparavant prévue pour Alexis.
 4. **Suivis précédents** : archiver les preuves Nicolas et Laure ; pour Lionel,
    les sept URLs sont archivées dans #24 depuis le 28 septembre, métriques à relever.
 
