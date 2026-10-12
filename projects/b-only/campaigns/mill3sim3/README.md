@@ -11,7 +11,7 @@ Préparé le 8 octobre 2026 — **PRÊT À RELIRE** (`pending_review`).
 
 ## État confirmé et sources
 
-Cyrille a confirmé Mill3sim3, le projet Bitcointrails et le créneau interne du dimanche 8 novembre 2026, 11 h 30–12 h en salle principale, après Élodie Lué. La PR #197 prépare l’ajout sous l’identifiant `sun-main-mill3sim3-bitcointrails`, en `confirmed/internal` ; elle n’est pas fusionnée. Le portrait et la vignette sont validés et conservés dans Nextcloud.
+Cyrille a confirmé Mill3sim3, le projet Bitcointrails et le créneau du dimanche 8 novembre 2026, 11 h 30–12 h en salle principale, après Élodie Lué. La PR #202, fusionnée le 12 octobre, intègre le créneau au programme complet en `confirmed/public`, sous l’identifiant `sun-main-mill3sim3-bitcointrails`. La PR #197, resynchronisée, porte désormais uniquement les livrables de campagne à relire et à planifier. Le portrait et la vignette sont validés et conservés dans Nextcloud.
 
 Le site officiel https://bitcointrails.com/fr a été relu le 8 octobre : titre « J’irai dormir chez un bitcoiner » et métadescription présentant un journal de voyage à la rencontre de celles et ceux qui vivent avec Bitcoin. Cette description sert de base à l’angle proposé ; elle ne remplace pas un synopsis fourni par l’intervenant. Le profil https://x.com/Mill3sim3 est fourni par Cyrille ; son contenu n’a pas pu être relu (403).
 
@@ -21,6 +21,6 @@ Sources de pilotage relues : programme, registre des intervenants, Issue #24, PR
 
 ## Prochaine action
 
-Cyrille relit les textes et l’angle, puis choisit une fenêtre de diffusion compatible avec le planning. Avant diffusion : validation explicite du passage en public, vérification des comptes, des aperçus et du parcours de réservation ; compléter les éventuelles attributions du portrait. Les détails pratiques restent suivis dans #11.
+Cyrille relit les textes et l’angle, puis choisit une fenêtre de diffusion compatible avec le planning. Avant diffusion : validation explicite des textes et du calendrier, vérification des comptes, des aperçus et du parcours de réservation ; compléter les éventuelles attributions du portrait. Les détails pratiques restent suivis dans #12 et #25.
 
 Statut : **PRÊT À RELIRE**, aucun contenu programmé ou publié. Aucun lien court, UTM ou voucher spécifique créé. Les URLs publiques et métriques seront consignées dans #24 uniquement après diffusion effective.
