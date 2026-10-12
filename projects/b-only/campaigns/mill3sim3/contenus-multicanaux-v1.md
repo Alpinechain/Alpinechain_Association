@@ -1,90 +1,116 @@
-# Mill3sim3 — Bitcointrails — communications V1
+# Mill3sim3 — Bitcointrails — communications V2
 
-Préparé le 8 octobre 2026 — **PRÊT À RELIRE** (`pending_review`).
+Préparé le 12 octobre 2026 — **À RELIRE / À PLANIFIER**. Réécriture éditoriale de la V1 dans la PR #197.
 
 ## Cadrage
 
-- Projet / profil : B-Only associatif.
-- Objectif : faire découvrir la présentation de Bitcointrails et inviter à participer à B-Only.
-- Public : communautés Bitcoin francophones et curieux intéressés par les rencontres et les voyages.
-- Sources : participation et projet confirmés par Cyrille ; titre de la vignette validé ; description du site officiel Bitcointrails consultée le 8 octobre.
-- Angle proposé : Bitcoin à travers les voyages et les personnes qui le vivent.
-- CTA principal : découvrir B-Only et accéder à la réservation depuis https://b-only.org/.
-- Session : `confirmed/internal` dans la PR #197. Le créneau reste dans le dossier interne et n’est pas annoncé dans les textes.
-- Vignette : V1 validée et déposée dans Nextcloud ; [référence et empreintes](brief-vignette-v1.md).
-- Liens : URLs officielles directes ; aucun lien court ni voucher de campagne créé.
+- Angle unique : **Bitcoin se découvre aussi en allant à la rencontre de ceux qui le vivent**.
+- Titre public du projet : **Bitcointrails — « J’irai dormir chez un bitcoiner »**.
+- Intervention de Mill3sim3 : confirmée et publique dans le programme par la PR #202 ; ne pas imposer d'horaire précis dans cette vague.
+- CTA principal : https://b-only.org/ ; aucun lien suivi ou voucher particulier créé.
+- Ne pas prêter à Mill3sim3 un itinéraire, des rencontres précises, des chiffres ou des citations non documentés.
+- Vignette validée : [brief et référence Nextcloud](brief-vignette-v1.md).
 
 ## Blog / Nostr — article commun
 
-Utiliser le même [article V1](article-blog-nostr-v1.md) sur le Blog AlpineChain et en long-form Nostr AlpineChain. Titre : **Mill3sim3 présente Bitcointrails à B-Only’26**.
-
-Pour Nostr, ajouter en fin d’article : `#Bitcoin #nostrfr #bonly26`.
+Publier **le même corps éditorial** sur le blog et sur Nostr : [article long V2](article-blog-nostr-v1.md). L'extrait SEO, le titre SEO et la méta-description sont fournis en fin de fichier comme métadonnées WordPress ; ne pas les intégrer au corps Nostr.
 
 ## LinkedIn — AlpineChain
 
-**Bitcoin, de pays en pays et de rencontre en rencontre.**
+**Et si, pour comprendre Bitcoin, il fallait parfois fermer les graphiques… et prendre la route ?**
 
-Derrière les outils, il y a les personnes qui vivent avec Bitcoin.
+On parle beaucoup de cours, de protocoles et de wallets.
 
-Mill3sim3 présentera son projet Bitcointrails à B-Only’26. Son journal de voyage propose de découvrir les personnes qui utilisent Bitcoin, au fil de ses déplacements.
+Beaucoup moins des personnes derrière les adresses et les transactions.
 
-Une occasion de découvrir le projet avec celui qui le porte et d’aborder Bitcoin à travers les rencontres.
+Pourtant, une question mérite le détour : **comment vit-on Bitcoin ailleurs, au quotidien ?**
 
-B-Only’26, du 7 au 9 novembre 2026 au Novotel Annecy Centre.
-Découvrez l’événement et réservez : https://b-only.org/
+Avec **Bitcointrails**, son journal de voyage « J’irai dormir chez un bitcoiner », **Mill3sim3** choisit une porte d’entrée originale : aller à la rencontre de ceux qui vivent avec Bitcoin.
+
+À **B-Only'26**, il viendra présenter son projet.
+
+Pas besoin de maîtriser tous les acronymes pour s'intéresser à ce récit. Il suffit d'avoir envie de découvrir des personnes, des expériences et des regards différents.
+
+**Et vous, quelle rencontre vous a le plus appris sur Bitcoin ?**
+
+📍 Annecy — 7 au 9 novembre 2026
+
+🎟️ Trois jours de conférences, de workshops et de rencontres : https://b-only.org/
+
+#Bitcoin #BOnly26 #Bitcointrails #Annecy
 
 ## LinkedIn — Annecy Bitcoin Meetup
 
-**Les rencontres font aussi vivre Bitcoin.**
+**Le meilleur souvenir d’un meetup Bitcoin, c’est rarement une slide.**
 
-À Annecy, nous les connaissons à travers les échanges de la communauté. Bitcointrails propose un autre point de départ : un journal de voyage pour découvrir des utilisateurs de Bitcoin dans différents pays.
+C’est une conversation. Une rencontre improbable. Une question qui vous fait repartir avec une autre idée en tête.
 
-Mill3sim3 viendra présenter ce projet à B-Only’26. Si vous êtes curieux de découvrir Bitcoin à travers les personnes et leurs expériences, venez le rencontrer.
+C’est aussi ce qui nous plaît dans **Bitcointrails**, le journal de voyage « J’irai dormir chez un bitcoiner » de **Mill3sim3** : découvrir Bitcoin à travers les personnes qui le vivent.
 
-Du 7 au 9 novembre 2026, au Novotel Annecy Centre.
-Infos et réservation : https://b-only.org/
+À **B-Only'26**, Mill3sim3 viendra raconter son projet à Annecy.
+
+Que votre premier meetup remonte à hier ou à plusieurs années, vous savez peut-être déjà ce qu’une rencontre peut changer.
+
+**Et si votre prochaine belle discussion Bitcoin avait lieu à B-Only ?**
+
+📅 7–9 novembre 2026 · Annecy
+
+👉 https://b-only.org/
 
 ## X — AlpineChain
 
-Bitcoin, de pays en pays et de rencontre en rencontre. @Mill3sim3 présentera son projet Bitcointrails à B-Only’26, du 7 au 9 novembre à Annecy. Découvrez l’événement et réservez : https://b-only.org/
+**Et si Bitcoin se comprenait aussi sur la route ?**
+
+Avec « J’irai dormir chez un bitcoiner », Mill3sim3 part à la rencontre de ceux qui le vivent.
+
+Découvrez Bitcointrails à B-Only'26, à Annecy.
+
+🎟️ https://b-only.org/
 
 ## Facebook — B-Only
 
-**Et si l’on découvrait Bitcoin à travers les rencontres ?**
+**Bitcoin, ça se raconte aussi autour d’une table. Ou sur la route.**
 
-Mill3sim3 présentera Bitcointrails à B-Only’26. Son journal de voyage suit des rencontres avec des utilisateurs de Bitcoin dans différents pays.
+On peut parler de Bitcoin pendant des heures sans jamais demander à son voisin : « Et toi, comment tu le vis ? »
 
-Venez découvrir son projet à Annecy, lors d’un événement ouvert aux bitcoiners comme aux curieux.
+Avec son projet **Bitcointrails**, baptisé « J’irai dormir chez un bitcoiner », **Mill3sim3** prend le chemin inverse : le voyage et la rencontre comme fil conducteur.
 
-B-Only’26, du 7 au 9 novembre 2026, au Novotel Annecy Centre.
-Découvrez l’événement et réservez : https://b-only.org/
+À **B-Only'26**, il viendra nous présenter ce journal de voyage consacré aux utilisateurs de Bitcoin.
+
+Ce qui nous plaît dans cette idée ? Elle rappelle que derrière les débats techniques et monétaires, il y a avant tout des histoires et des personnes.
+
+**Et vous, avez-vous déjà fait une rencontre mémorable grâce à Bitcoin ?** Racontez-nous en commentaire !
+
+📍 Annecy · 7 au 9 novembre 2026
+
+🎟️ Programme et inscriptions : https://b-only.org/
 
 ## Instagram — B-Only
 
-**Un voyage. Des rencontres. Bitcoin.**
+**Un sac à dos. Des rencontres. Et Bitcoin comme point commun.**
 
-Mill3sim3 présente Bitcointrails à B-Only’26 : un journal de voyage pour rencontrer des utilisateurs de Bitcoin.
+🏔️ Et si la plus belle découverte Bitcoin n’était pas une nouvelle fonctionnalité… mais une personne ?
 
-Envie de découvrir le projet ? Rendez-vous à Annecy du 7 au 9 novembre 2026.
+Avec **Bitcointrails**, « J’irai dormir chez un bitcoiner », **Mill3sim3** raconte Bitcoin à travers le voyage et les rencontres.
 
-Infos et réservation depuis b-only.org, via le lien en bio à vérifier avant diffusion.
+Il vient présenter son projet à **B-Only'26** !
 
-#Bitcoin #BOnly #Annecy #Bitcointrails
+💬 **Et toi, Bitcoin t'a déjà fait rencontrer quelqu'un d'inoubliable ?**
 
-## Texte alternatif du visuel
+📍 Annecy · 7–9 novembre 2026
 
-Vignette B-Only’26 présentant Mill3sim3 et « Présentation de Bitcointrails ». Son avatar porte une tenue orange, une casquette Bitcoin, des lunettes et un foulard, avec un sac à dos équipé d’une caméra. Des montagnes stylisées occupent le bas du visuel.
+🎟️ Programme et réservations : **b-only.org** (lien en bio si configuré)
 
-## Contrôles et validation attendue
+#Bitcoin #BOnly26 #Bitcointrails #Annecy
 
-- X : 199/240 caractères, lien compris ; une idée et un CTA, sans promesse financière.
-- Blog / Nostr : 1761 caractères ; corps éditorial commun.
-- Nom public, titre du visuel et projet cohérents avec la demande de Cyrille.
-- Description du projet issue du titre et de la métadescription de https://bitcointrails.com/fr, accessible en HTTP 200 ; aucune étape, distance, audience chiffrée ou partenariat inventé.
-- Dates, lieu et accès à la billetterie vérifiés sur https://b-only.org/ le 8 octobre.
-- Validation des textes et de l’angle par Cyrille encore requise.
-- Fenêtre de diffusion à choisir ; calendrier relatif proposé, aucun horaire programmé.
-- Passage du programme en public à décider séparément avant diffusion.
-- Vérifier comptes, aperçus, lien en bio Instagram et réservation au moment de programmer.
+## Texte alternatif — vignette validée
 
-Suivi : #24 pour la communication ; #11 pour les compléments pratiques ; PR #197 pour la préparation.
+Vignette B-Only'26 annonçant Mill3sim3 et sa présentation de Bitcointrails. Personnage illustré en tenue orange, casquette Bitcoin, lunettes et foulard, portant un sac à dos avec caméra ; montagnes stylisées en bas du visuel.
+
+## Contrôles avant programmation
+
+- Conserver une seule vague éditoriale sur trois jours ; dates et horaires non arrêtés.
+- Vérifier le handle X avant ajout d'une mention, les aperçus, la configuration du lien en bio Instagram et le parcours de réservation.
+- Ne pas présenter les brouillons comme publiés ; archiver les URLs réelles dans #24 après diffusion.
+- La présence et la session sont publiques dans le programme depuis la fusion de #202 le 12 octobre ; cette validation du programme n'est **pas** une validation éditoriale de cette campagne.
+- Source : https://bitcointrails.com/fr et confirmations consignées dans la PR #197.
