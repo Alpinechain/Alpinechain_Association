@@ -145,3 +145,11 @@ Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre.
 - Mill3sim3 / Bitcointrails est intégré au programme complet : dimanche 8 novembre, 11 h 30–12 h, salle principale, visibilité publique validée par Cyrille le 12 octobre. Sa campagne préparée dans #197 reste à relire et à planifier ; cette PR sera resynchronisée après fusion pour ne porter que les éléments de campagne restants.
 - Les besoins techniques, droits, prérequis et rôles du jour J restent suivis dans #12, #25 et #53 ; la complétude du programme ne les déclare pas accomplis.
 - Sources vérifiées : programme et modèle public déployés par #201, Issues #11 / #24 / #153 / #188, PR #197 et fichiers de campagnes. Pas de nouvelle revue des outils financiers, de billetterie ou de Nextcloud.
+
+## Communications — mise à jour du 12 octobre 2026
+
+- Thomas Mang et Taz / Wesatoshis : **PROGRAMMÉ**, déclaré par Cyrille ; horaires exacts non fournis, URLs à archiver après diffusion réelle dans #24 / #188.
+- Mill3sim3 / Bitcointrails : **EN COURS**, déclaré par Cyrille ; préciser la fenêtre et archiver les URLs publiques, sans déclarer PUBLIÉ sur la seule déclaration.
+- Loïc / BitVault (#203) et Frédéric Jollien (#204) : packs V1 **PRÊTS À RELIRE** (`pending_review`) avec deux LinkedIn, X, Instagram, Facebook, article commun Blog/Nostr, calendrier proposé et brief vignette. Portraits/droits et visuels restent à compléter.
+- Fenêtres proposées conservées : Frédéric 19–21 octobre, BitVault 26–28 octobre ; vérifier leur espacement avec les horaires réels de Mill3sim3 avant programmation.
+- Fonction professionnelle de Frédéric : `to_verify` ; la source officielle ne corrobore pas « directeur pour la Suisse romande ». Les brouillons utilisent uniquement son nom et l’affiliation Institut Libéral.

@@ -1,3 +1,5 @@
+Mise à jour du 12 octobre 2026 : **PROGRAMMÉ**, déclaration de Cyrille. Les informations de préparation datées ci-dessous restent historiques ; les horaires exacts ne sont pas fournis. Prochaine action : archiver les URLs réelles dans #24 / #188 après diffusion.
+
 # Thomas Mang — communication V1
 
 Préparé le 2026-10-03 ; actualisé le 2026-10-04 — **PRÊT À RELIRE**.
