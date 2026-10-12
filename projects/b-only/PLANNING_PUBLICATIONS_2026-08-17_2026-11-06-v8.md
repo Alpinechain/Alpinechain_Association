@@ -37,7 +37,7 @@ Les publications complémentaires ne doivent pas remplacer ni retarder une campa
 | 15–17 octobre | Noé / WeSatoshis | À COMPLÉTER — fenêtre réservée |
 | 18 octobre | Publication complémentaire B-Only | À CADRER |
 | 19–21 octobre | Frédéric Jollien — « Bitcoin : quand la technologie réalise l’idéal libéral » | À PRODUIRE — éléments éditoriaux et visuels à consolider |
-| 22–24 octobre | Alexis Roussel | À COMPLÉTER — fenêtre réservée |
+| 22–24 octobre | Ancienne campagne Alexis Roussel — à réexaminer | À RÉEXAMINER — son créneau du lundi 11 h est remplacé par « Présentation de clôture », sans invité précisé, sur décision de Cyrille le 12 octobre ; aucun remplacement éditorial décidé |
 | 25 octobre | Publication complémentaire B-Only | À CADRER |
 | 26–28 octobre | BitVault / Loïc Ruchat-Leuthardt — « Posséder ses bitcoins en toute sécurité » | À PRODUIRE — fenêtre reportée par échange avec Thomas ; préparation et validation requises |
 | 29–31 octobre | Rappel billetterie + programme | À CADRER |
