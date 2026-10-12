@@ -13,8 +13,8 @@ date prévue du calendrier.
 Cyrille déclare le programme complet le 12 octobre : 30 créneaux actifs publics,
 avec une présentation de clôture lundi 11 h–11 h 50 sans invité nommé.
 Thomas et Taz sont PROGRAMMÉS selon la déclaration de Cyrille du 12 octobre ; Mill3sim3 est EN COURS. La préparation de Frédéric et Loïc / BitVault est PRÊTE À RELIRE ; les visuels restent à produire et les calendriers proposés à valider dans #24.
-Les fenêtres ci-dessous restent réservées ; leurs dates ne prouvent ni
-programmation effective ni publication.
+Les fenêtres de Frédéric et BitVault restent proposées ; leurs dates ne prouvent ni
+programmation effective ni publication. Thomas et Taz sont PROGRAMMÉS sur déclaration de Cyrille.
 
 | Communication | État actuel | Prochaine action |
 |---|---|---|

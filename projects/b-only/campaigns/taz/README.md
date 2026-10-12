@@ -34,7 +34,7 @@ fonction, affiliation ou capacité technique précise n'est ajoutée.
 
 Le programme et les registres utilisent désormais le nom public Taz, en conservant l’identifiant `mon-workshop-noe`. La session est publique ; la communication est programmée selon Cyrille le 12 octobre.
 
-## Prochaine action
+## Préparation initiale — historique
 
 Relire les textes, puis arrêter les horaires de diffusion dans la fenêtre
 réservée. Respecter un minimum de 24 h entre sujets sur un même compte,
