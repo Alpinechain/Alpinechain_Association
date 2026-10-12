@@ -1,70 +1,101 @@
-# Frédéric Jollien — contenus multicanaux V1
+# Frédéric Jollien — communications V2 (à relire)
 
-Statut : **PRÊT À RELIRE** (`pending_review`) — 12 octobre 2026.
-Profil : B-Only. Objectif : annoncer la session confirmée et inviter à consulter le programme / réserver.
-Créneau confirmé : Dimanche 8 novembre 2026, 16 h 30–17 h 20, salle principale.
-CTA : https://b-only.org/ ; billetterie officielle : https://join.alpinechain.xyz/org/bonly26/.
-Aucun lien court ni voucher de campagne créé.
+Angle : **Et si une technologie rendait certaines libertés monétaires concrètement exerçables ?** Session confirmée ; fonction précise non ajoutée (à vérifier). CTA : https://b-only.org/.
+
+## Blog / Nostr
+
+Article long commun : [article-blog-nostr-v1.md](article-blog-nostr-v1.md). Reprendre strictement le même corps éditorial sur les deux plateformes, hors métadonnées SEO WordPress.
 
 ## LinkedIn — AlpineChain
 
-Bitcoin pose aussi une question politique : quelle place laisser à la liberté individuelle ?
+**La liberté monétaire est-elle seulement une idée… ou peut-elle s’exercer ?**
 
-Frédéric Jollien, de l’Institut Libéral, interviendra à B-Only’26 avec « Bitcoin : quand la technologie réalise l’idéal libéral ».
+Pendant longtemps, débattre de monnaie, de propriété et de liberté individuelle revenait surtout à discuter de principes.
 
-Le titre ouvre une discussion sur les liens entre une technologie monétaire et une tradition de pensée : propriété, choix individuels, échanges et organisation collective. Un angle qui invite à élargir la conversation au-delà des seuls outils.
+Avec Bitcoin, une question apparaît : **et si une technologie permettait de traduire certains de ces principes en choix concrets ?**
 
-Dimanche 8 novembre, 16 h 30–17 h 20, salle principale du Novotel Annecy Centre.
+Pas de solution magique. Pas de réponse universelle. Mais des règles publiques, de nouvelles responsabilités, et un sujet de débat immense.
 
-B-Only’26 · 7–9 novembre · Annecy
-Programme complet et réservation : https://b-only.org/
+À **B-Only'26**, **Frédéric Jollien**, de **l’Institut Libéral**, interviendra sur :
+
+**« Bitcoin : quand la technologie réalise l’idéal libéral »**
+
+Quelles libertés Bitcoin rend-il possibles ? Quelles limites subsistent ? Et qu’est-ce que cette technologie change vraiment dans notre rapport à la monnaie ?
+
+**Vous voyez Bitcoin d’abord comme une innovation technique, monétaire ou philosophique ?**
+
+📍 Annecy — 7 au 9 novembre 2026  
+🎤 Dimanche 8 novembre, 16 h 30
+
+🎟️ Programme et réservation : https://b-only.org/
+
+#Bitcoin #BOnly26 #Monnaie #Annecy
 
 ## LinkedIn — Annecy Bitcoin Meetup
 
-Une technologie peut-elle donner une traduction concrète à une idée politique ?
+**On peut être d’accord sur les règles de Bitcoin… et débattre de ce qu’elles signifient.**
 
-Frédéric Jollien, de l’Institut Libéral, propose ce regard sur Bitcoin à B-Only’26 : « Bitcoin : quand la technologie réalise l’idéal libéral ».
+Est-ce une technologie ? Une proposition monétaire ? Un outil d’autonomie individuelle ? Plusieurs choses à la fois ?
 
-Dimanche 8 novembre, de 16 h 30 à 17 h 20, en salle principale au Novotel Annecy Centre.
+À **B-Only'26**, **Frédéric Jollien**, de l’Institut Libéral, pose une question de fond avec sa conférence **« Bitcoin : quand la technologie réalise l’idéal libéral »**.
 
-Trois jours pour écouter, poser des questions et échanger à Annecy, du 7 au 9 novembre.
-Programme et réservation : https://b-only.org/
+Un bon sujet pour sortir des discussions sur le cours et confronter les idées en personne.
+
+**Et vous, qu’est-ce que Bitcoin change le plus : les outils ou les rapports de pouvoir ?**
+
+📅 Dimanche 8 novembre à Annecy
+
+🎟️ https://b-only.org/
 
 ## X — AlpineChain
 
-« Bitcoin : quand la technologie réalise l’idéal libéral »
-Frédéric Jollien à B-Only’26, dimanche 8 novembre à 16 h 30, Annecy.
-Programme et réservation : https://b-only.org/
+La liberté monétaire peut-elle passer de l’idée à la pratique ?
 
-## Instagram — B-Only
+Frédéric Jollien (Institut Libéral) ouvre le débat à B-Only'26 : « Bitcoin : quand la technologie réalise l’idéal libéral ».
 
-Une technologie. Des idées de liberté. Une discussion à ouvrir.
-
-Frédéric Jollien, de l’Institut Libéral, interviendra à B-Only’26 :
-« Bitcoin : quand la technologie réalise l’idéal libéral »
-
-Dimanche 8 novembre · 16 h 30–17 h 20
-Salle principale — Novotel Annecy Centre
-
-B-Only’26 · 7–9 novembre · Annecy
-Programme et réservation via le lien B-Only en bio, à vérifier avant diffusion.
-
-#Bitcoin #BOnly26 #Annecy
+📍 Annecy, 7–9 nov.
+🎟️ https://b-only.org/
 
 ## Facebook — B-Only
 
-Bitcoin ne se discute pas seulement à travers ses outils. Son existence ouvre aussi des questions sur la liberté, la propriété et les échanges.
+**Bitcoin est-il seulement une technologie… ou aussi une idée de liberté ?**
 
-À B-Only’26, Frédéric Jollien, de l’Institut Libéral, interviendra avec « Bitcoin : quand la technologie réalise l’idéal libéral ».
+On connaît les discussions sur les wallets, les transactions et le cours. Mais Bitcoin questionne également notre rapport à la propriété, à la monnaie et à la liberté de choisir.
 
-Dimanche 8 novembre, de 16 h 30 à 17 h 20, en salle principale au Novotel Annecy Centre.
+À **B-Only'26**, **Frédéric Jollien**, de l’Institut Libéral, propose sa perspective lors de la conférence :
 
-B-Only’26 se déroule du 7 au 9 novembre à Annecy. Consultez le programme complet et réservez votre place : https://b-only.org/
+**« Bitcoin : quand la technologie réalise l’idéal libéral »**
 
-## Blog et Nostr
+Un sujet pour réfléchir, poser des questions et débattre — sans obligation d’être d’accord !
 
-Utiliser le corps commun [article Blog / Nostr V1](article-blog-nostr-v1.md). Nostr reste manuel ; tags proposés : `nostrfr`, `bonly26`.
+💬 **Et vous, qu’est-ce qui vous intéresse le plus dans Bitcoin : la technologie, la monnaie ou l’autonomie qu’il peut offrir ?**
 
-## Texte alternatif proposé
+📅 Dimanche 8 novembre, 16 h 30–17 h 20  
+📍 Novotel Annecy Centre
 
-Projet de visuel B-Only’26 annonçant Frédéric Jollien et « Bitcoin : quand la technologie réalise l’idéal libéral », dimanche 8 novembre de 16 h 30 à 17 h 20 à Annecy. Adapter à la composition finale avant publication.
+🎟️ https://b-only.org/
+
+## Instagram — B-Only
+
+**Et si la liberté monétaire n’était pas qu’une théorie ?**
+
+Une idée. Un protocole. Des choix à discuter.
+
+🎤 **Frédéric Jollien**, de l’Institut Libéral, rejoint **B-Only'26** avec :
+
+**« Bitcoin : quand la technologie réalise l’idéal libéral »**
+
+💬 Pour vous, Bitcoin est d’abord une technologie, une monnaie ou une idée de liberté ?
+
+📍 Annecy · 7–9 novembre 2026  
+🎟️ **b-only.org** (lien en bio à vérifier)
+
+#Bitcoin #BOnly26 #Annecy
+
+## Texte alternatif (provisoire)
+
+Vignette à finaliser pour B-Only'26 annonçant Frédéric Jollien et la conférence « Bitcoin : quand la technologie réalise l’idéal libéral ». Adapter la description à l’image réellement validée avant publication.
+
+## Contrôles
+
+Textes à valider humainement ; vérifier le portrait, ses droits, la vignette, les aperçus et la fonction exacte avant diffusion. Ne pas annoncer de qualification non vérifiée. Consigner les URL publiques dans #24 après publication.
