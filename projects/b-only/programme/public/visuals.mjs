@@ -1,6 +1,10 @@
 // Visuels associés aux identifiants stables des sessions.
 // Sources : vignettes déjà publiques des articles AlpineChain ; pictogrammes locaux.
 export const sessionVisuals = {
+  "sun-workshop-meetup-organizers": {
+    "src": "visuals/communautes-francophones.webp",
+    "full": "visuals/communautes-francophones.webp"
+  },
   "sun-main-pierre": {
     "src": "https://alpinechain.xyz/wp-content/uploads/2026/09/vignette-pierre-noizat-energie-monnaie-et-civilisation-2026-08-12-valide-300x300.png",
     "full": "https://alpinechain.xyz/wp-content/uploads/2026/09/vignette-pierre-noizat-energie-monnaie-et-civilisation-2026-08-12-valide.png"

@@ -59,3 +59,15 @@ Créations exclusives WebDAV, lecture distante/empreintes vérifiées et Groupfo
 - Vignette Loïc V1 à valider : https://cloud.alpinechain.xyz/index.php/f/5138
 
 Identifiants relus par PROPFIND, contenus et SHA-256 relus après dépôt.
+
+## Communautés francophones — logo fourni le 12 octobre 2026
+
+Logo joint par Cyrille pour le workshop « Communautés francophones », dimanche
+8 novembre à 10 h (`sun-workshop-meetup-organizers`). Original 100 × 100 px
+conservé sans modification dans [Nextcloud, fichier 5141](https://cloud.alpinechain.xyz/index.php/f/5141) :
+`Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--communautes-francophones--logo--2026-10-12--source.png`.
+SHA-256 original : `a700c40b6de9809773bb6b7f31a352128c2b80c72b1ae3630f3ee867623be0ee`.
+Création exclusive, contenu et empreinte relus à distance. Copie de diffusion
+WebP qualité 0,9, dimensions et proportions conservées, aucun agrandissement.
+La pastille et le zoom utilisent cette même copie ; les 30 créneaux actifs ont
+un visuel associé. Programme JSON inchangé. Fusion/déploiement à valider.
