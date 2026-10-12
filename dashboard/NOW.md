@@ -45,7 +45,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et est désormais `confirmed/public` sous le titre « Surprise ». Lionel Jeannerat est confirmé et public dimanche 8 novembre de 17 h 30 à 18 h 20, en salle principale, après le début de sa campagne publique le 21 septembre.
 - Le workshop Specter de Schnuartz est remplacé par « Atelier Bitcoin Lego » avec Laure Merlin, dimanche 8 novembre de 18 h à 18 h 50 au Pleb Forum. Le créneau est `confirmed/public` depuis le 2026-09-06 ; ses détails pratiques et besoins techniques restent à finaliser.
 - Le Cercle du Coin intervient désormais lundi 9 novembre de 9 h à 10 h avec Laure Merlin : présentation du Cercle pendant 10 à 15 minutes, puis keynote « Comment faire communauté » pendant 30 à 35 minutes. Le créneau reste `confirmed/public`.
-- La source contient 30 entrées, dont 1 annulée conservée pour audit. Les 29 créneaux actifs sont publics, vérifiés après le déploiement de la PR #201 le 12 octobre ; l’entrée annulée reste masquée ; Michel Khazzaka reste une option sans créneau. Programme déclaré complet par Cyrille le 12 octobre ; passage en `published` préparé dans la PR de consolidation.
+- La grille complète contient 31 entrées, dont 1 annulée conservée pour audit. Les 29 créneaux précédents sont publics depuis #201 ; Mill3sim3 / Bitcointrails est ajouté en visibilité publique sur décision de Cyrille le 12 octobre ; l’entrée annulée reste masquée ; Michel Khazzaka reste une option sans créneau. Programme déclaré complet par Cyrille le 12 octobre ; passage en `published` préparé dans la PR de consolidation.
 - Le programme est complet et validé par Cyrille. Les dernières communications restent à planifier dans #24 ; cela ne remet pas en attente la grille programme #11.
 
 ### Communication
@@ -139,9 +139,9 @@ Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre.
 
 ## Programme complet — décision du 12 octobre 2026
 
-- Cyrille déclare le programme complet ; la grille validée comporte 29 créneaux actifs publics et une entrée annulée conservée pour audit.
+- Cyrille déclare le programme complet ; la grille validée comporte 30 créneaux actifs publics et une entrée annulée conservée pour audit.
 - Le bandeau provisoire est remplacé par « Programme complet — B-Only 2026, du 7 au 9 novembre à Annecy. » ; transition `published` préparée dans la PR de consolidation, fusion à valider.
 - Dernières communications : relire Thomas et Taz, préparer Frédéric et BitVault, réarbitrer l’ancienne fenêtre Alexis, arrêter les rappels programme/billetterie, informations pratiques et Cercle du Coin. Fenêtres réservées à confirmer dans #24 ; aucun nouveau statut `PROGRAMMÉ` ou `PUBLIÉ` sans preuve.
-- La PR #197 (Mill3sim3 / Bitcointrails) reste une proposition supplémentaire distincte ; son éventuelle intégration nécessite un arbitrage explicite et une fusion dédiée.
+- Mill3sim3 / Bitcointrails est intégré au programme complet : dimanche 8 novembre, 11 h 30–12 h, salle principale, visibilité publique validée par Cyrille le 12 octobre. Sa campagne préparée dans #197 reste à relire et à planifier ; cette PR sera resynchronisée après fusion pour ne porter que les éléments de campagne restants.
 - Les besoins techniques, droits, prérequis et rôles du jour J restent suivis dans #12, #25 et #53 ; la complétude du programme ne les déclare pas accomplis.
 - Sources vérifiées : programme et modèle public déployés par #201, Issues #11 / #24 / #153 / #188, PR #197 et fichiers de campagnes. Pas de nouvelle revue des outils financiers, de billetterie ou de Nextcloud.

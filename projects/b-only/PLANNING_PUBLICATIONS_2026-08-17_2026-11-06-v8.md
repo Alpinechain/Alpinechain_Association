@@ -10,7 +10,7 @@ date prévue du calendrier.
 
 ## Programme complet ; dernières communications à planifier
 
-Cyrille déclare le programme complet le 12 octobre : 29 créneaux actifs publics,
+Cyrille déclare le programme complet le 12 octobre : 30 créneaux actifs publics,
 avec une présentation de clôture lundi 11 h–11 h 50 sans invité nommé.
 La planification des dernières communications reste ouverte dans #24.
 Les fenêtres ci-dessous restent réservées ; leurs dates ne prouvent ni
@@ -24,7 +24,7 @@ programmation effective ni publication.
 | Ancienne fenêtre Alexis — 22–24 octobre | À RÉARBITRER | Choisir explicitement un contenu de remplacement ; la clôture n’annonce aucun invité |
 | BitVault / Loïc — 26–28 octobre | À PRODUIRE | Préparer et valider la campagne avant planification |
 | Programme complet / billetterie, informations pratiques, Cercle du Coin | À PLANIFIER | Arrêter les dates, canaux, responsables et validations dans les fenêtres restantes |
-| Mill3sim3 / Bitcointrails — PR #197 | PRÊT À RELIRE, proposition distincte | Arbitrer l’intégration au programme et la fenêtre de diffusion ; pas de programmation déduite |
+| Mill3sim3 / Bitcointrails — PR #197 | Programme confirmé/public ; campagne PRÊTE À RELIRE | Relire les textes et arrêter la fenêtre de diffusion ; pas de programmation déduite |
 
 Les preuves et métriques des annonces déjà diffusées restent un suivi distinct.
 La couverture des 7–9 novembre et la capitalisation J+1/J+3 restent à compléter.
