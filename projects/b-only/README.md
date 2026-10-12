@@ -22,8 +22,7 @@ Les deux registres de préparation des vignettes sont :
   éléments attendus ;
 - [`ORGANISATIONS.md`](ORGANISATIONS.md) pour les entreprises, partenaires,
   médias, associations et exposants.
-- [`programme/`](programme/) pour la grille horaire de travail et sa page HTML
-  statique, encore soumise à validation humaine avant publication.
+- [`programme/`](programme/) pour le programme complet validé et publié le 12 octobre : 30 créneaux actifs publics.
 
 Le cadrage transversal de la communication est proposé dans
 [`COMMUNICATION_REFERENCE_2026-v1.md`](COMMUNICATION_REFERENCE_2026-v1.md). Il
@@ -159,3 +158,9 @@ Les exports nominatifs de participants restent dans Pretix ou dans un espace Nex
 https://chatgpt.com/g/g-p-6846d971e4e48191a77913f037a444ed-b-only-conference/project
 
 Toute décision ou action durable née dans cet espace doit être consolidée dans GitHub.
+
+## Suivi au 12 octobre 2026
+
+- Billetterie : **52 billets vendus (34 Early, 18 normaux)**, communiqué par Cyrille, sans extraction Pretix récente.
+- Frédéric et Loïc : publications postées et planifiées selon Cyrille ; URLs et heures effectives à archiver dans #24 / #203 / #204.
+- BWS : accord confirmé, AlpineChain/Pretix point d’achat, transmission des billets à Louis-Alexandre par Cyrille au fur et à mesure ; modalités de reversement à préciser dans #198.

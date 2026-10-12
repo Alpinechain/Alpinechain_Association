@@ -1,6 +1,6 @@
 # Taz — Wesatoshis
 
-Préparé le 5 octobre 2026 — **PRÊT À RELIRE**.
+Préparé le 5 octobre 2026 — **PROGRAMMÉ**, déclaration de Cyrille du 12 octobre.
 
 Suivi : [Issue #24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).
 
@@ -24,7 +24,7 @@ planning actif V17, Issues #11 et #24, site officiel B-Only et image fournie.
 Le site et l'image répondent en HTTP 200 ; l'image WebP a été inspectée.
 
 La fenêtre de communication du **15 au 17 octobre 2026** est réservée dans le
-planning actif. Elle ne constitue pas une programmation effective.
+planning actif. Cyrille confirme la planification le 12 octobre ; les horaires précis ne sont pas fournis.
 La session est confirmée `confirmed/public` depuis la validation de Cyrille et le déploiement de la PR #201 le 12 octobre : lundi 9 novembre, 10 h 30–11 h 20, Pleb Forum — Workshop. Aucun horaire
 d'atelier n'est annoncé. Les contenus sont des brouillons pour validation.
 
@@ -32,9 +32,9 @@ La demande fixe le nom public, le titre et la description ; elle ne confirme
 ni une fonction professionnelle ni une relation de partenariat. Aucune
 fonction, affiliation ou capacité technique précise n'est ajoutée.
 
-Le programme et les registres utilisent désormais le nom public Taz, en conservant l’identifiant `mon-workshop-noe`. La session est publique ; la communication reste à relire.
+Le programme et les registres utilisent désormais le nom public Taz, en conservant l’identifiant `mon-workshop-noe`. La session est publique ; la communication est programmée selon Cyrille le 12 octobre.
 
-## Prochaine action
+## Préparation initiale — historique
 
 Relire les textes, puis arrêter les horaires de diffusion dans la fenêtre
 réservée. Respecter un minimum de 24 h entre sujets sur un même compte,
@@ -47,4 +47,8 @@ avec une cible de 48 h, après Thomas et avant Frédéric.
 - [x] Vignette approuvée par Cyrille et déposée dans Nextcloud le 6 octobre : [fichier 5118](https://cloud.alpinechain.xyz/index.php/f/5118), taille et SHA-256 contrôlés, indexation sans erreur.
 - [ ] Calendrier détaillé validé et parcours de réservation revérifié.
 
-Aucun lien court spécifique créé. Aucun contenu programmé ou publié.
+Aucun lien court spécifique créé par cette préparation. Programmation confirmée par Cyrille le 12 octobre ; URLs à archiver après publication réelle.
+
+## Suivi du 12 octobre
+
+Cyrille confirme Taz planifié. Prochaine action : archiver les URLs réelles dans #24 et relever les métriques séparément. Les anciennes étapes de préparation ci-dessus restent historiques ; les horaires de diffusion exacts ne sont pas fournis.

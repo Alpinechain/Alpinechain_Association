@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-10-12 (mise à jour ciblée programme et communications)
+Date de dernière mise à jour : 2026-10-12 (billetterie, campagnes et coordination BWS)
 Horizon : 30 jours  
 Validateur opérationnel : Cyrille
 
@@ -10,8 +10,8 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 
 ## Priorités actives
 
-1. **Accélérer la conversion B-Only** : état communiqué au 20 septembre : **42 billets vendus**. Prioriser les relais partenaires, communautés des intervenants, médias, presse locale et liens suivis afin de mesurer l'origine des ventes.
-2. **Finaliser la capitalisation Souveraineté 3.0 — BitVault** : rencontre tenue le 24 septembre ; retour public publié sur cinq canaux et synthèse qualitative archivés dans [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7). Restent les indicateurs précis et la confirmation des archives utiles.
+1. **Accélérer la conversion B-Only** : état communiqué par Cyrille le 12 octobre : **52 billets vendus (34 Early, 18 normaux)**. Prioriser les relais partenaires, communautés des intervenants, médias, presse locale et liens suivis afin de mesurer l'origine des ventes.
+2. **Capitalisation Souveraineté 3.0 — BitVault clôturée** : rencontre tenue le 24 septembre ; retour public publié sur cinq canaux et synthèse qualitative archivés dans [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7), clôturée le 4 octobre sur confirmation humaine. Les compléments de métriques éventuels ne bloquent plus la clôture.
 3. **Suivre la dynamique communautaire et ses revenus** : la fréquentation habituelle des meetups est estimée à **8–15 personnes**, avec un cœur régulier de **6–8 personnes** et environ **4–6 nouveaux participants** depuis le début de l'année. Les adhésions 2026 sont à **3 particuliers**, contre **8 particuliers + 2 entreprises fin 2025**, mais la plupart des participants aux meetups Bitcoin paient leur venue : environ **25 € de recettes par meetup en moyenne**. La boutique goodies représente également environ **100 € de recettes cumulées à ce jour**.
 4. **Maintenir Annecy Bitcoin Tour et commencer à mesurer son usage** : les **8 commerçants partenaires sont toujours actifs** ; aucun retour chiffré sur les paiements n'est encore disponible.
 5. **Finaliser la préparation opérationnelle après validation du programme complet le 12 octobre** : registre des risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) à construire ; plans cotés Novotel reçus, implantation finale après confirmation des partenaires (#25). Devis Aravision signé et envoyé (#12), devis Grifartaix signé et budget Nextcloud déclaré à jour le 28 septembre (#26). Maintenance mensuelle reportée après B-Only sauf urgence, dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119) ; Pretix reste gelé.
@@ -45,7 +45,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et est désormais `confirmed/public` sous le titre « Surprise ». Lionel Jeannerat est confirmé et public dimanche 8 novembre de 17 h 30 à 18 h 20, en salle principale, après le début de sa campagne publique le 21 septembre.
 - Le workshop Specter de Schnuartz est remplacé par « Atelier Bitcoin Lego » avec Laure Merlin, dimanche 8 novembre de 18 h à 18 h 50 au Pleb Forum. Le créneau est `confirmed/public` depuis le 2026-09-06 ; ses détails pratiques et besoins techniques restent à finaliser.
 - Le Cercle du Coin intervient désormais lundi 9 novembre de 9 h à 10 h avec Laure Merlin : présentation du Cercle pendant 10 à 15 minutes, puis keynote « Comment faire communauté » pendant 30 à 35 minutes. Le créneau reste `confirmed/public`.
-- La grille complète contient 31 entrées, dont 1 annulée conservée pour audit. Les 29 créneaux précédents sont publics depuis #201 ; Mill3sim3 / Bitcointrails est ajouté en visibilité publique sur décision de Cyrille le 12 octobre ; l’entrée annulée reste masquée ; Michel Khazzaka reste une option sans créneau. Programme déclaré complet par Cyrille le 12 octobre ; passage en `published` préparé dans la PR de consolidation.
+- La grille complète contient 31 entrées, dont 1 annulée conservée pour audit. Les 29 créneaux précédents sont publics depuis #201 ; Mill3sim3 / Bitcointrails est ajouté en visibilité publique sur décision de Cyrille le 12 octobre ; l’entrée annulée reste masquée ; Michel Khazzaka reste une option sans créneau. Programme déclaré complet par Cyrille le 12 octobre ; passage en `published` réalisé par #202, fusionnée et déployée.
 - Le programme est complet et validé par Cyrille. Les dernières communications restent à planifier dans #24 ; cela ne remet pas en attente la grille programme #11.
 
 ### Communication
@@ -63,7 +63,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
 - Renaud Lifchitz : campagne V3 publiée du 3 au 5 septembre ; les sept URLs publiques, dont Nostr publié manuellement, sont archivées et revérifiées en HTTP 200 le 11 septembre. Les métriques restent à relever dans #24.
 - Pierre Noizat : campagne intervenant V1 `PUBLIÉE / SEPT URLS ARCHIVÉES` ; les métriques restent à relever séparément par plateforme.
-- Planning actif : Christine Jeanneaux dispose de six URLs publiques fournies, Florent Gabriel de cinq, et Lionel Jeannerat dispose de sept URLs archivées le 28 septembre. Les preuves manquantes ne doivent être archivées qu’après publication réelle. Frédéric Jollien et Thomas Mang sont intégrés au programme public ; la campagne Thomas est préparée et avancée au 12–14 octobre ; celle de Frédéric reste à préparer avant publication de la campagne. Chloé D / Feel Mining reste à qualifier avant toute programmation.
+- Planning actif : Christine Jeanneaux dispose de six URLs publiques fournies, Florent Gabriel de cinq, et Lionel Jeannerat dispose de sept URLs archivées le 28 septembre. Les preuves manquantes ne doivent être archivées qu’après publication réelle. Frédéric Jollien et Thomas Mang sont intégrés au programme public ; la campagne Thomas est préparée et avancée au 12–14 octobre ; Frédéric et Loïc : publications postées et suivantes planifiées, déclaration de Cyrille du 12 octobre ; URLs et heures réelles à archiver. Chloé D / Feel Mining reste à qualifier avant toute programmation.
 - L’inversion Lionel/quiz n’exige aucune correction de publication déjà diffusée : aucune preuve publique archivée ne contient ces deux créneaux. Toute future campagne Lionel devra reprendre le dimanche 8 novembre, 17 h 30–18 h 20 ; aucune vague dédiée au quiz n’est actuellement planifiée.
 - Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
 
@@ -72,9 +72,9 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 ### Billetterie
 
 - Billetterie publique ouverte : https://join.alpinechain.xyz/org/bonly26/
-- État communiqué et validé par Cyrille le 20 septembre : **42 billets vendus**.
+- État communiqué et validé par Cyrille le 12 octobre : **52 billets vendus — 34 Early et 18 normaux**. Déclaration humaine, sans extraction Pretix récente.
 - Le quota **Early est épuisé** ; aucune place Early n’est encore disponible.
-- Ce chiffre du 20 septembre remplace le dernier état consolidé du 29 août pour le pilotage stratégique ; Pretix reste la source de vérité détaillée des commandes et paiements.
+- Ce chiffre du 12 octobre remplace le dernier état consolidé du 20 septembre (42 billets) pour le pilotage stratégique ; Pretix reste la source de vérité détaillée des commandes et paiements.
 - Les liens UTM et courts sont prêts pour les campagnes ; les URLs publiées et métriques doivent être reportées dans #24 et #64.
 
 ### Sponsors
@@ -105,7 +105,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Dernier run `Public Service Monitoring` consulté : succès le 3 octobre à 13:28 UTC ([run 37126313046](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/37126313046)). Ce résultat ne constitue pas un contrôle des sauvegardes.
 - Incident de sauvegarde Serveur #130 résolu le 21 septembre. Sauvegarde, Restic, restauration, capacité et alertes externes restent à vérifier dans la revue W40 [#181](https://github.com/Alpinechain/Alpinechain_Association/issues/181), ouverte ; aucun nouveau contrôle serveur effectué dans cette synchronisation documentaire.
 - Maintenance mensuelle reportée après B-Only sauf urgence, selon la décision du 28 septembre dans Serveur #119. Pretix reste gelé tant que l’add-on SBP / BTC Swiss Payserver n’est pas validé.
-- Le Project est une vue des Issues ; les états métier restent dans leurs sources de vérité. Billetterie : dernier chiffre communiqué, 42 billets au 20 septembre ; aucune extraction Pretix récente. Budget : mise à jour déclarée dans #26 le 28 septembre, sans nouvel audit financier.
+- Le Project est une vue des Issues ; les états métier restent dans leurs sources de vérité. Billetterie : dernier chiffre communiqué par Cyrille, 52 billets au 12 octobre (34 Early, 18 normaux) ; aucune extraction Pretix récente. Budget : mise à jour déclarée dans #26 le 28 septembre, sans nouvel audit financier.
 
 ## Prochaines échéances
 
@@ -140,8 +140,24 @@ Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre.
 ## Programme complet — décision du 12 octobre 2026
 
 - Cyrille déclare le programme complet ; la grille validée comporte 30 créneaux actifs publics et une entrée annulée conservée pour audit.
-- Le bandeau provisoire est remplacé par « Programme complet — B-Only 2026, du 7 au 9 novembre à Annecy. » ; transition `published` préparée dans la PR de consolidation, fusion à valider.
-- Dernières communications : relire Thomas et Taz, préparer Frédéric et BitVault, réarbitrer l’ancienne fenêtre Alexis, arrêter les rappels programme/billetterie, informations pratiques et Cercle du Coin. Fenêtres réservées à confirmer dans #24 ; aucun nouveau statut `PROGRAMMÉ` ou `PUBLIÉ` sans preuve.
+- Le bandeau provisoire est remplacé par « Programme complet — B-Only 2026, du 7 au 9 novembre à Annecy. » ; transition `published` réalisée par #202, fusionnée et déployée.
+- Dernières communications : suivre Thomas/Taz programmés et Frédéric/BitVault en diffusion, réarbitrer l’ancienne fenêtre Alexis, arrêter les rappels programme/billetterie, informations pratiques et Cercle du Coin. Fenêtres réservées à confirmer dans #24 ; aucun nouveau statut `PROGRAMMÉ` ou `PUBLIÉ` sans preuve.
 - Mill3sim3 / Bitcointrails est intégré au programme complet : dimanche 8 novembre, 11 h 30–12 h, salle principale, visibilité publique validée par Cyrille le 12 octobre. Sa campagne préparée dans #197 reste à relire et à planifier ; cette PR sera resynchronisée après fusion pour ne porter que les éléments de campagne restants.
 - Les besoins techniques, droits, prérequis et rôles du jour J restent suivis dans #12, #25 et #53 ; la complétude du programme ne les déclare pas accomplis.
 - Sources vérifiées : programme et modèle public déployés par #201, Issues #11 / #24 / #153 / #188, PR #197 et fichiers de campagnes. Pas de nouvelle revue des outils financiers, de billetterie ou de Nextcloud.
+
+## Communications — mise à jour du 12 octobre 2026
+
+- Thomas Mang et Taz / Wesatoshis : **PROGRAMMÉ**, déclaré par Cyrille ; horaires exacts non fournis, URLs à archiver après diffusion réelle dans #24 / #188.
+- Mill3sim3 / Bitcointrails : **EN COURS**, déclaré par Cyrille ; préciser la fenêtre et archiver les URLs publiques, sans déclarer PUBLIÉ sur la seule déclaration.
+- Loïc / BitVault (#203) et Frédéric Jollien (#204) : **DIFFUSION EN COURS — publications postées et suivantes planifiées**, déclaré par Cyrille le 12 octobre. Vignettes validées et archivées (Loïc 5140, Frédéric 5139) ; URLs publiques et horaires par réseau à archiver, métriques à relever séparément.
+- Fenêtres de préparation historiques : Frédéric 19–21 octobre, BitVault 26–28 octobre ; les dates/heures effectivement postées ou planifiées par réseau restent à rapprocher de ces propositions.
+- Fonction professionnelle de Frédéric : `to_verify` ; la source officielle ne corrobore pas « directeur pour la Suisse romande ». Les brouillons utilisent uniquement son nom et l’affiliation Institut Libéral.
+
+## Confirmations de Cyrille — 12 octobre 2026
+
+- Billetterie : **52 billets vendus, dont 34 Early et 18 normaux** ; +10 par rapport au chiffre daté du 20 septembre. Aucun détail de commande ou participant copié.
+- Frédéric et Loïc : publications postées et planifiées sur les différents réseaux ; suivre la diffusion et archiver les URLs par réseau dans #24 / #203 / #204. Les calendriers CSV conservés sont des propositions de préparation, pas une preuve des horaires réellement programmés.
+- **BWS confirmé** : AlpineChain/Pretix est le point d’achat ; Cyrille transmet les billets à Louis-Alexandre au fur et à mesure des ventes. Les modalités de reversement restent à confirmer dans #198 ; aucun reversement déclaré réalisé.
+- Project Control réparé : secret invalide remplacé, réconciliation complète [38257252889](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/38257252889) et run d’issue [38255187852](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/38255187852) réussis. Aucun secret conservé dans le dépôt.
+- Sources : déclarations explicites de Cyrille dans cette conversation ; état des issues/PR et workflows relu. Aucun nouveau contrôle financier, aucune extraction des commandes Pretix ni action de publication sociale.
