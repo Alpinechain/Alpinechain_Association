@@ -124,6 +124,6 @@ vignettes validées de Florent, Mill3sim3 et Taz, disposent de copies de
 diffusion légères sous `public/visuals/`, avec provenance et empreintes
 des originaux dans `SOURCES.md`. Les originaux restent dans Nextcloud.
 Loïc utilise le logo BitVault choisi après inventaire, sur accord de Cyrille.
-Frédéric reste sans visuel : la photo de l’Institut Libéral a été rejetée, et
-le portrait du profil LinkedIn fourni doit être obtenu. Le rendez-vous des
-organisateurs de meetups reste également sans visuel associé.
+Frédéric dispose désormais d’une vignette B-Only V1 à valider, préparée à
+partir du portrait fourni par Cyrille et référencée dans `SOURCES.md`.
+Le rendez-vous des organisateurs de meetups reste seul sans visuel associé.

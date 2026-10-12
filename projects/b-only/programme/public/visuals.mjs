@@ -112,5 +112,9 @@ export const sessionVisuals = {
   "sat-workshop-bitvault": {
     "src": "visuals/bitvault-logo-thumb.webp",
     "full": "visuals/bitvault-logo-full.webp"
+  },
+  "sun-main-frederic-jollien": {
+    "src": "visuals/frederic-vignette-thumb.webp",
+    "full": "visuals/frederic-vignette-full.webp"
   }
 };

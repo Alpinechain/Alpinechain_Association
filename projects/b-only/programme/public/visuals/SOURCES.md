@@ -30,4 +30,12 @@ Les copies de diffusion seront publiques après la fusion/déploiement autorisé
 - Loïc : logo BitVault sur fond blanc, usage dans sa pastille validé par Cyrille le 12 octobre.
   Source : `Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--bitvault--logo-fond-blanc-carre--2026-09-08--source.png`.
   SHA-256 : `743f27ef18adb6aadd9c9a3d539a52164bf2bb246e6374ecbf095a8442bdf02a`. Copies WebP légères dans ce dossier.
-- Frédéric : la photo de l’Institut Libéral précédemment proposée est rejetée par Cyrille le 12 octobre et retirée de cette PR. Profil de référence fourni : https://www.linkedin.com/in/fjollien/ . LinkedIn renvoie HTTP 999 lors de la vérification ; aucun portrait de remplacement n’est affirmé disponible ou validé. La pastille reste neutre tant que le bon fichier n’est pas obtenu.
+- Frédéric : portrait fourni directement par Cyrille le 12 octobre (`Fred Jollien profil.jpeg`, 200 × 200 px).
+  Source canonique : `Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Photos Intervenants/intervenant--frederic-jollien--portrait--2026-10-12--source.jpeg`.
+  SHA-256 portrait : `1f29e960f2db402323ef841792160006fd67e06a4c10b2a4890db55da9774d2b`.
+  Vignette B-Only V1 générée à sa demande, statut **À VALIDER** (`pending_review`) :
+  `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--frederic-jollien--bitcoin-ideal-liberal--2026-10-12--a-valider-v1.png`.
+  SHA-256 PNG : `6c2aad8c5a820c5d777e54a2dbf9b820030391c8b22b4673e902a805aba67bb3`.
+  Dépôts WebDAV exclusifs (If-None-Match: *), lecture distante et SHA-256 vérifiés.
+  Le portrait de l’Institut Libéral rejeté n’est pas utilisé. Aucun titre professionnel ou affiliation n’est ajouté au visuel.
+  Copies WebP légères utilisées pour la pastille et le zoom ; aucun original lourd versionné.
