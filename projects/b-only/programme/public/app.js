@@ -1,4 +1,5 @@
 import { publicEntries } from "./model.mjs";
+import { sessionVisuals } from "./visuals.mjs";
 
 const state = {
   data: null,
@@ -86,7 +87,49 @@ function renderEntry(entry) {
 
   setText(speakers, entry.speakers.join(" · "));
 
+  renderVisual(fragment.querySelector(".session-visual"), entry);
   return fragment;
+}
+
+function visualPlaceholder() {
+  const placeholder = document.createElement("span");
+  placeholder.className = "visual-placeholder";
+  placeholder.setAttribute("aria-hidden", "true");
+  placeholder.innerHTML = '<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="5" width="22" height="22" rx="5"/><circle cx="12" cy="12" r="2.5"/><path d="m7 24 7-7 4 4 4-6 5 9"/></svg>';
+  return placeholder;
+}
+
+function renderVisual(container, entry) {
+  const visual = entry.revealed && sessionVisuals[entry.id];
+  if (!visual) {
+    container.append(visualPlaceholder());
+    return;
+  }
+
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "visual-thumbnail";
+  button.setAttribute("aria-label", `Agrandir la vignette : ${entry.title}`);
+
+  const img = document.createElement("img");
+  img.alt = "";
+  img.width = 90;
+  img.height = 90;
+  img.loading = "lazy";
+  img.decoding = "async";
+  img.referrerPolicy = "no-referrer";
+  img.addEventListener("error", () => container.replaceChildren(visualPlaceholder()));
+  img.src = visual.src;
+  button.append(img);
+  container.append(button);
+
+  button.addEventListener("click", () => {
+    const full = document.querySelector("#visual-full");
+    full.src = visual.full;
+    full.alt = `Vignette — ${entry.title}`;
+    document.querySelector("#visual-caption").textContent = entry.title;
+    document.querySelector("#visual-dialog").showModal();
+  });
 }
 
 function renderSchedule() {
@@ -156,3 +199,13 @@ if ("ResizeObserver" in window) {
 
 loadProgramme();
 window.setInterval(loadProgramme, 60_000);
+
+const visualDialog = document.querySelector("#visual-dialog");
+visualDialog.addEventListener("click", (event) => {
+  if (event.target !== visualDialog) return;
+  const bounds = visualDialog.getBoundingClientRect();
+  if (event.clientX < bounds.left || event.clientX > bounds.right ||
+      event.clientY < bounds.top || event.clientY > bounds.bottom) {
+    visualDialog.close();
+  }
+});
