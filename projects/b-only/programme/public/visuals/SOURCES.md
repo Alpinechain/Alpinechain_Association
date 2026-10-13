@@ -71,3 +71,16 @@ Création exclusive, contenu et empreinte relus à distance. Copie de diffusion
 WebP qualité 0,9, dimensions et proportions conservées, aucun agrandissement.
 La pastille et le zoom utilisent cette même copie ; les 30 créneaux actifs ont
 un visuel associé. Programme JSON inchangé. Fusion/déploiement à valider.
+
+## Alexandre Stachtchenko — correction V4 du 13 octobre 2026
+
+Cyrille corrige la fonction en « Directeur Stratégie — Bitstack » et demande
+l’intégration de la V4 au planning B-Only. La V3 publique est remplacée par les
+copies de diffusion `alexandre-v4-thumb.webp` (300 px) et
+`alexandre-v4-full.webp` (960 px), WebP qualité 90, proportions conservées.
+Original Nextcloud :
+`Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-10-13--a-valider-v4.png`.
+SHA-256 PNG : `d9f762717dd3cd922013a736706393777228cc03e0c19647d3533e2e4ea323e9` ; 1824374 octets, relus depuis Nextcloud.
+Le fichier source conserve son suffixe `a-valider` ; la demande d’intégration
+ne clôture pas les points distincts de droits/crédit. Fusion et déploiement
+restent à autoriser. L’article AlpineChain est corrigé par Cyrille séparément.

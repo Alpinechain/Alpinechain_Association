@@ -54,8 +54,8 @@ export const sessionVisuals = {
     "full": "visuals/closing.svg"
   },
   "sat-main-alexandre": {
-    "src": "https://alpinechain.xyz/wp-content/uploads/2026/10/vignette-alexandre-stachtchenko-la-femme-est-l-avenir-de-bitcoin-2026-10-03-a-valider-v3-300x300.png",
-    "full": "https://alpinechain.xyz/wp-content/uploads/2026/10/vignette-alexandre-stachtchenko-la-femme-est-l-avenir-de-bitcoin-2026-10-03-a-valider-v3.png"
+    "src": "visuals/alexandre-v4-thumb.webp",
+    "full": "visuals/alexandre-v4-full.webp"
   },
   "sat-workshop-profedu-quantum": {
     "src": "https://alpinechain.xyz/wp-content/uploads/2026/08/vignette-profedustream-menace-quantique-2026-08-03-valide-300x300.png",
