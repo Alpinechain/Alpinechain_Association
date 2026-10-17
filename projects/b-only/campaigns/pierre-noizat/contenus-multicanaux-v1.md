@@ -8,7 +8,8 @@
 - Organisation liée : **Paymium**
 - Présentation : **« Energie, monnaie et civilisation »**
 - Format : présentation de 20 minutes, puis questions
-- Créneau public : dimanche 8 novembre 2026 à 9 h 30
+- Créneau du programme après échange validé par Cyrille le 17 octobre 2026 : samedi 7 novembre 2026, de 16 h à 16 h 50.
+- Ancien créneau lors de la campagne V1 : dimanche 8 novembre 2026 à 9 h 30. Les contenus et preuves de diffusion ci-dessous sont conservés comme historique.
 - Événement : **B-Only'26, Annecy, du 7 au 9 novembre 2026**
 - X : `@PierreNoizat`
 - LinkedIn : `pierrenoizat`
