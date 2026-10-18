@@ -109,7 +109,7 @@ Choisissez votre formule via le lien en bio.
 
 ## Instagram — story 1
 
-OFFRE EXCEPTIONNELLE MILL3SIM3
+OFFRE EXCEPTIONNELLE Mill3sim3
 B-ONLY · ANNECY · 7–9 NOVEMBRE
 
 PASS 3 JOURS
