@@ -19,6 +19,9 @@ L’offre est limitée à 10 billets au total, les deux formules confondues. Ré
 
 Votre bon est fourni séparément avec son propre QR code, à présenter directement à Mill3. Il est utilisable une seule fois, jusqu’au 31 décembre 2026.
 
+Découvrez les articles disponibles dans le magasin :
+https://bitcoinstore.fr/
+
 Choisissez votre formule et réservez :
 https://go.alpinechain.xyz/b26-offre-mill3-li-ac
 
@@ -37,6 +40,9 @@ Rendez-vous du 7 au 9 novembre 2026 au Novotel Annecy Centre pour trois jours de
 10 billets au total pour cette offre exceptionnelle, jusqu’au 31 octobre à 23 h 59, heure de Paris, dans la limite des places disponibles.
 
 Le bon dispose d’un QR code distinct : présentez-le directement à Mill3. Usage unique, jusqu’au 31 décembre 2026.
+
+Découvrez les articles disponibles dans le magasin :
+https://bitcoinstore.fr/
 
 Les deux formules sont ici :
 https://go.alpinechain.xyz/b26-offre-mill3-li-abm
@@ -57,6 +63,9 @@ Conférences, ateliers et rencontres au Novotel Annecy Centre. Repas du samedi s
 L’offre porte sur 10 billets au total, les deux formules confondues. Vous pouvez réserver jusqu’au 31 octobre 2026 à 23 h 59, heure de Paris, dans la limite des places disponibles.
 
 Vous recevez un bon séparé avec un QR code à présenter directement à Mill3. Il est utilisable une seule fois, jusqu’au 31 décembre 2026.
+
+Découvrez les articles disponibles dans le magasin :
+https://bitcoinstore.fr/
 
 Choisissez votre formule :
 https://go.alpinechain.xyz/b26-offre-mill3-nostr
@@ -79,6 +88,9 @@ L’offre est limitée à 10 billets au total pour les deux formules. Réservez 
 
 Le bon vous sera fourni séparément, avec son QR code, à présenter directement à Mill3. Il est utilisable une seule fois jusqu’au 31 décembre 2026.
 
+Découvrez les articles disponibles dans le magasin :
+https://bitcoinstore.fr/
+
 Pour choisir votre formule :
 https://go.alpinechain.xyz/b26-offre-mill3-fb
 
@@ -91,6 +103,7 @@ B-Only + Mill3sim3 : trois jours de Bitcoin, un bon Bitcoinstore inclus. 🔥
 🎟️ Pass 3 jours à 180 € → bon d’achat de 90 € inclus.
 🎟️ Pass 3 jours à 150 € → bon d’achat de 45 € inclus.
 
+Découvrez les articles du magasin : https://bitcoinstore.fr/
 Les bons sont valables sur bitcoinstore.fr.
 
 📍 Novotel Annecy Centre
@@ -101,11 +114,11 @@ Les bons sont valables sur bitcoinstore.fr.
 
 Votre bon séparé, avec QR code, est à présenter directement à Mill3. Usage unique, jusqu’au 31 décembre 2026.
 
-Choisissez votre formule via le lien en bio.
+Les liens vers le magasin et vers l’offre B-Only sont en bio. Choisissez votre formule pour réserver.
 
 #BOnly #Bitcoin #Annecy
 
-*Préparation interne : placer https://go.alpinechain.xyz/b26-offre-mill3-ig en bio avant diffusion ; cette modification n’a pas été effectuée.*
+*Préparation interne : prévoir deux liens en bio, « Voir le magasin » → https://bitcoinstore.fr/ et « Réserver B-Only — offre Mill3sim3 » → https://go.alpinechain.xyz/b26-offre-mill3-ig. Les URL de légende ne sont pas cliquables : utiliser les liens en bio et les stickers stories. Aucune modification de bio effectuée.*
 
 ## Instagram — story 1
 
@@ -132,6 +145,17 @@ CHOISIR MA FORMULE
 
 *Sticker lien : https://go.alpinechain.xyz/b26-offre-mill3-ig — libellé « Choisir ma formule ». La story 2 porte les conditions de la story 1 ; ne pas diffuser la première seule.*
 
+## Instagram — story 3 : découvrir le magasin
+
+QUE CHOISIR AVEC VOTRE BON ?
+
+Découvrez les articles disponibles sur
+https://bitcoinstore.fr/
+
+VOIR LE MAGASIN
+
+*Sticker lien : https://bitcoinstore.fr/ — libellé « Voir le magasin ». Complément de la story de réservation, sans remplacer son sticker.*
+
 ## X — thread de trois posts
 
 ### Post 1/3
@@ -148,6 +172,8 @@ Les deux pass incluent les repas du samedi soir, dimanche midi et dimanche soir.
 
 Le bon séparé, avec QR code, est à présenter directement à Mill3. Usage unique, valable jusqu’au 31 décembre 2026.
 
+Magasin : https://bitcoinstore.fr/
+
 ### Post 3/3
 
 10 billets au total, les deux formules confondues. Réservation jusqu’au 31 octobre à 23 h 59, heure de Paris, dans la limite des places disponibles.
@@ -155,4 +181,4 @@ Le bon séparé, avec QR code, est à présenter directement à Mill3. Usage uni
 Choisissez votre formule :
 https://go.alpinechain.xyz/b26-offre-mill3-x
 
-*Contrôle interne : post 1/3 = 192 caractères, post 2/3 = 196 caractères, post 3/3 = 221 caractères. Limite : 240, URL entière comprise. Chaque post doit être publié en réponse au précédent. Pas de publication effectuée.*
+*Contrôle interne : post 1/3 = 192 caractères, post 2/3 = 232 caractères, post 3/3 = 221 caractères. Limite : 240, URL entière comprise. Chaque post doit être publié en réponse au précédent. Pas de publication effectuée.*
