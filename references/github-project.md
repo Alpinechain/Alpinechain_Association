@@ -35,7 +35,7 @@ Ce choix évite les scopes annexes `read:org` et `read:discussion` réclamés pa
 - détecter les éléments déjà présents ;
 - classer les Issues selon leurs labels `project:*` ;
 - initialiser la priorité à `P2` ;
-- extraire une échéance au format `YYYY-MM-DD` depuis le corps de l’Issue ;
+- lire uniquement une ligne explicite `Échéance : YYYY-MM-DD` depuis le corps de l’Issue ;
 - passer les Issues `blocked` ou `waiting` en `En attente` ;
 - passer les Issues fermées en `Terminé` ;
 - réconcilier le Project chaque lundi matin ;
@@ -98,7 +98,7 @@ Dans l’onglet **Actions**, sélectionner **AlpineChain Project Control**, puis
 | `Statut opérationnel` | Sélection | Inbox, À faire, En cours, En attente, À valider, Terminé |
 | `Priorité` | Sélection | P0, P1, P2, P3 |
 | `Projet` | Sélection | Association, Meetup Bitcoin, Souveraineté, B-Only |
-| `Échéance` | Date | Première date ISO trouvée dans le corps de l’Issue |
+| `Échéance` | Date | Date déclarée par une ligne explicite `Échéance : YYYY-MM-DD` |
 | `Effort` | Nombre | Estimation simple 1, 2, 3, 5 ou 8 |
 | `Assignees` | Champ GitHub natif | Responsables d’exécution |
 
@@ -163,6 +163,20 @@ Vues secondaires recommandées :
 - Une Issue fermée passe à `Terminé`.
 - Un statut manuel `En cours` ou `À valider` n’est pas écrasé par la réconciliation générale.
 - Le label `human-validation` signale un contrôle obligatoire, mais ne suffit pas à déclarer le livrable prêt à valider.
+
+## Échéances explicites
+
+Le corps de l’Issue est la source de vérité. Déclarer une seule ligne :
+
+```text
+Échéance : YYYY-MM-DD
+```
+
+ou `Échéance : non fixée`. Une liste et une emphase Markdown sont acceptées. Les exemples en blocs de code, dates de mise à jour, noms de fichiers, expirations de bons et fenêtres de campagne ne définissent pas une échéance de tâche.
+
+Pour les Issues ouvertes, une date explicite valide remplace la date du Project. Sans déclaration, ou avec `non fixée`, l’échéance du Project est effacée ; une date saisie uniquement dans le Project doit donc d’abord être reportée dans l’Issue. Les dates invalides ou déclarations contradictoires arrêtent la synchronisation de la date sans l’écrire. Les échéances historiques des Issues fermées sont conservées.
+
+Validation locale : `python3 -m unittest discover -s .github/scripts/tests -v` et `bash -n .github/scripts/project-control.sh`.
 
 ## Règle générale
 
