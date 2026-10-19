@@ -13,7 +13,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 1. **Accélérer la conversion B-Only** : état communiqué par Cyrille le 12 octobre : **52 billets vendus (34 Early, 18 normaux)**. Approfondir les raisons concrètes de venir dans #24. Audit du parcours de suivi, nouvelles sollicitations des relais et suivi hebdomadaire laissés de côté pour le moment, selon Cyrille le 19 octobre.
 2. **Capitalisation Souveraineté 3.0 — BitVault clôturée** : rencontre tenue le 24 septembre ; retour public publié sur cinq canaux et synthèse qualitative archivés dans [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7), clôturée le 4 octobre sur confirmation humaine. Les compléments de métriques éventuels ne bloquent plus la clôture.
 3. **Suivre la dynamique communautaire et ses revenus** : la fréquentation habituelle des meetups est estimée à **8–15 personnes**, avec un cœur régulier de **6–8 personnes** et environ **4–6 nouveaux participants** depuis le début de l'année. Les adhésions 2026 sont à **3 particuliers**, contre **8 particuliers + 2 entreprises fin 2025**, mais la plupart des participants aux meetups Bitcoin paient leur venue : environ **25 € de recettes par meetup en moyenne**. La boutique goodies représente également environ **100 € de recettes cumulées à ce jour**.
-4. **Maintenir Annecy Bitcoin Tour et commencer à mesurer son usage** : dernier repère consolidé de **8 commerçants**, à réconcilier avec l’annonce publique du CIAO comme neuvième partenaire le 27 septembre ; aucun nouveau total d’actifs ni retour chiffré sur les paiements n’est confirmé.
+4. **Maintenir Annecy Bitcoin Tour et commencer à mesurer son usage** : **8 commerçants actuellement**, confirmation directe de Cyrille le 19 octobre ; aucun retour chiffré sur les paiements n’est déduit.
 5. **Finaliser la préparation opérationnelle après validation du programme complet le 12 octobre** : registre des risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) à construire ; plans cotés Novotel reçus, implantation finale après confirmation des partenaires (#25). Devis Aravision signé et envoyé (#12), devis Grifartaix signé et budget Nextcloud déclaré à jour le 28 septembre (#26). Maintenance mensuelle reportée après B-Only sauf urgence, dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119) ; Pretix reste gelé.
 
 ## Revue stratégique 2026
@@ -108,10 +108,14 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Continuité des services
 
-- Dernier run `Public Service Monitoring` vérifié lors de la revue du 19 octobre : succès à 06:19 UTC ([run 39209271386](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39209271386)). Ce résultat ne constitue pas un contrôle des sauvegardes.
-- Incident de sauvegarde Serveur #130 résolu le 21 septembre. Sauvegarde, Restic, restauration, capacité et alertes externes restent à vérifier dans la revue W40 [#181](https://github.com/Alpinechain/Alpinechain_Association/issues/181), ouverte ; aucun nouveau contrôle serveur effectué dans cette synchronisation documentaire.
+- Dernier run `Public Service Monitoring` vérifié lors de la revue du 19 octobre : succès à 13:36 UTC, soit 15:36 Europe/Paris ([run 39261533906](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39261533906)). Ce résultat ne constitue pas un contrôle des sauvegardes.
+- Incident de sauvegarde Serveur #130 résolu le 21 septembre. Sauvegarde, Restic, restauration, capacité et alertes externes restent à vérifier dans la revue W40 [#181](https://github.com/Alpinechain/Alpinechain_Association/issues/181), ouverte, ainsi que W41 #195 et W42 #212. Revue courante W43 [#227](https://github.com/Alpinechain/Alpinechain_Association/issues/227) : monitoring vérifié, contrôles serveur non réalisés dans cette synchronisation documentaire.
 - Maintenance mensuelle reportée après B-Only sauf urgence, selon la décision du 28 septembre dans Serveur #119. Pretix reste gelé tant que l’add-on SBP / BTC Swiss Payserver n’est pas validé.
 - Le Project est une vue des Issues ; les états métier restent dans leurs sources de vérité. Billetterie : dernier chiffre communiqué par Cyrille, 52 billets au 12 octobre (34 Early, 18 normaux) ; aucune extraction Pretix récente. Budget : mise à jour déclarée dans #26 le 28 septembre, sans nouvel audit financier.
+
+## Site — décision du 19 octobre
+
+Conserver le site actuel. Affiches partenaires V1/V2 classées essais non concluants ; #216 clôturée comme non prévue. Prototypes locaux conservés ; pastilles déjà intégrées maintenues. Fin du tarif Classic confirmée par Cyrille : **31 octobre 2026 à 23 h 59 Europe/Paris** ; aucune correction publique lancée ni configuration Pretix recontrôlée dans ce lot.
 
 ## Prochaines échéances
 
@@ -136,7 +140,11 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre. Les conversations ChatGPT non accessibles ne sont pas couvertes. Nextcloud, Pretix, Dolibarr, Paheko et PeerTube n’ont pas été relus directement : leurs états ne sont repris que lorsqu’ils sont explicitement datés et tracés dans GitHub. Aucun nouvel état financier, aucune publication, aucune fusion ni opération serveur ne découle de cette synchronisation.
 
-## Modification du programme — 12 octobre 2026
+## Historique des décisions et communications du 12 octobre 2026
+
+Les états de campagne de cette archive sont remplacés par le suivi courant du 19 octobre ci-dessus : Thomas/Taz/Mill3sim3 publiés, Loïc/Frédéric encore planifiés, sans nouvelle programmation.
+
+### Modification du programme — 12 octobre 2026
 
 - Visibilité publique validée par Cyrille pour tous les créneaux actifs ; aucun nouveau gel définitif du programme n’est déduit.
 - Lundi 11 h–11 h 50 : « Présentation de clôture », sans invité précisé, remplace le créneau d’Alexis Roussel. Sa campagne du 22–24 octobre est à réexaminer ; aucun remplacement éditorial n’est choisi automatiquement.

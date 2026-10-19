@@ -45,3 +45,11 @@ Cette file de travail ne réactive ni l’audit du parcours de suivi, ni de nouv
 ## Classement des essais du site — décision du 19 octobre
 
 Cyrille demande de laisser le site dans son état actuel. Les propositions d’affiche partenaires V1/V2 sont abandonnées comme essais non concluants ; #216 est clôturée avec le motif `not_planned`. Les fichiers et aperçus locaux sont conservés sans intégration. La maquette de pastilles reste une trace historique d’une fonctionnalité déjà livrée par #207/#206 ; aucun retour arrière. Les actions de gouvernance des accès et de transfert du domaine #45 sont distinctes et ne sont pas clôturées par cette décision.
+
+## Pilotage et revues — passe complémentaire du 19 octobre
+
+- PR #197/#218 resynchronisées avec main et preuves : sources de la campagne Bitcointrails publiée, offre spéciale Facebook partiellement diffusée ; fusions distinctes en attente. #220 relue, réception des vidéos distincte des lots et essais.
+- NOW reprend les huit commerçants confirmés, la fin Classic au 31 octobre à 23 h 59 et l’abandon des essais d’affiche. Les anciennes mentions de programmation du 12 octobre sont explicitement historiques ; #153 alignée sur les preuves du 19 octobre.
+- W43 #227 est la revue courante. Monitoring public réussi le 19 octobre à 13 h 36 UTC : [run 39261533906](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39261533906). Aucune Issue `[INCIDENT]` ouverte trouvée au relevé ; aucun état serveur global déduit.
+- W40 #181, W41 #195 et W42 #212 restent ouvertes et qualifiées de revues historiques incomplètes. Sauvegardes, Restic, restauration, disque, conteneurs et sécurité restent non vérifiés dans cette passe ; aucun succès actuel attribué rétroactivement à ces semaines.
+- Le curseur de revue globale conserve sa date et ses inventaires historiques ; sa note est corrigée pour ne plus annoncer #222/#224 non fusionnées. Le prochain point global devra refaire un inventaire actuel.
