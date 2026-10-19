@@ -1,6 +1,14 @@
 # Offre Mill3sim3 — campagne réseaux
 
-**Date : 18 octobre 2026. Statut : PRÊT À RELIRE.**
+## État réconcilié — 19 octobre 2026
+
+**DIFFUSION PARTIELLE CONFIRMÉE — Facebook publié le 18 octobre.** Le texte de l’export Meta fourni par Cyrille correspond aux deux formules de cette offre, distincte de la campagne Bitcointrails. [URL et preuve archivées](publications-v1.csv). Les autres diffusions ne sont pas confirmées par les preuves rapprochées ; aucune nouvelle publication ou programmation n’est lancée ici. La publication Facebook ne prouve ni la validation du visuel V1 ci-dessous, ni un achat, ni l’utilisation d’un bon.
+
+Les sources préparées dans cette PR restent à relire pour leur intégration documentaire. Les contrôles PDF et scan demeurent dans #217 ; les éventuels compléments de diffusion dans #24. Nostr est exclu du suivi des liens et statistiques sur décision de Cyrille.
+
+## Préparation historique — 18 octobre 2026
+
+**Statut de la préparation initiale : PRÊT À RELIRE.** Les propositions et mentions « non programmée / aucune publication » ci-dessous décrivent cette préparation ; l’état courant est celui du paragraphe ci-dessus.
 
 ## Cadrage
 - Projet / profil : B-Only, strictement associatif.
