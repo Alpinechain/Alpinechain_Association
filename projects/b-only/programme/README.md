@@ -123,8 +123,8 @@ validé. Les portraits d’Élodie (workshop) et Laure (Cercle du Coin), ainsi q
 vignettes validées de Florent, Mill3sim3 et Taz, disposent de copies de
 diffusion légères sous `public/visuals/`, avec provenance et empreintes
 des originaux dans `SOURCES.md`. Les originaux restent dans Nextcloud.
-Loïc et Frédéric disposent désormais de vignettes B-Only V1 à valider,
+Loïc et Frédéric disposent de vignettes B-Only V1 validées par Cyrille le 12 octobre et intégrées par #209,
 préparées à partir des portraits fournis par Cyrille et classées dans Nextcloud.
 La vignette de Loïc utilise le logo BitVault. Provenance et empreintes
 sont référencées dans `SOURCES.md`.
-Le rendez-vous des organisateurs de meetups reste seul sans visuel associé.
+Le rendez-vous des organisateurs de meetups affiche le logo Communautés francophones depuis #211. Les 30 créneaux actifs sont illustrés ; Alexandre utilise la V4 corrigée depuis #213.
