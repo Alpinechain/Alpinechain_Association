@@ -14,7 +14,7 @@ Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résum
 2. **Capitalisation Souveraineté 3.0 — BitVault clôturée** : rencontre tenue le 24 septembre ; retour public publié sur cinq canaux et synthèse qualitative archivés dans [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7), clôturée le 4 octobre sur confirmation humaine. Les compléments de métriques éventuels ne bloquent plus la clôture.
 3. **Suivre la dynamique communautaire et ses revenus** : la fréquentation habituelle des meetups est estimée à **8–15 personnes**, avec un cœur régulier de **6–8 personnes** et environ **4–6 nouveaux participants** depuis le début de l'année. Les adhésions 2026 sont à **3 particuliers**, contre **8 particuliers + 2 entreprises fin 2025**, mais la plupart des participants aux meetups Bitcoin paient leur venue : environ **25 € de recettes par meetup en moyenne**. La boutique goodies représente également environ **100 € de recettes cumulées à ce jour**.
 4. **Maintenir Annecy Bitcoin Tour et commencer à mesurer son usage** : dernier repère consolidé de **8 commerçants**, à réconcilier avec l’annonce publique du CIAO comme neuvième partenaire le 27 septembre ; aucun nouveau total d’actifs ni retour chiffré sur les paiements n’est confirmé.
-5. **Finaliser la préparation opérationnelle après validation du programme complet le 12 octobre** : registre des risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) à construire ; plans cotés Novotel reçus, implantation finale après confirmation des partenaires (#25). Devis Aravision signé et envoyé (#12), devis Grifartaix signé et budget Nextcloud déclaré à jour le 28 septembre (#26). Maintenance mensuelle reportée après B-Only sauf urgence, dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119) ; Pretix reste gelé.
+5. **Finaliser la préparation opérationnelle après validation du programme complet le 12 octobre** : registre des risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) à construire ; plans cotés Novotel reçus, implantation finale après confirmation des partenaires (#25). Devis Aravision signé et envoyé (#12), devis Grifartaix signé et budget Nextcloud déclaré à jour le 28 septembre (#26). Maintenance mensuelle reportée après B-Only sauf urgence, dans [Serveur #152](https://github.com/Alpinechain/Serveur/issues/152), après clôture des correctifs ciblés #140 ; Pretix reste gelé.
 
 ## Revue stratégique 2026
 
@@ -108,10 +108,12 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Continuité des services
 
-- Dernier run `Public Service Monitoring` vérifié lors de la revue du 19 octobre : succès à 06:19 UTC ([run 39209271386](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39209271386)). Ce résultat ne constitue pas un contrôle des sauvegardes.
-- Incident de sauvegarde Serveur #130 résolu le 21 septembre. Sauvegarde, Restic, restauration, capacité et alertes externes restent à vérifier dans la revue W40 [#181](https://github.com/Alpinechain/Alpinechain_Association/issues/181), ouverte ; aucun nouveau contrôle serveur effectué dans cette synchronisation documentaire.
-- Maintenance mensuelle reportée après B-Only sauf urgence, selon la décision du 28 septembre dans Serveur #119. Pretix reste gelé tant que l’add-on SBP / BTC Swiss Payserver n’est pas validé.
-- Le Project est une vue des Issues ; les états métier restent dans leurs sources de vérité. Billetterie : dernier chiffre communiqué par Cyrille, 52 billets au 12 octobre (34 Early, 18 normaux) ; aucune extraction Pretix récente. Budget : mise à jour déclarée dans #26 le 28 septembre, sans nouvel audit financier.
+- Revue W43 [#227](https://github.com/Alpinechain/Alpinechain_Association/issues/227) : monitoring public réussi le 19 octobre à 15 h 36 Europe/Paris ([run 39261533906](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39261533906)), contrôles directs de santé et capacité réalisés ; aucun incident de titre `[INCIDENT]` ouvert dans ce dépôt au relevé. Preuves techniques dans le dépôt privé Serveur.
+- Sauvegarde du 19 octobre réussie, dépôt hors serveur accessible ; contrôle Restic du 18 octobre réussi sur les métadonnées et **5 % des données**, sans contrôle intégral revendiqué. **Restauration complète isolée du Pretix local réussie le 19 octobre** : configuration, fichiers, base et application contrôlés ; accès authentifié à l’événement restauré réussi. Production préservée et ressources de test nettoyées. Preuves et limites : [Serveur #153](https://github.com/Alpinechain/Serveur/issues/153).
+- Accès, expirations, ajouts Git récents et DNS courant contrôlés sur les sources accessibles ; compléments exigeant les comptes propriétaires et actions de durcissement suivis dans [Serveur #153](https://github.com/Alpinechain/Serveur/issues/153) / [#154](https://github.com/Alpinechain/Serveur/issues/154). Aucun retrait d’accès ou changement DNS effectué. La billetterie externe `join.alpinechain.xyz` reste en place pendant les ventes ; bascule vers `ticket.alpinechain.xyz` **après B-Only**, confirmation de Cyrille du 19 octobre dans [Serveur #66](https://github.com/Alpinechain/Serveur/issues/66). Le test du Pretix local ne couvre pas la restauration de cette instance externe.
+- Correctifs ciblés installés et validés le 19 octobre dans [Serveur #140](https://github.com/Alpinechain/Serveur/issues/140), clôturée ; contrôle mensuel fonctionnel. Maintenance générale reportée après le 9 novembre dans [Serveur #152](https://github.com/Alpinechain/Serveur/issues/152) ; revue MinIO séparée dans [#150](https://github.com/Alpinechain/Serveur/issues/150). Pretix et ses dépendances de production restent gelés.
+- Project lu directement : **0 P0, 0 P1 déclarés**, sans garantie d’absence de risque urgent. À J−19 de B-Only, jalon J−21 du 17 octobre passé, J−14 le 24 octobre : risques/plans de repli #27, responsabilités et essais #12, implantation/bénévoles #25 restent à confirmer. Cyrille valide les revues W40 #181, W41 #195 et W42 #212 le 19 octobre sur la base du traitement W43 : elles sont clôturées. W43 #227 reste ouverte pour le traitement des points de sécurité ; les preuves gardent leurs dates réelles. Les rôles documentés sont conservés, sans nouvelle date de suivi fixée.
+- Billetterie : dernier chiffre communiqué par Cyrille, 52 billets au 12 octobre (34 Early, 18 normaux), sans extraction récente. Budget : mise à jour déclarée dans #26 le 28 septembre, sans nouvel audit financier. Ces états restent distincts des contrôles techniques W43.
 
 ## Prochaines échéances
 
@@ -124,7 +126,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 | Mi-octobre | Suivre l’expédition des lots et les vidéos Neowalt #147 |
 | 31 octobre | Expiration des codes sponsors #186 ; réception/inventaire des lots et test régie à finaliser |
 | 7–9 novembre | B-Only 2026 |
-| Après B-Only | Maintenance mensuelle Serveur #119, sauf urgence justifiant une intervention anticipée |
+| Après le 9 novembre | Maintenance générale Serveur #152 et revue MinIO #150, sauf urgence explicitement validée |
 
 ## Logistique et partenaires — décisions propagées
 
@@ -134,7 +136,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Sources et limites de la synchronisation
 
-Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre. Les conversations ChatGPT non accessibles ne sont pas couvertes. Nextcloud, Pretix, Dolibarr, Paheko et PeerTube n’ont pas été relus directement : leurs états ne sont repris que lorsqu’ils sont explicitement datés et tracés dans GitHub. Aucun nouvel état financier, aucune publication, aucune fusion ni opération serveur ne découle de cette synchronisation.
+Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre. Les conversations ChatGPT non accessibles ne sont pas couvertes. Pour les états métier (participants, finances et publications), Nextcloud, Pretix, Dolibarr, Paheko et PeerTube restent repris uniquement depuis des confirmations datées et tracées dans GitHub ; les vérifications techniques ci-dessus ne constituent pas un nouvel audit de ces données. Aucun nouvel état financier, aucune publication ni fusion ne découle de cette synchronisation. Les contrôles techniques W43 et la restauration isolée du 19 octobre sont documentés séparément dans #227 / Serveur #153 ; ils n’ont modifié aucun service de production.
 
 ## Modification du programme — 12 octobre 2026
 
