@@ -1,5 +1,9 @@
 # Campagne Lionel Jeannerat — suivi V2
 
+## Suivi des liens — 19 octobre 2026
+
+7 URLs fournies dans l’Issue #24 sont consolidées dans [publications-v1.csv](publications-v1.csv). Les sept canaux disposent d’une URL archivée ; les métriques restent à relever séparément. Les liens sociaux n’ont pas été revérifiés en direct lors de cette consolidation. Les sections de préparation ci-dessous conservent l’historique.
+
 ## Position dans la séquence B-Only
 
 La campagne Lionel Jeannerat est positionnée du **21 au 23 septembre 2026**, après Florent Gabriel.

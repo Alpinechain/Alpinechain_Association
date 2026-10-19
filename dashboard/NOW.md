@@ -24,10 +24,16 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Suivis de communication actuels
 
+- **Arbitrage communication du 19 octobre — [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24)** : visibilité en progression, résultat billetterie attribué limité (une utilisation de bon sponsor Paymium, autres bons suivis à zéro selon Cyrille). **À approfondir : les raisons concrètes de venir** — apprentissages, rencontres, ateliers, contenu du billet ; proposition à arbitrer par Cyrille, sans campagne décidée. Audit du parcours de suivi, nouvelle mobilisation des relais et suivi hebdomadaire laissés de côté pour le moment, sans échéance. [Analyse et arbitrages](../projects/b-only/statistiques/2026-10-19-releve-publications.md).
+
+- **Statistiques reçues le 19 octobre** : [39 observations consolidées](../projects/b-only/statistiques/2026-10-19-releve-publications.md), dont 14 LinkedIn, 16 Meta et neuf X. Compléter notamment LinkedIn ABM Mill3sim3, les pièces hors période de Florent et des campagnes antérieures, puis le détail Matomo par article et destination. Vue globale alpinechain.xyz reçue pour le 20 septembre–19 octobre : 290 visites, 592 pages vues, 99 liens sortants. Nostr hors suivi ; Loïc/Frédéric différés.
+
+- **Liens contrôlés le 19 octobre** : [liste de collecte B-Only](../projects/b-only/SUIVI_LIENS_PUBLICATIONS.md), 60 URLs consolidées dont huit articles Blog vérifiés ; Blog Florent seul à faire immédiatement. Nostr retiré du suivi par Cyrille ; Loïc et Frédéric encore planifiés, collecte après diffusion. Les suivis datés ci-dessous restent historiques.
+
 
 - **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.
-- **Compléter les preuves Christine Jeanneaux** : six URLs publiques sont fournies ; Nostr reste à archiver uniquement si une publication publique existe.
-- **Compléter les preuves Florent Gabriel** : cinq URLs publiques sont fournies ; Blog et Nostr restent à archiver uniquement s’ils ont effectivement été publiés.
+- **Christine Jeanneaux** : six URLs hors Nostr archivées ; suivi des liens complet. Nostr retiré du suivi par Cyrille le 19 octobre.
+- **Florent Gabriel** : cinq URLs sociales archivées ; Blog à faire puis URL à archiver. Nostr hors suivi.
 - **Lionel Jeannerat** : sept URLs archivées dans #24 le 28 septembre ; contrôle des liens terminé, métriques à relever séparément.
 - **Séquence décidée le 3 octobre** : Alexandre lancé à la place de BitVault, `DIFFUSION EN COURS` déclarée par Cyrille ; URLs et fin réelle à archiver. Marius : 7–9 octobre, textes V2 et article long validés par Cyrille, `PRÊT À PROGRAMMER`, PR #185. Fenêtres actualisées le 4 octobre : Thomas 12–14 (campagne déjà préparée), Noé 15–17, Frédéric 19–21, Alexis 22–24, BitVault 26–28 octobre. Maintenir au moins 24 h entre sujets sur un même compte, cible 48 h ; vérifier la fin réelle d’Alexandre avant Marius. Planning V17 : Thomas et BitVault échangent leurs fenêtres sur décision de Cyrille le 4 octobre ; suivi dans la PR #191.
 - **Codes sponsors #186** : trois vouchers créés et vérifiés le 3 octobre, chacun pour 50 billets standard à 150 €, jusqu’au 31 octobre. Transmission aux sponsors par Cyrille encore à faire ; aucun code privé dans GitHub.
@@ -94,7 +100,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 - Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
 - Pierre Noizat : portrait source de référence et vignette définitive classés dans Nextcloud ; les deux portraits non retenus sont archivés sans suppression.
 - Le workshop de Renaud est confirmé et public dans le programme ; sa vignette est validée et sa campagne V3 a été publiée du 3 au 5 septembre. Les sept URLs sont archivées dans la PR #133 ; les métriques restent à relever.
-- Florent Gabriel : campagne V2 diffusée sur cinq canaux avec URLs fournies ; Blog et Nostr restent à confirmer avant archivage. Sa vignette V6 est validée et active.
+- Florent Gabriel : campagne V2 diffusée sur cinq canaux avec URLs fournies ; Blog à faire puis URL à archiver ; Nostr hors suivi depuis le 19 octobre. Sa vignette V6 est validée et active.
 - Lionel Jeannerat est `confirmed/public` dans le programme, dimanche 8 novembre de 17 h 30 à 18 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; sept URLs sont archivées depuis le 28 septembre ; métriques à relever séparément.
 - Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
 - Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.

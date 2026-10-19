@@ -1,5 +1,9 @@
 # Campagne Christine Jeanneaux — suivi V1
 
+## Suivi des liens — 19 octobre 2026
+
+7 URLs sont consolidées dans [publications-v1.csv](publications-v1.csv). Nostr complété le 19 octobre : lien Yakihonne fourni par Cyrille et événement long retrouvé sur relais. Les six autres liens sociaux proviennent de l’Issue #24, sans nouvelle vérification directe. Les sections de préparation ci-dessous conservent l’historique.
+
 ## Position dans la séquence B-Only
 
 La campagne Christine Jeanneaux est diffusée **immédiatement après la campagne Pierre Noizat** :
