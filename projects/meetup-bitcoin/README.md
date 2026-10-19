@@ -22,7 +22,7 @@ Préparer et capitaliser les ateliers et rencontres Bitcoin organisés par Alpin
 - logistique du lieu et du matériel ;
 - bilan, ressources et retours participants.
 
-## État au 20 septembre 2026
+## État documentaire au 19 octobre 2026
 
 L'atelier multisig et Disaster Recovery du 2 septembre 2026 est réalisé et l'Issue [#6](https://github.com/Alpinechain/Alpinechain_Association/issues/6) est clôturée.
 
@@ -32,7 +32,13 @@ Repères de dynamique 2026 communiqués le 20 septembre :
 - cœur régulier : environ **6 à 8 personnes** ;
 - nouveaux participants passés depuis le début de l'année : environ **4 à 6**.
 
-Le prochain atelier du cycle 2026 doit être consolidé dans une Issue dédiée avant annonce publique.
+Le Meetup **Annecy Bitcoin Tour du 7 octobre 2026** est réalisé, selon le retour public du 9 octobre présent dans les exports Meta fournis par Cyrille. Présentation annoncée avec Georges, centrée sur les usages chez les commerçants et les démarches de terrain.
+
+- [Article d’annonce](https://alpinechain.xyz/meetup-26-10-annecy-bitcoin-tour/), publié le 2 octobre.
+- [Retour Facebook](https://www.facebook.com/reel/29021504844205893/) et [retour Instagram](https://www.instagram.com/reel/DeSG9iBMyra/), publiés le 9 octobre selon les exports.
+- [Suivi documentaire #225](https://github.com/Alpinechain/Alpinechain_Association/issues/225) : bilan et ressources à compléter sur preuves ; aucun chiffre de fréquentation ou de commerçants actifs déduit.
+
+Aucun prochain atelier daté n’est confirmé dans cette fiche. Tout prochain rendez-vous sera cadré dans une Issue dédiée avant annonce publique.
 
 ## Sources de vérité
 

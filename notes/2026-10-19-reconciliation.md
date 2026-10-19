@@ -4,9 +4,9 @@ Projet : association / B-Only. Objectif : aligner les sources actives sur les d�
 
 ## Lot technique — échéances
 
-Correctif préparé dans [#221 / PR #222](https://github.com/Alpinechain/Alpinechain_Association/pull/222) : ligne explicite `Échéance : YYYY-MM-DD`, validation calendaire et rejet des contradictions ; sans déclaration, effacement du champ des Issues ouvertes ; dates des Issues fermées conservées. Onze tests et CI de non-régression. La source de vérité reste le corps de l’Issue.
+Correctif fusionné et déployé dans [#221 / PR #222](https://github.com/Alpinechain/Alpinechain_Association/pull/222) : ligne explicite `Échéance : YYYY-MM-DD`, validation calendaire et rejet des contradictions ; sans déclaration, effacement du champ des Issues ouvertes ; dates des Issues fermées conservées. Onze tests et CI de non-régression. La source de vérité reste le corps de l’Issue.
 
-Réparation ponctuelle du Project effectuée après mise à jour des Issues : quatre dates inférées effacées (#24, #53, #204, #217), avec suivi dans #221 et relecture du Project. Seules les échéances réellement déclarées sont retenues. L’échéance logistique déjà exprimée avant l’ouverture du 7 novembre est normalisée dans #25 ; celle du pilotage #153 reste au 9 novembre. Les dates de portraits, de relevés et d’expiration de bons ne deviennent pas des échéances de tâche. Tant que #222 n’est pas fusionnée, l’ancien contrôleur peut réintroduire une date inférée lors d’une modification d’Issue ; la réparation ponctuelle ne remplace pas son déploiement.
+Réparation ponctuelle du Project effectuée après mise à jour des Issues : quatre dates inférées effacées (#24, #53, #204, #217), avec suivi dans #221 et relecture du Project. Seules les échéances réellement déclarées sont retenues. L’échéance logistique déjà exprimée avant l’ouverture du 7 novembre est normalisée dans #25 ; celle du pilotage #153 reste au 9 novembre. Les dates de portraits, de relevés et d’expiration de bons ne deviennent pas des échéances de tâche. La réconciliation complète du contrôleur corrigé a réussi après fusion : [run 39232281482](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39232281482). #221 est clôturée et confirmée « Terminé » dans le Project.
 
 ## Décisions propagées
 
@@ -17,7 +17,7 @@ Réparation ponctuelle du Project effectuée après mise à jour des Issues : qu
 - Piste « raisons concrètes de venir » à approfondir dans #24. Audit du parcours de suivi, nouvelles sollicitations des relais et suivi hebdomadaire laissés de côté pour le moment.
 - Pretix : une utilisation du bon sponsor Paymium, autres bons suivis à zéro, selon Cyrille ; aucune donnée de commande ni identifiant du bon recopié. Aucun nouveau total de billets vendus n’est déduit ; dernier total communiqué : 52 au 12 octobre.
 
-Le dashboard, le planning et les fiches de campagne sont préparés dans la [PR documentaire #224](https://github.com/Alpinechain/Alpinechain_Association/pull/224), non fusionnée. Les Issues actives portent les mêmes décisions sans fermeture de leurs tâches opérationnelles restantes. Les textes validés, le programme, les créneaux et les services métier ne sont pas modifiés.
+Le dashboard, le planning et les fiches de campagne sont intégrés par la [PR documentaire #224](https://github.com/Alpinechain/Alpinechain_Association/pull/224), fusionnée au commit `9bc783687255f8e3be0406a3edb82cad3e15d043`. Les Issues actives portent les mêmes décisions sans fermeture de leurs tâches opérationnelles restantes. Les textes validés, le programme, les créneaux et les services métier ne sont pas modifiés.
 
 ## Suite préparée — sans exécution ni fusion automatique
 
@@ -35,7 +35,7 @@ Le dashboard, le planning et les fiches de campagne sont préparés dans la [PR 
 
 ## Ordre proposé pour la prochaine passe
 
-1. Déployer le correctif des échéances et vérifier la réconciliation du Project ; fusionner séparément la propagation documentaire validée.
+1. Fait : correctif des échéances et propagation documentaire fusionnés ; réconciliation du Project vérifiée.
 2. Réconcilier les PR #197/#218/#220 avec les preuves et décisions les plus récentes.
 3. Aligner les sources de visuels et les fiches Meetup/Souveraineté.
 4. Faire confirmer le comptage Annecy Bitcoin Tour et la date tarifaire avant toute correction publique.
