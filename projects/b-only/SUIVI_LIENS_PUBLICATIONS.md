@@ -4,7 +4,7 @@ Projet : B-Only ; objectif : consolider les permaliens et identifier les preuves
 
 ## Liens consolidés
 
-**26 URLs ajoutées aux registres de campagne**, sans nouvelle publication :
+**59 URLs consolidées dans les registres de campagne**, sans nouvelle publication :
 
 - 18 URLs déjà fournies dans l’Issue #24 : Christine (6), Florent (5), Lionel (7). Source : [confirmation du 21 septembre](https://github.com/Alpinechain/Alpinechain_Association/issues/24#issuecomment-5757525468) et [archivage Lionel du 28 septembre](https://github.com/Alpinechain/Alpinechain_Association/issues/24#issuecomment-5867975985). Relecture des sources GitHub le 19 octobre ; accessibilité sociale non revérifiée. Les dates prévues ne sont pas utilisées comme dates réelles de publication.
 - 8 articles retrouvés dans l’API publique du blog puis ouverts : réponse HTTP 200 et titre correspondant pour chacun. Les dates ci-dessous sont celles du blog, distinctes des fenêtres de préparation.
@@ -22,28 +22,40 @@ Projet : B-Only ; objectif : consolider les permaliens et identifier les preuves
 
 Les preuves sont dans les fichiers `campaigns/<campagne>/publications-v1.csv`. Pour Thomas et Taz, le Blog retrouvé s’ajoute aux cinq réseaux prévus dans les textes ; aucun second compte LinkedIn n’est ajouté artificiellement.
 
+## Complément fourni par Cyrille — 19 octobre
+
+**33 URLs supplémentaires intégrées** : 12 LinkedIn, 6 X, 14 Meta et 1 Nostr.
+
+- LinkedIn : les contenus publics des douze nouveaux liens identifient les campagnes et les comptes. Le lien ABM de Lionel était déjà présent.
+- X : huit liens transmis, sept uniques ; celui de Laure apparaît deux fois. Le lien de Lionel était déjà présent. Les six nouveaux contenus sont rapprochés via FxTwitter, source intermédiaire ; accès direct X refusé (403), aucune réponse HTTP 200 X déclarée.
+- Meta : lecture des deux fichiers explicitement fournis, `Sep-19-2026_Oct-18-2026_1126598207008218.csv` (Facebook, 32 lignes) et `Sep-19-2026_Oct-18-2026_1468894768479199.csv` (Instagram, 28 lignes). Quatorze permaliens rapprochés par texte explicite : Nicolas, Laure, Alexandre, Marius, Thomas, Taz et Mill3sim3 sur les deux plateformes. Seules les preuves publiques nécessaires sont reprises ; exports et métriques brutes non copiés dans le dépôt. Le fuseau des heures d’export n’est pas indiqué ; seules les dates affichées sont consignées.
+- Nostr : le naddr Yakihonne désigne **Christine Jeanneaux** (`d=christine-jeanneaux-a-b-only26`). Événement `kind 30023`, auteur et titre correspondants retrouvés sur `wss://relay.nostr.net/` ; identifiant archivé dans le CSV. La page Yakihonne elle-même n’a pas pu être ouverte par l’outil web.
+- **Florent à faire**, instruction de Cyrille : Blog et Nostr restent à produire/publier sous validation humaine, puis à archiver ; aucune publication déclenchée ici.
+
+L’Instagram sans légende `https://www.instagram.com/p/Deg8ZyfOSSm/` ne permet pas d’identifier une campagne par le texte de l’export ; il n’est attribué à aucun intervenant. Les autres lignes Meta concernent notamment des rappels, relais, meetups ou contenus Annecy Bitcoin Tour ; elles ne soldent pas les preuves d’une annonce intervenant. Le relais Facebook ABM du 23 septembre sans titre reste également non attribué.
+
 ## Liens restant à récupérer
 
-**56 emplacements sans URL archivée** dans les onze campagnes ci-dessous. Il s’agit de preuves manquantes, pas de 56 publications dont la diffusion serait confirmée. Ne compléter que si la publication existe réellement.
+**23 emplacements restent sans URL archivée**, contre 56 avant ce complément. Les preuves manquantes ne sont pas assimilées à des publications confirmées.
 
-« Six réseaux » désigne : LinkedIn AlpineChain, LinkedIn Annecy Bitcoin Meetup, X, Nostr, Facebook et Instagram.
-
-| Campagne | Liens présents | Liens à récupérer | Nombre |
+| Campagne | Liens présents | Liens à récupérer / action | Nombre |
 |---|---:|---|---:|
-| Christine Jeanneaux | 6 | Nostr, uniquement si publié | 1 |
-| Florent Gabriel | 5 | Blog et Nostr, uniquement si publiés | 2 |
-| Nicolas Cantu | Blog | Six réseaux | 6 |
-| Laure Merlin — atelier Lego | Blog | Six réseaux | 6 |
-| Alexandre Stachtchenko — annonce 2026 | Blog | Six réseaux ; distincts du replay 2025 | 6 |
-| Marius Farashi | Blog | Six réseaux | 6 |
-| Thomas Mang | Blog | LinkedIn AlpineChain, X, Nostr, Facebook, Instagram | 5 |
-| Taz / Wesatoshis | Blog | LinkedIn AlpineChain, X, Nostr, Facebook, Instagram | 5 |
-| Mill3sim3 / Bitcointrails | Blog | Six réseaux ; campagne générale de la PR #197, distincte de l’offre #218 | 6 |
-| Frédéric Jollien | Aucun | Blog et six réseaux ; diffusion déclarée par Cyrille le 12 octobre | 7 |
-| Loïc / BitVault — annonce B-Only | Blog | Six réseaux ; distincts du retour Meetup du 24 septembre | 6 |
-| **Total** | | | **56** |
+| Christine Jeanneaux | 7 | Complet ; métriques séparées | 0 |
+| Florent Gabriel | 5 | Blog et Nostr à faire selon Cyrille, puis archiver | 2 |
+| Nicolas Cantu | 6 | Nostr | 1 |
+| Laure Merlin — atelier Lego | 6 | Nostr | 1 |
+| Alexandre Stachtchenko — annonce 2026 | 5 | X et Nostr | 2 |
+| Marius Farashi | 6 | Nostr | 1 |
+| Thomas Mang | 5 | Nostr ; pas de second LinkedIn prévu | 1 |
+| Taz / Wesatoshis | 5 | Nostr ; pas de second LinkedIn prévu | 1 |
+| Mill3sim3 / Bitcointrails | 6 | Nostr ; campagne générale distincte de l’offre #218 | 1 |
+| Frédéric Jollien | Aucun | Blog, deux LinkedIn, X, Nostr, Facebook, Instagram | 7 |
+| Loïc / BitVault — annonce B-Only | Blog | Deux LinkedIn, X, Nostr, Facebook, Instagram | 6 |
+| **Total** | | | **23** |
 
-Source de la liste attendue : [planning actif](PLANNING_PUBLICATIONS_2026-08-17_2026-11-06-v8.md), calendriers et textes de chaque campagne, Issue #24 et suivis #188, #203, #204, PR #197. Les déclarations de programmation ou diffusion restent datées ; seule la présence du Blog est nouvellement vérifiée pour huit campagnes. Le blog de Florent et celui de Frédéric ne figurent pas parmi les 50 derniers articles renvoyés par l’API ; cette recherche bornée ne prouve pas leur absence générale.
+Les exports Meta s’arrêtent au 18 octobre. Ils ne permettent pas de conclure sur les publications Loïc à partir du 19 octobre ni sur les diffusions ultérieures. Pour chaque autre canal sans preuve, fournir le permalien s’il a été publié ou confirmer qu’il reste à faire.
+
+Source de la liste attendue : [planning actif](PLANNING_PUBLICATIONS_2026-08-17_2026-11-06-v8.md), calendriers et textes de chaque campagne, Issue #24 et suivis #188, #203, #204, PR #197. Les déclarations de programmation ou diffusion restent datées ; les preuves par canal sont détaillées dans les CSV. Le blog de Florent et celui de Frédéric ne figurent pas parmi les 50 derniers articles renvoyés par l’API ; cette recherche bornée ne prouve pas leur absence générale.
 
 ## Historique à traiter séparément
 
@@ -64,6 +76,6 @@ Ces deux suivis ne révèlent pas de canal explicitement attendu et encore dépo
 
 ## Prochaine action et limites
 
-Cyrille fournit les permaliens manquants par campagne et compte, ou confirme les canaux finalement non publiés. Consolider ensuite dans les CSV et l’Issue #24 ; relever les métriques séparément par plateforme.
+Priorité : terminer Florent sous validation humaine ; récupérer les Nostr manquants, le X Alexandre et les preuves Frédéric/Loïc. Cyrille fournit les permaliens par campagne et compte, ou confirme les canaux finalement non publiés. Consolider ensuite dans les CSV et l’Issue #24 ; relever les métriques séparément par plateforme.
 
-Contrôle effectué sur `main` au commit `9ff9b62`, les 149 commentaires de #24, les suivis ciblés #6/#7/#61/#171/#184/#188/#203/#204, la PR #197 et les 50 derniers articles de l’API WordPress publique. Pas d’accès aux outils de programmation sociale, pas de recherche exhaustive des profils sociaux, pas de relevé de métriques. Les liens de billetterie, profils et redirections de campagne ne sont pas comptés comme publications. Aucune publication, programmation ou fusion réalisée.
+Contrôle effectué sur `main` au commit `9ff9b62`, les 149 commentaires de #24, les suivis ciblés #6/#7/#61/#171/#184/#188/#203/#204, la PR #197 et les 50 derniers articles de l’API WordPress publique. Complément : liens transmis par Cyrille, contenus LinkedIn publics, contenus X via FxTwitter, événement Nostr sur relais et deux exports Meta nommés ci-dessus. Pas d’accès aux outils de programmation sociale, pas de recherche exhaustive des profils sociaux, pas de nouveau relevé de métriques. Les liens de billetterie, profils et redirections de campagne ne sont pas comptés comme publications. Aucune publication, programmation ou fusion réalisée.

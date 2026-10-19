@@ -1,2 +1,7 @@
 channel,account,published_date,public_url,http_status,verification_date,status,source_ref
 Blog,AlpineChain,2026-10-07,https://alpinechain.xyz/marius-farashi-a-b-only26/,200,2026-10-19,PUBLIÉE — page et titre vérifiés,https://alpinechain.xyz/wp-json/wp/v2/posts/30477
+LinkedIn,AlpineChain,,https://www.linkedin.com/feed/update/urn:li:activity:7513633021095337986,200,2026-10-19,PUBLIÉE — contenu public rapproché,https://www.linkedin.com/feed/update/urn:li:activity:7513633021095337986
+LinkedIn,Annecy Bitcoin Meetup,,https://www.linkedin.com/feed/update/urn:li:activity:7513844442751979521,200,2026-10-19,PUBLIÉE — contenu public rapproché,https://www.linkedin.com/feed/update/urn:li:activity:7513844442751979521
+X,AlpineChain,2026-10-08,https://x.com/alpinechain_xyz/status/2108229683900973387,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — URL fournie ; contenu rapproché via FxTwitter,https://api.fxtwitter.com/status/2108229683900973387
+Facebook,B-Only,2026-10-08,https://www.facebook.com/alpinechain/posts/pfbid0Fitvbn9TQac1jnE2nLfH64YjiUnnSy7E1fui6YnuNWNpNRiPRAw4jEb2R4mixs74l,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — export Meta fourni ; contenu rapproché,Sep-19-2026_Oct-18-2026_1126598207008218.csv ; publication 122206153328911721
+Instagram,B-Only,2026-10-08,https://www.instagram.com/p/DePkgPxD4N5/,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — export Meta fourni ; contenu rapproché,Sep-19-2026_Oct-18-2026_1468894768479199.csv ; publication 18093642758671761

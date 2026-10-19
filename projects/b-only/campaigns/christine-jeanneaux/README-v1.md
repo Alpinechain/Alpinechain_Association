@@ -2,7 +2,7 @@
 
 ## Suivi des liens — 19 octobre 2026
 
-6 URLs fournies dans l’Issue #24 sont consolidées dans [publications-v1.csv](publications-v1.csv). Nostr reste sans preuve archivée. Les liens sociaux n’ont pas été revérifiés en direct lors de cette consolidation. Les sections de préparation ci-dessous conservent l’historique.
+7 URLs sont consolidées dans [publications-v1.csv](publications-v1.csv). Nostr complété le 19 octobre : lien Yakihonne fourni par Cyrille et événement long retrouvé sur relais. Les six autres liens sociaux proviennent de l’Issue #24, sans nouvelle vérification directe. Les sections de préparation ci-dessous conservent l’historique.
 
 ## Position dans la séquence B-Only
 

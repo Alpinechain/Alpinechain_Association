@@ -24,7 +24,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Suivis de communication actuels
 
-- **Liens contrôlés le 19 octobre** : [liste de collecte B-Only](../projects/b-only/SUIVI_LIENS_PUBLICATIONS.md), 26 URLs consolidées dont huit articles Blog vérifiés ; 56 emplacements sans URL dans onze campagnes. Collecter les permaliens ou confirmer les canaux non publiés. Les suivis datés ci-dessous restent historiques.
+- **Liens contrôlés le 19 octobre** : [liste de collecte B-Only](../projects/b-only/SUIVI_LIENS_PUBLICATIONS.md), 59 URLs consolidées dont huit articles Blog vérifiés ; 23 emplacements sans URL restent à traiter. Collecter les permaliens ou confirmer les canaux non publiés. Les suivis datés ci-dessous restent historiques.
 
 
 - **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.

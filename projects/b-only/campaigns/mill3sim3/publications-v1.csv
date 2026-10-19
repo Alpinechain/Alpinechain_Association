@@ -1,2 +1,7 @@
 channel,account,published_date,public_url,http_status,verification_date,status,source_ref
 Blog,AlpineChain,2026-10-17,https://alpinechain.xyz/mill3sim3-a-b-only26/,200,2026-10-19,PUBLIÉE — page et titre vérifiés,https://alpinechain.xyz/wp-json/wp/v2/posts/30509
+LinkedIn,AlpineChain,,https://www.linkedin.com/feed/update/urn:li:activity:7517136236931817473,200,2026-10-19,PUBLIÉE — contenu public rapproché,https://www.linkedin.com/feed/update/urn:li:activity:7517136236931817473
+LinkedIn,Annecy Bitcoin Meetup,,https://www.linkedin.com/feed/update/urn:li:activity:7517498494488653824,200,2026-10-19,PUBLIÉE — contenu public rapproché,https://www.linkedin.com/feed/update/urn:li:activity:7517498494488653824
+X,AlpineChain,2026-10-17,https://x.com/alpinechain_xyz/status/2111381955069509682,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — URL fournie ; contenu rapproché via FxTwitter,https://api.fxtwitter.com/status/2111381955069509682
+Facebook,B-Only,2026-10-17,https://www.facebook.com/alpinechain/posts/pfbid0s8GJ6LfzcV4j25rArLwhGPZHGGoXUgsXGUbgsXemgNo2uKF3EKz46LwHWtU5v18zl,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — export Meta fourni ; contenu rapproché,Sep-19-2026_Oct-18-2026_1126598207008218.csv ; publication 122207777276911721
+Instagram,B-Only,2026-10-17,https://www.instagram.com/p/DeloRwziBRJ/,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — export Meta fourni ; contenu rapproché,Sep-19-2026_Oct-18-2026_1468894768479199.csv ; publication 17983371605903512

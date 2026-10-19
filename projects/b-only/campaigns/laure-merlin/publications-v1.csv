@@ -1,2 +1,7 @@
 channel,account,published_date,public_url,http_status,verification_date,status,source_ref
 Blog,AlpineChain,2026-09-28,https://alpinechain.xyz/laure-merlin-a-b-only26/,200,2026-10-19,PUBLIÉE — page et titre vérifiés,https://alpinechain.xyz/wp-json/wp/v2/posts/30457
+LinkedIn,AlpineChain,,https://www.linkedin.com/feed/update/urn:li:activity:7510371598558916608,200,2026-10-19,PUBLIÉE — contenu public rapproché,https://www.linkedin.com/feed/update/urn:li:activity:7510371598558916608
+LinkedIn,Annecy Bitcoin Meetup,,https://www.linkedin.com/feed/update/urn:li:activity:7510582983553228801,200,2026-10-19,PUBLIÉE — contenu public rapproché,https://www.linkedin.com/feed/update/urn:li:activity:7510582983553228801
+X,AlpineChain,2026-09-29,https://x.com/alpinechain_xyz/status/2104968192921682310,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — URL fournie ; contenu rapproché via FxTwitter,https://api.fxtwitter.com/status/2104968192921682310
+Facebook,B-Only,2026-09-30,https://www.facebook.com/alpinechain/posts/pfbid02F5DbVsW9XUK4nHDyT3GGLmkV357vu5Yb5Mt7vUjhvxF7uRojyxbicE7RcZLmoeSyl,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — export Meta fourni ; contenu rapproché,Sep-19-2026_Oct-18-2026_1126598207008218.csv ; publication 122204608538911721
+Instagram,B-Only,2026-09-30,https://www.instagram.com/p/Dd67bL2AaCv/,NON REVÉRIFIÉ,2026-10-19,PUBLIÉE — export Meta fourni ; contenu rapproché,Sep-19-2026_Oct-18-2026_1468894768479199.csv ; publication 17953256637039651

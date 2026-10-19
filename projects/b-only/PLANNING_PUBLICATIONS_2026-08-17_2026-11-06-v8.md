@@ -10,7 +10,7 @@ date prévue du calendrier.
 
 ## Archivage des liens — contrôle du 19 octobre 2026
 
-[État des liens et liste de collecte](SUIVI_LIENS_PUBLICATIONS.md) : 26 URLs consolidées dans les registres de campagne, dont huit articles Blog vérifiés en ligne. 56 emplacements restent sans URL dans onze campagnes ; les cas historiques sont distingués. Les statuts ci-dessous conservent les déclarations antérieures et ne remplacent pas les preuves par canal.
+[État des liens et liste de collecte](SUIVI_LIENS_PUBLICATIONS.md) : 59 URLs consolidées dans les registres de campagne, dont huit articles Blog vérifiés en ligne. 23 emplacements restent sans URL ; les cas historiques sont distingués. Les statuts ci-dessous conservent les déclarations antérieures et ne remplacent pas les preuves par canal.
 
 ## Programme complet ; dernières communications à planifier
 
