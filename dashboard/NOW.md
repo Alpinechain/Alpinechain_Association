@@ -136,7 +136,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Sources et limites de la synchronisation
 
-Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre. Les conversations ChatGPT non accessibles ne sont pas couvertes. Nextcloud, Pretix, Dolibarr, Paheko et PeerTube n’ont pas été relus directement : leurs états ne sont repris que lorsqu’ils sont explicitement datés et tracés dans GitHub. Aucun nouvel état financier, aucune publication ni fusion ne découle de cette synchronisation. Les contrôles techniques W43 et la restauration isolée du 19 octobre sont documentés séparément dans #227 / Serveur #153 ; ils n’ont modifié aucun service de production.
+Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre. Les conversations ChatGPT non accessibles ne sont pas couvertes. Pour les états métier (participants, finances et publications), Nextcloud, Pretix, Dolibarr, Paheko et PeerTube restent repris uniquement depuis des confirmations datées et tracées dans GitHub ; les vérifications techniques ci-dessus ne constituent pas un nouvel audit de ces données. Aucun nouvel état financier, aucune publication ni fusion ne découle de cette synchronisation. Les contrôles techniques W43 et la restauration isolée du 19 octobre sont documentés séparément dans #227 / Serveur #153 ; ils n’ont modifié aucun service de production.
 
 ## Modification du programme — 12 octobre 2026
 
