@@ -17,6 +17,7 @@ die() {
 require_tools() {
   command -v gh >/dev/null 2>&1 || die "GitHub CLI (gh) is required."
   command -v jq >/dev/null 2>&1 || die "jq is required."
+  command -v python3 >/dev/null 2>&1 || die "Python 3 is required."
   [ -n "${GH_TOKEN:-}" ] || die "GH_TOKEN is empty. Configure the PROJECTS_TOKEN repository secret."
 }
 
@@ -502,11 +503,57 @@ project_value_from_labels() {
 
 due_date_from_body() {
   local issue_json="$1"
+  python3 "$(dirname "${BASH_SOURCE[0]}")/project-due-date.py" <<<"$issue_json"
+}
 
-  jq -r '.body // ""' <<<"$issue_json" \
-    | grep -oE '20[0-9]{2}-[0-9]{2}-[0-9]{2}' \
-    | head -n1 \
-    || true
+current_date_value() {
+  local item_id="$1"
+  gh api graphql \
+    -f query='query($item: ID!) {
+      node(id: $item) {
+        ... on ProjectV2Item {
+          fieldValues(first: 100) { nodes {
+            ... on ProjectV2ItemFieldDateValue {
+              date
+              field { ... on ProjectV2FieldCommon { name } }
+            }
+          } }
+        }
+      }
+    }' \
+    -f item="$item_id" \
+    --jq '.data.node.fieldValues.nodes[] | select(.field.name == "Échéance") | .date'
+}
+
+clear_date() {
+  local project_node_id="$1"
+  local item_id="$2"
+  local fields_json="$3"
+  local field_node_id
+  field_node_id="$(field_id "$fields_json" "Échéance")"
+  [ -n "$field_node_id" ] || die "Field not found: Échéance"
+  gh api graphql \
+    -f query='mutation($project: ID!, $item: ID!, $field: ID!) {
+      clearProjectV2ItemFieldValue(input: {
+        projectId: $project, itemId: $item, fieldId: $field
+      }) { projectV2Item { id } }
+    }' \
+    -f project="$project_node_id" -f item="$item_id" -f field="$field_node_id" >/dev/null
+}
+
+sync_due_date() {
+  local project_node_id="$1" item_id="$2" fields_json="$3" issue_json="$4"
+  local due_date current_date
+  # Parse before querying or mutating the date: invalid/conflicting values fail closed.
+  due_date="$(due_date_from_body "$issue_json")" || return 1
+  current_date="$(current_date_value "$item_id")" || return 1
+  if [ "$due_date" = "$current_date" ]; then
+    return
+  elif [ -n "$due_date" ]; then
+    set_date "$project_node_id" "$item_id" "$fields_json" "Échéance" "$due_date"
+  elif [ -n "$current_date" ]; then
+    clear_date "$project_node_id" "$item_id" "$fields_json"
+  fi
 }
 
 sync_issue() {
@@ -563,11 +610,9 @@ sync_issue() {
       "Priorité" "P2"
   fi
 
-  local due_date
-  due_date="$(due_date_from_body "$issue_json")"
-  if [ -n "$due_date" ]; then
-    set_date "$project_node_id" "$item_id" "$fields_json" \
-      "Échéance" "$due_date"
+  # Preserve archived deadlines on closed issues; issue bodies own active deadlines.
+  if [ "$issue_state" != "CLOSED" ]; then
+    sync_due_date "$project_node_id" "$item_id" "$fields_json" "$issue_json"
   fi
 }
 
@@ -659,4 +704,6 @@ main() {
   log "Operation completed: $operation"
 }
 
-main "$@"
+if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
+  main "$@"
+fi
