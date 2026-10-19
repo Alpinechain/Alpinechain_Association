@@ -1,5 +1,14 @@
 # Campagne Marius Farashi — Workshop sur Ark
 
+## État courant — 19 octobre 2026
+
+**PUBLIÉE — six URLs hors Nostr archivées ; métriques sociales reçues. Créneau confirmé/public : dimanche 8 novembre, 11 h–11 h 50, Pleb Forum. Les prérequis et besoins techniques restent à préciser.**
+
+Preuves : [publications-v1.csv](publications-v1.csv), [relevé statistique](../../statistiques/2026-10-19-releve-publications.md) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nostr est retiré du suivi des liens et statistiques ; les archives sont conservées. Aucun contenu n’est republié.
+
+## Préparation et décisions antérieures — historique
+
+Les sections suivantes conservent les textes et contrôles de préparation. Le statut courant ci-dessus prévaut ; leurs dates, demandes de programmation et mentions Nostr ne sont pas des actions actuelles.
 Date : 2026-10-03
 Statut : **PRÊT À PROGRAMMER — article long V1 et contenus multicanaux V2 validés par Cyrille le 3 octobre 2026, diffusion prévue du 7 au 9 octobre**
 
