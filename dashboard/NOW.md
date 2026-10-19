@@ -24,6 +24,8 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Suivis de communication actuels
 
+- **Statistiques reçues le 19 octobre** : [39 observations consolidées](../projects/b-only/statistiques/2026-10-19-releve-publications.md), dont 14 LinkedIn, 16 Meta et neuf X. Compléter notamment LinkedIn ABM Mill3sim3, les pièces hors période de Florent et des campagnes antérieures, puis Blog/Matomo. Nostr hors suivi ; Loïc/Frédéric différés.
+
 - **Liens contrôlés le 19 octobre** : [liste de collecte B-Only](../projects/b-only/SUIVI_LIENS_PUBLICATIONS.md), 60 URLs consolidées dont huit articles Blog vérifiés ; Blog Florent seul à faire immédiatement. Nostr retiré du suivi par Cyrille ; Loïc et Frédéric encore planifiés, collecte après diffusion. Les suivis datés ci-dessous restent historiques.
 
 

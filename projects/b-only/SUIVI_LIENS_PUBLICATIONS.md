@@ -79,6 +79,10 @@ Contrôle ciblé des suivis récents :
 
 Ces deux suivis ne révèlent pas de canal explicitement attendu et encore dépourvu de preuve dans les confirmations de clôture consultées. Ce contrôle ne couvre pas l’intégralité des publications anciennes de l’association.
 
+## Statistiques reçues le 19 octobre
+
+[Relevé des statistiques et compléments manquants](statistiques/2026-10-19-releve-publications.md) : 39 observations consolidées à partir des deux exports LinkedIn, des deux exports Meta et des neuf captures X. Les liens archivés et les chiffres mesurés restent distincts.
+
 ## Prochaine action et limites
 
 Priorité : terminer le Blog Florent sous validation humaine et archiver son URL. Reprendre les preuves Frédéric/Loïc après diffusion réelle ; aucune collecte Nostr attendue. Cyrille fournit les permaliens par campagne et compte, ou confirme les canaux finalement non publiés. Consolider ensuite dans les CSV et l’Issue #24 ; relever les métriques séparément par plateforme.
