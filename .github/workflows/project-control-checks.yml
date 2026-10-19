@@ -1,0 +1,29 @@
+name: Project Control Checks
+
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/project-control.sh'
+      - '.github/scripts/project-due-date.py'
+      - '.github/scripts/tests/**'
+      - '.github/workflows/project-control-checks.yml'
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/project-control.sh'
+      - '.github/scripts/project-due-date.py'
+      - '.github/scripts/tests/**'
+      - '.github/workflows/project-control-checks.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check shell syntax
+        run: bash -n .github/scripts/project-control.sh
+      - name: Test deadline extraction and synchronization
+        run: python3 -B -m unittest discover -s .github/scripts/tests -v

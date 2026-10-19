@@ -174,7 +174,7 @@ select {
 
 .session-card {
   display: grid;
-  grid-template-columns: 6.25rem minmax(0, 1fr);
+  grid-template-columns: 6.25rem minmax(0, 1fr) 7rem;
   overflow: hidden;
   border: 1px solid var(--line);
   border-left: 0.3rem solid var(--green);
@@ -259,7 +259,7 @@ select {
   }
 
   .session-card {
-    grid-template-columns: 5.4rem minmax(0, 1fr);
+    grid-template-columns: 5.4rem minmax(0, 1fr) 5.25rem;
   }
 }
 
@@ -279,4 +279,33 @@ select {
   *::after {
     scroll-behavior: auto !important;
   }
+}
+
+.session-visual { display:flex; align-items:center; justify-content:center; padding:0.75rem 1rem 0.75rem 0; }
+.visual-thumbnail { width:90px; height:90px; flex-shrink:0; padding:0; overflow:hidden; border:2px solid #efba91; border-radius:18px; background:white; cursor:zoom-in; box-shadow:0 3px 10px rgb(15 23 40 / 5%); }
+.visual-thumbnail:hover { border-color:var(--accent); }
+.visual-thumbnail:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+.visual-thumbnail img { display:block; width:100%; height:100%; object-fit:contain; }
+.visual-placeholder { display:grid; place-items:center; width:90px; height:90px; flex-shrink:0; border:1px dashed #d9c5b6; border-radius:18px; color:#c8834d; background:#fff7ef; }
+.visual-placeholder svg { width:30px; height:30px; opacity:0.7; }
+.visual-dialog { max-width:min(640px,94vw); max-height:92vh; padding:14px; overflow:auto; border:0; border-radius:18px; background:var(--surface-raised); color:var(--ink); }
+.visual-dialog::backdrop { background:rgb(15 23 40 / 75%); }
+.visual-dialog form { display:flex; justify-content:flex-end; margin-bottom:10px; }
+.visual-dialog button { padding:7px 12px; border:1px solid var(--line); border-radius:8px; background:white; color:var(--ink); font:inherit; cursor:pointer; }
+.visual-dialog img { display:block; width:100%; height:auto; max-height:72vh; object-fit:contain; }
+.visual-dialog p { margin:10px 0 0; font-size:0.8rem; }
+@media (max-width:720px) {
+  .visual-thumbnail,.visual-placeholder { width:68px; height:68px; border-radius:14px; }
+  .session-visual { padding-right:12px; }
+}
+@media (max-width:430px) {
+  .session-card { grid-template-columns:4rem minmax(0,1fr) 70px; }
+  .session-time { padding:12px 8px; }
+  .session-time .start { font-size:0.95rem; }
+  .session-content { padding:12px 10px; }
+  .session-meta { font-size:0.63rem; }
+  .session-card h3 { font-size:0.9rem; line-height:1.45; }
+  .speakers { font-size:0.76rem; }
+  .visual-thumbnail,.visual-placeholder { width:56px; height:56px; border-radius:12px; }
+  .session-visual { padding-right:10px; }
 }

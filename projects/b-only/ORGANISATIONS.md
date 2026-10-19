@@ -84,3 +84,7 @@ Suivi : [#147 — lots HWW et vidéo partenaire](https://github.com/Alpinechain/
 ## Codes sponsors — 3 octobre 2026
 
 Paymium, Bitstack et Le Cercle du Coin : un voucher chacun pour 50 billets standard à 150 €, créé et vérifié dans Pretix, expiration le 31 octobre à 23 h 59 Europe/Paris. Transmission aux sponsors par Cyrille encore à effectuer dans #186. Codes et utilisations conservés exclusivement dans Pretix ; aucun nouveau règlement déduit de cette création.
+
+## BWS — coordination du billet groupé, confirmée le 12 octobre 2026
+
+Accord BWS confirmé par Cyrille. AlpineChain/Pretix est le point d’achat du billet groupé ; Cyrille transmet les billets à Louis-Alexandre au fur et à mesure des ventes. Suivi de référence : [#198](https://github.com/Alpinechain/Alpinechain_Association/issues/198). Modalités de reversement à préciser ; aucun reversement réalisé déduit. Cette offre ne crée pas de statut de sponsor.

@@ -1,3 +1,5 @@
+Mise à jour du 19 octobre 2026 : **PUBLIÉ — cinq URLs hors Nostr archivées, métriques sociales reçues**. Preuves : [publications-v1.csv](publications-v1.csv) et [relevé](../../statistiques/2026-10-19-releve-publications.md). Nostr hors suivi ; pas de second LinkedIn prévu. Les informations de préparation ci-dessous sont historiques ; droits et besoins techniques restent distincts.
+
 # Thomas Mang — communication V1
 
 Préparé le 2026-10-03 ; actualisé le 2026-10-04 — **PRÊT À RELIRE**.

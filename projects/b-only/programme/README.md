@@ -102,3 +102,29 @@ provisoire tant que `publication.state` vaut `draft`.
 Matomo `7`. Le traceur désactive les cookies, respecte `Do Not Track` et envoie
 une URL canonique sans paramètres de requête ni fragment. Aucune interface
 privée ou donnée de billetterie n'est présente dans ce déploiement.
+
+## Pastilles des créneaux publics
+
+La vue `public/` associe les identifiants stables à leurs visuels dans
+`public/visuals.mjs`. Les vignettes des présentations viennent des images déjà
+publiques des articles AlpineChain ; les petites tailles WordPress vérifiées
+sont utilisées dans les cartes, les originales dans la fenêtre de zoom.
+Les sources et médias de référence restent dans Nextcloud.
+
+Ouverture, Surprise, pause déjeuner, grand débat et présentation de clôture
+utilisent cinq pictogrammes SVG locaux sous `public/visuals/`, selon les
+concepts validés par Cyrille le 12 octobre. La clôture ne nomme aucun invité.
+
+Les pastilles sont agrandissables au clic ou au clavier. Une entrée masquée
+par le modèle public ne charge pas sa vignette. Une image manquante ou
+indisponible laisse un repère neutre ; cela ne modifie pas le créneau. Ajouter
+un visuel uniquement s’il correspond à la session et si son usage public est
+validé. Les portraits d’Élodie (workshop) et Laure (Cercle du Coin), ainsi que les
+vignettes validées de Florent, Mill3sim3 et Taz, disposent de copies de
+diffusion légères sous `public/visuals/`, avec provenance et empreintes
+des originaux dans `SOURCES.md`. Les originaux restent dans Nextcloud.
+Loïc et Frédéric disposent désormais de vignettes B-Only V1 à valider,
+préparées à partir des portraits fournis par Cyrille et classées dans Nextcloud.
+La vignette de Loïc utilise le logo BitVault. Provenance et empreintes
+sont référencées dans `SOURCES.md`.
+Le rendez-vous des organisateurs de meetups reste seul sans visuel associé.

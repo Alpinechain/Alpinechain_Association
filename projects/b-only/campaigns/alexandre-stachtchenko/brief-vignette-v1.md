@@ -1,6 +1,6 @@
 # Brief vignette — Alexandre Stachtchenko — V1
 
-**État : VISUEL PRODUIT — V3 À VALIDER, 3 octobre 2026.**
+**État : V4 CORRIGÉE — intégration au planning demandée par Cyrille le 13 octobre 2026 ; fusion/déploiement à autoriser.**
 
 La V3 remplace les propositions locales V1 et V2 non retenues. Elle reprend
 directement la vignette Polto & Darko validée du 30 juillet 2026 comme référence
@@ -11,7 +11,7 @@ graphique, recoupée avec la vignette ProfEduStream validée du 3 août 2026.
 - identité : `B-ONLY'26`
 - badge : `INTERVENANT`
 - nom : `ALEXANDRE STACHTCHENKO`
-- fonction / organisation : `RESPONSABLE STRATÉGIE — BITSTACK`
+- fonction / organisation : `DIRECTEUR STRATÉGIE — BITSTACK`
 - titre : `LA FEMME EST L'AVENIR DE BITCOIN`
 
 ## Composition
@@ -42,26 +42,29 @@ Crédit et droits de diffusion restent à confirmer avant publication.
 
 ## Fichier Nextcloud actif à relire
 
-`03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-10-03--a-valider-v3.png`
+`03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-10-13--a-valider-v4.png`
 
 Chemins relatifs à `Association/Action - Initiatives/B-Only/2026/`.
-Dépôt sans écrasement ; taille et SHA-256 contrôlés le 3 octobre 2026 :
+V4 déposée sans écrasement et relue le 13 octobre ; V3 conservée pour historique.
+La V4 corrige la fonction ; son intégration au planning est demandée par Cyrille.
+Taille et SHA-256 :
 
 | Ressource | Taille | SHA-256 |
 |---|---:|---|
 | Portrait source | 841604 octets | `1e6d2208d99fc3873fe80b0f9fa8d72a0abce3f981aaf70a421419b7013bc098` |
-| Vignette V3 | 1818137 octets | `6e7bc08af268d35e1c13b365323cdda54cb22fa03af418915dbb8c9d2b9e7b7b` |
+| Vignette V4 | 1824374 octets | `d9f762717dd3cd922013a736706393777228cc03e0c19647d3533e2e4ea323e9` |
+| Vignette V3 (historique) | 1818137 octets | `6e7bc08af268d35e1c13b365323cdda54cb22fa03af418915dbb8c9d2b9e7b7b` |
 
 Le suffixe `--valide` ne doit être appliqué qu'après validation humaine.
 
 ## Texte alternatif proposé
 
-> Vignette B-Only'26 annonçant Alexandre Stachtchenko, responsable stratégie chez Bitstack, pour la conférence « La Femme est l'avenir de Bitcoin », consacrée aux enseignements des baromètres d'adoption de Bitcoin en Espagne, Italie et France.
+> Vignette B-Only'26 annonçant Alexandre Stachtchenko, directeur stratégie chez Bitstack, pour la conférence « La Femme est l'avenir de Bitcoin », consacrée aux enseignements des baromètres d'adoption de Bitcoin en Espagne, Italie et France.
 
 ## Validation attendue
 
 - [x] portrait source fourni et gabarit comparé aux vignettes précédentes
-- [ ] fonction validée
+- [x] fonction corrigée et validée par Cyrille le 13 octobre : Directeur Stratégie — Bitstack
 - [x] titre exact validé
 - [x] angle Espagne / Italie / France validé
 - [ ] droits et crédit du portrait confirmés

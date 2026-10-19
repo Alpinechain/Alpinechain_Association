@@ -1,9 +1,20 @@
 {
-  "last_review": "2026-10-03T18:43:02+02:00",
-  "last_commit": "17c50135c4651d8b90847f3c1f78f6c585e288b3",
+  "last_review": "2026-10-19T11:34:34+02:00",
+  "last_commit": "0a3791166f54a4e065bca960c6f6ffef94cb1c04",
   "open_issues_seen": [
+    223,
+    221,
+    217,
+    216,
+    212,
+    204,
+    203,
+    199,
+    198,
+    195,
+    193,
+    188,
     186,
-    184,
     181,
     173,
     168,
@@ -18,12 +29,14 @@
     25,
     24,
     12,
-    11,
-    7,
     4
   ],
   "open_prs_seen": [
-    185
+    224,
+    222,
+    220,
+    218,
+    197
   ],
-  "note": "Synchronisation documentaire des décisions GitHub et historique Codex accessible ; pas de revue serveur ni extraction récente des outils métier."
+  "note": "Revue globale en lecture du 19 octobre, puis propagation autorisée des décisions : preuves et statistiques consolidées par #219 ; Nostr hors suivi, Blog Florent à faire, Loïc/Frédéric encore planifiés, piste raisons concrètes de venir à approfondir. Pistes 1/2/4 laissées de côté. Correctif des échéances préparé dans #221 / PR #222 ; réconciliation documentaire préparée dans #223 / PR #224, non fusionnée. Quatre échéances inférées effacées du Project ; dates explicites de #25 et #153 conservées. Aucun nouvel audit des paiements, sauvegardes ou documents métiers. Réception des vidéos Neowalt tracée dans #147, propagation aux fichiers en PR #220 non fusionnée."
 }
