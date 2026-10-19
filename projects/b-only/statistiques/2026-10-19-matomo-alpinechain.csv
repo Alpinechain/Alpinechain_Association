@@ -1,0 +1,17 @@
+site,scope,period_start,period_end,received_date,metric,value,unit,displayed_change_percent,source_ref
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,visits,290,count,43.6,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,page_views,592,count,57.9,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,unique_page_views,471,count,,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,avg_time_on_site,144,seconds,37.1,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,bounce_rate,0.6,ratio,3.4,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,downloads,4,count,-33.3,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,unique_downloads,4,count,,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,actions_per_visit,2.4,count_per_visit,9.1,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,outlinks,99,count,73.7,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,unique_outlinks,66,count,,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,site_searches,0,count,0,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,site,2026-09-20,2026-10-19,2026-10-19,unique_search_keywords,0,count,,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,channel,2026-09-20,2026-10-19,2026-10-19,direct_visits,193,count,,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,channel,2026-09-20,2026-10-19,2026-10-19,search_engine_visits,77,count,,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,channel,2026-09-20,2026-10-19,2026-10-19,social_visits,17,count,,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026
+alpinechain.xyz,channel,2026-09-20,2026-10-19,2026-10-19,website_referral_visits,3,count,,Deux captures du tableau de bord Matomo fournies par Cyrille le 19 octobre 2026

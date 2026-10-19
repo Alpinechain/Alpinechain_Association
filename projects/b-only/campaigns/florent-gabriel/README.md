@@ -1,5 +1,14 @@
 # Florent Gabriel — campagne B-Only'26
 
+## État courant — 19 octobre 2026
+
+**PARTIELLEMENT PUBLIÉE — cinq URLs sociales archivées. Blog à faire puis URL à archiver ; LinkedIn ABM renseigné dans le relevé statistique, autres compléments selon les périodes disponibles.**
+
+Preuves : [publications-v1.csv](publications-v1.csv), [relevé statistique](../../statistiques/2026-10-19-releve-publications.md) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nostr est retiré du suivi des liens et statistiques ; les archives sont conservées. Aucun contenu n’est republié.
+
+## Préparation et décisions antérieures — historique
+
+Les sections suivantes conservent les textes et contrôles de préparation. Le statut courant ci-dessus prévaut ; leurs dates, demandes de programmation et mentions Nostr ne sont pas des actions actuelles.
 ## Version active à utiliser
 
 **Textes de publication :** [`contenus-multicanaux-v2.md`](./contenus-multicanaux-v2.md)

@@ -1,7 +1,11 @@
 {
-  "last_review": "2026-10-12T18:59:42+02:00",
-  "last_commit": "7d615e3aecdecf45c6c09e4ef12d4439ff1119dd",
+  "last_review": "2026-10-19T11:34:34+02:00",
+  "last_commit": "0a3791166f54a4e065bca960c6f6ffef94cb1c04",
   "open_issues_seen": [
+    223,
+    221,
+    217,
+    216,
     212,
     204,
     203,
@@ -28,8 +32,11 @@
     4
   ],
   "open_prs_seen": [
-    205,
+    224,
+    222,
+    220,
+    218,
     197
   ],
-  "note": "Mise à jour ciblée autorisée le 12 octobre : 52 billets (34 Early, 18 normaux), Frédéric/Loïc postés et planifiés selon Cyrille, BWS confirmé et transmission progressive ; Project Control réparé. Programme publié vérifié dans la revue précédente du même jour. Aucune extraction des commandes ni nouvel audit financier/serveur ; URLs et heures réelles de campagnes à archiver. Fichiers préparés dans la PR #205, fusion soumise à validation humaine."
+  "note": "Revue globale en lecture du 19 octobre, puis propagation autorisée des décisions : preuves et statistiques consolidées par #219 ; Nostr hors suivi, Blog Florent à faire, Loïc/Frédéric encore planifiés, piste raisons concrètes de venir à approfondir. Pistes 1/2/4 laissées de côté. Correctif des échéances préparé dans #221 / PR #222 ; réconciliation documentaire préparée dans #223 / PR #224, non fusionnée. Quatre échéances inférées effacées du Project ; dates explicites de #25 et #153 conservées. Aucun nouvel audit des paiements, sauvegardes ou documents métiers. Réception des vidéos Neowalt tracée dans #147, propagation aux fichiers en PR #220 non fusionnée."
 }
