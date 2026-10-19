@@ -1,9 +1,14 @@
 # Campagne Lionel Jeannerat — suivi V2
 
-## Suivi des liens — 19 octobre 2026
+## État courant — 19 octobre 2026
 
-7 URLs fournies dans l’Issue #24 sont consolidées dans [publications-v1.csv](publications-v1.csv). Les sept canaux disposent d’une URL archivée ; les métriques restent à relever séparément. Les liens sociaux n’ont pas été revérifiés en direct lors de cette consolidation. Les sections de préparation ci-dessous conservent l’historique.
+**PUBLIÉE — six URLs hors Nostr archivées ; métriques sociales reçues. Les compléments techniques restent distincts.**
 
+Preuves : [publications-v1.csv](publications-v1.csv), [relevé statistique](../../statistiques/2026-10-19-releve-publications.md) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nostr est retiré du suivi des liens et statistiques ; les archives sont conservées. Aucun contenu n’est republié.
+
+## Préparation et décisions antérieures — historique
+
+Les sections suivantes conservent les textes et contrôles de préparation. Le statut courant ci-dessus prévaut ; leurs dates, demandes de programmation et mentions Nostr ne sont pas des actions actuelles.
 ## Position dans la séquence B-Only
 
 La campagne Lionel Jeannerat est positionnée du **21 au 23 septembre 2026**, après Florent Gabriel.

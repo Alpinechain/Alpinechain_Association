@@ -1,5 +1,14 @@
 # Campagne — Loïc Ruchat-Leuthardt / BitVault
 
+## État courant — 19 octobre 2026
+
+**SUITE PROGRAMMÉE — confirmation de Cyrille du 19 octobre ; Blog déjà publié et archivé. Les cinq URLs sociales hors Nostr et les statistiques seront collectées après diffusion. Vignette validée par Cyrille le 12 octobre (#209), copie validée Nextcloud 5140 ; les références de préparation ci-dessous ne sont pas la validation courante.**
+
+Preuves : [publications-v1.csv](publications-v1.csv), [relevé statistique](../../statistiques/2026-10-19-releve-publications.md) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nostr est retiré du suivi des liens et statistiques ; les archives sont conservées. Aucun contenu n’est republié.
+
+## Préparation et décisions antérieures — historique
+
+Les sections suivantes conservent les textes et contrôles de préparation. Le statut courant ci-dessus prévaut ; leurs dates, demandes de programmation et mentions Nostr ne sont pas des actions actuelles.
 ## État courant — 12 octobre 2026
 
 **DIFFUSION EN COURS — publications postées et suivantes planifiées**, déclaré par Cyrille le 12 octobre 2026. URLs publiques et horaires réels par réseau non fournis ; archivage et métriques restent à compléter dans #24. Aucun statut `URLS ARCHIVÉES` n’est déduit.

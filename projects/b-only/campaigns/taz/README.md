@@ -1,5 +1,14 @@
 # Taz — Wesatoshis
 
+## État courant — 19 octobre 2026
+
+**PUBLIÉE — cinq URLs hors Nostr archivées (Blog, LinkedIn AlpineChain, X, Facebook, Instagram) ; métriques sociales reçues. Aucun second compte LinkedIn prévu. Les besoins techniques restent séparés.**
+
+Preuves : [publications-v1.csv](publications-v1.csv), [relevé statistique](../../statistiques/2026-10-19-releve-publications.md) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nostr est retiré du suivi des liens et statistiques ; les archives sont conservées. Aucun contenu n’est republié.
+
+## Préparation et décisions antérieures — historique
+
+Les sections suivantes conservent les textes et contrôles de préparation. Le statut courant ci-dessus prévaut ; leurs dates, demandes de programmation et mentions Nostr ne sont pas des actions actuelles.
 Préparé le 5 octobre 2026 — **PROGRAMMÉ**, déclaration de Cyrille du 12 octobre.
 
 Suivi : [Issue #24](https://github.com/Alpinechain/Alpinechain_Association/issues/24).

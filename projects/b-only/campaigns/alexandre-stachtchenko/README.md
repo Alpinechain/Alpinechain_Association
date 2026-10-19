@@ -1,10 +1,19 @@
 # Alexandre Stachtchenko — campagne B-Only'26
 
+## État courant — 19 octobre 2026
+
+**PUBLIÉE — six URLs hors Nostr archivées ; métriques sociales reçues. Fonction de référence : Directeur Stratégie — Bitstack ; vignette V4 intégrée et déployée par #213. Les droits/crédit restent à documenter séparément.**
+
+Preuves : [publications-v1.csv](publications-v1.csv), [relevé statistique](../../statistiques/2026-10-19-releve-publications.md) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nostr est retiré du suivi des liens et statistiques ; les archives sont conservées. Aucun contenu n’est republié.
+
+## Préparation et décisions antérieures — historique
+
+Les sections suivantes conservent les textes et contrôles de préparation. Le statut courant ci-dessus prévaut ; leurs dates, demandes de programmation et mentions Nostr ne sont pas des actions actuelles.
 ## Version active
 
 Titre : **« La Femme est l'avenir de Bitcoin »**
 
-Intervenant : **Alexandre Stachtchenko — Responsable Stratégie, Bitstack**.
+Intervenant : **Alexandre Stachtchenko — Directeur Stratégie — Bitstack**.
 
 Angle : enseignements des baromètres d'adoption de Bitcoin menés en **Espagne, Italie et France**, avec un focus sur la place des femmes dans l'adoption.
 
