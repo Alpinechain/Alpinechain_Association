@@ -1,6 +1,14 @@
 # Mill3sim3 — Bitcointrails
 
-Préparé le 8 octobre 2026 — **PRÊT À RELIRE** (`pending_review`).
+## État réconcilié — 19 octobre 2026
+
+**PUBLIÉE — six URLs hors Nostr archivées** dans [le registre de preuves](publications-v1.csv) : Blog, deux comptes LinkedIn, X, Facebook et Instagram. Les métriques sociales sont reçues pour LinkedIn AlpineChain, X, Facebook et Instagram ; celles de LinkedIn Annecy Bitcoin Meetup restent à compléter dans [le relevé du 19 octobre](../../statistiques/2026-10-19-releve-publications.md).
+
+La PR #197 conserve les sources de préparation ; son état draft ne signifie pas que la campagne reste à diffuser. Les textes sources et le calendrier relatif ci-dessous sont historiques, sans nouvelle programmation. Nostr est exclu du suivi des liens et statistiques sur décision de Cyrille. Les détails pratiques restent suivis dans #12 et #25 ; les compléments de preuves dans #24 et #223.
+
+## Préparation historique — 8 octobre, actualisée le 12 octobre
+
+Les mentions « à relire », « à planifier » ou « aucun contenu publié » dans cette archive décrivent la préparation antérieure ; l’état courant est celui du paragraphe ci-dessus.
 
 ## Livrables
 
