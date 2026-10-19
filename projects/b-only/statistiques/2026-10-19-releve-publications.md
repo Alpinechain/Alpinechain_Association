@@ -36,12 +36,34 @@ L’ABM Mill3sim3 déjà archivé (`7517498494488653824`) a été publié après
 
 Le nouveau lien X `https://x.com/alpinechain_xyz/status/2104251879161024546` correspond au contenu complémentaire « On se souvient surtout des gens » du 27 septembre ; sa capture est distinguée des annonces intervenants. Le CSV conserve aussi les ouvertures de détails et visites du profil visibles. Les clics sur le lien non affichés dans cette capture restent vides, sans être remplacés par zéro.
 
+## Matomo alpinechain.xyz — 20 septembre au 19 octobre
+
+[Relevé Matomo CSV](2026-10-19-matomo-alpinechain.csv) : **16 indicateurs agrégés**, distincts des 39 observations par publication ci-dessus.
+
+| Indicateur global | Valeur affichée | Évolution affichée |
+|---|---:|---:|
+| Visites | 290 | +43,6 % |
+| Pages vues | 592 | +57,9 % |
+| Pages vues uniques | 471 | Non affichée |
+| Temps moyen sur le site | 2 min 24 s | +37,1 % |
+| Taux de rebond | 60 % | +3,4 % |
+| Actions par visite | 2,4 | +9,1 % |
+| Liens sortants | 99 | +73,7 % |
+| Liens externes uniques | 66 | Non affichée |
+| Téléchargements | 4, dont 4 uniques | −33,3 % |
+
+Répartition des visites : **193 entrées directes, 77 moteurs de recherche, 17 réseaux sociaux et 3 sites référents**, soit 290 au total. Les recherches internes sont à zéro ; cela ne concerne pas les visites issues des moteurs de recherche.
+
+Source : deux captures du tableau de bord transmises par Cyrille, filtre « Toutes les visites ». La période de comparaison des évolutions n’est pas explicitement visible ; les pourcentages sont repris comme affichés. Le +3,4 % du rebond n’est pas converti en points de pourcentage. La journée du 19 octobre est en cours lors de la capture. Les journaux individuels des visiteurs, appareils et horaires de visites ne sont pas repris.
+
+Ces chiffres concernent **tout alpinechain.xyz**, pas uniquement les articles B-Only. Les 99 liens sortants ne prouvent pas 99 clics billetterie : leurs destinations ne sont pas détaillées. Le tableau « Plus & moins » montre des variations, dont Christine +3 vues uniques ; ces variations ne sont pas prises pour les totaux d’audience des articles. Les compteurs au libellé tronqué ne sont pas transcrits.
+
 ## Compléments encore nécessaires
 
 1. **LinkedIn ABM Mill3sim3** : export incluant sa publication du 18 octobre et les données devenues disponibles ensuite.
 2. **Florent** : LinkedIn AlpineChain, X et Meta hors période des pièces reçues. LinkedIn ABM est désormais renseigné. Son Blog reste à faire ; les statistiques Blog viendront après publication.
 3. **Campagnes plus anciennes** : compléter les relevés manquants de Renaud, Polto/Darko, Pierre et Christine avec une période adaptée. Les pièces reçues ici ne couvrent pas leurs publications ; les anciens chiffres présents dans #24 restent datés et conservés.
-4. **Blog / Matomo** : export des visites par article et provenance du trafic, ainsi que les clics vers la billetterie si cette mesure existe. Aucun nouvel export Blog n’est fourni ici.
+4. **Blog / Matomo** : vue globale reçue et consolidée. Restent les visites par article B-Only, leur provenance détaillée et les destinations des liens sortants, notamment billetterie. Les captures globales ne fournissent pas ces détails.
 5. **Attribution billetterie** : clics des liens suivis et ventes attribuables à rapprocher dans leurs sources ; aucun chiffre de vente n’est déduit des vues ou interactions.
 
 **Nostr hors suivi**, décision de Cyrille. **Loïc et Frédéric différés** après leur diffusion, conformément à sa confirmation ; aucune statistique manquante immédiate leur est imputée.
