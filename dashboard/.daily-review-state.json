@@ -32,10 +32,11 @@
     4
   ],
   "open_prs_seen": [
+    224,
+    222,
     220,
     218,
-    197,
-    222
+    197
   ],
-  "note": "Revue globale en lecture du 19 octobre, puis propagation autorisée des décisions : preuves et statistiques consolidées par #219 ; Nostr hors suivi, Blog Florent à faire, Loïc/Frédéric encore planifiés, piste raisons concrètes de venir à approfondir. Pistes 1/2/4 laissées de côté. Correctif des échéances préparé dans #221 / PR #222 ; réconciliation documentaire préparée dans #223, non fusionnée. Aucun nouvel audit des paiements, sauvegardes ou documents métiers. Réception des vidéos Neowalt tracée dans #147, propagation aux fichiers en PR #220 non fusionnée."
+  "note": "Revue globale en lecture du 19 octobre, puis propagation autorisée des décisions : preuves et statistiques consolidées par #219 ; Nostr hors suivi, Blog Florent à faire, Loïc/Frédéric encore planifiés, piste raisons concrètes de venir à approfondir. Pistes 1/2/4 laissées de côté. Correctif des échéances préparé dans #221 / PR #222 ; réconciliation documentaire préparée dans #223 / PR #224, non fusionnée. Quatre échéances inférées effacées du Project ; dates explicites de #25 et #153 conservées. Aucun nouvel audit des paiements, sauvegardes ou documents métiers. Réception des vidéos Neowalt tracée dans #147, propagation aux fichiers en PR #220 non fusionnée."
 }
