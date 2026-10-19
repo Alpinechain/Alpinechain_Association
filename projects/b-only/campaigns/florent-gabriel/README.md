@@ -1,5 +1,9 @@
 # Florent Gabriel — campagne B-Only'26
 
+## Suivi des liens — 19 octobre 2026
+
+5 URLs fournies dans l’Issue #24 sont consolidées dans [publications-v1.csv](publications-v1.csv). Blog et Nostr restent sans preuve archivée. Les liens sociaux n’ont pas été revérifiés en direct lors de cette consolidation. Les sections de préparation ci-dessous conservent l’historique.
+
 ## Version active à utiliser
 
 **Textes de publication :** [`contenus-multicanaux-v2.md`](./contenus-multicanaux-v2.md)
