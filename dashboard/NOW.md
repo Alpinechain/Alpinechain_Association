@@ -24,6 +24,8 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 
 ## Suivis de communication actuels
 
+- **Arbitrage communication du 19 octobre — [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24)** : visibilité en progression, résultat billetterie attribué limité (une utilisation de bon sponsor Paymium, autres bons suivis à zéro selon Cyrille). **À approfondir : les raisons concrètes de venir** — apprentissages, rencontres, ateliers, contenu du billet ; proposition à arbitrer par Cyrille, sans campagne décidée. Audit du parcours de suivi, nouvelle mobilisation des relais et suivi hebdomadaire laissés de côté pour le moment, sans échéance. [Analyse et arbitrages](../projects/b-only/statistiques/2026-10-19-releve-publications.md).
+
 - **Statistiques reçues le 19 octobre** : [39 observations consolidées](../projects/b-only/statistiques/2026-10-19-releve-publications.md), dont 14 LinkedIn, 16 Meta et neuf X. Compléter notamment LinkedIn ABM Mill3sim3, les pièces hors période de Florent et des campagnes antérieures, puis le détail Matomo par article et destination. Vue globale alpinechain.xyz reçue pour le 20 septembre–19 octobre : 290 visites, 592 pages vues, 99 liens sortants. Nostr hors suivi ; Loïc/Frédéric différés.
 
 - **Liens contrôlés le 19 octobre** : [liste de collecte B-Only](../projects/b-only/SUIVI_LIENS_PUBLICATIONS.md), 60 URLs consolidées dont huit articles Blog vérifiés ; Blog Florent seul à faire immédiatement. Nostr retiré du suivi par Cyrille ; Loïc et Frédéric encore planifiés, collecte après diffusion. Les suivis datés ci-dessous restent historiques.

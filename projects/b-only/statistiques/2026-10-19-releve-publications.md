@@ -58,13 +58,32 @@ Source : deux captures du tableau de bord transmises par Cyrille, filtre « Tout
 
 Ces chiffres concernent **tout alpinechain.xyz**, pas uniquement les articles B-Only. Les 99 liens sortants ne prouvent pas 99 clics billetterie : leurs destinations ne sont pas détaillées. Le tableau « Plus & moins » montre des variations, dont Christine +3 vues uniques ; ces variations ne sont pas prises pour les totaux d’audience des articles. Les compteurs au libellé tronqué ne sont pas transcrits.
 
+## Analyse et arbitrage de Cyrille — 19 octobre 2026
+
+**Visibilité en progression ; effet sur les ventes encore peu démontré.** Matomo affiche +43,6 % de visites, +57,9 % de pages vues et +37,1 % de temps moyen. Les pages vues augmentent plus vite que les visites, mais les 290 visites concernent tout alpinechain.xyz sur la période. Les 17 visites attribuées aux réseaux sociaux représentent environ 5,9 % du trafic du site ; les liens directs vers B-Only/Pretix peuvent suivre un autre parcours et ne sont pas tous mesurés ici.
+
+Les neuf observations X représentent 5 129 impressions et au moins 16 clics sur les liens affichés ; les impressions ne sont pas des personnes uniques. Alexandre ressort parmi les annonces : 1 705 impressions et 11 clics sur le lien X ; 2 279 impressions et 50 clics LinkedIn ABM. Les âges des posts et les définitions des clics diffèrent : cette observation suggère un angle mobilisateur, sans prouver une conversion billetterie.
+
+**Pretix — confirmation de Cyrille du 19 octobre : une seule utilisation d’un bon sponsor Paymium ; les autres bons de suivi sont à zéro.** Source : déclaration humaine dans la conversation, sans extraction Pretix ni détail de commande. L’identifiant opérationnel du bon n’est pas recopié. Une utilisation de bon ne sert pas à déduire un total de billets payés ; l’absence d’usage des autres bons ne prouve pas l’absence de ventes indirectes. Aucun taux de conversion fiable ne peut être calculé avec ces seules pièces.
+
+La communication entretient la présence de B-Only et produit des interactions ; les résultats attribués à la billetterie restent très limités. La piste retenue pour approfondissement est de rendre les raisons de venir plus concrètes, au-delà des annonces d’intervenants.
+
+| Piste proposée dans l’analyse | Arbitrage de Cyrille | Suite |
+|---|---|---|
+| 1. Vérifier le parcours complet de suivi, du lien à Pretix | LAISSÉE DE CÔTÉ POUR LE MOMENT | Aucun audit lancé ni échéance fixée |
+| 2. Mobiliser davantage les relais partenaires et intervenants | LAISSÉE DE CÔTÉ POUR LE MOMENT | Aucune nouvelle sollicitation lancée |
+| 3. Développer les raisons concrètes de venir | À APPROFONDIR | Piste éditoriale suivie dans #24 ; pas de campagne décidée |
+| 4. Installer un suivi hebdomadaire billets/bons/clics | LAISSÉE DE CÔTÉ POUR LE MOMENT | Aucun suivi récurrent ni automatisation créé |
+
+**Action suivie dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24)** : approfondir la piste 3 autour de ce que l’on apprend, des rencontres, des ateliers et de ce que comprend le billet. Résultat attendu : proposition courte d’angles fondés sur les éléments confirmés, pour arbitrage de Cyrille. Responsable de validation : Cyrille ; échéance non fixée. Pas de nouvelle campagne, programmation ou publication autorisée par cette décision. Les pistes 1, 2 et 4 ne sont pas des priorités actives.
+
 ## Compléments encore nécessaires
 
 1. **LinkedIn ABM Mill3sim3** : export incluant sa publication du 18 octobre et les données devenues disponibles ensuite.
 2. **Florent** : LinkedIn AlpineChain, X et Meta hors période des pièces reçues. LinkedIn ABM est désormais renseigné. Son Blog reste à faire ; les statistiques Blog viendront après publication.
 3. **Campagnes plus anciennes** : compléter les relevés manquants de Renaud, Polto/Darko, Pierre et Christine avec une période adaptée. Les pièces reçues ici ne couvrent pas leurs publications ; les anciens chiffres présents dans #24 restent datés et conservés.
 4. **Blog / Matomo** : vue globale reçue et consolidée. Restent les visites par article B-Only, leur provenance détaillée et les destinations des liens sortants, notamment billetterie. Les captures globales ne fournissent pas ces détails.
-5. **Attribution billetterie** : clics des liens suivis et ventes attribuables à rapprocher dans leurs sources ; aucun chiffre de vente n’est déduit des vues ou interactions.
+5. **Attribution billetterie — point documentaire, laissé de côté pour le moment** : une utilisation de bon sponsor Paymium et zéro pour les autres bons suivis, selon Cyrille le 19 octobre. Le rapprochement approfondi et le suivi hebdomadaire ne sont pas lancés.
 
 **Nostr hors suivi**, décision de Cyrille. **Loïc et Frédéric différés** après leur diffusion, conformément à sa confirmation ; aucune statistique manquante immédiate leur est imputée.
 
