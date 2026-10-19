@@ -28,8 +28,8 @@ Le dashboard, le planning et les fiches de campagne sont intégrés par la [PR d
 | PR #220 — Neowalt | Propager aux registres les vidéos déjà reçues selon #147/#12/#25/#153 | Main ne doit plus les présenter comme attendues après fusion ; réception des lots et essais restent distincts | PR existante à relire et à fusionner seulement sur accord |
 | Visuels / sources | Réconcilier les références et statuts #209/#211/#213 avec README du programme, SOURCES et briefs | Remplacer les mentions actives « à valider » ou « déploiement à autoriser » devenues historiques ; conserver les noms de fichiers et preuves | Vérifier les références exactes sans renommer les originaux Nextcloud |
 | Souveraineté / Meetup | Remplacer l’ancien « prochain rendez-vous » du 24 septembre par le bilan #7 ; indexer le rendez-vous Annecy Bitcoin Tour d’octobre | Fiches de projet cohérentes avec les événements réellement réalisés ; identifier le suivi GitHub approprié sans créer de doublon | Aucune date de prochain événement inventée |
-| Annecy Bitcoin Tour | Rapprocher le repère de huit commerçants de l’annonce du CIAO comme neuvième partenaire | Nombre actuel d’actifs et date de référence à confirmer | Confirmation métier nécessaire, sans audit des paiements |
-| b-only.org / billetterie | Réconcilier la fin du tarif Classic affichée au 30 octobre avec les suivis indiquant le 31 | Faire constater la règle de vente de référence puis proposer la correction du support divergent | Source Pretix et validation de la modification du site ; aucune publication automatique |
+| Annecy Bitcoin Tour | Écart de comptage tranché par Cyrille le 19 octobre | **8 commerçants actuellement**, confirmation directe ; ne pas déduire neuf actifs de l’annonce CIAO | Décision documentée ; aucune liste ni audit des paiements déduit |
+| b-only.org / billetterie | Règle confirmée par Cyrille le 19 octobre | **Fin du tarif Classic : 31 octobre 2026 à 23 h 59, Europe/Paris** | Règle métier tranchée ; configuration effective et correction des supports divergents restent à contrôler, sans publication automatique |
 | Propositions du site | Relier les six fichiers locaux de propositions au suivi #216 | Identifier la version retenue, les sources et le mode de livraison ; laisser les autres propositions intactes | Préserver les fichiers non suivis, ne pas les ajouter au lot courant |
 | Pilotage / revues | Requalifier BOARD, curseur de revue, W40–W42 et priorités du Project à partir des preuves | Distinguer historique, préparation et actions actives ; pas de clôture technique assimilée à un audit serveur | Vérification des actions distribuées avant clôture de chaque revue |
 
@@ -38,6 +38,6 @@ Le dashboard, le planning et les fiches de campagne sont intégrés par la [PR d
 1. Fait : correctif des échéances et propagation documentaire fusionnés ; réconciliation du Project vérifiée.
 2. Réconcilier les PR #197/#218/#220 avec les preuves et décisions les plus récentes.
 3. Aligner les sources de visuels et les fiches Meetup/Souveraineté.
-4. Faire confirmer le comptage Annecy Bitcoin Tour et la date tarifaire avant toute correction publique.
+4. Confirmations reçues : huit commerçants Annecy Bitcoin Tour et fin du tarif Classic le 31 octobre à 23 h 59. Contrôler les supports divergents avant toute correction publique.
 
 Cette file de travail ne réactive ni l’audit du parcours de suivi, ni de nouvelles sollicitations des relais, ni le suivi hebdomadaire des ventes. Elle ne déclenche aucune publication, opération financière, intervention serveur ou suppression de fichier.

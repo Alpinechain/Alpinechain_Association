@@ -36,7 +36,9 @@ Le Meetup **Annecy Bitcoin Tour du 7 octobre 2026** est réalisé, selon le reto
 
 - [Article d’annonce](https://alpinechain.xyz/meetup-26-10-annecy-bitcoin-tour/), publié le 2 octobre.
 - [Retour Facebook](https://www.facebook.com/reel/29021504844205893/) et [retour Instagram](https://www.instagram.com/reel/DeSG9iBMyra/), publiés le 9 octobre selon les exports.
-- [Suivi documentaire #225](https://github.com/Alpinechain/Alpinechain_Association/issues/225) : bilan et ressources à compléter sur preuves ; aucun chiffre de fréquentation ou de commerçants actifs déduit.
+- [Suivi documentaire #225](https://github.com/Alpinechain/Alpinechain_Association/issues/225) : bilan et ressources à compléter sur preuves ; aucun chiffre de fréquentation déduit.
+
+**Annecy Bitcoin Tour : 8 commerçants actuellement**, confirmation directe de Cyrille le 19 octobre 2026. Ce nombre remplace les hypothèses issues du rapprochement des annonces ; il ne constitue pas une liste nominative ni un audit des paiements.
 
 Aucun prochain atelier daté n’est confirmé dans cette fiche. Tout prochain rendez-vous sera cadré dans une Issue dédiée avant annonce publique.
 
