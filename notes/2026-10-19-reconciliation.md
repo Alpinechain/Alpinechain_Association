@@ -29,8 +29,8 @@ Le dashboard, le planning et les fiches de campagne sont intégrés par la [PR d
 | Visuels / sources | Réconcilier les références et statuts #209/#211/#213 avec README du programme, SOURCES et briefs | Remplacer les mentions actives « à valider » ou « déploiement à autoriser » devenues historiques ; conserver les noms de fichiers et preuves | Vérifier les références exactes sans renommer les originaux Nextcloud |
 | Souveraineté / Meetup | Remplacer l’ancien « prochain rendez-vous » du 24 septembre par le bilan #7 ; indexer le rendez-vous Annecy Bitcoin Tour d’octobre | Fiches de projet cohérentes avec les événements réellement réalisés ; identifier le suivi GitHub approprié sans créer de doublon | Aucune date de prochain événement inventée |
 | Annecy Bitcoin Tour | Écart de comptage tranché par Cyrille le 19 octobre | **8 commerçants actuellement**, confirmation directe ; ne pas déduire neuf actifs de l’annonce CIAO | Décision documentée ; aucune liste ni audit des paiements déduit |
-| b-only.org / billetterie | Règle confirmée par Cyrille le 19 octobre | **Fin du tarif Classic : 31 octobre 2026 à 23 h 59, Europe/Paris** | Règle métier tranchée ; configuration effective et correction des supports divergents restent à contrôler, sans publication automatique |
-| Propositions du site | Relier les six fichiers locaux de propositions au suivi #216 | Identifier la version retenue, les sources et le mode de livraison ; laisser les autres propositions intactes | Préserver les fichiers non suivis, ne pas les ajouter au lot courant |
+| b-only.org / billetterie | Règle confirmée par Cyrille le 19 octobre | **Fin du tarif Classic : 31 octobre 2026 à 23 h 59, Europe/Paris** | Règle métier tranchée ; site conservé en l’état sur décision de Cyrille. Aucun changement public lancé dans ce lot ; configuration effective non recontrôlée |
+| Propositions du site | Décision de Cyrille le 19 octobre : conserver le site actuel | Affiches V1/V2 classées **essais non concluants** ; #216 clôturée comme non prévue. Maquette pastilles historique, fonctionnalité #207/#206 déjà livrée maintenue | Aucun import, intégration ou publication ; six fichiers locaux conservés, non ajoutés au suivi Git |
 | Pilotage / revues | Requalifier BOARD, curseur de revue, W40–W42 et priorités du Project à partir des preuves | Distinguer historique, préparation et actions actives ; pas de clôture technique assimilée à un audit serveur | Vérification des actions distribuées avant clôture de chaque revue |
 
 ## Ordre proposé pour la prochaine passe
@@ -41,3 +41,7 @@ Le dashboard, le planning et les fiches de campagne sont intégrés par la [PR d
 4. Confirmations reçues : huit commerçants Annecy Bitcoin Tour et fin du tarif Classic le 31 octobre à 23 h 59. Contrôler les supports divergents avant toute correction publique.
 
 Cette file de travail ne réactive ni l’audit du parcours de suivi, ni de nouvelles sollicitations des relais, ni le suivi hebdomadaire des ventes. Elle ne déclenche aucune publication, opération financière, intervention serveur ou suppression de fichier.
+
+## Classement des essais du site — décision du 19 octobre
+
+Cyrille demande de laisser le site dans son état actuel. Les propositions d’affiche partenaires V1/V2 sont abandonnées comme essais non concluants ; #216 est clôturée avec le motif `not_planned`. Les fichiers et aperçus locaux sont conservés sans intégration. La maquette de pastilles reste une trace historique d’une fonctionnalité déjà livrée par #207/#206 ; aucun retour arrière. Les actions de gouvernance des accès et de transfert du domaine #45 sont distinctes et ne sont pas clôturées par cette décision.
