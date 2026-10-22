@@ -1,0 +1,24 @@
+Create a polished French social-media promotional poster for B-Only 2026, portrait 4:5 composition, approximately 1080x1350 or higher. Use the supplied B-Only Mill3sim3 vignette only as an approved reference for event identity, orange / warm ivory / black palette, condensed bold typography, fine orange-and-black border, and subtle alpine silhouettes. This is a NEW OFFER POSTER, not a speaker announcement. Do not reproduce the speaker announcement text or the INTERVENANT banner. Do not add a portrait. Keep the B-Only '26 wordmark visually faithful to the reference if included; do not invent a BitcoinStore logo.
+
+Design: premium, energetic and exceptionally clear editorial event poster. Warm ivory background, deep black type, vivid Bitcoin orange accents, subtle mountain detail at the bottom. Top event name and offer title, two separate large ticket-like cards stacked vertically at the center, equal prominence. Each card clearly differentiates the PASS PRICE from the INCLUDED SHOPPING VOUCHER, with large readable numbers and no misleading net-price calculations. The total pass price is 180 EUR or 150 EUR, never 270 EUR or 195 EUR. Website bitcoinstore.fr should be highly visible. Plenty of safe margins, readable at mobile size, clean restrained decoration. No photographs of merchandise, no invented inventory, no QR codes, no barcodes, no claims of discounts or sponsorship.
+
+Render EXACT French copy, preserving accents, case in Mill3sim3, currency signs and amounts:
+Top: "B-ONLY '26"
+Title: "OFFRE EXCEPTIONNELLE"
+Subtitle: "Mill3sim3"
+Event line: "7–9 NOVEMBRE 2026 · ANNECY"
+First offer card:
+"PASS 3 JOURS"
+"180 €"
+"BON D’ACHAT DE 90 € INCLUS"
+Second offer card:
+"PASS 3 JOURS"
+"150 €"
+"BON D’ACHAT DE 45 € INCLUS"
+Below cards: "Découvrez le magasin"
+Large clear website: "bitcoinstore.fr"
+Deadline banner: "10 BILLETS AU TOTAL"
+Second line: "Réservation jusqu’au 31 octobre 2026"
+Footer, still legible: "Bons à présenter à Mill3 · Valables jusqu’au 31 décembre 2026"
+
+Make the offer cards the visual focus. Orange vouchers tucked into black/ivory ticket cards may suggest gift shopping, but all amounts must remain perfectly legible. A promotional poster suitable for LinkedIn, Facebook, X and an Instagram feed. No other text.
