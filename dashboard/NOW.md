@@ -92,7 +92,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 ### Partenaire de lots — Neowalt
 
 - Mise à jour ciblée du 5 septembre : accord confirmé pour six lots de wallets à offrir au quiz du samedi 7 novembre au soir ; aucune présence physique prévue.
-- Six lots précisés le 17 septembre : 2 packs Tangem de deux cartes, 2 Ellipal Titan Mini et 2 SafePal X1. Expédition et vidéos attendues vers mi-octobre ; réception et test régie restent à faire. Deux logos sources et carte de contact archivés dans Nextcloud le 5 septembre, tailles et SHA-256 vérifiés ; déclinaison vidéo pour boucle écrans à valider. Suivi opérationnel : [#147](https://github.com/Alpinechain/Alpinechain_Association/issues/147).
+- Six lots précisés le 17 septembre : 2 packs Tangem de deux cartes, 2 Ellipal Titan Mini et 2 SafePal X1. Expédition annoncée vers mi-octobre ; réception et inventaire des lots restent à constater. Deux vidéos sources reçues et archivées le 19 octobre dans Nextcloud (`06_Medias/Neowalt/`), tailles et SHA-256 vérifiés : paysage 1 min 12 sans piste audio et portrait 40,8 s avec audio. Sélection pour présenter le partenaire au quiz et test régie à faire ; boucle écrans à créer puis valider (#12), écrans à prévoir et installer (#25). Deux logos sources et carte de contact archivés dans Nextcloud le 5 septembre. Suivi opérationnel : [#147](https://github.com/Alpinechain/Alpinechain_Association/issues/147).
 
 ### Programme et visuels
 
@@ -123,7 +123,7 @@ Constat principal : le socle opérationnel est désormais solide ; le principal 
 | Suivi au 19 octobre | Campagnes Marius et Alexandre publiées, liens et métriques sociales archivés ; aucune reprogrammation |
 | Prochaine préparation éditoriale | Approfondir les raisons concrètes de venir dans #24 ; date non fixée |
 | 12 octobre | Programme déclaré complet par Cyrille ; dernières communications à planifier (#24), dépendances opérationnelles suivies séparément (#12, #25, #26, #27) |
-| Mi-octobre | Suivre l’expédition des lots et les vidéos Neowalt #147 |
+| Mi-octobre / suivi au 19 octobre | Suivre la réception des lots Neowalt ; vidéos reçues, sélection/test quiz et boucle écrans à créer, écrans à prévoir et installer (#147, #12, #25) |
 | 31 octobre | Expiration des codes sponsors #186 ; réception/inventaire des lots et test régie à finaliser |
 | 7–9 novembre | B-Only 2026 |
 | Après le 9 novembre | Maintenance générale Serveur #152 et revue MinIO #150, sauf urgence explicitement validée |
