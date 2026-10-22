@@ -1,66 +1,85 @@
-# B-Only'26 — Campagne hébergement (issue #229)
+# B-Only'26 — Campagne hébergement (#229)
 
-**Statut : PRÊT À RELIRE — diffusion bloquée jusqu'à publication et contrôle du lien.**
-**Date : 2026-10-22**
-**Skill :** `skills/publication-multicanale/SKILL.md` — profil `profiles/b-only.md`.
-**Objectif :** diriger tous les visiteurs vers l'encart hébergement du site officiel.
-**CTA unique :** https://b-only.org/#hebergement
+**Date de révision : 2026-10-22**
+**Statut : PRÊT À RELIRE ; diffusion suspendue tant que la rubrique n'est pas vérifiée en production.**
+**Procédure :** `skills/publication-multicanale/SKILL.md`, profil B-Only.
+**CTA principal (annonces, choix du logement, réservation) :** https://b-only.org/#hebergement
+**Lien partenaire complémentaire :** https://www.yesconciergerie-annecy.fr/ (site local YES Annecy ; vérifier son fonctionnement et son accord avant diffusion).
+**Site général du réseau :** https://www.yesconciergerie.com/ (à utiliser si le site local n'est pas retenu).
 
-> Aucun lien Airbnb individuel ni téléphone du prestataire dans les publications. Les annonces et contacts sont exclusivement sur la page B-Only. Les réductions sont soumises aux disponibilités et aux conditions des hébergeurs.
+Le lien partenaire sert à présenter YES Conciergerie, **pas** à remplacer la page B-Only ni à réclamer la réduction sans les modalités annoncées. Aucun lien Airbnb direct dans les posts. Les 5 % YES sont proposés en contactant directement Nicolas hors plateforme, sous réserve de confirmation et disponibilité. Le Novotel propose aussi 15 % avec code BEON26 sous réserve de disponibilité.
 
 ## LinkedIn
-🏡 Vous préparez votre venue à B-Only'26 à Annecy ?
+🏡 B-Only'26 approche. Votre hébergement à Annecy est-il réservé ?
 
-Du 7 au 9 novembre, les conférences et les rencontres Bitcoin prennent place au Novotel Annecy Centre. Reste une question pratique : où dormir ?
+Du 7 au 9 novembre, trois jours de Bitcoin, de conférences et de rencontres au Novotel Annecy Centre. Et pour dormir ?
 
-Pour simplifier votre organisation, nous regroupons sur notre site les solutions d'hébergement et les offres de nos partenaires locaux : hôtel sur place ou logements adaptés à ceux qui viennent seuls, en couple ou en groupe.
+Deux pistes pour préparer votre déplacement :
+🏨 Le Novotel, directement sur le lieu de la conférence, avec son offre préférentielle.
+🏠 Six logements proposés par **YES Conciergerie Annecy**, de la chambre à l'appartement à partager, avec 5 % de réduction annoncés pour les réservations directes hors Airbnb.
 
-➡️ Consultez les annonces, les conditions et les contacts : https://b-only.org/#hebergement
+Cette offre locale est proposée par Nicolas Frémyet, que nous remercions pour son accueil. Découvrez également la conciergerie : https://www.yesconciergerie-annecy.fr/
+
+➡️ Logements, contacts et conditions sont réunis au même endroit : https://b-only.org/#hebergement
 
 ## Facebook
-🏔️ B-Only'26 approche ! Vous avez prévu votre hébergement pour les 7, 8 et 9 novembre à Annecy ?
+🏔️ Les 7, 8 et 9 novembre, rendez-vous à Annecy pour B-Only'26 !
 
-Hôtel sur place ou appartement à partager entre bitcoiners : nous avons rassemblé les solutions proposées par nos partenaires, avec leurs offres préférentielles, dans une rubrique dédiée sur notre site.
+Vous cherchez encore où dormir ? Hôtel sur le lieu de la conférence ou logement à partager entre amis : nous avons réuni les solutions d'hébergement sur notre site.
 
-🏡 Consultez les logements et contactez directement les hébergeurs depuis : https://b-only.org/#hebergement
+🏨 Offre Novotel sur place.
+🏠 Notre partenaire local **YES Conciergerie Annecy** propose six logements jusqu'à 7 personnes, avec **-5 % pour une réservation directe hors Airbnb**, selon disponibilités et conditions.
+
+En savoir plus sur YES Annecy : https://www.yesconciergerie-annecy.fr/
+
+👉 Retrouvez les annonces, coordonnées et modalités ici : https://b-only.org/#hebergement
 
 ## Instagram
 🏡 B-Only'26 : vous dormez où ?
 
-Du 7 au 9 novembre, rendez-vous à Annecy pour trois jours autour de Bitcoin.
+Du 7 au 9 novembre, Annecy accueille trois jours de Bitcoin.
 
-Solo, à deux ou entre amis : retrouvez nos solutions d'hébergement et les offres partenaires sur le site B-Only.
+🏨 Hôtel sur place
+🏠 Six logements proposés par YES Conciergerie Annecy, pour venir seul, en couple ou en groupe.
+🎁 Offre de -5 % en réservation directe hors Airbnb, selon conditions.
 
-🔗 b-only.org/#hebergement (lien à placer dans la bio ou en story).
+Notre partenaire local : yesconciergerie-annecy.fr
+
+👉 Annonces et contacts sur **b-only.org/#hebergement** — lien en bio ou story.
 
 #BOnly26 #Bitcoin #Annecy
 
-## X
-🏡 B-Only'26 à Annecy, du 7 au 9 novembre : vous avez trouvé où dormir ?
+## X — post principal (240 caractères maximum, URL comprise)
+🏡 B-Only'26 à Annecy : où dormir ?
+🏨 Novotel : offre préférentielle
+🏠 YES Conciergerie Annecy : 6 logements et -5 % en direct (selon conditions).
+👉 https://b-only.org/#hebergement
 
-Hôtel, studios, logements à partager et offres partenaires : toutes les infos sont réunies ici 👇
-https://b-only.org/#hebergement
+### X — réponse facultative pour crédit partenaire
+Merci à YES Conciergerie Annecy pour ses solutions d'hébergement ! Découvrez leur activité : https://www.yesconciergerie-annecy.fr/
 
 ## Nostr
-🏔️ Qui vient à B-Only'26 à Annecy du 7 au 9 novembre ?
+🏔️ Les plebs qui viennent à B-Only'26 du 7 au 9 novembre : vous avez trouvé un toit ?
 
-Avant de parler Bitcoin jusqu'au bout de la nuit, il faut savoir où la passer ! 🏡
+Hôtel au Novotel Annecy Centre ou location en petit groupe : nous avons regroupé les solutions sur la page officielle.
 
-Nous avons regroupé les logements et les offres de nos partenaires sur une seule page : https://b-only.org/#hebergement
+Notre partenaire **YES Conciergerie Annecy** propose six logements, avec -5 % annoncés pour une réservation directe hors Airbnb (selon conditions et disponibilités).
 
-Partagez le lien avec les plebs qui cherchent encore un toit !
+Pour découvrir l'entreprise locale de Nicolas : https://www.yesconciergerie-annecy.fr/
 
-## Visuel et accessibilité
-- **Concept :** paysage d'Annecy, marque B-Only, accroche courte « Où dormir ? », mention « Offres partenaires » ; ne pas multiplier les liens sur le visuel.
-- **État :** VISUEL PRODUIT, NON VALIDÉ.
-- **Texte alternatif :** « Vue d'Annecy et des Alpes. B-Only'26, du 7 au 9 novembre 2026. Informations sur les offres d'hébergement partenaires disponibles sur b-only.org/#hebergement. »
+🏡 Toutes les annonces et modalités pour B-Only : https://b-only.org/#hebergement
 
-## Validation avant diffusion
-- [ ] Ancre `https://b-only.org/#hebergement` publiée et fonctionnelle sur mobile et ordinateur.
-- [ ] Logements, coordonnées et modalités de réduction validés dans l'encart du site.
-- [ ] Vérifier les tarifs et disponibilités sans les promettre dans les posts.
-- [ ] Visuel et textes validés humainement.
-- [ ] Choisir fenêtre de diffusion respectant la règle de vague éditoriale B-Only.
-- [ ] Après diffusion, archiver les URL dans l'Issue #24.
+## Visuel
+- **État : VISUEL PRODUIT, NON VALIDÉ**.
+- **Texte image :** « B-Only'26 · Où dormir ? » / « Offres hébergement ».
+- **Alt :** « Vue d'Annecy et des montagnes. Visuel B-Only'26 invitant à consulter les offres d'hébergement sur b-only.org/#hebergement. »
 
-**Référence :** https://github.com/Alpinechain/Alpinechain_Association/issues/229
+## Contrôle avant diffusion
+- [ ] La section `#hebergement` est réellement publiée et opérationnelle sur mobile et ordinateur. Le contenu accessible au contrôle web ne présentait encore que le Novotel ; absence de confirmation du déploiement YES.
+- [ ] Six fiches, coordonnées et modalités de réservation directe YES présentes sur B-Only.
+- [ ] Offre -5 % et disponibilité confirmées par Nicolas.
+- [ ] Vérifier la destination et le fonctionnement du site local YES Annecy ; substituer https://www.yesconciergerie.com/ si nécessaire.
+- [ ] Validation de la communication et du visuel par Cyrille, puis choix d'une fenêtre respectant les vagues éditoriales.
+- [ ] Après publication seulement : archiver les liens réels dans #24.
+
+**Sources :** issue #229 ; contrôle de https://b-only.org/#hebergement ; https://www.yesconciergerie.com/ qui référence https://www.yesconciergerie-annecy.fr/.
