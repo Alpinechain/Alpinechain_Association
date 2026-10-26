@@ -1,0 +1,25 @@
+[Unit]
+Description=B-Only affichage dynamique LAN
+After=network-online.target time-sync.target
+Wants=network-online.target time-sync.target
+
+[Service]
+Type=simple
+User=bonly
+Group=bonly
+WorkingDirectory=/opt/bonly/Alpinechain_Association/projects/b-only/signage
+EnvironmentFile=/etc/bonly-signage.env
+ExecStart=/usr/bin/node server.mjs
+Restart=on-failure
+RestartSec=3
+StateDirectory=bonly-signage
+Environment=SIGNAGE_DATA_DIR=/var/lib/bonly-signage
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/bonly-signage
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

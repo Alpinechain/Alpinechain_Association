@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "checkedOn": "2026-10-26",
+  "issue": "https://github.com/Alpinechain/Alpinechain_Association/issues/230",
+  "purpose": "Inventaire de sources, distinct de la playlist de diffusion validée",
+  "assets": [
+    {
+      "id": "neowalt-salon-v8",
+      "organisation": "Neowalt",
+      "filename": "NEOWALT_salon_v8.mp4",
+      "archive": {
+        "state": "verified-existing",
+        "path": "Association/Action - Initiatives/B-Only/2026/06_Medias/Neowalt/NEOWALT_salon_v8.mp4",
+        "url": "https://cloud.alpinechain.xyz/f/5170",
+        "bytes": 15366291,
+        "sha256": "7d945373af8567a20a5ac7de57f5378516380351e36051a220be121dc61d1552"
+      },
+      "video": {
+        "durationSeconds": 72,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "audio": false
+      },
+      "usage": {
+        "quiz": "selection-to-validate",
+        "hall": "edit-and-test-pending"
+      },
+      "localCopy": "not-prepared",
+      "broadcastApproval": "pending",
+      "enabled": false
+    },
+    {
+      "id": "neowalt-echecs",
+      "organisation": "Neowalt",
+      "filename": "vidéo echecs finie.mp4",
+      "archive": {
+        "state": "verified-existing",
+        "path": "Association/Action - Initiatives/B-Only/2026/06_Medias/Neowalt/vidéo echecs finie.mp4",
+        "url": "https://cloud.alpinechain.xyz/f/5171",
+        "bytes": 169324664,
+        "sha256": "176386d845bfb33de686ae63e6066f8eadacaac9b5ee710668d133f5a35530d0"
+      },
+      "video": {
+        "durationSeconds": 40.8,
+        "width": 2160,
+        "height": 3840,
+        "codec": "h264",
+        "audio": "aac"
+      },
+      "usage": {
+        "quiz": "selection-to-validate",
+        "hall": "edit-and-test-pending"
+      },
+      "localCopy": "not-prepared",
+      "broadcastApproval": "pending",
+      "enabled": false
+    },
+    {
+      "id": "paymium-b2b",
+      "organisation": "Paymium",
+      "variant": "B2B",
+      "title": "PAYMIUM_CAMPAGNE 2_B2B_VDEF",
+      "sourceUrl": "https://vimeo.com/1237252706/a8cfeb9722?share=copy",
+      "broadcastApproval": "pending",
+      "archive": {
+        "state": "verified-created",
+        "path": "Association/Action - Initiatives/B-Only/2026/06_Medias/Paymium/paymium_campagne_2_b2b_vdef_v1.mp4",
+        "url": "https://cloud.alpinechain.xyz/f/5229",
+        "bytes": 549145920,
+        "sha256": "4fadf1360e267bac51d4cd86f2e20e154dae362b6ec837a618a93839d2bb50f4",
+        "indexing": "groupfolder-1-zero-errors"
+      },
+      "usage": {
+        "quiz": "priority-requested",
+        "hall": "paymium-playlist-requested"
+      },
+      "localCopy": {
+        "state": "prepared-and-offline-tested",
+        "filename": "paymium-b2b-v1-1080p.mp4",
+        "bytes": 9635198,
+        "sha256": "eab55ef76e694914af75c82612a6350a6b3ce02c156dfe8dca2140b85243465e",
+        "durationSeconds": 97.45,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "audio": "aac"
+      },
+      "enabled": false,
+      "filename": "paymium_campagne_2_b2b_vdef_v1.mp4",
+      "receipt": "organiser-supplied-local-file",
+      "vimeoDownload": "not-used",
+      "video": {
+        "durationSeconds": 97.44,
+        "width": 3840,
+        "height": 2160,
+        "codec": "h264",
+        "audio": "aac"
+      },
+      "onlineIntegration": {
+        "type": "vimeo",
+        "state": "playback-and-ended-transition-verified",
+        "checkedOn": "2026-10-26"
+      }
+    },
+    {
+      "id": "paymium-b2c",
+      "organisation": "Paymium",
+      "variant": "B2C",
+      "title": "PAYMIUM_CAMPAGNE 2_B2C_VDEF",
+      "sourceUrl": "https://vimeo.com/1237252731/9246571fc3?share=copy",
+      "broadcastApproval": "pending",
+      "archive": {
+        "state": "verified-created",
+        "path": "Association/Action - Initiatives/B-Only/2026/06_Medias/Paymium/paymium_campagne_2_b2c_vdef_v1.mp4",
+        "url": "https://cloud.alpinechain.xyz/f/5230",
+        "bytes": 391428363,
+        "sha256": "cd3023085e47357bea003abae097c820fe3b98028a57f5619b7c9a11a315e7d1",
+        "indexing": "groupfolder-1-zero-errors"
+      },
+      "usage": {
+        "quiz": "alternative",
+        "hall": "paymium-playlist-complement"
+      },
+      "localCopy": {
+        "state": "prepared-and-offline-tested",
+        "filename": "paymium-b2c-v1-1080p.mp4",
+        "bytes": 6808942,
+        "sha256": "a2a4b59ccd57d5017c429dc6b7cc5896fce9901b83982b594d3fcf07a1dbb22d",
+        "durationSeconds": 72,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "audio": "aac"
+      },
+      "enabled": false,
+      "filename": "paymium_campagne_2_b2c_vdef_v1.mp4",
+      "receipt": "organiser-supplied-local-file",
+      "vimeoDownload": "not-used",
+      "video": {
+        "durationSeconds": 72,
+        "width": 3840,
+        "height": 2160,
+        "codec": "h264",
+        "audio": "aac"
+      },
+      "onlineIntegration": {
+        "type": "vimeo",
+        "state": "playback-and-ended-transition-verified",
+        "checkedOn": "2026-10-26"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: Test B-Only Signage
+
+on:
+  pull_request:
+    paths:
+      - "projects/b-only/signage/**"
+      - "projects/b-only/programme/programme.json"
+      - ".github/workflows/test-b-only-signage.yml"
+  push:
+    branches: [main]
+    paths:
+      - "projects/b-only/signage/**"
+      - "projects/b-only/programme/programme.json"
+      - ".github/workflows/test-b-only-signage.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Test horaires, serveur, sécurité et secours
+        run: npm --prefix projects/b-only/signage test
+      - name: Validate programme and shell
+        run: |
+          node projects/b-only/programme/validate.mjs
+          bash -n projects/b-only/signage/make-demo-video.sh
+          git diff --check

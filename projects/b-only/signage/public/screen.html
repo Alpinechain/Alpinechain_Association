@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>B-Only · Écran</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="screen">
+    <header class="screen-header">
+      <span class="brand">B-ONLY<span>’26</span></span
+      ><span id="screen-name">Affichage local</span
+      ><time id="clock">Europe/Paris</time>
+    </header>
+    <div id="demo" class="demo" hidden>DÉMONSTRATION · HORLOGE SIMULÉE</div>
+    <main id="display">
+      <section class="empty">
+        <p class="eyebrow">BIENVENUE</p>
+        <h1>B-Only’26</h1>
+        <p>Chargement du programme local…</p>
+        <p>
+          Si le réseau est indisponible, utilisez le dossier de secours
+          enregistré sur ce lecteur.
+        </p>
+      </section>
+    </main>
+    <aside id="announcement" hidden></aside>
+    <footer class="screen-footer">
+      <span>7–9 NOVEMBRE · ANNECY</span
+      ><span id="sync" role="status">Connexion au serveur local…</span
+      ><button id="fullscreen" type="button">Plein écran</button>
+    </footer>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
