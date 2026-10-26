@@ -1,10 +1,11 @@
-# Recette du prototype — 26 octobre 2026
+# Recette du MVP et de sa mise en service — 26 octobre 2026
 
-**PRÊT À RELIRE.** Tests réalisés sur le PC de développement, avec Node.js
+**DÉPLOYÉ, réception logicielle réussie.** Mise en service validée explicitement
+par Cyrille après revue du MVP. Les essais initiaux utilisent Node.js
 24.18.0 et Chromium 156.0.8078.47. Aucun essai physique des téléviseurs,
 boîtiers, câbles HDMI ou réseau du Novotel n'est déclaré.
 
-## Contrôles réalisés
+## Contrôles du prototype avant installation
 
 | Contrôle | Résultat |
 |---|---|
@@ -64,7 +65,30 @@ dans l'admin en mode démonstration, observer les durées et le passage à la
 suite, couper le réseau et recharger après préchauffage du cache. Refaire
 cette recette sur les vrais lecteurs et avec les visuels approuvés.
 
-## Recette matérielle restant ouverte dans #230
+## Mise en service vérifiée
+
+La PR applicative [#234](https://github.com/Alpinechain/Alpinechain_Association/pull/234)
+est fusionnée. L'installation est suivie dans le dépôt Serveur ; ses détails
+techniques et accès privés y restent.
+
+| Contrôle en production | Résultat |
+|---|---|
+| HTTPS et routage | [Salle principale](https://conference.b-only.org/), [Workshop](https://workshop.b-only.org/), [accueil](https://accueil.b-only.org/) : certificats valides et bon écran |
+| Administration | [adminvideo](https://adminvideo.b-only.org/) : réseau restreint et authentification ; refus sur les trois hôtes publics même avec des identifiants valides |
+| Visuels | 30 créneaux publics actifs, 30 URL d'images contrôlées ; aucune modification du programme officiel |
+| Hall réel | Accueil, MP4 Paymium B2B puis B2C et agendas ; démonstrations fictives retirées, vidéos muettes |
+| Paymium HTTPS | Tailles et SHA-256 conformes, requêtes partielles 206, autoplay, durées et transitions de fin vérifiés dans Chromium |
+| Formats | Rendu réel avant événement et simulation isolée dans le navigateur : 1920×1080, 1080×1920, 768×1024 ; deux vignettes en simulation, sans changement de l'horloge serveur |
+| Cache HTTPS | Rechargement sans réseau et deux images Blob depuis le cache après préchargement ; aucune erreur JavaScript de page |
+| Régie mobile | Administration authentifiée vérifiée à 390×844, sans mutation du programme |
+| Redémarrage du service | Santé correcte et configuration conservée ; démarrage automatique configuré, reboot complet du serveur non effectué |
+| Services existants | Contrôles avant/après identiques ; aucun autre service applicatif recréé |
+
+La validation de mise en service et la recette technique n'attestent pas
+les essais des lecteurs/TV ni la validation finale de la diffusion pendant
+l'événement. Ces actions sont reprises dans #12.
+
+## Recette matérielle reprise dans #12
 
 - Identifier les écrans, résolutions, orientations et lecteurs réellement disponibles.
 - Valider le LAN, le nom/IP de régie et HTTPS si le cache du navigateur doit permettre un redémarrage hors réseau.
@@ -74,6 +98,6 @@ cette recette sur les vrais lecteurs et avec les visuels approuvés.
 - Valider la reprise des vignettes sur écrans, les droits, logos et l'ordre des contenus partenaires.
 - Désigner la régie et son relais ; préparer les clés USB et un retour au programme nominal.
 
-La création de la PR, sa fusion, l'installation sur une machine de régie et la
-diffusion de l'événement sont des étapes distinctes. Aucune fusion ni mise en
-production n'est faite par la préparation du prototype.
+La livraison du MVP et sa mise en service clôturent #230. La recette sur place
+et la diffusion de l'événement restent suivies dans #12 ; elles ne sont pas
+déclarées réalisées par la fusion ou le déploiement.
