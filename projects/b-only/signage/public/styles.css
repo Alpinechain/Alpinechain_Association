@@ -1,0 +1,493 @@
+.online-preview {
+  display: flex;
+  height: 400px;
+}
+.local-preview {
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+}
+.vimeo-frame {
+  display: block;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  border: 0;
+  background: #130e25;
+}
+:root {
+  color-scheme: dark;
+  --bg: #130e25;
+  --panel: #211835;
+  --ink: #faf6f0;
+  --muted: #d0c4df;
+  --orange: #ff943e;
+  --line: #604b75;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+[hidden] {
+  display: none !important;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+a,
+input,
+select,
+textarea {
+  outline-offset: 4px;
+}
+button,
+.launch a {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  border-radius: 8px;
+  padding: 0.6em 0.9em;
+  cursor: pointer;
+}
+button:hover,
+.launch a:hover {
+  border-color: var(--orange);
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+a {
+  color: var(--orange);
+}
+.eyebrow {
+  letter-spacing: 0.13em;
+  font-size: clamp(16px, 1.5vw, 27px);
+  font-weight: bold;
+  color: var(--orange);
+  margin: 0 0 1rem;
+}
+.screen {
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(ellipse at 100% 100%, #39234a 0, transparent 60%), var(--bg);
+}
+.screen:before {
+  content: "";
+  position: fixed;
+  inset: 40% -3% 0;
+  clip-path: polygon(
+    0 85%,
+    15% 45%,
+    27% 69%,
+    49% 0,
+    66% 52%,
+    78% 20%,
+    100% 80%,
+    100% 100%,
+    0 100%
+  );
+  background: #ff943e08;
+  pointer-events: none;
+}
+.screen-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2vh 3vw;
+  border-bottom: 1px solid var(--line);
+  z-index: 1;
+}
+.brand {
+  font-size: clamp(26px, 3vw, 56px);
+  font-weight: 900;
+  letter-spacing: -0.06em;
+}
+.brand span {
+  color: var(--orange);
+}
+#screen-name {
+  font-size: clamp(18px, 2.2vw, 38px);
+  margin-left: auto;
+}
+#clock {
+  font-variant-numeric: tabular-nums;
+  color: var(--orange);
+  font-size: clamp(20px, 2.2vw, 40px);
+  white-space: nowrap;
+}
+#display {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  z-index: 1;
+}
+.room-display {
+  display: grid;
+  grid-template-rows: minmax(0, 1.65fr) minmax(0, 1fr);
+  padding: 2vh 3vw;
+  gap: 2vh;
+}
+.session {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.session.current {
+  border-left: 5px solid var(--orange);
+  padding-left: 2vw;
+}
+.session.next {
+  border-top: 1px solid var(--line);
+  padding-top: 1.5vh;
+}
+.session-title {
+  font-size: clamp(30px, 4.8vw, 90px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  margin: 0 0 1vh;
+  max-height: 25vh;
+  overflow-wrap: anywhere;
+}
+.next .session-title {
+  font-size: clamp(25px, 3.2vw, 62px);
+  max-height: 14vh;
+}
+.speakers {
+  font-size: clamp(22px, 2.5vw, 46px);
+  margin: 0.3vh 0;
+  color: var(--muted);
+}
+.slot-time {
+  font-size: clamp(18px, 1.9vw, 34px);
+  font-variant-numeric: tabular-nums;
+  margin: 1vh 0 0;
+}
+.delay {
+  font-size: clamp(16px, 1.4vw, 26px);
+  color: var(--orange);
+  margin: 0.6vh 0 0;
+}
+.screen-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2vh 3vw;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: clamp(12px, 1vw, 18px);
+  z-index: 1;
+}
+.screen-footer button {
+  font-size: 12px;
+  padding: 0.25em 0.6em;
+}
+:fullscreen #fullscreen {
+  display: none;
+}
+#sync.offline {
+  color: #ffca84;
+}
+.demo {
+  background: #ff943e;
+  color: #160e1e;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  padding: 0.4em;
+  font-size: 14px;
+}
+#announcement {
+  background: var(--orange);
+  color: #160e1e;
+  font-size: clamp(22px, 2.7vw, 46px);
+  line-height: 1.15;
+  font-weight: bold;
+  padding: 1.5vh 3vw;
+  overflow-wrap: anywhere;
+  z-index: 2;
+}
+.has-announcement .session-title {
+  max-height: 20vh;
+}
+.hall-display {
+  padding: 3vh 4vw;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.slide {
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+.slide h1 {
+  font-size: clamp(38px, 6vw, 112px);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  margin: 0;
+  max-height: 45vh;
+  overflow-wrap: anywhere;
+}
+.slide-text {
+  font-size: clamp(24px, 3.4vw, 62px);
+  color: var(--muted);
+  line-height: 1.2;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.media {
+  display: block;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  height: 0;
+}
+.media.contain {
+  object-fit: contain;
+}
+.media.cover {
+  object-fit: cover;
+}
+.slide .eyebrow {
+  flex-shrink: 0;
+}
+.agenda-room {
+  padding: 1vh 0;
+  border-top: 1px solid var(--line);
+}
+.agenda-room h2 {
+  font-size: clamp(24px, 2.7vw, 48px);
+  color: var(--orange);
+  margin: 1vh 0;
+}
+.agenda-room p {
+  font-size: clamp(20px, 2.2vw, 40px);
+  margin: 1vh 0;
+  line-height: 1.2;
+}
+.empty {
+  padding: 5vw;
+}
+.empty h1 {
+  font-size: 8vw;
+}
+.empty p {
+  font-size: clamp(22px, 2vw, 40px);
+}
+.admin {
+  line-height: 1.5;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.3rem;
+}
+.container > h1 {
+  font-size: clamp(36px, 6vw, 80px);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+}
+.launch {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.launch a {
+  text-decoration: none;
+  font-size: 24px;
+}
+.admin header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+.admin h2 {
+  color: var(--orange);
+  margin-top: 2rem;
+}
+.admin fieldset,
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.2rem;
+  background: var(--panel);
+  margin: 1rem 0;
+}
+.admin legend {
+  font-size: 21px;
+  color: var(--orange);
+  font-weight: bold;
+}
+.admin label {
+  display: block;
+  margin: 0.5rem 0;
+}
+.admin input:not([type="checkbox"]),
+.admin select,
+.admin textarea {
+  display: block;
+  width: 100%;
+  padding: 0.65em;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--ink);
+}
+.admin textarea {
+  min-height: 12rem;
+  font-family: monospace;
+  font-size: 14px;
+}
+.columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+.primary {
+  background: var(--orange);
+  color: var(--bg);
+  border-color: var(--orange);
+  font-weight: bold;
+}
+.notice {
+  color: var(--muted);
+}
+#result {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  padding: 0.8rem;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+#preview img,
+#preview video {
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+}
+.contact {
+  border-bottom: 1px solid var(--line);
+  padding: 0.5rem 0;
+}
+.pill {
+  color: var(--orange);
+  font-weight: bold;
+}
+.compact {
+  font-size: 14px;
+}
+@media (orientation: portrait) {
+  .screen-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 2vh 5vw;
+  }
+  .brand {
+    font-size: 8vw;
+  }
+  #screen-name {
+    font-size: 4vw;
+  }
+  #clock {
+    width: 100%;
+    text-align: right;
+    font-size: 5vw;
+  }
+  .room-display {
+    padding: 3vh 5vw;
+    grid-template-rows: minmax(0, 1.7fr) minmax(0, 1fr);
+  }
+  .session-title {
+    font-size: 8vw;
+    max-height: 29vh;
+  }
+  .next .session-title {
+    font-size: 6vw;
+    max-height: 18vh;
+  }
+  .speakers {
+    font-size: 4.7vw;
+  }
+  .slot-time {
+    font-size: 3.8vw;
+  }
+  .eyebrow {
+    font-size: 3.2vw;
+  }
+  .screen-footer {
+    font-size: 2.1vw;
+    flex-wrap: wrap;
+  }
+  .slide h1 {
+    font-size: 10vw;
+  }
+  .slide-text {
+    font-size: 6vw;
+  }
+  .agenda-room h2 {
+    font-size: 6vw;
+  }
+  .agenda-room p {
+    font-size: 4.7vw;
+  }
+  .hall-display {
+    padding: 4vh 5vw;
+  }
+  .has-announcement .session-title {
+    max-height: 24vh;
+  }
+}
+@media (max-height: 650px) and (orientation: landscape) {
+  .eyebrow {
+    margin-bottom: 0.4rem;
+    font-size: 14px;
+  }
+  .screen-header {
+    padding: 1vh 3vw;
+  }
+  .session-title {
+    font-size: 5vw;
+  }
+  .speakers {
+    font-size: 2vw;
+  }
+  .slot-time {
+    font-size: 1.6vw;
+  }
+  .delay {
+    font-size: 1.3vw;
+  }
+  .screen-footer {
+    padding: 0.5vh 3vw;
+  }
+  .demo {
+    font-size: 11px;
+    padding: 0.15em;
+  }
+}

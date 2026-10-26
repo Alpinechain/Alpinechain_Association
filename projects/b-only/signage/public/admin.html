@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>B-Only · Administration</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="admin">
+    <main class="container">
+      <header>
+        <a href="/">B-ONLY’26 · RÉGIE</a
+        ><a href="/api/admin/export" download>Exporter la configuration</a>
+      </header>
+      <h1>Piloter les écrans</h1>
+      <p id="result" role="status">Chargement…</p>
+      <p class="notice">
+        Les changements concernent cette régie locale. La grille GitHub reste la
+        référence. Les contacts ci-dessous signalent un navigateur joignable ;
+        ils ne prouvent ni l’allumage de la TV ni la bonne entrée HDMI.
+      </p>
+      <h2>Écrans</h2>
+      <div id="screens" class="columns"></div>
+      <h2>Annonce exceptionnelle</h2>
+      <form id="announcement-form" class="panel">
+        <label
+          >Message (240 caractères au maximum)<input
+            id="message"
+            maxlength="240" /></label
+        ><label
+          >Durée en minutes<input
+            id="message-minutes"
+            type="number"
+            min="1"
+            max="180"
+            value="10"
+            required
+        /></label>
+        <div class="actions">
+          <button class="primary">Afficher le message</button
+          ><button id="clear-message" type="button">Retirer le message</button>
+        </div>
+        <p>
+          L’annonce expire automatiquement. Pour une démonstration, ouvrir
+          l’admin avec le même paramètre « at » que les écrans.
+        </p>
+      </form>
+      <h2>Rotation hall</h2>
+      <form id="hall-form" class="panel">
+        <label
+          ><input id="paused" type="checkbox" /> Mettre la rotation en
+          pause</label
+        ><label
+          ><input id="online-enabled" type="checkbox" /> Autoriser les vidéos
+          Vimeo en ligne (Internet requis)</label
+        ><label
+          >Insérer le programme toutes les N diapositives (0 = désactivé)<input
+            id="agenda-every"
+            type="number"
+            min="0"
+            max="20"
+            required /></label
+        ><button class="primary">Appliquer</button>
+      </form>
+      <h2>Paymium · version en ligne</h2>
+      <div class="panel">
+        <p>
+          B2B est prioritaire pour le quiz ; B2C est complémentaire. Le lecteur
+          officiel Vimeo utilise Internet. Les copies locales sont disponibles
+          après préparation dans le dossier médias.
+        </p>
+        <div id="paymium-actions" class="actions"></div>
+        <div id="paymium-preview"></div>
+      </div>
+      <h2>Playlist et aperçu</h2>
+      <p>
+        Ordre du tableau = ordre de diffusion. Chaque entrée doit être activée
+        et approuvée. Les durées sont en secondes ; une vidéo se termine à sa
+        durée réelle. Répéter une entrée avec un identifiant différent permet
+        une fréquence spécifique. Les médias réels restent désactivés jusqu’à
+        validation de leurs droits.
+      </p>
+      <div class="panel">
+        <label
+          >Playlist JSON<textarea
+            id="playlist"
+            spellcheck="false"
+            aria-describedby="playlist-help"
+          ></textarea>
+        </label>
+        <p id="playlist-help" class="compact">
+          Types : text, image, video, vimeo, agenda. Chemins locaux
+          /media/nom.mp4 ou /media/nom.png ; sourceUrl pour les deux liens
+          Paymium reçus.
+        </p>
+        <div class="actions">
+          <button id="save-playlist" class="primary">
+            Valider et enregistrer</button
+          ><button id="add-text">Ajouter une annonce</button
+          ><button id="add-video">Ajouter une vidéo désactivée</button>
+        </div>
+        <label
+          >Entrée à prévisualiser<select id="preview-select"></select></label
+        ><button id="preview-button">Voir l’aperçu sans diffusion</button>
+        <div id="preview"></div>
+      </div>
+      <h2>Médias locaux disponibles</h2>
+      <p id="media-list">Chargement…</p>
+      <h2>Derniers contacts des lecteurs</h2>
+      <div id="contacts"></div>
+      <p id="programme-source" class="compact"></p>
+      <h2>Restaurer une configuration</h2>
+      <div class="panel">
+        <label
+          >Fichier exporté (.json)<input
+            id="restore-file"
+            type="file"
+            accept="application/json,.json" /></label
+        ><button id="restore">Valider et restaurer</button>
+        <p>
+          Une copie de la configuration précédente est conservée localement
+          avant chaque enregistrement.
+        </p>
+      </div>
+      <div class="actions">
+        <button id="reload">Recharger les réglages</button
+        ><a href="/screen/hall" target="_blank" rel="noopener"
+          >Ouvrir l’écran hall ↗</a
+        >
+      </div>
+    </main>
+    <script type="module" src="/admin.js"></script>
+  </body>
+</html>
