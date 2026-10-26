@@ -25,6 +25,19 @@ test("HTTP : auth, CSRF, validation, conflit, persistance, médias et secours", 
   const headers = { authorization, origin, "Content-Type": "application/json" };
   const state = await fetch(`${origin}/api/state`).then((r) => r.json());
   assert.equal(state.programme.entries.length, 30);
+  assert.ok(state.visuals["sat-main-alexandre"]);
+  assert.ok(
+    Object.keys(state.visuals).every((id) =>
+      state.programme.entries.some((e) => e.id === id),
+    ),
+  );
+  const visual = await fetch(origin + state.visuals["sat-main-alexandre"]);
+  assert.equal(visual.status, 200);
+  assert.equal(visual.headers.get("content-type"), "image/webp");
+  assert.equal(
+    (await fetch(origin + "/session-visuals/inconnu.webp")).status,
+    404,
+  );
   assert.ok(!JSON.stringify(state).includes(password));
   assert.equal((await fetch(`${origin}/admin`)).status, 401);
   assert.equal((await fetch(`${origin}/api/admin/export`)).status, 401);
@@ -119,6 +132,7 @@ test("HTTP : auth, CSRF, validation, conflit, persistance, médias et secours", 
   const exported = await exportOffline(dataDir, output);
   assert.deepEqual(exported.missing, ["demo-test.mp4"]);
   const html = await readFile(join(output, "salle-a.html"), "utf8");
+  assert.ok((await readdir(join(output, "session-visuals"))).length > 0);
   assert.ok(html.includes('data-screen="salle-a"'));
   assert.ok(!html.includes("from '/model.mjs'"));
   assert.ok(!html.includes(password));
@@ -144,7 +158,12 @@ test("sous-domaines publics : bon écran et aucune administration exposée", asy
       "utf8",
     ),
   );
-  const { server } = await createSignage({ dataDir, password, screenHosts });
+  const { server } = await createSignage({
+    dataDir,
+    password,
+    screenHosts,
+    adminHosts: ["adminvideo.b-only.org"],
+  });
   await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
   t.after(() => server.close());
   const base = `http://127.0.0.1:${server.address().port}`;
@@ -196,5 +215,34 @@ test("sous-domaines publics : bon écran et aucune administration exposée", asy
     (await fetch(base + "/api/admin/status", { headers: { authorization } }))
       .status,
     200,
+  );
+  const adminRoot = await request("adminvideo.b-only.org", "/");
+  assert.equal(adminRoot.status, 302);
+  assert.equal(adminRoot.location, "/admin");
+  assert.equal(
+    (await request("adminvideo.b-only.org", "/api/admin/status")).status,
+    200,
+  );
+  const withoutCredentials = await new Promise((resolve, reject) => {
+    const req = httpRequest(
+      base + "/",
+      { headers: { host: "adminvideo.b-only.org" } },
+      (response) => {
+        response.resume();
+        resolve(response.statusCode);
+      },
+    );
+    req.on("error", reject);
+    req.end();
+  });
+  assert.equal(withoutCredentials, 401);
+  await assert.rejects(
+    createSignage({
+      dataDir,
+      password,
+      screenHosts,
+      adminHosts: ["conference.b-only.org"],
+    }),
+    /déjà affectés/,
   );
 });

@@ -133,9 +133,12 @@ async function cacheMedia(data) {
     return;
   caching = true;
   try {
-    const media = data.config.playlist
-      .filter((s) => s.approved && s.enabled && s.src)
-      .map((s) => s.src);
+    const media = [
+      ...Object.values(data.visuals || {}),
+      ...data.config.playlist
+        .filter((s) => s.approved && s.enabled && s.src)
+        .map((s) => s.src),
+    ];
     const cache = await caches.open("bonly-media-v1");
     let complete = true;
     for (const src of new Set(media)) {
@@ -182,20 +185,47 @@ function clearMedia() {
 function sessionCard(label, entry, screen, next = false) {
   const section = el("section", next ? "session next" : "session current");
   section.append(el("p", "eyebrow", label));
+  const content = el("div", "session-content");
+  const copy = el("div", "session-copy");
+  content.append(copy);
+  section.append(content);
   if (entry) {
-    section.append(el(next ? "h2" : "h1", "session-title", entry.title));
+    copy.append(el(next ? "h2" : "h1", "session-title", entry.title));
     if (entry.speakers.length)
-      section.append(el("p", "speakers", entry.speakers.join(" · ")));
+      copy.append(el("p", "speakers", entry.speakers.join(" · ")));
     const date = dayFormat.format(entry.startMs);
-    section.append(
+    copy.append(
       el(
         "p",
         "slot-time",
         `${date} · ${hourFormat.format(entry.startMs)} — ${hourFormat.format(entry.endMs)}`,
       ),
     );
+    const src = state.visuals?.[entry.id];
+    if (src) {
+      const img = el("img", "session-visual");
+      img.alt = `Vignette · ${entry.title}`;
+      img.decoding = "async";
+      content.classList.add("with-visual");
+      content.append(img);
+      img.onload = fitTitles;
+      img.onerror = () => {
+        if (img.dataset.blob) URL.revokeObjectURL(img.dataset.blob);
+        img.remove();
+        content.classList.remove("with-visual");
+        fitTitles();
+      };
+      localMedia(src).then((url) => {
+        if (!img.isConnected) {
+          if (url.startsWith("blob:")) URL.revokeObjectURL(url);
+          return;
+        }
+        if (url.startsWith("blob:")) img.dataset.blob = url;
+        img.src = url;
+      });
+    }
   } else {
-    section.append(
+    copy.append(
       el(
         next ? "h2" : "h1",
         "session-title",
@@ -214,6 +244,8 @@ function drawRoom(screen, time) {
     room.phase,
     room.manual,
     room.overlap,
+    state.visuals?.[room.current?.id],
+    state.visuals?.[room.next?.id],
   ]);
   if (key === renderedKey) return;
   renderedKey = key;

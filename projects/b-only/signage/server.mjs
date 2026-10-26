@@ -8,6 +8,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { defaultConfig, validateConfig, validMediaPath } from "./config.mjs";
 import { importProgramme, validateProgramme } from "./programme.mjs";
 import { readJSON, saveJSON, backupConfig } from "./storage.mjs";
+import { loadSessionVisuals } from "./session-visuals.mjs";
 
 const root = dirname(fileURLToPath(import.meta.url));
 const types = {
@@ -66,6 +67,22 @@ export async function createSignage(options = {}) {
   )
     throw new Error("Sous-domaines d'écrans invalides");
   allowedHosts.push(...Object.keys(screenHosts));
+  const adminHosts =
+    options.adminHosts ||
+    (process.env.SIGNAGE_ADMIN_HOSTS || "")
+      .split(",")
+      .map((h) => h.trim())
+      .filter(Boolean);
+  if (
+    !Array.isArray(adminHosts) ||
+    adminHosts.some(
+      (h) => !/^[a-z0-9.-]+$/.test(h) || Object.hasOwn(screenHosts, h),
+    )
+  )
+    throw new Error(
+      "Hôtes d'administration invalides ou déjà affectés à un écran",
+    );
+  allowedHosts.push(...adminHosts);
   if (allowedHosts.some((h) => !/^(\[[a-f0-9:]+\]|[a-z0-9.-]+)$/.test(h)))
     throw new Error("Hôtes autorisés invalides (sans protocole ni port)");
   await mkdir(dataDir, { recursive: true, mode: 0o700 });
@@ -85,6 +102,10 @@ export async function createSignage(options = {}) {
     await saveJSON(programmePath, programme);
   }
   validateProgramme(programme);
+  const { visuals, routes: visualRoutes } = loadSessionVisuals(
+    programme,
+    dataDir,
+  );
   let config = validateConfig(
     await readJSON(join(dataDir, "config.json"), defaultConfig),
     programme,
@@ -100,6 +121,7 @@ export async function createSignage(options = {}) {
     serverNow: Date.now(),
     demo,
     programme,
+    visuals,
     config,
   });
   const expectedAuth = Buffer.from(
@@ -160,6 +182,7 @@ export async function createSignage(options = {}) {
         ? screenHosts[base.hostname]
         : null;
       const adminPath =
+        (adminHosts.includes(base.hostname) && path === "/") ||
         path === "/admin" ||
         path === "/admin.js" ||
         path.startsWith("/api/admin/");
@@ -176,6 +199,12 @@ export async function createSignage(options = {}) {
           { Location: `/screen/${publicScreen}${url.search}` },
         );
       if (adminPath && !auth()) return;
+      if (
+        adminHosts.includes(base.hostname) &&
+        path === "/" &&
+        ["GET", "HEAD"].includes(req.method)
+      )
+        return send(302, {}, { Location: `/admin${url.search}` });
       if (["PUT", "POST", "DELETE", "PATCH"].includes(req.method)) {
         // Les navigateurs étrangers ne peuvent pas agir avec des identifiants Basic mémorisés.
         if (
@@ -294,6 +323,8 @@ export async function createSignage(options = {}) {
         isMedia = true;
         if (dirname(await realpath(file)) !== mediaDir)
           return send(403, { error: "Média hors dossier" });
+      } else if (Object.hasOwn(visualRoutes, path)) {
+        file = visualRoutes[path];
       } else {
         const routes = {
           "/": "index.html",

@@ -12,6 +12,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { defaultConfig, validateConfig } from "./config.mjs";
 import { importProgramme, validateProgramme } from "./programme.mjs";
 import { readJSON } from "./storage.mjs";
+import { loadSessionVisuals } from "./session-visuals.mjs";
 
 const root = dirname(fileURLToPath(import.meta.url));
 export async function exportOffline(
@@ -37,16 +38,28 @@ export async function exportOffline(
     .map((s) => s.id);
   config.playlist = config.playlist.filter((s) => s.type !== "vimeo");
   config.hall.onlineEnabled = false;
+  const { visuals, routes: visualRoutes } = loadSessionVisuals(
+    programme,
+    dataDir,
+  );
   // Refuse un dossier existant : ne remplace jamais un précédent secours.
   await mkdir(output, { mode: 0o700 });
   await mkdir(join(output, "assets"));
   await mkdir(join(output, "media"));
+  await mkdir(join(output, "session-visuals"));
+  for (const [route, source] of Object.entries(visualRoutes))
+    await copyFile(
+      source,
+      join(output, "session-visuals", basename(route)),
+      constants.COPYFILE_EXCL,
+    );
   const snapshot = {
     version: 1,
     revision: 1,
     serverNow: Date.now(),
     demo: false,
     programme,
+    visuals,
     config,
   };
   const [template, css, model, app] = await Promise.all(
@@ -107,7 +120,7 @@ export async function exportOffline(
   }
   await writeFile(
     join(output, "LISEZ-MOI.txt"),
-    `Secours B-Only — ${new Date().toISOString()}\nOuvrir salle-a.html, salle-b.html ou hall.html avec Chromium.\nConserver assets/ et media/ dans ce dossier. Aucun serveur ou Internet requis.\nInstantané figé : pas d'administration ni de correction distante. Vérifier l'horloge du lecteur Europe/Paris.\nMédias absents (fallback programme) : ${missing.join(", ") || "aucun"}\n`,
+    `Secours B-Only — ${new Date().toISOString()}\nOuvrir salle-a.html, salle-b.html ou hall.html avec Chromium.\nConserver assets/, media/ et session-visuals/ dans ce dossier. Aucun serveur ou Internet requis.\nInstantané figé : pas d'administration ni de correction distante. Vérifier l'horloge du lecteur Europe/Paris.\nMédias absents (fallback programme) : ${missing.join(", ") || "aucun"}\n`,
     { flag: "wx" },
   );
   return { output, missing, omittedOnline };

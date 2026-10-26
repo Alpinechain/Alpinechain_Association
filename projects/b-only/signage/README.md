@@ -78,6 +78,29 @@ session : début inclus, fin exclue. Pauses, avant ouverture et fins de journée
 sont explicites. Les chevauchements sont refusés à l'import. Aucun horaire ou
 titre n'est déduit de l'identifiant d'une session.
 
+### Vignettes « En cours » et « À suivre »
+
+Les deux cartes affichent leur visuel en conservant ses proportions. La
+correspondance reprend les identifiants et les copies de diffusion référencées
+dans `programme/public/visuals.mjs`. Aucun portrait, titre ou rattachement n'est
+inventé. Les pictogrammes sont conservés pour les pauses et créneaux concernés.
+
+Avant installation, préparer les copies publiques encore hébergées sur le
+site AlpineChain, puis démarrer ou redémarrer le serveur :
+
+```bash
+node prepare-session-visuals.mjs
+```
+
+La commande récupère uniquement les images du registre publié, sur
+`https://alpinechain.xyz/wp-content/uploads/`, sans redirection ni écrasement.
+Les copies sont conservées dans `SIGNAGE_DATA_DIR/visuals/`, hors GitHub.
+Les autres visuels sont servis depuis les copies légères déjà présentes dans
+le programme. Les 30 créneaux actifs disposent d'un visuel après préparation.
+L'application ne charge aucune image sur Internet pendant la diffusion.
+Le cache et l'export de secours incluent ces images. Une image absente laisse
+le texte lisible ; les droits et la diffusion sur écrans restent à valider.
+
 ```bash
 # Après une nouvelle validation officielle, import explicite puis redémarrage.
 npm run import
@@ -220,6 +243,7 @@ changement utile. Il dépend de l'horloge locale du lecteur au démarrage.
 | `conference.b-only.org` | Salle principale, `/screen/salle-a` |
 | `workshop.b-only.org` | Pleb Forum, `/screen/salle-b` |
 | `accueil.b-only.org` | Hall, `/screen/hall` |
+| `adminvideo.b-only.org` | Administration authentifiée, `/admin`, accès réseau privé |
 
 Le routage est préparé dans [public-screen-hosts.json](deploy/public-screen-hosts.json).
 L'activer sur la régie choisie avec `SIGNAGE_SCREEN_HOSTS_FILE` pointant vers
@@ -228,6 +252,15 @@ refuse l'administration et les écritures de configuration, même avec des
 identifiants valides. Les contacts des lecteurs restent autorisés et bornés.
 Un [exemple Caddy](deploy/Caddyfile.example) apporte une seconde protection
 des routes privées. Il ne remplace pas la configuration d'infrastructure.
+
+Pour l'administration, définir
+`SIGNAGE_ADMIN_HOSTS=adminvideo.b-only.org`. La racine exige l'authentification
+avant de rediriger vers `/admin`. Un même hôte ne peut pas être affecté à
+l'administration et à un écran public. L'exemple Caddy refuse l'accès à cet
+hôte hors loopback par défaut : remplacer cette liste uniquement par les
+adresses ou le réseau VPN de régie validés lors de l'installation. Un simple
+nom DNS ou mot de passe ne constitue pas un filtrage réseau. Référence :
+[matcher réseau Caddy](https://caddyserver.com/docs/caddyfile/matchers#remote-ip).
 
 Pour une publication Internet : préparer une PR dans `Alpinechain/Serveur`,
 faire écouter Node sur `127.0.0.1`, utiliser Caddy pour HTTPS, puis faire

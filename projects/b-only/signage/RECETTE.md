@@ -27,6 +27,8 @@ boîtiers, câbles HDMI ou réseau du Novotel n'est déclaré.
 | Adresses publiques préparées | Correspondance des trois sous-domaines et refus de l'admin testés ; aucun DNS ou serveur de production modifié |
 | Racine d'un hôte d'écran | Redirection en ligne puis ouverture hors ligne de la racine vérifiées sur localhost ; cache de redirection corrigé |
 | Exemple Caddy | `caddy adapt` réussi avec le conteneur existant ; aucune configuration appliquée |
+| `adminvideo.b-only.org` | Racine authentifiée, redirection vers l'admin et refus d'un hôte partagé avec un écran testés ; filtrage réseau Caddy proposé, non déployé |
+| Vignettes | 30 visuels disponibles localement ; cartes actuelle/suivante vérifiées en 1920×1080, 1080×1920 et 768×1024, dans le cache hors ligne et l'export `file://` ; image absente : texte conservé |
 
 Les contrôles de pause/expirations utilisent l'heure de simulation sur les
 écrans et l'admin lorsque `SIGNAGE_DEMO=1`. Les essais Vimeo confirment le
@@ -69,7 +71,7 @@ cette recette sur les vrais lecteurs et avec les visuels approuvés.
 - Tester extinction, reprise électrique, connexion automatique, bonne URL et bonne entrée HDMI.
 - Charger un cycle complet sur chaque lecteur ; tester perte Internet puis coupure LAN/serveur.
 - Vérifier NTP, lisibilité à plusieurs mètres et lecture sonore si retenue.
-- Fournir portrait réel et logo approuvés ; valider les droits et l'ordre des contenus partenaires.
+- Valider la reprise des vignettes sur écrans, les droits, logos et l'ordre des contenus partenaires.
 - Désigner la régie et son relais ; préparer les clés USB et un retour au programme nominal.
 
 La création de la PR, sa fusion, l'installation sur une machine de régie et la
