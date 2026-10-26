@@ -1,11 +1,26 @@
 # Affichage dynamique B-Only’26
 
-**État : PRÊT À RELIRE — prototype local, essais sur matériel à réaliser.**
+**État : DÉPLOYÉ le 26 octobre 2026, sur validation explicite de Cyrille.**
 Suivi : [#230](https://github.com/Alpinechain/Alpinechain_Association/issues/230).
+Recette matérielle et organisation jour J : [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12).
+
+| Adresse en service | Affichage |
+|---|---|
+| [conference.b-only.org](https://conference.b-only.org/) | Salle principale |
+| [workshop.b-only.org](https://workshop.b-only.org/) | Workshop |
+| [accueil.b-only.org](https://accueil.b-only.org/) | Hall et vidéos |
+| [adminvideo.b-only.org](https://adminvideo.b-only.org/) | Régie authentifiée, accès réseau restreint |
+
+Les 30 créneaux actifs ont leur visuel. La boucle de production utilise
+l'accueil, les MP4 Paymium B2B puis B2C et les agendas ; aucun média fictif
+n'est activé. Les liens Vimeo restent disponibles dans l'administration,
+sans être activés dans la rotation par défaut. Le catalogue versionné et la
+configuration par défaut restent des modèles ; l'activation réelle est dans
+la configuration de régie hors Git. Détails de réception : [RECETTE.md](RECETTE.md).
 
 Projet : B-Only. Objectif : afficher le programme des salles et une boucle hall,
 puis permettre à la régie de corriger l'affichage pendant l'événement.
-Public : participants et équipe technique. Sortie : application LAN autonome.
+Public : participants et équipe technique. Sortie : application web autonome et secours hors ligne.
 Validation : Cyrille / organisation avant diffusion des contenus et installation.
 Code et démonstrations synthétiques : [licence MIT](LICENSE) ; les contenus
 du programme et médias tiers conservent leurs droits propres.
