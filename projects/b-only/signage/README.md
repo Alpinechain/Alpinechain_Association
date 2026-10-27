@@ -9,7 +9,7 @@ Recette matérielle et organisation jour J : [#12](https://github.com/Alpinechai
 | [conference.b-only.org](https://conference.b-only.org/) | Salle principale |
 | [workshop.b-only.org](https://workshop.b-only.org/) | Workshop |
 | [accueil.b-only.org](https://accueil.b-only.org/) | Hall et vidéos |
-| [adminvideo.b-only.org](https://adminvideo.b-only.org/) | Régie authentifiée, accès réseau restreint |
+| [adminvideo.b-only.org](https://adminvideo.b-only.org/) | Régie accessible sur Internet, connexion obligatoire |
 
 Les 30 créneaux actifs ont leur visuel. La boucle de production utilise
 l'accueil, les MP4 Paymium B2B puis B2C et les agendas ; aucun média fictif
@@ -258,7 +258,7 @@ changement utile. Il dépend de l'horloge locale du lecteur au démarrage.
 | `conference.b-only.org` | Salle principale, `/screen/salle-a` |
 | `workshop.b-only.org` | Pleb Forum, `/screen/salle-b` |
 | `accueil.b-only.org` | Hall, `/screen/hall` |
-| `adminvideo.b-only.org` | Administration authentifiée, `/admin`, accès réseau privé |
+| `adminvideo.b-only.org` | Administration authentifiée, `/admin`, accessible sur Internet |
 
 Le routage est préparé dans [public-screen-hosts.json](deploy/public-screen-hosts.json).
 L'activer sur la régie choisie avec `SIGNAGE_SCREEN_HOSTS_FILE` pointant vers
@@ -271,17 +271,16 @@ des routes privées. Il ne remplace pas la configuration d'infrastructure.
 Pour l'administration, définir
 `SIGNAGE_ADMIN_HOSTS=adminvideo.b-only.org`. La racine exige l'authentification
 avant de rediriger vers `/admin`. Un même hôte ne peut pas être affecté à
-l'administration et à un écran public. L'exemple Caddy refuse l'accès à cet
-hôte hors loopback par défaut : remplacer cette liste uniquement par les
-adresses ou le réseau VPN de régie validés lors de l'installation. Un simple
-nom DNS ou mot de passe ne constitue pas un filtrage réseau. Référence :
-[matcher réseau Caddy](https://caddyserver.com/docs/caddyfile/matchers#remote-ip).
+l'administration et à un écran public. Depuis le 27 octobre 2026, sur demande
+explicite de Cyrille, cet hôte est accessible depuis tous les réseaux.
+L'application renvoie 401 et un challenge Basic sans identifiants, puis ouvre
+la régie après connexion. Le mot de passe reste obligatoire sous HTTPS.
 
 Pour une publication Internet : préparer une PR dans `Alpinechain/Serveur`,
 faire écouter Node sur `127.0.0.1`, utiliser Caddy pour HTTPS, puis faire
-valider installation et entrées DNS OVH. L'administration se fera par accès
-privé / tunnel SSH. Ces opérations ne sont pas effectuées par cette PR.
-Le site Framer et les DNS actuels ne sont pas modifiés.
+valider installation et entrées DNS OVH. L'installation actuelle est suivie
+dans ce dépôt d'infrastructure ; l'exemple ne l'applique pas automatiquement.
+Le site Framer et les DNS actuels ne sont pas modifiés par l'exemple.
 
 Pour l'événement : garder une régie maître unique. Un serveur public exige
 Internet pour recevoir des corrections ; une régie sur LAN conserve cette
