@@ -24,11 +24,24 @@
       },
       "usage": {
         "quiz": "selection-to-validate",
-        "hall": "edit-and-test-pending"
+        "hall": "organiser-requested-and-enabled-2026-10-27"
       },
-      "localCopy": "not-prepared",
-      "broadcastApproval": "pending",
-      "enabled": false
+      "localCopy": {
+        "state": "prepared-and-deployed",
+        "checkedOn": "2026-10-27",
+        "filename": "neowalt-salon-v8-1080p-x1_5.mp4",
+        "bytes": 5158893,
+        "sha256": "2ea4b6f79bccdb9ed906382edc1e0bea19a0325e3b29df7aa30b406ca8a7f223",
+        "durationSeconds": 48.0,
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "audio": false,
+        "speedMultiplierEncoded": 1.5,
+        "transformation": "setpts=(PTS-STARTPTS)/1.5; audio atempo=1.5 when present; originals unchanged"
+      },
+      "broadcastApproval": "organiser-requested-hall-2026-10-27",
+      "enabled": true
     },
     {
       "id": "neowalt-echecs",
@@ -50,11 +63,24 @@
       },
       "usage": {
         "quiz": "selection-to-validate",
-        "hall": "edit-and-test-pending"
+        "hall": "organiser-requested-and-enabled-2026-10-27"
       },
-      "localCopy": "not-prepared",
-      "broadcastApproval": "pending",
-      "enabled": false
+      "localCopy": {
+        "state": "prepared-and-deployed",
+        "checkedOn": "2026-10-27",
+        "filename": "neowalt-echecs-1080p-x1_5.mp4",
+        "bytes": 9787026,
+        "sha256": "15ac739ad27ddb2208c210324975a5fdaf3fcb857e466f1343bd0d7dc541c597",
+        "durationSeconds": 27.215,
+        "width": 1080,
+        "height": 1920,
+        "codec": "h264",
+        "audio": "aac",
+        "speedMultiplierEncoded": 1.5,
+        "transformation": "setpts=(PTS-STARTPTS)/1.5; audio atempo=1.5 when present; originals unchanged"
+      },
+      "broadcastApproval": "organiser-requested-hall-2026-10-27",
+      "enabled": true
     },
     {
       "id": "paymium-b2b",
@@ -62,7 +88,7 @@
       "variant": "B2B",
       "title": "PAYMIUM_CAMPAGNE 2_B2B_VDEF",
       "sourceUrl": "https://vimeo.com/1237252706/a8cfeb9722?share=copy",
-      "broadcastApproval": "pending",
+      "broadcastApproval": "organiser-requested-hall-2026-10-27",
       "archive": {
         "state": "verified-created",
         "path": "Association/Action - Initiatives/B-Only/2026/06_Medias/Paymium/paymium_campagne_2_b2b_vdef_v1.mp4",
@@ -73,20 +99,23 @@
       },
       "usage": {
         "quiz": "priority-requested",
-        "hall": "paymium-playlist-requested"
+        "hall": "organiser-requested-and-enabled-2026-10-27"
       },
       "localCopy": {
-        "state": "prepared-and-offline-tested",
-        "filename": "paymium-b2b-v1-1080p.mp4",
-        "bytes": 9635198,
-        "sha256": "eab55ef76e694914af75c82612a6350a6b3ce02c156dfe8dca2140b85243465e",
-        "durationSeconds": 97.45,
+        "state": "prepared-and-deployed",
+        "checkedOn": "2026-10-27",
+        "filename": "paymium-b2b-v1-1080p-x1_5.mp4",
+        "bytes": 7394635,
+        "sha256": "f4f4e94ab40c73851023be650ed38cb378800ec926ef1ba7cc4b3ca10e3ccbc8",
+        "durationSeconds": 64.971,
         "width": 1920,
         "height": 1080,
         "codec": "h264",
-        "audio": "aac"
+        "audio": "aac",
+        "speedMultiplierEncoded": 1.5,
+        "transformation": "setpts=(PTS-STARTPTS)/1.5; audio atempo=1.5; originals unchanged"
       },
-      "enabled": false,
+      "enabled": true,
       "filename": "paymium_campagne_2_b2b_vdef_v1.mp4",
       "receipt": "organiser-supplied-local-file",
       "vimeoDownload": "not-used",
@@ -109,7 +138,7 @@
       "variant": "B2C",
       "title": "PAYMIUM_CAMPAGNE 2_B2C_VDEF",
       "sourceUrl": "https://vimeo.com/1237252731/9246571fc3?share=copy",
-      "broadcastApproval": "pending",
+      "broadcastApproval": "organiser-requested-hall-2026-10-27",
       "archive": {
         "state": "verified-created",
         "path": "Association/Action - Initiatives/B-Only/2026/06_Medias/Paymium/paymium_campagne_2_b2c_vdef_v1.mp4",
@@ -120,20 +149,23 @@
       },
       "usage": {
         "quiz": "alternative",
-        "hall": "paymium-playlist-complement"
+        "hall": "organiser-requested-and-enabled-2026-10-27"
       },
       "localCopy": {
-        "state": "prepared-and-offline-tested",
-        "filename": "paymium-b2c-v1-1080p.mp4",
-        "bytes": 6808942,
-        "sha256": "a2a4b59ccd57d5017c429dc6b7cc5896fce9901b83982b594d3fcf07a1dbb22d",
-        "durationSeconds": 72,
+        "state": "prepared-and-deployed",
+        "checkedOn": "2026-10-27",
+        "filename": "paymium-b2c-v1-1080p-x1_5.mp4",
+        "bytes": 5472784,
+        "sha256": "b2f21824de1de25c1f58ac2f679caa3c133c83544ff2b935a7fdba65cbeb3150",
+        "durationSeconds": 48.0,
         "width": 1920,
         "height": 1080,
         "codec": "h264",
-        "audio": "aac"
+        "audio": "aac",
+        "speedMultiplierEncoded": 1.5,
+        "transformation": "setpts=(PTS-STARTPTS)/1.5; audio atempo=1.5; originals unchanged"
       },
-      "enabled": false,
+      "enabled": true,
       "filename": "paymium_campagne_2_b2c_vdef_v1.mp4",
       "receipt": "organiser-supplied-local-file",
       "vimeoDownload": "not-used",
@@ -150,5 +182,6 @@
         "checkedOn": "2026-10-26"
       }
     }
-  ]
+  ],
+  "hallUpdatedOn": "2026-10-27"
 }

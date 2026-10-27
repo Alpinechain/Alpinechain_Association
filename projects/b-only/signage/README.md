@@ -12,11 +12,28 @@ Recette matérielle et organisation jour J : [#12](https://github.com/Alpinechai
 | [adminvideo.b-only.org](https://adminvideo.b-only.org/) | Régie accessible sur Internet, connexion obligatoire |
 
 Les 30 créneaux actifs ont leur visuel. La boucle de production utilise
-l'accueil, les MP4 Paymium B2B puis B2C et les agendas ; aucun média fictif
-n'est activé. Les liens Vimeo restent disponibles dans l'administration,
+l'accueil, les vignettes intervenants, les MP4 partenaires et les agendas ;
+aucun média fictif n'est activé. Les liens Vimeo restent disponibles dans l'administration,
 sans être activés dans la rotation par défaut. Le catalogue versionné et la
 configuration par défaut restent des modèles ; l'activation réelle est dans
 la configuration de régie hors Git. Détails de réception : [RECETTE.md](RECETTE.md).
+
+Mise à jour du hall le 27 octobre, sur demande de Cyrille : deux vidéos
+Néowalt (48 s et environ 27,2 s) et deux vidéos Paymium (environ 65 s et
+48 s) en copies de lecture à vitesse ×1,5 ; 19 vignettes intervenants à
+4 secondes chacune, réparties entre les vidéos.
+18 vignettes proviennent de Nextcloud ; Thomas Mang reprend le visuel déjà
+publié dans le programme, absent du dossier Nextcloud. Les diapositives fixes
+et l'agenda sont également réglés à 4 secondes ; chaque vidéo va jusqu'à sa
+fin. Le mode « Ordre aléatoire à chaque cycle » est activable dans la
+rotation hall de l’administration : un cycle conserve son ordre, puis le
+suivant est remélangé. Chaque contenu passe une fois par cycle ; la fréquence
+des agendas automatiques et les durées sont conservées. Ce réglage fonctionne
+aussi depuis le cache ou un export hors ligne. Les autres réglages de régie
+sont conservés.
+Sources et empreintes : [catalogue vidéos](catalogue-medias.json) et
+[sélection des vignettes](catalogue-vignettes-hall.json). Les originaux sont
+conservés et aucun fichier média n'est versionné dans ces catalogues.
 
 Projet : B-Only. Objectif : afficher le programme des salles et une boucle hall,
 puis permettre à la régie de corriger l'affichage pendant l'événement.

@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "checkedOn": "2026-10-27",
+  "issue": "https://github.com/Alpinechain/Alpinechain_Association/issues/238",
+  "purpose": "Sélection de vignettes pour le hall ; sources inchangées, copies de diffusion hors Git",
+  "durationSeconds": 4,
+  "cards": [
+    {
+      "id": "speaker-profedustream-pratique-18cbeae7",
+      "title": "ProfEduStream · Bitcoin en pratique",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--profedustream--apprendre-bitcoin-en-pratique--2026-08-03--valide.png"
+      },
+      "sourceSha256": "18cbeae78a79d05d0e7e9d794b79e66ef744e01191923f8e3e53ce259132b77e",
+      "filename": "hall-profedustream-pratique-18cbeae78a79.webp",
+      "bytes": 179400,
+      "sha256": "37f8e7ab3ae7d89bfa9e581b2a80bc484a60c5008b18ed91091c65000d991588",
+      "sessionIds": [
+        "sat-workshop-profedu-qa",
+        "sat-workshop-profedu-quantum",
+        "sun-workshop-profedu-send-receive",
+        "sun-workshop-meetup-organizers",
+        "sun-workshop-profedu-offline",
+        "mon-workshop-profedu-ai-bitcoin"
+      ]
+    },
+    {
+      "id": "speaker-profedustream-quantique-11a81cb2",
+      "title": "ProfEduStream · Menace quantique",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--profedustream--menace-quantique--2026-08-03--valide.png"
+      },
+      "sourceSha256": "11a81cb24dda84e1be6c3508277bb12eab5aa5a55ea36549e4fa90a788699904",
+      "filename": "hall-profedustream-quantique-11a81cb24dda.webp",
+      "bytes": 183430,
+      "sha256": "adc3cd1d294e8abb25c721bf1c3ad7e764ea18b91f500daba829caa715f55418",
+      "sessionIds": [
+        "sat-workshop-profedu-qa",
+        "sat-workshop-profedu-quantum",
+        "sun-workshop-profedu-send-receive",
+        "sun-workshop-meetup-organizers",
+        "sun-workshop-profedu-offline",
+        "mon-workshop-profedu-ai-bitcoin"
+      ]
+    },
+    {
+      "id": "speaker-alexandre-stachtchenko-d9f76271",
+      "title": "Alexandre Stachtchenko",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-10-13--a-valider-v4.png",
+        "selectionReference": "programme/public/visuals/SOURCES.md (V4), mise en service #230"
+      },
+      "sourceSha256": "d9f762717dd3cd922013a736706393777228cc03e0c19647d3533e2e4ea323e9",
+      "filename": "hall-alexandre-stachtchenko-d9f762717dd3.webp",
+      "bytes": 134794,
+      "sha256": "df46d2fc09f75ac99d33fca0c075ccd772d08318fb8fb06046d5cf3451103ba2",
+      "sessionIds": [
+        "sat-main-alexandre"
+      ]
+    },
+    {
+      "id": "speaker-elodie-lue-89d5dab1",
+      "title": "Élodie Lué",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--elodie-lue--quand-bitcoin-rencontre-le-mobile-money--2026-07-27--valide.png"
+      },
+      "sourceSha256": "89d5dab17face4c942a995fc8774de28b7493f9adac64c07f74b5f887c5efa50",
+      "filename": "hall-elodie-lue-89d5dab17fac.webp",
+      "bytes": 144634,
+      "sha256": "3d5baf594283deee558919fac6a5229ba695b18c94a3eff04b90bf31b5b8752e",
+      "sessionIds": [
+        "sun-main-elodie-mobile-money",
+        "sun-workshop-elodie-lightning"
+      ]
+    },
+    {
+      "id": "speaker-pierre-noizat-6c5f688b",
+      "title": "Pierre Noizat",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--pierre-noizat--energie-monnaie-et-civilisation--2026-08-12--valide.png"
+      },
+      "sourceSha256": "6c5f688ba70f5d6d61975fd24617ad4f6f3b9d6f3a6f7cdc6aaa6891b246eee2",
+      "filename": "hall-pierre-noizat-6c5f688ba70f.webp",
+      "bytes": 137130,
+      "sha256": "2701288e21277c6c788687f244c20145123b8d4a1196a1a317573a820dfe19be",
+      "sessionIds": [
+        "sun-main-pierre"
+      ]
+    },
+    {
+      "id": "speaker-polto-darko-8c36cf6b",
+      "title": "Polto et Darko",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--polto-darko--justifier-origine-bitcoins--2026-07-30--valide.png"
+      },
+      "sourceSha256": "8c36cf6bc941ad59ffe5ca79acaaa9123dc0a2f03c6daf160d6547eef5ec3045",
+      "filename": "hall-polto-darko-8c36cf6bc941.webp",
+      "bytes": 161844,
+      "sha256": "a448b120c57e0fc8cf364cf251cf0248f4bf50fca8effb1a99bcb0fad5ef7dca",
+      "sessionIds": [
+        "sat-workshop-polto-darko"
+      ]
+    },
+    {
+      "id": "speaker-florent-gabriel-f5396679",
+      "title": "Florent Gabriel",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-11--valide.png"
+      },
+      "sourceSha256": "f53966796318c0db43912d29c7278ef2515182916aa0899103dcf862df9cc3e9",
+      "filename": "hall-florent-gabriel-f53966796318.webp",
+      "bytes": 130780,
+      "sha256": "7c4e5504354c4357176f31ce1693c2d0326bd604e0d6b38bc18ebafd7a2e7b53",
+      "sessionIds": [
+        "sat-main-florent"
+      ]
+    },
+    {
+      "id": "speaker-nicolas-cantu-e3967b28",
+      "title": "Nicolas Cantu",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--nicolas-cantu--lire-les-degats-de-l-impression-monetaire-dans-les-sols--2026-07-27--valide.png"
+      },
+      "sourceSha256": "e3967b28a9f2abf0d8781e30f843c2ee85631888ead6a0b2295f5e559b9594d3",
+      "filename": "hall-nicolas-cantu-e3967b28a9f2.webp",
+      "bytes": 133602,
+      "sha256": "507d84780b76d43922ad0e71e33ebeba2d5d4479cb66c2754c1a45232b9ff8b0",
+      "sessionIds": [
+        "sat-main-nicolas"
+      ]
+    },
+    {
+      "id": "speaker-marius-farashi-6b35ddb0",
+      "title": "Marius Farashi",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--marius-farashi--utxo-ark--2026-10-03--proposition.png",
+        "selectionReference": "campaigns/marius-farashi/README.md (visuel validé malgré le nom proposition)"
+      },
+      "sourceSha256": "6b35ddb080c83972fe3663b147f585010b9c67118b497215a3c17b5afa28d099",
+      "filename": "hall-marius-farashi-6b35ddb080c8.webp",
+      "bytes": 152110,
+      "sha256": "e029df45bd081f8b9a5c608a46c19966b766a04d8b8dd8f4deb6ebbdab6ba42c",
+      "sessionIds": [
+        "sun-workshop-marius"
+      ]
+    },
+    {
+      "id": "speaker-mill3sim3-af05450b",
+      "title": "Mill3sim3",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--mill3sim3--presentation-bitcointrails--2026-10-08--valide-v1.png"
+      },
+      "sourceSha256": "af05450be8f1a67ee007e3f0482fcb6981fb6cb7878255332a1e89f3ac53acac",
+      "filename": "hall-mill3sim3-af05450be8f1.webp",
+      "bytes": 198870,
+      "sha256": "e2d62b64da0c53bbe5c8e174e06e17dfe71fb7d61998276b0f0985110febe8cc",
+      "sessionIds": [
+        "sun-main-mill3sim3-bitcointrails"
+      ]
+    },
+    {
+      "id": "speaker-aurore-galves-88b65ef2",
+      "title": "Aurore Galves",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--aurore-galves--have-fun-staying-fun--2026-08-05--valide.png"
+      },
+      "sourceSha256": "88b65ef27066ddf284cd5eb4e62c6b57fa3d697f5ac4fe21368fcad9dde2c55f",
+      "filename": "hall-aurore-galves-88b65ef27066.webp",
+      "bytes": 164970,
+      "sha256": "3b3fb2460c9b354057bca3a2d4b6572fe0bf76cb1da39bfeaf930feab42e403b",
+      "sessionIds": [
+        "sun-main-aurore"
+      ]
+    },
+    {
+      "id": "speaker-loic-ruchat-leuthardt-578843e4",
+      "title": "Loïc Ruchat-Leuthardt",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--loic-ruchat-leuthardt--posseder-ses-bitcoins-en-toute-securite--2026-10-12--valide-v1.png"
+      },
+      "sourceSha256": "578843e4a8e51e713b03e342d7f856ce8830105282ebbfb5245aa9655341a54a",
+      "filename": "hall-loic-ruchat-leuthardt-578843e4a8e5.webp",
+      "bytes": 138430,
+      "sha256": "38d05b29bcd37825a333b4cfe2b099a9b3d6e2db1129f21ed0bcdf1cc67522a6",
+      "sessionIds": [
+        "sat-workshop-bitvault"
+      ]
+    },
+    {
+      "id": "speaker-christine-jeanneaux-efbb41ca",
+      "title": "Christine Jeanneaux",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--christine-jeanneaux--et-si-on-comptait-les-moutons--2026-07-29--valide.png"
+      },
+      "sourceSha256": "efbb41ca059800c588ff4e3812ebeccf0047816173813e68e4b1c7f8cbfdf03b",
+      "filename": "hall-christine-jeanneaux-efbb41ca0598.webp",
+      "bytes": 174076,
+      "sha256": "6e446f3c1cfbec4b8282a4ffd0367c3b201420ff6fa0b9c3839b378b72cd5297",
+      "sessionIds": [
+        "sun-main-christine"
+      ]
+    },
+    {
+      "id": "speaker-renaud-lifchitz-2e5902b5",
+      "title": "Renaud Lifchitz",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--valide.png"
+      },
+      "sourceSha256": "2e5902b5366be007df122bdc8a591842cbe3bef95452ee1bd4d4ea802746a181",
+      "filename": "hall-renaud-lifchitz-2e5902b5366b.webp",
+      "bytes": 167084,
+      "sha256": "95c01cc1c4dfc30952da2b9327dd1dde1b4283068818f5cba29b5353b656aef5",
+      "sessionIds": [
+        "sun-workshop-renaud"
+      ]
+    },
+    {
+      "id": "speaker-frederic-jollien-6c2aad8c",
+      "title": "Frédéric Jollien",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--frederic-jollien--bitcoin-ideal-liberal--2026-10-12--valide-v1.png"
+      },
+      "sourceSha256": "6c2aad8c5a820c5d777e54a2dbf9b820030391c8b22b4673e902a805aba67bb3",
+      "filename": "hall-frederic-jollien-6c2aad8c5a82.webp",
+      "bytes": 137908,
+      "sha256": "9ccc65dd6d0dddab0d1c81f357657b146098e6020dd1974afc58258010759004",
+      "sessionIds": [
+        "sun-main-frederic-jollien"
+      ]
+    },
+    {
+      "id": "speaker-lionel-jeannerat-1ed188cf",
+      "title": "Lionel Jeannerat",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--lionel-jeannerat--bitcoin-pour-les-copain-e-s--2026-09-11--valide.png"
+      },
+      "sourceSha256": "1ed188cf6e83b0f0bb88c21a2c9c74a4a59b4a31d12b2080b29d97894aebd5ae",
+      "filename": "hall-lionel-jeannerat-1ed188cf6e83.webp",
+      "bytes": 181502,
+      "sha256": "f9a2c06620b81c643c3fa90b46eadea7a3289015391de3b1133e2f7f6640120a",
+      "sessionIds": [
+        "sat-main-lionel"
+      ]
+    },
+    {
+      "id": "speaker-laure-merlin-ff15b53c",
+      "title": "Laure Merlin",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--laure-merlin--atelier-bitcoin-lego--2026-09-19--valide.png"
+      },
+      "sourceSha256": "ff15b53c49ed203fe6592d81acfe4748bd4161b1217cb595b92a6791e7fadd16",
+      "filename": "hall-laure-merlin-ff15b53c49ed.webp",
+      "bytes": 156084,
+      "sha256": "95f48e5ccceec39c87d8621083ff3b88f7bc2c0bb270bab94c9cd432d643a43c",
+      "sessionIds": [
+        "sun-workshop-laure-merlin-bitcoin-lego",
+        "mon-main-cercle"
+      ]
+    },
+    {
+      "id": "speaker-thomas-mang-918bb97c",
+      "title": "Thomas Mang",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "published-programme-fallback",
+        "url": "https://conference.b-only.org/session-visuals/mon-main-thomas-mang-522e22117a60.png",
+        "reason": "Aucune vignette Thomas trouvée dans le Groupfolder Association"
+      },
+      "sourceSha256": "918bb97c745a7d6081a08ce519b0e0043da45f59272313f4341b4f239194458b",
+      "filename": "hall-thomas-mang-918bb97c745a.webp",
+      "bytes": 116428,
+      "sha256": "7fdb425cf5f8004aa4b135b8c6ab41a57be5b342ad5054682d4b4638ea212fce",
+      "sessionIds": [
+        "mon-main-thomas-mang"
+      ]
+    },
+    {
+      "id": "speaker-taz-7d595676",
+      "title": "Taz",
+      "durationSeconds": 4,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--taz--wesatoshis--2026-10-06--valide-v1.png"
+      },
+      "sourceSha256": "7d595676ea90e02ecf2566145b6f7a4acb5fbbca7c1815c61c53b28444eb6a70",
+      "filename": "hall-taz-7d595676ea90.webp",
+      "bytes": 156768,
+      "sha256": "d88abe6031f4b225388199bdf30d51213298afa76f2341512b8c34f612bd4ada",
+      "sessionIds": [
+        "mon-workshop-noe"
+      ]
+    }
+  ]
+}

@@ -96,13 +96,27 @@ export function activeAnnouncement(config, now) {
     : "";
 }
 
-export function hallSlides(config, online = true) {
+export function hallSlides(
+  config,
+  online = true,
+  random = Math.random,
+  previousLastId = null,
+) {
   const slides = config.playlist.filter(
     (s) =>
       s.enabled &&
       s.approved &&
       (s.type !== "vimeo" || (online && config.hall.onlineEnabled)),
   );
+  if (config.hall.randomOrder && slides.length > 1) {
+    for (let i = slides.length - 1; i > 0; i--) {
+      const j = Math.floor(random() * (i + 1));
+      [slides[i], slides[j]] = [slides[j], slides[i]];
+    }
+    // Avoid immediately repeating the last item of the previous cycle.
+    if (slides[0].id === previousLastId)
+      [slides[0], slides[1]] = [slides[1], slides[0]];
+  }
   const every = config.hall.agendaEvery;
   const result = [];
   for (let i = 0; i < slides.length; i++) {

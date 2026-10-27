@@ -177,6 +177,7 @@ function render() {
   }
   $("message").value = snapshot.config.announcement?.text || "";
   $("paused").checked = snapshot.config.hall.paused;
+  $("random-order").checked = snapshot.config.hall.randomOrder ?? false;
   $("online-enabled").checked = snapshot.config.hall.onlineEnabled;
   $("agenda-every").value = snapshot.config.hall.agendaEvery;
   $("playlist").value = JSON.stringify(snapshot.config.playlist, null, 2);
@@ -382,6 +383,7 @@ $("hall-form").onsubmit = (event) => {
     paused: $("paused").checked,
     agendaEvery: Number($("agenda-every").value),
     onlineEnabled: $("online-enabled").checked,
+    randomOrder: $("random-order").checked,
   };
   save(conf);
 };

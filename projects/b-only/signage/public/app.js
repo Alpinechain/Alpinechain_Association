@@ -17,6 +17,8 @@ let hallIndex = 0,
   slideKey = "",
   renderedKey = "",
   rotationKey = "",
+  rotationSlides = [],
+  availabilityKey = "",
   retryAfter = new Map();
 let playingVideo = null,
   pausedAt = 0;
@@ -452,31 +454,43 @@ async function showSlide(slide, time, key) {
   display.replaceChildren(section);
   fitTitles();
 }
+function startHallCycle(available, online) {
+  const previousLastId = rotationSlides.at(-1)?.id;
+  rotationSlides = hallSlides(
+    { ...state.config, playlist: available },
+    online,
+    Math.random,
+    previousLastId,
+  );
+  hallIndex = 0;
+  hallDeadline = 0;
+  slideKey = "";
+}
 function drawHall(time) {
   renderedKey = "";
   const rotation =
     JSON.stringify(state.config.playlist) +
-    JSON.stringify(state.config.hall.agendaEvery);
+    JSON.stringify([
+      state.config.hall.agendaEvery,
+      state.config.hall.randomOrder,
+      state.config.hall.onlineEnabled,
+    ]);
   if (rotation !== rotationKey) {
     rotationKey = rotation;
     hallIndex = 0;
     hallDeadline = 0;
     slideKey = "";
+    rotationSlides = [];
   }
-  const slides = hallSlides(
-    state.config,
-    !offlineExport && navigator.onLine,
-  ).filter((s) => (retryAfter.get(s.id) || 0) <= performance.now());
-  const usable = slides.length
-    ? slides
-    : [
-        {
-          id: "retry-fallback",
-          type: "agenda",
-          title: "Le programme",
-          durationSeconds: 15,
-        },
-      ];
+  const online = !offlineExport && navigator.onLine;
+  const available = state.config.playlist.filter(
+    (s) => (retryAfter.get(s.id) || 0) <= performance.now(),
+  );
+  const availability = JSON.stringify([online, available.map((s) => s.id)]);
+  if (!rotationSlides.length || availability !== availabilityKey) {
+    startHallCycle(available, online);
+    availabilityKey = availability;
+  }
   if (state.config.hall.paused) {
     if (!pausedAt) {
       pausedAt = performance.now();
@@ -505,7 +519,8 @@ function drawHall(time) {
     !state.config.hall.paused
   )
     advanceHall();
-  const slide = usable[hallIndex % usable.length];
+  if (hallIndex >= rotationSlides.length) startHallCycle(available, online);
+  const slide = rotationSlides[hallIndex];
   const agendaTick = slide.type === "agenda" ? Math.floor(time / 10000) : "";
   const key = `${rotation}/${hallIndex}/${slide.id}/${agendaTick}`;
   if (key !== slideKey) {

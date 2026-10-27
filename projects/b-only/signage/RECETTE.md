@@ -88,6 +88,52 @@ La validation de mise en service et la recette technique n'attestent pas
 les essais des lecteurs/TV ni la validation finale de la diffusion pendant
 l'événement. Ces actions sont reprises dans #12.
 
+## Mise à jour du carrousel — 27 octobre 2026
+
+Suivi : [#238](https://github.com/Alpinechain/Alpinechain_Association/issues/238).
+La configuration de régie est sauvegardée avant une mise à jour par l'API
+avec contrôle de révision ; les écrans, annonces et réglages Vimeo sont
+conservés. Les deux entrées Paymium locales gardent leur place et leurs
+réglages, avec de nouvelles copies accélérées.
+
+- Deux originaux Néowalt recoupés avec Nextcloud par taille/SHA-256. Copies
+  H.264 1080p préparées avec temps vidéo divisé par 1,5 et `atempo=1.5` si
+  l'audio est présent : salon 48 s ; échecs environ 27,2 s, portrait conservé.
+  La vitesse est encodée dans ces copies : le navigateur et le secours local
+  lisent le même contenu accéléré sans réglage supplémentaire. Son muet
+  dans la boucle, comme les autres vidéos du hall.
+- Deux copies Paymium accélérées avec le même traitement vidéo/audio :
+  B2B environ 64,97 s, B2C 48 s, H.264/AAC 1920×1080. Sources inchangées ;
+  nouvelles tailles et empreintes contrôlées sur le serveur et via HTTPS.
+- 18 vignettes Nextcloud, versions recoupées avec les références du programme.
+  Marius conserve son nom de fichier `proposition`, validé dans sa campagne ;
+  Alexandre reprend la V4 déjà intégrée au programme. Thomas Mang utilise le
+  visuel publié du programme faute de source trouvée dans Nextcloud.
+- 19 copies WebP, proportions conservées, contrôlées par empreintes après
+  transfert. Chaque image et diapositive fixe dure 4 secondes. L'agenda
+  explicite à 4 secondes remplace l'insertion automatique de 15 secondes.
+- Les vidéos sont entrecoupées de groupes de vignettes et restent lues jusqu'à
+  leur fin ; aucun arrêt après 4 secondes. Aucun horaire du programme modifié.
+- Un cycle complet en production a chargé les 19 images ; les quatre MP4
+  démarrent muets et passent au suivant à leur fin. Les quatre vidéos ont
+  également été lues intégralement sans déplacement de lecture dans une
+  playlist isolée du navigateur : environ 48,1 s, 65,1 s, 27,4 s et 48,1 s
+  observées, jusqu’à l’événement `ended`.
+- Après préchargement HTTPS et coupure réseau : rechargement de l’accueil,
+  vignette puis vidéo Néowalt depuis des Blob du cache, transition de fin
+  réussie. Captures paysage et portrait ; aucune erreur JavaScript de page.
+- Mode aléatoire optionnel dans l’administration, compatible avec les
+  configurations précédentes (désactivé si absent). Les contenus admissibles
+  sont mélangés une fois par cycle ; les sondages de régie toutes les 5 s ne
+  remélangent pas le cycle en cours. Agendas automatiques insérés après le
+  mélange pour garder leur fréquence. Les durées et événements de fin vidéo
+  sont conservés.
+- Recette du mode aléatoire : case de l’administration enregistrée et relue ;
+  deux cycles de quatre contenus dans des ordres différents, chaque contenu
+  présent une fois par cycle ; vidéo encore en lecture après 6,2 secondes,
+  puis événement de fin. 12 tests Node réussis, dont compatibilité et
+  invariants du mélange.
+
 ## Recette matérielle reprise dans #12
 
 - Identifier les écrans, résolutions, orientations et lecteurs réellement disponibles.
