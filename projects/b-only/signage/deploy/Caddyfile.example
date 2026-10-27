@@ -8,13 +8,6 @@ conference.b-only.org, accueil.b-only.org, workshop.b-only.org {
 }
 
 adminvideo.b-only.org {
-    # Refus par défaut hors loopback. Ajouter uniquement le réseau VPN ou
-    # les IP de régie validés ; ne pas faire confiance aux en-têtes du client.
-    @regie remote_ip 127.0.0.1 ::1
-    handle @regie {
-        reverse_proxy 127.0.0.1:8787
-    }
-    handle {
-        respond "Accès réservé à la régie" 403
-    }
+    # Accessible sur Internet. Node exige SIGNAGE_ADMIN_HOSTS et le mot de passe.
+    reverse_proxy 127.0.0.1:8787
 }

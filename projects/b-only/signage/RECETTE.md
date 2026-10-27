@@ -74,7 +74,7 @@ techniques et accès privés y restent.
 | Contrôle en production | Résultat |
 |---|---|
 | HTTPS et routage | [Salle principale](https://conference.b-only.org/), [Workshop](https://workshop.b-only.org/), [accueil](https://accueil.b-only.org/) : certificats valides et bon écran |
-| Administration | [adminvideo](https://adminvideo.b-only.org/) : réseau restreint et authentification ; refus sur les trois hôtes publics même avec des identifiants valides |
+| Administration | [adminvideo](https://adminvideo.b-only.org/) : authentification obligatoire ; accès depuis tous les réseaux demandé le 27 octobre ; refus sur les trois hôtes publics même avec des identifiants valides |
 | Visuels | 30 créneaux publics actifs, 30 URL d'images contrôlées ; aucune modification du programme officiel |
 | Hall réel | Accueil, MP4 Paymium B2B puis B2C et agendas ; démonstrations fictives retirées, vidéos muettes |
 | Paymium HTTPS | Tailles et SHA-256 conformes, requêtes partielles 206, autoplay, durées et transitions de fin vérifiés dans Chromium |
