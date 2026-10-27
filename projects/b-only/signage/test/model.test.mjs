@@ -145,6 +145,30 @@ test("hall : validation séparée, fréquence et fallback programme", () => {
   assert.equal(activeAnnouncement(c, at("15:09")), "Annonce");
   assert.equal(activeAnnouncement(c, at("15:10")), "");
 });
+test("hall aléatoire : cycle complet, médias inchangés, agendas réguliers et ancienne configuration", () => {
+  const c = structuredClone(defaultConfig);
+  delete c.hall.randomOrder;
+  assert.equal(validateConfig(c, programme).hall.randomOrder, false);
+  c.hall.randomOrder = "true";
+  assert.throws(() => validateConfig(c, programme), /Rotation hall invalide/);
+  c.hall.randomOrder = true;
+  c.hall.agendaEvery = 2;
+  const before = structuredClone(c);
+  const eligible = c.playlist.filter(s => s.enabled && s.approved && s.type !== "vimeo");
+  const order = hallSlides(c, false, () => 0);
+  const media = order.filter(s => !s.id.startsWith("agenda-"));
+  assert.deepEqual(media.map(s => s.id).sort(), eligible.map(s => s.id).sort());
+  assert.notDeepEqual(media.map(s => s.id), eligible.map(s => s.id));
+  assert.deepEqual(c, before);
+  for (const s of media) assert.deepEqual(s, eligible.find(original => original.id === s.id));
+  assert.ok(order.filter((_, i) => (i + 1) % 3 === 0).every(s => s.type === "agenda"));
+  const next = hallSlides(c, false, () => 0, media[0].id);
+  assert.notEqual(next[0].id, media[0].id);
+  c.playlist = [eligible[0]];
+  assert.equal(hallSlides(c, false, () => 0, eligible[0].id)[0].id, eligible[0].id);
+  c.playlist = [];
+  assert.equal(hallSlides(c, false)[0].type, "agenda");
+});
 test("Vimeo en ligne : identifiants privés conservés, liste fermée et exclusion hors ligne", () => {
   const embed = new URL(vimeoEmbed(paymiumSources[0].sourceUrl));
   assert.equal(embed.origin, "https://player.vimeo.com");

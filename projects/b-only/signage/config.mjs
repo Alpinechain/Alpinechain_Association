@@ -29,7 +29,7 @@ export const defaultConfig = {
       manual: null,
     },
   },
-  hall: { paused: false, agendaEvery: 2, onlineEnabled: false },
+  hall: { paused: false, agendaEvery: 2, onlineEnabled: false, randomOrder: false },
   announcement: null,
   playlist: [
     {
@@ -158,13 +158,16 @@ export function validateConfig(input, programme) {
     typeof input.hall.paused !== "boolean" ||
     !integer(input.hall.agendaEvery, 0, 20) ||
     (input.hall.onlineEnabled !== undefined &&
-      typeof input.hall.onlineEnabled !== "boolean")
+      typeof input.hall.onlineEnabled !== "boolean") ||
+    (input.hall.randomOrder !== undefined &&
+      typeof input.hall.randomOrder !== "boolean")
   )
     throw new Error("Rotation hall invalide");
   config.hall = {
     paused: input.hall.paused,
     agendaEvery: input.hall.agendaEvery,
     onlineEnabled: input.hall.onlineEnabled ?? false,
+    randomOrder: input.hall.randomOrder ?? false,
   };
   if (input.announcement !== null) {
     if (
