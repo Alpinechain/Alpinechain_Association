@@ -134,6 +134,24 @@ réglages, avec de nouvelles copies accélérées.
   puis événement de fin. 12 tests Node réussis, dont compatibilité et
   invariants du mélange.
 
+## Partenaires et logos — 29 octobre 2026
+
+Suivi : [#240](https://github.com/Alpinechain/Alpinechain_Association/issues/240).
+
+- Inventaire authentifié des deux dossiers Nextcloud demandés, sans modifier
+  les originaux. Trois vignettes `valide` retenues : Bitstack, Le Cercle du Coin
+  et Paymium ; modèle et document de prototypes exclus de la diffusion.
+- 21 organisations distinctes dans `Logos Participants` : une seule variante
+  retenue par organisation, logotype complet préféré au symbole quand il est
+  disponible. Les autres variantes et le kit ZIP Paymium sont exclus.
+- 24 copies WebP, proportions conservées et fonds adaptés au contraste. Les
+  sources SVG sont rendues avec Chromium pour préserver masques et dégradés.
+  La planche de sélection est contrôlée visuellement ; sources et empreintes
+  sont tracées dans `catalogue-organisations-hall.json`.
+- Configuration sauvegardée puis mise à jour par API avec contrôle de révision.
+  43 images, accueil et agenda à 3 secondes ; les quatre vidéos et les autres
+  réglages, dont l’ordre aléatoire, sont conservés.
+
 ## Recette matérielle reprise dans #12
 
 - Identifier les écrans, résolutions, orientations et lecteurs réellement disponibles.

@@ -18,22 +18,29 @@ sans être activés dans la rotation par défaut. Le catalogue versionné et la
 configuration par défaut restent des modèles ; l'activation réelle est dans
 la configuration de régie hors Git. Détails de réception : [RECETTE.md](RECETTE.md).
 
-Mise à jour du hall le 27 octobre, sur demande de Cyrille : deux vidéos
-Néowalt (48 s et environ 27,2 s) et deux vidéos Paymium (environ 65 s et
-48 s) en copies de lecture à vitesse ×1,5 ; 19 vignettes intervenants à
-4 secondes chacune, réparties entre les vidéos.
-18 vignettes proviennent de Nextcloud ; Thomas Mang reprend le visuel déjà
-publié dans le programme, absent du dossier Nextcloud. Les diapositives fixes
-et l'agenda sont également réglés à 4 secondes ; chaque vidéo va jusqu'à sa
-fin. Le mode « Ordre aléatoire à chaque cycle » est activable dans la
-rotation hall de l’administration : un cycle conserve son ordre, puis le
-suivant est remélangé. Chaque contenu passe une fois par cycle ; la fréquence
-des agendas automatiques et les durées sont conservées. Ce réglage fonctionne
-aussi depuis le cache ou un export hors ligne. Les autres réglages de régie
-sont conservés.
-Sources et empreintes : [catalogue vidéos](catalogue-medias.json) et
-[sélection des vignettes](catalogue-vignettes-hall.json). Les originaux sont
-conservés et aucun fichier média n'est versionné dans ces catalogues.
+Mise à jour du hall le 29 octobre, sur demande de Cyrille : 19 vignettes
+intervenants, trois vignettes partenaires validées (Bitstack, Le Cercle du Coin,
+Paymium) et 21 logos, une seule variante par organisation du dossier Nextcloud.
+Les 43 images, l’accueil et l’agenda sont réglés à 3 secondes. Le modèle de
+vignette, les variantes de logos et le kit ZIP sont exclus de la rotation.
+Les logos des organisations participantes ne leur attribuent pas un statut
+de partenaire.
+
+Les deux Néowalt (48 s et environ 27,2 s) et les deux Paymium (environ 65 s et
+48 s) restent en copies de lecture à vitesse ×1,5, lues entièrement jusqu’à
+leur fin. Le mode « Ordre aléatoire à chaque cycle » est conservé : chaque
+contenu passe une fois par cycle, puis le suivant est remélangé. Les autres
+réglages de régie sont conservés.
+
+18 vignettes intervenants proviennent de Nextcloud ; Thomas Mang reprend le
+visuel déjà publié dans le programme, absent du dossier Nextcloud. Les logos
+blancs sont placés sur fond sombre ; les variantes sombres et colorées sur
+fond clair, sans modifier les proportions ni le dessin des marques.
+Sources et empreintes : [catalogue vidéos](catalogue-medias.json),
+[vignettes intervenants](catalogue-vignettes-hall.json) et
+[partenaires et logos](catalogue-organisations-hall.json).
+Les originaux restent dans Nextcloud et aucun fichier média n’est versionné.
+Suivi de cette mise à jour : [#240](https://github.com/Alpinechain/Alpinechain_Association/issues/240).
 
 Projet : B-Only. Objectif : afficher le programme des salles et une boucle hall,
 puis permettre à la régie de corriger l'affichage pendant l'événement.

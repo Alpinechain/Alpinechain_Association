@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "checkedOn": "2026-10-27",
+  "checkedOn": "2026-10-29",
   "issue": "https://github.com/Alpinechain/Alpinechain_Association/issues/238",
   "purpose": "Sélection de vignettes pour le hall ; sources inchangées, copies de diffusion hors Git",
-  "durationSeconds": 4,
+  "durationSeconds": 3,
   "cards": [
     {
       "id": "speaker-profedustream-pratique-18cbeae7",
       "title": "ProfEduStream · Bitcoin en pratique",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--profedustream--apprendre-bitcoin-en-pratique--2026-08-03--valide.png"
@@ -29,7 +29,7 @@
     {
       "id": "speaker-profedustream-quantique-11a81cb2",
       "title": "ProfEduStream · Menace quantique",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--profedustream--menace-quantique--2026-08-03--valide.png"
@@ -50,7 +50,7 @@
     {
       "id": "speaker-alexandre-stachtchenko-d9f76271",
       "title": "Alexandre Stachtchenko",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-10-13--a-valider-v4.png",
@@ -67,7 +67,7 @@
     {
       "id": "speaker-elodie-lue-89d5dab1",
       "title": "Élodie Lué",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--elodie-lue--quand-bitcoin-rencontre-le-mobile-money--2026-07-27--valide.png"
@@ -84,7 +84,7 @@
     {
       "id": "speaker-pierre-noizat-6c5f688b",
       "title": "Pierre Noizat",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--pierre-noizat--energie-monnaie-et-civilisation--2026-08-12--valide.png"
@@ -100,7 +100,7 @@
     {
       "id": "speaker-polto-darko-8c36cf6b",
       "title": "Polto et Darko",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--polto-darko--justifier-origine-bitcoins--2026-07-30--valide.png"
@@ -116,7 +116,7 @@
     {
       "id": "speaker-florent-gabriel-f5396679",
       "title": "Florent Gabriel",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--florent-gabriel--ia-sauver-ou-tuer-bitcoin--2026-09-11--valide.png"
@@ -132,7 +132,7 @@
     {
       "id": "speaker-nicolas-cantu-e3967b28",
       "title": "Nicolas Cantu",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--nicolas-cantu--lire-les-degats-de-l-impression-monetaire-dans-les-sols--2026-07-27--valide.png"
@@ -148,7 +148,7 @@
     {
       "id": "speaker-marius-farashi-6b35ddb0",
       "title": "Marius Farashi",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--marius-farashi--utxo-ark--2026-10-03--proposition.png",
@@ -165,7 +165,7 @@
     {
       "id": "speaker-mill3sim3-af05450b",
       "title": "Mill3sim3",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--mill3sim3--presentation-bitcointrails--2026-10-08--valide-v1.png"
@@ -181,7 +181,7 @@
     {
       "id": "speaker-aurore-galves-88b65ef2",
       "title": "Aurore Galves",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--aurore-galves--have-fun-staying-fun--2026-08-05--valide.png"
@@ -197,7 +197,7 @@
     {
       "id": "speaker-loic-ruchat-leuthardt-578843e4",
       "title": "Loïc Ruchat-Leuthardt",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--loic-ruchat-leuthardt--posseder-ses-bitcoins-en-toute-securite--2026-10-12--valide-v1.png"
@@ -213,7 +213,7 @@
     {
       "id": "speaker-christine-jeanneaux-efbb41ca",
       "title": "Christine Jeanneaux",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--christine-jeanneaux--et-si-on-comptait-les-moutons--2026-07-29--valide.png"
@@ -229,7 +229,7 @@
     {
       "id": "speaker-renaud-lifchitz-2e5902b5",
       "title": "Renaud Lifchitz",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--renaud-lifchitz--reticulum-reseau-cypherpunk--2026-08-03--valide.png"
@@ -245,7 +245,7 @@
     {
       "id": "speaker-frederic-jollien-6c2aad8c",
       "title": "Frédéric Jollien",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--frederic-jollien--bitcoin-ideal-liberal--2026-10-12--valide-v1.png"
@@ -261,7 +261,7 @@
     {
       "id": "speaker-lionel-jeannerat-1ed188cf",
       "title": "Lionel Jeannerat",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--lionel-jeannerat--bitcoin-pour-les-copain-e-s--2026-09-11--valide.png"
@@ -277,7 +277,7 @@
     {
       "id": "speaker-laure-merlin-ff15b53c",
       "title": "Laure Merlin",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--laure-merlin--atelier-bitcoin-lego--2026-09-19--valide.png"
@@ -294,7 +294,7 @@
     {
       "id": "speaker-thomas-mang-918bb97c",
       "title": "Thomas Mang",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "published-programme-fallback",
         "url": "https://conference.b-only.org/session-visuals/mon-main-thomas-mang-522e22117a60.png",
@@ -311,7 +311,7 @@
     {
       "id": "speaker-taz-7d595676",
       "title": "Taz",
-      "durationSeconds": 4,
+      "durationSeconds": 3,
       "source": {
         "kind": "nextcloud",
         "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--taz--wesatoshis--2026-10-06--valide-v1.png"
@@ -324,5 +324,6 @@
         "mon-workshop-noe"
       ]
     }
-  ]
+  ],
+  "timingIssue": "https://github.com/Alpinechain/Alpinechain_Association/issues/240"
 }
