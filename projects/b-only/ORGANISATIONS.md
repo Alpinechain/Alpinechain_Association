@@ -1,6 +1,6 @@
 # Registre des organisations B-Only 2026
 
-Dernière mise à jour : 2026-10-03
+Dernière réconciliation documentaire : 2026-11-01 (sources et confirmations datées ci-dessous)
 
 Issue sponsors : [#3 — Pipeline sponsors](https://github.com/Alpinechain/Alpinechain_Association/issues/3)  
 Issue communication : [#24 — Communication et contenus](https://github.com/Alpinechain/Alpinechain_Association/issues/24)
@@ -21,8 +21,8 @@ Les chemins Nextcloud sont relatifs à
 |---|---|---|---|---|---|---|---|
 | Paymium | Partenaire conférence | Confirmé, facturé et payé | Intervention « Energie, monnaie et civilisation » de 20 minutes, visibilité partenaire, deux pass et places concours ; aucun stand | `01_Programme-Intervenants/Logos Participants/organisation--paymium--logo--2026-07-19--source.svg` | Pierre Noizat | Campagne V2 publiée sur sept canaux les 2026-08-13 et 2026-08-14 ; URLs vérifiées au 2026-08-15 | Relever les métriques dans #24 ; conserver le giveaway et la campagne Pierre comme séquences distinctes |
 | Cercle du Coin | Partenaire soutien | **Confirmé, facturé et payé** ; facture `FA2605-0001` rapprochée dans Paheko et archivée | Lundi 9 h–10 h : présentation du Cercle du Coin pendant 10 à 15 minutes, puis keynote « Comment faire communauté » pendant 30 à 35 minutes | `01_Programme-Intervenants/Logos Participants/organisation--cercle-du-coin--logo--2026-07-22--source.jpg` ; logo choisi comme visuel de la présentation | Laure Merlin | Nouvel horaire, intervenante et déroulé confirmés le 2026-08-31 ; campagne partenaire publiée sur cinq réseaux | Adapter la future communication de la session au nouveau format ; consigner les éventuels besoins techniques dans #11 |
-| Bitstack | Partenaire soutien | Confirmé, facturé et payé ; rapprochement du 20 août tracé dans #4 | Visibilité, stand, un pass et trois places pour giveaway | Logo validé ; vignette organisation disponible | Alexandre Stachtchenko | Campagne V2 publiée sur sept canaux le 2026-08-11 ; URLs vérifiées le 2026-08-14 | Suivre le règlement au 19 août, relever les métriques et planifier les autres contreparties |
-| [BitVault](https://www.bitvault.sv/) | Organisation liée | Participation au workshop confirmée ; statut du partenariat à préciser | Dimanche 8 novembre, 14 h 30–15 h 20, Pleb Forum — « Posséder ses bitcoins en toute sécurité » | Six sources PNG classées le 2026-09-08 dans `01_Programme-Intervenants/Logos Participants/` : variantes blanche transparente, fond noir carré, fond blanc carré, blanche transparente petite et moyenne résolutions, noire transparente | Loïc Ruchat-Leuthardt | Participation, créneau et phrase du visuel reçus le 2026-09-08 ; [X](https://x.com/BitvaultApp) et [LinkedIn](https://www.linkedin.com/company/bitvaultapp/) vérifiés | Confirmer le statut du partenariat, obtenir les détails pratiques et préparer la vignette intervenant |
+| Bitstack | Partenaire soutien | Confirmé, facturé et payé ; rapprochement du 20 août tracé dans #4 | Visibilité, stand, un pass et trois places pour giveaway | Logo validé ; vignette organisation disponible | Alexandre Stachtchenko | Campagne V2 publiée sur sept canaux le 2026-08-11 ; URLs vérifiées le 2026-08-14 | Règlement déjà rapproché ; finaliser stand/pass/giveaway dans #4 et les preuves de communication dans #24 |
+| [BitVault](https://www.bitvault.sv/) | Organisation liée | Participation au workshop confirmée ; statut du partenariat à préciser | Dimanche 8 novembre, 14 h 30–15 h 20, Pleb Forum — « Posséder ses bitcoins en toute sécurité » | Six sources PNG classées le 2026-09-08 dans `01_Programme-Intervenants/Logos Participants/` : variantes blanche transparente, fond noir carré, fond blanc carré, blanche transparente petite et moyenne résolutions, noire transparente | Loïc Ruchat-Leuthardt | Participation, créneau et phrase du visuel reçus le 2026-09-08 ; [X](https://x.com/BitvaultApp) et [LinkedIn](https://www.linkedin.com/company/bitvaultapp/) vérifiés | Confirmer le statut du partenariat et les détails pratiques (#12/#25) ; vignette validée (#209), campagne #203 clôturée, preuves suivies dans #24 |
 | Cryptoast | Soutien média | Accord partiel à consolider | Un article envisagé début septembre et proposition de giveaway de deux ou trois pass | Plusieurs variantes disponibles dans `01_Programme-Intervenants/Logos Participants/` | Marius Farashi | Proposition précisée le 2026-07-22 | Confirmer l'article, sa date et le giveaway |
 | Bitcoin.fr | Soutien média | Mentionné comme soutien | Relais éditorial à préciser | `01_Programme-Intervenants/Logos Participants/organisation--bitcoin-fr--logo-blanc--2023-10-13--source.svg` | À identifier | À dater | Identifier l'interlocuteur et la contrepartie attendue |
 | The Big Whale | Média potentiel | En attente | Article, publication, texte promotionnel ou participation proposés | Manquant | Raphaël Bloch | Contact initial le 2026-06-08 ; relance vue le 2026-07-22 | Attendre une réponse positive ou négative avant toute annonce |
@@ -63,7 +63,7 @@ Suivi : [#147 — lots HWW et vidéo partenaire](https://github.com/Alpinechain/
 - Expédition : Neowalt prévoit l'envoi des wallets **vers mi-octobre** ; réception et inventaire restent **EN ATTENTE**.
 - Contact : Paul Renaud. Carte de contact archivée dans le dossier privé `02_Sponsors-Contrats/Neowalt/` ([fichier Nextcloud](https://cloud.alpinechain.xyz/f/4745)) ; enregistrement CRM encore à effectuer.
 - Logos : archivage Nextcloud **CONFIRMÉ** le 2026-09-05 dans `01_Programme-Intervenants/Logos Participants/` : [symbole seul, 970 × 860](https://cloud.alpinechain.xyz/f/4742) et [logo horizontal à texte blanc, 3247 × 1176](https://cloud.alpinechain.xyz/f/4743). Tailles et SHA-256 identiques aux sources ; indexation sans erreur. La carte de contact n'est pas un support à publier.
-- Vidéos de présentation : plusieurs vidéos sont en cours de préparation ; Neowalt prévoit leur envoi **vers mi-octobre** afin de laisser une marge de correction avant B-Only. Durée, format, choix de la ou des vidéos et test régie restent à organiser dans #147 avec #12.
+- Vidéos sources **REÇUES ET CLASSÉES le 19 octobre** selon #147 : [NEOWALT_salon_v8.mp4](https://cloud.alpinechain.xyz/f/5170), paysage 1920 × 1080, 1 min 12 sans piste audio ; [vidéo echecs finie.mp4](https://cloud.alpinechain.xyz/f/5171), portrait 2160 × 3840, 40,8 s avec audio. Originaux dans `06_Medias/Neowalt/`, tailles et SHA-256 contrôlés lors du dépôt. Sélection quiz, montage et essais restent à valider dans #147 / #12 ; réception des lots distincte. #220 clôturée sans fusion le 1er novembre, état documentaire repris ici.
 - Déclinaison pour boucle écrans avec les autres partenaires : **À VALIDER**.
 - Visibilité site : à préparer comme partenaire de lots, sans annoncer de présence physique ; utiliser une variante contrastée du logo. Publication à suivre dans #24.
 
@@ -81,9 +81,13 @@ Suivi : [#147 — lots HWW et vidéo partenaire](https://github.com/Alpinechain/
    en conservant son chemin d'origine.
 6. La publication et son URL sont suivies dans l'Issue #24.
 
-## Codes sponsors — 3 octobre 2026
+## Codes sponsors — confirmation du 1er novembre 2026
 
-Paymium, Bitstack et Le Cercle du Coin : un voucher chacun pour 50 billets standard à 150 €, créé et vérifié dans Pretix, expiration le 31 octobre à 23 h 59 Europe/Paris. Transmission aux sponsors par Cyrille encore à effectuer dans #186. Codes et utilisations conservés exclusivement dans Pretix ; aucun nouveau règlement déduit de cette création.
+**30 utilisations par sponsor**, prix fixe 150 €, limite relue et validée par Cyrille le 26 octobre ; le cadrage initial à 50 est remplacé. Suivi : [#186](https://github.com/Alpinechain/Alpinechain_Association/issues/186).
+
+- Paymium et Le Cercle du Coin : **prolongés par Cyrille jusqu’au 6 novembre au soir**, confirmation du 1er novembre ; heure exacte non précisée.
+- Bitstack : dernière expiration constatée le **31 octobre à 23:59:59 Europe/Paris** au contrôle du 26 octobre ; aucune prolongation confirmée.
+- Transmission aux sponsors encore à confirmer ; usages du 26 octobre uniquement, aucun nouveau relevé ni contrôle Pretix. Les codes privés restent dans Pretix.
 
 ## BWS — coordination du billet groupé, confirmée le 12 octobre 2026
 

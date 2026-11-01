@@ -1,28 +1,18 @@
 {
-  "last_review": "2026-10-19T11:34:34+02:00",
-  "last_commit": "0a3791166f54a4e065bca960c6f6ffef94cb1c04",
+  "last_review": "2026-11-01T23:02:31+01:00",
+  "last_commit": "a74bd1b80c1051d1a5427e4c553316aef4bb279f",
   "open_issues_seen": [
+    225,
     223,
-    221,
     217,
-    216,
-    212,
-    204,
-    203,
-    199,
     198,
-    195,
     193,
-    188,
     186,
-    181,
     173,
-    168,
     153,
     147,
     132,
     61,
-    53,
     45,
     27,
     26,
@@ -32,11 +22,9 @@
     4
   ],
   "open_prs_seen": [
-    224,
-    222,
-    220,
+    226,
     218,
     197
   ],
-  "note": "Revue globale en lecture le 19 octobre, puis propagation et nettoyage autorisés dans #223 / PR #226. #219 preuves/statistiques, #222 échéances et #224 propagation fusionnées ; #221 clôturée. Confirmation de Cyrille : 8 commerçants, fin Classic le 31 octobre à 23 h 59 Europe/Paris. Site conservé, #216 clôturée comme essais non concluants ; prototypes locaux préservés. #197/#218 réconciliées, #220 relue, toutes non fusionnées. Revue courante W43 #227 ; W40-W42 ouvertes faute de contrôles complets. Monitoring du 19 octobre run 39261533906 réussi ; aucun nouvel audit des paiements, sauvegardes, restauration ou serveur. Curseur temporel de la revue globale conservé ; inventaires ci-dessous = état relevé à cette revue, non inventaire courant."
+  "note": "Réconciliation documentaire du 1er novembre 2026 sur les Issues/PR et main relus. #227/#232/#53/#188/#168/#203/#204/#229 clôturées sur décision de Cyrille ; suites des quatre dernières dans #24. #220 clôturée sans fusion. #223/#153 simplifiées. Codes Paymium/Cercle du Coin prolongés par Cyrille au 6 novembre au soir, heure exacte non fournie ; Bitstack sans prolongation confirmée. Nouvelle revue prévue le 2 novembre. PR #226 remise au niveau de main et actualisée, sans fusion. Les inventaires sont ceux de cette passe documentaire ; aucun nouvel audit Pretix, comptabilité, originaux Nextcloud, sauvegardes ou serveur. Le commit de référence est main avant intégration de cette préparation."
 }

@@ -1,6 +1,6 @@
 # Tableau de pilotage B-Only 2026
 
-Date de dernière mise à jour : 2026-10-19
+Date de dernière réconciliation documentaire : 2026-11-01
 Événement : 7 au 9 novembre 2026  
 Lieu : Novotel Annecy Centre
 
@@ -17,18 +17,20 @@ le champ `Statut opérationnel` du Project continue de faire foi.
 
 ## Chantiers
 
-| Chantier | Issue pilote | Issues liées | Repère consolidé | Prochaine action |
-|---|---|---|---|---|
-| Billetterie et parcours participant | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2) | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25) | Billetterie ouverte ; dernier total communiqué : 52 au 12 octobre, sans extraction récente | Préserver le repère daté ; aucun nouveau suivi hebdomadaire des ventes lancé |
-| Sponsors et partenaires | [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3) | [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4), [#5](https://github.com/Alpinechain/Alpinechain_Association/issues/5) | Statuts consignés dans ORGANISATIONS.md et les Issues ; pas de nouvel audit financier ici | Finaliser les contreparties et besoins de stand déjà suivis ; nouvelles sollicitations laissées de côté |
-| Programme et intervenants | [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12), [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) | Programme complet publié, 30 créneaux actifs ; #11 clôturée ; titres et horaires de référence dans programme.json | Consolider besoins techniques et droits ; toute modification de grille exige une validation distincte |
-| Communication et contenus | [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), [#53](https://github.com/Alpinechain/Alpinechain_Association/issues/53) | Preuves et statistiques consolidées ; Nostr hors suivi ; Loïc/Frédéric encore planifiés | Blog Florent à faire ; approfondir les raisons concrètes de venir dans #24 |
-| Production audiovisuelle et PeerTube | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) | [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11), [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) | Devis signé selon les confirmations enregistrées ; essais, droits et responsabilités restent suivis dans #12 | Préparer les tests et plans dégradés ; vidéos Neowalt reçues selon #147, propagation documentaire en PR #220 |
-| Accueil, stands, bar et logistique | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#11](https://github.com/Alpinechain/Alpinechain_Association/issues/11) | Plans cotés reçus ; implantation finale, bénévoles, écrans et flux restent à valider | Confirmer l’implantation avant l’ouverture, échéance déclarée dans #25 au 7 novembre |
-| Budget, contrats et trésorerie | [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) | [#2](https://github.com/Alpinechain/Alpinechain_Association/issues/2), [#3](https://github.com/Alpinechain/Alpinechain_Association/issues/3), [#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4), [#5](https://github.com/Alpinechain/Alpinechain_Association/issues/5), [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) | Budget déclaré mis à jour le 28 septembre ; pas de nouvel audit financier ici | Suivre engagements et modalités BWS dans leurs Issues, sans déduire de paiement ou reversement |
-| Risques et plan de continuité | [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) | Tous les chantiers | Registre et scénarios opérationnels à construire dans #27 | Identifier propriétaires, déclencheurs et plans de repli avant l’ouverture |
+Les issues closes de lancement restent des références historiques ; le suivi actif est indiqué ci-dessous.
 
-Ces repères sont datés et ne remplacent pas les sources métier. Les Issues portent les décisions et tâches ; le Project est leur vue de portefeuille. Les échéances ne sont reprises que depuis une déclaration explicite dans l’Issue.
+| Chantier | Suivi actif | Repère daté et prochaine action |
+|---|---|---|
+| Billetterie | #26, #186, #198, #217 | Relevé du 26 octobre : 52 commandes payées, 56 billets à prix positif, trois invitations et un bon sans admission séparés. Codes Paymium/Cercle prolongés par Cyrille jusqu’au 6 novembre au soir ; Bitstack sans prolongation confirmée. Aucun nouveau relevé Pretix. |
+| Sponsors et partenaires | #4, #147, #25 | Paiements historiques consignés dans ORGANISATIONS.md ; finaliser les contreparties, stands/pass/giveaway et réception des six lots Neowalt. |
+| Programme et intervenants | #12, #25 | #11 clôturée ; programme complet publié, 30 créneaux actifs. Besoins pratiques et droits restent distincts ; ne pas rouvrir la validation des vignettes livrées (#53 clôturée). |
+| Communication et contenus | #24 | #168/#188/#203/#204/#229 clôturées ; preuves Loïc/Frédéric, retours relais et diffusion hébergement repris dans #24. Blog Florent et derniers rappels à traiter ; Nostr hors suivi, nouvelles sollicitations laissées de côté. |
+| Audiovisuel et affichage | #12, #147 | Essai visé le 2 novembre encore à fixer ; affichage mis en service et évolutions jusqu’au 1er novembre documentées dans signage/RECETTE.md. Réception TV/réseau/lecteurs sur place et sélection vidéo Neowalt restent à effectuer. |
+| Accueil, stands, bar et logistique | #25 | Visite Novotel réalisée le 19 octobre ; finaliser implantation, mobilier, bénévoles, stocks et livraisons avant l’ouverture. |
+| Budget, contrats et trésorerie | #26, #198, #217 | Dernières opérations comptables documentées dans #26 ; aucun nouvel audit ici. Suivre rapprochements, engagements, modalités BWS et exécution des bons Mill3sim3 sans déduire un règlement. |
+| Risques et continuité | #27 | Attribuer propriétaires, déclencheurs et plans de repli avant l’ouverture ; fiche hors ligne et scénarios à tester. |
+
+Index des jalons : [#153](https://github.com/Alpinechain/Alpinechain_Association/issues/153). Réconciliation documentaire : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). W43 #227 et W44 #232 clôturées le 1er novembre ; nouvelle revue prévue le 2 novembre. Le Project est une vue des issues ; les états métier restent dans leurs sources.
 
 ## Chaîne critique
 

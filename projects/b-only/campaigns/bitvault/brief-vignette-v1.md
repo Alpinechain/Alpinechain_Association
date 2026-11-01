@@ -31,4 +31,4 @@ Portrait fourni directement par Cyrille ; aucun portrait tiers de substitution.
 
 ## Suivi courant
 
-La même vignette ne nécessite pas une nouvelle validation. Les droits/crédit et besoins techniques restent des points distincts. Campagne encore planifiée selon Cyrille le 19 octobre : URLs et statistiques à collecter après diffusion dans [#203](https://github.com/Alpinechain/Alpinechain_Association/issues/203). Nostr est hors suivi. Aucune nouvelle diffusion effectuée par cette réconciliation.
+La même vignette ne nécessite pas une nouvelle validation. Les droits/crédit et besoins techniques restent des points distincts. Campagne encore planifiée selon Cyrille le 19 octobre : URLs et statistiques à collecter après diffusion dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) (#203 clôturée le 1er novembre). Nostr est hors suivi. Aucune nouvelle diffusion effectuée par cette réconciliation.

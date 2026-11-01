@@ -1,55 +1,43 @@
-# Réconciliation AlpineChain — 19 octobre 2026
+# Réconciliation AlpineChain — 19 octobre, mise à jour du 1er novembre 2026
 
-Projet : association / B-Only. Objectif : aligner les sources actives sur les décisions confirmées et préparer la suite. Public : coordination associative. Suivi : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). Validation : Cyrille avant toute fusion ou publication. Échéance non fixée.
+Projet : association / B-Only. Objectif : aligner le pilotage documentaire sur les décisions confirmées. Public : coordination associative. Suivi : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). Validation : Cyrille avant fusion. Les textes publics validés, le programme et les outils métiers ne sont pas modifiés.
 
-## Lot technique — échéances
+## Déjà intégré
 
-Correctif fusionné et déployé dans [#221 / PR #222](https://github.com/Alpinechain/Alpinechain_Association/pull/222) : ligne explicite `Échéance : YYYY-MM-DD`, validation calendaire et rejet des contradictions ; sans déclaration, effacement du champ des Issues ouvertes ; dates des Issues fermées conservées. Onze tests et CI de non-régression. La source de vérité reste le corps de l’Issue.
+- Correctif des échéances #221 / #222 fusionné ; propagation documentaire #224 fusionnée. Les dates de tâche ne sont retenues que sur déclaration explicite dans les issues, distinctes des dates de portrait, relevé ou expiration de bon.
+- Campagnes Nicolas, Laure, Alexandre, Marius, Thomas, Taz, Lionel et Mill3sim3 : preuves archivées au 19 octobre. Les statistiques Blog ne sont pas déduites des chiffres sociaux ; LinkedIn ABM Mill3sim3 reste à compléter.
+- Programme complet publié ; vignettes Loïc/Frédéric validées et intégrées par #209, Communautés francophones par #211, Alexandre V4 par #213. Les noms et empreintes des sources historiques sont conservés.
 
-Réparation ponctuelle du Project effectuée après mise à jour des Issues : quatre dates inférées effacées (#24, #53, #204, #217), avec suivi dans #221 et relecture du Project. Seules les échéances réellement déclarées sont retenues. L’échéance logistique déjà exprimée avant l’ouverture du 7 novembre est normalisée dans #25 ; celle du pilotage #153 reste au 9 novembre. Les dates de portraits, de relevés et d’expiration de bons ne deviennent pas des échéances de tâche. La réconciliation complète du contrôleur corrigé a réussi après fusion : [run 39232281482](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39232281482). #221 est clôturée et confirmée « Terminé » dans le Project.
+## Décisions conservées
 
-## Décisions propagées
+- **8 commerçants actuellement pour Annecy Bitcoin Tour au 19 octobre**, confirmation directe de Cyrille. Ne pas déduire neuf actifs de l’annonce CIAO ni un bilan de paiements. Meetup du 7 octobre réalisé, bilan dans #225 ; rencontre Souveraineté du 24 septembre capitalisée dans #7, clôturée.
+- **Fin Classic au 31 octobre à 23 h 59 Europe/Paris**, confirmation de Cyrille du 19 octobre ; paramètres Pretix relus le 26 octobre dans W44, pas aujourd’hui.
+- Essais d’affiche partenaires V1/V2 non concluants, #216 clôturée ; prototypes locaux conservés. Cette décision du 19 octobre n’interdit pas les changements ultérieurs autorisés : hébergement publié le 22 octobre dans #229.
+- Nostr hors suivi ; archives conservées. Blog Florent à faire. Piste « raisons concrètes de venir » à approfondir dans #24. Audit du parcours de suivi, nouvelles sollicitations des relais et suivi hebdomadaire laissés de côté pour le moment.
 
-- Nostr hors suivi des liens et statistiques ; archives et formulations des anciens contenus conservées.
-- Campagnes Nicolas, Laure, Alexandre, Marius, Thomas, Taz, Lionel et Mill3sim3 publiées selon les preuves archivées. Les métriques Blog ne sont pas déduites des statistiques sociales ; LinkedIn ABM Mill3sim3 reste à compléter.
-- Florent : cinq URLs sociales archivées, Blog à faire ; métriques reçues sur ABM, compléments selon période.
-- Loïc et Frédéric encore planifiés : collecte des liens et statistiques après diffusion. Copies de vignettes validées déjà enregistrées dans #209 ; les sources de préparation ne sont pas une validation à refaire.
-- Piste « raisons concrètes de venir » à approfondir dans #24. Audit du parcours de suivi, nouvelles sollicitations des relais et suivi hebdomadaire laissés de côté pour le moment.
-- Pretix : une utilisation du bon sponsor Paymium, autres bons suivis à zéro, selon Cyrille ; aucune donnée de commande ni identifiant du bon recopié. Aucun nouveau total de billets vendus n’est déduit ; dernier total communiqué : 52 au 12 octobre.
+## Décisions et rapprochements du 1er novembre
 
-Le dashboard, le planning et les fiches de campagne sont intégrés par la [PR documentaire #224](https://github.com/Alpinechain/Alpinechain_Association/pull/224), fusionnée au commit `9bc783687255f8e3be0406a3edb82cad3e15d043`. Les Issues actives portent les mêmes décisions sans fermeture de leurs tâches opérationnelles restantes. Les textes validés, le programme, les créneaux et les services métier ne sont pas modifiés.
+| Sujet | État confirmé / suivi |
+|---|---|
+| Revues | W43 #227 et W44 #232 clôturées sur décision de Cyrille ; nouvelle revue prévue le 2 novembre. Les contrôles techniques restent datés et les suites dans Serveur #153/#154. W40–W42 sont déjà clôturées. |
+| Visuels et campagne Thomas | #53 et #188 clôturées ; besoins pratiques distincts dans #12/#25. |
+| Relais, Loïc, Frédéric, hébergement | #168/#203/#204/#229 clôturées ; suivis de diffusion et preuves repris dans #24. Blog Loïc accessible ; onze liens Loïc/Frédéric encore à collecter ou canaux à qualifier, sans déclarer une publication absente. |
+| Hébergement | Rubrique/FAQ publiées et testées le 22 octobre ; page/ancre/six annonces recontrôlées le 1er novembre. CTA unique https://b-only.org/#hebergement ; diffusion sociale non confirmée. |
+| Codes sponsors #186 | 30 utilisations chacun validées le 26 octobre. Paymium et Cercle du Coin prolongés par Cyrille jusqu’au 6 novembre au soir, heure exacte non fournie. Bitstack : dernière expiration constatée au 31 octobre, sans prolongation confirmée. Aucun nouveau contrôle Pretix. |
+| Neowalt | #220 clôturée sans fusion ; deux sources vidéo reçues le 19 octobre (#147), reprise dans ORGANISATIONS.md et NOW. Réception des six lots, montage et essais restent distincts. |
+| Affichage | Livré et mis en service ; mises à jour hall des 27/29 octobre et zones des salles du 1er novembre dans signage/RECETTE.md. Réception TV/réseau sur place encore dans #12. |
+| Pilotage | #223 réduite aux intégrations documentaires ; #153 aux jalons opérationnels. NOW et BOARD rapprochés des sources actuelles. |
 
-## Suite préparée — sans exécution ni fusion automatique
+## Intégrations documentaires restantes
 
-| Lot | Rapprochement à effectuer | Source / résultat attendu | Validation ou dépendance |
-|---|---|---|---|
-| PR #197 — campagne Mill3sim3 | Mettre la préparation en regard des preuves publiées et des six URLs hors Nostr | Réviser le statut de la PR ; intégrer les cinq sources de campagne sans remplacer le registre de preuves déjà dans main | Relecture puis autorisation de fusion distincte |
-| PR #218 / #217 — offre Mill3sim3 | Rapprocher l’état « prêt à relire » de la preuve Facebook présente dans l’export Meta fourni | Distinguer ce qui est réellement diffusé, ce qui reste prévu et la validation des supports ; ne pas compter cette offre comme l’annonce Bitcointrails | Vérifier la correspondance de la publication et les validations ; aucune nouvelle diffusion |
-| PR #220 — Neowalt | Propager aux registres les vidéos déjà reçues selon #147/#12/#25/#153 | Main ne doit plus les présenter comme attendues après fusion ; réception des lots et essais restent distincts | PR existante à relire et à fusionner seulement sur accord |
-| Visuels / sources | Réconcilier les références et statuts #209/#211/#213 avec README du programme, SOURCES et briefs | Remplacer les mentions actives « à valider » ou « déploiement à autoriser » devenues historiques ; conserver les noms de fichiers et preuves | Vérifier les références exactes sans renommer les originaux Nextcloud |
-| Souveraineté / Meetup | Remplacer l’ancien « prochain rendez-vous » du 24 septembre par le bilan #7 ; indexer le rendez-vous Annecy Bitcoin Tour d’octobre | Fiches de projet cohérentes avec les événements réellement réalisés ; identifier le suivi GitHub approprié sans créer de doublon | Aucune date de prochain événement inventée |
-| Annecy Bitcoin Tour | Écart de comptage tranché par Cyrille le 19 octobre | **8 commerçants actuellement**, confirmation directe ; ne pas déduire neuf actifs de l’annonce CIAO | Décision documentée ; aucune liste ni audit des paiements déduit |
-| b-only.org / billetterie | Règle confirmée par Cyrille le 19 octobre | **Fin du tarif Classic : 31 octobre 2026 à 23 h 59, Europe/Paris** | Règle métier tranchée ; site conservé en l’état sur décision de Cyrille. Aucun changement public lancé dans ce lot ; configuration effective non recontrôlée |
-| Propositions du site | Décision de Cyrille le 19 octobre : conserver le site actuel | Affiches V1/V2 classées **essais non concluants** ; #216 clôturée comme non prévue. Maquette pastilles historique, fonctionnalité #207/#206 déjà livrée maintenue | Aucun import, intégration ou publication ; six fichiers locaux conservés, non ajoutés au suivi Git |
-| Pilotage / revues | Requalifier BOARD, curseur de revue, W40–W42 et priorités du Project à partir des preuves | Distinguer historique, préparation et actions actives ; pas de clôture technique assimilée à un audit serveur | Vérification des actions distribuées avant clôture de chaque revue |
+| Lot | Contenu | Prochaine étape |
+|---|---|---|
+| PR #226 | Recalage NOW, BOARD, registres, planning, suivis et sources de visuels ; fiches Meetup/Souveraineté | Relecture du diff resynchronisé avec main, puis autorisation de fusion distincte |
+| PR #197 | Cinq sources de la campagne Mill3sim3 / Bitcointrails déjà publiée | Décider de leur intégration ; aucune nouvelle programmation |
+| PR #218 / #217 | Sources et preuve Facebook de l’offre Mill3sim3 | Décider de leur intégration ; fin de vente documentée au 31 octobre, bons et PDF/scan restent suivis dans #217 |
 
-## Ordre proposé pour la prochaine passe
+## Limites et conservation
 
-1. Fait : correctif des échéances et propagation documentaire fusionnés ; réconciliation du Project vérifiée.
-2. Réconcilier les PR #197/#218/#220 avec les preuves et décisions les plus récentes.
-3. Aligner les sources de visuels et les fiches Meetup/Souveraineté.
-4. Confirmations reçues : huit commerçants Annecy Bitcoin Tour et fin du tarif Classic le 31 octobre à 23 h 59. Contrôler les supports divergents avant toute correction publique.
+Relecture de GitHub et propagation des décisions explicites, sans nouvel audit Pretix, Paheko, Dolibarr, originaux Nextcloud, sauvegardes ou serveur. Le relevé de billetterie du 26 octobre reste le dernier documenté. La restauration Pretix du 19 octobre couvre l’instance locale uniquement.
 
-Cette file de travail ne réactive ni l’audit du parcours de suivi, ni de nouvelles sollicitations des relais, ni le suivi hebdomadaire des ventes. Elle ne déclenche aucune publication, opération financière, intervention serveur ou suppression de fichier.
-
-## Classement des essais du site — décision du 19 octobre
-
-Cyrille demande de laisser le site dans son état actuel. Les propositions d’affiche partenaires V1/V2 sont abandonnées comme essais non concluants ; #216 est clôturée avec le motif `not_planned`. Les fichiers et aperçus locaux sont conservés sans intégration. La maquette de pastilles reste une trace historique d’une fonctionnalité déjà livrée par #207/#206 ; aucun retour arrière. Les actions de gouvernance des accès et de transfert du domaine #45 sont distinctes et ne sont pas clôturées par cette décision.
-
-## Pilotage et revues — passe complémentaire du 19 octobre
-
-- PR #197/#218 resynchronisées avec main et preuves : sources de la campagne Bitcointrails publiée, offre spéciale Facebook partiellement diffusée ; fusions distinctes en attente. #220 relue, réception des vidéos distincte des lots et essais.
-- NOW reprend les huit commerçants confirmés, la fin Classic au 31 octobre à 23 h 59 et l’abandon des essais d’affiche. Les anciennes mentions de programmation du 12 octobre sont explicitement historiques ; #153 alignée sur les preuves du 19 octobre.
-- W43 #227 est la revue courante. Monitoring public réussi le 19 octobre à 13 h 36 UTC : [run 39261533906](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39261533906). Aucune Issue `[INCIDENT]` ouverte trouvée au relevé ; aucun état serveur global déduit.
-- W40 #181, W41 #195 et W42 #212 restent ouvertes et qualifiées de revues historiques incomplètes. Sauvegardes, Restic, restauration, disque, conteneurs et sécurité restent non vérifiés dans cette passe ; aucun succès actuel attribué rétroactivement à ces semaines.
-- Le curseur de revue globale conserve sa date et ses inventaires historiques ; sa note est corrigée pour ne plus annoncer #222/#224 non fusionnées. Le prochain point global devra refaire un inventaire actuel.
+Les anciens inventaires de branches, worktrees et PR du 19 octobre étaient des instantanés ; ils ne décrivent plus l’état courant. Les prototypes non suivis préexistants sont préservés. Le curseur de revue est actualisé avec l’inventaire de cette passe documentaire et son périmètre, sans présenter les preuves métier anciennes comme nouvelles.

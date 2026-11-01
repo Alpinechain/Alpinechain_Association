@@ -1,7 +1,7 @@
 # B-Only'26 — Campagne hébergement (#229)
 
 **Date de révision : 2026-10-22**
-**Statut : PRÊT À RELIRE ; diffusion suspendue tant que la rubrique n'est pas vérifiée en production.**
+**Statut : PRÊT À RELIRE pour la diffusion ; rubrique publiée et vérifiée le 22 octobre, page/ancre/six annonces recontrôlées le 1er novembre. #229 clôturée ; validation des textes, publication sociale et archivage suivis dans #24.**
 **Procédure :** `skills/publication-multicanale/SKILL.md`, profil B-Only.
 **CTA principal (annonces, choix du logement, réservation) :** https://b-only.org/#hebergement
 **Lien partenaire complémentaire :** https://www.yesconciergerie-annecy.fr/ (site local YES Annecy ; vérifier son fonctionnement et son accord avant diffusion).

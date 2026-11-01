@@ -1,5 +1,10 @@
 # B-Only’26 — Kit pour inviter votre communauté
 
+## Suivi courant — 1er novembre 2026
+
+#168 clôturée sur décision de Cyrille ; retours spontanés, archivage des URLs et éventuels relais suivis dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nouvelles sollicitations et relances laissées de côté depuis le 19 octobre. Les étapes et propositions de relance conservées ci-dessous sont historiques, pas des actions à lancer. Le modèle co-brandé reste à valider avant toute utilisation.
+
+
 Quelques visuels et textes prêts à utiliser pour parler de B-Only à votre
 communauté.
 

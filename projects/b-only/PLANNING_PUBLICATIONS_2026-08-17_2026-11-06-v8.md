@@ -1,12 +1,33 @@
 # Planning des publications B-Only — 17 août au 6 novembre 2026
 
-Version : V21
-Date : 2026-10-19
+Version : V22 (fichier historique v8 conservé)
+Date de réconciliation : 2026-11-01
 Fuseau : Europe/Paris
 
 Les fenêtres passées sont conservées pour la traçabilité. Leur statut repose
 sur les preuves publiques enregistrées dans l'Issue #24, et non sur la seule
 date prévue du calendrier.
+
+## Suivi actif au 1er novembre
+
+Les issues #168 (relais), #188 (Thomas), #203 (Loïc), #204 (Frédéric) et #229 (hébergement) sont clôturées sur décision de Cyrille. **#24 conserve les suites de diffusion, les preuves et métriques** ; les dates anciennes ci-dessous ne relancent pas les campagnes.
+
+| Période / sujet | État documentaire | Prochaine action dans #24 |
+|---|---|---|
+| Loïc / Frédéric | Dernière programmation confirmée le 19 octobre ; Blog Loïc déjà archivé | Collecter cinq URLs sociales Loïc et six URLs Frédéric, ou qualifier les canaux non publiés ; métriques séparées |
+| Hébergement | Page et FAQ publiées le 22 octobre, page/ancre/six annonces recontrôlées le 1er novembre | Valider/arbitrer la diffusion ; CTA unique https://b-only.org/#hebergement ; publication sociale non confirmée |
+| 1er novembre — bascule tarifaire | Fenêtre à rapprocher des preuves ; aucune publication déduite de la date | Vérifier tout rappel avant diffusion ; fin Classic au 31 octobre et début Late dans le dernier relevé Pretix du 26 octobre |
+| 2–4 novembre — workshops / informations pratiques | À CADRER | Définir contenu, canaux, responsable et validation |
+| 5–6 novembre — Cercle du Coin avec Laure Merlin | À PRODUIRE / VALIDER | Confirmer contenu et programmation réelle |
+| Codes Paymium / Cercle du Coin | Prolongés par Cyrille jusqu’au 6 novembre au soir, selon #186 | Reprendre cette échéance si une communication est décidée ; ne pas l’étendre à Bitstack |
+| 7–9 novembre — couverture de l’événement | À CADRER | Définir les contenus autorisés et les responsables, sans inventer de programmation |
+| 10 novembre et 12 novembre — consolidation / capitalisation | Jalons de #153, diffusion à arbitrer | Consolider les ressources et preuves ; valider les éventuelles publications |
+
+Blog Florent toujours à faire. Nostr hors suivi. Nouvelles sollicitations et relances des relais laissées de côté ; seules les réponses spontanées et URLs reçues restent à archiver. Les textes validés et calendriers CSV de préparation ne sont pas modifiés par ce recalage.
+
+## Repères et fenêtres antérieurs
+
+Les sections datées ci-dessous conservent le contrôle du 19 octobre et les propositions initiales. Le tableau actif ci-dessus et les preuves dans #24 prévalent ; aucune fenêtre passée n’est reprogrammée automatiquement.
 
 ## Archivage des liens — contrôle du 19 octobre 2026
 
@@ -43,7 +64,7 @@ La cadence alterne :
 
 Les publications complémentaires ne doivent pas remplacer ni retarder une campagne intervenant prête.
 
-## Séquence active
+## Séquence de référence — fenêtres historiques et fin de préparation
 
 | Dates | Campagne | Statut |
 |---|---|---|
