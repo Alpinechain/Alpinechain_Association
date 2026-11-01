@@ -1,28 +1,18 @@
 {
-  "last_review": "2026-10-19T11:34:34+02:00",
-  "last_commit": "0a3791166f54a4e065bca960c6f6ffef94cb1c04",
+  "last_review": "2026-11-01T23:02:31+01:00",
+  "last_commit": "a74bd1b80c1051d1a5427e4c553316aef4bb279f",
   "open_issues_seen": [
+    225,
     223,
-    221,
     217,
-    216,
-    212,
-    204,
-    203,
-    199,
     198,
-    195,
     193,
-    188,
     186,
-    181,
     173,
-    168,
     153,
     147,
     132,
     61,
-    53,
     45,
     27,
     26,
@@ -32,11 +22,9 @@
     4
   ],
   "open_prs_seen": [
-    224,
-    222,
-    220,
+    226,
     218,
     197
   ],
-  "note": "Revue globale en lecture du 19 octobre, puis propagation autorisée des décisions : preuves et statistiques consolidées par #219 ; Nostr hors suivi, Blog Florent à faire, Loïc/Frédéric encore planifiés, piste raisons concrètes de venir à approfondir. Pistes 1/2/4 laissées de côté. Correctif des échéances préparé dans #221 / PR #222 ; réconciliation documentaire préparée dans #223 / PR #224, non fusionnée. Quatre échéances inférées effacées du Project ; dates explicites de #25 et #153 conservées. Aucun nouvel audit des paiements, sauvegardes ou documents métiers. Réception des vidéos Neowalt tracée dans #147, propagation aux fichiers en PR #220 non fusionnée."
+  "note": "Réconciliation documentaire du 1er novembre 2026 sur les Issues/PR et main relus. #227/#232/#53/#188/#168/#203/#204/#229 clôturées sur décision de Cyrille ; suites des quatre dernières dans #24. #220 clôturée sans fusion. #223/#153 simplifiées. Codes Paymium/Cercle du Coin/Bitstack prolongés par Cyrille au 6 novembre au soir, heure exacte non fournie. Nouvelle revue prévue le 2 novembre. PR #226 remise au niveau de main et actualisée, sans fusion. Les inventaires sont ceux de cette passe documentaire ; aucun nouvel audit Pretix, comptabilité, originaux Nextcloud, sauvegardes ou serveur. Le commit de référence est main avant intégration de cette préparation."
 }
