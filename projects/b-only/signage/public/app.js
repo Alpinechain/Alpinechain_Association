@@ -186,11 +186,13 @@ function clearMedia() {
 }
 function sessionCard(label, entry, screen, next = false) {
   const section = el("section", next ? "session next" : "session current");
-  section.append(el("p", "eyebrow", label));
+  section.append(el("p", "eyebrow", next ? "À SUIVRE" : "EN COURS"));
   const content = el("div", "session-content");
   const copy = el("div", "session-copy");
   content.append(copy);
   section.append(content);
+  if (!next && label !== "EN COURS")
+    copy.append(el("p", "session-status", label));
   if (entry) {
     copy.append(el(next ? "h2" : "h1", "session-title", entry.title));
     if (entry.speakers.length)

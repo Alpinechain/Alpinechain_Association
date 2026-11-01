@@ -52,10 +52,12 @@ export SIGNAGE_TEST_ARTIFACT_DIR="$HOME/Téléchargements/bonly-recette-230"
 mkdir -p "$SIGNAGE_TEST_ARTIFACT_DIR"
 export SIGNAGE_TEST_VIDEO="$SIGNAGE_DATA_DIR/media/demo-test.mp4"
 node test/browser-check.mjs
+node test/browser-layout-check.mjs
 node test/browser-vimeo-check.mjs --online
 ```
 
-Le second script ouvre les lecteurs Vimeo officiels et nécessite Internet.
+Le script `browser-vimeo-check.mjs` ouvre les lecteurs Vimeo officiels et
+nécessite Internet.
 Il n'extrait ni ne télécharge leurs fichiers. Résultats JSON et captures sont
 conservés dans le dossier d'artefacts, pas dans GitHub. Les tests n'installent
 aucun service et utilisent un serveur de test sur un port local temporaire.
@@ -165,3 +167,67 @@ Suivi : [#240](https://github.com/Alpinechain/Alpinechain_Association/issues/240
 La livraison du MVP et sa mise en service clôturent #230. La recette sur place
 et la diffusion de l'événement restent suivies dans #12 ; elles ne sont pas
 déclarées réalisées par la fusion ou le déploiement.
+
+## Mise en page des salles — préparation du 1er novembre 2026
+
+Suivi audiovisuel : #12. Modification préparée sur
+`codex/bonly-room-layout-20261101`, à relire avant toute mise en production.
+
+Les deux salles partagent `sessionCard()` et les mêmes règles CSS. En paysage,
+deux colonnes égales sont séparées par une ligne verticale. Les libellés
+`EN COURS` et `À SUIVRE` occupent un emplacement réservé en haut à gauche,
+avec les mêmes marges ; seuls les contenus sous les libellés s'adaptent.
+Les états `SÉLECTION RÉGIE` et `EN CE MOMENT` restent visibles dans le contenu.
+Le fond, les montagnes, les couleurs et l'accent orange sont conservés.
+Le portrait conserve deux zones empilées adaptées à cette orientation.
+
+La recette `browser-layout-check.mjs` utilise le serveur local et des
+instantanés synthétiques isolés du cache et de la production. Elle vérifie
+les deux salles en 1920 × 1080, 2560 × 1080, 3440 × 1440, 1280 × 720 et
+1080 × 1920 : programme réel, titres longs, visuels absents ou en erreur,
+sélection manuelle, créneaux fixes et fin d'événement. Elle contrôle les
+coordonnées des libellés, les marges et l'absence de débordement, et produit
+les captures et `results.json` dans `SIGNAGE_TEST_ARTIFACT_DIR`.
+
+Aucun changement de programmation, synchronisation ou sélection ; aucun
+déploiement ni essai sur les téléviseurs physiques au titre de cette modification.
+
+Résultats locaux du 1er novembre : 70 cas de mise en page réussis, sans erreur
+JavaScript ; 12 tests Node.js réussis ; recette navigateur existante réussie
+(salles, régie, hall et secours hors ligne). Validation du programme et
+`git diff --check` réussis. Les médias manquants dans les cas synthétiques
+sont intentionnels ; aucune requête vers la production n'est nécessaire.
+
+## Déploiement validé du 1er novembre 2026 — zones des salles
+
+Sur accord explicite de Cyrille, la révision applicative
+`dbdd84e119f9aa79d0cfbb37709bff7c76376825` est déployée sous l'image
+`localhost/alpinechain/bonly-signage:dbdd84e119f9`.
+Les variables d'exploitation `BONLY_SIGNAGE_IMAGE_TAG` et
+`BONLY_SIGNAGE_SOURCE_COMMIT` sélectionnent cette version dans le `.env`
+privé ; le dépôt Serveur reste propre et ses valeurs par défaut sont conservées.
+Aucune fusion GitHub n'est effectuée au titre de cet accord de déploiement.
+
+Contrôles après bascule :
+- conteneur `healthy`, endpoints de santé des trois écrans en HTTP 200 ;
+- `app.js` et `styles.css` servis sur les deux domaines identiques aux fichiers
+  validés (SHA-256 comparés) ;
+- configuration, programme et références de visuels identiques avant/après ;
+- identifiants des autres conteneurs inchangés ;
+- huit contrôles navigateur réussis en 1920 × 1080 et 3440 × 1440 sur les
+  deux domaines : état réel et horloge simulée uniquement dans le navigateur,
+  sans écriture de régie ni erreur JavaScript ;
+- administration toujours refusée sur l'hôte d'affichage (404), authentification
+  exigée sur l'hôte d'administration (401).
+
+Le premier contrôle avait aussi exigé l'égalité de la révision API, alors
+que celle-ci est initialisée à chaque démarrage. Le retour arrière automatique
+s'est exécuté ; la seconde bascule a contrôlé les données persistantes et a
+réussi sans modifier la logique de l'application.
+
+Retour arrière conservé sur le serveur dans
+`/var/backups/bonly-signage/layout-dbdd84e-20261101/` : image précédente,
+archive des données, environnement privé, instantanés avant/après, bundle
+source et script `rollback.sh`. Aucun secret n'est copié dans Git.
+Les lecteurs déjà ouverts doivent être rechargés une fois ; la réception
+sur téléviseurs physiques reste distincte de ces contrôles navigateur.
