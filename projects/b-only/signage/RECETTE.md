@@ -197,3 +197,37 @@ JavaScript ; 12 tests Node.js réussis ; recette navigateur existante réussie
 (salles, régie, hall et secours hors ligne). Validation du programme et
 `git diff --check` réussis. Les médias manquants dans les cas synthétiques
 sont intentionnels ; aucune requête vers la production n'est nécessaire.
+
+## Déploiement validé du 1er novembre 2026 — zones des salles
+
+Sur accord explicite de Cyrille, la révision applicative
+`dbdd84e119f9aa79d0cfbb37709bff7c76376825` est déployée sous l'image
+`localhost/alpinechain/bonly-signage:dbdd84e119f9`.
+Les variables d'exploitation `BONLY_SIGNAGE_IMAGE_TAG` et
+`BONLY_SIGNAGE_SOURCE_COMMIT` sélectionnent cette version dans le `.env`
+privé ; le dépôt Serveur reste propre et ses valeurs par défaut sont conservées.
+Aucune fusion GitHub n'est effectuée au titre de cet accord de déploiement.
+
+Contrôles après bascule :
+- conteneur `healthy`, endpoints de santé des trois écrans en HTTP 200 ;
+- `app.js` et `styles.css` servis sur les deux domaines identiques aux fichiers
+  validés (SHA-256 comparés) ;
+- configuration, programme et références de visuels identiques avant/après ;
+- identifiants des autres conteneurs inchangés ;
+- huit contrôles navigateur réussis en 1920 × 1080 et 3440 × 1440 sur les
+  deux domaines : état réel et horloge simulée uniquement dans le navigateur,
+  sans écriture de régie ni erreur JavaScript ;
+- administration toujours refusée sur l'hôte d'affichage (404), authentification
+  exigée sur l'hôte d'administration (401).
+
+Le premier contrôle avait aussi exigé l'égalité de la révision API, alors
+que celle-ci est initialisée à chaque démarrage. Le retour arrière automatique
+s'est exécuté ; la seconde bascule a contrôlé les données persistantes et a
+réussi sans modifier la logique de l'application.
+
+Retour arrière conservé sur le serveur dans
+`/var/backups/bonly-signage/layout-dbdd84e-20261101/` : image précédente,
+archive des données, environnement privé, instantanés avant/après, bundle
+source et script `rollback.sh`. Aucun secret n'est copié dans Git.
+Les lecteurs déjà ouverts doivent être rechargés une fois ; la réception
+sur téléviseurs physiques reste distincte de ces contrôles navigateur.
