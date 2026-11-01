@@ -1,5 +1,10 @@
 # Liens des publications — contrôle du 19 octobre 2026
 
+## Réconciliation du suivi — 1er novembre 2026
+
+#168, #203, #204 et #229 clôturées sur décision de Cyrille ; toutes les suites de communication sont regroupées dans **#24**. Les totaux et preuves du 19 octobre ci-dessous restent datés. Blog Loïc de nouveau accessible en HTTP 200 le 1er novembre ; cinq URLs sociales Loïc et six URLs Frédéric restent à collecter après diffusion ou à qualifier par canal. Nostr hors suivi. Page hébergement publiée ; diffusion sociale non confirmée. Le relais Satoboat signalé par Cyrille est ajouté au registre partenaires dans cette PR, sans nouvelle vérification de X.
+
+
 Projet : B-Only ; objectif : consolider les permaliens et identifier les preuves manquantes ; public : coordination associative ; sortie : registres CSV et liste de collecte ; validation : humaine avant fusion et toute publication.
 
 ## Liens consolidés

@@ -1,10 +1,15 @@
 # Campagne — Loïc Ruchat-Leuthardt / BitVault
 
-## État courant — 19 octobre 2026
+## État documentaire — 1er novembre 2026
 
 **SUITE PROGRAMMÉE — confirmation de Cyrille du 19 octobre ; Blog déjà publié et archivé. Les cinq URLs sociales hors Nostr et les statistiques seront collectées après diffusion. Vignette validée par Cyrille le 12 octobre (#209), copie validée Nextcloud 5140 ; les références de préparation ci-dessous ne sont pas la validation courante.**
 
 Preuves : [publications-v1.csv](publications-v1.csv), [relevé statistique](../../statistiques/2026-10-19-releve-publications.md) et [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nostr est retiré du suivi des liens et statistiques ; les archives sont conservées. Aucun contenu n’est republié.
+
+**Issue #203 clôturée sur décision de Cyrille le 1er novembre.** Les preuves de diffusion et métriques restent dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) ; les besoins pratiques dans #12 / #25. Cette clôture ne prouve pas une diffusion complète. Les confirmations de programmation ci-dessus restent datées du 19 octobre.
+
+<details>
+<summary>Préparation et décisions antérieures — historique</summary>
 
 ## Préparation et décisions antérieures — historique
 
@@ -52,3 +57,5 @@ Suivi dédié : #203 ; communication : #24 ; visuels : #53 ; besoins pratiques :
 ## Actualisation visuel — 12 octobre 2026
 
 Le portrait fourni par Cyrille et la vignette B-Only V1 sont désormais classés dans Nextcloud : portrait 5137, vignette 5138. **VISUEL PRODUIT — À VALIDER** (`pending_review`). Le [brief V1](brief-vignette-v1.md) décrit le visuel effectivement produit ; les mentions antérieures de portrait manquant sont historiques. Texte, visuel et calendrier restent à valider avant diffusion. Intégration au planning préparée dans #209.
+
+</details>
