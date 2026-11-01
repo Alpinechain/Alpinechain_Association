@@ -4,7 +4,7 @@ Les originaux restent dans Nextcloud. Les fichiers WebP de ce dossier sont des
 copies légères destinées uniquement à l’affichage public : 300 px pour les
 pastilles, 960 px au maximum pour le zoom, proportions conservées, aucune
 retouche, aucun agrandissement. Compression WebP qualité 0,9 via le navigateur.
-Les six sources Nextcloud ont été vérifiées en lecture seule dans le Groupfolder
+Les sources Nextcloud ont été vérifiées en lecture seule dans le Groupfolder
 Association le 12 octobre 2026 et inspectées visuellement.
 
 Intégration demandée par Cyrille : portrait d’Élodie pour son workshop,
@@ -23,7 +23,7 @@ Mill3sim3 et Taz. Les cinq pictogrammes déjà publiés restent inchangés.
   SHA-256 original : `7d595676ea90e02ecf2566145b6f7a4acb5fbbca7c1815c61c53b28444eb6a70`.
 
 Aucun partage Nextcloud externe créé ; aucun original lourd copié dans GitHub.
-Les copies de diffusion seront publiques après la fusion/déploiement autorisés.
+Les copies de diffusion sont publiées : intégration par #209, complément Communautés francophones par #211 et correction Alexandre par #213. Les confirmations de fusion et déploiement sont récapitulées ci-dessous ; aucune nouvelle vérification des originaux Nextcloud n’est déclarée par cette réconciliation.
 
 ## Sources choisies après inventaire
 
@@ -33,32 +33,32 @@ Les copies de diffusion seront publiques après la fusion/déploiement autorisé
 - Frédéric : portrait fourni directement par Cyrille le 12 octobre (`Fred Jollien profil.jpeg`, 200 × 200 px).
   Source canonique : `Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Photos Intervenants/intervenant--frederic-jollien--portrait--2026-10-12--source.jpeg`.
   SHA-256 portrait : `1f29e960f2db402323ef841792160006fd67e06a4c10b2a4890db55da9774d2b`.
-  Vignette B-Only V1 générée à sa demande, statut **À VALIDER** (`pending_review`) :
+  Vignette B-Only V1 générée à sa demande, statut de production initial **À VALIDER**, puis validation de Cyrille et intégration par #209 ; [copie validée 5139](https://cloud.alpinechain.xyz/index.php/f/5139) :
   `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--frederic-jollien--bitcoin-ideal-liberal--2026-10-12--a-valider-v1.png`.
   SHA-256 PNG : `6c2aad8c5a820c5d777e54a2dbf9b820030391c8b22b4673e902a805aba67bb3`.
   Dépôts WebDAV exclusifs (If-None-Match: *), lecture distante et SHA-256 vérifiés.
   Le portrait de l’Institut Libéral rejeté n’est pas utilisé. Aucun titre professionnel ou affiliation n’est ajouté au visuel.
   Copies WebP légères utilisées pour la pastille et le zoom ; aucun original lourd versionné.
 
-## Vignette Loïc / BitVault — V1 à valider
+## Vignette Loïc / BitVault — V1 validée
 
 Portrait fourni directement par Cyrille le 12 octobre (`loic ruchat profil.jpeg`, 800 × 800 px).
 Source canonique : `Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Photos Intervenants/intervenant--loic-ruchat-leuthardt--portrait--2026-10-12--source.jpeg`.
 SHA-256 portrait : `ae71dc5f0ddaf68f7720398049b68924e41ca5949abe63c6b177c7b1806151a1`.
 Vignette B-Only V1 générée à sa demande : `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--loic-ruchat-leuthardt--posseder-ses-bitcoins-en-toute-securite--2026-10-12--a-valider-v1.png`.
 SHA-256 PNG : `578843e4a8e51e713b03e342d7f856ce8830105282ebbfb5245aa9655341a54a`.
-Statut : **VISUEL PRODUIT — À VALIDER** (`pending_review`). Badge WORKSHOP, nom complet et titre « Posséder ses bitcoins en toute sécurité » ; logo BitVault fourni, aucune fonction ou statut partenaire ajouté.
+Statut courant : **VISUEL VALIDÉ**, intégration autorisée par Cyrille le 12 octobre dans #209 ; [copie validée 5140](https://cloud.alpinechain.xyz/index.php/f/5140). Badge WORKSHOP, nom complet et titre « Posséder ses bitcoins en toute sécurité » ; logo BitVault fourni, aucune fonction ou statut partenaire ajouté.
 
 Créations exclusives WebDAV, lecture distante/empreintes vérifiées et Groupfolder 1 indexé sans erreur. Les copies WebP servent à la pastille et au zoom, en remplacement du logo seul. Profil fourni : https://www.linkedin.com/in/lo%C3%AFc-ruchat-leuthardt/ .
 
 ## Liens Nextcloud vérifiés
 
 - Portrait Frédéric : https://cloud.alpinechain.xyz/index.php/f/5135
-- Vignette Frédéric V1 à valider : https://cloud.alpinechain.xyz/index.php/f/5136
+- Vignette Frédéric V1 de production (historique) : https://cloud.alpinechain.xyz/index.php/f/5136
 - Portrait Loïc : https://cloud.alpinechain.xyz/index.php/f/5137
-- Vignette Loïc V1 à valider : https://cloud.alpinechain.xyz/index.php/f/5138
+- Vignette Loïc V1 de production (historique) : https://cloud.alpinechain.xyz/index.php/f/5138
 
-Identifiants relus par PROPFIND, contenus et SHA-256 relus après dépôt.
+Identifiants de production relus par PROPFIND, contenus et SHA-256 relus après dépôt. Les liens 5136/5138 et noms `a-valider` restent des références historiques ; les copies validées sont 5139/5140. Aucun fichier source n’est renommé et aucune empreinte historique n’est remplacée.
 
 ## Communautés francophones — logo fourni le 12 octobre 2026
 
@@ -70,7 +70,7 @@ SHA-256 original : `a700c40b6de9809773bb6b7f31a352128c2b80c72b1ae3630f3ee867623b
 Création exclusive, contenu et empreinte relus à distance. Copie de diffusion
 WebP qualité 0,9, dimensions et proportions conservées, aucun agrandissement.
 La pastille et le zoom utilisent cette même copie ; les 30 créneaux actifs ont
-un visuel associé. Programme JSON inchangé. Fusion/déploiement à valider.
+un visuel associé. Programme JSON inchangé. Fusion et déploiement réalisés par [#211](https://github.com/Alpinechain/Alpinechain_Association/pull/211), commit `7d615e3aecdecf45c6c09e4ef12d4439ff1119dd`.
 
 ## Alexandre Stachtchenko — correction V4 du 13 octobre 2026
 
@@ -82,5 +82,8 @@ Original Nextcloud :
 `Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-10-13--a-valider-v4.png`.
 SHA-256 PNG : `d9f762717dd3cd922013a736706393777228cc03e0c19647d3533e2e4ea323e9` ; 1824374 octets, relus depuis Nextcloud.
 Le fichier source conserve son suffixe `a-valider` ; la demande d’intégration
-ne clôture pas les points distincts de droits/crédit. Fusion et déploiement
-restent à autoriser. L’article AlpineChain est corrigé par Cyrille séparément.
+ne clôture pas les points distincts de droits/crédit. Fusion et déploiement réalisés par [#213](https://github.com/Alpinechain/Alpinechain_Association/pull/213), commit `59db1d36f02a24453a93af2e5d4fb171c9a4a00a`. L’article AlpineChain est corrigé par Cyrille séparément.
+
+## Réconciliation des validations — 19 octobre 2026
+
+Sources GitHub relues : PR #209 fusionnée le 12 octobre au commit `d4703c1565127e3c4cbf2fe7771916b80ab973e6` ; #211 fusionnée le 12 octobre ; #213 fusionnée le 13 octobre. Les validations et résultats de déploiement sont consignés dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Les 30 créneaux actifs disposent d’un visuel associé. Les droits/crédits restent distincts des validations d’intégration.

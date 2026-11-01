@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=B-Only salle A
+Exec=chromium --kiosk --no-first-run --noerrdialogs http://REGIE-LAN:8787/screen/salle-a
+Terminal=false
+X-GNOME-Autostart-enabled=true

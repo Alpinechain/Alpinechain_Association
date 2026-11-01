@@ -1,169 +1,78 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : 2026-10-19 (réconciliation des décisions, preuves et statistiques)
-Horizon : 30 jours  
+Date de dernière mise à jour : **2026-11-01 — réconciliation documentaire et décisions de Cyrille**
+Horizon : ouverture de B-Only le 7 novembre, puis bilans
 Validateur opérationnel : Cyrille
 
-## Rôle
+## Priorités avant l’ouverture
 
-Ce fichier est le point d’entrée quotidien du pilotage AlpineChain. Il résume les priorités, décisions, blocages et échéances ; les Issues GitHub et les outils métiers conservent le détail.
+| Priorité | Résultat attendu | Source de suivi |
+|---|---|---|
+| Essais et régie | Fixer l’essai visé le **2 novembre** avec Novotel/Aravision ; tester micros + audio PC, captation, stockage et secours | [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) |
+| Logistique | Finaliser implantation, bénévoles, mobilier, stands, bar et livraisons ; réceptionner les TV/lecteurs et le réseau sur place | [#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25), #12 |
+| Risques | Affecter les risques critiques et leurs plans de repli ; préparer une fiche de continuité hors ligne | [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) |
+| Partenaires et finances | Finaliser les contreparties Bitstack, l’inventaire des lots Neowalt, les rapprochements et engagements restants | #4, #147, #26, #198, #217 |
+| Communication | Arbitrer les rappels, informations pratiques et Cercle du Coin ; collecter les preuves restantes et préparer la couverture de l’événement | [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) |
 
-## Priorités actives
+L’essai du 2 novembre reste **à fixer** selon la confirmation de Cyrille du 26 octobre ; appel, horaire et participants ne sont pas confirmés. [#153](https://github.com/Alpinechain/Alpinechain_Association/issues/153) est l’index des jalons ; les détails restent dans les issues métiers.
 
-1. **Accélérer la conversion B-Only** : état communiqué par Cyrille le 12 octobre : **52 billets vendus (34 Early, 18 normaux)**. Approfondir les raisons concrètes de venir dans #24. Audit du parcours de suivi, nouvelles sollicitations des relais et suivi hebdomadaire laissés de côté pour le moment, selon Cyrille le 19 octobre.
-2. **Capitalisation Souveraineté 3.0 — BitVault clôturée** : rencontre tenue le 24 septembre ; retour public publié sur cinq canaux et synthèse qualitative archivés dans [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7), clôturée le 4 octobre sur confirmation humaine. Les compléments de métriques éventuels ne bloquent plus la clôture.
-3. **Suivre la dynamique communautaire et ses revenus** : la fréquentation habituelle des meetups est estimée à **8–15 personnes**, avec un cœur régulier de **6–8 personnes** et environ **4–6 nouveaux participants** depuis le début de l'année. Les adhésions 2026 sont à **3 particuliers**, contre **8 particuliers + 2 entreprises fin 2025**, mais la plupart des participants aux meetups Bitcoin paient leur venue : environ **25 € de recettes par meetup en moyenne**. La boutique goodies représente également environ **100 € de recettes cumulées à ce jour**.
-4. **Maintenir Annecy Bitcoin Tour et commencer à mesurer son usage** : dernier repère consolidé de **8 commerçants**, à réconcilier avec l’annonce publique du CIAO comme neuvième partenaire le 27 septembre ; aucun nouveau total d’actifs ni retour chiffré sur les paiements n’est confirmé.
-5. **Finaliser la préparation opérationnelle après validation du programme complet le 12 octobre** : registre des risques [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) à construire ; plans cotés Novotel reçus, implantation finale après confirmation des partenaires (#25). Devis Aravision signé et envoyé (#12), devis Grifartaix signé et budget Nextcloud déclaré à jour le 28 septembre (#26). Maintenance mensuelle reportée après B-Only sauf urgence, dans [Serveur #119](https://github.com/Alpinechain/Serveur/issues/119) ; Pretix reste gelé.
+## Décisions et état documentaire du 1er novembre
 
-## Revue stratégique 2026
+- **Clôturées sur décision de Cyrille :** W43 #227, W44 #232, vignettes #53, campagne Thomas #188, relais #168, campagne Loïc #203, campagne Frédéric #204 et hébergement #229. Les compléments de diffusion et d’archivage des quatre dernières sont repris dans **#24** ; leur clôture ne prouve pas une diffusion complète.
+- **PR #220 clôturée sans fusion.** Les vidéos Neowalt sont reçues depuis le 19 octobre ; les lots, montages et essais restent distincts dans #147 / #12 / #25.
+- **#223 et #153 simplifiées** : intégrations documentaires d’un côté, jalons opérationnels de l’autre. PR #226 en préparation pour intégrer ce recalage ; #197 et #218 restent des lots séparés, sans fusion autorisée par ce travail.
+- **Codes sponsors #186 :** 30 utilisations par sponsor validées par Cyrille le 26 octobre ; le précédent écart 30/50 est résolu. Paymium, Le Cercle du Coin et Bitstack prolongés par Cyrille jusqu’au **6 novembre au soir** ; heure exacte non précisée. Transmission et usages restent distincts ; aucun nouveau contrôle Pretix dans cette passe.
+- **Nouvelle revue d’exploitation prévue le lundi 2 novembre**, selon Cyrille. Les suites techniques demeurent dans Serveur #153/#154 et les issues métiers.
 
-La revue du 20 septembre est versionnée dans [`notes/2026-09-20-revue-strategique-objectifs-2026.md`](../notes/2026-09-20-revue-strategique-objectifs-2026.md).
+## B-Only — repères confirmés et datés
 
-Constat principal : le socle opérationnel est désormais solide ; le principal écart aux objectifs 2026 concerne la croissance mesurable de la communauté, la conversion des participants en adhérents/contributeurs et la mesure de l'impact.
+### Programme, régie et partenaires
 
-## Suivis de communication actuels
+- Programme complet publié par #202 le 12 octobre : **30 créneaux actifs publics**, une entrée annulée conservée pour audit ; clôture lundi 11 h–11 h 50 sans invité nommé. Référence : [programme](../projects/b-only/programme/). Les besoins pratiques et autorisations restent distincts de la validation de la grille.
+- Visite Novotel réalisée le 19 octobre. Implantation et mobilier à terminer dans #25 ; devis Aravision signé et envoyé, devis Grifartaix signé selon les confirmations déjà consignées. Aucun nouvel engagement ni audit financier déduit.
+- **Affichage dynamique livré et mis en service** : évolutions du hall documentées les 27 et 29 octobre ; zones des salles déployées et vérifiées le **1er novembre** dans #244. [Recette détaillée](../projects/b-only/signage/RECETTE.md). Les contrôles logiciels ne remplacent pas la réception des téléviseurs, du réseau et des solutions de secours sur place (#12).
+- Neowalt : **six lots produits** — deux packs Tangem de deux cartes, deux Ellipal Titan Mini, deux SafePal X1. Aucune présence physique prévue. Deux [vidéos sources](https://github.com/Alpinechain/Alpinechain_Association/issues/147) classées dans Nextcloud le 19 octobre ; réception/inventaire des lots et sélection/tests vidéo restent à confirmer.
+- Statuts financiers historiques : Paymium 2 500 €, Cercle du Coin 2 000 € et Bitstack 2 000 € déclarés payés et rapprochés dans les sources existantes ; aucun nouveau contrôle de ces règlements ici. BWS : transmission des billets et reversement suivis dans #198. Bons Mill3sim3 : contrôles PDF/scan et exécution suivis dans #217, fin de vente documentée au 31 octobre.
 
-- **Arbitrage communication du 19 octobre — [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24)** : visibilité en progression, résultat billetterie attribué limité (une utilisation de bon sponsor Paymium, autres bons suivis à zéro selon Cyrille). **À approfondir : les raisons concrètes de venir** — apprentissages, rencontres, ateliers, contenu du billet ; proposition à arbitrer par Cyrille, sans campagne décidée. Audit du parcours de suivi, nouvelle mobilisation des relais et suivi hebdomadaire laissés de côté pour le moment, sans échéance. [Analyse et arbitrages](../projects/b-only/statistiques/2026-10-19-releve-publications.md).
+### Billetterie — dernier relevé disponible, pas un compteur actuel
 
-- **Statistiques reçues le 19 octobre** : [39 observations consolidées](../projects/b-only/statistiques/2026-10-19-releve-publications.md), dont 14 LinkedIn, 16 Meta et neuf X. Compléter notamment LinkedIn ABM Mill3sim3, les pièces hors période de Florent et des campagnes antérieures, puis le détail Matomo par article et destination. Vue globale alpinechain.xyz reçue pour le 20 septembre–19 octobre : 290 visites, 592 pages vues, 99 liens sortants. Nostr hors suivi ; Loïc/Frédéric différés.
+Lecture Pretix du **26 octobre à 15 h 36 Europe/Paris**, documentée dans #232 : **52 commandes payées**, **56 billets à prix positif** (34 Early, 20 pass standard, un complément BWS, une offre Mill3sim3), **trois invitations** et **un bon d’achat sans admission** comptés séparément. Le repère humain de 52 billets au 12 octobre est remplacé par ce relevé daté.
 
-- **Liens contrôlés le 19 octobre** : [liste de collecte B-Only](../projects/b-only/SUIVI_LIENS_PUBLICATIONS.md), 60 URLs consolidées dont huit articles Blog vérifiés ; Blog Florent seul à faire immédiatement. Nostr retiré du suivi par Cyrille ; Loïc et Frédéric encore planifiés, collecte après diffusion. Les suivis datés ci-dessous restent historiques.
+Early désactivé au relevé ; fin du pass standard au 31 octobre à 23:59:59 et début Late prévu au 1er novembre à 00:00:01 Europe/Paris dans la configuration alors lue. Aucune relecture Pretix aujourd’hui ; ne pas présenter ces paramètres ou volumes comme recontrôlés le 1er novembre.
 
+### Communication — un suivi dans #24
 
-- **Relever les métriques de la campagne Pierre Noizat** : les sept publications sont `PUBLIÉES / URLS ARCHIVÉES` ; consigner les métriques par plateforme dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24) sans les additionner.
-- **Christine Jeanneaux** : six URLs hors Nostr archivées ; suivi des liens complet. Nostr retiré du suivi par Cyrille le 19 octobre.
-- **Florent Gabriel** : cinq URLs sociales archivées ; Blog à faire puis URL à archiver. Nostr hors suivi.
-- **Lionel Jeannerat** : liens hors Nostr et métriques sociales consolidés le 19 octobre ; besoins pratiques et statistiques Blog distincts.
-- **Séquence réconciliée le 19 octobre** : annonces Nicolas, Laure, Alexandre, Marius, Thomas, Taz, Lionel et Mill3sim3 publiées avec preuves archivées hors Nostr. Blog Florent à faire ; Loïc/Frédéric encore planifiés, collecte après diffusion. Les anciennes fenêtres et l’ancienne campagne Alexis ne sont pas relancées. Les compléments programme/billetterie, informations pratiques et Cercle du Coin restent à arbitrer séparément.
-- **Codes sponsors #186** : trois vouchers créés et vérifiés le 3 octobre, chacun pour 50 billets standard à 150 €, jusqu’au 31 octobre. Une utilisation du bon sponsor Paymium et zéro pour les autres bons suivis, selon Cyrille le 19 octobre ; transmission aux autres sponsors à confirmer, sans nouvelle sollicitation lancée. Aucun code privé dans GitHub.
+- Campagnes Nicolas, Laure, Alexandre, Marius, Thomas, Taz, Lionel et Mill3sim3 : preuves déjà archivées ; aucune reprogrammation des anciennes fenêtres. [Registre des liens](../projects/b-only/SUIVI_LIENS_PUBLICATIONS.md), [planning actif](../projects/b-only/PLANNING_PUBLICATIONS_2026-08-17_2026-11-06-v8.md).
+- Loïc : Blog publié et archivé, cinq URLs sociales hors Nostr à collecter ou canaux non publiés à qualifier. Frédéric : six URLs hors Nostr à collecter ou canaux à qualifier. Dernières confirmations de programmation au 19 octobre ; les dates proposées ne prouvent pas les heures réelles de diffusion. Suivi repris dans #24 après clôture #203/#204.
+- Hébergement : rubrique et FAQ publiées/testées le 22 octobre ; page, ancre et six annonces recontrôlées le 1er novembre. **CTA unique : https://b-only.org/#hebergement**. Diffusion sociale à arbitrer et prouver dans #24 ; textes du pack toujours soumis à validation.
+- Blog Florent à faire puis URL à archiver ; compléments de métriques séparés. Relevé du 19 octobre : 39 observations sociales ; aucun nouveau relevé aujourd’hui.
+- Nostr hors suivi, archives conservées. Piste « raisons concrètes de venir » à approfondir. **Audit du parcours de suivi, nouvelles sollicitations des relais et suivi hebdomadaire laissés de côté pour le moment**, décision du 19 octobre.
 
-## Décisions et mises à jour consolidées
+## Continuité — dernières preuves, pas un nouvel audit serveur
 
-### Programme B-Only
+- Dernière revue documentée W44 du **26 octobre** : dix services publics HTTP 200, 26 conteneurs actifs, 12 healthchecks sains ; disque `/` 49 %, `/opt/podman` 59 %. Sauvegarde terminée à 8 h 38 ; contrôle Restic du 25 octobre, métadonnées et 5 % des données. Dernière restauration isolée : **Pretix local, 19 octobre**, sans couverture de l’instance externe `join.alpinechain.xyz`.
+- Office : recette DOCX, DOTX, ODT et ODS réussie le 26 octobre ; **Serveur #167 clôturée**, selon W44. Les premiers constats OnlyOffice sont historiques. Limites de recherche de compromission conservées dans le dépôt privé.
+- MFA administrateurs Nextcloud imposée le 26 octobre ; inscriptions et recettes individuelles restantes, confirmations fournisseurs et expirations de jetons suivies dans **Serveur #153/#154**. La clôture des revues n’en déclare pas la résolution.
+- Maintenance générale après le 9 novembre dans **Serveur #152**, hors urgence validée ; Pretix et dépendances gelés. Bascule de la billetterie externe après B-Only selon **Serveur #66**.
 
-- Pierre Noizat : titre, synopsis et créneau `confirmed/public` confirmés ; portrait choisi normalisé et deux variantes non retenues archivées le 14 août ; vignette définitive validée active.
-- Le workshop initialement prévu avec Jean est abandonné pour 2026. BitVault / Loïc Ruchat-Leuthardt occupe le créneau du dimanche 8 novembre de 14 h 30 à 15 h 20 au Pleb Forum sous le titre « Posséder ses bitcoins en toute sécurité » ; la participation et le créneau sont confirmés, la visibilité publique est validée le 12 octobre ; les éléments opérationnels manquants restent à consolider.
-- Thomas Mang prend le créneau du lundi 9 novembre de 10 h à 10 h 50 en salle principale. Michel Khazzaka repasse en option sans créneau fixe.
-- Alexandre Stachtchenko est confirmé et public samedi 7 novembre de 15 h à 15 h 50 avec le titre « La Femme est l'avenir de Bitcoin ». Son intervention porte sur les baromètres d'adoption en Espagne, Italie et France. Portrait et vignette V4 corrigée, intégrée et déployée le 13 octobre ; sources dans Nextcloud ; communications préparées confirmées par Cyrille le 3 octobre. Le créneau du lundi 9 novembre de 11 h à 11 h 50 devient « Présentation de clôture », sans invité précisé, sur décision de Cyrille le 12 octobre ; identifiant historique `mon-main-alexis` conservé.
-- Sandra Gandoin est indisponible pour l’édition 2026. Delphine Vincent, à qui son ancien créneau du dimanche à 16 h 30 avait été proposé, s’est désistée le 3 octobre pour 2026 tout en indiquant son intérêt pour 2027. Le créneau du dimanche 8 novembre, 16 h 30–17 h 20, est désormais attribué à Frédéric Jollien pour « Bitcoin : quand la technologie réalise l’idéal libéral », en `confirmed/public`. Thomas Mang est également `confirmed/public` le lundi 9 novembre de 10 h à 10 h 50. Chloé D / Feel Mining reste une piste à qualifier par téléphone.
-- Aurore Galves et les six interventions ProfEduStream confirmées ont été rendues publiques dans le programme par les PR #129 et #135.
-- La PR #141 a inversé les deux créneaux de clôture concernés : le quiz est désormais samedi 7 novembre de 18 h à 18 h 50 et est désormais `confirmed/public` sous le titre « Surprise ». Lionel Jeannerat est confirmé et public dimanche 8 novembre de 17 h 30 à 18 h 20, en salle principale, après le début de sa campagne publique le 21 septembre.
-- Le workshop Specter de Schnuartz est remplacé par « Atelier Bitcoin Lego » avec Laure Merlin, dimanche 8 novembre de 18 h à 18 h 50 au Pleb Forum. Le créneau est `confirmed/public` depuis le 2026-09-06 ; ses détails pratiques et besoins techniques restent à finaliser.
-- Le Cercle du Coin intervient désormais lundi 9 novembre de 9 h à 10 h avec Laure Merlin : présentation du Cercle pendant 10 à 15 minutes, puis keynote « Comment faire communauté » pendant 30 à 35 minutes. Le créneau reste `confirmed/public`.
-- La grille complète contient 31 entrées, dont 1 annulée conservée pour audit. Les 29 créneaux précédents sont publics depuis #201 ; Mill3sim3 / Bitcointrails est ajouté en visibilité publique sur décision de Cyrille le 12 octobre ; l’entrée annulée reste masquée ; Michel Khazzaka reste une option sans créneau. Programme déclaré complet par Cyrille le 12 octobre ; passage en `published` réalisé par #202, fusionnée et déployée.
-- Le programme est complet et validé par Cyrille. Les dernières communications restent à planifier dans #24 ; cela ne remet pas en attente la grille programme #11.
+## Autres activités — repères conservés
 
-### Communication
-
-- Le Cercle du Coin a été annoncé le 5 août ; les URLs et métriques disponibles sont archivées dans #24 et #73, campagne clôturée le 24 août.
-- Paymium : campagne V2 publiée sur sept canaux ; URLs et métriques disponibles archivées le 24 août, rappel d’octobre suivi séparément.
-- La campagne Bitstack V2 a été publiée manuellement le 11 août sur sept canaux ; URLs et métriques disponibles archivées, campagne clôturée le 24 août.
-- La campagne multicanale V4 d’Élodie Lué est publiée sur sept canaux ; les URLs LinkedIn et les dates X/Meta ont été corrigées le 29 août, et les métriques X, LinkedIn et Meta disponibles sont relevées dans #24.
-- Polto et Darko : campagne V2 publiée ; les sept URLs publiques, dont Nostr
-  publié manuellement, sont archivées et revérifiées en HTTP 200 le 11
-  septembre. Les métriques restent à relever dans #24.
-- ProfEduStream workshops : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
-- ProfEduStream quantique : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram —, toutes vérifiées en HTTP 200 ; Nostr reste `NON VÉRIFIABLE` et la relecture sensible demeure à tracer.
-- Le replay historique d’Alexandre Stachtchenko a été publié sur cinq réseaux ; le relais LinkedIn Annecy Bitcoin Meetup n’a pas été publié et ne le sera pas.
-- Aurore : six URLs archivées — Blog, deux LinkedIn, X, Facebook et Instagram — et métriques Meta relevées ; Nostr reste `NON VÉRIFIABLE`.
-- Renaud Lifchitz : campagne V3 publiée du 3 au 5 septembre ; les sept URLs publiques, dont Nostr publié manuellement, sont archivées et revérifiées en HTTP 200 le 11 septembre. Les métriques restent à relever dans #24.
-- Pierre Noizat : campagne intervenant V1 `PUBLIÉE / SEPT URLS ARCHIVÉES` ; les métriques restent à relever séparément par plateforme.
-- Planning actif : preuves hors Nostr et métriques reçues consolidées au 19 octobre dans les CSV ; Blog Florent à faire ; Loïc/Frédéric encore planifiés. Les informations pratiques, le Cercle du Coin et l’ancienne fenêtre Alexis restent à arbitrer séparément. Les besoins techniques ne sont pas déclarés terminés par la publication des campagnes.
-- L’inversion Lionel/quiz n’exige aucune correction de publication déjà diffusée : aucune preuve publique archivée ne contient ces deux créneaux. Toute future campagne Lionel devra reprendre le dimanche 8 novembre, 17 h 30–18 h 20 ; aucune vague dédiée au quiz n’est actuellement planifiée.
-- Relations presse : l’envoi à 38 adresses professionnelles publiques est déclaré réalisé par Cédric le 28 août ; réponses, erreurs de distribution et preuves publiques restent à suivre dans #24.
-
-## État opérationnel B-Only 2026
-
-### Billetterie
-
-- Billetterie publique ouverte : https://join.alpinechain.xyz/org/bonly26/
-- État communiqué et validé par Cyrille le 12 octobre : **52 billets vendus — 34 Early et 18 normaux**. Déclaration humaine, sans extraction Pretix récente.
-- Le quota **Early est épuisé** ; aucune place Early n’est encore disponible.
-- Ce chiffre du 12 octobre remplace le dernier état consolidé du 20 septembre (42 billets) pour le pilotage stratégique ; Pretix reste la source de vérité détaillée des commandes et paiements.
-- Les liens UTM et courts sont prêts pour les campagnes ; les URLs publiées et métriques doivent être reportées dans #24 et #64.
-
-### Sponsors
-
-- Paymium : pack partenaire de 2 500 € payé et rapproché ; campagne V2 publiée sur sept canaux vérifiés ; métriques encore à suivre.
-- Le Cercle du Coin : soutien de 2 000 € payé ; campagne publiée le 5 août sur cinq réseaux, métriques à relever.
-- Bitstack : pack soutien de 2 000 € confirmé, payé et rapproché dans Dolibarr et Paheko ; campagne V2 publiée sur sept canaux. Stand, pass et giveaway restent à finaliser dans #4 et #25.
-
-### Partenaire de lots — Neowalt
-
-- Mise à jour ciblée du 5 septembre : accord confirmé pour six lots de wallets à offrir au quiz du samedi 7 novembre au soir ; aucune présence physique prévue.
-- Six lots précisés le 17 septembre : 2 packs Tangem de deux cartes, 2 Ellipal Titan Mini et 2 SafePal X1. Expédition et vidéos attendues vers mi-octobre ; réception et test régie restent à faire. Deux logos sources et carte de contact archivés dans Nextcloud le 5 septembre, tailles et SHA-256 vérifiés ; déclinaison vidéo pour boucle écrans à valider. Suivi opérationnel : [#147](https://github.com/Alpinechain/Alpinechain_Association/issues/147).
-
-### Programme et visuels
-
-- Les modèles de vignettes intervenants et organisations sont validés.
-- Les vignettes partenaires Le Cercle du Coin, Paymium et Bitstack sont disponibles.
-- Pierre Noizat : portrait source de référence et vignette définitive classés dans Nextcloud ; les deux portraits non retenus sont archivés sans suppression.
-- Le workshop de Renaud est confirmé et public dans le programme ; sa vignette est validée et sa campagne V3 a été publiée du 3 au 5 septembre. Les sept URLs sont archivées dans la PR #133 ; les métriques restent à relever.
-- Florent Gabriel : campagne V2 diffusée sur cinq canaux avec URLs fournies ; Blog à faire puis URL à archiver ; Nostr hors suivi depuis le 19 octobre. Sa vignette V6 est validée et active.
-- Lionel Jeannerat est `confirmed/public` dans le programme, dimanche 8 novembre de 17 h 30 à 18 h 20. Son portrait et sa vignette sont validés et classés dans Nextcloud ; sept URLs sont archivées depuis le 28 septembre ; métriques sociales reçues le 19 octobre ; compléments Blog séparés.
-- Les titres de Christine, Nicolas et de la présentation principale de ProfEduStream sont intégrés dans le programme et le registre des intervenants.
-- Le portrait ProfEduStream est validé et normalisé ; les deux vignettes finales sont validées pour la campagne quantique et le parcours pratique.
-- Restent notamment à obtenir : éléments éditoriaux et techniques de Frédéric Jollien et Thomas Mang, nouvelles disponibilités éventuelles de Michel Khazzaka, compléments d’Alexandre Stachtchenko et organisation de la présentation de clôture sans invité précisé, détails pratiques de Laure Merlin, responsables du quiz et éléments opérationnels de BitVault. L’échéance initiale de gel était le 9 octobre ; la déclaration de programme complet est validée le 12 octobre. Ces compléments relèvent désormais de la préparation technique (#12), de la logistique (#25) et de la communication (#24 / #53).
-
-## Continuité des services
-
-- Dernier run `Public Service Monitoring` vérifié lors de la revue du 19 octobre : succès à 06:19 UTC ([run 39209271386](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/39209271386)). Ce résultat ne constitue pas un contrôle des sauvegardes.
-- Incident de sauvegarde Serveur #130 résolu le 21 septembre. Sauvegarde, Restic, restauration, capacité et alertes externes restent à vérifier dans la revue W40 [#181](https://github.com/Alpinechain/Alpinechain_Association/issues/181), ouverte ; aucun nouveau contrôle serveur effectué dans cette synchronisation documentaire.
-- Maintenance mensuelle reportée après B-Only sauf urgence, selon la décision du 28 septembre dans Serveur #119. Pretix reste gelé tant que l’add-on SBP / BTC Swiss Payserver n’est pas validé.
-- Le Project est une vue des Issues ; les états métier restent dans leurs sources de vérité. Billetterie : dernier chiffre communiqué par Cyrille, 52 billets au 12 octobre (34 Early, 18 normaux) ; aucune extraction Pretix récente. Budget : mise à jour déclarée dans #26 le 28 septembre, sans nouvel audit financier.
+- Souveraineté 3.0 / BitVault : rencontre du 24 septembre capitalisée, #7 clôturée le 4 octobre ; aucun prochain rendez-vous confirmé.
+- Meetup Annecy Bitcoin Tour du 7 octobre réalisé, bilan dans #225. **8 commerçants actuellement au 19 octobre**, confirmation directe de Cyrille ; aucune déduction de neuf actifs depuis l’annonce CIAO ni audit des paiements.
+- Repères communautaires déclarés en septembre : 8–15 participants habituels, cœur de 6–8, environ 4–6 nouveaux depuis le début de l’année ; trois adhésions individuelles 2026, environ 25 € de recettes par meetup et 100 € cumulés de goodies. Ces repères ne sont pas actualisés par cette passe. Revue stratégique : [note du 20 septembre](../notes/2026-09-20-revue-strategique-objectifs-2026.md).
+- Assurance #132, confirmation documentaire SBP #193, adhésions #173, codes relais #61, migration du site #45 et bilan Meetup #225 restent dans leurs suivis propres ; aucune clôture ni nouvelle activation déduite.
 
 ## Prochaines échéances
 
-| Date | Action |
+| Date | Jalon / suivi |
 |---|---|
-| Maintenant | Construire le registre des risques #27 à partir des plans cotés ; finaliser la liste des partenaires avant implantation #25 |
-| Suivi au 19 octobre | Campagnes Marius et Alexandre publiées, liens et métriques sociales archivés ; aucune reprogrammation |
-| Prochaine préparation éditoriale | Approfondir les raisons concrètes de venir dans #24 ; date non fixée |
-| 12 octobre | Programme déclaré complet par Cyrille ; dernières communications à planifier (#24), dépendances opérationnelles suivies séparément (#12, #25, #26, #27) |
-| Mi-octobre | Suivre l’expédition des lots et les vidéos Neowalt #147 |
-| 31 octobre | Expiration des codes sponsors #186 ; réception/inventaire des lots et test régie à finaliser |
-| 7–9 novembre | B-Only 2026 |
-| Après B-Only | Maintenance mensuelle Serveur #119, sauf urgence justifiant une intervention anticipée |
+| 2 novembre | Nouvelle revue d’exploitation ; essai Novotel/Aravision visé mais rendez-vous à fixer (#12) |
+| 4 novembre | Confirmer présences, livraisons et plans de repli (#153 et issues métiers) |
+| 6 novembre au soir | Fin prolongée des codes Paymium/Cercle du Coin/Bitstack (#186) ; offre BWS selon #198 ; contrôle final matériel et organisation (#153) |
+| Avant le 7 novembre | Inventaire Neowalt, essais régie/écrans, accueil, bénévoles et secours (#147/#12/#25/#27) |
+| 7–9 novembre | B-Only 2026 ; tracer incidents, décisions et écarts |
+| 10, 12 et 24 novembre | Consolidation, capitalisation puis bilan financier/opérationnel intermédiaire (#153/#26) |
 
-## Logistique et partenaires — décisions propagées
+## Portée de cette mise à jour
 
-- Visite Novotel non réalisée ; plans cotés reçus le 28 septembre. Devis Aravision signé par Cédric et transmis à Jonathan ; devis Grifartaix validé et signé (#12, #26).
-- Fulcran : participation annulée (#170 clôturée). BOB : absent. Konsensus : absent physiquement ; éventuel envoi de livres à confirmer, sans stand dédié (#25).
-- Kit partenaires suivi par Cédric (#168) ; codes sponsors à transmettre par Cyrille (#186).
-
-## Sources et limites de la synchronisation
-
-Historique Codex local accessible et décisions GitHub rapprochés le 3 octobre. Les conversations ChatGPT non accessibles ne sont pas couvertes. Nextcloud, Pretix, Dolibarr, Paheko et PeerTube n’ont pas été relus directement : leurs états ne sont repris que lorsqu’ils sont explicitement datés et tracés dans GitHub. Aucun nouvel état financier, aucune publication, aucune fusion ni opération serveur ne découle de cette synchronisation.
-
-## Modification du programme — 12 octobre 2026
-
-- Visibilité publique validée par Cyrille pour tous les créneaux actifs ; aucun nouveau gel définitif du programme n’est déduit.
-- Lundi 11 h–11 h 50 : « Présentation de clôture », sans invité précisé, remplace le créneau d’Alexis Roussel. Sa campagne du 22–24 octobre est à réexaminer ; aucun remplacement éditorial n’est choisi automatiquement.
-- L’échange des workshops Élodie / Loïc du 11 octobre est conservé : Élodie samedi 15 h 30–16 h 20, Loïc dimanche 14 h 30–15 h 20.
-- Suivi : #11 ; la PR #197 reste distincte et devra conserver la visibilité publique lors de sa resynchronisation.
-
-## Programme complet — décision du 12 octobre 2026
-
-- Cyrille déclare le programme complet ; la grille validée comporte 30 créneaux actifs publics et une entrée annulée conservée pour audit.
-- Le bandeau provisoire est remplacé par « Programme complet — B-Only 2026, du 7 au 9 novembre à Annecy. » ; transition `published` réalisée par #202, fusionnée et déployée.
-- Dernières communications : suivre Thomas/Taz programmés et Frédéric/BitVault en diffusion, réarbitrer l’ancienne fenêtre Alexis, arrêter les rappels programme/billetterie, informations pratiques et Cercle du Coin. Fenêtres réservées à confirmer dans #24 ; aucun nouveau statut `PROGRAMMÉ` ou `PUBLIÉ` sans preuve.
-- Mill3sim3 / Bitcointrails est intégré au programme complet : dimanche 8 novembre, 11 h 30–12 h, salle principale, visibilité publique validée par Cyrille le 12 octobre. Sa campagne préparée dans #197 reste à relire et à planifier ; cette PR sera resynchronisée après fusion pour ne porter que les éléments de campagne restants.
-- Les besoins techniques, droits, prérequis et rôles du jour J restent suivis dans #12, #25 et #53 ; la complétude du programme ne les déclare pas accomplis.
-- Sources vérifiées : programme et modèle public déployés par #201, Issues #11 / #24 / #153 / #188, PR #197 et fichiers de campagnes. Pas de nouvelle revue des outils financiers, de billetterie ou de Nextcloud.
-
-## Communications — mise à jour du 12 octobre 2026
-
-- Thomas Mang et Taz / Wesatoshis : **PROGRAMMÉ**, déclaré par Cyrille ; horaires exacts non fournis, URLs à archiver après diffusion réelle dans #24 / #188.
-- Mill3sim3 / Bitcointrails : **EN COURS**, déclaré par Cyrille ; préciser la fenêtre et archiver les URLs publiques, sans déclarer PUBLIÉ sur la seule déclaration.
-- Loïc / BitVault (#203) et Frédéric Jollien (#204) : **DIFFUSION EN COURS — publications postées et suivantes planifiées**, déclaré par Cyrille le 12 octobre. Vignettes validées et archivées (Loïc 5140, Frédéric 5139) ; URLs publiques et horaires par réseau à archiver, métriques sociales reçues le 19 octobre ; compléments Blog séparés.
-- Fenêtres de préparation historiques : Frédéric 19–21 octobre, BitVault 26–28 octobre ; les dates/heures effectivement postées ou planifiées par réseau restent à rapprocher de ces propositions.
-- Fonction professionnelle de Frédéric : `to_verify` ; la source officielle ne corrobore pas « directeur pour la Suisse romande ». Les brouillons utilisent uniquement son nom et l’affiliation Institut Libéral.
-
-## Confirmations de Cyrille — 12 octobre 2026
-
-- Billetterie : **52 billets vendus, dont 34 Early et 18 normaux** ; +10 par rapport au chiffre daté du 20 septembre. Aucun détail de commande ou participant copié.
-- Frédéric et Loïc : publications postées et planifiées sur les différents réseaux ; suivre la diffusion et archiver les URLs par réseau dans #24 / #203 / #204. Les calendriers CSV conservés sont des propositions de préparation, pas une preuve des horaires réellement programmés.
-- **BWS confirmé** : AlpineChain/Pretix est le point d’achat ; Cyrille transmet les billets à Louis-Alexandre au fur et à mesure des ventes. Les modalités de reversement restent à confirmer dans #198 ; aucun reversement déclaré réalisé.
-- Project Control réparé : secret invalide remplacé, réconciliation complète [38257252889](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/38257252889) et run d’issue [38255187852](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/38255187852) réussis. Aucun secret conservé dans le dépôt.
-- Sources : déclarations explicites de Cyrille dans cette conversation ; état des issues/PR et workflows relu. Aucun nouveau contrôle financier, aucune extraction des commandes Pretix ni action de publication sociale.
+Rapprochement de GitHub et des décisions de Cyrille du 1er novembre. Les clôtures, la prolongation des trois codes et les transferts vers #24 sont confirmés ; les chiffres métier restent datés. Aucun nouvel audit de Pretix, Paheko, Dolibarr, des originaux Nextcloud ou du serveur. Aucun changement de programme, texte public validé, service, droit ou DNS dans ce lot.

@@ -1,5 +1,10 @@
 # Suivi post-envoi — vague 01
 
+## Suivi courant — 1er novembre 2026
+
+#168 clôturée sur décision de Cyrille ; retours spontanés, archivage des URLs et éventuels relais suivis dans [#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24). Nouvelles sollicitations et relances laissées de côté depuis le 19 octobre. Les étapes et propositions de relance conservées ci-dessous sont historiques, pas des actions à lancer. Le modèle co-brandé reste à valider avant toute utilisation.
+
+
 **État :** `PRÊT À RELIRE` — suivi post-envoi ouvert ; aucune publication
 attribuable aux destinataires n’est encore attestée par une URL publique.
 

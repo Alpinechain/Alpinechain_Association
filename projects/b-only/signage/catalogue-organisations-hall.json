@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "checkedOn": "2026-10-29",
+  "issue": "https://github.com/Alpinechain/Alpinechain_Association/issues/240",
+  "purpose": "Vignettes partenaires et une variante de logo par organisation ; sources inchangées et copies de diffusion hors Git",
+  "durationSeconds": 3,
+  "selectionPolicy": "Trois vignettes validees ; 21 organisations distinctes, une variante de logotype lisible chacune. Le modele, les variantes et le kit ZIP sont exclus. Le classement des logos ne cree pas un statut de partenariat.",
+  "assets": [
+    {
+      "id": "logo-4nk-organic-a6839f4a",
+      "category": "logo",
+      "organisation": "4NK Organic",
+      "title": "Organisation participante · 4NK Organic",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--4nk-organic--logo--2026-07-27--source.jpg"
+      },
+      "sourceSha256": "a6839f4aa8365de6ccef6cb93426cbf53097e3d1ee7dd1e1423abc71721f3ff5",
+      "sourceBytes": 46124,
+      "filename": "hall-logo-4nk-organic-a6839f4aa836-v1.webp",
+      "bytes": 21346,
+      "sha256": "608dd59be8c4ab66b948931a4aa5c302add680db3cd2b2bf17b967e1da90fe83",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-be-bop-82ef1df4",
+      "category": "logo",
+      "organisation": "be-BOP",
+      "title": "Organisation participante · be-BOP",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--be-bop--logo-light--2026-10-05--source.svg"
+      },
+      "sourceSha256": "82ef1df4d34d52c56cdd901b4a17811e2c7099b05656092b96322013c0ccd0e7",
+      "sourceBytes": 5574,
+      "filename": "hall-logo-be-bop-82ef1df4d34d-v1.webp",
+      "bytes": 25520,
+      "sha256": "070a286dc326b6050f23c668e2d8df34aeb3d64763e2d582073e72b4e7c5d3f1",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-bitcoin-fr-495572da",
+      "category": "logo",
+      "organisation": "Bitcoin.fr",
+      "title": "Organisation participante · Bitcoin.fr",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--bitcoin-fr--logo-blanc--2023-10-13--source.svg"
+      },
+      "sourceSha256": "495572dab9632c71b8b0998bf273bd42c7638d1c116147b07618469987237ec9",
+      "sourceBytes": 12953,
+      "filename": "hall-logo-bitcoin-fr-495572dab963-v1.webp",
+      "bytes": 22832,
+      "sha256": "4d35429ca233227e5bb36b4c03c657997319464dfdcc3baed03ab8e09350fae6",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#140f25"
+    },
+    {
+      "id": "logo-bitstack-afdc2947",
+      "category": "logo",
+      "organisation": "Bitstack",
+      "title": "Organisation participante · Bitstack",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--bitstack--logo-black--2026-07-27--source.svg"
+      },
+      "sourceSha256": "afdc29476d4beb937b1961a7cc7cc0543f1f1c990a7a1f159b08b3e3be6b56b7",
+      "sourceBytes": 7709,
+      "filename": "hall-logo-bitstack-afdc29476d4b-v1.webp",
+      "bytes": 15502,
+      "sha256": "36b79f61269f90ff64097680f6e625d14cc2485dfeccca2a2c217fe6c8b2861f",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-bitvault-60e24395",
+      "category": "logo",
+      "organisation": "BitVault",
+      "title": "Organisation participante · BitVault",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--bitvault--logo-blanc-transparent--2026-09-08--source.png"
+      },
+      "sourceSha256": "60e24395fbeccd5674ac0cf6820766dbfdfdbf102b6907b39219912fbcc69d32",
+      "sourceBytes": 16998,
+      "filename": "hall-logo-bitvault-60e24395fbec-v1.webp",
+      "bytes": 14492,
+      "sha256": "6dc5c3796811d8077f4cbb1b57e9a58eb689c0869ade0a908a72251ba96ae2a7",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#140f25"
+    },
+    {
+      "id": "logo-blobb-io-738bc0dd",
+      "category": "logo",
+      "organisation": "Blobb.io",
+      "title": "Organisation participante · Blobb.io",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--blobb-io--logo-noir-jaune--2026-09-01--source.png"
+      },
+      "sourceSha256": "738bc0dd8aa7872d6475f9033a44ae5254a02df67eb14953eceb3bd3246155b2",
+      "sourceBytes": 44219,
+      "filename": "hall-logo-blobb-io-738bc0dd8aa7-v1.webp",
+      "bytes": 26360,
+      "sha256": "e7caf265c645a256cbd877004f3c5eb7334bb24fc62c5d9f905d7c1a15c2bb00",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-cercle-du-coin-c66261c7",
+      "category": "logo",
+      "organisation": "Le Cercle du Coin",
+      "title": "Organisation participante · Le Cercle du Coin",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--cercle-du-coin--logo--2026-07-22--source.jpg"
+      },
+      "sourceSha256": "c66261c783c530a662c70dd7db692f02bbbfcd7f7a666c22dcb5011196c4972b",
+      "sourceBytes": 65909,
+      "filename": "hall-logo-cercle-du-coin-c66261c783c5-v1.webp",
+      "bytes": 30154,
+      "sha256": "82d639fec6679b339afb70554ec91ccf2158470022e7131904e0e7f6b9eff6e1",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-communautes-francophones-a700c40b",
+      "category": "logo",
+      "organisation": "Communautés francophones",
+      "title": "Organisation participante · Communautés francophones",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--communautes-francophones--logo--2026-10-12--source.png"
+      },
+      "sourceSha256": "a700c40b6de9809773bb6b7f31a352128c2b80c72b1ae3630f3ee867623be0ee",
+      "sourceBytes": 2292,
+      "filename": "hall-logo-communautes-francophones-a700c40b6de9-v1.webp",
+      "bytes": 15042,
+      "sha256": "8b72a8c6f3d6d414f762115f2b68dd0b6bd9a9ca713f72cc4dc5e68ac0a430fe",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-cryptoast-eef3ac94",
+      "category": "logo",
+      "organisation": "Cryptoast",
+      "title": "Organisation participante · Cryptoast",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--cryptoast--logo-jaune-avec-texte--2026-07-19--source.svg"
+      },
+      "sourceSha256": "eef3ac94dbc01a45c0bface98f46fdf885738013749db50eea9cfbcabc8d1c98",
+      "sourceBytes": 8035,
+      "filename": "hall-logo-cryptoast-eef3ac94dbc0-v1.webp",
+      "bytes": 24500,
+      "sha256": "0732d6a9ad3c2462106a433139eddba41d2b3aa9a7805b479886d07067917c19",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-effet-21-conseil-2226009b",
+      "category": "logo",
+      "organisation": "Effet 21 Conseil",
+      "title": "Organisation participante · Effet 21 Conseil",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--effet-21-conseil--logo--2026-10-12--source.png"
+      },
+      "sourceSha256": "2226009ba2cd4db921b793297c223864b912c15ded6758a251e71c42fd4ee26d",
+      "sourceBytes": 22842,
+      "filename": "hall-logo-effet-21-conseil-2226009ba2cd-v1.webp",
+      "bytes": 26884,
+      "sha256": "5f549298463b4ac8faf2c15151cbb2c5caf833c5bcd5c4123fbf4dcbcf324874",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-esdes-business-school-18043d5b",
+      "category": "logo",
+      "organisation": "ESDES Business School",
+      "title": "Organisation participante · ESDES Business School",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--esdes-business-school--logo--2026-10-05--source.png"
+      },
+      "sourceSha256": "18043d5beeec691aecabbd7b8b84e84341c4df6ad0e4ad7409e2a018c607afbd",
+      "sourceBytes": 10473,
+      "filename": "hall-logo-esdes-business-school-18043d5beeec-v1.webp",
+      "bytes": 29276,
+      "sha256": "04f03694c7ed0b0f29ec33ead38f009192fbe4e35a94eab236fd2f5b8bb60ba9",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-gallion-59194ad3",
+      "category": "logo",
+      "organisation": "Gallion",
+      "title": "Organisation participante · Gallion",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--gallion--logo--2026-07-19--source.jpg"
+      },
+      "sourceSha256": "59194ad3302058acafdfef8586bd4a01f2bd59ad32f63cc95c478b17c6716d8d",
+      "sourceBytes": 26936,
+      "filename": "hall-logo-gallion-59194ad33020-v1.webp",
+      "bytes": 11406,
+      "sha256": "e0728b286829460f010c2b1605ae88ba2df333b2d96cc54b1df60e9fa9ba8e60",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-hodling-db6bed2f",
+      "category": "logo",
+      "organisation": "Hodling",
+      "title": "Organisation participante · Hodling",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--hodling--logo--2026-07-30--source.svg"
+      },
+      "sourceSha256": "db6bed2f6e4851688d75e68fc2c67cd013f0124862b643adf6cee3980034cf78",
+      "sourceBytes": 9761,
+      "filename": "hall-logo-hodling-db6bed2f6e48-v1.webp",
+      "bytes": 17434,
+      "sha256": "d61775eaa06e134e3aed7d17c77c6897dd90eda66740a1f22d2ffa9d2350637c",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-konsensus-9c7c490d",
+      "category": "logo",
+      "organisation": "Konsensus",
+      "title": "Organisation participante · Konsensus",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--konsensus--logo--2023-10-07--source.png"
+      },
+      "sourceSha256": "9c7c490d6f8134f4a606b3513656906271c012b63ccb1cbd3227a0f70703fe06",
+      "sourceBytes": 133524,
+      "filename": "hall-logo-konsensus-9c7c490d6f81-v1.webp",
+      "bytes": 51238,
+      "sha256": "7e6dcb8a6809736fbf5389e2250973e856fb1d6692b414c7f7c102e5d2941445",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-lady-block-jane-e6a2e00b",
+      "category": "logo",
+      "organisation": "Lady Block Jane",
+      "title": "Organisation participante · Lady Block Jane",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--lady-block-jane--logo--2024-06-23--source.jpg"
+      },
+      "sourceSha256": "e6a2e00b6ac0d8a3c5c548c3675a4b6665daee459408ee3f96ccc1257ed3f4af",
+      "sourceBytes": 206182,
+      "filename": "hall-logo-lady-block-jane-e6a2e00b6ac0-v1.webp",
+      "bytes": 88410,
+      "sha256": "b9016a8a8ffdf4323c92480409cb9ae571f5d27d5d6f869caccc3e4e4cc8801e",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-missatoshi-5aa794ae",
+      "category": "logo",
+      "organisation": "Missatoshi",
+      "title": "Organisation participante · Missatoshi",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--missatoshi--logo--2025-09-22--source.jpg"
+      },
+      "sourceSha256": "5aa794ae2025589442f970b190c2502d9cfa1983f91532f5637fd4aee9d5f1dd",
+      "sourceBytes": 78328,
+      "filename": "hall-logo-missatoshi-5aa794ae2025-v1.webp",
+      "bytes": 33964,
+      "sha256": "94ae0c3561c40bc7c9d030e47dc6861c7266309586217a91a6f82ab47b15766e",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-neowalt-6a5d4d76",
+      "category": "logo",
+      "organisation": "Néowalt",
+      "title": "Organisation participante · Néowalt",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--neowalt--logo-horizontal-blanc--2026-09-05--source.png"
+      },
+      "sourceSha256": "6a5d4d764290c24ed7d35c93bb94da662bb778eefa740273ecf40aeec0200645",
+      "sourceBytes": 109466,
+      "filename": "hall-logo-neowalt-6a5d4d764290-v1.webp",
+      "bytes": 25400,
+      "sha256": "2993b0f32d191b514df51177eb583376678e38a16ad897d0b2e7ca161f812392",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#140f25"
+    },
+    {
+      "id": "logo-paymium-609316cc",
+      "category": "logo",
+      "organisation": "Paymium",
+      "title": "Organisation participante · Paymium",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--paymium--logo--2026-07-19--source.svg"
+      },
+      "sourceSha256": "609316cc717ab9428678190999222bfc614f1905228a8d9a0a43b5995b607a11",
+      "sourceBytes": 6556,
+      "filename": "hall-logo-paymium-609316cc717a-v1.webp",
+      "bytes": 26438,
+      "sha256": "b4915a210b43c9d545de6d90440d0d92280d28fda88664ca758d429d18c75fc4",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-podcast-effet-21-733f39d8",
+      "category": "logo",
+      "organisation": "Podcast Effet 21",
+      "title": "Organisation participante · Podcast Effet 21",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--podcast-effet-21--logo--2026-10-12--source.png"
+      },
+      "sourceSha256": "733f39d876cad4ec2cd2d66a6176a0541736b77f2ec3fea236ababedd19ee8cb",
+      "sourceBytes": 44773,
+      "filename": "hall-logo-podcast-effet-21-733f39d876ca-v1.webp",
+      "bytes": 24106,
+      "sha256": "ead0ff81a065b2fe46d772e3a1da902fdd981cf54e8ebe32fe688e8adbec81ed",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-sharekey-6be94171",
+      "category": "logo",
+      "organisation": "Sharekey",
+      "title": "Organisation participante · Sharekey",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--sharekey--logo--2026-10-05--source.png"
+      },
+      "sourceSha256": "6be94171beda6b53a34103847e274195298f62b3be5edef5f9a2db8106941b4b",
+      "sourceBytes": 70602,
+      "filename": "hall-logo-sharekey-6be94171beda-v1.webp",
+      "bytes": 22692,
+      "sha256": "51597e1b1833f7e0c77ee586502c7869ba84cd86159ba9591b0f09eca5405af0",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#ffffff"
+    },
+    {
+      "id": "logo-upside-d5fa83d8",
+      "category": "logo",
+      "organisation": "Upside",
+      "title": "Organisation participante · Upside",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/01_Programme-Intervenants/Logos Participants/organisation--upside--logotype-couleur--2026-10-18--source-v1.svg"
+      },
+      "sourceSha256": "d5fa83d882f9c56942318dae33cd74a8e87ad9761372e4722b2ad70bcdae784e",
+      "sourceBytes": 3493,
+      "filename": "hall-logo-upside-d5fa83d882f9-v1.webp",
+      "bytes": 23178,
+      "sha256": "81da0182a91e60b3bb768ab3073ebd7b0473ec1bb618952edbd7e7f51e3625cd",
+      "width": 1600,
+      "height": 900,
+      "fit": "contain",
+      "background": "#140f25"
+    },
+    {
+      "id": "partner-bitstack-9a8d5a30",
+      "category": "partner",
+      "organisation": "Bitstack",
+      "title": "Partenaire · Bitstack",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Organisations/vignette--organisation--bitstack--v02--valide.png"
+      },
+      "sourceSha256": "9a8d5a30c08bfa211f50a6c51f89acc66c5fbacd1a5fc61d2ffc8b3cc2a585a1",
+      "sourceBytes": 1349349,
+      "filename": "hall-partner-bitstack-9a8d5a30c08b-v1.webp",
+      "bytes": 131512,
+      "sha256": "4d24fd1f3c3bdcb8629e28da0a9bde1ea22eb9681ceb6231d5b8af90bf20113b",
+      "width": 1080,
+      "height": 1080,
+      "fit": "contain"
+    },
+    {
+      "id": "partner-cercle-du-coin-a773ba74",
+      "category": "partner",
+      "organisation": "Le Cercle du Coin",
+      "title": "Partenaire · Le Cercle du Coin",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Organisations/vignette--organisation--cercle-du-coin--v02--valide.png"
+      },
+      "sourceSha256": "a773ba74426c5b4c6354436b8de3b46f189f55f4195fcdb73addd46044215498",
+      "sourceBytes": 1378192,
+      "filename": "hall-partner-cercle-du-coin-a773ba74426c-v1.webp",
+      "bytes": 132446,
+      "sha256": "1b22e3342f682e65a504e11296855c3c63db4603d7e651085e82d177e5a602e4",
+      "width": 1080,
+      "height": 1080,
+      "fit": "contain"
+    },
+    {
+      "id": "partner-paymium-0c1bc310",
+      "category": "partner",
+      "organisation": "Paymium",
+      "title": "Partenaire · Paymium",
+      "durationSeconds": 3,
+      "source": {
+        "kind": "nextcloud",
+        "path": "Association/Action - Initiatives/B-Only/2026/03_Communication/Vignettes/Organisations/vignette--organisation--paymium--v03--valide.png"
+      },
+      "sourceSha256": "0c1bc3109f3a8ec0112838dbdc883b363eb6b9b4d574fb5a2a11194cf37a94ae",
+      "sourceBytes": 1344149,
+      "filename": "hall-partner-paymium-0c1bc3109f3a-v1.webp",
+      "bytes": 133810,
+      "sha256": "9fa3bf6cf387919e478e9a4cccb804e6fd7940fab09d3cb3004228557b1f2eaf",
+      "width": 1080,
+      "height": 1080,
+      "fit": "contain"
+    }
+  ]
+}

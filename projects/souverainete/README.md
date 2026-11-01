@@ -23,7 +23,7 @@ Organiser des rencontres locales consacrées à la souveraineté numérique, aux
 - animation de la discussion ;
 - compte-rendu, ressources et suites locales.
 
-## Prochain rendez-vous
+## Dernier rendez-vous réalisé
 
 **Meetup Souveraineté 3.0 — BitVault**
 
@@ -37,6 +37,10 @@ Organiser des rencontres locales consacrées à la souveraineté numérique, aux
 - inscription : https://www.meetup.com/alpinechain-xyz/events/316526556
 
 Issue opérationnelle : [#7](https://github.com/Alpinechain/Alpinechain_Association/issues/7)
+
+**Bilan :** rencontre réalisée le 24 septembre ; retour public publié le 28 septembre et capitalisation qualitative consignés dans #7. Petite dizaine de participants selon le bilan, échanges techniques soutenus et photos transmises à Loïc. Issue clôturée le 4 octobre sur confirmation de Cyrille ; les éventuels compléments de métriques ne rouvrent pas la clôture. Les preuves publiques restent dans #7 et les médias dans Nextcloud.
+
+Aucun prochain rendez-vous daté n’est confirmé dans ce suivi.
 
 Le rythme cible d'un rendez-vous mensuel est maintenu pour le moment. Il sera réévalué après B-Only selon les idées qui émergent et la dynamique réelle du groupe.
 

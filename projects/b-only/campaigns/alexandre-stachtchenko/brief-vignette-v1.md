@@ -1,6 +1,6 @@
 # Brief vignette — Alexandre Stachtchenko — V1
 
-**État : V4 CORRIGÉE — intégration au planning demandée par Cyrille le 13 octobre 2026 ; fusion/déploiement à autoriser.**
+**État : V4 CORRIGÉE, INTÉGRÉE ET DÉPLOYÉE — #213 fusionnée sur autorisation de Cyrille le 13 octobre 2026, commit `59db1d36f02a24453a93af2e5d4fb171c9a4a00a`.**
 
 La V3 remplace les propositions locales V1 et V2 non retenues. Elle reprend
 directement la vignette Polto & Darko validée du 30 juillet 2026 comme référence
@@ -40,13 +40,13 @@ Portrait fourni par Cyrille le 3 octobre 2026 : `Alex Statch photo.png`,
 `01_Programme-Intervenants/Photos Intervenants/intervenant--alexandre-stachtchenko--portrait--2026-10-03--source.png`.
 Crédit et droits de diffusion restent à confirmer avant publication.
 
-## Fichier Nextcloud actif à relire
+## Fichier Nextcloud actif
 
 `03_Communication/Vignettes/Intervenants/vignette--alexandre-stachtchenko--la-femme-est-l-avenir-de-bitcoin--2026-10-13--a-valider-v4.png`
 
 Chemins relatifs à `Association/Action - Initiatives/B-Only/2026/`.
 V4 déposée sans écrasement et relue le 13 octobre ; V3 conservée pour historique.
-La V4 corrige la fonction ; son intégration au planning est demandée par Cyrille.
+La V4 corrige la fonction ; son intégration au planning a été autorisée par Cyrille et réalisée par #213.
 Taille et SHA-256 :
 
 | Ressource | Taille | SHA-256 |
@@ -68,5 +68,5 @@ Le suffixe `--valide` ne doit être appliqué qu'après validation humaine.
 - [x] titre exact validé
 - [x] angle Espagne / Italie / France validé
 - [ ] droits et crédit du portrait confirmés
-- [ ] vignette relue par Cyrille
+- [x] intégration de la V4 autorisée par Cyrille puis fusionnée et déployée par #213
 - [ ] validation intervenant si nécessaire
