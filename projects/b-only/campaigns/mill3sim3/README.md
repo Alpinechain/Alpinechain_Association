@@ -1,10 +1,15 @@
 # Mill3sim3 — Bitcointrails
 
-## État réconcilié — 19 octobre 2026
+## État réconcilié — 1er novembre 2026
 
 **PUBLIÉE — six URLs hors Nostr archivées** dans [le registre de preuves](publications-v1.csv) : Blog, deux comptes LinkedIn, X, Facebook et Instagram. Les métriques sociales sont reçues pour LinkedIn AlpineChain, X, Facebook et Instagram ; celles de LinkedIn Annecy Bitcoin Meetup restent à compléter dans [le relevé du 19 octobre](../../statistiques/2026-10-19-releve-publications.md).
 
-La PR #197 conserve les sources de préparation ; son état draft ne signifie pas que la campagne reste à diffuser. Les textes sources et le calendrier relatif ci-dessous sont historiques, sans nouvelle programmation. Nostr est exclu du suivi des liens et statistiques sur décision de Cyrille. Les détails pratiques restent suivis dans #12 et #25 ; les compléments de preuves dans #24 et #223.
+La PR #197 archive les sources de préparation de cette campagne déjà publiée ; sa fusion est autorisée par Cyrille le 1er novembre. Les textes sources et le calendrier relatif ci-dessous sont historiques, sans nouvelle programmation. Nostr est exclu du suivi des liens et statistiques sur décision de Cyrille. Les détails pratiques restent suivis dans #12 et #25 ; les compléments de preuves dans #24 et #223.
+
+Les compléments de métriques restent dans #24 ; l’intégration de ces sources ne relance aucune diffusion.
+
+<details>
+<summary>Sources et préparation historiques — aucune nouvelle programmation</summary>
 
 ## Préparation historique — 8 octobre, actualisée le 12 octobre
 
@@ -32,3 +37,5 @@ Sources de pilotage relues : programme, registre des intervenants, Issue #24, PR
 Cyrille relit les textes et l’angle, puis choisit une fenêtre de diffusion compatible avec le planning. Avant diffusion : validation explicite des textes et du calendrier, vérification des comptes, des aperçus et du parcours de réservation ; compléter les éventuelles attributions du portrait. Les détails pratiques restent suivis dans #12 et #25.
 
 Statut : **PRÊT À RELIRE**, aucun contenu programmé ou publié. Aucun lien court, UTM ou voucher spécifique créé. Les URLs publiques et métriques seront consignées dans #24 uniquement après diffusion effective.
+
+</details>
