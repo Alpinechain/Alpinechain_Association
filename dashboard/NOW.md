@@ -20,7 +20,7 @@ L’essai du 2 novembre reste **à fixer** selon la confirmation de Cyrille du 2
 
 - **Clôturées sur décision de Cyrille :** W43 #227, W44 #232, vignettes #53, campagne Thomas #188, relais #168, campagne Loïc #203, campagne Frédéric #204 et hébergement #229. Les compléments de diffusion et d’archivage des quatre dernières sont repris dans **#24** ; leur clôture ne prouve pas une diffusion complète.
 - **PR #220 clôturée sans fusion.** Les vidéos Neowalt sont reçues depuis le 19 octobre ; les lots, montages et essais restent distincts dans #147 / #12 / #25.
-- **#223 et #153 simplifiées** : intégrations documentaires d’un côté, jalons opérationnels de l’autre. PR #226 en préparation pour intégrer ce recalage ; #197 et #218 restent des lots séparés, sans fusion autorisée par ce travail.
+- **#223 clôturée après intégration des trois lots ; #153 reste l’index opérationnel.** PR #226 fusionnée (`9098fc4`), #197 fusionnée (`82b66c1`), #218 fusionnée (`e703bc1`) sur autorisation de Cyrille. Les sources Mill3sim3 sont archivées, sans nouvelle publication.
 - **Codes sponsors #186 :** 30 utilisations par sponsor validées par Cyrille le 26 octobre ; le précédent écart 30/50 est résolu. Paymium, Le Cercle du Coin et Bitstack prolongés par Cyrille jusqu’au **6 novembre au soir** ; heure exacte non précisée. Transmission et usages restent distincts ; aucun nouveau contrôle Pretix dans cette passe.
 - **Nouvelle revue d’exploitation prévue le lundi 2 novembre**, selon Cyrille. Les suites techniques demeurent dans Serveur #153/#154 et les issues métiers.
 
