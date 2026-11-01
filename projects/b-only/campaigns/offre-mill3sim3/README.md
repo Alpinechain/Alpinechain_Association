@@ -1,10 +1,13 @@
 # Offre Mill3sim3 — campagne réseaux
 
-## État réconcilié — 19 octobre 2026
+## Archive documentaire — 1er novembre 2026
 
 **DIFFUSION PARTIELLE CONFIRMÉE — Facebook publié le 18 octobre.** Le texte de l’export Meta fourni par Cyrille correspond aux deux formules de cette offre, distincte de la campagne Bitcointrails. [URL et preuve archivées](publications-v1.csv). Les autres diffusions ne sont pas confirmées par les preuves rapprochées ; aucune nouvelle publication ou programmation n’est lancée ici. La publication Facebook ne prouve ni la validation du visuel V1 ci-dessous, ni un achat, ni l’utilisation d’un bon.
 
-Les sources préparées dans cette PR restent à relire pour leur intégration documentaire. Les contrôles PDF et scan demeurent dans #217 ; les éventuels compléments de diffusion dans #24. Nostr est exclu du suivi des liens et statistiques sur décision de Cyrille.
+L’intégration de ces sources est autorisée par Cyrille le 1er novembre. La fin de vente documentée était le 31 octobre : ce pack est conservé comme archive, sans nouvelle diffusion ni prolongation de l’offre. Les contrôles PDF et scan demeurent dans #217 ; les éventuels compléments de diffusion dans #24. Nostr est exclu du suivi des liens et statistiques sur décision de Cyrille.
+
+<details>
+<summary>Préparation historique — offre avec fin de vente au 31 octobre, ne pas rediffuser</summary>
 
 ## Préparation historique — 18 octobre 2026
 
@@ -85,3 +88,5 @@ Contrôles réalisés : six redirections HTTP 302 vers les destinations exactes,
 - Relecture visuelle : prix 180 € / 150 €, bons 90 € / 45 €, site bitcoinstore.fr, événement 7–9 novembre 2026 à Annecy, limite commune de 10 billets, réservation jusqu’au 31 octobre et validité au 31 décembre correctement affichés.
 - Téléversement exclusif, sans écrasement, puis relecture distante : taille et SHA-256 identiques. Aucun partage public créé.
 - État : **VISUEL PRODUIT — À VALIDER** par Cyrille. Aucune publication ni programmation.
+
+</details>
