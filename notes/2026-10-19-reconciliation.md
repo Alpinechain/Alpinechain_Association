@@ -1,6 +1,6 @@
 # Réconciliation AlpineChain — 19 octobre, mise à jour du 1er novembre 2026
 
-Projet : association / B-Only. Objectif : aligner le pilotage documentaire sur les décisions confirmées. Public : coordination associative. Suivi : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). Validation : Cyrille avant fusion. Les textes publics validés, le programme et les outils métiers ne sont pas modifiés.
+Projet : association / B-Only. Objectif : aligner le pilotage documentaire sur les décisions confirmées. Public : coordination associative. Suivi : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). Fusions autorisées par Cyrille le 1er novembre. Les textes publics validés, le programme et les outils métiers ne sont pas modifiés.
 
 ## Déjà intégré
 
@@ -28,13 +28,15 @@ Projet : association / B-Only. Objectif : aligner le pilotage documentaire sur l
 | Affichage | Livré et mis en service ; mises à jour hall des 27/29 octobre et zones des salles du 1er novembre dans signage/RECETTE.md. Réception TV/réseau sur place encore dans #12. |
 | Pilotage | #223 réduite aux intégrations documentaires ; #153 aux jalons opérationnels. NOW et BOARD rapprochés des sources actuelles. |
 
-## Intégrations documentaires restantes
+## Intégrations documentaires terminées
 
 | Lot | Contenu | Prochaine étape |
 |---|---|---|
-| PR #226 | Recalage NOW, BOARD, registres, planning, suivis et sources de visuels ; fiches Meetup/Souveraineté | Relecture du diff resynchronisé avec main, puis autorisation de fusion distincte |
-| PR #197 | Cinq sources de la campagne Mill3sim3 / Bitcointrails déjà publiée | Décider de leur intégration ; aucune nouvelle programmation |
-| PR #218 / #217 | Sources et preuve Facebook de l’offre Mill3sim3 | Décider de leur intégration ; fin de vente documentée au 31 octobre, bons et PDF/scan restent suivis dans #217 |
+| PR #226 | Recalage NOW, BOARD, registres, planning, suivis et sources de visuels ; fiches Meetup/Souveraineté | Fusionnée le 1er novembre, commit `9098fc4` |
+| PR #197 | Cinq sources de la campagne Mill3sim3 / Bitcointrails déjà publiée | Fusionnée le 1er novembre, commit `82b66c1` ; aucune nouvelle programmation |
+| PR #218 / #217 | Sources et preuve Facebook de l’offre Mill3sim3 | Fusionnée le 1er novembre, commit `e703bc1` ; fin de vente au 31 octobre, bons et PDF/scan restent dans #217 |
+
+**#223 clôturée** après ces intégrations. #153 reste active pour les jalons et #24 pour la communication. Aucun chantier opérationnel restant n’est fermé par la seule fusion de ses documents.
 
 ## Limites et conservation
 
