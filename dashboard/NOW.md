@@ -21,7 +21,7 @@ L’essai du 2 novembre reste **à fixer** selon la confirmation de Cyrille du 2
 - **Clôturées sur décision de Cyrille :** W43 #227, W44 #232, vignettes #53, campagne Thomas #188, relais #168, campagne Loïc #203, campagne Frédéric #204 et hébergement #229. Les compléments de diffusion et d’archivage des quatre dernières sont repris dans **#24** ; leur clôture ne prouve pas une diffusion complète.
 - **PR #220 clôturée sans fusion.** Les vidéos Neowalt sont reçues depuis le 19 octobre ; les lots, montages et essais restent distincts dans #147 / #12 / #25.
 - **#223 et #153 simplifiées** : intégrations documentaires d’un côté, jalons opérationnels de l’autre. PR #226 en préparation pour intégrer ce recalage ; #197 et #218 restent des lots séparés, sans fusion autorisée par ce travail.
-- **Codes sponsors #186 :** 30 utilisations par sponsor validées par Cyrille le 26 octobre ; le précédent écart 30/50 est résolu. Paymium et Le Cercle du Coin prolongés par Cyrille jusqu’au **6 novembre au soir** ; heure exacte non précisée. Pour Bitstack, dernière expiration constatée au **31 octobre à 23:59:59 Europe/Paris**, sans prolongation confirmée. Transmission et usages restent distincts ; aucun nouveau contrôle Pretix dans cette passe.
+- **Codes sponsors #186 :** 30 utilisations par sponsor validées par Cyrille le 26 octobre ; le précédent écart 30/50 est résolu. Paymium, Le Cercle du Coin et Bitstack prolongés par Cyrille jusqu’au **6 novembre au soir** ; heure exacte non précisée. Transmission et usages restent distincts ; aucun nouveau contrôle Pretix dans cette passe.
 - **Nouvelle revue d’exploitation prévue le lundi 2 novembre**, selon Cyrille. Les suites techniques demeurent dans Serveur #153/#154 et les issues métiers.
 
 ## B-Only — repères confirmés et datés
@@ -68,11 +68,11 @@ Early désactivé au relevé ; fin du pass standard au 31 octobre à 23:59:59 et
 |---|---|
 | 2 novembre | Nouvelle revue d’exploitation ; essai Novotel/Aravision visé mais rendez-vous à fixer (#12) |
 | 4 novembre | Confirmer présences, livraisons et plans de repli (#153 et issues métiers) |
-| 6 novembre au soir | Fin prolongée des codes Paymium/Cercle du Coin (#186) ; offre BWS selon #198 ; contrôle final matériel et organisation (#153) |
+| 6 novembre au soir | Fin prolongée des codes Paymium/Cercle du Coin/Bitstack (#186) ; offre BWS selon #198 ; contrôle final matériel et organisation (#153) |
 | Avant le 7 novembre | Inventaire Neowalt, essais régie/écrans, accueil, bénévoles et secours (#147/#12/#25/#27) |
 | 7–9 novembre | B-Only 2026 ; tracer incidents, décisions et écarts |
 | 10, 12 et 24 novembre | Consolidation, capitalisation puis bilan financier/opérationnel intermédiaire (#153/#26) |
 
 ## Portée de cette mise à jour
 
-Rapprochement de GitHub et des décisions de Cyrille du 1er novembre. Les clôtures, la prolongation des deux codes et les transferts vers #24 sont confirmés ; les chiffres métier restent datés. Aucun nouvel audit de Pretix, Paheko, Dolibarr, des originaux Nextcloud ou du serveur. Aucun changement de programme, texte public validé, service, droit ou DNS dans ce lot.
+Rapprochement de GitHub et des décisions de Cyrille du 1er novembre. Les clôtures, la prolongation des trois codes et les transferts vers #24 sont confirmés ; les chiffres métier restent datés. Aucun nouvel audit de Pretix, Paheko, Dolibarr, des originaux Nextcloud ou du serveur. Aucun changement de programme, texte public validé, service, droit ou DNS dans ce lot.

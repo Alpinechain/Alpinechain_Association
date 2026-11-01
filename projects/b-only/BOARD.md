@@ -21,7 +21,7 @@ Les issues closes de lancement restent des références historiques ; le suivi a
 
 | Chantier | Suivi actif | Repère daté et prochaine action |
 |---|---|---|
-| Billetterie | #26, #186, #198, #217 | Relevé du 26 octobre : 52 commandes payées, 56 billets à prix positif, trois invitations et un bon sans admission séparés. Codes Paymium/Cercle prolongés par Cyrille jusqu’au 6 novembre au soir ; Bitstack sans prolongation confirmée. Aucun nouveau relevé Pretix. |
+| Billetterie | #26, #186, #198, #217 | Relevé du 26 octobre : 52 commandes payées, 56 billets à prix positif, trois invitations et un bon sans admission séparés. Codes Paymium/Cercle/Bitstack prolongés par Cyrille jusqu’au 6 novembre au soir. Aucun nouveau relevé Pretix. |
 | Sponsors et partenaires | #4, #147, #25 | Paiements historiques consignés dans ORGANISATIONS.md ; finaliser les contreparties, stands/pass/giveaway et réception des six lots Neowalt. |
 | Programme et intervenants | #12, #25 | #11 clôturée ; programme complet publié, 30 créneaux actifs. Besoins pratiques et droits restent distincts ; ne pas rouvrir la validation des vignettes livrées (#53 clôturée). |
 | Communication et contenus | #24 | #168/#188/#203/#204/#229 clôturées ; preuves Loïc/Frédéric, retours relais et diffusion hébergement repris dans #24. Blog Florent et derniers rappels à traiter ; Nostr hors suivi, nouvelles sollicitations laissées de côté. |

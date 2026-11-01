@@ -19,7 +19,7 @@ Les issues #168 (relais), #188 (Thomas), #203 (Loïc), #204 (Frédéric) et #229
 | 1er novembre — bascule tarifaire | Fenêtre à rapprocher des preuves ; aucune publication déduite de la date | Vérifier tout rappel avant diffusion ; fin Classic au 31 octobre et début Late dans le dernier relevé Pretix du 26 octobre |
 | 2–4 novembre — workshops / informations pratiques | À CADRER | Définir contenu, canaux, responsable et validation |
 | 5–6 novembre — Cercle du Coin avec Laure Merlin | À PRODUIRE / VALIDER | Confirmer contenu et programmation réelle |
-| Codes Paymium / Cercle du Coin | Prolongés par Cyrille jusqu’au 6 novembre au soir, selon #186 | Reprendre cette échéance si une communication est décidée ; ne pas l’étendre à Bitstack |
+| Codes Paymium / Cercle du Coin / Bitstack | Prolongés par Cyrille jusqu’au 6 novembre au soir, selon #186 | Reprendre cette échéance commune aux trois sponsors si une communication est décidée |
 | 7–9 novembre — couverture de l’événement | À CADRER | Définir les contenus autorisés et les responsables, sans inventer de programmation |
 | 10 novembre et 12 novembre — consolidation / capitalisation | Jalons de #153, diffusion à arbitrer | Consolider les ressources et preuves ; valider les éventuelles publications |
 

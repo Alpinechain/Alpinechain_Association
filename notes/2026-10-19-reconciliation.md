@@ -23,7 +23,7 @@ Projet : association / B-Only. Objectif : aligner le pilotage documentaire sur l
 | Visuels et campagne Thomas | #53 et #188 clôturées ; besoins pratiques distincts dans #12/#25. |
 | Relais, Loïc, Frédéric, hébergement | #168/#203/#204/#229 clôturées ; suivis de diffusion et preuves repris dans #24. Blog Loïc accessible ; onze liens Loïc/Frédéric encore à collecter ou canaux à qualifier, sans déclarer une publication absente. |
 | Hébergement | Rubrique/FAQ publiées et testées le 22 octobre ; page/ancre/six annonces recontrôlées le 1er novembre. CTA unique https://b-only.org/#hebergement ; diffusion sociale non confirmée. |
-| Codes sponsors #186 | 30 utilisations chacun validées le 26 octobre. Paymium et Cercle du Coin prolongés par Cyrille jusqu’au 6 novembre au soir, heure exacte non fournie. Bitstack : dernière expiration constatée au 31 octobre, sans prolongation confirmée. Aucun nouveau contrôle Pretix. |
+| Codes sponsors #186 | 30 utilisations chacun validées le 26 octobre. Paymium, Cercle du Coin et Bitstack prolongés par Cyrille jusqu’au 6 novembre au soir, heure exacte non fournie. Aucun nouveau contrôle Pretix. |
 | Neowalt | #220 clôturée sans fusion ; deux sources vidéo reçues le 19 octobre (#147), reprise dans ORGANISATIONS.md et NOW. Réception des six lots, montage et essais restent distincts. |
 | Affichage | Livré et mis en service ; mises à jour hall des 27/29 octobre et zones des salles du 1er novembre dans signage/RECETTE.md. Réception TV/réseau sur place encore dans #12. |
 | Pilotage | #223 réduite aux intégrations documentaires ; #153 aux jalons opérationnels. NOW et BOARD rapprochés des sources actuelles. |

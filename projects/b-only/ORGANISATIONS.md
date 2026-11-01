@@ -85,8 +85,7 @@ Suivi : [#147 — lots HWW et vidéo partenaire](https://github.com/Alpinechain/
 
 **30 utilisations par sponsor**, prix fixe 150 €, limite relue et validée par Cyrille le 26 octobre ; le cadrage initial à 50 est remplacé. Suivi : [#186](https://github.com/Alpinechain/Alpinechain_Association/issues/186).
 
-- Paymium et Le Cercle du Coin : **prolongés par Cyrille jusqu’au 6 novembre au soir**, confirmation du 1er novembre ; heure exacte non précisée.
-- Bitstack : dernière expiration constatée le **31 octobre à 23:59:59 Europe/Paris** au contrôle du 26 octobre ; aucune prolongation confirmée.
+- Paymium, Le Cercle du Coin et Bitstack : **prolongés par Cyrille jusqu’au 6 novembre au soir**, confirmations du 1er novembre ; heure exacte non précisée.
 - Transmission aux sponsors encore à confirmer ; usages du 26 octobre uniquement, aucun nouveau relevé ni contrôle Pretix. Les codes privés restent dans Pretix.
 
 ## BWS — coordination du billet groupé, confirmée le 12 octobre 2026
