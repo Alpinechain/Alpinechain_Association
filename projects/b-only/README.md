@@ -23,6 +23,7 @@ Les deux registres de préparation des vignettes sont :
 - [`ORGANISATIONS.md`](ORGANISATIONS.md) pour les entreprises, partenaires,
   médias, associations et exposants.
 - [`programme/`](programme/) pour le programme complet validé et publié le 12 octobre : 30 créneaux actifs publics.
+- [`signage/`](signage/) pour le prototype d'affichage dynamique salles et hall, sous revue dans #230 ; installation et diffusion à valider.
 
 Le cadrage transversal de la communication est proposé dans
 [`COMMUNICATION_REFERENCE_2026-v1.md`](COMMUNICATION_REFERENCE_2026-v1.md). Il
