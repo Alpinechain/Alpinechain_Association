@@ -1,6 +1,6 @@
 # Tableau de pilotage B-Only 2026
 
-Date de dernière réconciliation documentaire : 2026-11-01
+Date de dernière réconciliation documentaire : 2026-11-02
 Événement : 7 au 9 novembre 2026  
 Lieu : Novotel Annecy Centre
 
@@ -21,7 +21,7 @@ Les issues closes de lancement restent des références historiques ; le suivi a
 
 | Chantier | Suivi actif | Repère daté et prochaine action |
 |---|---|---|
-| Billetterie | #26, #186, #198, #217 | Relevé du 26 octobre : 52 commandes payées, 56 billets à prix positif, trois invitations et un bon sans admission séparés. Codes Paymium/Cercle/Bitstack prolongés par Cyrille jusqu’au 6 novembre au soir. Aucun nouveau relevé Pretix. |
+| Billetterie | #26, #186, #198, #217 | Relevé du 2 novembre : **60 commandes payées, 66 positions à prix positif**, trois invitations et un bon sans admission séparés ; pas un nombre de personnes uniques. Codes sponsors rattachés par Cyrille au Late à 150 €, 30 utilisations chacun, jusqu’au 6 novembre à 23:59:59 Europe/Paris ; parcours recontrôlés dans #186/#246. Présentation du pass corrigée à 210 €. |
 | Sponsors et partenaires | #4, #147, #25 | Paiements historiques consignés dans ORGANISATIONS.md ; finaliser les contreparties, stands/pass/giveaway et réception des six lots Neowalt. |
 | Programme et intervenants | #12, #25 | #11 clôturée ; programme complet publié, 30 créneaux actifs. Besoins pratiques et droits restent distincts ; ne pas rouvrir la validation des vignettes livrées (#53 clôturée). |
 | Communication et contenus | #24 | #168/#188/#203/#204/#229 clôturées ; preuves Loïc/Frédéric, retours relais et diffusion hébergement repris dans #24. Blog Florent et derniers rappels à traiter ; Nostr hors suivi, nouvelles sollicitations laissées de côté. |
@@ -30,7 +30,7 @@ Les issues closes de lancement restent des références historiques ; le suivi a
 | Budget, contrats et trésorerie | #26, #198, #217 | Dernières opérations comptables documentées dans #26 ; aucun nouvel audit ici. Suivre rapprochements, engagements, modalités BWS et exécution des bons Mill3sim3 sans déduire un règlement. |
 | Risques et continuité | #27 | Attribuer propriétaires, déclencheurs et plans de repli avant l’ouverture ; fiche hors ligne et scénarios à tester. |
 
-Index des jalons : [#153](https://github.com/Alpinechain/Alpinechain_Association/issues/153). Réconciliation documentaire : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). W43 #227 et W44 #232 clôturées le 1er novembre ; nouvelle revue prévue le 2 novembre. Le Project est une vue des issues ; les états métier restent dans leurs sources.
+Index des jalons : [#153](https://github.com/Alpinechain/Alpinechain_Association/issues/153). Réconciliation documentaire : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). W43 #227 et W44 #232 clôturées le 1er novembre ; revue W45 du 2 novembre dans [#246](https://github.com/Alpinechain/Alpinechain_Association/issues/246). Le Project est une vue des issues ; les états métier restent dans leurs sources.
 
 ## Chaîne critique
 

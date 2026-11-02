@@ -1,6 +1,6 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : **2026-11-01 — réconciliation documentaire et décisions de Cyrille**
+Date de dernière mise à jour : **2026-11-02 — revue W45, billetterie et dépannage des contrôles**
 Horizon : ouverture de B-Only le 7 novembre, puis bilans
 Validateur opérationnel : Cyrille
 
@@ -16,13 +16,13 @@ Validateur opérationnel : Cyrille
 
 L’essai du 2 novembre reste **à fixer** selon la confirmation de Cyrille du 26 octobre ; appel, horaire et participants ne sont pas confirmés. [#153](https://github.com/Alpinechain/Alpinechain_Association/issues/153) est l’index des jalons ; les détails restent dans les issues métiers.
 
-## Décisions et état documentaire du 1er novembre
+## Décisions et suivi des 1er et 2 novembre
 
 - **Clôturées sur décision de Cyrille :** W43 #227, W44 #232, vignettes #53, campagne Thomas #188, relais #168, campagne Loïc #203, campagne Frédéric #204 et hébergement #229. Les compléments de diffusion et d’archivage des quatre dernières sont repris dans **#24** ; leur clôture ne prouve pas une diffusion complète.
 - **PR #220 clôturée sans fusion.** Les vidéos Neowalt sont reçues depuis le 19 octobre ; les lots, montages et essais restent distincts dans #147 / #12 / #25.
 - **#223 clôturée après intégration des trois lots ; #153 reste l’index opérationnel.** PR #226 fusionnée (`9098fc4`), #197 fusionnée (`82b66c1`), #218 fusionnée (`e703bc1`) sur autorisation de Cyrille. Les sources Mill3sim3 sont archivées, sans nouvelle publication.
-- **Codes sponsors #186 :** 30 utilisations par sponsor validées par Cyrille le 26 octobre ; le précédent écart 30/50 est résolu. Paymium, Le Cercle du Coin et Bitstack prolongés par Cyrille jusqu’au **6 novembre au soir** ; heure exacte non précisée. Transmission et usages restent distincts ; aucun nouveau contrôle Pretix dans cette passe.
-- **Nouvelle revue d’exploitation prévue le lundi 2 novembre**, selon Cyrille. Les suites techniques demeurent dans Serveur #153/#154 et les issues métiers.
+- **Codes sponsors #186 :** correction effectuée par Cyrille le 2 novembre après le blocage constaté en revue W45 : les trois codes ciblent désormais le **billet Late**, à **150 €**, pour **30 utilisations chacun**, jusqu’au **6 novembre à 23:59:59 Europe/Paris**. Paramètres API et parcours publics recontrôlés ; transmission aux sponsors et utilisations restent distinctes.
+- **Revue d’exploitation W45 #246 réalisée le 2 novembre** ; cases et compte rendu actualisés dans l’issue. Les suites techniques demeurent dans Serveur #152/#153/#154 et les issues métiers.
 
 ## B-Only — repères confirmés et datés
 
@@ -36,9 +36,9 @@ L’essai du 2 novembre reste **à fixer** selon la confirmation de Cyrille du 2
 
 ### Billetterie — dernier relevé disponible, pas un compteur actuel
 
-Lecture Pretix du **26 octobre à 15 h 36 Europe/Paris**, documentée dans #232 : **52 commandes payées**, **56 billets à prix positif** (34 Early, 20 pass standard, un complément BWS, une offre Mill3sim3), **trois invitations** et **un bon d’achat sans admission** comptés séparément. Le repère humain de 52 billets au 12 octobre est remplacé par ce relevé daté.
+Lecture Pretix du **2 novembre vers 20 h 53 Europe/Paris**, documentée dans #246 : **60 commandes payées**, **66 positions à prix positif** (34 Early, 23 pass standard, un Late, quatre journées samedi, deux journées dimanche, un complément BWS et une offre Mill3sim3), **trois invitations** et **un bon d’achat sans admission** comptés séparément. Ce relevé remplace celui du 26 octobre : +8 commandes payées et +10 positions à prix positif. Les positions ne représentent pas des personnes uniques ; le complément BWS reste distinct d’une nouvelle admission.
 
-Early désactivé au relevé ; fin du pass standard au 31 octobre à 23:59:59 et début Late prévu au 1er novembre à 00:00:01 Europe/Paris dans la configuration alors lue. Aucune relecture Pretix aujourd’hui ; ne pas présenter ces paramètres ou volumes comme recontrôlés le 1er novembre.
+Early désactivé ; vente du pass standard terminée le 31 octobre ; **Late à 210 €** depuis le 1er novembre. Cyrille confirme le 2 novembre la correction de la présentation à 210 € et le rattachement des codes sponsors au Late ; contrôles API et publics après correction consignés dans #186/#246. Aucun achat ni paiement de test effectué.
 
 ### Communication — un suivi dans #24
 
@@ -48,12 +48,14 @@ Early désactivé au relevé ; fin du pass standard au 31 octobre à 23:59:59 et
 - Blog Florent à faire puis URL à archiver ; compléments de métriques séparés. Relevé du 19 octobre : 39 observations sociales ; aucun nouveau relevé aujourd’hui.
 - Nostr hors suivi, archives conservées. Piste « raisons concrètes de venir » à approfondir. **Audit du parcours de suivi, nouvelles sollicitations des relais et suivi hebdomadaire laissés de côté pour le moment**, décision du 19 octobre.
 
-## Continuité — dernières preuves, pas un nouvel audit serveur
+## Continuité — contrôles W45 du 2 novembre
 
-- Dernière revue documentée W44 du **26 octobre** : dix services publics HTTP 200, 26 conteneurs actifs, 12 healthchecks sains ; disque `/` 49 %, `/opt/podman` 59 %. Sauvegarde terminée à 8 h 38 ; contrôle Restic du 25 octobre, métadonnées et 5 % des données. Dernière restauration isolée : **Pretix local, 19 octobre**, sans couverture de l’instance externe `join.alpinechain.xyz`.
+- **W45 #246 :** dix points d’entrée publics HTTP 200, **28 conteneurs actifs, 14 healthchecks sains** ; deux anciens conteneurs de préparation terminés avec code 0. Disque `/` **51 %**, `/opt/podman` **60 %**. Sauvegarde du 2 novembre terminée à **03:48:46 Europe/Paris**, snapshot `f96e4047`, dépôt distant accessible. Dernier contrôle Restic : **1er novembre à 06:23:45**, métadonnées et 5 % des données sans erreur. Dernière restauration isolée documentée : **Pretix local, 19 octobre**, sans couverture de `join.alpinechain.xyz`.
 - Office : recette DOCX, DOTX, ODT et ODS réussie le 26 octobre ; **Serveur #167 clôturée**, selon W44. Les premiers constats OnlyOffice sont historiques. Limites de recherche de compromission conservées dans le dépôt privé.
-- MFA administrateurs Nextcloud imposée le 26 octobre ; inscriptions et recettes individuelles restantes, confirmations fournisseurs et expirations de jetons suivies dans **Serveur #153/#154**. La clôture des revues n’en déclare pas la résolution.
+- MFA administrateurs Nextcloud imposée ; contrôle individuel du 2 novembre : **deux comptes sur quatre avec TOTP actif**, deux sans MFA activée ; un compte TOTP sans codes de secours activés. Inscriptions/recettes restantes, sauvegarde Pretix externe, confirmations fournisseurs et expirations de jetons suivies dans **Serveur #153/#154**. Douze certificats valides, aucun à moins de 30 jours ; scan Git depuis le 26 octobre sans détection sur le périmètre examiné.
 - Maintenance générale après le 9 novembre dans **Serveur #152**, hors urgence validée ; Pretix et dépendances gelés. Bascule de la billetterie externe après B-Only selon **Serveur #66**.
+- **Contrôle mensuel dépanné le 2 novembre à 21:03:35 Europe/Paris** : permissions des métadonnées Git rétablies pour `almalinux`, fetch et service `--check` réussis. Inventaire produit sur le compose déployé ; aucun déploiement ni changement d’image. Le retard du checkout sur `origin/main` reste distinct de la réussite du diagnostic. Détails et rapport dans **Serveur #152**.
+- **Control Center :** après l’erreur GraphQL du run du 2 novembre à 17:56, réconciliation complète relancée par le [run 41515547299](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/41515547299). #246 est désormais présente dans le Project ; résultat final du run à confirmer dans #246.
 
 ## Autres activités — repères conservés
 
@@ -66,7 +68,7 @@ Early désactivé au relevé ; fin du pass standard au 31 octobre à 23:59:59 et
 
 | Date | Jalon / suivi |
 |---|---|
-| 2 novembre | Nouvelle revue d’exploitation ; essai Novotel/Aravision visé mais rendez-vous à fixer (#12) |
+| 2 novembre | Revue W45 réalisée (#246) ; essai Novotel/Aravision visé, réalisation toujours non confirmée (#12) |
 | 4 novembre | Confirmer présences, livraisons et plans de repli (#153 et issues métiers) |
 | 6 novembre au soir | Fin prolongée des codes Paymium/Cercle du Coin/Bitstack (#186) ; offre BWS selon #198 ; contrôle final matériel et organisation (#153) |
 | Avant le 7 novembre | Inventaire Neowalt, essais régie/écrans, accueil, bénévoles et secours (#147/#12/#25/#27) |
@@ -75,4 +77,4 @@ Early désactivé au relevé ; fin du pass standard au 31 octobre à 23:59:59 et
 
 ## Portée de cette mise à jour
 
-Rapprochement de GitHub et des décisions de Cyrille du 1er novembre. Les clôtures, la prolongation des trois codes et les transferts vers #24 sont confirmés ; les chiffres métier restent datés. Aucun nouvel audit de Pretix, Paheko, Dolibarr, des originaux Nextcloud ou du serveur. Aucun changement de programme, texte public validé, service, droit ou DNS dans ce lot.
+Revue W45 du 2 novembre : contrôles GitHub, serveur et Pretix, puis vérification des corrections de billetterie effectuées par Cyrille et dépannage des automatisations demandé par lui. Les chiffres restent datés ; aucun nouvel audit comptable Paheko/Dolibarr ni des originaux Nextcloud. Aucun changement de programme, publication sociale, migration Pretix ou DNS dans ce lot. Les mises à jour documentaires restent soumises à la fusion humaine de leur PR.
