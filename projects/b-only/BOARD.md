@@ -22,13 +22,13 @@ Les issues closes de lancement restent des références historiques ; le suivi a
 | Chantier | Suivi actif | Repère daté et prochaine action |
 |---|---|---|
 | Billetterie | #26, #186, #198, #217 | Relevé du 2 novembre : **60 commandes payées, 66 positions à prix positif**, trois invitations et un bon sans admission séparés ; pas un nombre de personnes uniques. Codes sponsors rattachés par Cyrille au Late à 150 €, 30 utilisations chacun, jusqu’au 6 novembre à 23:59:59 Europe/Paris ; parcours recontrôlés dans #186/#246. Présentation du pass corrigée à 210 €. |
-| Sponsors et partenaires | #4, #147, #25 | Paiements historiques consignés dans ORGANISATIONS.md ; finaliser les contreparties, stands/pass/giveaway et réception des six lots Neowalt. |
+| Sponsors et partenaires | #4, #147, #25 | Paiements historiques consignés dans ORGANISATIONS.md ; wallets Neowalt reçus et OK selon Cyrille le 2 novembre. Contreparties Bitstack et organisation des stands restent distinctes. |
 | Programme et intervenants | #12, #25 | #11 clôturée ; programme complet publié, 30 créneaux actifs. Besoins pratiques et droits restent distincts ; ne pas rouvrir la validation des vignettes livrées (#53 clôturée). |
-| Communication et contenus | #24 | #168/#188/#203/#204/#229 clôturées ; preuves Loïc/Frédéric, retours relais et diffusion hébergement repris dans #24. Blog Florent et derniers rappels à traiter ; Nostr hors suivi, nouvelles sollicitations laissées de côté. |
-| Audiovisuel et affichage | #12, #147 | Essai visé le 2 novembre encore à fixer ; affichage mis en service et évolutions jusqu’au 1er novembre documentées dans signage/RECETTE.md. Réception TV/réseau/lecteurs sur place et sélection vidéo Neowalt restent à effectuer. |
-| Accueil, stands, bar et logistique | #25 | Visite Novotel réalisée le 19 octobre ; finaliser implantation, mobilier, bénévoles, stocks et livraisons avant l’ouverture. |
-| Budget, contrats et trésorerie | #26, #198, #217 | Dernières opérations comptables documentées dans #26 ; aucun nouvel audit ici. Suivre rapprochements, engagements, modalités BWS et exécution des bons Mill3sim3 sans déduire un règlement. |
-| Risques et continuité | #27 | Attribuer propriétaires, déclencheurs et plans de repli avant l’ouverture ; fiche hors ligne et scénarios à tester. |
+| Communication et contenus | #24 | **Toutes les publications évoquées en revue sont faites**, confirmation de Cyrille du 2 novembre. Archivage des URLs et métriques manquantes distinct dans #24 ; Nostr hors suivi. Aucune captation ou restitution future de l’événement déclarée réalisée. |
+| Audiovisuel et affichage | #12, #147 | Jonathan et Cedric ont rendez-vous avec le responsable technique le 4 novembre à 11 h. Affichage mis en service, recette physique et conclusions du point technique encore à consigner. |
+| Accueil, stands, bar et logistique | #25 | Rendez-vous bénévoles le 4 novembre à 19 h pour répartir les rôles ; mise en place le 6 novembre au soir et le 7 au matin, selon Cyrille le 2 novembre. |
+| Budget, contrats et trésorerie | #26, #198, #217 | Un ticket BWS et un ticket Mill3sim3 vendus, confirmations de Cyrille du 2 novembre, sans double comptage avec Pretix. Transmission/reversement BWS et utilisation du bon restent distincts ; aucun nouvel audit comptable. |
+| Risques et continuité | #27 | Risques à lister et vérifier mercredi 4 novembre au soir ; consigner propriétaires et plans de repli après cette revue. |
 
 Index des jalons : [#153](https://github.com/Alpinechain/Alpinechain_Association/issues/153). Réconciliation documentaire : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). W43 #227 et W44 #232 clôturées le 1er novembre ; revue W45 du 2 novembre dans [#246](https://github.com/Alpinechain/Alpinechain_Association/issues/246). Le Project est une vue des issues ; les états métier restent dans leurs sources.
 
