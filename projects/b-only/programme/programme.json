@@ -9,7 +9,7 @@
   },
   "publication": {
     "state": "published",
-    "updatedAt": "2026-11-06T18:26:21Z",
+    "updatedAt": "2026-11-06T18:33:56Z",
     "notice": "Programme complet — B-Only 2026, du 7 au 9 novembre à Annecy."
   },
   "rooms": [
@@ -47,7 +47,7 @@
     {"id":"sun-main-debate","date":"2026-11-08","start":"18:30","end":"19:20","room":"main","status":"confirmed","visibility":"public","title":"Le grand débat","speakers":[],"moderators":["Élodie Lué","Marius Farashi"],"format":"Débat","notes":"Sujet et répartition de la modération à confirmer."},
     {"id":"sun-workshop-schnuartz","date":"2026-11-08","start":"18:00","end":"18:50","room":"workshop","status":"cancelled","visibility":"internal","title":"Specter Workshop","speakers":["Schnuartz"],"format":"Workshop en anglais","notes":"Créneau remplacé le 2026-08-31 par l’atelier Bitcoin Lego de Laure Merlin."},
     {"id":"sun-workshop-laure-merlin-bitcoin-lego","date":"2026-11-08","start":"18:00","end":"18:50","room":"workshop","status":"confirmed","visibility":"public","title":"Atelier Bitcoin Lego","speakers":["Laure Merlin"],"format":"Atelier","notes":"Remplace le workshop Specter de Schnuartz. Créneau rendu public le 2026-09-06. Aucun besoin technique particulier ; capacité souhaitée limitée à 12–15 participants."},
-    {"id":"sun-workshop-quiz","date":"2026-11-07","start":"19:00","end":"19:30","room":"main","status":"confirmed","visibility":"public","title":"Surprise","speakers":[],"format":"Animation","notes":"Responsable et mécanique à confirmer."},
+    {"id":"sun-workshop-quiz","date":"2026-11-07","start":"19:00","end":"19:30","room":"main","status":"confirmed","visibility":"public","title":"Proof of Brain","speakers":[],"format":"Animation","notes":"Responsable et mécanique à confirmer."},
     {"id":"mon-main-cercle","date":"2026-11-09","start":"09:00","end":"10:00","room":"main","status":"confirmed","visibility":"public","title":"Le Cercle du Coin — Comment faire communauté","speakers":["Laure Merlin"],"format":"Présentation du Cercle du Coin, puis keynote","notes":"Laure Merlin présente le Cercle du Coin pendant 10 à 15 minutes, puis enchaîne avec le keynote « Comment faire communauté » pendant 30 à 35 minutes. Visuel : logo du Cercle du Coin."},
     {"id":"mon-main-thomas-mang","date":"2026-11-09","start":"10:00","end":"10:50","room":"main","status":"confirmed","visibility":"public","title":"Détenir ses bitcoins, être souverain ?","speakers":["Thomas Mang"],"format":"Présentation et questions","notes":"Créneau attribué par validation humaine le 2026-10-03 à la place de Michel Khazzaka. Sujet basé sur les thèmes détention, propriété, souveraineté et bitcoins non-KYC. Titre « Détenir ses bitcoins, être souverain ? » validé pour le programme privé le 2026-10-04. Synopsis et besoins techniques à confirmer. Michel Khazzaka repasse en option sans créneau fixe."},
     {"id":"mon-workshop-profedu-ai-bitcoin","date":"2026-11-09","start":"09:30","end":"10:20","room":"workshop","status":"confirmed","visibility":"public","title":"Quand l'IA paie en bitcoin","speakers":["ProfEduStream"],"format":"Workshop","notes":"Faites un pas dans le futur le temps de quatre démonstrations. Outils : Claude, LNbits, Lightning Network et L402. Lien de présentation attendu courant août ou septembre."},
