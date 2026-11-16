@@ -1,6 +1,6 @@
 # Tableau de pilotage B-Only 2026
 
-Date de dernière réconciliation documentaire : 2026-11-02
+Date de dernière réconciliation documentaire : 2026-11-16
 Événement : 7 au 9 novembre 2026  
 Lieu : Novotel Annecy Centre
 
@@ -15,24 +15,20 @@ registres [`INTERVENANTS.md`](INTERVENANTS.md) et
 [`ORGANISATIONS.md`](ORGANISATIONS.md). Les actions restent dans les Issues et
 le champ `Statut opérationnel` du Project continue de faire foi.
 
-## Chantiers
+## Suivi de la clôture au 16 novembre 2026
 
-Les issues closes de lancement restent des références historiques ; le suivi actif est indiqué ci-dessous.
+| Issue ouverte | Suite attendue |
+|---|---|
+| [#26](https://github.com/Alpinechain/Alpinechain_Association/issues/26) Finances | Décompte définitif Novotel avec les consommations du bar, rapprochement Pretix et Swiss Bitcoin Pay, contrôle de la saisie du bar et bilan dans Paheko et Dolibarr. |
+| [#198](https://github.com/Alpinechain/Alpinechain_Association/issues/198) Billet groupé BWS | Confirmer la transmission du billet vendu et le reversement BWS. |
+| [#27](https://github.com/Alpinechain/Alpinechain_Association/issues/27) Retours et risques | Questionnaire envoyé le 16 novembre. Synthétiser les réponses et consigner les incidents ou difficultés de l’édition. |
+| [#12](https://github.com/Alpinechain/Alpinechain_Association/issues/12) Audiovisuel | Inventorier les rushs, confirmer leur sauvegarde et les droits de diffusion, puis attribuer le montage et les replays. |
+| [#153](https://github.com/Alpinechain/Alpinechain_Association/issues/153) Bilan de l’édition | Consigner le déroulement et les écarts des 7 au 9 novembre, renseigner les bilans des 10 et 12 novembre et confirmer la revue du 24 ainsi que les responsables des suites. |
+| [#45](https://github.com/Alpinechain/Alpinechain_Association/issues/45) Framer et domaine | Sécuriser les accès Framer et poursuivre le transfert de b-only.org vers Infomaniak. |
 
-| Chantier | Suivi actif | Repère daté et prochaine action |
-|---|---|---|
-| Billetterie | #26, #186, #198, #217 | Relevé du 2 novembre : **60 commandes payées, 66 positions à prix positif**, trois invitations et un bon sans admission séparés ; pas un nombre de personnes uniques. Codes sponsors rattachés par Cyrille au Late à 150 €, 30 utilisations chacun, jusqu’au 6 novembre à 23:59:59 Europe/Paris ; parcours recontrôlés dans #186/#246. Présentation du pass corrigée à 210 €. |
-| Sponsors et partenaires | #4, #147, #25 | Paiements historiques consignés dans ORGANISATIONS.md ; wallets Neowalt reçus et OK selon Cyrille le 2 novembre. Contreparties Bitstack et organisation des stands restent distinctes. |
-| Programme et intervenants | #12, #25 | #11 clôturée ; programme complet publié, 30 créneaux actifs. Besoins pratiques et droits restent distincts ; ne pas rouvrir la validation des vignettes livrées (#53 clôturée). |
-| Communication et contenus | #24 | **Toutes les publications évoquées en revue sont faites**, confirmation de Cyrille du 2 novembre. Archivage des URLs et métriques manquantes distinct dans #24 ; Nostr hors suivi. Aucune captation ou restitution future de l’événement déclarée réalisée. |
-| Audiovisuel et affichage | #12, #147 | Jonathan et Cedric ont rendez-vous avec le responsable technique le 4 novembre à 11 h. Affichage mis en service, recette physique et conclusions du point technique encore à consigner. |
-| Accueil, stands, bar et logistique | #25 | Rendez-vous bénévoles le 4 novembre à 19 h pour répartir les rôles ; mise en place le 6 novembre au soir et le 7 au matin, selon Cyrille le 2 novembre. |
-| Budget, contrats et trésorerie | #26, #198, #217 | Un ticket BWS et un ticket Mill3sim3 vendus, confirmations de Cyrille du 2 novembre, sans double comptage avec Pretix. Transmission/reversement BWS et utilisation du bon restent distincts ; aucun nouvel audit comptable. |
-| Risques et continuité | #27 | Risques à lister et vérifier mercredi 4 novembre au soir ; consigner propriétaires et plans de repli après cette revue. |
+La logistique et les paiements Bitcoin du bar ([#25](https://github.com/Alpinechain/Alpinechain_Association/issues/25)), la communication ([#24](https://github.com/Alpinechain/Alpinechain_Association/issues/24)), Bitstack ([#4](https://github.com/Alpinechain/Alpinechain_Association/issues/4)), Neowalt ([#147](https://github.com/Alpinechain/Alpinechain_Association/issues/147)) et la commande Mill3sim3 ([#217](https://github.com/Alpinechain/Alpinechain_Association/issues/217)) sont soldés. Les codes sponsors sont échus ([#186](https://github.com/Alpinechain/Alpinechain_Association/issues/186)). Le programme de codes relais n’a pas été lancé faute de réponse des personnes sollicitées ([#61](https://github.com/Alpinechain/Alpinechain_Association/issues/61)).
 
-Index des jalons : [#153](https://github.com/Alpinechain/Alpinechain_Association/issues/153). Réconciliation documentaire : [#223](https://github.com/Alpinechain/Alpinechain_Association/issues/223). W43 #227 et W44 #232 clôturées le 1er novembre ; revue W45 du 2 novembre dans [#246](https://github.com/Alpinechain/Alpinechain_Association/issues/246). Le Project est une vue des issues ; les états métier restent dans leurs sources.
-
-## Chaîne critique
+## Dépendances de préparation de l’édition 2026
 
 1. **Billetterie #2** fournit les volumes et revenus nécessaires à la logistique #25 et au budget #26.
 2. **Programme #11** alimente la communication #24, l’audiovisuel #12 et l’occupation des espaces #25.
@@ -72,7 +68,7 @@ Chaque Issue pilote doit posséder :
 
 Les sous-actions importantes deviennent des Issues liées. Une checklist de 40 lignes sans responsable ni date n’est pas un plan, c’est un grenier.
 
-## Revue hebdomadaire B-Only
+## Trame de revue hebdomadaire en préparation
 
 Ordre conseillé, 30 à 45 minutes :
 
