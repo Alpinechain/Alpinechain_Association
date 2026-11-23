@@ -1,16 +1,16 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : **2026-11-23 — clôture des revues d’exploitation W46 et W47**
+Date de dernière mise à jour : **2026-11-23 — revue d’exploitation W48**
 Horizon : bilan B-Only du 24 novembre et préparation de la maintenance post-événement
 Validateur opérationnel : Cyrille
 
-## Exploitation — contrôle du 23 novembre
+## Exploitation — revue W48 du 23 novembre
 
-- **Revues.** W46 et W47 clôturées. Le relevé du 16 novembre figure dans la [revue W46 #251](https://github.com/Alpinechain/Alpinechain_Association/issues/251) et le contrôle en lecture seule du 23 novembre dans la [revue W47 #253](https://github.com/Alpinechain/Alpinechain_Association/issues/253).
-- **Disponibilité et capacité.** Les dix points d’entrée publics ont répondu HTTP 200 à 13 h 42, heure de Paris. Le dernier run GitHub Actions du moniteur reste à confirmer. Les 28 conteneurs de service étaient actifs, aucun déclaré dégradé. Disque à 51 % sur la racine et 63 % sur le volume Podman, avec 94 Gio disponibles.
-- **Continuité.** Sauvegarde du 23 novembre réussie à 03 h 26, heure de Paris, et snapshot confirmé dans le dépôt Restic distant. Contrôle Restic du 22 novembre réussi sur les métadonnées et 5 % des packs. Restauration isolée du bar documentée le 16 novembre. La preuve de restauration de Pretix externe reste à obtenir. [Serveur #153](https://github.com/Alpinechain/Serveur/issues/153)
-- **Maintenance.** La stack et les timers de sauvegarde, de vérification et de maintenance sont actifs. Prochain contrôle mensuel le 6 décembre. Le checkout de production est quatre commits derrière le dépôt distant et le Compose Garage diffère de Git. La fenêtre de maintenance reste à préparer et Pretix demeure exclu de la maintenance courante en attendant la validation de l’add-on SBP. [Serveur #152](https://github.com/Alpinechain/Serveur/issues/152)
-- **Pilotage et B-Only.** Les P0/P1 et les colonnes du GitHub Project restent à vérifier. Le bilan intermédiaire B-Only est prévu le 24 novembre. [Jalons et bilan #153](https://github.com/Alpinechain/Alpinechain_Association/issues/153) · [Budget et trésorerie #26](https://github.com/Alpinechain/Alpinechain_Association/issues/26)
+- **Services.** À 20 h 37 (Paris), les dix points d’entrée publics répondaient HTTP 200. Le [dernier run du moniteur](https://github.com/Alpinechain/Alpinechain_Association/actions/runs/45181086404) a réussi. Aucun incident de services publics ouvert dans le dépôt Association.
+- **Sauvegarde.** Sauvegarde terminée à 03 h 26 (Paris), snapshot relu sur le dépôt Restic distant. Le dernier contrôle des métadonnées et de 5 % des packs a réussi le 22 novembre. Dernière restauration isolée documentée le 16 novembre pour le bar. La preuve de restauration de Pretix externe reste attendue. [Serveur #153](https://github.com/Alpinechain/Serveur/issues/153)
+- **Capacité et maintenance.** Racine à 51 %, volume Podman à 63 % (94 Gio libres), 28 conteneurs actifs dont 14 déclarés sains, deux tâches terminées avec code 0. Stack active. Prochaine vérification Restic le 29 novembre et prochain contrôle mensuel le 6 décembre. Les erreurs applicatives relevées dans le journal de sauvegarde sont à qualifier avec les écarts de production déjà suivis. Le gel Pretix reste en vigueur dans l’attente de la validation SBP. [Serveur #152](https://github.com/Alpinechain/Serveur/issues/152)
+- **Bilan du 24 novembre.** La billetterie publique B-Only indique que les réservations sont terminées. Cyrille coordonne les suites financières, le reversement BWS, les risques et les replays dans [l’index du bilan #153](https://github.com/Alpinechain/Alpinechain_Association/issues/153). La vérification des priorités et des huit chantiers dans le Project privé reste ouverte dans [#256](https://github.com/Alpinechain/Alpinechain_Association/issues/256).
+- **Historique.** [Compte rendu W48 #255](https://github.com/Alpinechain/Alpinechain_Association/issues/255) · [W47 #253](https://github.com/Alpinechain/Alpinechain_Association/issues/253) · [W46 #251](https://github.com/Alpinechain/Alpinechain_Association/issues/251).
 
 ## Repères historiques — priorités avant l’ouverture
 
