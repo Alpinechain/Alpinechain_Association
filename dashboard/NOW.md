@@ -1,10 +1,18 @@
 # AlpineChain — Maintenant
 
-Date de dernière mise à jour : **2026-11-02 — revue W45, billetterie et dépannage des contrôles**
-Horizon : ouverture de B-Only le 7 novembre, puis bilans
+Date de dernière mise à jour : **2026-11-23 — clôture des revues d’exploitation W46 et W47**
+Horizon : bilan B-Only du 24 novembre et préparation de la maintenance post-événement
 Validateur opérationnel : Cyrille
 
-## Priorités avant l’ouverture
+## Exploitation — contrôle du 23 novembre
+
+- **Revues.** W46 et W47 clôturées. Le relevé du 16 novembre figure dans la [revue W46 #251](https://github.com/Alpinechain/Alpinechain_Association/issues/251) et le contrôle en lecture seule du 23 novembre dans la [revue W47 #253](https://github.com/Alpinechain/Alpinechain_Association/issues/253).
+- **Disponibilité et capacité.** Les dix points d’entrée publics ont répondu HTTP 200 à 13 h 42, heure de Paris. Le dernier run GitHub Actions du moniteur reste à confirmer. Les 28 conteneurs de service étaient actifs, aucun déclaré dégradé. Disque à 51 % sur la racine et 63 % sur le volume Podman, avec 94 Gio disponibles.
+- **Continuité.** Sauvegarde du 23 novembre réussie à 03 h 26, heure de Paris, et snapshot confirmé dans le dépôt Restic distant. Contrôle Restic du 22 novembre réussi sur les métadonnées et 5 % des packs. Restauration isolée du bar documentée le 16 novembre. La preuve de restauration de Pretix externe reste à obtenir. [Serveur #153](https://github.com/Alpinechain/Serveur/issues/153)
+- **Maintenance.** La stack et les timers de sauvegarde, de vérification et de maintenance sont actifs. Prochain contrôle mensuel le 6 décembre. Le checkout de production est quatre commits derrière le dépôt distant et le Compose Garage diffère de Git. La fenêtre de maintenance reste à préparer et Pretix demeure exclu de la maintenance courante en attendant la validation de l’add-on SBP. [Serveur #152](https://github.com/Alpinechain/Serveur/issues/152)
+- **Pilotage et B-Only.** Les P0/P1 et les colonnes du GitHub Project restent à vérifier. Le bilan intermédiaire B-Only est prévu le 24 novembre. [Jalons et bilan #153](https://github.com/Alpinechain/Alpinechain_Association/issues/153) · [Budget et trésorerie #26](https://github.com/Alpinechain/Alpinechain_Association/issues/26)
+
+## Repères historiques — priorités avant l’ouverture
 
 | Priorité | Résultat attendu | Source de suivi |
 |---|---|---|
@@ -68,7 +76,7 @@ Early désactivé ; vente du pass standard terminée le 31 octobre ; **Late à 2
 - Repères communautaires déclarés en septembre : 8–15 participants habituels, cœur de 6–8, environ 4–6 nouveaux depuis le début de l’année ; trois adhésions individuelles 2026, environ 25 € de recettes par meetup et 100 € cumulés de goodies. Ces repères ne sont pas actualisés par cette passe. Revue stratégique : [note du 20 septembre](../notes/2026-09-20-revue-strategique-objectifs-2026.md).
 - Assurance #132, confirmation documentaire SBP #193, adhésions #173, codes relais #61, migration du site #45 et bilan Meetup #225 restent dans leurs suivis propres ; aucune clôture ni nouvelle activation déduite.
 
-## Prochaines échéances
+## Calendrier de référence B-Only
 
 | Date | Jalon / suivi |
 |---|---|
@@ -79,6 +87,6 @@ Early désactivé ; vente du pass standard terminée le 31 octobre ; **Late à 2
 | 7–9 novembre | B-Only 2026 ; tracer incidents, décisions et écarts |
 | 10, 12 et 24 novembre | Consolidation, capitalisation puis bilan financier/opérationnel intermédiaire (#153/#26) |
 
-## Portée de cette mise à jour
+## Portée de la revue W45
 
 Revue W45 du 2 novembre : contrôles GitHub, serveur et Pretix, puis vérification des corrections de billetterie effectuées par Cyrille et dépannage des automatisations demandé par lui. Les chiffres restent datés ; aucun nouvel audit comptable Paheko/Dolibarr ni des originaux Nextcloud. Aucun changement de programme, publication sociale, migration Pretix ou DNS dans ce lot. Les mises à jour documentaires restent soumises à la fusion humaine de leur PR.
